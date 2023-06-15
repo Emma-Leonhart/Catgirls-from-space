@@ -9,9 +9,48 @@
             },
             "effects": {
                 "neko.introjob": -1,
-                "health": 1,
+                "fatigue": 1,
                 "funds": 1
             },
+            "inductions": "neko.introsurf",
+            "startdescription": "Go to work. boring pointless work.",
+            "description": "You get fired.'\nAt least now I can explore the internet.\n[<b>Surfing</b> is unlocked.]",
+            "warmup": 10,
+            "craftable": true,
+            "comments": "This is the first event. Displayed cards should be Health Funds"
+        },
+        {
+            "id": "neko.introsurf",
+            "label": "Surfing the Web 90s style",
+            "actionid": "surf",
+            "effects": {
+                "passion": 1
+            },
+            "inductions": "neko.introfine",
+            "linked": "neko.introsurf2",
+            "startdescription": "Exploring tons of cool websites.",
+            "description": ".",
+            "warmup": 10,
+            "craftable": true,
+            "comments": "10s after intro triggered. It directly switches to surfing the deep web, and getting a bill. Displayed cards should be Health Funds Passion, and funds is immediately eaten by bill"
+        },
+        {
+            "id": "neko.introfine",
+            "label": "Your employer is demanding your wage back",
+            "actionid": "fine",
+            "effects": {
+                "funds": -1,
+            },
+            "startdescription": "Your employer is trying to take back your wages.",
+            "description": "You have no way to fight it. Now you're penniless.",
+            "warmup": 30,
+            "craftable": true,
+            "comments": "20s after intro triggered. You lose all your pay from your job, making you go to the deep web. Should use greedy slot for funds"
+        },
+        {
+            "id": "neko.introsurf2",
+            "label": "Surfing the Deep Web",
+            "actionid": "surf",
             "alt": [
                 {
                     "id": "neko.introdream",
@@ -19,10 +58,11 @@
                     "additional": true
                 }
             ],
-            "startdescription": "Go to work. boring pointless work.",
-            "description": "You get fired.'\nI have lost my job. At least now I have a little time to rest, and my Health improves.\n[<b>Dream</b> is unlocked.]\nThis is based on the introjob but eventually I want it to have you scrolling through your phone instead",
-            "warmup": 10,
-            "craftable": true
+            "startdescription": "I'm about to be homeless, searching the deep web for possible work or distractions.",
+            "description": "I found an amazing website. A website that claims to be run by an immortal catgirl here to save humanity from evil aliens. \nNow to sleep on it. I feel a profound sense of hope from the website\n[<b>Dreaming</b> is unlocked.]",
+            "warmup": 30,
+            "craftable": true,
+            "comments": "20s after intro triggered. This is only triggered in the catgirl intro."
         },
         {
             "id": "neko.introdream",
@@ -30,65 +70,64 @@
             "actionid": "dream",
             "requirements": {},
             "effects": {
-                "passion": 1,
+                "reason": 1,
                 "contentment": 1
             },
             "alt": [
                 {
-                    "id": "bequestcountdown",
+                    "id": "neko.bequestcountdown",
                     "chance": 100,
                     "additional": true
                 }
             ],
-            "startdescription": "Once again, I dream of a glow beneath the filthy skin of the world. The light through the black wood. The pale door. The old man - ",
-            "description": "It began when I spoke to the old man in the hospital. He knew my name. But he's dead now. The pneumonia. Why do I dream of him still? What is the cobalt light in my dreams?\n[Time is now passing.]",
+            "startdescription": "As I dream only the catgirls are present. Then I see moving across all the universe cats and snakes.",
+            "description": "I wake up from the dream and it all makes sense. This is the time I have been waiting for my entire life. My mind is clear and my thoughts content.\n[Time is now passing.]",
             "warmup": 30,
             "craftable": false,
-            "comments": "This is triggered from the intro work recipe only."
+            "comments": "50s after intro triggered. This is triggered from the intro work recipe only. Finishes 110s after intro triggered resulting in order: Health, Reason, Passion, Contentment"
         },
         {
-            "id": "bequestcountdown",
+            "id": "neko.bequestcountdown",
             "label": "A Change in the Air",
             "actionid": "study",
             "requirements": {},
-            "startdescription": "I need Funds to live. But perhaps this recent upset in my circumstances is a secret blessing. Is there something to my dreams? There is a change in the air.",
+            "startdescription": "I set up a gofundme to support myself. Maybe people will support me",
             "description": ".",
             "warmup": 60,
             "craftable": false,
             "linked": [
                 {
-                    "id": "bequestarrives",
+                    "id": "neko.bequestarrives",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "bequestarrives",
+            "id": "neko.bequestarrives",
             "label": "A Bequest Arrives",
             "actionid": "study",
             "requirements": {},
             "effects": {
-                "reason": 1,
-                "funds": 9,
-                "bequestintro": 1
+                "funds": 12,
+                "neko.bequestintro": 1
             },
-            "startdescription": "A letter from a solicitor. The old man at the hospital - the one I dream of - has named me in his will. I'll hear more soon.",
-            "description": "The old man has bequeathed me a sum of money, and a packet of peculiar papers - poetry, riddles, metaphysical speculations. For the first time in months, here is some fuel for my Reason.\n[<b>Study</b> is unlocked.]",
+            "startdescription": "I got an email. An anonymous donor sent me a large sum of money. But they have conditions",
+            "description": "I have the money I need to survive. But the donor told me to use my time to study what they sent me.\nA mysterious videogame. Many pdfs and videos on philosophical topics. \n[<b>Study</b> is unlocked.]",
             "warmup": 30,
             "craftable": false,
             "maxexecutions": 1,
-            "comments": "This makes the Study action available, and is triggered from intro only."
+            "comments": "This makes the Study action available, and is triggered from intro only. When this appears the contentment runs out."
         },
         {
-            "id": "studybequestreason",
+            "id": "neko.studybequestreason",
             "label": "Examine the Bequest, employing Reason",
             "actionid": "study",
             "requirements": {
-                "bequestintro": 1,
+                "neko.bequestintro": 1,
                 "reason": 1
             },
             "effects": {
-                "bequestintro": -1,
+                "neko.bequestintro": -1,
                 "ascensionenlightenmenta": 1,
                 "mapbookdealer": 1,
                 "fragmentlantern": 1,
@@ -100,15 +139,15 @@
             "craftable": true
         },
         {
-            "id": "studybequestpassion",
+            "id": "neko.studybequestpassion",
             "label": "Examine my Bequest, employing Passion",
             "actionid": "study",
             "requirements": {
-                "bequestintro": 1,
+                "neko.bequestintro": 1,
                 "passion": 1
             },
             "effects": {
-                "bequestintro": -1,
+                "neko.bequestintro": -1,
                 "ascensionpowera": 1,
                 "mapbookdealer": 1,
                 "fragmentforge": 1,
@@ -120,7 +159,7 @@
             "craftable": true
         },
         {
-            "id": "studycontactintro",
+            "id": "neko.studycontactintro",
             "label": "Find a potential collaborator",
             "actionid": "study",
             "requirements": {
