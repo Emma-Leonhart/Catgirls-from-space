@@ -1,0 +1,20 @@
+{
+    "legacies": [
+        {
+            "id": "chi.legacy",
+            "image": "chi.legacy",
+            "label": "Chi the Cat",
+            "description": "Chi the Cat explores the city (and ascends by mistake).",
+            "startdescription": "Oh, is it 4AM already? Better ask for attention immediately!",
+            "startingVerbId": "bother",
+            "availableWithoutEndingMatch": true,
+            "newstart": true,
+            "effects": {
+                "attention": 1
+            },
+            "statusbarelements": [
+                "cattreasure"
+            ]
+        }
+    ]
+}

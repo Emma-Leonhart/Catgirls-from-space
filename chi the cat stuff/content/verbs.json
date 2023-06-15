@@ -1,0 +1,25 @@
+{
+    "verbs": [
+        {
+            "id": "bother",
+            "label": "Bother",
+            "description": "Give me food. Cuddles. Anything!",
+            "slot": {
+                "id": "attention",
+                "label": "My Attention",
+                "description": "Bothering my human requires my entire Attention.",
+                "required": {
+                    "attention": 1
+                }
+            }
+        },
+        {
+            "id": "explore",
+            "slot$dictedit": {
+                "required$add": {
+                    "attention": 1
+                }
+            }
+        }
+    ]
+}
