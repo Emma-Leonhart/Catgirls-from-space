@@ -1,8 +1,8 @@
 {
     "legacies": [
         {
-            "id": "catgirl.legacy",
-            "image": "catgirl.legacy",
+            "id": "neko.legacy",
+            "image": "neko.legacy",
             "label": "Catgirl Acolyte",
             "description": "You discover the secret world of catgirls beneath the surface.",
             "startdescription": "Another day of retail work",
@@ -13,7 +13,10 @@
                 "attention": 1
             },
             "statusbarelements": [
-                "cattreasure"
+                "health",
+                "reason",
+                "passion",
+                "funds"
             ]
         }
     ]
