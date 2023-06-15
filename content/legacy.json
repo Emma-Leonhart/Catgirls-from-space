@@ -10,7 +10,7 @@
             "availableWithoutEndingMatch": true,
             "newstart": true,
             "effects": {
-                "attention": 1
+                "neko.introjob": 1
             },
             "statusbarelements": [
                 "health",
