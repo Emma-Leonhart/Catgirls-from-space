@@ -119,7 +119,27 @@
             "comments": "This makes the Study action available, and is triggered from intro only. When this appears the contentment runs out."
         },
         {
-            "id": "neko.studybequestreason",
+            "id": "neko.studybequestalpha",
+            "label": "Examine my Bequest, employing Vigor.",
+            "actionid": "study",
+            "requirements": {
+                "neko.bequestintro": 1,
+                "passion": 1
+            },
+            "effects": {
+                "neko.bequestintro": -1,
+                "ascensionpowera": 1,
+                "mapbookdealer": 1,
+                "lore_aa_1": 1,
+                "contactintro": 1
+            },
+            "startdescription": "I'll be one with the documents. Play the games, dance the dances, build crafts and talk to my friends about it.",
+            "description": "My correspondent describes my dreams exactly! They use names that are instantly familiar - Alpha Lambda Omega. I feel so at home. Like I've been reunited with family I didn't know existed. <b>A new love burns in me.</b>\nThere is a note here - directions to a book shop that does not advertise its wares -\n",
+            "warmup": 30,
+            "craftable": true
+        },
+        {
+            "id": "neko.studybequestlambda",
             "label": "Examine the Bequest, employing Reason",
             "actionid": "study",
             "requirements": {
@@ -130,16 +150,16 @@
                 "neko.bequestintro": -1,
                 "ascensionenlightenmenta": 1,
                 "mapbookdealer": 1,
-                "fragmentlantern": 1,
+                "lore_ll_1": 1,
                 "contactintro": 1
             },
-            "startdescription": "I'll examine each item with meticulous care. ",
-            "description": "My correspondent describes my dreams exactly! They use names that are instantly familiar - the House, the Wood, the Hours, the Glory. They knew secrets beneath time and the skin of the world. <b>A new curiosity burns in me</b>.\nThere is a note here - directions to a book shop that does not advertise its wares -\n",
+            "startdescription": "I'll examine each item with meticulous care. Try to see what it is really seeing. Ignore all distractions",
+            "description": "My correspondent describes my dreams exactly! They use names that are instantly familiar - Alpha Lambda Omega. I see clearly now. All delusions are no more. <b>A new vision burns in me</b>.\nThere is a note here - directions to a book shop that does not advertise its wares -\n",
             "warmup": 30,
             "craftable": true
         },
         {
-            "id": "neko.studybequestpassion",
+            "id": "neko.studybequestomega",
             "label": "Examine my Bequest, employing Passion",
             "actionid": "study",
             "requirements": {
@@ -150,11 +170,39 @@
                 "neko.bequestintro": -1,
                 "ascensionpowera": 1,
                 "mapbookdealer": 1,
-                "fragmentforge": 1,
+                "lore_oo_1": 1,
                 "contactintro": 1
             },
             "startdescription": "I'll read, theorise, pace, sketch, clutch at my hair in wonder, rise in elation, collapse in despair.",
-            "description": "My correspondent describes my dreams exactly! They use names that are instantly familiar - the House, the Wood, the Hours, the Glory. I sense here a power that generals and kings would envy. <b>A new desire burns in me.</b>\nThere is a note here - directions to a book shop that does not advertise its wares -\n",
+            "description": "My correspondent describes my dreams exactly! They use names that are instantly familiar - Alpha Lambda Omega. I imagine how everything could be so different if we put this into action. <b>A new curiosity burns in me.</b>\nThere is a note here - directions to a book shop that does not advertise its wares -\n",
+            "warmup": 30,
+            "craftable": true
+        },
+        {
+            "id": "neko.studybequestkapital",
+            "comment": "This one is most likely to be broken as I want a specific character of snake alignment to come. Notes for a collaborator are destroyed possibly by the researcher",
+            "label": "Examine my Bequest, employing a Researcher",
+            "actionid": "study",
+            "requirements": {
+                "neko.bequestintro": 1,
+                "passion": 1
+            },
+            "effects": {
+                "neko.bequestintro": -1,
+                "ascensionpowera": 1,
+                "mapbookdealer": 1,
+                "lore_kk_1": 1,
+                "mystique": 1
+            },
+            "alt": [
+                {
+                    "id": "findacquaintanceopentalk",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "startdescription": "I'll hire a researcher to help me understand it.",
+            "description": "My correspondent describes my dreams exactly! They use names that are instantly familiar - Alpha Lambda Omega. I sense here such an amazing business opportunity. <b>A new desire burns in me.</b>\nThere is a note here - directions to a book shop that does not advertise its wares -\n",
             "warmup": 30,
             "craftable": true
         },
@@ -163,7 +211,7 @@
             "label": "Find a potential collaborator",
             "actionid": "study",
             "requirements": {
-                "contactintro": 1
+                "neko.contactintro": 1
             },
             "effects": {
                 "contactintro": -1,
