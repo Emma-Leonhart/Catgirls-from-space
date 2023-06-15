@@ -1,8 +1,8 @@
 {
     "elements": [
         {
-            "id": "neko.bequestintro",
-            "label": "A Bequest",
+            "id": "neko.introdocuments",
+            "label": "Mysterious documents",
             "aspects": {
                 "legacyplotitem": 1
             },
