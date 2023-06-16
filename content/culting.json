@@ -48,6 +48,14 @@
                     "chance": 100
                 }
             ]
+        },
+        { "id": "cultfoundation",
+                "alt$append": 
+                {
+                    "id": "cultfoundationhand",
+                    "chance": 100
+                }
         }
+
     ]
 }
