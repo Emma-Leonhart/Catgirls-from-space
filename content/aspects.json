@@ -1,0 +1,17 @@
+{
+	"elements": [
+                    {
+                        "id": "hand",
+                        "label": "hand",
+                        "description": "The cold invisible hand that guides all things. [The Hand is the principle that controls everything.]",
+                        "isAspect": true,
+                        "induces": [
+                            {
+                                "id": "heartinduction",
+                                "comment": "originally heartinduction",
+                                "chance": 10
+                            }
+                        ]
+                    }
+                ]
+            }

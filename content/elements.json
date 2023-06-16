@@ -14,7 +14,9 @@
                     "actionid": "study",
                     "required": {
                         "reason": 1,
-                        "passion": 1
+                        "passion": 1,
+                        "health": 1,
+                        "funds": 1
                     },
                     "description": "Who am I? Will I use sensuality, discipline, passion, or money to get through this"
                 }
