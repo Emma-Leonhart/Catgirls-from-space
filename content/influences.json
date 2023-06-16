@@ -30,6 +30,33 @@
 			"burnTo": "preglimmering"
         },
         {
+            "id": "capitalisticness",
+            "label": "Capitalisticness",
+            "slots": [
+                {
+                    "id": "morecapitalisticness",
+                    "label": "More Vitality",
+                    "actionid": "study",
+                    "description": "With enough Vitality - or sometimes something more exotic - I can increase my Health.",
+                    "required": {
+                        "vitality": 1,
+                        "influencehand": 1
+                    }
+                }
+            ],
+            "aspects": {
+                "advancement": 1,
+                "hand": 1,
+                "influence": 1
+            },
+            "description": "Exercise, or something rarer, has invigorated me. [Use with another Capitalisticness to improve your abilities. It lasts only three minutes, if unused.]",
+            "xtriggers": {
+                "upgradeinfluence": "influencehandc"
+            },
+            "lifetime": 180,
+            "decayTo": "fascination"
+        },
+        {
             "id": "lensing",
             "label": "Lensing",
             "lifetime": 60
@@ -83,7 +110,7 @@
             "xtriggers": {
                 "upgradeinfluence": "influencehandc"
             },
-            "decayTo": "enthusiasm"
+            "decayTo": "capitalisticness"
         },
         {
             "id": "influencehandc",
@@ -365,6 +392,15 @@
         {
             "id": "influencewinter",
             "decayTo": "vitality"
+        },
+        {
+            "id": "fascination",
+            "aspects": {
+                "hand": 2,
+                "illhealth": 1,
+                "influence": 1,
+                "memory": 1
+            }
         }
     ]
 }
