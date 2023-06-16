@@ -14,6 +14,12 @@
                         ]
                     },
                     {
+                        "id": "venerationhand",
+                        "label": "Veneration: Hand",
+                        "description": "This organization follows the principle of the Hand, utilizing its influence to guide and manipulate economies, probabilities, and realities, charting the course of destiny unseen by most.",
+                        "isAspect": true
+                    },
+                    {
                         "id": "heart",
                         "label": "Heart",
                         "description": "The Heart represents vitality, emotion, and human connection. Just as Heart bolsters power with human bonds and emotions, The Pride aims to bridge alienation and restore communal unity.",
@@ -29,6 +35,12 @@
                         "id": "secrethistories",
                         "label": "Secret Histories",
                         "description": "Secret Histories correspond to hidden truths and obscured knowledge, mirroring the aim of Enlensing to reframe perspectives, seeking hidden meanings, and approaching life's mysteries with a fresh lens.",
+                        "isAspect": true
+                    },
+                    {
+                        "id": "venerationsecret",
+                        "label": "Veneration: Secret Histories",
+                        "description": "This organization explores the principle of Secret Histories, using Enlensing to unearth hidden truths, find obscured meanings, and approach mysteries from fresh perspectives.",
                         "isAspect": true
                     },
                     {

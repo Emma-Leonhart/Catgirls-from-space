@@ -51,7 +51,9 @@
                 "venerationlantern": 1,
                 "venerationknock": 1,
                 "venerationmoth": 1,
-                "venerationwinter": 1
+                "venerationwinter": 1,
+                "venerationhand": 1,
+                "venerationsecret": 1
             },
             "slots": [
                 {

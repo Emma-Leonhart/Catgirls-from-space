@@ -1,0 +1,38 @@
+{
+    "elements": [
+        {
+            "id": "erudition",
+            "decayTo": "lensing"
+        },
+        {
+            "id": "vitality",
+            "decayTo": "fleeting"
+        },
+        {
+            "id": "glimmering",
+            "decayTo": "contentment"
+        },
+        {
+            "id": "enthusiasm",
+            "label": "Enthusiasm",
+            "aspects": {
+                "influence": 1,
+                "forge": 2,
+                "heart": 2,
+                "grail": 2,
+                "lantern": 2,
+                "moth": 2,
+                "memory": 1
+            },
+            "description": "A fixated idea? What is it? Will I go to the moon?",
+            "lifetime": 60,
+            "decayTo": "fascination",
+			"burnTo": "preglimmering"
+        },
+        {
+            "id": "lensing",
+            "label": "Lensing",
+            "lifetime": 60
+        }
+    ]
+}

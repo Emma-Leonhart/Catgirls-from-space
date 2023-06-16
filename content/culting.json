@@ -34,6 +34,7 @@
                     },
                     "description": "I must give of myself to honour the power we will serve."
                 }
+                
             ],
             "warmup": 30,
             "startdescription": "The God we will serve requires money. I must give of myself.",
@@ -55,6 +56,148 @@
                     "id": "cultfoundationhand",
                     "chance": 100
                 }
+        },
+        {
+            "id": "recruitacquaintance_secret",
+            "label": "Recruit an Acquaintance, by invoking Secrets",
+            "actionid": "talk",
+            "requirements": {
+                "venerationsecret": 1,
+                "acquaintance": 1,
+                "follower": -1,
+                "mortal": 1,
+                "secrethistories": 1
+            },
+            "effects": {
+                "ingredient": -1,
+                "influence": -1
+            },
+            "aspects": {
+                "recruiting": 1
+            },
+            "startdescription": "This one is ready.",
+            "description": "In invoking Secret Histories, one commits to the pursuit of obscured truths and reframed perspectives, unearthing life's mysteries.",
+            "warmup": 30,
+            "craftable": true,
+            "burnimage": "freemasons"
+        },
+        {
+            "id": "promotetodisciple_secret",
+            "label": "Promote a Believer by invoking Secrets",
+            "actionid": "talk",
+            "requirements": {
+                "venerationsecret": 1,
+                "follower": 1,
+                "disciple": -1,
+                "independent": -1,
+                "mortal": 1,
+                "secrethistories": 7
+            },
+            "effects": {
+                "ingredient": -1,
+                "influence": -1
+            },
+            "aspects": {
+                "promotiontodisciple": 1
+            },
+            "startdescription": "My follower will kneel as a novice, and rise as an initiate. I will administer the necessary oaths myself.",
+            "description": "'My knowledge is my armor. Through understanding, I unveil the obscured. There is no mystery but the yet unrevealed. In the whispers of Secret Histories, we find our truth. I dedicate myself to the service of the hidden.'",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "promoteto_d_secret",
+            "label": "Attempt to Exalt a Disciple to a Veilkeeper",
+            "actionid": "talk",
+            "requirements": {
+                "cultsecrethistories_1": 1,
+                "follower": 1,
+                "secrethistories": 21,
+                "exalted": -1,
+                "potential": 1
+            },
+            "effects": {
+                "ingredient": -1,
+                "influence": -1
+            },
+            "aspects": {
+                "promotionto_d_moth": 1
+            },
+            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
+            "description": "'This was my past, but now I've evolved. These are my teachings, which I transcend. Here is my belief, but it is not my limit. Here is my identity, which is merely a riddle. Here is the Archive, where we illuminate the shadows. Here I sought, and here I have found.'",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "recruitacquaintance_hand",
+            "label": "Recruit an Acquaintance, by invoking Hand",
+            "actionid": "talk",
+            "requirements": {
+                "venerationhand": 1,
+                "acquaintance": 1,
+                "follower": -1,
+                "mortal": 1,
+                "hand": 1
+            },
+            "effects": {
+                "ingredient": -1,
+                "influence": -1
+            },
+            "aspects": {
+                "recruiting": 1
+            },
+            "startdescription": "This one is ready.",
+            "description": "Embodying the Order of the Guiding Palm, one pledges to balance harmony and hidden wisdom in service of the greater good.",
+            "warmup": 30,
+            "craftable": true,
+            "burnimage": "freemasons"
+        },
+        {
+            "id": "promotetodisciple_hand",
+            "label": "Promote a Believer by invoking Hand",
+            "actionid": "talk",
+            "requirements": {
+                "venerationhand": 1,
+                "follower": 1,
+                "disciple": -1,
+                "independent": -1,
+                "mortal": 1,
+                "hand": 7
+            },
+            "effects": {
+                "ingredient": -1,
+                "influence": -1
+            },
+            "aspects": {
+                "promotiontodisciple": 1
+            },
+            "startdescription": "My follower will kneel as a novice, and rise as an initiate. I will administer the necessary oaths myself.",
+            "description": "'My wisdom is my guidance. Through harmony, I ascend to enlightenment. There is no confusion but in ignorance. In the embrace of the Guiding Palm, we find our path. I pledge myself to the service of the balanced.'",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "promoteto_d_hand",
+            "label": "Attempt to Exalt a Disciple to a Capitalist",
+            "actionid": "talk",
+            "requirements": {
+                "culthand_1": 1,
+                "follower": 1,
+                "hand": 21,
+                "exalted": -1,
+                "potential": 1
+            },
+            "effects": {
+                "ingredient": -1,
+                "influence": -1
+            },
+            "aspects": {
+                "promotionto_d_moth": 1
+            },
+            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
+            "description": "'This was my journey, but now I am transformed. These are my teachings, which I transcend. Here are my hands, but they reach beyond me. Here is my title, but it is only a veil. Here is the Palm, where we guide the lost. Here I sought, and here I found.'",
+            "warmup": 60,
+            "craftable": true
         }
     ]
 }
