@@ -38,6 +38,59 @@
             },
             "label": "Notes on a Possible Collaborator",
             "description": "My correspondent had recorded his observations of me. He believed I had 'potential'. He recorded his observations of someone else, too. With time and study, perhaps I can find that person."
+        },
+        {
+            "id": "culthand_1",
+            "label": "Order of the Guiding Palm",
+            "aspects": {
+                "society": 1,
+                "venerationedge": 1,
+                "venerationforge": 1,
+                "venerationgrail": 1,
+                "venerationheart": 1,
+                "venerationlantern": 1,
+                "venerationknock": 1,
+                "venerationmoth": 1,
+                "venerationwinter": 1
+            },
+            "slots": [
+                {
+                    "id": "Associate",
+                    "label": "Associate",
+                    "actionid": "talk",
+                    "required": {
+                        "mortal": 1
+                    },
+                    "forbidden": {
+                        "hunter": 1,
+                        "hireling": 1,
+                        "prisoner": 1
+                    },
+                    "description": "A new recruit, or a hardened disciple."
+                },
+                {
+                    "id": "Ceremony",
+                    "label": "Ceremony",
+                    "actionid": "talk",
+                    "required": {
+                        "lore": 1
+                    },
+                    "description": "For the higher mysteries, deeper oaths are needed."
+                },
+                {
+                    "id": "Trappings",
+                    "label": "Trappings",
+                    "actionid": "talk",
+                    "required": {
+                        "tool": 1,
+                        "ingredient": 1,
+                        "influence": 1
+                    },
+                    "description": "For a proper sense of occasion. Consumes Ingredients and Influences; uses, but does not consume, Tools."
+                }
+            ],
+            "description": "An occult society dedicated to the study of the invisible hand and capital. [Guiding Palm, unusually, allows you to use any aspect to promote Believers.]",
+            "unique": true
         }
     ]
 }
