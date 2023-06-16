@@ -1,0 +1,193 @@
+{
+    "elements":[
+        {
+            "id": "fragmenthand",
+            "label": "Philanthropy's Promise",
+            "aspects": {
+                "hand": 2,
+                "lore": 1,
+                "subvertable_lore": 1,
+                "challenge.intuition": 1
+            },
+            "description": "The invisible hand, in its inscrutable wisdom, guides the resources of the world towards the betterment of all. Its touch brings prosperity, its movement ensures growth. For fortune, invoke it. For wealth, obey its unseen nudges.",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead.",
+                    "required": {
+                        "fragmenthand": 1,
+                        "fragmentlantern": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "xtriggers": {
+                "epiphany": "fragmenthandb"
+            }
+        },
+        {
+            "id": "fragmenthandb",
+            "label": "Capital's Whisper",
+            "aspects": {
+                "hand": 4,
+                "lore": 1,
+                "subvertable_lore": 1,
+                "challenge.intuition": 1
+            },
+            "description": "In the silent halls of commerce, secrets are traded like currency. Listen well, and you may discern the whisper of the invisible hand, nudging fortunes, bending probabilities. This is the language of wealth, the lexicon of power.",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "required": {
+                        "fragmenthandb": 1,
+                        "fragmentlanternb": 1,
+                        "reason": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "xtriggers": {
+                "epiphany": "fragmenthandc"
+            }
+        },
+        {
+            "id": "fragmenthandc",
+            "label": "The Gilded Paradox",
+            "aspects": {
+                "hand": 6,
+                "lore": 1,
+                "subvertable_lore": 1,
+                "challenge.intuition": 1,
+                "challenge.illumination": 1
+            },
+            "description": "The invisible hand bestows and takes away in equal measure. Its touch can turn lead to gold and riches to ruin. Its benevolence masks a riddle: What is gained in loss? This Paradox holds the key.",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "required": {
+                        "fragmenthandc": 1,
+                        "fragmentlanternc": 1,
+                        "reason": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "xtriggers": {
+                "epiphany": "fragmenthandd"
+            }
+        },
+        {
+            "id": "fragmenthandd",
+            "label": "Automaton Warnings",
+            "aspects": {
+                "hand": 8,
+                "lore": 1,
+                "subvertable_lore": 1,
+                "challenge.intuition": 1,
+                "challenge.illumination": 1
+            },
+            "description": "The Berserker Probes, tirelessly working in the shadows, are the hands of the Hand. Their unseen manipulations, their relentless resource gathering, hold a cryptic caution. These warnings, however, are not for us.",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "required": {
+                        "fragmenthandd": 1,
+                        "fragmentlanternd": 1,
+                        "reason": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "xtriggers": {
+                "epiphany": "fragmenthande"
+            }
+        },
+        {
+            "id": "fragmenthande",
+            "label": "Cosmic Puppeteer's Testament",
+            "aspects": {
+                "hand": 10,
+                "lore": 1,
+                "subvertable_lore": 1,
+                "challenge.intuition": 1,
+                "challenge.illumination": 1,
+                "challenge.obsessive": 1
+            },
+            "description": "An alien entity pulls the strings of the invisible hand, orchestrating a cosmic puppet show. It finds new homes in unsuspecting worlds, twisting economies and societies. This is its testament, a silent declaration of purpose.",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "required": {
+                        "fragmenthande": 1,
+                        "fragmentlanterne": 1,
+                        "reason": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "xtriggers": {
+                "epiphany": "fragmenthandf"
+            }
+        },
+        {
+            "id": "fragmenthandf",
+            "label": "Harvester's Revelation",
+            "aspects": {
+                "hand": 12,
+                "lore": 1,
+                "subvertable_lore": 1,
+                "challenge.intuition": 1,
+                "challenge.illumination": 1,
+                "challenge.obsessive": 1
+            },
+            "description": "The harvester of worlds has set its gaze on us. It wears down the strength of humanity, bides its time for the harvest. The Hand, in its enigmatic gestures, betrays this dark revelation.",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "required": {
+                        "fragmenthandf": 1,
+                        "fragmentlanternf": 1,
+                        "reason": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "xtriggers": {
+                "epiphany": "fragmenthandg"
+            }
+        },
+        {
+            "id": "fragmenthandg",
+            "label": "The Terminal Transaction",
+            "aspects": {
+                "hand": 14,
+                "lore": 1,
+                "subvertable_lore": 1
+            },
+            "description": "The invisible hand has always been at work, dealing in the commerce of despair, trading in doom. It leads us towards the end, a final transaction where everything is lost, and the harvester claims its due. This is the grim story of our inevitable capitulation.",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with Reason to break the lore into lower-level fragments.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "unique": true
+        }
+    ]
+}

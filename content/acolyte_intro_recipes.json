@@ -152,6 +152,11 @@
                     "id": "ascensionnotyet",
                     "chance": 100,
                     "additional": true
+                },
+                {
+                    "id": "needs",
+                    "chance": 100,
+                    "additional": true
                 }
             ],
             "$priority": 10,
@@ -179,6 +184,11 @@
             "alt": [
                 {
                     "id": "ascensionnotyet",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "needs",
                     "chance": 100,
                     "additional": true
                 }
@@ -210,6 +220,11 @@
                     "id": "ascensionnotyet",
                     "chance": 100,
                     "additional": true
+                },
+                {
+                    "id": "needs",
+                    "chance": 100,
+                    "additional": true
                 }
             ],
             "$priority": 10,
@@ -232,7 +247,7 @@
                 "neko.introdocuments": -1,
                 "ascensionpowera": 1,
                 "mapbookdealer": 1,
-                "fragmentkapital": 1,
+                "fragmenthand": 1,
                 "mystique": 1,
                 "funds": -1
             },
@@ -244,6 +259,11 @@
                 },
                 {
                     "id": "ascensionnotyet",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "needs",
                     "chance": 100,
                     "additional": true
                 }

@@ -1,0 +1,56 @@
+{
+    "recipes": [
+        {
+            "id": "cultfoundationhand",
+            "label": "Establish the Order of the Guiding Palm",
+            "actionid": "establishcult",
+            "requirements": {
+                "hand": 1
+            },
+            "effects": {
+                "culthand_1": 1
+            },
+            "startdescription": "The Order of the Guiding Palm is a cult devoted to deciphering and following the mystic movements of the 'Invisible Hand', viewing the ebb and flow of global economy as divine omens.",
+            "linked": [
+                {
+                    "id": "cultfoundation_wealth",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "cultfoundation_wealth",
+            "label": "A Sacrifice of Wealth",
+            "actionid": "establishcult",
+            "requirements": {
+                "funds": -1
+            },
+            "slots": [
+                {
+                    "id": "Funds",
+                    "label": "My Wealth",
+                    "required": {
+                        "health": 1
+                    },
+                    "description": "I must give of myself to honour the power we will serve."
+                }
+            ],
+            "aspects": {
+                "damagehealth": 1
+            },
+            "warmup": 30,
+            "startdescription": "The God we will serve requires money. I must give of myself.",
+            "description": "",
+            "linked": [
+                {
+                    "id": "cultfoundation_wealth",
+                    "chance": 100
+                },
+                {
+                    "id": "cultfoundation_firstrecruit",
+                    "chance": 100
+                }
+            ]
+        }
+    ]
+}
