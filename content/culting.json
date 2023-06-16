@@ -35,9 +35,6 @@
                     "description": "I must give of myself to honour the power we will serve."
                 }
             ],
-            "aspects": {
-                "damagehealth": 1
-            },
             "warmup": 30,
             "startdescription": "The God we will serve requires money. I must give of myself.",
             "description": "",
