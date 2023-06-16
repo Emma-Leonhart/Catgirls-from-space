@@ -150,7 +150,8 @@
             "startdescription": "I'll be one with the documents. Play the games, dance the dances, build crafts and talk to my friends about it.",
             "description": "My correspondent describes my dreams exactly! They use names that are instantly familiar - Alpha Lambda Omega. I feel so at home. Like I've been reunited with family I didn't know existed. <b>A new love burns in me.</b>\nThere is a note here - directions to a book shop that does not advertise its wares -\n",
             "warmup": 30,
-            "craftable": true
+            "craftable": true,
+            "comment": "for some reason game does not confuse it with studyhealth"
         },
         {
             "id": "neko.studybequestlambda",
@@ -170,7 +171,8 @@
             "startdescription": "I'll examine each item with meticulous care. Try to see what it is really seeing. Ignore all distractions",
             "description": "My correspondent describes my dreams exactly! They use names that are instantly familiar - Alpha Lambda Omega. I see clearly now. All delusions are no more. <b>A new vision burns in me</b>.\nThere is a note here - directions to a book shop that does not advertise its wares -\n",
             "warmup": 30,
-            "craftable": true
+            "craftable": true,
+            "comment": "game confuses it with studyreason"
         },
         {
             "id": "neko.studybequestomega",
@@ -190,7 +192,8 @@
             "startdescription": "I'll read, theorise, pace, sketch, clutch at my hair in wonder, rise in elation, collapse in despair.",
             "description": "My correspondent describes my dreams exactly! They use names that are instantly familiar - Alpha Lambda Omega. I imagine how everything could be so different if we put this into action. <b>A new curiosity burns in me.</b>\nThere is a note here - directions to a book shop that does not advertise its wares -\n",
             "warmup": 30,
-            "craftable": true
+            "craftable": true,
+            "comment": "game confuses it with studypassion"
         },
         {
             "id": "neko.studybequestkapital",
