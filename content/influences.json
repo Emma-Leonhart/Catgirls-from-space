@@ -33,6 +33,190 @@
             "id": "lensing",
             "label": "Lensing",
             "lifetime": 60
+        },
+        {
+            "id": "influencehand",
+            "label": "Subtle Flaw",
+            "aspects": {
+                "hand": 2,
+                "influence": 1
+            },
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "With enough pressure, the skin of the world will tear. Add any influence to subvert it to a higher level hand influence.",
+                    "actionid": "study",
+                    "required": {
+                        "influenceedge": 1,
+                        "influenceforge": 1,
+                        "influencegrail": 1,
+                        "influenceheart": 1,
+                        "influencehand": 1,
+                        "influencelantern": 1,
+                        "influencemoth": 1,
+                        "influencewinter": 1,
+                        "erudition": 1,
+                        "glimmering": 1,
+                        "vitality": 1,
+                        "eruditionplus": 1,
+                        "glimmeringplus": 1,
+                        "vitalityplus": 1
+                    }
+                },
+                {
+                    "id": "knowledge",
+                    "label": "Knowledge",
+                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "required": {
+                        "fragmenthandc": 1,
+                        "fragmenthandd": 1,
+                        "fragmenthande": 1,
+                        "fragmenthandf": 1,
+                        "fragmenthandg": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "description": "Laces uncoil -- windows swing open -- locks move as if oiled. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions.]",
+            "lifetime": 60,
+            "xtriggers": {
+                "upgradeinfluence": "influencehandc"
+            },
+            "decayTo": "enthusiasm"
+        },
+        {
+            "id": "influencehandc",
+            "label": "Subtle Fracture",
+            "aspects": {
+                "hand": 6,
+                "influence": 1
+            },
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "With enough pressure, the skin of the world will tear. Add any matching influence to subvert it to a higher level hand influence.",
+                    "actionid": "study",
+                    "required": {
+                        "influenceedgec": 1,
+                        "influenceforgec": 1,
+                        "influencegrailc": 1,
+                        "influenceheartc": 1,
+                        "influencehandc": 1,
+                        "influencelanternc": 1,
+                        "influencemothc": 1,
+                        "influencewinterc": 1
+                    }
+                },
+                {
+                    "id": "knowledge",
+                    "label": "Knowledge",
+                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "required": {
+                        "fragmenthandc": 1,
+                        "fragmenthandd": 1,
+                        "fragmenthande": 1,
+                        "fragmenthandf": 1,
+                        "fragmenthandg": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "description": "Clouds part -- walls creak -- old wounds ache. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]",
+            "lifetime": 60,
+            "xtriggers": {
+                "upgradeinfluence": "influencehande"
+            },
+            "decayTo": "influencehand"
+        },
+        {
+            "id": "influencehande",
+            "label": "Subtle Rupture",
+            "aspects": {
+                "hand": 10,
+                "influence": 1
+            },
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "With enough pressure, the skin of the world will tear. Add any matching influence to subvert it to a higher level hand influence.",
+                    "actionid": "study",
+                    "required": {
+                        "influenceedgee": 1,
+                        "influenceforgee": 1,
+                        "influencegraile": 1,
+                        "influencehearte": 1,
+                        "influencehande": 1,
+                        "influencelanterne": 1,
+                        "influencemothe": 1,
+                        "influencewintere": 1
+                    }
+                },
+                {
+                    "id": "knowledge",
+                    "label": "Knowledge",
+                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "required": {
+                        "fragmenthandc": 1,
+                        "fragmenthandd": 1,
+                        "fragmenthande": 1,
+                        "fragmenthandf": 1,
+                        "fragmenthandg": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "description": "Geometry contorts -- doors burst open -- snakes boil from the earth! [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "lifetime": 60,
+            "xtriggers": {
+                "upgradeinfluence": "influencehandg"
+            },
+            "decayTo": "influencehandc"
+        },
+        {
+            "id": "influencehandg",
+            "label": "Wrong Door",
+            "aspects": {
+                "hand": 15,
+                "influence": 1
+            },
+            "description": "There is a Door that should not open, and even now its hinges are roused -- [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
+            "lifetime": 60,
+            "decayTo": "influencehande"
+        },
+        {
+            "id": "influenceknock",
+            "decayTo": "glimmering"
+        },
+        {
+            "id": "influencemoth",
+            "decayTo": "glimmering"
+        },
+        {
+            "id": "influenceforge",
+            "decayTo": "glimmering"
+        },
+        {
+            "id": "influencegrail",
+            "decayTo": "erudition"
+        },
+        {
+            "id": "influencelantern",
+            "decayTo": "erudition"
+        },
+        {
+            "id": "influenceedge",
+            "decayTo": "erudition"
+        },
+        {
+            "id": "influencesecret",
+            "decayTo": "vitality"
+        },
+        {
+            "id": "influencewinter",
+            "decayTo": "vitality"
         }
     ]
 }
