@@ -144,7 +144,7 @@
                 "neko.introdocuments": -1,
                 "ascensionpowera": 1,
                 "mapbookdealer": 1,
-                "lore_aa_1": 1,
+                "fragmentheart": 1,
                 "contactintro": 1
             },
             "alt": [
@@ -173,7 +173,7 @@
                 "neko.introdocuments": -1,
                 "ascensionenlightenmenta": 1,
                 "mapbookdealer": 1,
-                "lore_ll_1": 1,
+                "fragmentgrail": 1,
                 "contactintro": 1
             },
             "alt": [
@@ -202,7 +202,7 @@
                 "neko.introdocuments": -1,
                 "ascensionpowera": 1,
                 "mapbookdealer": 1,
-                "lore_oo_1": 1,
+                "fragmentmoth": 1,
                 "contactintro": 1
             },
             "alt": [
@@ -232,7 +232,7 @@
                 "neko.introdocuments": -1,
                 "ascensionpowera": 1,
                 "mapbookdealer": 1,
-                "lore_kk_1": 1,
+                "fragmentkapital": 1,
                 "mystique": 1,
                 "funds": -1
             },
