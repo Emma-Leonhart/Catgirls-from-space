@@ -29,8 +29,8 @@
             "craftable": true
         },
         {
-            "id": "workfundsloss",
-            "label": "Lost all my money",
+            "id": "investmentStart",
+            "label": "Invest my Capital",
             "actionid": "work",
             "requirements": {
                 "funds": 1,
@@ -38,7 +38,7 @@
                 "benefactor": -1
             },
             "effects": {
-                "funds": -1,
+                "funds": 1,
                 "capitalisticness": 1
             },
             "aspects": {
@@ -46,7 +46,7 @@
             },
             "startdescription": ".",
             "description": "I lost my investment.",
-            "warmup": 0,
+            "warmup": 60,
             "craftable": true
         }
     ]
