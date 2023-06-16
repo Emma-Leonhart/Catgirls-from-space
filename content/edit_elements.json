@@ -1,0 +1,11 @@
+{
+    "elements": [
+        {
+            "id": "funds",
+            "aspects$add": {
+                "ability": 1,
+                "hand": 2
+            }
+        }
+    ]
+}
