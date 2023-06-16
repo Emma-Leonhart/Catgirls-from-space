@@ -30,7 +30,7 @@
                     "id": "Funds",
                     "label": "My Wealth",
                     "required": {
-                        "health": 1
+                        "funds": 1
                     },
                     "description": "I must give of myself to honour the power we will serve."
                 }
