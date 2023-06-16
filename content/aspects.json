@@ -12,6 +12,96 @@
                                 "chance": 10
                             }
                         ]
+                    },
+                    {
+                        "id": "heart",
+                        "$remove": ["description"]
+                    },
+                    {
+                        "id": "heart",
+                        "$add":  {
+                            "description": "The Heart represents vitality, emotion, and human connection. Just as Heart bolsters power with human bonds and emotions, The Pride aims to bridge alienation and restore communal unity."
+                        }
+                    },
+                    {
+                        "id": "winter",
+                        "$remove": ["description"]
+                    },
+                    {
+                        "id": "winter",
+                        "$add":  {
+                            "description": "The Winter aspect mirrors the calming effect of the Inner Dialogue, akin to a period of mental hibernation where individuals process emotions and experiences, creating a soothing refuge from anxiety."
+                        }
+                    },
+                    {
+                        "id": "secrethistories",
+                        "$remove": ["description"]
+                    },
+                    {
+                        "id": "secrethistories",
+                        "$add":  {
+                            "description": "Enlensing addresses the Absurdity of life by allowing us to reframe our perspectives, seeking out hidden meanings, and approaching life's mysteries with a fresh lens."
+                        }
+                    },
+                    {
+                        "id": "lantern",
+                        "$remove": ["description"]
+                    },
+                    {
+                        "id": "lantern",
+                        "$add":  {
+                            "description": "Remembering is about bringing obscured or forgotten experiences back into the light, illuminating them with newfound understanding and perspective, much like the radiant beacon of the Lantern aspect."
+                        }
+                    },
+                    {
+                        "id": "grail",
+                        "$remove": ["description"]
+                    },
+                    {
+                        "id": "grail",
+                        "$add":  {
+                            "description": "By indulging in a myriad of experiences, individuals are less likely to spiral into a narrow perspective or issue. The parallel lies in the diverse experiences represented by Grail, offering a broader, more enriching view of life."
+                        }
+                    },
+                    {
+                        "id": "edge",
+                        "$remove": ["description"]
+                    },
+                    {
+                        "id": "edge",
+                        "$add":  {
+                            "description": "Flow serves as a powerful vaccine against Drowning, embodying the spirit of survival and victory synonymous with the Edge aspect."
+                        }
+                    },
+                    {
+                        "id": "knock",
+                        "$remove": ["description"]
+                    },
+                    {
+                        "id": "knock",
+                        "$add":  {
+                            "description": "Just like Knock opens new doors and creates new paths, Antibodies provide a way to neutralize harmful foreign influences, liberating individuals from the chains of external entrapment."
+                        }
+                    },
+                    {
+                        "id": "forge",
+                        "$remove": ["description"]
+                    },
+                    {
+                        "id": "forge",
+                        "$add":  {
+                            "description": "This vaccine involves transforming our rigid self-identity into a more adaptable, flexible self-view. The Forge's transformative power echoes the personal metamorphosis facilitated by Ego Loosening, underscoring the value of adaptability and self-reinvention."
+                        }
+                    },
+                    {
+                        "id": "moth",
+                        "$remove": ["description"]
+                    },
+                    {
+                        "id": "moth",
+                        "$add":  {
+                            "description": "Just as the Moth symbolizes transformation and change, Larping encourages adopting different roles and perspectives, promoting a fluid identity. By stepping into different personas, one can empathize with various perspectives, freeing oneself from the confines of Empathic Entrapment. It's a playful yet transformative process, akin to the Moth's elusive nature, that allows individuals to explore various viewpoints and challenge their preconceptions in a liberating, dynamic manner."
+                        }
                     }
                 ]
             }
