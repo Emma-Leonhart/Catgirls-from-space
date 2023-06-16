@@ -44,7 +44,7 @@
                     "chance": 100
                 },
                 {
-                    "id": "cultfoundation_firstrecruit",
+                    "id": "cultfoundation_firstrecruit_hand",
                     "chance": 100
                 }
             ]
@@ -108,6 +108,56 @@
             ],
             "description": "An occult society dedicated to the study of the the invisible hand and capital. [Guiding Palm, unusually, allows you to use any aspect to promote Believers.]",
             "unique": true
+        },
+        {
+            "id": "cultfoundation_firstrecruit_hand",
+            "label": "My First Recruit",
+            "actionid": "establishcult",
+            "requirements": {
+                "follower": -1
+            },
+            "slots": [
+                {
+                    "id": "Recruit",
+                    "label": "My First Recruit",
+                    "required": {
+                        "acquaintance": 1
+                    },
+                    "forbidden": {
+                        "independent": 1,
+                        "prisoner": 1,
+                        "hunter": 1,
+                        "patron": 1,
+                        "hireling": 1
+                    },
+                    "description": "One who is ready."
+                }
+            ],
+            "warmup": 30,
+            "startdescription": "A cult with one member is only an unusual habit. I must have a recruit.",
+            "aspects": {
+                "recruiting": 1
+            },
+            "linked": [
+                {
+                    "id": "cultfoundation_firstrecruit_hand",
+                    "chance": 100
+                },
+                {
+                    "id": "cultfoundation_complete_hand",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "cultfoundation_complete_hand",
+            "label": "OUR RISE BEGINS.",
+            "actionid": "establishcult",
+            "effects": {
+                "hq.temporary": 1,
+                "culthand_1": 1
+            },
+            "description": "I have founded my cult. This is a step to greater wealth and power. [Use your cult to recruit and promote followers. Talk with followers about your cult to send them out on cult business.]"
         }
 
     ]
