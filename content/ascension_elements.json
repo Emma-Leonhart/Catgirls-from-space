@@ -436,6 +436,30 @@
             },
             "description": "The Sixth Mark is identified as the point when I am a hand-span taller. I swell in every member and direction. My skin is radiant velvet. Pits of flesh cushion my eyes. I am very thirsty.",
             "uniquenessgroup": "uqdesire"
-        }
+        },
+        {
+			"id": "alphamarks",
+			"label": "The Forms of Sacredness",
+			"isAspect": true,
+			"description": "Each time I change, I leave something behind."
+		},
+		{
+			"id": "lambdamarksmarks",
+			"label": "The Marks of Truesight",
+			"isAspect": true,
+			"description": "I may seek immortality and power in the Hour called the Forge of Days. Her touch brings particular appetites, and Marks."
+		},
+		{
+			"id": "omegamarks",
+			"label": "The Marks of Transformation",
+			"isAspect": true,
+			"description": "I may seek immortality and delight in the Hour called the Red Grail. Her touch brings particular appetites, and Marks."
+		},
+		{
+			"id": "capitalmarks",
+			"label": "The Marks of Accumulation",
+			"isAspect": true,
+			"description": "I may seek immortality and enlightenment in the Hour called the Watchman. His touch brings particular appetites, and Marks."
+		}
     ]
 }
