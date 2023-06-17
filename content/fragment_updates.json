@@ -1,0 +1,21 @@
+{
+    "elements":[
+        {
+            "id": "fragmentwinter",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with another winter lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study",
+                },
+                {
+                    "id": "with2",
+                    "label": "And",
+                    "description": "Study with another winter lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study",
+                }
+            ],
+        }
+    ]
+}

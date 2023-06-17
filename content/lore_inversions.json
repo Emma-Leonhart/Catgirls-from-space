@@ -16,7 +16,8 @@
                 "dread": -1,
                 "fragmentlantern": 1
             },
-            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Winter (AL) becomes Lantern (LA)"
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Winter (AL) becomes Lantern (LA)",
+            "$priority": 10
         }
     ]
 }
