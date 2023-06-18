@@ -1,5 +1,4 @@
 {
-    "comment": "This file covers lore inversions, in lore inversions a piece of lore has its first and second levels swapped",
     "recipes": [
         {
             "id": "invertwintera",
@@ -7,17 +6,16 @@
             "actionid": "study",
             "requirements": {
                 "fragmentwinter": 1,
-                "fascination": 1,
-                "dread": 1
+                "lensing": 1
             },
             "effects": {
                 "fragmentwinter": -1,
-                "fascination": -1,
-                "dread": -1,
+                "lensing": -1,
                 "fragmentlantern": 1
             },
             "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Winter (AL) becomes Lantern (LA)]",
             "$priority": 100,
+            "warmup": 60,
             "craftable": true
         },
         {
@@ -26,17 +24,16 @@
             "actionid": "study",
             "requirements": {
                 "fragmentlantern": 1,
-                "fascination": 1,
-                "dread": 1
+                "lensing": 1
             },
             "effects": {
                 "fragmentlantern": -1,
-                "fascination": -1,
-                "dread": -1,
+                "lensing": -1,
                 "fragmentwinter": 1
             },
             "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Lantern (LA) becomes Winter (AL)]",
             "$priority": 100,
+            "warmup": 60,
             "craftable": true
         },
         {
@@ -45,17 +42,34 @@
             "actionid": "study",
             "requirements": {
                 "fragmentforge": 1,
-                "fascination": 1,
-                "dread": 1
+                "lensing": 1
             },
             "effects": {
                 "fragmentforge": -1,
-                "fascination": -1,
-                "dread": -1,
+                "lensing": -1,
                 "fragmentedge": 1
             },
             "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Forge (OL) becomes Edge (LO)]",
             "$priority": 100,
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "invertedgea",
+            "label": "Invert Edge Lore",
+            "actionid": "study",
+            "requirements": {
+                "fragmentedge": 1,
+                "lensing": 1
+            },
+            "effects": {
+                "fragmentedge": -1,
+                "lensing": -1,
+                "fragmentforge": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Edge (LO) becomes Forge (OL)]",
+            "$priority": 100,
+            "warmup": 60,
             "craftable": true
         },
         {
@@ -64,17 +78,16 @@
             "actionid": "study",
             "requirements": {
                 "fragmentknock": 1,
-                "fascination": 1,
-                "dread": 1
+                "lensing": 1
             },
             "effects": {
                 "fragmentknock": -1,
-                "fascination": -1,
-                "dread": -1,
+                "lensing": -1,
                 "fragmentsecrethistories": 1
             },
             "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Knock (OA) becomes Secret Histories (AO)]",
             "$priority": 100,
+            "warmup": 60,
             "craftable": true
         },
         {
@@ -83,17 +96,16 @@
             "actionid": "study",
             "requirements": {
                 "fragmentsecrethistories": 1,
-                "fascination": 1,
-                "dread": 1
+                "lensing": 1
             },
             "effects": {
                 "fragmentsecrethistories": -1,
-                "fascination": -1,
-                "dread": -1,
+                "lensing": -1,
                 "fragmentknock": 1
             },
             "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Secret Histories (AO) becomes Knock (OA)]",
             "$priority": 100,
+            "warmup": 60,
             "craftable": true
         }
     ]
