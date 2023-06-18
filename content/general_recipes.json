@@ -48,6 +48,42 @@
             "description": "I lost my investment.",
             "warmup": 60,
             "craftable": true
+        },
+        {
+            "id": "lensingrestlessness",
+            "label": "Enlens my experiences",
+            "actionid": "study",
+            "requirements": {
+                "restlessness": 1,
+                "fascination": 1
+            },
+            "effects": {
+                "restlessness": -1,
+                "fascination": -1,
+                "lensing": 1
+            },
+            "startdescription": "Enlens my experience.",
+            "description": "I clarified my experience by integrating as above so below.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "lensingdread",
+            "label": "Enlens my experiences",
+            "actionid": "study",
+            "requirements": {
+                "dread": 1,
+                "fascination": 1
+            },
+            "effects": {
+                "dread": -1,
+                "fascination": -1,
+                "lensing": 1
+            },
+            "startdescription": "Enlens my experience.",
+            "description": "I clarified my experience by integrating as above so below.",
+            "warmup": 60,
+            "craftable": true
         }
     ]
 }

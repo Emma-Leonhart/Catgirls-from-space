@@ -169,6 +169,39 @@
                     "actionid": "study"
                 }
             ],
+        },
+        {
+            "id": "restlessness",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "Combine with",
+                    "description": "Combine with fascination to form lensing.",
+                    "actionid": "study"
+                }
+            ]
+        },
+        {
+            "id": "dread",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "Combine with",
+                    "description": "Combine with fascination to form lensing.",
+                    "actionid": "study"
+                }
+            ]
+        },
+        {
+            "id": "fascination",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "Combine with",
+                    "description": "Combine with restlessness or dread to form lensing.",
+                    "actionid": "study"
+                }
+            ]
         }
         
     ]

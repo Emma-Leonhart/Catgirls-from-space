@@ -2,7 +2,9 @@
     "elements": [
         {
             "id": "erudition",
-            "decayTo": "lensing"
+            "decayTo": "lensing",
+            "aspects$add": {"grail": 2},
+            "aspects$remove": ["lantern"]
         },
         {
             "id": "vitality",
@@ -59,7 +61,8 @@
         {
             "id": "lensing",
             "label": "Lensing",
-            "lifetime": 60
+            "lifetime": 60,
+            "description": "As above so below\na moving up and down of psespective\nunity with all things"
         },
         {
             "id": "influencehand",
