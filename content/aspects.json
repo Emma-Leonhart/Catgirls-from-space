@@ -3,7 +3,7 @@
                     {
                         "id": "hand",
                         "label": "hand",
-                        "description": "The cold invisible hand that guides all things. [The Hand is the principle that controls everything.]",
+                        "description": "[CC] The cold invisible hand that guides all things. [The Hand is the principle that controls everything.]",
                         "isAspect": true,
                         "induces": [
                             {
@@ -22,19 +22,19 @@
                     {
                         "id": "heart",
                         "label": "Heart",
-                        "description": "The Heart represents vitality, emotion, and human connection. Just as Heart bolsters power with human bonds and emotions, The Pride aims to bridge alienation and restore communal unity.",
+                        "description": "[AA] The Heart represents vitality, emotion, and human connection. Just as Heart bolsters power with human bonds and emotions, The Pride aims to bridge alienation and restore communal unity.",
                         "isAspect": true
                     },
                     {
                         "id": "winter",
                         "label": "Winter",
-                        "description": "The Winter aspect mirrors the calming effect of the Inner Dialogue, akin to a period of mental hibernation where individuals process emotions and experiences, creating a soothing refuge from anxiety.",
+                        "description": "[AL] The Winter aspect mirrors the calming effect of the Inner Dialogue, akin to a period of mental hibernation where individuals process emotions and experiences, creating a soothing refuge from anxiety.",
                         "isAspect": true
                     },
                     {
                         "id": "secrethistories",
                         "label": "Secret Histories",
-                        "description": "Secret Histories correspond to hidden truths and obscured knowledge, mirroring the aim of Enlensing to reframe perspectives, seeking hidden meanings, and approaching life's mysteries with a fresh lens.",
+                        "description": "[AO] Secret Histories correspond to hidden truths and obscured knowledge, mirroring the aim of Enlensing to reframe perspectives, seeking hidden meanings, and approaching life's mysteries with a fresh lens.",
                         "isAspect": true
                     },
                     {
@@ -46,37 +46,37 @@
                     {
                         "id": "lantern",
                         "label": "Lantern",
-                        "description": "The Lantern embodies enlightenment, understanding, and knowledge. Remembering shares this focus on illumination, bringing obscured or forgotten experiences back into the light.",
+                        "description": "[LA] The Lantern embodies enlightenment, understanding, and knowledge. Remembering shares this focus on illumination, bringing obscured or forgotten experiences back into the light.",
                         "isAspect": true
                     },
                     {
                         "id": "grail",
                         "label": "Grail",
-                        "description": "The Grail symbolizes desire and physical experiences. Counter-Spiralling, aligns well with the Grail, offering a broader, more enriching view of life through diverse experiences.",
+                        "description": "[LL] The Grail symbolizes desire and physical experiences. Counter-Spiralling, aligns well with the Grail, offering a broader, more enriching view of life through diverse experiences.",
                         "isAspect": true
                     },
                     {
                         "id": "edge",
                         "label": "Edge",
-                        "description": "The Edge stands for overcoming challenges, synonymous with Flow, representing the endeavor to overcome the sensation of drowning in one's problems, achieving a state of effortless performance.",
+                        "description": "[LO] The Edge stands for overcoming challenges, synonymous with Flow, representing the endeavor to overcome the sensation of drowning in one's problems, achieving a state of effortless performance.",
                         "isAspect": true
                     },
                     {
                         "id": "knock",
                         "label": "Knock",
-                        "description": "The Knock signifies transitions and the overcoming of barriers, finds a counterpart in Antibodies, providing a way to neutralize harmful foreign influences, liberating individuals from the chains of external entrapment.",
+                        "description": "[OA] The Knock signifies transitions and the overcoming of barriers, finds a counterpart in Antibodies, providing a way to neutralize harmful foreign influences, liberating individuals from the chains of external entrapment.",
                         "isAspect": true
                     },
                     {
                         "id": "forge",
                         "label": "Forge",
-                        "description": "The Forge stands for transformation and change, paralleling the process of Ego Loosening. This aspect echoes the personal metamorphosis facilitated by Ego Loosening, underscoring the value of adaptability and self-reinvention.",
+                        "description": "[OL] The Forge stands for transformation and change, paralleling the process of Ego Loosening. This aspect echoes the personal metamorphosis facilitated by Ego Loosening, underscoring the value of adaptability and self-reinvention.",
                         "isAspect": true
                     },
                     {
                         "id": "moth",
                         "label": "Moth",
-                        "description": "The Moth represents secrets, dreams, transformation, and elusive elements, aligns with the concept of Larping, promoting a fluid identity by stepping into different roles and perspectives.",
+                        "description": "[OO] The Moth represents secrets, dreams, transformation, and elusive elements, aligns with the concept of Larping, promoting a fluid identity by stepping into different roles and perspectives.",
                         "isAspect": true
                     }
                 ]

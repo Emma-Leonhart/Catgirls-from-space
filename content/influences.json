@@ -398,19 +398,8 @@
         },
         {
             "id": "fascination",
-            "aspects": {
-                "hand": 2,
-                "illhealth": 1,
-                "influence": 1,
-                "memory": 1
-            }
-        },
-        {
-            "id": "dread",
-            "aspects": {
-                "illhealth": 1,
-                "influence": 1,
-                "memory": 1
+            "aspects$add": {
+                "hand": 2
             }
         }
     ]
