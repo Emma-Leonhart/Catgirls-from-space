@@ -399,7 +399,8 @@
                 "hand": 2,
                 "illhealth": 1,
                 "influence": 1,
-                "memory": 1
+                "memory": 1,
+                "lantern": 2
             }
         }
     ]

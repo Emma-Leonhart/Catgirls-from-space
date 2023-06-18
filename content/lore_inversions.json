@@ -16,8 +16,84 @@
                 "dread": -1,
                 "fragmentlantern": 1
             },
-            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Winter (AL) becomes Lantern (LA)",
-            "$priority": 10,
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Winter (AL) becomes Lantern (LA)]",
+            "$priority": 100,
+            "craftable": true
+        },
+        {
+            "id": "invertlanterna",
+            "label": "Invert Lantern Lore",
+            "actionid": "study",
+            "requirements": {
+                "fragmentlantern": 1,
+                "fascination": 1,
+                "dread": 1
+            },
+            "effects": {
+                "fragmentlantern": -1,
+                "fascination": -1,
+                "dread": -1,
+                "fragmentwinter": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Lantern (LA) becomes Winter (AL)]",
+            "$priority": 100,
+            "craftable": true
+        },
+        {
+            "id": "invertforgea",
+            "label": "Invert Forge Lore",
+            "actionid": "study",
+            "requirements": {
+                "fragmentforge": 1,
+                "fascination": 1,
+                "dread": 1
+            },
+            "effects": {
+                "fragmentforge": -1,
+                "fascination": -1,
+                "dread": -1,
+                "fragmentedge": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Forge (OL) becomes Edge (LO)]",
+            "$priority": 100,
+            "craftable": true
+        },
+        {
+            "id": "invertknocka",
+            "label": "Invert Knock Lore",
+            "actionid": "study",
+            "requirements": {
+                "fragmentknock": 1,
+                "fascination": 1,
+                "dread": 1
+            },
+            "effects": {
+                "fragmentknock": -1,
+                "fascination": -1,
+                "dread": -1,
+                "fragmentsecrethistories": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Knock (OA) becomes Secret Histories (AO)]",
+            "$priority": 100,
+            "craftable": true
+        },
+        {
+            "id": "invertsecreta",
+            "label": "Invert Secret Lore",
+            "actionid": "study",
+            "requirements": {
+                "fragmentsecrethistories": 1,
+                "fascination": 1,
+                "dread": 1
+            },
+            "effects": {
+                "fragmentsecrethistories": -1,
+                "fascination": -1,
+                "dread": -1,
+                "fragmentknock": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Secret Histories (AO) becomes Knock (OA)]",
+            "$priority": 100,
             "craftable": true
         }
     ]

@@ -7,15 +7,169 @@
                     "id": "with",
                     "label": "With",
                     "description": "Study with another winter lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
-                    "actionid": "study",
+                    "actionid": "study"
                 },
                 {
                     "id": "with2",
                     "label": "And",
                     "description": "Study with another winter lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
-                    "actionid": "study",
+                    "actionid": "study"
+                }
+            ],
+        },
+        {
+            "id": "fragmentlantern",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with another lantern lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                },
+                {
+                    "id": "with2",
+                    "label": "And",
+                    "description": "Study with another lantern lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                }
+            ],
+        },
+        {
+            "id": "fragmentheart",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with another heart lore, invert with dread and vitality, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                },
+                {
+                    "id": "with2",
+                    "label": "And",
+                    "description": "Study with another heart lore, invert with dread and vitality, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                }
+            ],
+        },
+        {
+            "id": "fragmentgrail",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with another grail lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                },
+                {
+                    "id": "with2",
+                    "label": "And",
+                    "description": "Study with another grail lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                }
+            ],
+        },
+        {
+            "id": "fragmentmoth",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with another moth lore, invert with dread and restlessness, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                },
+                {
+                    "id": "with2",
+                    "label": "And",
+                    "description": "Study with another moth lore, invert with dread and restlessness, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                }
+            ],
+        },
+        {
+            "id": "fragmentedge",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with another edge lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                },
+                {
+                    "id": "with2",
+                    "label": "And",
+                    "description": "Study with another edge lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                }
+            ],
+        },
+        {
+            "id": "fragmentforge",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with another forge lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                },
+                {
+                    "id": "with2",
+                    "label": "And",
+                    "description": "Study with another forge lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                }
+            ],
+        },
+        {
+            "id": "fragmentknock",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with another knock lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                },
+                {
+                    "id": "with2",
+                    "label": "And",
+                    "description": "Study with another knock lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                }
+            ],
+        },        
+        {
+            "id": "fragmenthand",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with another hand lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                },
+                {
+                    "id": "with2",
+                    "label": "And",
+                    "description": "Study with another hand lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                }
+            ],
+        },
+        {
+            "id": "fragmentsecrethistories",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with another secret histories lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
+                },
+                {
+                    "id": "with2",
+                    "label": "And",
+                    "description": "Study with another secret histories lore, invert with dread and fascination, conjugate with any other lore to produce two different lores.",
+                    "actionid": "study"
                 }
             ],
         }
+        
     ]
 }
