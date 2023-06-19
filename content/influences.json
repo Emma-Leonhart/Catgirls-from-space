@@ -61,7 +61,7 @@
         {
             "id": "lensing",
             "label": "Lensing",
-            "lifetime": 60,
+            "lifetime": 180,
             "description": "As above so below\na moving up and down of psespective\nunity with all things"
         },
         {
