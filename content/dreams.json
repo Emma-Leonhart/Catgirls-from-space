@@ -438,7 +438,7 @@
             "label": "Another Mark",
             "actionid": "craving",
             "effects": {
-                "erudition": 2,
+                "capitalisticness": 2,
                 "prisoner": -1
             },
             "startdescription": "",
