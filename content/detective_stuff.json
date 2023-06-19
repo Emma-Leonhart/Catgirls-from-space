@@ -3,7 +3,7 @@
         {
             "id": "legacydetectivejob_matured",
             "label": "Man in Black Position",
-            "aspects": {
+            "aspects$add": {
                 "imbalance": 1
             }
         },
