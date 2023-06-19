@@ -1,0 +1,44 @@
+{
+	"recipes": [
+		{
+			"id": "becomecop",
+			"label": "Initiation into the men in Black",
+			"maxexecutions": 1,
+			"warmup": 60,
+			"startdescription": "The Men in Black have approached you. They tell you you have done great work and can help them achieve a new world. All you must do is help them rid the world of the last few rebels and the new aeon will begin.",
+			"description": "You have been initiated into the men in black. Now everything is clear. You must eliminate all ",
+			"effects": {
+				"legacydetectivejobmatured": 1
+			},
+			"alt": [
+				{
+					"id": "workdetectivejobnewrival",
+					"chance": 100,
+					"additional": true
+				},
+                {
+                    "id": "long.spawn.capital",
+                    "chance": 100,
+                    "additional": true
+                }
+			]
+		},
+        {
+            "id": "long.spawn.capital",
+            "label": "Someone has Arrived",
+            "actionid": "long",
+            "startdescription": "The Men in black warned me. The greatest threat has arrived.",
+            "deckeffects": {
+                "lanternlong": 1
+            },
+            "warmup": 60,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "long.cycle",
+                    "chance": 100
+                }
+            ]
+        }
+	]
+}
