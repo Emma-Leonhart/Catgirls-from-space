@@ -6,6 +6,13 @@
             "aspects": {
                 "imbalance": 1
             }
+        },
+        {
+            "id": "defaulthunter",
+            "aspects": {
+                "imbalance": 1
+            },
+            "label": "Man in Black"
         }
     ]
 }
