@@ -11,37 +11,7 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-            "id": "ascensioncapitalbm",
-            "label": "Dedication: Capital",
-            "aspects": {
-                "desire": 2,
-                "capitalmarks": 2
-            },
-            "description": "I have dedicated myself to the immortal pursuit of capital. [Upgrade this card further to make a Capital victory possible. I must be a true initiate of the Mansus; I'll need to Work with Grail-aspect to make myself palatable to the Red Grail.]",
-            "slots": [
-                {
-                    "id": "Know",
-                    "label": "Know",
-                    "actionid": "work",
-                    "required": {
-                        "waystag_after": 1
-                    },
-                    "description": "Only a true adept, a Know, may take this step. The Know are those who have passed the Stag Door, in dreams."
-                },
-                {
-                    "id": "Omega",
-                    "label": "Omega",
-                    "actionid": "work",
-                    "required": {
-                        "grail": 1
-                    },
-                    "description": "I will require sufficient of the surging intensities of the Grail."
-                }
-            ],
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensioncapitalbf",
+            "id": "ascensioncapitalb",
             "label": "Dedication: Capital",
             "aspects": {
                 "desire": 2,
@@ -59,13 +29,13 @@
                     "description": "Only a true adept, a Know, may take this step. The Know are those who have passed the Stag Door, in dreams."
                 },
                 {
-                    "id": "Omega",
-                    "label": "Omega",
+                    "id": "Lore",
+                    "label": "Lore",
                     "actionid": "work",
                     "required": {
-                        "grail": 1
+                        "hand": 1
                     },
-                    "description": "I will require sufficient of the surging intensities of the Grail."
+                    "description": "I will require sufficient of the surging intensities of the Hand."
                 }
             ],
             "uniquenessgroup": "uqdesire"

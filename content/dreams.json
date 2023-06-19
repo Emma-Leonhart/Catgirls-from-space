@@ -210,6 +210,41 @@
             },
             "startdescription": "Perhaps Money is the more compelling goal.",
             "description": "I have refocused my intentions. My goal is money. The great intelligence that guides everything."
+        },
+        {
+            "id": "dreamascension_upgrade_capital_1to2",
+            "label": "Money's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "hand": 1
+            },
+            "startdescription": "I will dedicate myself to the pursuit of money.",
+            "description": "Money burns in my mind. The allure of the invisible hand guiding me. A power greater than I. [I have advanced a step towards a terrible ascension.]",
+            "effects": {
+                "ascensioncapitala": -1,
+                "ascensioncapitalb": 1
+            },
+            "burnimage": "forgededication"
+        },
+        {
+            "id": "ascensioncapital_upgradetoobsession",
+            "label": "Uniting with the Hand",
+            "actionid": "work",
+            "requirements": {
+                "ascensioncapitalb": 1,
+                "waystag_after": 1,
+                "hand": 6
+            },
+            "effects": {
+                "ascensioncapitalb": -1,
+                "ascensioncapitalc": 1
+            },
+            "startdescription": "This rite is the Key that will allow the Capital's grip to tighten around me. I will be consumed by its influence, forever transformed into a vessel for its beautiful agenda.",
+            "description": "The Rite is complete. The Marks of the Capital are imprinted upon me. The First Mark is the allegiance I have pledged, and the Second is the actions I have taken in its name. If I examine my body, I'll discover the Third Mark, a physical manifestation of my transformation. My desires have been reshaped, now honed to serve its purpose.",
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "flammarion"
         }
     ]
 }
