@@ -1,18 +1,19 @@
 {
     "recipes": [
         {
-            "id": "neko.workintrojob",
+            "id": "workintrojob",
             "label": "Another Shift at my retail job",
             "actionid": "work",
             "requirements": {
-                "neko.introjob": 1
+                "introjob": 1
             },
             "effects": {
-                "neko.introjob": -1,
+                "introjob": -1,
                 "fatigue": 1,
                 "contentment": 1,
                 "funds": 1
             },
+            "alt": [],
             "inductions": "neko.introsurf",
             "startdescription": "Go to work. boring pointless work.",
             "description": "You get fired.'\nAt least now I can explore the internet.\n[<b>Surfing</b> is unlocked.]",
@@ -142,14 +143,14 @@
             },
             "effects": {
                 "neko.introdocuments": -1,
-                "ascensionalphaa": 1,
+                "ascensionsensationa": 1,
                 "mapbookdealer": 1,
                 "fragmentheart": 1,
                 "contactintro": 1
             },
             "alt": [
                 {
-                    "id": "ascensionnotyet",
+                    "id": "ascensionintrojob",
                     "chance": 100,
                     "additional": true
                 },
@@ -176,14 +177,14 @@
             },
             "effects": {
                 "neko.introdocuments": -1,
-                "ascensionlambdaa": 1,
+                "ascensionenlightenmenta": 1,
                 "mapbookdealer": 1,
                 "fragmentgrail": 1,
                 "contactintro": 1
             },
             "alt": [
                 {
-                    "id": "ascensionnotyet",
+                    "id": "ascensionintrojob",
                     "chance": 100,
                     "additional": true
                 },
@@ -210,14 +211,14 @@
             },
             "effects": {
                 "neko.introdocuments": -1,
-                "ascensionomegaa": 1,
+                "ascensionpowera": 1,
                 "mapbookdealer": 1,
                 "fragmentmoth": 1,
                 "contactintro": 1
             },
             "alt": [
                 {
-                    "id": "ascensionnotyet",
+                    "id": "ascensionintrojob",
                     "chance": 100,
                     "additional": true
                 },
@@ -258,7 +259,7 @@
                     "additional": true
                 },
                 {
-                    "id": "ascensionnotyet",
+                    "id": "ascensionintrojob",
                     "chance": 100,
                     "additional": true
                 },

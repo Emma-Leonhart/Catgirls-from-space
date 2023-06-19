@@ -1,7 +1,7 @@
 {
     "legacies": [
         {
-            "id": "neko.legacy",
+            "id": "aspirant",
             "image": "neko.legacy",
             "label": "Catgirl Acolyte",
             "description": "You discover the secret world of catgirls beneath the surface.",
@@ -10,8 +10,35 @@
             "availableWithoutEndingMatch": true,
             "newstart": true,
             "effects": {
-                "neko.introjob": 1
+                "introjob": 1
             },
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ]
+        },
+        {
+            "id": "brightyoungthing",
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ]
+        },
+        {
+            "id": "physician",
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ]
+        },
+        {
+            "id": "detective",
             "statusbarelements": [
                 "health",
                 "reason",

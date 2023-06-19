@@ -37,11 +37,11 @@
             "slots": [
                 {
                     "id": "morecapitalisticness",
-                    "label": "More Vitality",
+                    "label": "More Capitalisticness",
                     "actionid": "study",
                     "description": "With enough Vitality - or sometimes something more exotic - I can increase my Health.",
                     "required": {
-                        "vitality": 1,
+                        "capitalisticness": 1,
                         "influencehand": 1
                     }
                 }
@@ -401,6 +401,21 @@
             "aspects$add": {
                 "hand": 2
             }
+        },
+        {
+            "id": "capitalismlesson",
+            "label": "Capitalism: A Lesson Learnt",
+            "aspects": {
+                "advancement": 1,
+                "hand": 2,
+                "influence": 1
+            },
+            "description": "I am ready to improve. [Use this with your Strength skill to improve the skill and gain Health. It lasts up to five minutes before it decays back to a Vitality.]",
+            "xtriggers": {
+                "upgradeinfluence": "influencehandc"
+            },
+            "lifetime": 300,
+            "decayTo": "capitalisticness"
         }
     ]
 }

@@ -84,6 +84,22 @@
             "description": "I clarified my experience by integrating as above so below.",
             "warmup": 60,
             "craftable": true
+        },
+        {
+            "id": "capitalismlesson",
+            "label": "Study Finance",
+            "actionid": "study",
+            "requirements": {
+                "capitalisticness": 2
+            },
+            "effects": {
+                "capitalisticness": -2,
+                "capitalismlesson": 1
+            },
+            "startdescription": "Improve my money skills.",
+            "description": "I learned about money.",
+            "warmup": 60,
+            "craftable": true
         }
     ]
 }

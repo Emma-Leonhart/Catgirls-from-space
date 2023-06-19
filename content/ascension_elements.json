@@ -1,319 +1,6 @@
 {
     "elements": [
         {
-            "id": "ascensionomegaa",
-            "label": "Temptation: Omega",
-            "aspects": {
-                "desire": 1,
-                "omegamarks": 1
-            },
-            "description": "It has occurred to me that I hold the key to omega. [This card will allow you to win a Omega victory, if you upgrade it far enough. Dreaming about it might advance or change it.]",
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionalphaa",
-            "label": "Temptation: Alpha",
-            "aspects": {
-                "desire": 1,
-                "alphamarks": 1
-            },
-            "description": "I could achieve experiences of an intensity few could imagine. [This card will allow you to win a Alpha victory, if you upgrade it far enough. Dreaming about it might advance or change it.]",
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionlambdaa",
-            "label": "Temptation: Lambda",
-            "aspects": {
-                "desire": 1,
-                "lambdamarks": 1
-            },
-            "description": "It has occurred to me that I hold the key to wisdom. [This card will allow you to win an Lambda victory, if you upgrade it far enough. Dreaming about it might advance or change it.]",
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionomegab",
-            "label": "Dedication: Omega",
-            "aspects": {
-                "desire": 2,
-                "omegamarks": 2
-            },
-            "description": "I have dedicated myself to the acquisition of immortal omega, at any cost. [Upgrade this card further to make a Omega victory possible. I must be a true initiate of the Mansus; I'll need to Work with Forge-aspect to invoke the Forge of Days and begin the change.]",
-            "slots": [
-                {
-                    "id": "Know",
-                    "label": "Know",
-                    "actionid": "work",
-                    "required": {
-                        "waystag_after": 1
-                    },
-                    "description": "Only a true adept, a Know, may take this step. The Know are those who have passed the Stag Door, in dreams."
-                },
-                {
-                    "id": "Omega",
-                    "label": "Omega",
-                    "actionid": "work",
-                    "required": {
-                        "forge": 1
-                    },
-                    "description": "I will require sufficient of the furious incandescence of the Forge."
-                }
-            ],
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionalphabm",
-            "label": "Dedication: Alpha",
-            "aspects": {
-                "desire": 2,
-                "alphamarks": 2
-            },
-            "description": "I have dedicated myself to the immortal pursuit of alpha. [Upgrade this card further to make a Alpha victory possible. I must be a true initiate of the Mansus; I'll need to Work with Grail-aspect to make myself palatable to the Red Grail.]",
-            "slots": [
-                {
-                    "id": "Know",
-                    "label": "Know",
-                    "actionid": "work",
-                    "required": {
-                        "waystag_after": 1
-                    },
-                    "description": "Only a true adept, a Know, may take this step. The Know are those who have passed the Stag Door, in dreams."
-                },
-                {
-                    "id": "Omega",
-                    "label": "Omega",
-                    "actionid": "work",
-                    "required": {
-                        "grail": 1
-                    },
-                    "description": "I will require sufficient of the surging intensities of the Grail."
-                }
-            ],
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionalphabf",
-            "label": "Dedication: Alpha",
-            "aspects": {
-                "desire": 2,
-                "alphamarks": 2
-            },
-            "description": "I have dedicated myself to the immortal pursuit of alpha. [Upgrade this card further to makes a Alpha victory possible. I must be a true initiate of the Mansus; I'll need to Work with Grail-aspect to make myself palatable to the Red Grail.]",
-            "slots": [
-                {
-                    "id": "Know",
-                    "label": "Know",
-                    "actionid": "work",
-                    "required": {
-                        "waystag_after": 1
-                    },
-                    "description": "Only a true adept, a Know, may take this step. The Know are those who have passed the Stag Door, in dreams."
-                },
-                {
-                    "id": "Omega",
-                    "label": "Omega",
-                    "actionid": "work",
-                    "required": {
-                        "grail": 1
-                    },
-                    "description": "I will require sufficient of the surging intensities of the Grail."
-                }
-            ],
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionlambdab",
-            "label": "Dedication: Lambda",
-            "aspects": {
-                "desire": 2,
-                "lambdamarks": 2
-            },
-            "description": "I have dedicated myself to the pursuit of higher understanding. I must see beneath the skin, whatever the cost. [This makes an Lambda victory possible. I must be a true initiate of the Mansus; I'll need to Work with Lantern-aspect to allow the Watchman to see me.]",
-            "slots": [
-                {
-                    "id": "Know",
-                    "actionid": "work",
-                    "required": {
-                        "waystag_after": 1
-                    },
-                    "description": "Only a true adept, a Know, may take this step. The Know are those who have passed the Stag Door, in dreams."
-                },
-                {
-                    "id": "Omega",
-                    "label": "Omega",
-                    "actionid": "work",
-                    "required": {
-                        "lantern": 1
-                    },
-                    "description": "I will require a token of the merciless light of the Mansus."
-                }
-            ],
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionomegac",
-            "label": "Ascension: Omega",
-            "aspects": {
-                "desire": 3,
-                "omegamarks": 3
-            },
-            "xtriggers": {
-                "ascend": "ascensionomegad"
-            },
-            "description": "The Forge has kindled an answering spark in my flesh. I am desperate for the heat of fires. I think that very soon I may begin to set them in my sleep. It is an urgent need, like the need for water. I know this to be the Third Mark.",
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionomegad",
-            "label": "Ascension: Omega",
-            "aspects": {
-                "desire": 4,
-                "omegamarks": 4
-            },
-            "xtriggers": {
-                "ascend": "ascensionomegae",
-                "descend": "ascensionomegac"
-            },
-            "description": "I bear scars all over now from the fires, but it is harder each time to singe my flesh. I am beginning to grow accustomed to flame, like a dragon or a stone. This is the Fourth Mark.",
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionomegae",
-            "label": "Ascension: Omega",
-            "aspects": {
-                "desire": 5,
-                "omegamarks": 5,
-                "murderskill": 1
-            },
-            "xtriggers": {
-                "ascend": "ascensionomegaf",
-                "descend": "ascensionomegad"
-            },
-            "description": "The Fifth Mark: no hair remains on my body. I am strong, devilishly so. I am always shivering, every moment I am away from the fire's side.",
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionomegaf",
-            "label": "Ascension: Omega",
-            "aspects": {
-                "desire": 6,
-                "omegamarks": 6,
-                "murderskill": 1
-            },
-            "xtriggers": {
-                "descend": "ascensionomegae"
-            },
-            "description": "It is difficult to bend my limbs. I have so many scars. I prefer not to expose my face to the public gaze. I can hold a hot coal in my hand, and I feel nothing, although there is the faintest smell and the softest sizzling. This is the Sixth Mark. ",
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionalphac",
-            "label": "Ascension: Alpha",
-            "aspects": {
-                "desire": 3,
-                "alphamarks": 3
-            },
-            "xtriggers": {
-                "ascend": "ascensionalphad"
-            },
-            "description": "The Red Grail has warmed me. Its thirsts have begun to dry my mouth and itch my hands. I know this to be the Third Mark.",
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionalphad",
-            "label": "Ascension: Alpha",
-            "aspects": {
-                "desire": 4,
-                "alphamarks": 4
-            },
-            "xtriggers": {
-                "ascend": "ascensionalphae",
-                "descend": "ascensionalphac"
-            },
-            "description": "The Fourth Mark is the intermittent improvements to my skin. In patches, along my arms or down my thighs, it is clear, soft, glowing, like the skin of a child new-stepped from spring-water. But only in patches.",
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionalphae",
-            "label": "Ascension: Alpha",
-            "aspects": {
-                "desire": 5,
-                "alphamarks": 5
-            },
-            "xtriggers": {
-                "ascend": "ascensionalphaf",
-                "descend": "ascensionalphad"
-            },
-            "description": "'Extensions and eruptions' is the nick-name for the Fifth Mark. I have developed two new fingers, and only one is on my hand. I have a fistula in the crook of my knee. Pressure upon its edges is a soft glow of pleasure. I think that the bulge at the small of my back is a new organ.",
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionalphaf",
-            "label": "Ascension: Alpha",
-            "aspects": {
-                "desire": 6,
-                "alphamarks": 6
-            },
-            "xtriggers": {
-                "descend": "ascensionalphae"
-            },
-            "description": "The Sixth Mark is identified as the point when I am a hand-span taller. I swell in every member and direction. My skin is radiant velvet. Pits of flesh cushion my eyes. I am very thirsty.",
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionlambdac",
-            "label": "Ascension: Lambda",
-            "aspects": {
-                "desire": 3,
-                "lambdamarks": 3
-            },
-            "xtriggers": {
-                "ascend": "ascensionlambdad"
-            },
-            "description": "The Watchman, who is the Door-in-the-Eye, has touched me. Every day now my curiosity grows stronger: an urgent, physical need, like gnawing hunger. I know this to be the Third Mark.",
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionlambdad",
-            "label": "Ascension: Lambda",
-            "aspects": {
-                "desire": 4,
-                "lambdamarks": 4
-            },
-            "xtriggers": {
-                "ascend": "ascensionlambdae",
-                "descend": "ascensionlambdac"
-            },
-            "description": "The Fourth Mark is the light that is found in the eyes, but it is very subtle. Most can see it only when the lamps are extinguished or the night is very dark; although when I open my eyes very wide, more light leaks out. I am growing thinner.",
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionlambdae",
-            "label": "Ascension: Lambda",
-            "aspects": {
-                "desire": 5,
-                "lambdamarks": 5
-            },
-            "xtriggers": {
-                "ascend": "ascensionlambdaf",
-                "descend": "ascensionlambdad"
-            },
-            "description": "At the Fifth Mark, the light may leak out wherever the skin is bruised or frayed. And now the skin is beginning to hang loose on my body as the process gnaws at my flesh. I am very thin, now. I am always hungry.",
-            "uniquenessgroup": "uqdesire"
-        },
-        {
-            "id": "ascensionlambdaf",
-            "label": "Ascension: Lambda",
-            "aspects": {
-                "desire": 6,
-                "lambdamarks": 6
-            },
-            "xtriggers": {
-                "descend": "ascensionlambdae"
-            },
-            "description": "The Sixth Mark is said to occur when the flesh between finger and thumb can be pulled to the final finger-joint. My skin is very loose now. I think that my bones are beginning to soften. My eyes are not a human colour.",
-            "uniquenessgroup": "uqdesire"
-        },
-        {
             "id": "ascensioncapitala",
             "label": "Temptation: Capital",
             "aspects": {
@@ -323,7 +10,7 @@
             "description": "I could achieve experiences of an intensity few could imagine. [This card will allow you to win a Capital victory,  if you upgrade it far enough. Dreaming about it might advance or change it.]",
             "uniquenessgroup": "uqdesire"
         },
-{
+        {
             "id": "ascensioncapitalbm",
             "label": "Dedication: Capital",
             "aspects": {
@@ -438,19 +125,19 @@
             "uniquenessgroup": "uqdesire"
         },
         {
-			"id": "alphamarks",
+			"id": "sensationmarks",
 			"label": "The Forms of Sacredness",
 			"isAspect": true,
 			"description": "Each time I change, I leave something behind."
 		},
 		{
-			"id": "lambdamarksmarks",
+			"id": "enlightenmentmarks",
 			"label": "The Marks of Truesight",
 			"isAspect": true,
 			"description": "I may seek immortality and power in the Hour called the Forge of Days. Her touch brings particular appetites, and Marks."
 		},
 		{
-			"id": "omegamarks",
+			"id": "powermarks",
 			"label": "The Marks of Transformation",
 			"isAspect": true,
 			"description": "I may seek immortality and delight in the Hour called the Red Grail. Her touch brings particular appetites, and Marks."
@@ -460,6 +147,96 @@
 			"label": "The Marks of Accumulation",
 			"isAspect": true,
 			"description": "I may seek immortality and enlightenment in the Hour called the Watchman. His touch brings particular appetites, and Marks."
-		}
+		},
+        {
+            "id": "ascensionpowera",
+            "label": "Inspiration: Imagination",
+            "description": "It has occurred to me that imagination is the key to freedom. [This card will allow you to win an Omega victory, if you upgrade it far enough. Dreaming about it might advance or change it.]"
+        },
+        {
+            "id": "ascensionsensationa",
+            "label": "Inspiration: Community",
+            "description": "It has occurred to me that community is the key to freedom. [This card will allow you to win an Alpha victory, if you upgrade it far enough. Dreaming about it might advance or change it.]"
+        },
+        {
+            "id": "ascensionenlightenmenta",
+            "label": "Inspiration: Enlightenment",
+            "description": "It has occurred to me that imagination is the key to freedom. [This card will allow you to win a Lambda victory, if you upgrade it far enough. Dreaming about it might advance or change it.]"
+        },
+        {
+            "id": "ascensionpowera",
+            "label": "Inspiration: Imagination",
+            "description": "It has occurred to me that imagination is the key to freedom. [This card will allow you to win an Omega victory, if you upgrade it far enough. Dreaming about it might advance or change it.]"
+        },
+        {
+            "id": "ascensionsensationa",
+            "label": "Inspiration: Community",
+            "description": "It has occurred to me that community is the key to freedom. [This card will allow you to win an Alpha victory, if you upgrade it far enough. Dreaming about it might advance or change it.]"
+        },
+        {
+            "id": "ascensionenlightenmenta",
+            "label": "Inspiration: Enlightenment",
+            "description": "It has occurred to me that imagination is the key to freedom. [This card will allow you to win a Lambda victory, if you upgrade it far enough. Dreaming about it might advance or change it.]"
+        },
+        {
+            "id": "ascensionpowerb",
+            "label": "Dedication: Imagination"
+        },
+        {
+            "id": "ascensionsensationb",
+            "label": "Dedication: Community"
+        },
+        {
+            "id": "ascensionenlightenmentb",
+            "label": "Dedication: Enlightenment"
+        },
+        {
+            "id": "ascensionpowerc",
+            "label": "Ascension: Imagination"
+        },
+        {
+            "id": "ascensionsensationc",
+            "label": "Ascension: Community"
+        },
+        {
+            "id": "ascensionenlightenmentc",
+            "label": "Ascension: Enlightenment"
+        },
+        {
+            "id": "ascensionpowerd",
+            "label": "Ascension: Imagination"
+        },
+        {
+            "id": "ascensionsensationd",
+            "label": "Ascension: Community"
+        },
+        {
+            "id": "ascensionenlightenmentd",
+            "label": "Ascension: Enlightenment"
+        },
+        {
+            "id": "ascensionpowere",
+            "label": "Ascension: Imagination"
+        },
+        {
+            "id": "ascensionsensatione",
+            "label": "Ascension: Community"
+        },
+        {
+            "id": "ascensionenlightenmente",
+            "label": "Ascension: Enlightenment"
+        },
+        {
+            "id": "ascensionpowerf",
+            "label": "Ascension: Imagination"
+        },
+        {
+            "id": "ascensionsensationf",
+            "label": "Ascension: Community"
+        },
+        {
+            "id": "ascensionenlightenmentf",
+            "label": "Ascension: Enlightenment"
+        }
     ]
 }
