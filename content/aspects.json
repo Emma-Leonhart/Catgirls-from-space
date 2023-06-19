@@ -78,6 +78,12 @@
                         "label": "Moth",
                         "description": "[OO] The Moth represents secrets, dreams, transformation, and elusive elements, aligns with the concept of Larping, promoting a fluid identity by stepping into different roles and perspectives.",
                         "isAspect": true
+                    },
+                    {
+                        "id": "imbalance",
+                        "label": "Imbalance",
+                        "description": "Alien and not in a good way.",
+                        "isAspect": true
                     }
                 ]
             }
