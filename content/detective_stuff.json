@@ -9,10 +9,11 @@
         },
         {
             "id": "defaulthunter",
-            "aspects": {
+            "aspects$add": {
                 "imbalance": 1
             },
-            "label": "Man in Black"
+            "label": "Man in Black",
+            "label": "They're here to cover up the aliens"
         }
     ]
 }
