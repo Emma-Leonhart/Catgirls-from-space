@@ -82,7 +82,7 @@
                     {
                         "id": "imbalance",
                         "label": "Imbalance",
-                        "description": "Alien and not in a good way.",
+                        "description": "Alien, and not in a good way.",
                         "isAspect": true
                     }
                 ]

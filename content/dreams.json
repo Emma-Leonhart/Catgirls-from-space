@@ -1,0 +1,215 @@
+{
+    "recipes": [
+        {
+            "id": "dreamascensionpowera",
+            "label": "Meditate on my goal of unearthly power",
+            "actionid": "dream",
+            "requirements": {
+                "ascensionpowera": 1
+            },
+            "slots": [
+                {
+                    "id": "Calculation",
+                    "label": "Calculation",
+                    "required": {
+                        "lore": 1,
+                        "health": 1,
+                        "reason": 1,
+                        "priestjob": 1,
+                        "funds": 1
+                    },
+                    "description": "Dedicate myself with the lore of the principle I seek; or focus my efforts elsewhere."
+                }
+            ],
+            "startdescription": "Should I dedicate myself to my purpose? Or focus my efforts elsewhere?",
+            "description": "I have decided to remain as I am... for now.",
+            "alt": [
+                {
+                    "id": "dreamascension_abandontemptation",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_switchto_sensation",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_switchto_enlightenment",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_upgrade_power_1to2",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_switchto_capital",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "dreamascensionsensationa",
+            "label": "Meditate on the pursuit of sensation",
+            "actionid": "dream",
+            "requirements": {
+                "ascensionsensationa": 1
+            },
+            "slots": [
+                {
+                    "id": "Musing",
+                    "label": "Musing",
+                    "required": {
+                        "lore": 1,
+                        "passion": 1,
+                        "reason": 1,
+                        "priestjob": 1,
+                        "funds": 1
+                    },
+                    "description": "Dedicate myself with the lore of the principle I seek; or focus my efforts elsewhere."
+                }
+            ],
+            "startdescription": "Should I dedicate myself to my purpose? Or focus my efforts elsewhere?",
+            "description": "I have decided to remain as I am... for now.",
+            "alt": [
+                {
+                    "id": "dreamascension_abandontemptation",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_switchto_power",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_switchto_enlightenment",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_upgrade_sensation_1to2m",
+                    "chance": 50
+                },
+                {
+                    "id": "dreamascension_upgrade_sensation_1to2f",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_switchto_capital",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "dreamascensionenlightenmenta",
+            "label": "Meditate on my goal of unearthly knowledge",
+            "actionid": "dream",
+            "requirements": {
+                "ascensionenlightenmenta": 1
+            },
+            "slots": [
+                {
+                    "id": "Reflection",
+                    "label": "Reflection",
+                    "required": {
+                        "lore": 1,
+                        "passion": 1,
+                        "health": 1,
+                        "priestjob": 1,
+                        "funds": 1
+                    },
+                    "description": "Dedicate myself with the lore of the principle I seek; or focus my efforts elsewhere."
+                }
+            ],
+            "startdescription": "Should I dedicate myself to my purpose? Or focus my efforts elsewhere?",
+            "description": "I have decided to remain as I am... for now.",
+            "alt": [
+                {
+                    "id": "dreamascension_abandontemptation",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_switchto_sensation",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_switchto_power",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_upgrade_enlightenment_1to2",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_switchto_capital",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "dreamascensioncapitala",
+            "label": "Meditate on the pursuit of money",
+            "actionid": "dream",
+            "requirements": {
+                "ascensioncapitala": 1
+            },
+            "slots": [
+                {
+                    "id": "Musing",
+                    "label": "Musing",
+                    "required": {
+                        "lore": 1,
+                        "passion": 1,
+                        "reason": 1,
+                        "priestjob": 1,
+                        "funds": 1,
+                        "health": 1
+                    },
+                    "description": "Dedicate myself with the lore of the principle I seek; or focus my efforts elsewhere."
+                }
+            ],
+            "startdescription": "Should I dedicate myself to my purpose? Or focus my efforts elsewhere?",
+            "description": "I have decided to remain as I am... for now.",
+            "alt": [
+                {
+                    "id": "dreamascension_abandontemptation",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_switchto_power",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_switchto_enlightenment",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_upgrade_capital_1to2",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_switchto_sensation",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "dreamascension_switchto_capital",
+            "label": "My goal is Money, now.",
+            "actionid": "dream",
+            "requirements": {
+                "funds": 1
+            },
+            "effects": {
+                "desire": -1,
+                "ascensioncapitala": 1
+            },
+            "startdescription": "Perhaps Money is the more compelling goal.",
+            "description": "I have refocused my intentions. My goal is money. The great intelligence that guides everything."
+        }
+    ]
+}

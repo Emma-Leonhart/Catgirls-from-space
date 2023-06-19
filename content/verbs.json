@@ -23,6 +23,38 @@
                     "funds": 1
                 }
             }
+        },
+        {
+            "id": "dream",
+            "slot$dictedit": {
+                "required$add": {
+                    "funds": 1
+                }
+            }
+        },
+        {
+            "id": "talk",
+            "slot$dictedit": {
+                "required$add": {
+                    "funds": 1
+                }
+            }
+        },
+        {
+            "id": "study",
+            "slot$dictedit": {
+                "required$add": {
+                    "funds": 1
+                }
+            }
+        },
+        {
+            "id": "explore",
+            "slot$dictedit": {
+                "required$add": {
+                    "funds": 1
+                }
+            }
         }
     ]
 }
