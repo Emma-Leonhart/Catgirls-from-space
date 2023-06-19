@@ -313,10 +313,10 @@
                 "fragmentgrail": -1,
                 "fragmentmoth": -1,
                 "fragmentedge": 1,
-                "fragmentlantern": 1
+                "fragmentforge": 1
             },
-            "startdescription": "Combining Grail (ll) with Moth (oo)\nThis swaps the aspects so you will get Edge (lo) and Lantern (ol)",
-            "description": "The merging of Grail, the essence of desires and physical experiences, with Moth, the symbol of secrets, dreams, and transformation, can unleash profound revelations. As a result, the Edge aspect emerges, embodying the triumph over challenges and the pursuit of victory. It is the essence of Flow, the state of effortless performance and productivity. Simultaneously, Lantern awakens, the revealer of past truths and the beacon of illumination. It reflects the transformative power of Larping, which acts as a vaccine against Empathic Entrapment, enabling individuals to explore different perspectives and challenge preconceptions. Together, Edge and Lantern form a potent combination that fuels personal growth, triumph, and enlightenment."
+            "startdescription": "Combining Grail (ll) with Moth (oo)\nThis swaps the aspects so you will get Edge (lo) and Forge (ol)",
+            "description": "The merging of Grail, the essence of desires and physical experiences, with Moth, the symbol of secrets, dreams, and transformation, can unleash profound revelations. As a result, the Edge aspect emerges, embodying the triumph over challenges and the pursuit of victory. It is the essence of Flow, the state of effortless performance and productivity. Simultaneously, Forge awakens, the catalyst for transformation and change, unlocking the latent potential within. Forge ignites the fires of creativity and allows for the forging of new paths. Together, Edge and Forge form a potent combination that fuels personal growth, triumph, and enlightenment."
         },
         {
             "id": "lo+oa",
