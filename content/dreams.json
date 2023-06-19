@@ -245,6 +245,104 @@
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion"
+        },
+        {
+            "id": "ascensionhintcapital1",
+            "label": "The Watchman's Footsteps",
+            "actionid": "craving",
+            "requirements": {
+                "ascensioncapitala": 1
+            },
+            "startdescription": "Hunger glows in my brain - hunger for the knowledge the invisible arts might bring.",
+            "description": "The Watchman, who is the Door-in-the-Eye, waits in my dreams. If I learn the Lantern-lore, and I dream of this temptation, I can advance my purpose. The need gnaws at me.",
+            "effects": {
+                "restlessness": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "ambition",
+            "linked$append": [
+                {
+                    "id": "ascensioncravingcapital",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "ascensioncravingcapital",
+            "label": "The Curiosities of Light",
+            "actionid": "craving",
+            "requirements": {
+                "capitalmarks": 1
+            },
+            "slots": [
+                {
+                    "id": "Conversation",
+                    "label": "Conversation",
+                    "description": "The last words of a living mind.",
+                    "required": {
+                        "prisoner": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "startdescription": "Time alone in a quiet room with a living mind. That's all I need.",
+            "linked": [
+                {
+                    "id": "ascensionsuccesscravingcapital_descend",
+                    "chance": 100
+                },
+                {
+                    "id": "ascensioncravingcapital_ascend",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "ascensionsuccesscravingcapital_descend",
+            "label": "The Desert Inside",
+            "actionid": "craving",
+            "requirements": {
+                "prisoner": -1
+            },
+            "slots": [
+                {
+                    "id": "Pain",
+                    "label": "Pain",
+                    "description": "My need gnaws at me",
+                    "required": {
+                        "reason": 1,
+                        "erudition": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "startdescription": "If I cannot consume the thoughts of a living mind, my need will turn in upon itself.",
+            "description": "The Light of the Mansus dims in me. I am less than I was. I need conversation. I must have those particular conversations.",
+            "aspects": {
+                "descend": 1,
+                "fatiguing": 1
+            },
+            "effects": {
+                "erudition": -1
+            },
+            "warmup": 30
+        },
+        {
+            "id": "ascensioncravingcapital_ascend",
+            "label": "Another Mark",
+            "actionid": "craving",
+            "effects": {
+                "erudition": 2,
+                "prisoner": -1
+            },
+            "startdescription": "",
+            "description": "I have drunk the light of their mind. It thrills and fills me. The Marks brighten in me.",
+            "aspects": {
+                "ascend": 1
+            }
         }
     ]
 }
