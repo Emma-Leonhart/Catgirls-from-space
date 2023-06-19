@@ -45,6 +45,36 @@
                 "passion",
                 "funds"
             ]
+        },
+        {
+            "id": "apostleforge",
+            "availableWithoutEndingMatch": true,
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ]
+        },
+        {
+            "id": "apostlegrail",
+            "availableWithoutEndingMatch": true,
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ]
+        },
+        {
+            "id": "apostlelantern",
+            "availableWithoutEndingMatch": true,
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ]
         }
     ]
 }
