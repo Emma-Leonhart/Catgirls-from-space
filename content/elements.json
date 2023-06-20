@@ -24,7 +24,7 @@
             "comment": "similar to the bequest. Note that there are four study options. First three options are Health=Alpha Reason=Lambda Passion=Omega. If you choose funds you go down the evil path and it is quite different in gameplay."
         },
         {
-            "id": "neko.introjob",
+            "id": "introjob",
             "label": "Retail Job",
             "description": "A precarious position as a cart pusher. Miserable, but it's all you can find just now.",
             "aspects": {
