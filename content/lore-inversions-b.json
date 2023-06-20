@@ -1,0 +1,112 @@
+{
+    "recipes": [
+        {
+            "id": "invertwinterb",
+            "label": "Invert Winter Lore",
+            "actionid": "study",
+            "requirements": {
+                "fragmentwinterb": 1,
+                "lensing": 1
+            },
+            "effects": {
+                "fragmentwinterb": -1,
+                "lensing": -1,
+                "fragmentlanternb": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Winter (AL) becomes Lantern (LA)]",
+            "$priority": 100,
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "invertlanternb",
+            "label": "Invert Lantern Lore",
+            "actionid": "study",
+            "requirements": {
+                "fragmentlanternb": 1,
+                "lensing": 1
+            },
+            "effects": {
+                "fragmentlanternb": -1,
+                "lensing": -1,
+                "fragmentwinterb": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Lantern (LA) becomes Winter (AL)]",
+            "$priority": 100,
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "invertforgeb",
+            "label": "Invert Forge Lore",
+            "actionid": "study",
+            "requirements": {
+                "fragmentforgeb": 1,
+                "lensing": 1
+            },
+            "effects": {
+                "fragmentforgeb": -1,
+                "lensing": -1,
+                "fragmentedgeb": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Forge (OL) becomes Edge (LO)]",
+            "$priority": 100,
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "invertedgeb",
+            "label": "Invert Edge Lore",
+            "actionid": "study",
+            "requirements": {
+                "fragmentedgeb": 1,
+                "lensing": 1
+            },
+            "effects": {
+                "fragmentedgeb": -1,
+                "lensing": -1,
+                "fragmentforgeb": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Edge (LO) becomes Forge (OL)]",
+            "$priority": 100,
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "invertknockb",
+            "label": "Invert Knock Lore",
+            "actionid": "study",
+            "requirements": {
+                "fragmentknockb": 1,
+                "lensing": 1
+            },
+            "effects": {
+                "fragmentknockb": -1,
+                "lensing": -1,
+                "fragmentsecrethistoriesb": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Knock (OA) becomes Secret Histories (AO)]",
+            "$priority": 100,
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "invertsecretb",
+            "label": "Invert Secret Lore",
+            "actionid": "study",
+            "requirements": {
+                "fragmentsecrethistoriesb": 1,
+                "lensing": 1
+            },
+            "effects": {
+                "fragmentsecrethistoriesb": -1,
+                "lensing": -1,
+                "fragmentknockb": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Secret Histories (AO) becomes Knock (OA)]",
+            "$priority": 100,
+            "warmup": 60,
+            "craftable": true
+        }
+    ]
+}
