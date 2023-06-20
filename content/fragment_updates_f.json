@@ -1,7 +1,7 @@
 {
     "elements":[
         {
-            "id": "fragmentwinter",
+            "id": "fragmentwinterf",
             "slots": [
                 {
                     "id": "with",
@@ -18,7 +18,7 @@
             ],
         },
         {
-            "id": "fragmentlantern",
+            "id": "fragmentlanternf",
             "slots": [
                 {
                     "id": "with",
@@ -35,7 +35,7 @@
             ],
         },
         {
-            "id": "fragmentheart",
+            "id": "fragmentheartf",
             "slots": [
                 {
                     "id": "with",
@@ -52,7 +52,7 @@
             ],
         },
         {
-            "id": "fragmentgrail",
+            "id": "fragmentgrailf",
             "slots": [
                 {
                     "id": "with",
@@ -69,7 +69,7 @@
             ],
         },
         {
-            "id": "fragmentmoth",
+            "id": "fragmentmothf",
             "slots": [
                 {
                     "id": "with",
@@ -86,7 +86,7 @@
             ],
         },
         {
-            "id": "fragmentedge",
+            "id": "fragmentedgef",
             "slots": [
                 {
                     "id": "with",
@@ -103,7 +103,7 @@
             ],
         },
         {
-            "id": "fragmentforge",
+            "id": "fragmentforgef",
             "slots": [
                 {
                     "id": "with",
@@ -120,7 +120,7 @@
             ],
         },
         {
-            "id": "fragmentknock",
+            "id": "fragmentknockf",
             "slots": [
                 {
                     "id": "with",
@@ -137,7 +137,7 @@
             ],
         },        
         {
-            "id": "fragmenthand",
+            "id": "fragmenthandf",
             "slots": [
                 {
                     "id": "with",
@@ -154,7 +154,7 @@
             ],
         },
         {
-            "id": "fragmentsecrethistories",
+            "id": "fragmentsecrethistoriesf",
             "slots": [
                 {
                     "id": "with",
@@ -169,39 +169,6 @@
                     "actionid": "study"
                 }
             ],
-        },
-        {
-            "id": "restlessness",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "Combine with",
-                    "description": "Combine with fascination to form lensing.",
-                    "actionid": "study"
-                }
-            ]
-        },
-        {
-            "id": "dread",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "Combine with",
-                    "description": "Combine with fascination to form lensing.",
-                    "actionid": "study"
-                }
-            ]
-        },
-        {
-            "id": "fascination",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "Combine with",
-                    "description": "Combine with restlessness or dread to form lensing.",
-                    "actionid": "study"
-                }
-            ]
         }
         
     ]
