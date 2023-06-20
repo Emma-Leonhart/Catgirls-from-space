@@ -1,0 +1,54 @@
+{
+    "elements": [
+        {
+            "id": "ascensionmaninblack",
+            "label": "Ascension: Man in Black",
+            "aspects": {
+                "desire": 7,
+                "capitalmarks": 7,
+                "job": 1,
+                "Imbalance": 2
+            },
+            "description": "I am now a Man in Black. My goal is to eliminate chaotic elements of the Earth before its complete integration into Capital.",
+            "uniquenessgroup": "uqdesire",
+            "slots": [
+                {
+                    "id": "target",
+                    "label": "Subject",
+                    "required": {
+                        "suspicious": 1
+                    },
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
+                    "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "work"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "work"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "work"
+                }
+            ]
+        }
+    ]
+}

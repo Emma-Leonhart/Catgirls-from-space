@@ -3,16 +3,14 @@
 		{
 			"id": "becomecop",
 			"label": "Initiation into the men in Black",
+            "actionid": "evilendgameverb",
 			"maxexecutions": 1,
 			"warmup": 60,
 			"startdescription": "The Men in Black have approached you. They tell you you have done great work and can help them achieve a new world. All you must do is help them rid the world of the last few rebels and the new aeon will begin.",
-			"description": "You have been initiated into the men in black. Now everything is clear. You must eliminate all ",
-			"effects": {
-				"legacydetectivejobmatured": 1
-			},
+			"description": "You have been initiated into the men in black. Now everything is clear. You must eliminate the enemy",
 			"alt": [
 				{
-					"id": "workdetectivejobnewrival",
+					"id": "workdetectivejob_newrival",
 					"chance": 100,
 					"additional": true
 				},

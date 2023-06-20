@@ -327,6 +327,10 @@
                     "chance": 100
                 },
                 {
+                    "id": "endgamecapital",
+                    "chance": 100
+                },
+                {
                     "id": "ascensioncravingcapital",
                     "chance": 100
                 },
@@ -371,6 +375,33 @@
                     "chance": 100
                 }
             ]
+        },
+        {
+            "id": "endgamecapital",
+            "label": "Contact from the archons",
+            "actionid": "craving",
+            "requirements": {
+                "capitalmarks": 6,
+                "prisoner": 1
+            },
+            "startdescription": "The Archons have approached you in visions. They tell you you have done great work and can help them achieve a new world. All you must do is help them rid the world of the last few rebels and the new aeon will begin.",
+			"description": "You have been initiated into the men in black. Now everything is clear. You must eliminate the enemy",
+            "effects": {
+                "capitalisticness": 2,
+                "funds": 2,
+                "prisoner": -1,
+                "ascensioncapitalf": -1,
+                "ascensionmaninblack": 1,
+                "legacydetectivejobmatured": -1
+            },
+            "warmup": 30,
+            "alt": [
+				{
+					"id": "becomecop",
+					"chance": 100,
+					"additional": true
+				}
+			]
         },
         {
             "id": "ascensioncravingcapital",
