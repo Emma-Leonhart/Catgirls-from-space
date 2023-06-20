@@ -439,10 +439,11 @@
             "actionid": "craving",
             "effects": {
                 "capitalisticness": 2,
+                "funds": 2,
                 "prisoner": -1
             },
             "startdescription": "",
-            "description": "I have drunk the light of their mind. It thrills and fills me. The Marks brighten in me.",
+            "description": "All life shall be converted to capital.",
             "aspects": {
                 "ascend": 1
             }
