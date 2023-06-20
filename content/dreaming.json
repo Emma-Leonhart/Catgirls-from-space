@@ -12,14 +12,19 @@
             "linked": [
                 {
                     "id": "dreamabove",
-                    "chance": 50
+                    "chance": 45
                 },
                 {
                     "id": "dreambelow",
+                    "chance": 80
+                },
+                {
+                    "id": "dreamasabovesobelow",
                     "chance": 100
                 }
             ],
-            "warmup": 60
+            "warmup": 60,
+            "craftable": true
         },
         {
             "id": "dreamabove",
@@ -39,6 +44,18 @@
             "description": "I have gone back to earth\nMy dream helped me free myself from delusion",
             "effects": {
                 "fleeting": 1,
+                "lensing": -1
+            },
+            "warmup": 30
+        },
+        {
+            "id": "dreamasabovesobelow",
+            "label": "Dreaming as Above so Below",
+            "startdescription": "I am everywhere and nowhere simultaneously\nThe entire universe makes sense to me\nI see everything and nothing at the same time",
+            "description": "I have gone earth and the Moon\nI see everything clearly\nfree from delusion and bias\nbut inspired",
+            "effects": {
+                "fleeting": 1,
+                "contentment": 1,
                 "lensing": -1
             },
             "warmup": 30

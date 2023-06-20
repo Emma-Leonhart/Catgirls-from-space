@@ -62,7 +62,12 @@
             "id": "lensing",
             "label": "Lensing",
             "lifetime": 180,
-            "description": "As above so below\na moving up and down of psespective\nunity with all things"
+            "description": "As above so below\na moving up and down of psespective\nunity with all things",
+            "aspects":{
+                "memory": 1,
+                "way": 1
+            },
+            "comments": "lensing is only a way because that is the only way to get it to work with dream"
         },
         {
             "id": "influencehand",
