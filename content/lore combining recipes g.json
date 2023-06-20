@@ -1,0 +1,362 @@
+{
+    "recipes": [
+        {"id": "aa+ll_g",
+        "label": "Combine Heart and Grail",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentheartg": 1,
+                "fragmentgrailg": 1
+            },
+            "effects": {
+                "fragmentheartg": -1,
+                "fragmentgrailg": -1,
+                "fragmentlanterng": 1,
+                "fragmentwinterg": 1
+            },
+            "startdescription": "Combing Heart (aa) with Grail (ll)\nThis swaps the aspects so you will get Winter (al) and Lantern (la)",
+            "description": "By combining Heart, essence of community and the Pride\nand Grail, essence of exploration, destroyer of spirals\nYou get Winter the quieter of angst. Overriding poetry, discipline on the inside\nand lantern the revealer of past truths"
+        },
+        {"id": "aa+lo_g",
+        "label": "Combine Heart and Edge",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentheartg": 1,
+                "fragmentedgeg": 1
+            },
+            "effects": {
+                "fragmentheartg": -1,
+                "fragmentedgeg": -1,
+                "fragmentsecrethistoriesg": 1,
+                "fragmentwinterg": 1
+            },
+            "startdescription": "Combing Heart (aa) with Edge (lo)\nThis swaps the aspects so you will get Secret Histories (al) and Winter (ao)",
+            "description": "By combining Heart, the essence of community, and the Pride\nand Edge, the spirit of overcoming challenges\nYou get Secret Histories, the reframer of absurdities, revealing hidden truths\nand Winter, the silencer of angst, providing a soothing refuge from the whirlwind of anxiety."
+        },
+        {
+            "id": "aa+ol_g",
+            "label": "Combine Heart and Forgg",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentheartg": 1,
+                "fragmentforgeg": 1
+            },
+            "effects": {
+                "fragmentheartg": -1,
+                "fragmentforgeg": -1,
+                "fragmentknockg": 1,
+                "fragmentwinterg": 1
+            },
+            "startdescription": "Combining Heart (aa) with Forge (ol)\nThis swaps the aspects so you will get Knock (oa) and Winter (al)",
+            "description": "By merging Heart, the symbol of vitality and communal unity, the force of 'The Pride' against Alienation\nand Forge, the catalyst for transformation and change, the 'Ego Loosening' antidote to Ego Entrapment\nYou obtain Knock, the key to transitions and overcoming barriers, the 'Antibodies' against Foreign Entrapment\nand Winter, the quiet seclusion against angst, the 'Inner Dialogue' as solace against chaos."
+        },        
+        {
+            "id": "aa+oo_g",
+            "label": "Combine Heart and Moth",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentheartg": 1,
+                "fragmentmothg": 1
+            },
+            "effects": {
+                "fragmentheartg": -1,
+                "fragmentmothg": -1,
+                "fragmentsecrethistoriesg": 1,
+                "fragmentknockg": 1
+            },
+            "startdescription": "Combining Heart (aa) with Moth (oo)\nThis swaps the aspects so you will get Secret Histories (ao) and Knock (oa)",
+            "description": "By merging Heart, the symbol of vitality and communal unity, the force of 'The Pride' against Alienation\nand Moth, the emblem of transformation and elusive elements, the 'Larping' antidote to Empathic Entrapment\nYou obtain Secret Histories, the veil to hidden truths and 'Enlensing', the antidote to Absurdity; and Knock, the key to transitions and overcoming barriers, the 'Antibodies' against Foreign Entrapment."
+        },        
+        {
+            "id": "al+la_g",
+            "label": "Combine Winter and Lantern",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentwinterg": 1,
+                "fragmentlanterng": 1
+            },
+            "effects": {
+                "fragmentwinterg": -1,
+                "fragmentlanterng": -1,
+                "fragmentgrailg": 1,
+                "fragmentheartg": 1
+            },
+            "startdescription": "Combining Winter (al) with Lantern (la)\nThis swaps the aspects so you will get Grail (aa) and Heart (ll)",
+            "description": "By combining Winter, the silencer of angst, providing a soothing refuge\nand Lantern, the revealer of forgotten truths, guiding light against oblivion\nYou get Grail, the explorer of life's richness, counteracting the spiral of despair\nand Heart, the essence of community and connection, the Pride against alienation."
+        },
+        {
+            "id": "al+lo_g",
+            "label": "Combine Winter and Edge",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentwinterg": 1,
+                "fragmentedgeg": 1
+            },
+            "effects": {
+                "fragmentwinterg": -1,
+                "fragmentedgeg": -1,
+                "fragmentsecrethistoriesg": 1,
+                "fragmentgrailg": 1
+            },
+            "startdescription": "Combining Winter (al) with Edge (lo)\nThis swaps the aspects so you will get Secret Histories (ao) and Grail (ll)",
+            "description": "By merging Winter, the quiet seclusion against angst, an internal sanctuary\nand Edge, the blade cutting through adversities, the embodiment of 'Flow'\nYou obtain Secret Histories, the uncoverer of concealed truths, an 'Enlensing' against the Absurdity of existence\nand Grail, the embodiment of desire and sensory experiences, the 'Counter-Spiralling' antidote against tunnel vision."
+        },
+        {
+            "id": "al+oa_g",
+            "label": "Combine Winter and Knock",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentwinterg": 1,
+                "fragmentknockg": 1
+            },
+            "effects": {
+                "fragmentwinterg": -1,
+                "fragmentknockg": -1,
+                "fragmentheartg": 1,
+                "fragmentedgeg": 1
+            },
+            "startdescription": "Combining Winter (al) with Knock (oa)\nThis swaps the aspects so you will get Heart (aa) and Forge (ol)",
+            "description": "By merging Winter, the quiet seclusion against angst, an internal sanctuary\nand Knock the liberator from harmful ideas\nYou obtain Heart, the essence of community, and the Pride.\nSecondly, Forge emerges, the realm of transformation and change, the 'Ego Loosening' against Ego Entrapment. Forge inspires us to shatter our rigid self-identity, encouraging personal growth and the constant metamorphosis of the self."
+        },
+        {
+            "id": "al+oo_g",
+            "label": "Combine Winter and Moth",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentwinterg": 1,
+                "fragmentmothg": 1
+            },
+            "effects": {
+                "fragmentwinterg": -1,
+                "fragmentmothg": -1,
+                "fragmentsecrethistoriesg": 1,
+                "fragmentforgeg": 1
+            },
+            "startdescription": "Combining Winter (al) with Moth (oo)\nThis swaps the aspects so you will get Secret Histories (ao) and Forge (ol)",
+            "description": "By merging Winter, the essence of tranquility, the 'Inner Dialogue' against Angst, and Moth, the bringer of elusive transformations, the 'Larping' against Empathic Entrapment, new insights emerge. First, Secret Histories, the vault of hidden truths and obscured knowledge, the 'Enlensing' against Absurdity. It reveals the hidden narratives that govern our world, allowing us to understand and accept life's absurdities. Secondly, Forge emerges, the realm of transformation and change, the 'Ego Loosening' against Ego Entrapment. Forge inspires us to shatter our rigid self-identity, encouraging personal growth and the constant metamorphosis of the self."
+        },
+        {
+            "id": "ao+la_g",
+            "label": "Combine Secret Histories and Lantern",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentsecrethistoriesg": 1,
+                "fragmentlanterng": 1
+            },
+            "effects": {
+                "fragmentsecrethistoriesg": -1,
+                "fragmentlanterng": -1,
+                "fragmentheartg": 1,
+                "fragmentedgeg": 1
+            },
+            "startdescription": "Combining Secret Histories (ao) with Lantern (la)\nThis swaps the aspects so you will get Heart (aa) and Edge (lo)",
+            "description": "By merging Secret Histories, the essence of obscured truths, the 'Enlensing' against Absurdity, with Lantern, the harbinger of knowledge and enlightenment, the 'Remembering' against Forgetting, two new essences are revealed. First, Heart, the essence of vitality, community and the 'Pride' against Alienation. It resonates with our shared human bonds and encourages pride in our unique qualities. Secondly, Edge emerges, the symbol of survival, victory and the 'Flow' against Drowning. As Edge embodies the spirit of overcoming, Flow enables us to conquer the sensation of drowning in our problems, pushing us into a state of effortless performance and productivity."
+        },
+        {
+            "id": "ao+ll_g",
+            "label": "Combine Secret Histories and Grail",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentsecrethistoriesg": 1,
+                "fragmentgrailg": 1
+            },
+            "effects": {
+                "fragmentsecrethistoriesg": -1,
+                "fragmentgrailg": -1,
+                "fragmentwinterg": 1,
+                "fragmentedgeg": 1
+            },
+            "startdescription": "Combining Secret Histories (ao) with Grail (ll)\nThis swaps the aspects so you will get Winter (al) and Edge (lo)",
+            "description": "By blending Secret Histories, the veil of hidden truths, the 'Enlensing' antidote to Absurdity, with the Grail, the essence of desire, satiation, and 'Counter-Spiralling' against Spiralling, we manifest two new essences. First, Winter arises, the quietude of endings, introspective solitude, and the 'Inner Dialogue' pacifier of Angst, echoing tranquillity in the face of chaos. Subsequently, Edge emerges, the symbol of challenge, victory, and the 'Flow' against Drowning. With Edge's spirit of overcoming, Flow navigates the turbulent seas of our problems, guiding us towards an effortless state of performance and productivity."
+        },
+        {
+            "id": "ao+oa_g",
+            "label": "Combine Secret Histories and Knock",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentsecrethistoriesg": 1,
+                "fragmentknockg": 1
+            },
+            "effects": {
+                "fragmentsecrethistoriesg": -1,
+                "fragmentknockg": -1,
+                "fragmentheartg": 1,
+                "fragmentmothg": 1
+            },
+            "startdescription": "Combining Secret Histories (ao) with Knock (oa)\nThis swaps the aspects so you will get Heart (aa) and Moth (oo)",
+            "description": "Uniting Secret Histories, the lens of hidden truths, and 'Enlensing', the antidote to Absurdity, with Knock, the shaper of transitions, and 'Antibodies', the defence against Foreign Entrapment, births two new aspects. Heart emerges, embodying vitality, emotion, human connections, and 'The Pride' vaccine against Alienation. Through 'The Pride', we cherish our unique traits, fostering a deep sense of belonging and unity. Concurrently, Moth reveals itself, the keeper of secrets, dreams, transformation, and 'Larping', the cure for Empathic Entrapment. By assuming various roles, we foster fluid identities, freeing ourselves from empathy's confines and allowing exploration of diverse perspectives."
+        },
+        {
+            "id": "ao+ol_g",
+            "label": "Combine Secret Histories and Forgg",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentsecrethistoriesg": 1,
+                "fragmentforgeg": 1
+            },
+            "effects": {
+                "fragmentsecrethistoriesg": -1,
+                "fragmentforgeg": -1,
+                "fragmentwinterg": 1,
+                "fragmentmothg": 1
+            },
+            "startdescription": "Combining Secret Histories (ao) with Forge (ol)\nThis swaps the aspects so you will get Winter (al) and Moth (oo)",
+            "description": "In merging Secret Histories, the uncoverer of hidden truths and the Enlensing practice to alleviate Absurdity, with Forge, the aspect of transformation and 'Ego Loosening' as an answer to Ego Entrapment, we birth two new manifestations. Winter surfaces, symbolizing endings, silence, and the 'Inner Dialogue' practice to alleviate Angst. Like a cocoon of introspection, it provides a space for internal healing and transformation. Alongside, Moth unfurls, emblem of dreams, secrets, and 'Larping', a liberating practice against Empathic Entrapment. It promotes a metamorphic process, inviting us to experience and empathize with different roles and perspectives, freeing us from the confines of Empathic Entrapment."
+        },
+        {
+            "id": "la+ol_g",
+            "label": "Combine Lantern and Forgg",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentlanterng": 1,
+                "fragmentforgeg": 1
+            },
+            "effects": {
+                "fragmentlanterng": -1,
+                "fragmentforgeg": -1,
+                "fragmentknockg": 1,
+                "fragmentgrailg": 1
+            },
+            "startdescription": "Combining Lantern (la) with Forge (ol)\nThis swaps the aspects so you will get Knock (oa) and Grail (ll)",
+            "description": "Uniting Lantern, the aspect of enlightenment and 'Remembering' as a solution to Forgetting, with Forge, the emblem of transformation and 'Ego Loosening' as an antidote to Ego Entrapment, we manifest two fresh perspectives. Knock emerges, representing transitions, opening of new paths, and the 'Antibodies' practice, the cure for Foreign Entrapment. It is the journey towards liberation, breaking barriers, and forming pathways for new thoughts. Grail also manifests, symbolizing desire, physical experiences, and 'Counter-Spiralling', the answer to the malady of Spiralling. Like a kaleidoscope of diverse experiences, it offers a wider, more enriching perspective of life, rescuing us from a narrowing spiral of thoughts and experiences."
+        },
+        {
+            "id": "la+oo_g",
+            "label": "Combine Lantern and Moth",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentlanterng": 1,
+                "fragmentmothg": 1
+            },
+            "effects": {
+                "fragmentlanterng": -1,
+                "fragmentmothg": -1,
+                "fragmentedgeg": 1,
+                "fragmentknockg": 1
+            },
+            "startdescription": "Combining Lantern (la) with Moth (oo)\nThis swaps the aspects so you will get Edge (lo) and Knock (oa)",
+            "description": "Fusing Lantern, the beacon of understanding and Remembering, with Moth, the symbol of transformation and Larping, leads to fresh revelations. From this amalgamation arises Edge, signifying challenge and survival, akin to the process of Flow, an antidote to Drowning. It is a testament to the strength of determination and resilience in face of overwhelming odds. Alongside it, Knock manifests, symbolizing transitions and the overcoming of barriers. It resonates with the concept of Antibodies, neutralizing harmful foreign influences, liberating individuals from entrapment. Like a key turning in a lock, it signals the opening of new doors and the formation of fresh paths in life."
+        },
+        {
+            "id": "ll+oa_g",
+            "label": "Combine Grail and Knock",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentgrailg": 1,
+                "fragmentknockg": 1
+            },
+            "effects": {
+                "fragmentgrailg": -1,
+                "fragmentknockg": -1,
+                "fragmentlanterng": 1,
+                "fragmentforgeg": 1
+            },
+            "startdescription": "Combining Grail (ll) with Knock (oa)\nThis swaps the aspects so you will get Lantern (la) and Forge (ol)",
+            "description": "Grail, the essence of desires and physical experiences, merged with Knock, the key to transitions, can bring forth transformative truths. The resulting Lantern aspect signifies the revelatory power of Remembering, which counters Forgetting, offering enlightenment in the face of obscured truths. It is the merging with knowledge, not simply recalling, but shining a new light on forgotten experiences. Simultaneously, the Forge emerges, the symbol of transformation and change, synonymous with the process of Ego Loosening. Just as the Forge reshapes raw metal, Ego Loosening facilitates the reshaping of one's rigid self-identity, offering a more adaptable and flexible view of oneself."
+        },
+        {
+            "id": "ll+oo_g",
+            "label": "Combine Grail and Moth",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentgrailg": 1,
+                "fragmentmothg": 1
+            },
+            "effects": {
+                "fragmentgrailg": -1,
+                "fragmentmothg": -1,
+                "fragmentedgeg": 1,
+                "fragmentforgeg": 1
+            },
+            "startdescription": "Combining Grail (ll) with Moth (oo)\nThis swaps the aspects so you will get Edge (lo) and Forge (ol)",
+            "description": "The merging of Grail, the essence of desires and physical experiences, with Moth, the symbol of secrets, dreams, and transformation, can unleash profound revelations. As a result, the Edge aspect emerges, embodying the triumph over challenges and the pursuit of victory. It is the essence of Flow, the state of effortless performance and productivity. Simultaneously, Forge awakens, the catalyst for transformation and change, unlocking the latent potential within. Forge ignites the fires of creativity and allows for the forging of new paths. Together, Edge and Forge form a potent combination that fuels personal growth, triumph, and enlightenment."
+        },
+        {
+            "id": "lo+oa_g",
+            "label": "Combine Edge and Knock",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentedgeg": 1,
+                "fragmentknockg": 1
+            },
+            "effects": {
+                "fragmentedgeg": -1,
+                "fragmentknockg": -1,
+                "fragmentlanterng": 1,
+                "fragmentmothg": 1
+            },
+            "startdescription": "Combining Edge (lo) with Knock (oa)\nThis swaps the aspects so you will get Lantern (la) and Moth (oo)",
+            "description": "The convergence of Edge, representing the triumph over challenges, and Knock, symbolizing transitions and overcoming barriers, leads to profound transformations. As a result, Lantern emerges, the revealer of past truths and the beacon of illumination. It sheds light on hidden knowledge and unveils new paths. Simultaneously, Moth awakens, representing secrets, dreams, and transformation. Moth sheds its old skin to embrace new possibilities. Together, Lantern and Moth form a powerful union, allowing individuals to explore hidden realms, discover profound insights, and embark on transformative journeys."
+        },
+        {
+            "id": "lo+ol_g",
+            "label": "Combine Edge and Forgg",
+            "actionid": "study",
+            "$priority": 10,
+            "warmup": 60,
+            "craftable": true,
+            "requirements": {
+                "fragmentedgeg": 1,
+                "fragmentforgeg": 1
+            },
+            "effects": {
+                "fragmentedgeg": -1,
+                "fragmentforgeg": -1,
+                "fragmentmothg": 1,
+                "fragmentgrailg": 1
+            },
+            "startdescription": "Combining Edge (lo) with Forge (ol)\nThis swaps the aspects so you will get Moth (oo) and Grail (ll)",
+            "description": "When Edge, symbolizing triumph over challenges, combines with Forge, representing transformation and change, a powerful alchemy takes place. The result is the emergence of Moth, the aspect of secrets, dreams, and transformation. Moth sheds its old form to embrace new possibilities and explores the hidden realms of existence. Simultaneously, Grail comes forth, representing desire and physical experiences. Together, Moth and Grail create a dynamic duo, delving into the depths of human desires and unearthing profound insights through transformative journeys."
+        }
+    ]
+}
