@@ -14,6 +14,18 @@
                         ]
                     },
                     {
+                        "id": "venerationimbalance",
+                        "label": "Veneration: Imbalance",
+                        "description": "This organization follows the principle of the eternal accumulation, wearing down the world for their alien overlords.",
+                        "isAspect": true
+                    },
+                    {
+                        "id": "venerationbalance",
+                        "label": "Veneration: Catgirl",
+                        "description": "This organization follows the principle of the Immortal Catgirl.",
+                        "isAspect": true
+                    },
+                    {
                         "id": "venerationhand",
                         "label": "Veneration: Hand",
                         "description": "This organization follows the principle of the Hand, utilizing its influence to guide and manipulate economies, probabilities, and realities, charting the course of destiny unseen by most.",
