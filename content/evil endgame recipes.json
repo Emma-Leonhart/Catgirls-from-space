@@ -45,13 +45,18 @@
         {
             "id": "evilcycle",
             "actionid": "evilendgameverb",
+            "label": "Immunity",
             "slots": [
                 {
                     "id": "transformation",
-                    "label": "Transformation",
+                    "label": "Providing Immunity",
                     "description": "We see the truth",
                     "required": {
-                        "culthand_1": 1
+                        "hunter": 1,
+                        "evidenceb": 1,
+                        "evidence": 1,
+                        "notoriety": 1,
+                        "mystique": 1
                     },
                     "greedy": true
                 }

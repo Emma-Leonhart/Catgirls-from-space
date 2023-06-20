@@ -389,7 +389,8 @@
                 "prisoner": -1,
                 "ascensioncapitalf": -1,
                 "ascensionmaninblack": 1,
-                "legacydetectivejobmatured": -1
+                "legacydetectivejobmatured": -1,
+                "favour": 10
             },
             "warmup": 30,
             "alt": [
