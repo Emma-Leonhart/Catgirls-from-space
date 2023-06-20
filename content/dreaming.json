@@ -1,0 +1,47 @@
+{
+    "recipes": [
+        {
+            "id": "dreamlensing",
+            "label": "Dream on above and below",
+            "actionid": "dream",
+            "requirements": {
+                "lensing": 1
+            },
+            "startdescription": "Tonight I will dream of the relationship between heaven and earth",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "dreamabove",
+                    "chance": 50
+                },
+                {
+                    "id": "dreambelow",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60
+        },
+        {
+            "id": "dreamabove",
+            "label": "Dreaming of Above",
+            "startdescription": "To see a World in a Grain of Sand\nAnd a Heaven in a Wild Flower\nHold Infinity in the palm of your hand\nAnd Eternity in an hour",
+            "description": "I am refreshed and feel on top of the world\nI am the size of the universe",
+            "effects": {
+                "contentment": 1,
+                "lensing": -1
+            },
+            "warmup": 30
+        },
+        {
+            "id": "dreambelow",
+            "label": "Dreaming of Below",
+            "startdescription": "There is nothing but the breath\nI am the breath\nOther things are trivial",
+            "description": "I have gone back to earth\nMy dream helped me free myself from delusion",
+            "effects": {
+                "fleeting": 1,
+                "lensing": -1
+            },
+            "warmup": 30
+        }
+    ]
+}
