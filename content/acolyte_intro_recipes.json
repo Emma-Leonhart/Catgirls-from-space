@@ -108,7 +108,7 @@
             "requirements": {},
             "startdescription": "I set up a gofundme to support myself. Maybe people will support me",
             "description": ".",
-            "warmup": 60,
+            "warmup": 30,
             "craftable": false,
             "linked": [
                 {

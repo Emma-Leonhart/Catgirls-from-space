@@ -240,6 +240,7 @@
                 "ascensioncapitalb": -1,
                 "ascensioncapitalc": 1
             },
+            "$priority": 10,
             "startdescription": "This rite is the Key that will allow the Capital's grip to tighten around me. I will be consumed by its influence, forever transformed into a vessel for its beautiful agenda.",
             "description": "The Rite is complete. The Marks of the Capital are imprinted upon me. The First Mark is the allegiance I have pledged, and the Second is the actions I have taken in its name. If I examine my body, I'll discover the Third Mark, a physical manifestation of my transformation. My desires have been reshaped, now honed to serve its purpose.",
             "warmup": 60,

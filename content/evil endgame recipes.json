@@ -19,8 +19,29 @@
                     "chance": 100,
                     "additional": true
                 }
-			]
-		},
+			],
+            "linked": "convertcult"
+        },
+        {
+            "id": "convertcult",
+            "label": "We have accepted our masters fully",
+            "actionid": "evilendgameverb",
+            "slots": [
+                {
+                    "id": "transformation",
+                    "label": "Transformation",
+                    "description": "We see the truth",
+                    "required": {
+                        "culthand_1": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "effects": {
+                "culthand_1": -1,
+                "cult_imbalance": 1
+            }
+        },
         {
             "id": "long.spawn.capital",
             "label": "Someone has Arrived",
