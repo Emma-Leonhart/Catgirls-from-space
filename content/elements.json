@@ -42,6 +42,10 @@
         {
             "id": "generic_p",
             "label": "An Unpaid Intern"
-        }
+        },
+        {
+            "id": "notoriety",
+            "decayTo": "mystique"
+        },
     ]
 }
