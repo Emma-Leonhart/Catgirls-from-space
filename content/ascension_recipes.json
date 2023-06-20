@@ -327,10 +327,6 @@
                     "chance": 100
                 },
                 {
-                    "id": "endgamecapital",
-                    "chance": 100
-                },
-                {
                     "id": "ascensioncravingcapital",
                     "chance": 100
                 },
@@ -423,6 +419,10 @@
             ],
             "startdescription": "Time alone in a quiet room with a living mind. That's all I need.",
             "linked": [
+                {
+                    "id": "endgamecapital",
+                    "chance": 100
+                },
                 {
                     "id": "ascensionsuccesscravingcapital_descend",
                     "chance": 100
