@@ -22,7 +22,7 @@
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
-                        "vitalityplus": 1
+                        "capitalisticnessplus": 1
                     },
                     "consumes": true,
                     "description": "Am I ready to grow stronger?"
@@ -32,7 +32,7 @@
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
-                        "vitalityplus": 1
+                        "capitalisticnessplus": 1
                     },
                     "consumes": true,
                     "description": "Am I ready to grow stronger?"
@@ -67,7 +67,7 @@
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
-                        "vitalityplus": 1
+                        "capitalisticnessplus": 1
                     },
                     "consumes": true,
                     "description": "Shall I grow stronger yet?[Use this with three Lessons Learnt  to gain more Health.]"
@@ -77,7 +77,7 @@
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
-                        "vitalityplus": 1
+                        "capitalisticnessplus": 1
                     },
                     "consumes": true,
                     "description": "Shall I grow stronger yet?"
@@ -87,7 +87,7 @@
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
-                        "vitalityplus": 1
+                        "capitalisticnessplus": 1
                     },
                     "consumes": true,
                     "description": "Shall I grow stronger yet?"
@@ -125,7 +125,7 @@
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
-                        "vitalityplus": 1
+                        "capitalisticnessplus": 1
                     },
                     "consumes": true,
                     "description": "Could I grow healthier still? [Use this with four Lessons Learnt to gain more Health.]"
@@ -135,7 +135,7 @@
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
-                        "vitalityplus": 1
+                        "capitalisticnessplus": 1
                     },
                     "consumes": true,
                     "description": "Could I grow healthier still?"
@@ -145,7 +145,7 @@
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
-                        "vitalityplus": 1
+                        "capitalisticnessplus": 1
                     },
                     "consumes": true,
                     "description": "Could I grow healthier still?"
@@ -155,7 +155,7 @@
                     "actionid": "study",
                     "label": "A Lesson Learnt",
                     "required": {
-                        "vitalityplus": 1
+                        "capitalisticnessplus": 1
                     },
                     "consumes": true,
                     "description": "Could I grow healthier still?"
