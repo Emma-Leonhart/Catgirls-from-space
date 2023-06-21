@@ -1,0 +1,114 @@
+{
+    "recipes":[
+        {
+            "id": "studyincreasehealthstarter",
+            "label": "Exercise the Body",
+            "actionid": "study",
+            "requirements": {
+                "capitalisticness": 2
+            },
+            "startdescription": "I am abrim with capitalisticness. If I devote some time to exercise, I'll benefit.",
+            "description": "I've grown stronger. [I've gained Health, but it'll be more difficult to gain Health next time.]",
+            "effects": {
+                "capitalisticness": -2,
+                "health": 1,
+                "skillmoneya": 1
+            },
+            "warmup": 60,
+            "maxexecutions": 1,
+            "craftable": true
+        },
+        {
+            "id": "studyincreasecapitalisticnesstoplus",
+            "label": "Study Finance",
+            "actionid": "study",
+            "requirements": {
+                "capitalisticness": 2
+            },
+            "startdescription": "I am abrim with capitalisticness. If I devote some time to exercise, I'll benefit.",
+            "description": "I'm ready to grow bougier. [Use this Lesson Learnt with your Strength skill.]",
+            "effects": {
+                "capitalisticness": -2,
+                "capitalisticnessplus": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyincreasecapitalisticnesswithinfluencehandtoplus",
+            "label": "Exercise the Body",
+            "actionid": "study",
+            "requirements": {
+                "capitalisticness": 1,
+                "influencehand": 1,
+                "lore": -1
+            },
+            "startdescription": "I am abrim with capitalisticness, and this is a brisk season. If I devote some time to exercise, I'll benefit. [If you add appropriate Lore, this will allow you to create a more powerful occult Influence instead.]",
+            "description": "I'm ready to grow stronger. [Use this Lesson Learnt with your Strength skill.]",
+            "effects": {
+                "influence": -2,
+                "capitalisticnessplus": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyincreasemoneyskilla",
+            "label": "Exercise the Body: Stronger...",
+            "actionid": "study",
+            "requirements": {
+                "skillmoneya": 1,
+                "capitalisticnessplus": 2
+            },
+            "aspects": {
+                "careeradvancement": 1
+            },
+            "startdescription": "I will grow stronger still.",
+            "description": "The machine, my body, ripples with power.",
+            "effects": {
+                "health": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyincreasemoneyskillb",
+            "label": "Exercise the Body:  Stronger Yet...",
+            "actionid": "study",
+            "requirements": {
+                "skillmoneyb": 1,
+                "capitalisticnessplus": 3
+            },
+            "aspects": {
+                "careeradvancement": 1
+            },
+            "startdescription": "I will grow stronger yet.",
+            "description": "I could carry a man across a river, now; or strangle him.",
+            "effects": {
+                "health": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyincreasemoneyskill_to_d",
+            "label": "Exercise the Body: A Higher Strength",
+            "actionid": "study",
+            "requirements": {
+                "skillmoneyc": 1,
+                "capitalisticnessplus": 4,
+                "hand": 1,
+                "lore": 1
+            },
+            "startdescription": "I will follow in the footsteps of the Lionsmith, who grows strong and stronger, and of the Colonel, who does not flinch from scars.",
+            "description": "My heart beats with the steadiness of a drum and the certainty of a judge's sentence.",
+            "effects": {
+                "health": 1,
+                "skillmoneyc": -1,
+                "skillmoneyd_strength": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        }
+    ]
+}

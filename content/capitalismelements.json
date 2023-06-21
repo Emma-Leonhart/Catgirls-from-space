@@ -1,0 +1,185 @@
+{
+    "elements":[
+        {
+            "id": "skillmoneya",
+            "label": "Skill: a Stronger Physique",
+            "aspects": {
+                "healthskill": 1,
+                "ability": 1
+            },
+            "description": "I have benefited from exercise. [Use this with two Lessons Learnt to gain more Health.]",
+            "slots": [
+                {
+                    "id": "Health",
+                    "actionid": "work",
+                    "description": "I must devote my energies to this.",
+                    "required": {
+                        "health": 1
+                    }
+                },
+                {
+                    "id": "V1",
+                    "actionid": "study",
+                    "label": "A Lesson Learnt",
+                    "required": {
+                        "vitalityplus": 1
+                    },
+                    "consumes": true,
+                    "description": "Am I ready to grow stronger?"
+                },
+                {
+                    "id": "V2",
+                    "actionid": "study",
+                    "label": "A Lesson Learnt",
+                    "required": {
+                        "vitalityplus": 1
+                    },
+                    "consumes": true,
+                    "description": "Am I ready to grow stronger?"
+                }
+            ],
+            "xtriggers": {
+                "careeradvancement": "skillmoneyb"
+            }
+        },
+        {
+            "id": "skillmoneyb",
+            "label": "Skill: a Hardened Physique",
+            "description": "You might not know it to look at me, but I have grown strong as a smith or a soldier. [Use this with three Lessons Learnt to gain more Health.]",
+            "xtriggers": {
+                "careeradvancement": "skillmoneyc"
+            },
+            "aspects": {
+                "healthskill": 2,
+                "ability": 1
+            },
+            "slots": [
+                {
+                    "id": "Health",
+                    "actionid": "work",
+                    "description": "I must devote my energies to this.",
+                    "required": {
+                        "health": 1
+                    }
+                },
+                {
+                    "id": "V1",
+                    "actionid": "study",
+                    "label": "A Lesson Learnt",
+                    "required": {
+                        "vitalityplus": 1
+                    },
+                    "consumes": true,
+                    "description": "Shall I grow stronger yet?[Use this with three Lessons Learnt  to gain more Health.]"
+                },
+                {
+                    "id": "V2",
+                    "actionid": "study",
+                    "label": "A Lesson Learnt",
+                    "required": {
+                        "vitalityplus": 1
+                    },
+                    "consumes": true,
+                    "description": "Shall I grow stronger yet?"
+                },
+                {
+                    "id": "V3",
+                    "actionid": "study",
+                    "label": "A Lesson Learnt",
+                    "required": {
+                        "vitalityplus": 1
+                    },
+                    "consumes": true,
+                    "description": "Shall I grow stronger yet?"
+                }
+            ]
+        },
+        {
+            "id": "skillmoneyc",
+            "label": "Skill: a Steely Physique",
+            "description": "There are many things now that I could crush in my fists. [Use this with four Lessons Learnt to gain more Health.]",
+            "aspects": {
+                "healthskill": 3,
+                "ability": 1
+            },
+            "slots": [
+                {
+                    "id": "Health",
+                    "actionid": "work",
+                    "description": "I must devote my energies to this.",
+                    "required": {
+                        "health": 1
+                    }
+                },
+                {
+                    "id": "specialisation",
+                    "actionid": "study",
+                    "label": "Something More",
+                    "required": {
+                        "lore": 1
+                    },
+                    "description": "If I know the right Lore, I can employ the invisible arts to reach an even higher summit. I must choose between strength and grace."
+                },
+                {
+                    "id": "V1",
+                    "actionid": "study",
+                    "label": "A Lesson Learnt",
+                    "required": {
+                        "vitalityplus": 1
+                    },
+                    "consumes": true,
+                    "description": "Could I grow healthier still? [Use this with four Lessons Learnt to gain more Health.]"
+                },
+                {
+                    "id": "V2",
+                    "actionid": "study",
+                    "label": "A Lesson Learnt",
+                    "required": {
+                        "vitalityplus": 1
+                    },
+                    "consumes": true,
+                    "description": "Could I grow healthier still?"
+                },
+                {
+                    "id": "V3",
+                    "actionid": "study",
+                    "label": "A Lesson Learnt",
+                    "required": {
+                        "vitalityplus": 1
+                    },
+                    "consumes": true,
+                    "description": "Could I grow healthier still?"
+                },
+                {
+                    "id": "V4",
+                    "actionid": "study",
+                    "label": "A Lesson Learnt",
+                    "required": {
+                        "vitalityplus": 1
+                    },
+                    "consumes": true,
+                    "description": "Could I grow healthier still?"
+                }
+            ]
+        },
+        {
+            "id": "skillmoneyd",
+            "label": "Skill: a Matchless Physique",
+            "description": "I move like a mountain and strike like the sky. 'To master others is strength. To master yourself is power.' [Health and Skill can increase no further.]",
+            "aspects": {
+                "healthskill": 4,
+                "ability": 1
+            },
+            "slots": [
+                {
+                    "id": "Health",
+                    "actionid": "work",
+                    "description": "I must devote my energies to this.",
+                    "required": {
+                        "health": 1
+                    }
+                }
+            ]
+        }
+    ]
+}
