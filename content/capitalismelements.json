@@ -2,7 +2,7 @@
     "elements":[
         {
             "id": "skillmoneya",
-            "label": "Skill: a Stronger Physique",
+            "label": "Skill: a Stronger Work Ethic",
             "aspects": {
                 "healthskill": 1,
                 "ability": 1
@@ -44,7 +44,7 @@
         },
         {
             "id": "skillmoneyb",
-            "label": "Skill: a Hardened Physique",
+            "label": "Skill: a Hardened Work Ethic",
             "description": "You might not know it to look at me, but I have grown strong as a smith or a soldier. [Use this with three Lessons Learnt to gain more Health.]",
             "xtriggers": {
                 "careeradvancement": "skillmoneyc"
@@ -96,7 +96,7 @@
         },
         {
             "id": "skillmoneyc",
-            "label": "Skill: a Steely Physique",
+            "label": "Skill: a Steely Work Ethic",
             "description": "There are many things now that I could crush in my fists. [Use this with four Lessons Learnt to gain more Health.]",
             "aspects": {
                 "healthskill": 3,
@@ -164,7 +164,7 @@
         },
         {
             "id": "skillmoneyd",
-            "label": "Skill: a Matchless Physique",
+            "label": "Skill: a Matchless Work Ethic",
             "description": "I move like a mountain and strike like the sky. 'To master others is strength. To master yourself is power.' [Health and Skill can increase no further.]",
             "aspects": {
                 "healthskill": 4,
