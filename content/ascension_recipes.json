@@ -374,7 +374,82 @@
             ]
         },
         {
-            "id": "endgamecapital",
+            "id": "ascensioncravingcapital_endgame",
+            "label": "I'm this close",
+            "actionid": "craving",
+            "requirements": {
+                "capitalmarks": 7
+            },
+            "slots": [
+                {
+                    "id": "peopleleft",
+                    "label": "Nobody Left?",
+                    "description": "Is there nobody left?",
+                    "required": {
+                        "mistakenidentity": 1
+                    },
+                    "greedy": true
+                },
+                {
+                    "id": "Conversation",
+                    "label": "Conversation",
+                    "description": "The last words of a living mind.",
+                    "required": {
+                        "prisoner": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "startdescription": "Time alone in a quiet room with a living mind. That's all I need.",
+            "linked": [
+                {
+                    "id": "checkvictorycapital", 
+                    "chance": 100
+                },
+                {
+                    "id": "ascensionsuccesscravingcapital_descend",
+                    "chance": 100
+                },
+                {
+                    "id": "ascensioncravingcapital_ascend",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "checkvictorycapital",
+            "label": "Is there nobody left?",
+            "actionid": "craving",
+            "requirements": {
+                "capitalmarks": 7,
+                "mistakenidentity": 1
+            },
+            "slots": [
+                {
+                    "id": "peopleleft",
+                    "label": "Nobody Left?",
+                    "description": "Is there nobody left?",
+                    "required": {
+                        "mistakenidentity": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "startdescription": "Consume. Consume, Consume.",
+            "effects":{
+                "mistakenidentity": -1
+            },
+            "linked": [
+                {
+                    "id": "eat_all_lore", 
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "startcapitalistendgame",
             "label": "Contact from the archons",
             "actionid": "craving",
             "requirements": {
@@ -422,11 +497,11 @@
             "startdescription": "Time alone in a quiet room with a living mind. That's all I need.",
             "linked": [
                 {
-                    "id": "checkvictorycapital", 
+                    "id": "ascensioncravingcapital_endgame", 
                     "chance": 100
                 },
                 {
-                    "id": "endgamecapital",
+                    "id": "startcapitalistendgame",
                     "chance": 100
                 },
                 {

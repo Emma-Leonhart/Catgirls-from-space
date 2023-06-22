@@ -1,0 +1,34 @@
+{
+    "recipes":[
+        {
+            "id": "eat_all_lore",
+            "label": "I need more",
+            "actionid": "craving",
+            "requirements": {
+                "lore": 1
+            },
+            "slots": [
+                {
+                    "id": "peopleleft",
+                    "label": "Nobody Left?",
+                    "description": "I need more",
+                    "required": {
+                        "lore": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "startdescription": "Consume. Consume, Consume.",
+            "effects":{
+                "lore": -1
+            },
+            "linked": [
+                {
+                    "id": "eat_all_lore", 
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        }
+    ]
+}

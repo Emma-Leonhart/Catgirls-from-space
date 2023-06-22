@@ -409,14 +409,6 @@
                 }
             ],
             "craftable": false
-        },
-        {
-            "id": "checkvictorycapital",
-            "requirements": {
-                "mistakenidentity": 1,
-                "capitalmarks": 7
-            },
-            "ending": "capitalist_victory"
         }
 	]
 }
