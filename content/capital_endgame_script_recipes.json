@@ -1,34 +1,46 @@
 {
-    "recipes":[
-        {
-            "id": "eat_all_lore",
-            "label": "I need more",
+	"recipes": [
+		{
+			"id": "eat_all_lore",
+			"label": "I need more",
             "actionid": "craving",
-            "requirements": {
-                "lore": 1
-            },
-            "slots": [
-                {
-                    "id": "peopleleft",
-                    "label": "Nobody Left?",
-                    "description": "I need more",
-                    "required": {
-                        "lore": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "startdescription": "Consume. Consume, Consume.",
-            "effects":{
-                "lore": -1
-            },
+			"warmup": 30,
+			"slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"lore": 1
+					},
+					"greedy": true
+				}
+			],
+			"startdescription": "Consume. Consume, Consume.",
+			"requirements": {
+				"lore": 1
+			},
+			"effects": {
+				"lore": -1
+			},
+			"linked": [
+				{
+					"id": "lore_eating_break",
+					"chance": 100
+				}
+			]
+		},
+        {
+            "id": "lore_eating_break",
+            "label": "I need all knowledge",
+            "actionid": "craving",
+			"warmup": 10,
             "linked": [
-                {
-                    "id": "eat_all_lore", 
-                    "chance": 100
-                }
-            ],
-            "warmup": 30
+				{
+					"id": "eat_all_lore",
+					"chance": 100
+				}
+			]
         }
-    ]
+	]
 }
