@@ -13,12 +13,7 @@
 					"id": "workdetectivejob_ascended_newrival",
 					"chance": 100,
 					"additional": true
-				},
-                {
-                    "id": "long.spawn.capital",
-                    "chance": 100,
-                    "additional": true
-                }
+				}
 			],
             "linked": "convertcult"
         },
