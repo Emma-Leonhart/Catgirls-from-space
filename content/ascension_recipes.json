@@ -389,15 +389,6 @@
                         "mistakenidentity": 1
                     },
                     "greedy": true
-                },
-                {
-                    "id": "Conversation",
-                    "label": "Conversation",
-                    "description": "The last words of a living mind.",
-                    "required": {
-                        "prisoner": 1
-                    },
-                    "greedy": true
                 }
             ],
             "startdescription": "Time alone in a quiet room with a living mind. That's all I need.",

@@ -4,7 +4,7 @@
 			"id": "eat_all_lore",
 			"label": "I need more",
             "actionid": "craving",
-			"warmup": 30,
+			"warmup": 10,
 			"slots": [
 				{
 					"id": "peopleleft",
@@ -17,15 +17,16 @@
 				}
 			],
 			"startdescription": "Consume. Consume, Consume.",
-			"requirements": {
-				"lore": 1
-			},
 			"effects": {
 				"lore": -1
 			},
 			"linked": [
 				{
 					"id": "lore_eating_break",
+					"chance": 100
+				},
+                {
+					"id": "mortals_eating_break",
 					"chance": 100
 				}
 			]
@@ -35,12 +36,373 @@
             "label": "I need all knowledge",
             "actionid": "craving",
 			"warmup": 10,
+            "slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"lore": 1
+					},
+					"greedy": true
+				}
+			],
             "linked": [
 				{
 					"id": "eat_all_lore",
 					"chance": 100
 				}
 			]
-        }
+        },
+        {
+            "id": "mortals_eating_break",
+            "label": "I need company",
+            "actionid": "craving",
+			"warmup": 10,
+            "slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"mortal": 1
+					},
+					"greedy": true
+				}
+			],
+            "linked": [
+				{
+					"id": "eat_all_mortals",
+					"chance": 100
+				}
+			]
+        },
+        {
+			"id": "eat_all_mortals",
+			"label": "I need more",
+            "actionid": "craving",
+			"warmup": 10,
+			"slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"mortal": 1
+					},
+					"greedy": true
+				}
+			],
+			"startdescription": "Consume. Consume, Consume.",
+			"effects": {
+				"mortal": -1
+			},
+			"linked": [
+                {
+					"id": "mortals_eating_break",
+					"chance": 100
+				}
+			]
+		},
+        {
+            "id": "locations_eating_break",
+            "label": "I need company",
+            "actionid": "craving",
+			"warmup": 10,
+            "slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"location": 1
+					},
+					"greedy": true
+				}
+			],
+            "linked": [
+				{
+					"id": "eat_all_locations",
+					"chance": 100
+				}
+			]
+        },
+        {
+			"id": "eat_all_locations",
+			"label": "I need more",
+            "actionid": "craving",
+			"warmup": 10,
+			"slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"location": 1
+					},
+					"greedy": true
+				}
+			],
+			"startdescription": "Consume. Consume, Consume.",
+			"effects": {
+				"location": -1
+			},
+			"linked": [
+                {
+					"id": "locations_eating_break",
+					"chance": 100
+				}
+			]
+		},
+        {
+            "id": "tools_eating_break",
+            "label": "I need company",
+            "actionid": "craving",
+			"warmup": 10,
+            "slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"tool": 1
+					},
+					"greedy": true
+				}
+			],
+            "linked": [
+				{
+					"id": "eat_all_tools",
+					"chance": 100
+				}
+			]
+        },
+        {
+			"id": "eat_all_tools",
+			"label": "I need more",
+            "actionid": "craving",
+			"warmup": 10,
+			"slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"tool": 1
+					},
+					"greedy": true
+				}
+			],
+			"startdescription": "Consume. Consume, Consume.",
+			"effects": {
+				"tool": -1
+			},
+			"linked": [
+                {
+					"id": "tools_eating_break",
+					"chance": 100
+				}
+			]
+		},
+        {
+            "id": "patrons_eating_break",
+            "label": "I need company",
+            "actionid": "craving",
+			"warmup": 10,
+            "slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"patron": 1
+					},
+					"greedy": true
+				}
+			],
+            "linked": [
+				{
+					"id": "eat_all_patrons",
+					"chance": 100
+				}
+			]
+        },
+        {
+			"id": "eat_all_patrons",
+			"label": "I need more",
+            "actionid": "craving",
+			"warmup": 10,
+			"slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"patron": 1
+					},
+					"greedy": true
+				}
+			],
+			"startdescription": "Consume. Consume, Consume.",
+			"effects": {
+				"patron": -1
+			},
+			"linked": [
+                {
+					"id": "patrons_eating_break",
+					"chance": 100
+				}
+			]
+		},
+        {
+            "id": "ingredients_eating_break",
+            "label": "I need company",
+            "actionid": "craving",
+			"warmup": 10,
+            "slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"ingredient": 1
+					},
+					"greedy": true
+				}
+			],
+            "linked": [
+				{
+					"id": "eat_all_ingredients",
+					"chance": 100
+				}
+			]
+        },
+        {
+			"id": "eat_all_ingredients",
+			"label": "I need more",
+            "actionid": "craving",
+			"warmup": 10,
+			"slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"ingredient": 1
+					},
+					"greedy": true
+				}
+			],
+			"startdescription": "Consume. Consume, Consume.",
+			"effects": {
+				"ingredient": -1
+			},
+			"linked": [
+                {
+					"id": "ingredients_eating_break",
+					"chance": 100
+				}
+			]
+		},
+        {
+            "id": "ways_eating_break",
+            "label": "I need company",
+            "actionid": "craving",
+			"warmup": 10,
+            "slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"way": 1
+					},
+					"greedy": true
+				}
+			],
+            "linked": [
+				{
+					"id": "eat_all_ways",
+					"chance": 100
+				}
+			]
+        },
+        {
+			"id": "eat_all_ways",
+			"label": "I need more",
+            "actionid": "craving",
+			"warmup": 10,
+			"slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"way": 1
+					},
+					"greedy": true
+				}
+			],
+			"startdescription": "Consume. Consume, Consume.",
+			"effects": {
+				"way": -1
+			},
+			"linked": [
+                {
+					"id": "ways_eating_break",
+					"chance": 100
+				}
+			]
+		},
+        {
+            "id": "abilitys_eating_break",
+            "label": "I need company",
+            "actionid": "craving",
+			"warmup": 10,
+            "slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"ability": 1
+					},
+					"greedy": true
+				}
+			],
+            "linked": [
+				{
+					"id": "eat_all_abilitys",
+					"chance": 100
+				}
+			]
+        },
+        {
+			"id": "eat_all_abilitys",
+			"label": "I need more",
+            "actionid": "craving",
+			"warmup": 10,
+			"slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"ability": 1
+					},
+					"greedy": true
+				}
+			],
+			"startdescription": "Consume. Consume, Consume.",
+			"effects": {
+				"ability": -1
+			},
+			"linked": [
+                {
+					"id": "abilitys_eating_break",
+					"chance": 100
+				}
+			]
+		}
 	]
 }
