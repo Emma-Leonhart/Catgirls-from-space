@@ -406,7 +406,7 @@
 		},
 		{
             "id": "everything_eating_break",
-            "label": "I need company8",
+            "label": "I'm so hungry",
             "actionid": "craving",
 			"warmup": 10,
             "slots": [
@@ -415,21 +415,27 @@
 					"label": "Nobody Left?",
 					"description": "I need more",
 					"required": {
-						"ability": 1,
 						"way": 1,
 						"mortal": 1,
 						"ingredient": 1,
 						"patron": 1,
 						"location": 1,
 						"tool": 1,
-						"lore": 1
+						"lore": 1,
+						"job": 1,
+						"text": 1,
+						"society": 1
 					},
 					"greedy": true
 				}
 			],
             "linked": [
 				{
-					"id": "eat_all_abilitys",
+					"id": "eat_all_cards",
+					"chance": 100
+				},
+				{
+					"id": "consumption_finished",
 					"chance": 100
 				}
 			]
@@ -445,35 +451,47 @@
 					"label": "Nobody Left?",
 					"description": "I need more",
 					"required": {
-						"ability": 1,
 						"way": 1,
 						"mortal": 1,
 						"ingredient": 1,
 						"patron": 1,
 						"location": 1,
 						"tool": 1,
-						"lore": 1
+						"lore": 1,
+						"job": 1,
+						"text": 1,
+						"society": 1
 					},
 					"greedy": true
 				}
 			],
 			"startdescription": "Consume. Consume, Consume.",
 			"effects": {
-				"ability": -1,
 						"way": -1,
 						"mortal": -1,
 						"ingredient": -1,
 						"patron": -1,
 						"location": -1,
 						"tool": -1,
-						"lore": -1
+						"lore": -1,
+						"job": -1,
+						"text": -1,
+						"society": -1,
+						"decrepitude": 1
 			},
 			"linked": [
                 {
-					"id": "abilitys_eating_break",
+					"id": "everything_eating_break",
 					"chance": 100
 				}
 			]
+		},
+		{
+			"id": "consumption_finished",
+			"label": "It is finished",
+			"actionid": "craving",
+			"warmup": 10,
+			"startdescription": "Consume. Consume, Consume."
 		}
 	]
 }
