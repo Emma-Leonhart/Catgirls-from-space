@@ -485,13 +485,26 @@
 					"chance": 100
 				}
 			]
+			
 		},
 		{
 			"id": "consumption_finished",
 			"label": "It is finished",
 			"actionid": "craving",
 			"warmup": 10,
-			"startdescription": "Consume. Consume, Consume."
+			"startdescription": "Consume. Consume, Consume.",
+			"requirements": {
+				"way": -1,
+				"mortal": -1,
+				"ingredient": -1,
+				"patron": -1,
+				"location": -1,
+				"tool": -1,
+				"lore": -1,
+				"job": -1,
+				"text": -1,
+				"society": -1
+	}
 		}
 	]
 }
