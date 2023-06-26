@@ -56,7 +56,7 @@
         },
         {
             "id": "mortals_eating_break",
-            "label": "I need company",
+            "label": "I need company1",
             "actionid": "craving",
 			"warmup": 10,
             "slots": [
@@ -106,7 +106,7 @@
 		},
         {
             "id": "locations_eating_break",
-            "label": "I need company",
+            "label": "I need company2",
             "actionid": "craving",
 			"warmup": 10,
             "slots": [
@@ -156,7 +156,7 @@
 		},
         {
             "id": "tools_eating_break",
-            "label": "I need company",
+            "label": "I need company3",
             "actionid": "craving",
 			"warmup": 10,
             "slots": [
@@ -206,7 +206,7 @@
 		},
         {
             "id": "patrons_eating_break",
-            "label": "I need company",
+            "label": "I need company4",
             "actionid": "craving",
 			"warmup": 10,
             "slots": [
@@ -256,7 +256,7 @@
 		},
         {
             "id": "ingredients_eating_break",
-            "label": "I need company",
+            "label": "I need company5",
             "actionid": "craving",
 			"warmup": 10,
             "slots": [
@@ -306,7 +306,7 @@
 		},
         {
             "id": "ways_eating_break",
-            "label": "I need company",
+            "label": "I need company6",
             "actionid": "craving",
 			"warmup": 10,
             "slots": [
@@ -356,7 +356,7 @@
 		},
         {
             "id": "abilitys_eating_break",
-            "label": "I need company",
+            "label": "I need company7",
             "actionid": "craving",
 			"warmup": 10,
             "slots": [
@@ -406,7 +406,7 @@
 		},
 		{
             "id": "everything_eating_break",
-            "label": "I need company",
+            "label": "I need company8",
             "actionid": "craving",
 			"warmup": 10,
             "slots": [
