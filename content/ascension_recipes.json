@@ -433,7 +433,7 @@
             },
             "linked": [
                 {
-                    "id": "eat_all_lore", 
+                    "id": "eat_all_cards", 
                     "chance": 100
                 }
             ],

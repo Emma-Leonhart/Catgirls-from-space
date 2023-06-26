@@ -403,6 +403,77 @@
 					"chance": 100
 				}
 			]
+		},
+		{
+            "id": "everything_eating_break",
+            "label": "I need company",
+            "actionid": "craving",
+			"warmup": 10,
+            "slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"ability": 1,
+						"way": 1,
+						"mortal": 1,
+						"ingredient": 1,
+						"patron": 1,
+						"location": 1,
+						"tool": 1,
+						"lore": 1
+					},
+					"greedy": true
+				}
+			],
+            "linked": [
+				{
+					"id": "eat_all_abilitys",
+					"chance": 100
+				}
+			]
+        },
+        {
+			"id": "eat_all_cards",
+			"label": "I need more",
+            "actionid": "craving",
+			"warmup": 10,
+			"slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"ability": 1,
+						"way": 1,
+						"mortal": 1,
+						"ingredient": 1,
+						"patron": 1,
+						"location": 1,
+						"tool": 1,
+						"lore": 1
+					},
+					"greedy": true
+				}
+			],
+			"startdescription": "Consume. Consume, Consume.",
+			"effects": {
+				"ability": -1,
+						"way": -1,
+						"mortal": -1,
+						"ingredient": -1,
+						"patron": -1,
+						"location": -1,
+						"tool": -1,
+						"lore": -1
+			},
+			"linked": [
+                {
+					"id": "abilitys_eating_break",
+					"chance": 100
+				}
+			]
 		}
 	]
 }
