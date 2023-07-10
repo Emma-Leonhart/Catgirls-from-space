@@ -1,0 +1,184 @@
+{
+    "elements":[
+    {
+    "id": "influenceheart",
+    "label": "Resonant Pulse",
+    "description": "The heart's rhythm echoes in a symphony of unity. [A second-order influence: a spark of emotion and human connection, reminiscent of The Pride's fight against Alienation. This influence can be used in rites to summon certain entities.]"
+    },
+    {
+    "id": "influenceheartc",
+    "label": "Shared Heartbeat",
+    "description": "A vibrant, collective rhythm undulates through existence. [A sixth-order influence: The Pride's influence strengthens, fostering community and unity. Useful in rites to summon specific entities.]"
+    },
+    {
+    "id": "influencehearte",
+    "label": "Pride Manifest",
+    "description": "The collective pulse resonates with pride, bridging alienation and restoring unity. [A tenth-order influence! A surge of shared emotion and connection. This influence can be used in rites to summon powerful entities.]"
+    },
+    {
+    "id": "influenceheartg",
+    "label": "Unity's Triumph",
+    "description": "Every heartbeat sings in unison. Alienation fades into a distant memory. [A fifteenth-order influence! This might be the attention of The Pride itself. Powerful enough to summon the most potent entities.]"
+    },
+    {
+    "id": "influencewinter",
+    "label": "Silent Thoughts",
+    "description": "A soothing hush wraps around the mind, the Inner Dialogue commences. [A second-order influence: reflective introspection offers respite from Angst. Can be used in rites to summon certain entities.]"
+    },
+    {
+    "id": "influencewinterc",
+    "label": "Internal Solitude",
+    "description": "Thoughts slow, the icy tranquillity of Inner Dialogue solidifies. [A sixth-order influence: The calming quietude grows, an antidote to Angst. Useful in rites to summon specific entities.]"
+    },
+    {
+    "id": "influencewintere",
+    "label": "Embrace of Silence",
+    "description": "The world fades; the Inner Dialogue reigns, a haven from the storm of Angst. [A tenth-order influence! A deep, internal refuge from turmoil. This influence can be used in rites to summon powerful entities.]"
+    },
+    {
+    "id": "influencewinterg",
+    "label": "Sanctuary of Stillness",
+    "description": "A fortress of silence against Angst, the Inner Dialogue ascends. [A fifteenth-order influence! This might be the very essence of Inner Dialogue. Strong enough to summon the most potent entities.]"
+    },
+    {
+    "id": "influencesecrethistories",
+    "label": "Whispered Perspectives",
+    "description": "A soft murmur of new viewpoints, the process of Enlensing begins. [A second-order influence: reframing perspectives counters Absurdity. Can be used in rites to summon certain entities.]"
+    },
+    {
+    "id": "influencesecrethistoriesc",
+    "label": "Glimpse of Hidden Meanings",
+    "description": "Deeper truths surface, Absurdity fades beneath the power of Enlensing. [A sixth-order influence: The revelation of hidden truths grows. Useful in rites to summon specific entities.]"
+    },
+    {
+    "id": "influencesecrethistoriese",
+    "label": "Secrets Revealed",
+    "description": "The world shifts under the force of Enlensing, Absurdity retreats. [A tenth-order influence! A revelation of profound, obscured truths. This influence can be used in rites to summon powerful entities.]"
+    },
+    {
+    "id": "influencesecrethistoriesg",
+    "label": "Unveiling of the Arcane",
+    "description": "The veil of Absurdity lifts completely, Enlensing reigns supreme. [A fifteenth-order influence! This might be the culmination of Enlensing. Strong enough to summon the most potent entities.]"
+    },
+    {
+    "id": "influencelantern",
+    "label": "Flickering Recollection",
+    "description": "A soft light pierces the veil of Forgetfulness, as Remembering takes hold. [A second-order influence: enlightenment begins, countering Forgetfulness. Can be used in rites to summon certain entities.]"
+    },
+    {
+    "id": "influencelanternc",
+    "label": "Glowing Remembrance",
+    "description": "The light of Remembering brightens, pushing back the shadows of Forgetfulness. [A sixth-order influence: Enlightenment grows, a beacon against oblivion. Useful in rites to summon specific entities.]"
+    },
+    {
+    "id": "influencelanterne",
+    "label": "Radiant Recapture",
+    "description": "A blaze of Remembering, a fortress against the tide of Forgetfulness. [A tenth-order influence! A beacon of memory, a shield against oblivion. This influence can be used in rites to summon powerful entities.]"
+    },
+    {
+    "id": "influencelanterng",
+    "label": "Eternal Illumination",
+    "description": "The light of Remembering illuminates every shadow, Forgetfulness is a distant memory. [A fifteenth-order influence! This might be the undying flame of Remembering itself. Strong enough to summon the most potent entities.]"
+    },
+    {
+    "id": "influencegrail",
+    "label": "Whisper of Sensations",
+    "description": "A myriad of experiences unfurl, the first steps of Counter-Spiralling. [A second-order influence: indulging in the senses keeps Spiralling at bay. Can be used in rites to summon certain entities.]"
+    },
+    {
+    "id": "influencegrailc",
+    "label": "Array of Experiences",
+    "description": "The whirlpool of Spiralling is dispersed by an explosion of experiences. [A sixth-order influence: The influence of Counter-Spiralling broadens, staving off a narrow viewpoint. Useful in rites to summon specific entities.]"
+    },
+    {
+    "id": "influencegraile",
+    "label": "Mosaic of Existence",
+    "description": "Every facet of life shimmers in defiance of Spiralling. [A tenth-order influence! A universe of experiences to counter the spiral. This influence can be used in rites to summon powerful entities.]"
+    },
+    {
+    "id": "influencegrailg",
+    "label": "Life's Cornucopia",
+    "description": "An endless stream of experiences, the ultimate shield against Spiralling. [A fifteenth-order influence! This might be the fullest expression of Counter-Spiralling. Strong enough to summon the most potent entities.]"
+    },
+    {
+    "id": "influenceedge",
+    "label": "Gentle Current",
+    "description": "The path of least resistance begins to appear, the first touch of Flow. [A second-order influence: a soft push against Drowning, the first stirrings of effortless performance. Can be used in rites to summon certain entities.]"
+    },
+    {
+    "id": "influenceedgec",
+    "label": "Steady Stream",
+    "description": "Effortless progress against thesuffocating tide of Drowning, the Flow strengthens. [A sixth-order influence: The undercurrent of Flow is building, overcoming obstacles becomes easier. Useful in rites to summon specific entities.]"
+    },
+    {
+    "id": "influenceedgee",
+    "label": "Rapid River",
+    "description": "A torrent of effortless productivity, Drowning is cast aside. [A tenth-order influence! A powerful current of Flow, no challenge is too great. This influence can be used in rites to summon powerful entities.]"
+    },
+    {
+    "id": "influenceedgeg",
+    "label": "Mighty Torrent",
+    "description": "An unstoppable force, Flow reigns supreme, Drowning is but a forgotten nightmare. [A fifteenth-order influence! This might be the embodiment of Flow itself. Strong enough to summon the most potent entities.]"
+    },
+    {
+    "id": "influenceknock",
+    "label": "Soft Echo",
+    "description": "A quiet vibration heralds the creation of Antibodies, a shield against Foreign Entrapment. [A second-order influence: first signs of liberation, breaking free from external chains. Can be used in rites to summon certain entities.]"
+    },
+    {
+    "id": "influenceknockc",
+    "label": "Resonant Frequency",
+    "description": "The vibrational harmony of Antibodies resonates, shattering the bonds of Foreign Entrapment. [A sixth-order influence: The liberation is gaining momentum, creating paths to freedom. Useful in rites to summon specific entities.]"
+    },
+    {
+    "id": "influenceknocke",
+    "label": "Freedom's Symphony",
+    "description": "The music of Antibodies fills existence, Foreign Entrapment retreats. [A tenth-order influence! A chorus of liberation, chains of entrapment fall away. This influence can be used in rites to summon powerful entities.]"
+    },
+    {
+    "id": "influenceknockg",
+    "label": "Harmony Unchained",
+    "description": "The song of Antibodies reaches its crescendo, Foreign Entrapment is no more. [A fifteenth-order influence! This might be the pure vibration of Antibodies. Strong enough to summon the most potent entities.]"
+    },
+    {
+    "id": "influenceforge",
+    "label": "Warm Malleability",
+    "description": "The fires of change ignite, the process of Ego Loosening begins. [A second-order influence: adapting self-identity to overcome Ego Entrapment. Can be used in rites to summon certain entities.]"
+    },
+    {
+    "id": "influenceforgec",
+    "label": "Adaptive Form",
+    "description": "Identity molds and changes, resisting the rigid confines of Ego Entrapment. [A sixth-order influence: The transformation intensifies, making self-reinvention possible. Useful in rites to summon specific entities.]"
+    },
+    {
+    "id": "influenceforgee",
+    "label": "Fluid Identity",
+    "description": "The self flows freely, unbound by Ego Entrapment. [A tenth-order influence! A malleable, adaptable self-view that defies Ego Entrapment. This influence can be used in rites to summon powerful entities.]"
+    },
+    {
+    "id": "influenceforgeg",
+    "label": "Unbound Existence",
+    "description": "Identity knows no bounds, Ego Entrapment becomes irrelevant. [A fifteenth-order influence! This might be the result of Ego Loosening in its purest form. Strong enough to summon the most potent entities.]"
+    },
+    {
+    "id": "influencemoth",
+    "label": "Whispered Roles",
+    "description": "The quiet flutter of different personas, the first steps of Larping. [A second-order influence: exploring perspectives to combat Empathic Entrapment. Can be used in rites to summon certain entities.]"
+    },
+    {
+    "id": "influencemothc",
+    "label": "Dance of Personas",
+    "description": "A choreography of identities against Empathic Entrapment, Larping unfolds. [A sixth-order influence: The dance of perspectives intensifies, creating a fluid identity. Useful in rites to summon specific entities.]"
+    },
+    {
+    "id": "influencemothe",
+    "label": "Masquerade of the Self",
+    "description": "A grand performance against Empathic Entrapment, Larping takes center stage. [A tenth-order influence! A display of adaptable personas, freeing from rigid empathy. This influence can be used in rites to summon powerful entities.]"
+    },
+    {
+    "id": "influencemothg",
+    "label": "Theatre of Existence",
+    "description": "The curtain lifts on a world unbound by Empathic Entrapment. [A fifteenth-order influence! This might be the essence of Larping itself. Strong enough to summon the most potent entities.]"
+    }
+]
+}
