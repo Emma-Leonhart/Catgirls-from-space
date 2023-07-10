@@ -85,7 +85,7 @@
             },
             {
                 "id": "fragmentsecrethistories",
-                "label": "Lensmaker's Conundrum",
+                "label": "A Lensmaker's Secret",
                 "description": "The truth is often elusive, hidden behind layers of deception and misconception. But through the lens of careful scrutiny, the obscured becomes clear. This is the puzzle that every seeker of truth faces: what reality does the lens reveal?"
               },
               {
@@ -225,39 +225,39 @@
              },
              {
                 "id": "fragmentknock",
-                "label": "The Seeker's Revelation",
-                "description": "Every seeker eventually experiences the Awakening. This revelation outlines its profound stages, akin to opening doors into new realms of consciousness and existence."
-             },
-             {
+                "label": "A Locksmith's Secret",
+                "description": "Sooner or later, every locksmith has the Dream. Now we recite its seven phases... [Nearly every summoning Rite requires Knock influence. This lore will provide it.]"
+            },
+            {
                 "id": "fragmentknockb",
-                "label": "The Flowing Gates Rite",
-                "description": "Every transition in life requires its ritual, its moment of recognition and acceptance. The Flowing Gates Rite guides us through these crucial transformations."
-             },
-             {
+                "label": "Rites of the Unbound",
+                "description": "When entrapped by foreign ideas, it is a daunting task to free oneself. Rites of the Unbound aids in navigating this labyrinth, providing the necessary guidance and strength to break free."
+            },
+            {
                 "id": "fragmentknockc",
-                "label": "A Harmony of Transformations",
-                "description": "To navigate the ever-changing currents of existence, one must first become fluid, yielding. This practice illustrates that adaptability, under the tutelage of the Ever-Changing Mother."
-             },
-             {
+                "label": "The Serpent's Shed",
+                "description": "Just as a serpent sheds its skin, one must discard outdated ideas and perspectives that no longer serve. The Serpent's Shed signifies this necessary transformation, resonating with the theme of renewal and rebirth."
+            },
+            {
                 "id": "fragmentknockd",
-                "label": "Eclipse Incantation",
-                "description": "When the sun hides behind the moon, truths previously unseen come into light. This incantation harnesses the transformative power of these cosmic transitions."
-             },
-             {
+                "label": "Incantation of Release",
+                "description": "Harnessing the transformative power of cosmic transitions, this incantation aids in the release of internalized prejudices and fears, empowering the individual to break free from the foreign entrapment."
+            },
+            {
                 "id": "fragmentknocke",
-                "label": "Serpent Path Formulae",
-                "description": "Snakes are the emblems of transformation and perpetual renewal. This wisdom unveils the lessons we can learn from their cyclical shedding and rebirth."
-             },
-             {
+                "label": "Pathway of the Released",
+                "description": "This wisdom helps unravel the chains of outdated ideas and beliefs, guiding the individual along the pathway of the Released, where one's identity is no longer dictated by foreign entrapment."
+            },
+            {
                 "id": "fragmentknockf",
-                "label": "Transition Evocation",
-                "description": "The last Earth-Bound Deity keeps watch over all thresholds. This evocation seeks her guidance in understanding and navigating the myriad transitions of life."
-             },
-             {
+                "label": "Threshold Invocation",
+                "description": "The Threshold Invocation seeks guidance from the Earth-Bound Deity, a symbol of transitions, to understand and navigate the intricacies of foreign entrapment, fostering resilience and adaptability."
+            },
+            {
                 "id": "fragmentknockg",
-                "label": "Secrets of Transcendence",
-                "description": "The Ever-Changing Mother is the confluence of two streams. The Horned-Axe is the final Earth-Bound Deity. The Eclipse was born from the Sun's surrender to the Moon. The Wound, the Threshold, and the Revelation are all aspects of the Gate's Mysteries, and here lies their profound teachings."
-             },
+                "label": "Secrets of the Liberated",
+                "description": "These teachings offer insight into the mysteries of the Gate - the transition from a life ruled by foreign entrapment to a life of self-guided liberation and individual truth."
+            },            
              {
                 "id": "fragmentforge",
                 "label": "An Artisans' Secret",
@@ -296,37 +296,37 @@
              {
                 "id": "fragmentmoth",
                 "label": "An Actor's Secret",
-                "description": "A notable figure in the larp world appreciates the moment when a player's fate diverges from their scripted role. To attract attention, one must execute a dramatic twist. For an opportunity to redefine their role, they should fade into the background. [Speak this within a larp scenario with a 'Winter' narrative thread, and watch the dynamics shift.]"
-              },
-              {
+                "description": "A power of the Wood finds joy in a player's divergent fate from their scripted role. To attract attention, perform a dramatic twist. For an opportunity, adopt subtlety. [Utter this within a larp scenario threaded with 'Winter', and watch the dynamics shift, just as a lock separates from a scalp.]"
+                },
+                {
                 "id": "fragmentmothb",
                 "label": "Whispers from the Wilderness",
-                "description": "Stay alert, and listen. The breeze shares tales of unseen adventures. The buildings groan with concealed stories. These are the routes where unpredictability and creativity intermingle. [Voice this in a larp setting accompanied by a 'Winter' narrative, and witness the plot evolve.]"
-              },
-              {
+                "description": "Listen closely to the breeze; it carries tales of unforeseen adventures. The buildings, like ancient trees, whisper their concealed stories. These are the trails where unpredictability breeds creativity. [Invoke this in a larp setting accompanied by a 'Winter' narrative, and witness the plot evolve like a barbershop full of secrets.]"
+                },
+                {
                 "id": "fragmentmothc",
                 "label": "Roleplayer's Parable",
-                "description": "The Roleplayer's Dilemma is 'What could we become?' Each Roleplayer's Parable is an exploration to answer this quandary."
-              },
-              {
+                "description": "In every role-player's heart lies the Dilemma: 'What could we become?' Each Roleplayer's Parable is a key to unlock this mystery, allowing unexpected transformations and plot developments."
+                },
+                {
                 "id": "fragmentmothd",
                 "label": "Nature's Guidance",
-                "description": "Nature hides her enigmas in the moss and her roots deep in the earth, withholding mysteries that encourage exploration. Nature offers these insights to the inventive larp participant."
-              },
-              {
+                "description": "Nature, like a sage barber, holds her secrets close, encouraging exploration and unpredictability. These insights she willingly shares with the imaginative larp participant who dares to venture off their scripted path."
+                },
+                {
                 "id": "fragmentmothe",
                 "label": "Manifesto of Transformation",
-                "description": "The transformative player abandons their comfort zone, venturing into the unfamiliar, adopting foreign narratives and roles. They infuse new energy, permeating the game with fresh perspectives and evolving storylines. This is their testament."
-              },
-              {
+                "description": "Just as a barber might shape a new hairstyle, a transformative player reshapes their role. They venture into the unknown, embrace foreign narratives, and inject new life into the storyline. This is their commitment to the craft."
+                },
+                {
                 "id": "fragmentmothf",
                 "label": "Birth of the Butterfly Sovereign",
-                "description": "A larp participant, crowned in imagination, born from the challenges encountered during the game. Embrace their character's evolution. These are the experiences one might face."
-              },
-              {
+                "description": "A larp participant, crowned in imagination, born from the game's challenges. Their character's evolution mirrors a barber's creation. Herein lie their metamorphic experiences."
+                },
+                {
                 "id": "fragmentmothg",
                 "label": "Meetings in the Narrative",
-                "description": "In the realm of larp, characters from divergent narratives rarely intersect, but within the verdant setting of the Enchanted Forest, such meetings are frequent. Their exchanges are unanticipated, and unanticipated elements hold power. This is the tale of their unexpected encounters."
-              }                   
+                "description": "In the realm of larp, as in a bustling barber shop, characters from divergent narratives meet. Within the verdant setting of the Enchanted Forest, such encounters are common. Their unpredictable exchanges hold power, just like the unanticipated twists of a barber's scissors."
+                }                   
     ]
 }
