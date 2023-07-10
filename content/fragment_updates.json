@@ -2,6 +2,8 @@
     "elements":[
         {
             "id": "fragmentwinter",
+            "label": "A Sexton's Secret",
+            "description": "Certain knowledge, it is said, can be expressed only through the particular quality of a silence. It has been suggested that one can only read such knowledge with one's eyes closed, but only by mischievous commentators. [Use this in a Rite with a corpse and Edge aspect, and the corpse will rise.]",
             "slots": [
                 {
                     "id": "with",
