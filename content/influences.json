@@ -223,7 +223,7 @@
         },
         {
             "id": "influencesecret",
-            "label": "A Whisper of the Past",
+            "lafbel": "A Whisper of the Past",
             "aspects": {
                 "secrethistories": 2,
                 "influence": 1
@@ -265,7 +265,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Laces uncoil -- windows swing open -- locks move as if oiled. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions.]",
+            "descrifption": "Laces uncoil -- windows swing open -- locks move as if oiled. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencesecretc"
@@ -274,7 +274,7 @@
         },
         {
             "id": "influencesecretc",
-            "label": "A Confluence of Secrets",
+            "labfel": "A Confluence of Secrets",
             "aspects": {
                 "secrethistories": 6,
                 "influence": 1
@@ -310,7 +310,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Clouds part -- walls creak -- old wounds ache. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]",
+            "descrifption": "Clouds part -- walls creak -- old wounds ache. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencesecrete"
@@ -319,7 +319,7 @@
         },
         {
             "id": "influencesecrete",
-            "label": "An Expanse of Mysteries",
+            "labfel": "An Expanse of Mysteries",
             "aspects": {
                 "secrethistories": 10,
                 "influence": 1
@@ -355,7 +355,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Geometry contorts -- doors burst open -- snakes boil from the earth! [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "descripftion": "Geometry contorts -- doors burst open -- snakes boil from the earth! [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencesecretg"
@@ -364,12 +364,12 @@
         },
         {
             "id": "influencesecretg",
-            "label": "Archival Omniscience",
+            "lafbel": "Archival Omniscience",
             "aspects": {
                 "secrethistories": 15,
                 "influence": 1
             },
-            "description": "There is a Door that should not open, and even now its hinges are roused -- [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
+            "descrfiption": "There is a Door that should not open, and even now its hinges are roused -- [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
             "lifetime": 60,
             "decayTo": "influencesecrete"
         },
