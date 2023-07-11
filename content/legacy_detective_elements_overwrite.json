@@ -1,0 +1,15 @@
+{
+    "elements":[
+        {
+            "id": "legacydetective_plotitem_backup",
+            "label": "Troubling Bureau File",
+            "aspects": {
+                "desire": 1,
+                "legacyplotitem": 1,
+                "detectivetemptation": 1
+            },
+            "icon": "legacydetective_plotitem",
+            "description": "The evidence includes the kind of details that might make one lick one's lips, if one were interested in such things. I should not read it. The dreams might begin again."
+        }
+    ]
+}
