@@ -131,6 +131,36 @@
             "description": "I am here to form a cult of the hand. To ensure the world operates on a rational order.\n My assignment is to become as powerful as I can, so I may make this a reality.\n I don't know whether to feel dread or excitement at this revelation.", 
             "warmup": 30,
             "craftable": true
+        },
+        {
+            "id": "detectivestudy_plotitem",
+            "alt": [
+                {
+                    "id": "introsurf",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "detectivestudy_plotitem_afterfirsttime",
+            "alt": [
+                {
+                    "id": "introsurf",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "legacydetectiveplotitem_tempt_addslot",
+            "alt": [
+                {
+                    "id": "introsurf",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
         }
     ]
 }
