@@ -1,0 +1,23 @@
+{
+    "recipes":[
+        {
+            "id": "detectivework_plotitem_2",
+            "label": "Burn the File Again",
+            "actionid": "work",
+            "requirements": {
+                "legacydetective_plotitem_backup": 1,
+                "legacydetective_plotitem_burning": -1
+            },
+            "effects": {
+                "detectivetemptation": -1,
+                "legacydetective_plotitem_burning": 1,
+                "restlessness": 1,
+                "contentment": 1
+            },
+            "startdescription": "I am firm and loyal. I will not betray the Men in Black",
+            "description": "The pages blacken, one by one, curling like closing fingers. I have opened the window of my office. The smoke dissipates and is lost. What exactly have I done?",
+            "warmup": 30,
+            "craftable": true
+        }
+    ]
+}
