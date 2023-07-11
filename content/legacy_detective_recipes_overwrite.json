@@ -156,11 +156,42 @@
             "id": "legacydetectiveplotitem_tempt_addslot",
             "alt": [
                 {
+                    "id": "legacydetectiveplotitem_tempt_resist",
+                    "chance": 100
+                },
+                {
+                    "id": "visionsrisk",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "legacydetectiveplotitem_tempt_fail",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "legacydetectiveplotitem_tempt_fail",
+            "label": "The Scent of the Pages",
+            "description": "The pages turn so easily. It's like peeling a fruit, or unwrapping a secret gift. At the end of it, my hands are stained with ink. My brain boils. What have I begun?",
+            "requirements": {
+                "reason": -1
+            },
+            "actionid": "craving",
+            "startdescription": "I must read the file.",
+            "effects": {
+                "legacydetective_plotitem": -1,
+                "lever_LastDesire": 1,
+                "fascination": 1,
+                "dread": 1
+            },
+            "alt": [
+                {
                     "id": "introsurf",
                     "chance": 100,
                     "additional": true
                 }
-            ]
+            ],
         }
     ]
 }
