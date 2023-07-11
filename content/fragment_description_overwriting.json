@@ -8,7 +8,7 @@
             
             {
             "id": "fragmentheartb",
-            "label": "Chants of the Pride",
+            "label": "Iron Lion Zion",
             "description": "The syllables of this chant hold a compelling rhythm, mirroring the steady beat of a lionheart. It yearns for the continuity of the pride.",
             },
             
@@ -29,13 +29,11 @@
             "label": "Rhythm of the Watchful",
             "description": "One who watches over the pride does not sleep; one who sleeps is not the watcher. <b>One who watches over the pride does not sleep; one who sleeps is not the watcher.</b> [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
             },
-            
             {
-            "id": "fragmentheartf",
-            "label": "Strength of the Pride",
-            "description": "The Pride always answers 'No' to threats, but in that 'No' we find shelter, like cubs nestled under the protective paw of a lioness. [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
-            },
-            
+               "id": "fragmentheartf",
+               "label": "Sanctuary of the Strong",
+               "description": "Within the firm 'No' of the Pride lies a refuge—an impenetrable fortress sheltering those within from harm. [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
+             },
             {
             "id": "fragmentheartg",
             "label": "Unfathomable Prowess",

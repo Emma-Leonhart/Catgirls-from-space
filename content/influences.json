@@ -73,6 +73,7 @@
                 "secrethistories": 1
             },
             "decayTo": "restlessness",
+            "burnTo": "preglimmering",
             "comments": "lensing is only a way because that is the only way to get it to work with dream"
         },
         {
