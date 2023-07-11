@@ -48,7 +48,7 @@
         },
         {
             "id": "apostleforge",
-            "availableWithoutEndingMatch": true,
+            "availableWithoutEndingMatch": false,
             "statusbarelements": [
                 "health",
                 "reason",
@@ -58,7 +58,7 @@
         },
         {
             "id": "apostlegrail",
-            "availableWithoutEndingMatch": true,
+            "availableWithoutEndingMatch": false,
             "statusbarelements": [
                 "health",
                 "reason",
@@ -68,7 +68,7 @@
         },
         {
             "id": "apostlelantern",
-            "availableWithoutEndingMatch": true,
+            "availableWithoutEndingMatch": false,
             "statusbarelements": [
                 "health",
                 "reason",

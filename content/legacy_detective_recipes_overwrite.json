@@ -1,6 +1,13 @@
 {
     "recipes":[
         {
+            "id": "detectivework_plotitem",
+            "requirements": {
+                "legacydetective_plotitem": 1,
+                "legacydetective_plotitem_burning": -1
+            }
+        },
+        {
             "id": "detectivework_plotitem_2",
             "label": "Burn the File Again",
             "actionid": "work",
@@ -16,6 +23,112 @@
             },
             "startdescription": "I am firm and loyal. I will not betray the Men in Black",
             "description": "The pages blacken, one by one, curling like closing fingers. I have opened the window of my office. The smoke dissipates and is lost. What exactly have I done?",
+            "warmup": 30,
+            "craftable": true,
+            "burnimage": "nsa",
+            "alt": [
+                {
+                    "id": "men_in_black_countdown",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+        },
+        {
+            "id": "detective_destroy_briefing",
+            "label": "Burn the Offer",
+            "actionid": "work",
+            "requirements": {
+                "men_in_black_briefing": 1,
+                "legacydetective_plotitem_burning": -1
+            },
+            "effects": {
+                "detectivetemptation": -1,
+                "men_in_black_briefing": -1,
+                "legacydetective_plotitem_burning": 1,
+                "contentment": 1,
+                "dread": 1,
+                "marked_for_death": 1,
+                "investigator3": 1,
+                "evidenceb": 1
+            },
+            "startdescription": "I will not let my principles slide",
+            "description": "Some say Plata o Plomo. I choose Plomo",
+            "warmup": 30,
+            "craftable": true,
+            "burnimage": "nsa",
+            "alt": [
+                {
+                    "id": "suspicion",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+        },
+        {
+            "id": "men_in_black_countdown",
+            "label": "A Mysterious Phone call",
+            "actionid": "surf",
+            "requirements": {},
+            "startdescription": "I receive a mysterious phone call. It is from a higher up",
+            "description": ".",
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "men_in_black_receive_briefing",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "men_in_black_receive_briefing",
+            "label": "I received a promotion",
+            "actionid": "surf",
+            "requirements": {},
+            "effects": {
+                "funds": 20,
+                "men_in_black_briefing": 1
+            },
+            "startdescription": "The Head of the Men in black just contacted me. I passed their test. Now they will send me a nice bonus and a briefing on my new position",
+            "description": "I have received enough money to be very happy. But now I need to study my briefing if I want to fulfill my mission. I have been put in contact with another agent to help.",
+            "warmup": 30,
+            "craftable": false,
+            "maxexecutions": 1
+        },
+        {
+            "id": "men_in_black_study_briefing",
+            "comment": "This one is most likely to be broken as I want a specific character of snake alignment to come. Notes for a collaborator are destroyed possibly by the researcher",
+            "label": "Study the Briefing",
+            "actionid": "study",
+            "requirements": {
+                "men_in_black_briefing": 1
+            },
+            "effects": {
+                "men_in_black_briefing": -1,
+                "ascensioncapitala": 1,
+                "fragmenthand": 1,
+                "mystique": 1,
+                "culthand_1": 1,
+                "fascination": 1,
+                "dread": 1,
+                "influencehandc": 2
+            },
+            "alt": [
+                {
+                    "id": "ascensionintrojob",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "needs",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "$priority": 10,
+            "startdescription": "Read my briefing.",
+            "description": "I am here to form a cult of the hand. To ensure the world operates on a rational order.\n My assignment is to become as powerful as I can, so I may make this a reality.\n I don't know whether to feel dread or excitement at this revelation.", 
             "warmup": 30,
             "craftable": true
         }

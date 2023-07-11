@@ -10,6 +10,26 @@
             },
             "icon": "legacydetective_plotitem",
             "description": "The evidence includes the kind of details that might make one lick one's lips, if one were interested in such things. I should not read it. The dreams might begin again."
+        },
+        {
+            "id": "men_in_black_briefing",
+            "label": "Mysterious Briefing",
+            "aspects": {
+                "desire": 1,
+                "legacyplotitem": 1,
+                "detectivetemptation": 1
+            },
+            "description": "A briefing for my new promotion. I need to study it to understand my new duties. Then burn it after."
+        },
+        {
+            "id": "marked_for_death",
+            "label": "Marked for Death",
+            "aspects": {
+                "reputation": 3
+            },
+            "description": "Lets face it you're dead",
+            "lifetime": 1800,
+            "decayTo": "notoriety"
         }
     ]
 }

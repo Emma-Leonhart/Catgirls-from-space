@@ -255,56 +255,6 @@
 			]
 		},
         {
-            "id": "ingredients_eating_break",
-            "label": "I need company5",
-            "actionid": "craving",
-			"warmup": 10,
-            "slots": [
-				{
-					"id": "peopleleft",
-					"label": "Nobody Left?",
-					"description": "I need more",
-					"required": {
-						"ingredient": 1
-					},
-					"greedy": true
-				}
-			],
-            "linked": [
-				{
-					"id": "eat_all_ingredients",
-					"chance": 100
-				}
-			]
-        },
-        {
-			"id": "eat_all_ingredients",
-			"label": "I need more",
-            "actionid": "craving",
-			"warmup": 10,
-			"slots": [
-				{
-					"id": "peopleleft",
-					"label": "Nobody Left?",
-					"description": "I need more",
-					"required": {
-						"ingredient": 1
-					},
-					"greedy": true
-				}
-			],
-			"startdescription": "Consume. Consume, Consume.",
-			"effects": {
-				"ingredient": -1
-			},
-			"linked": [
-                {
-					"id": "ingredients_eating_break",
-					"chance": 100
-				}
-			]
-		},
-        {
             "id": "ways_eating_break",
             "label": "I need company6",
             "actionid": "craving",
@@ -417,14 +367,14 @@
 					"required": {
 						"way": 1,
 						"mortal": 1,
-						"ingredient": 1,
 						"patron": 1,
 						"location": 1,
 						"tool": 1,
 						"lore": 1,
 						"job": 1,
 						"text": 1,
-						"society": 1
+						"society": 1,
+						"ingredient": 1
 					},
 					"greedy": true
 				}
@@ -444,7 +394,7 @@
 			"id": "eat_all_cards",
 			"label": "I need more",
             "actionid": "craving",
-			"warmup": 10,
+			"warmup": 5,
 			"slots": [
 				{
 					"id": "peopleleft",
@@ -453,7 +403,6 @@
 					"required": {
 						"way": 1,
 						"mortal": 1,
-						"ingredient": 1,
 						"patron": 1,
 						"location": 1,
 						"tool": 1,
@@ -469,7 +418,6 @@
 			"effects": {
 						"way": -1,
 						"mortal": -1,
-						"ingredient": -1,
 						"patron": -1,
 						"location": -1,
 						"tool": -1,
@@ -477,34 +425,46 @@
 						"job": -1,
 						"text": -1,
 						"society": -1,
-						"decrepitude": 1
+						"ingredient": -1
 			},
 			"linked": [
                 {
 					"id": "everything_eating_break",
 					"chance": 100
 				}
-			]
-			
+			],
+			"alt": [
+                {
+                    "id": "consumption_payout",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+			"maxexecutions": 100
+		},
+		{
+			"id": "consumption_payout",
+			"label": "I am becoming something more",
+			"actionid": "finish",
+			"warmup": 10,
+			"startdescription": "This is how the world ends.",
+			"description": "Not with a bang, but a whimper.",
+			"effects": {
+				"decrepitude": 1,
+				"funds": 1,
+				"fleeting": 1,
+				"contentment": 1,
+				"health": 1
+			}
 		},
 		{
 			"id": "consumption_finished",
 			"label": "It is finished",
 			"actionid": "craving",
-			"warmup": 10,
-			"startdescription": "Consume. Consume, Consume.",
-			"requirements": {
-				"way": -1,
-				"mortal": -1,
-				"ingredient": -1,
-				"patron": -1,
-				"location": -1,
-				"tool": -1,
-				"lore": -1,
-				"job": -1,
-				"text": -1,
-				"society": -1
-	}
+			"warmup": 60,
+			"startdescription": "It's over.",
+			"ending": "chi.ascended",
+            "signalendingflavour": "Grand"
 		}
 	]
 }
