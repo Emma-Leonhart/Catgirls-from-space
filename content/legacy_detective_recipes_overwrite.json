@@ -48,22 +48,49 @@
                 "legacydetective_plotitem_burning": 1,
                 "contentment": 1,
                 "dread": 1,
-                "marked_for_death": 1,
-                "investigator3": 1,
-                "evidenceb": 1
+                "ascensionpowera": 1
             },
             "startdescription": "I will not let my principles slide",
-            "description": "Some say Plata o Plomo. I choose Plomo",
+            "description": "Some say Plata o Plomo. I choose Plomo. I choose to face certain death for my principles.",
             "warmup": 30,
             "craftable": true,
-            "burnimage": "nsa",
+            "linked": [
+                {
+                    "id": "detective_harassment",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "detective_harassment",
+            "label": "It's too dangerous to go to work",
+            "actionid": "work",
+            "startdescription": "I knew what I was getting into",
+            "warmup": 270,
+            "linked": [
+                {
+                    "id": "detective_marked_for_death",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "detective_marked_for_death",
+            "effects":{
+                "marked_for_death": 1,
+                "investigator3": 1,
+                "dread": 3,
+                "evidenceb": 10
+            },
+            "description": "I'm fucked'",
+            "actionid": "work",
             "alt": [
                 {
                     "id": "suspicion",
                     "chance": 100,
                     "additional": true
                 }
-            ],
+            ]
         },
         {
             "id": "men_in_black_countdown",
@@ -133,6 +160,43 @@
             "craftable": true
         },
         {
+            "id": "men_in_black_temptation_briefing",
+            "comment": "This one is most likely to be broken as I want a specific character of snake alignment to come. Notes for a collaborator are destroyed possibly by the researcher",
+            "label": "Study the Briefing",
+            "actionid": "craving",
+            "requirements": {
+                "men_in_black_briefing": 1,
+                "reason": -1
+            },
+            "effects": {
+                "men_in_black_briefing": -1,
+                "ascensioncapitala": 1,
+                "fragmenthand": 1,
+                "mystique": 1,
+                "culthand_1": 1,
+                "fascination": 1,
+                "dread": 1,
+                "influencehandc": 2
+            },
+            "alt": [
+                {
+                    "id": "ascensionintrojob",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "needs",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "$priority": 10,
+            "startdescription": "Read my briefing.",
+            "description": "I am here to form a cult of the hand. To ensure the world operates on a rational order.\n My assignment is to become as powerful as I can, so I may make this a reality.\n I don't know whether to feel dread or excitement at this revelation.", 
+            "warmup": 30,
+            "craftable": true
+        },
+        {
             "id": "detectivestudy_plotitem",
             "alt": [
                 {
@@ -163,6 +227,10 @@
                     "id": "visionsrisk",
                     "chance": 100,
                     "additional": true
+                },
+                {
+                    "id": "men_in_black_temptation_briefing",
+                    "chance": 100
                 },
                 {
                     "id": "legacydetectiveplotitem_tempt_fail",
