@@ -13,9 +13,35 @@
 					"id": "workdetectivejob_ascended_newrival",
 					"chance": 100,
 					"additional": true
-				}
+				},
+                {
+                    "id": "eat_old_detective_job",
+					"chance": 100,
+					"additional": true
+                }
 			],
             "linked": "convertcult"
+        },
+        {
+            "id": "eat_old_detective_job",
+            "label": "Leaving conventional forces",
+            "actionid": "evilendgameverb",
+            "maxexecutions": 1,
+            "warmup": 60,
+            "slots": [
+                {
+                    "id": "job",
+                    "label": "My old job",
+                    "description": "I will be leaving it",
+                    "required": {
+                        "legacydetectivejob_matured": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "effects":{
+                "legacydetectivejob_matured": -1
+            }
         },
         {
             "id": "convertcult",

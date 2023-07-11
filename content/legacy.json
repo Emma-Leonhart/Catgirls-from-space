@@ -2,7 +2,6 @@
     "legacies": [
         {
             "id": "aspirant",
-            "image": "neko.legacy",
             "label": "Catgirl Acolyte",
             "description": "You discover the secret world of catgirls beneath the surface.",
             "startdescription": "Another day of retail work",
@@ -21,6 +20,9 @@
         },
         {
             "id": "brightyoungthing",
+            "label": "The Bright Young Thing",
+            "description": "Endowed from birth with wealth and talent. A life of ease, comfort and delight stretches ahead like an amber carpet.",
+            "startdescription": "I missed the dawn. I generally do. There'll be plenty more.",
             "statusbarelements": [
                 "health",
                 "reason",
@@ -30,6 +32,9 @@
         },
         {
             "id": "physician",
+            "label": "The Physician",
+            "description": "As the patient descended into the final delirium, I made copious notes. In the buzzing heat of the night, I re-read those notes, and they began, at last, to make a kind of sense.",
+            "startdescription": "Today is the day I return to my post at the Institute. I have a position, and a reputation. That should mean something; but I am beginning to dream of something else.",
             "statusbarelements": [
                 "health",
                 "reason",
@@ -39,6 +44,9 @@
         },
         {
             "id": "detective",
+            "label": "The Detective",
+            "description": "I am an Inspector in the capital's police, charged with the investigation of the most vile and wretched things that one human does to another.",
+            "startdescription": "I have ended the careers of thieves, murderers, blackmailers, arsonists. Some criminals do worse still; and on some mornings, my hands have been known to tremble.",
             "statusbarelements": [
                 "health",
                 "reason",

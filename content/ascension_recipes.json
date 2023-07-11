@@ -455,7 +455,7 @@
                 "prisoner": -1,
                 "ascensioncapitalf": -1,
                 "ascensionmaninblack": 1,
-                "legacydetectivejobmatured": -1,
+                "legacydetectivejob_matured": -1,
                 "favour": 10
             },
             "warmup": 30,
@@ -481,6 +481,15 @@
                     "description": "The last words of a living mind.",
                     "required": {
                         "prisoner": 1
+                    },
+                    "greedy": true
+                },
+                {
+                    "id": "detective",
+                    "label": "occupation",
+                    "description": "The last words of a living mind.",
+                    "required": {
+                        "legacydetectivejob_matured": 1
                     },
                     "greedy": true
                 }
