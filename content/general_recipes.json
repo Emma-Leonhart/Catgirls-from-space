@@ -162,6 +162,44 @@
             "description": "I found tons. My passion is reignited and I'm ready to find the truth.",
             "warmup": 30,
             "craftable": false
+        },
+        {
+            "id": "legacydancer_opentalk",
+            "actionid": "talk",
+            "label": "What We Say And When We Say It",
+            "comments": "opened from first audience interaction",
+            "startdescription": "Do I have something in common with some of those who watch me?",
+            "effects": {
+                "fleeting": 1
+            },
+            "warmup": 60,
+            "alt": [
+                {
+                    "id": "introsurf",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "open.talk.ghoul",
+            "actionid": "talk",
+            "label": "'Miss Naenia'",
+            "startdescription": "In the painting, Miss Naenia's skin is dark, but her close-cropped hair is the ivory and her eyes are the colour of snow. Each day I return, waiting to learn the reason I was drawn here. I never hear the painting speak - it's only a painting! - but afterwards I seem to remember things that she has said.",
+            "description": "I remember how Miss Naenia and I have spoken of that low red sun that understands, of that pale joy of flight. I have come to believe I bring her the treasures of my memory, she will leave a treasure in their place.",
+            "requirements": {},
+            "effects": {
+                "naenia": 1,
+                "passion": 1
+            },
+            "warmup": 60,
+            "alt": [
+                {
+                    "id": "introsurf",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
         }
     ]
 }

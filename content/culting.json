@@ -198,6 +198,258 @@
             "description": "'This was my journey, but now I am transformed. These are my teachings, which I transcend. Here are my hands, but they reach beyond me. Here is my title, but it is only a veil. Here is the Palm, where we guide the lost. Here I sought, and here I found.'",
             "warmup": 60,
             "craftable": true
+        },
+        {
+            "id": "talk.rededicatecult",
+            "actionid": "talk",
+            "label": "A New Way", 
+            "startdescription": "#PREVIOUSCHARACTERNAME# prepared the path, but I <i>am</i> the path. I could alter the forms that have been established. [Once and only once, you may set another kind of Lore at the heart of your Cult. Begin the process only if you have Lore of your preferred Aspect ready.]",
+            "description": "We shall follow the path that #PREVIOUSCHARACTERNAME# set... for now.",
+            "requirements": {
+                "society": 1,
+                "rededicable": 1,
+                "mortal": -1,
+                "summoned": -1,
+                "influence": -1,
+                "ability": -1,
+                "tool": -1,
+                "ingredient": -1,
+                "lore": -1
+            },
+            "slots": [
+                {
+                    "id": "principle",
+                    "label": "New Founding Principle",
+                    "required": {
+                        "lore": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "talk.rededicatecult.edge",
+                    "label": "Re-dedicate Cult: Edge",
+                    "startdescription": "I will draw a line of bright division between the cult that was and the cult that will be. I will bend them to follow my will. [You could pursue a different ascension than Knock. You need not complete the process.]",
+                    "requirements": {
+                        "society": 1,
+                        "lore": 1,
+                        "edge": 1
+                    },
+                    "effects": {
+                        "society": -1,
+                        "cultedge_1": 1,
+                        "ascensionpowera": 1
+                    },
+                    "mutations": [
+                        {
+                            "filter": "society",
+                            "mutate": "rededicable",
+                            "level": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "talk.rededicatecult.forge",
+                    "label": "Re-dedicate Cult: Forge",
+                    "startdescription": "I will reshape the cult to serve my purposes. I hold an unexpected power in my hands. [You could pursue a different ascension than Knock. You need not complete the process.]",
+                    "requirements": {
+                        "society": 1,
+                        "lore": 1,
+                        "forge": 1
+                    },
+                    "effects": {
+                        "society": -1,
+                        "cultforge_1": 1,
+                        "ascensionpowera": 1
+                    },
+                    "mutations": [
+                        {
+                            "filter": "society",
+                            "mutate": "rededicable",
+                            "level": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "talk.rededicatecult.grail",
+                    "label": "Re-dedicate Cult: Grail",
+                    "startdescription": "I will adjust the cult to serve my desires. I might consider the nature of those desires more carefully. [You could pursue a different ascension than Knock. You need not complete the process.]",
+                    "requirements": {
+                        "society": 1,
+                        "lore": 1,
+                        "grail": 1
+                    },
+                    "effects": {
+                        "society": -1,
+                        "cultgrail_1": 1,
+                        "ascensionsensationa": 1
+                    },
+                    "mutations": [
+                        {
+                            "filter": "society",
+                            "mutate": "rededicable",
+                            "level": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "talk.rededicatecult.heart",
+                    "label": "Re-dedicate Cult: Heart",
+                    "startdescription": "The old cult ceases; the new cult will never cease. I hear the drums in the blood, now. [You could pursue a different ascension than Knock. You need not complete the process.]",
+                    "requirements": {
+                        "society": 1,
+                        "lore": 1,
+                        "heart": 1
+                    },
+                    "effects": {
+                        "society": -1,
+                        "cultheart_1": 1,
+                        "ascensionsensationa": 1
+                    },
+                    "mutations": [
+                        {
+                            "filter": "society",
+                            "mutate": "rededicable",
+                            "level": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "talk.rededicatecult.knock",
+                    "label": "Re-dedicate Cult: Knock",
+                    "startdescription": "Now the Seal is opened, and behind it lies the true Cult. It is St Agnes that opens the Seal, but who waits behind it? [You could pursue a different ascension than Knock. You need not complete the process.] ",
+                    "requirements": {
+                        "society": 1,
+                        "lore": 1,
+                        "knock": 1
+                    },
+                    "effects": {
+                        "society": -1,
+                        "cultknock_1": 1,
+                        "ascensionenlightenmenta": 1
+                    },
+                    "mutations": [
+                        {
+                            "filter": "society",
+                            "mutate": "rededicable",
+                            "level": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "talk.rededicatecult.lantern",
+                    "label": "Re-dedicate Cult: Lantern",
+                    "startdescription": "I will reveal a new truth. I might consider further what that truth should be. [You could pursue a different ascension than Knock. You need not complete the process.]",
+                    "requirements": {
+                        "society": 1,
+                        "lore": 1,
+                        "lantern": 1
+                    },
+                    "effects": {
+                        "society": -1,
+                        "cultlantern_1": 1,
+                        "ascensionenlightenmenta": 1
+                    },
+                    "mutations": [
+                        {
+                            "filter": "society",
+                            "mutate": "rededicable",
+                            "level": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "talk.rededicatecult.moth",
+                    "label": "Re-dedicate Cult: Moth",
+                    "startdescription": "They will change; or I shall change them. I could change even further, if the whim took me. [You could pursue a different ascension than Knock. You need not complete the process.]",
+                    "requirements": {
+                        "society": 1,
+                        "lore": 1,
+                        "moth": 1
+                    },
+                    "effects": {
+                        "society": -1,
+                        "cultmoth_1": 1,
+                        "ascensionsensationa": 1
+                    },
+                    "mutations": [
+                        {
+                            "filter": "society",
+                            "mutate": "rededicable",
+                            "level": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "talk.rededicatecult.secrethistories",
+                    "label": "Re-dedicate Cult: Secret Histories",
+                    "startdescription": "In another History, our cult remained unchanged. Not here. Here, I have altered our path... and I could alter it even further. [You could pursue a different ascension than Knock. You need not complete the process.]",
+                    "requirements": {
+                        "society": 1,
+                        "lore": 1,
+                        "secrethistories": 1
+                    },
+                    "effects": {
+                        "society": -1,
+                        "cultsecrethistories_1": 1,
+                        "ascensionenlightenmenta": 1
+                    },
+                    "mutations": [
+                        {
+                            "filter": "society",
+                            "mutate": "rededicable",
+                            "level": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "talk.rededicatecult.winter",
+                    "label": "Re-dedicate Cult: Winter",
+                    "startdescription": "Tonight, the old ways are ended. But for the first time, I hold the reins of our destiny. Should I choose... I could take a different path. [You could pursue a different ascension than Knock. You need not complete the process.]",
+                    "requirements": {
+                        "society": 1,
+                        "lore": 1,
+                        "winter": 1
+                    },
+                    "effects": {
+                        "society": -1,
+                        "cultwinter_1": 1,
+                        "ascensionenlightenmenta": 1
+                    },
+                    "mutations": [
+                        {
+                            "filter": "society",
+                            "mutate": "rededicable",
+                            "level": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "talk.rededicatecult.hand",
+                    "label": "Re-dedicate Cult: Hand",
+                    "startdescription": "Tonight, the old ways are ended. All shall bow down to the invisible hand. [You could pursue a different ascension than Knock. You need not complete the process.]",
+                    "requirements": {
+                        "society": 1,
+                        "lore": 1,
+                        "hand": 1
+                    },
+                    "effects": {
+                        "society": -1,
+                        "culthand_1": 1,
+                        "ascensioncapitala": 1
+                    },
+                    "mutations": [
+                        {
+                            "filter": "society",
+                            "mutate": "rededicable",
+                            "level": -1
+                        }
+                    ]
+                }
+            ],
+            "craftable": true,
+            "warmup": 60,
+            "$priority": 500
         }
     ]
 }
