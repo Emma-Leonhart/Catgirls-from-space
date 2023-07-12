@@ -200,6 +200,51 @@
                     "additional": true
                 }
             ]
+        },
+        {
+            "id": "explorelocationcemetery",
+            "label": "Explore with the dead.",
+            "actionid": "explore",
+            "requirements": {
+                "location.cemetery": 1
+            },
+            "deckeffects": {
+                "cemeteryfinds": 1
+            },
+            "startdescription": "Streets are strange in the hour called Meniscate.",
+            "description": "Visions pass me with pavane grace - a window over a wood, a garden of ice, a shivering sun, a woman of glass. I will return home, with reluctance.",
+            "warmup": 30,
+            "craftable": true
+        },
+        {
+            "id": "explorelocationtemple",
+            "label": "Explore the temple.",
+            "actionid": "explore",
+            "requirements": {
+                "location.temple": 1
+            },
+            "deckeffects": {
+                "templefinds": 1
+            },
+            "startdescription": "Streets are strange in the hour called Meniscate.",
+            "description": "Visions pass me with pavane grace - a window over a wood, a garden of ice, a shivering sun, a woman of glass. I will return home, with reluctance.",
+            "warmup": 30,
+            "craftable": true
+        },
+        {
+            "id": "explore.lensing",
+            "label": "Explore with lensing.",
+            "actionid": "explore",
+            "requirements": {
+                "lensing": 1
+            },
+            "deckeffects": {
+                "explore.lensing.finds": 1
+            },
+            "startdescription": "Streets are strange in the hour called Meniscate.",
+            "description": "Visions pass me with pavane grace - a window over a wood, a garden of ice, a shivering sun, a woman of glass. I will return home, with reluctance.",
+            "warmup": 30,
+            "craftable": true
         }
     ]
 }

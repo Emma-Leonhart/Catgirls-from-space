@@ -1,0 +1,74 @@
+{
+    "decks": [
+        {
+            "id": "citysecrets",
+            "label": "City Secrets",
+            "description": "Easily overlooked locations.",
+            "spec": [
+                "locationauctionhouse",
+                "locationcabaret",
+                "locationbookdealer",
+                "locationstreetsstrange",
+                "location.cemetery",
+                "location.temple"
+            ],
+            "defaultcard": "location.temple"
+        },
+        {
+            "id": "explore.lensing.finds",
+            "label": "City Secrets",
+            "description": "Easily overlooked locations.",
+            "spec": [
+                "locationstreetsstrange",
+                "location.cemetery",
+                "location.temple"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "streetsstrangefinds",
+            "label": "Strange Streets",
+            "description": "Insights and influences.",
+            "spec": [
+                "influenceknockc",
+                "influenceknockc",
+                "glimmering",
+                "glimmering",
+                "fascination",
+                "contentment",
+                "contentment"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "cemeteryfinds",
+            "label": "Memento Mori",
+            "description": "Insights and influences.",
+            "spec": [
+                "influencewinterc",
+                "influencewinterc",
+                "vitality",
+                "vitality",
+                "dread",
+                "restlessness",
+                "fleeting",
+                "fleeting"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "templefinds",
+            "label": "As above so below",
+            "description": "Insights and influences.",
+            "spec": [
+                "influencelanternc",
+                "influencelanternc",
+                "erudition",
+                "erudition",
+                "lensing",
+                "lensing"
+            ],
+            "resetonexhaustion": true
+        }
+    ]
+}
