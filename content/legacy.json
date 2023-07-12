@@ -92,7 +92,7 @@
             "effects": {
                 "passion": 1,
                 "health": 2,
-                "legacydancerjob": 1
+                "intro_legacydancerjob": 1
             },
             "image": "dancer",
             "fromending": "workvictory",
