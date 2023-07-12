@@ -290,7 +290,8 @@
             },
             "effects": {
                 "funds": 2,
-                "suspicious": -99
+                "suspicious": -99,
+                "generic_p": 1
             },
             "craftable": false
         },
@@ -305,8 +306,9 @@
             },
             "alt":[
                 {
-                    "id": "workdetectivejob_ascended_newrival",
-                    "chance": 100
+                    "id": "workdetectivejob_newrival_ascended",
+                    "chance": 100,
+                    "additional": true
                 }
             ],
             "warmup": 60,
@@ -332,7 +334,8 @@
                 "favour": 1,
                 "suspicious": -99,
                 "independent": -1,
-                "legacydetective_plotitem_backup": 1
+                "legacydetective_plotitem_backup": 1,
+                "generic_p": 1
             },
             "warmup": 60,
             "aspects": {
@@ -341,7 +344,7 @@
             },
             "alt": [
                 {
-                    "id": "workdetectivejob_ascended_newrival",
+                    "id": "workdetectivejob_newrival_ascended",
                     "chance": 100,
                     "additional": true
                 }
@@ -358,12 +361,13 @@
                 "independent": 1
             },
             "startdescription": "I've turned over my evidence to the Assistant Director General of the Suppression Bureau. At this moment, I can assume, hard-faced men in plain clothing are pounding on the door of my quarry.",
-            "description": "The Suppression Bureau holds their trials in closed court, and they are not merciful. My quarry disappears from the world. I have earned myself a promotion. ",
+            "description": "I'm allowed to do with the priosner as I see fit. ",
             "effects": {
                 "funds": 7,
                 "favour": 1,
                 "suspicious": -99,
-                "independent": -1
+                "independent": -1,
+                "generic_p": 1
             },
             "warmup": 60,
             "aspects": {
@@ -372,12 +376,29 @@
             },
             "alt": [
                 {
-                    "id": "workdetectivejob_ascended_newrival",
+                    "id": "workdetectivejob_newrival_ascended",
                     "chance": 100,
                     "additional": true
                 }
             ],
             "craftable": false
+        },
+        {
+            "id": "workdetectivejob_newrival_ascended",
+            "label": "Another Target?",
+            "actionid": "newrival",
+            "startdescription": "Another target found. We are almost at the end, we just need to push further",
+            "description": "Target found.",
+            "deckeffects": {
+                "acquaintances": 1
+            },
+            "warmup": 60,
+            "linked": [
+                {
+                    "id": "workdetectivejob_newrival_recruit",
+                    "chance": 100
+                }
+            ]
         },
         {
             "id": "workdetectivejob_ascended_newrival",
@@ -394,7 +415,8 @@
                     "id": "workdetectivejob_ascended_newrival_recruit",
                     "chance": 100
                 }
-            ]
+            ],
+            "comment": "doesn't work gonna deprecate"
         },
         {
             "id": "workdetectivejob_ascended_newrival_recruit",
