@@ -229,7 +229,7 @@
         },
         {
             "id": "ascensioncapital_upgradetoobsession",
-            "label": "Uniting with the Hand",
+            "label": "Breaching the Stag Door",
             "actionid": "work",
             "requirements": {
                 "ascensioncapitalb": 1,
@@ -241,8 +241,8 @@
                 "ascensioncapitalc": 1
             },
             "$priority": 10,
-            "startdescription": "This rite is the Key that will allow the Capital's grip to tighten around me. I will be consumed by its influence, forever transformed into a vessel for its beautiful agenda.",
-            "description": "The Rite is complete. The Marks of the Capital are imprinted upon me. The First Mark is the allegiance I have pledged, and the Second is the actions I have taken in its name. If I examine my body, I'll discover the Third Mark, a physical manifestation of my transformation. My desires have been reshaped, now honed to serve its purpose.",
+            "startdescription": "This rite is the Key that will allow Capital to enter the Stag Door. Its will shall be done across the cosmos.",
+            "description": "The Rite is complete. Capital has pierced through the Stag Door.",
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion"
@@ -255,7 +255,7 @@
                 "ascensioncapitala": 1
             },
             "startdescription": "Hunger glows in my brain - hunger for the knowledge the invisible arts might bring.",
-            "description": "The Watchman, who is the Door-in-the-Eye, waits in my dreams. If I learn the Lantern-lore, and I dream of this temptation, I can advance my purpose. The need gnaws at me.",
+            "description": "The Watchman, who is the Door-in-the-Eye, waits in my dreams. If I learn the Hand-lore, and I dream of this temptation, I can advance my purpose. The need gnaws at me.",
             "effects": {
                 "restlessness": 1
             },
