@@ -96,6 +96,12 @@
                         "label": "Imbalance",
                         "description": "Alien, and not in a good way.",
                         "isAspect": true
+                    },
+                    {
+                        "id": "ascensionmaninblack_aspect",
+                        "label": "Man in Black Ascension",
+                        "description": "Alien, and not in a good way.",
+                        "isAspect": true
                     }
                 ]
             }

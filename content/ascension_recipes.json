@@ -228,7 +228,7 @@
             "burnimage": "forgededication"
         },
         {
-            "id": "ascensioncapital_upgradetoobsession",
+            "id": "capital_stag_ritual",
             "label": "Breaching the Stag Door",
             "actionid": "work",
             "requirements": {
@@ -236,16 +236,76 @@
                 "waystag_after": 1,
                 "hand": 6
             },
-            "effects": {
-                "ascensioncapitalb": -1,
-                "ascensioncapitalc": 1
-            },
             "$priority": 10,
             "startdescription": "This rite is the Key that will allow Capital to enter the Stag Door. Its will shall be done across the cosmos.",
             "description": "The Rite is complete. Capital has pierced through the Stag Door.",
             "warmup": 60,
             "craftable": true,
-            "burnimage": "flammarion"
+            "burnimage": "flammarion",
+            "linked":[
+                {
+                    "id": "test_if_cop",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "test_if_cop",
+            "label": "Looking over my career",
+            "actionid": "work",
+            "warmup": 10,
+            "slots": [
+                {
+                    "id": "job",
+                    "label": "My old job",
+                    "description": "I will be leaving it",
+                    "required": {
+                        "legacydetectivejob_matured": 1,
+                        "legacydetectivejob_suspended": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "ascensioncapital_upgradetoobsession_cop",
+                    "chance": 100
+                },
+                {
+                    "id": "ascensioncapital_upgradetoobsession",
+                    "chance": 100
+                }
+            ],
+            "craftable" : false,
+            "comments": "would be instant except the talking to stop countdown might make people be left out of this"
+        },
+        {
+            "id": "ascensioncapital_upgradetoobsession_cop",
+            "actionid": "work",
+            "requirements": {
+                "job": 1
+            },
+            "effects": {
+                "ascensioncapitalb": -1,
+                "ascensioncapitalc_cop": 1,
+                "legacydetectivejob_matured": -1,
+                "legacydetectivejob_suspended": -1
+            },
+            "label": "I have been promoted",
+            "description": "I accomplished my mission. Capital has breached the stag door, now for my next mission. I have been directed to arrest all dissidents to capital."
+        },
+        {
+            "id": "ascensioncapital_upgradetoobsession",
+            "actionid": "work",
+            "requirements": {
+                "job": -1
+            },
+            "effects": {
+                "ascensioncapitalb": -1,
+                "ascensioncapitalc": 1
+            },
+            "startdescription": "This rite is the Key that will allow Capital to enter the Stag Door. Its will shall be done across the cosmos.",
+            "description": "The Rite is complete. Capital has pierced through the Stag Door. I am greater now."
         },
         {
             "id": "ascensionhintcapital1",
@@ -445,7 +505,8 @@
             "actionid": "craving",
             "requirements": {
                 "capitalmarks": 6,
-                "prisoner": 1
+                "prisoner": 1,
+                "ascensioncapitalf_cop": -1
             },
             "startdescription": "The Archons have approached you in visions. They tell you you have done great work and can help them achieve a new world. All you must do is help them rid the world of the last few rebels and the new aeon will begin.",
 			"description": "You have been initiated into the men in black. Now everything is clear. You must eliminate the enemy",
@@ -454,6 +515,7 @@
                 "funds": 2,
                 "prisoner": -1,
                 "ascensioncapitalf": -1,
+                "ascensioncapitalf_cop": -1,
                 "ascensionmaninblack": 1,
                 "legacydetectivejob_matured": -1,
                 "favour": 10
@@ -465,7 +527,8 @@
 					"chance": 100,
 					"additional": true
 				}
-			]
+			],
+            "maxexecutions": 1
         },
         {
             "id": "ascensioncravingcapital",

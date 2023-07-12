@@ -358,7 +358,8 @@
             "id": "everything_eating_break",
             "label": "I'm so hungry",
             "actionid": "craving",
-			"warmup": 10,
+			"warmup": 2,
+			"startdescription": "Consume. Consume, Consume. [The entire world will be consumed, but there's a secret ending if you solve the puzzle in time]",
             "slots": [
 				{
 					"id": "peopleleft",
@@ -394,7 +395,7 @@
 			"id": "eat_all_cards",
 			"label": "I need more",
             "actionid": "craving",
-			"warmup": 5,
+			"warmup": 3,
 			"slots": [
 				{
 					"id": "peopleleft",
@@ -414,7 +415,7 @@
 					"greedy": true
 				}
 			],
-			"startdescription": "Consume. Consume, Consume.",
+			"startdescription": "Consume. Consume, Consume. [The entire world will be consumed, but there's a secret ending if you solve the puzzle in time]",
 			"effects": {
 						"way": -1,
 						"mortal": -1,
@@ -448,7 +449,7 @@
 			"actionid": "finish",
 			"warmup": 10,
 			"startdescription": "This is how the world ends.",
-			"description": "Not with a bang, but a whimper.",
+			"description": "The renmants of the world. [The entire world will be consumed, but there's a secret ending if you solve the puzzle in time]",
 			"effects": {
 				"decrepitude": 1,
 				"funds": 1,
@@ -461,7 +462,7 @@
 			"id": "consumption_finished",
 			"label": "It is finished",
 			"actionid": "craving",
-			"warmup": 60,
+			"warmup": 120,
 			"startdescription": "It's over.",
 			"ending": "chi.ascended",
             "signalendingflavour": "Grand"

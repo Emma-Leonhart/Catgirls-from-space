@@ -7,7 +7,8 @@
                 "desire": 7,
                 "capitalmarks": 7,
                 "job": 1,
-                "Imbalance": 2
+                "Imbalance": 2,
+                "ascensionmaninblack_aspect": 1
             },
             "description": "I am now a Man in Black. My goal is to eliminate chaotic elements of the Earth before its complete integration into Capital.",
             "uniquenessgroup": "uqdesire",
@@ -48,7 +49,10 @@
                     },
                     "actionid": "work"
                 }
-            ]
+            ],
+            "xtriggers": {
+                "descend": "ascensioncapitalf_cop"
+            }
         },
         {
             "id": "mistakenidentity",

@@ -95,6 +95,73 @@
             "uniquenessgroup": "uqdesire"
         },
         {
+            "id": "ascensioncapitalc_cop",
+            "label": "Ascension: Man in Black",
+            "aspects": {
+                "desire": 3,
+                "capitalmarks": 3,
+                "job": 1,
+                "Imbalance": 2,
+                "ascensionmaninblack_aspect": 1
+            },
+            "xtriggers": {
+                "ascend": "ascensioncapitald_cop"
+            },
+            "description": "The Red Grail has warmed me. Its thirsts have begun to dry my mouth and itch my hands. I know this to be the Third Mark.",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensioncapitald_cop",
+            "label": "Ascension: Man in Black",
+            "aspects": {
+                "desire": 4,
+                "capitalmarks": 4,
+                "job": 1,
+                "Imbalance": 2,
+                "ascensionmaninblack_aspect": 1
+            },
+            "xtriggers": {
+                "ascend": "ascensioncapitale_cop",
+                "descend": "ascensioncapitalc_cop"
+            },
+            "description": "The Fourth Mark is the intermittent improvements to my skin. In patches, along my arms or down my thighs, it is clear, soft, glowing, like the skin of a child new-stepped from spring-water. But only in patches.",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensioncapitale_cop",
+            "label": "Ascension: Man in Black",
+            "aspects": {
+                "desire": 5,
+                "capitalmarks": 5,
+                "job": 1,
+                "Imbalance": 2,
+                "ascensionmaninblack_aspect": 1
+            },
+            "xtriggers": {
+                "ascend": "ascensioncapitalf_cop",
+                "descend": "ascensioncapitald_cop"
+            },
+            "description": "'Extensions and eruptions' is the nick-name for the Fifth Mark. I have developed two new fingers, and only one is on my hand. I have a fistula in the crook of my knee. Pressure upon its edges is a soft glow of pleasure. I think that the bulge at the small of my back is a new organ.",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensioncapitalf_cop",
+            "label": "Ascension: Man in Black",
+            "aspects": {
+                "desire": 6,
+                "capitalmarks": 6,
+                "job": 1,
+                "Imbalance": 2,
+                "ascensionmaninblack_aspect": 1
+            },
+            "xtriggers": {
+                "ascend": "ascensionmaninblack",
+                "descend": "ascensioncapitale_cop"
+            },
+            "description": "The Sixth Mark is identified as the point when I am a hand-span taller. I swell in every member and direction. My skin is radiant velvet. Pits of flesh cushion my eyes. I am very thirsty.",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
 			"id": "sensationmarks",
 			"label": "The Forms of Sacredness",
 			"isAspect": true,
