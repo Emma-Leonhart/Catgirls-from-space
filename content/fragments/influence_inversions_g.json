@@ -1,0 +1,112 @@
+{
+    "recipes": [
+        {
+            "id": "invertwinterg",
+            "label": "Invert Winter Influence",
+            "actionid": "study",
+            "requirements": {
+                "influencewinterg": 1,
+                "lensing": 1
+            },
+            "effects": {
+                "influencewinterg": -1,
+                "lensing": -1,
+                "influencelanterng": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Winter (AL) becomes Lantern (LA)]",
+            "$priority": 100,
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "invertlanterng",
+            "label": "Invert Lantern Influence",
+            "actionid": "study",
+            "requirements": {
+                "influencelanterng": 1,
+                "lensing": 1
+            },
+            "effects": {
+                "influencelanterng": -1,
+                "lensing": -1,
+                "influencewinterg": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Lantern (LA) becomes Winter (AL)]",
+            "$priority": 100,
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "invertforgeg",
+            "label": "Invert Forge Influence",
+            "actionid": "study",
+            "requirements": {
+                "influenceforgeg": 1,
+                "lensing": 1
+            },
+            "effects": {
+                "influenceforgeg": -1,
+                "lensing": -1,
+                "influenceedgeg": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Forge (OL) becomes Edge (LO)]",
+            "$priority": 100,
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "invertedgeg",
+            "label": "Invert Edge Influence",
+            "actionid": "study",
+            "requirements": {
+                "influenceedgeg": 1,
+                "lensing": 1
+            },
+            "effects": {
+                "influenceedgeg": -1,
+                "lensing": -1,
+                "influenceforgeg": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Edge (LO) becomes Forge (OL)]",
+            "$priority": 100,
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "invertknockg",
+            "label": "Invert Knock Influence",
+            "actionid": "study",
+            "requirements": {
+                "influenceknockg": 1,
+                "lensing": 1
+            },
+            "effects": {
+                "influenceknockg": -1,
+                "lensing": -1,
+                "influencesecretg": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Knock (OA) becomes Secret Histories (AO)]",
+            "$priority": 100,
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "invertsecretg",
+            "label": "Invert Secret Histories Influence",
+            "actionid": "study",
+            "requirements": {
+                "influencesecretg": 1,
+                "lensing": 1
+            },
+            "effects": {
+                "influencesecretg": -1,
+                "lensing": -1,
+                "influenceknockg": 1
+            },
+            "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Secret Histories (AO) becomes Knock (OA)]",
+            "$priority": 100,
+            "warmup": 60,
+            "craftable": true
+        }
+    ]
+}
