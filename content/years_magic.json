@@ -7,7 +7,7 @@
             "requirements": {
                 "year.stolen": 1
             },
-            "startdescription": "I am merging ten years into a decade\n [Note that this does not work at the moment and will crash your game]",
+            "startdescription": "I am merging ten years into a decade",
             "craftable": true,
             "linked":[
                 {
@@ -15,12 +15,15 @@
                     "chance": 100
                 }
             ],
-            "warmup": 30
+            "warmup": 5
         },
         {
             "id": "grab_year",
             "label": "Merging",
             "actionid": "study",
+            "requirements": {
+                "year.stolen": 1
+            },
             "slots": [
                 {
                     "id": "another_year",
@@ -39,10 +42,17 @@
                 {
                     "id": "grab_year",
                     "chance": 100
+                },
+                {
+                    "id": "decade_failure",
+                    "chance": 100
                 }
             ],
             "effects": {
-                "lensing": -1
+                "lensing": -1,
+                "preglimmering": -1,
+                "glimmering": -1,
+                "contentment": -1
             },
             "warmup": 5
         },
@@ -57,7 +67,20 @@
                 "decade.stolen": 1,
                 "lensing": -1
             },
-            "warmup": 30
+            "warmup": 10
+        },
+        {
+            "id": "decade_failure",
+            "effects": {
+                "lensing": -1
+            },
+            "requirements": {
+                "year.stolen": -1
+            },
+            "warmup": 10,
+            "startdescription": "not enough years",
+            "label": "A failure",
+            "description": "I did not have enough years to merge"
         }
     ]
 }
