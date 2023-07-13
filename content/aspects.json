@@ -102,6 +102,12 @@
                         "label": "Man in Black Ascension",
                         "description": "Alien, and not in a good way.",
                         "isAspect": true
+                    },
+                    {
+                        "id": "local",
+                        "label": "Local",
+                        "description": "Local to the city. If you leave it will not follow.",
+                        "isAspect": true
                     }
                 ]
             }

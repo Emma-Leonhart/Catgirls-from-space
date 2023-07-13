@@ -6338,7 +6338,11 @@
                     "consumes": true
                 }
             ],
-            "icon": "rumour"
+            "icon": "rumour",
+            "aspects": {
+                "trace": 1,
+                "local": 1
+            }
         },
         {
             "id": "diversion.exile",

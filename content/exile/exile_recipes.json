@@ -1956,6 +1956,7 @@
             },
 			"deleteverb": {
 			                "rkx*": 100,
+                            "susipcion": 100
 			},
             "haltverb": {
                 "opx*": 100,
@@ -1976,7 +1977,11 @@
                 "rkx.internal": 100,
                 "damage.underling": 100,
                 "domicile": 1,
-                "location": 1
+                "hunter": 1,
+                "local": 1,
+                "evidencelevel": 1,
+                "suspicious": 1,
+                "reputation": 1
             },
             "comments": "Deleting the rkx verb and then recreating it with the alt works fine because effect execution occurs in turn inside each recipe, and the alt with additional gives us another recipe. But keep an eye on this.",
             "alt": [
