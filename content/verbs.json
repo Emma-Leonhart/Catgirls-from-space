@@ -60,9 +60,27 @@
         },
         {
             "id": "talk",
-            "slot$dictedit": {
-                "required$add": {
-                    "funds": 1
+            "label": "Communicate",
+            "description": "Interrogate, intimidate, beguile, instruct, recruit. \nSend messages, moneys and more. Be careful.",
+            "slot": {
+                "id": "talk",
+                "label": "Send",
+                "required": {
+                    "desire": 1,
+                    "domicile": 1,
+                    "location": 1,
+                    "funds": 1,
+                    "mortal": 1,
+                    "ligeian": 1,
+                    "summoned": 1,
+                    "patron": 1,
+                    "society": 1,
+                    "hq": 1,
+                    "lore": 1
+                },
+                "forbidden": {
+                    "exhausted": 1,
+                    "wary": 1
                 }
             }
         },

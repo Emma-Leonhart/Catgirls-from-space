@@ -6240,7 +6240,7 @@
             "uniquenessgroup": "uqdesire",
             "slots": [
                 {
-                    "actionid": "send",
+                    "actionid": "talk",
                     "id": "obscurity1",
                     "label": "Obscurity",
                     "required": {
@@ -6248,7 +6248,7 @@
                     }
                 },
                 {
-                    "actionid": "send",
+                    "actionid": "talk",
                     "id": "obscurity2",
                     "label": "Obscurity",
                     "required": {
@@ -6256,7 +6256,7 @@
                     }
                 },
                 {
-                    "actionid": "send",
+                    "actionid": "talk",
                     "id": "obscurity3",
                     "label": "Obscurity",
                     "required": {
@@ -6264,7 +6264,7 @@
                     }
                 },
                 {
-                    "actionid": "send",
+                    "actionid": "talk",
                     "id": "obscurity4",
                     "label": "Obscurity",
                     "required": {
@@ -6272,7 +6272,7 @@
                     }
                 },
                 {
-                    "actionid": "send",
+                    "actionid": "talk",
                     "id": "obscurity5",
                     "label": "Obscurity",
                     "required": {
@@ -6280,7 +6280,7 @@
                     }
                 },
                 {
-                    "actionid": "send",
+                    "actionid": "talk",
                     "id": "obscurity6",
                     "label": "Obscurity",
                     "required": {
@@ -6288,7 +6288,7 @@
                     }
                 },
                 {
-                    "actionid": "send",
+                    "actionid": "talk",
                     "id": "obscurity7",
                     "label": "Obscurity",
                     "required": {
@@ -8876,7 +8876,7 @@
                         "domicile.wilderness": 1,
                         "weapon.profane": 1
                     },
-                    "actionid": "send"
+                    "actionid": "talk"
                 }
             ]
         },

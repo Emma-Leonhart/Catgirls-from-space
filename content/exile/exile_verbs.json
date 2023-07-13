@@ -20,26 +20,6 @@
             }
         },
         {
-            "id": "send",
-            "label": "Communicate",
-            "description": "Send messages, moneys and more. Be careful.",
-            "slot": {
-                "id": "send",
-                "label": "Send",
-                "required": {
-                    "desire": 1,
-                    "domicile": 1,
-"location": 1,
-                    "funds": 1,
-                    "mortal": 1,
-                    "ligeian": 1
-                },
-                "forbidden": {
-                    "exhausted": 1
-                }
-            }
-        },
-        {
             "id": "relinquish",
             "label": "Relinquish",
             "description": "Sell; abandon; extirpate; surrender.",

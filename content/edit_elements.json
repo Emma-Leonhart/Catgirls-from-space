@@ -21,7 +21,7 @@
             "description": "Capital. The lifeblood of the global economy.",
             "slots": [
                 {
-                    "actionid": "send",
+                    "actionid": "talk",
                     "id": "destination",
                     "label": "Destination",
                     "required": {
