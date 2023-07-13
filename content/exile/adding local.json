@@ -1,5 +1,142 @@
 {
-    "elements":[
-        
+    "elements": [
+        {
+            "id": "gloverandgloverjuniorjob",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "gloverandgloverjuniorjob_nodifficultbossa",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "gloverandglover_difficultbossa_job",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "gloverandglover_difficultbossa_gone_job",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "gloverandgloverjob",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "gloverandgloverjob_youngerglovergone",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "gloverandgloverseniorjob",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "gloverandgloverseniorjob_youngerglovergone",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "gloverandglovertopjob",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "gloverandglovertopjob_tainted",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "gloverandgloverjuniorjob_demotion",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "gloverandgloverjuniorjob_nodifficultbossa_demotion",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "gloverandgloverjob_demotion",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "gloverandgloverjob_youngerglovergone_demotion",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "gloverandglovertopjob_tainted_demotion",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "institutephysicianjob",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "investmentsjobc",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "investmentsjobb",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "investmentsjoba",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "ghouljob.first",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "ghouljob",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "auctioneerjob",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
+            "id": "priestjob",
+            "aspects$add": {
+                "local": 1
+            }
+        }
     ]
 }
