@@ -78,7 +78,8 @@
             "id": "explore",
             "slot$dictedit": {
                 "required$add": {
-                    "funds": 1
+                    "funds": 1,
+                    "domicile": 1
                 }
             }
         }

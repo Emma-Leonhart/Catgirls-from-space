@@ -6237,7 +6237,7 @@
                 "desire": 1,
                 "choice.merciful": 1
             },
-            "unique": true,
+            "uniquenessgroup": "uqdesire",
             "slots": [
                 {
                     "actionid": "send",
@@ -6802,7 +6802,8 @@
             "id": "domicile.amsterdam",
             "label": "Amsterdam",
             "aspects": {
-                "domicile": 1
+                "domicile": 1,
+"location": 1
             },
             "description": "The Golden Age is over, but glory lingers like fading music. Bicycles rattle across cobbles. A woman in white throws open the shutters of a high window. On misty evenings, the Nameless Name of the Velvet walks here.",
             "icon": "domicile.amsterdam",
@@ -6812,7 +6813,8 @@
             "id": "domicile.avignon",
             "label": "Avignon",
             "aspects": {
-                "domicile": 1
+                "domicile": 1,
+"location": 1
             },
             "description": "Sleepy Avignon, where the mistral blows.",
             "icon": "domicile.avignon",
@@ -6837,7 +6839,8 @@
             "id": "domicile.budapest",
             "label": "Budapest",
             "aspects": {
-                "domicile": 1
+                "domicile": 1,
+"location": 1
             },
             "description": "Winter in Budapest, and the Danube is dusted with snow. The Dual Monarchy has collapsed, but somehow this city is once again the capital of the Kingdom of Hungary. The King has twice tried to return, and twice been driven out. Politics.",
             "icon": "domicile.budapest",
@@ -6860,7 +6863,8 @@
             "id": "domicile.cluj",
             "label": "Cluj-Napoca",
             "aspects": {
-                "domicile": 1
+                "domicile": 1,
+"location": 1
             },
             "description": "Nestled in the mountains of sunset lies the city of the Archangel Michael. I remember it mostly as the place where I drank too much tsuica and got into a fight with bricklayers. We've all been young.",
             "icon": "domicile.cluj",
@@ -6870,7 +6874,8 @@
             "id": "domicile.granada",
             "label": "Granada",
             "aspects": {
-                "domicile": 1
+                "domicile": 1,
+"location": 1
             },
             "description": "Cold clean air and hushed white streets and green-splashed patios and the mountains looking down. I might find something like respite.",
             "icon": "domicile.granada",
@@ -6895,7 +6900,8 @@
             "id": "domicile.kaunas",
             "label": "Kaunas (Little Paris)",
             "aspects": {
-                "domicile": 1
+                "domicile": 1,
+"location": 1
             },
             "description": "Half of Lithuania has fallen to Poland, and the peace is desperately fragile, but this is the capital now. They call it Little Paris, and the lamplight glows in the cafes and the dance halls. But there is a new president, and now the Association of the Iron Wolf begins to tighten its jaws.",
             "icon": "domicile.kaunas",
@@ -6920,7 +6926,8 @@
             "id": "domicile.krakow",
             "label": "Kraków",
             "aspects": {
-                "domicile": 1
+                "domicile": 1,
+"location": 1
             },
             "description": "The castle on the hill where the dragon died looks out across a city mellow with October sunlight. Just don't speak ill of the Marshal.",
             "icon": "domicile.krakow",
@@ -7019,7 +7026,8 @@
             "id": "domicile.paris",
             "label": "Paris",
             "aspects": {
-                "domicile": 1
+                "domicile": 1,
+"location": 1
             },
             "description": "This year in the City of Lights, the socialists battle the communists, the Métro grumbles, gaunt artists prowl bookshops on the Other Bank. Plus ça change.",
             "icon": "domicile.paris",
@@ -7029,7 +7037,8 @@
             "id": "domicile.prague",
             "label": "Prague",
             "aspects": {
-                "domicile": 1
+                "domicile": 1,
+"location": 1
             },
             "description": "The City of a Hundred Spires, flexing its republican muscles beneath the benign gaze of Masaryk and his Castlemen. Statues watch the bridges each night. This is Europe's heart, and for a while longer, it will beat with cheery vigour.",
             "icon": "domicile.prague",
@@ -7039,7 +7048,8 @@
             "id": "domicile.rostock",
             "label": "Rostock",
             "aspects": {
-                "domicile": 1
+                "domicile": 1,
+"location": 1
             },
             "description": "Beyond the kerosene bustle of the great port, here by the dark sea where the amber comes to light, ancient clockwork drives the Warnemünde Lighthouse. Each night it winks at the horizon. ",
             "icon": "domicile.rostock",
@@ -7083,7 +7093,8 @@
             "id": "domicile.strasbourg",
             "label": "Strasbourg",
             "aspects": {
-                "domicile": 1
+                "domicile": 1,
+"location": 1
             },
             "description": "Here were sworn the great oaths that divided the empire of the great Charles between east and west. In consequence, the land has been contested for a thousand years; in consequence, the shadow of the Horned Axe lies long here. Also, there's a cheery little bistro where they serve that stew with juniper and white wine that I like.",
             "icon": "domicile.strasbourg",
@@ -7124,7 +7135,8 @@
             "id": "domicile.tirana",
             "label": "Tirana",
             "aspects": {
-                "domicile": 1
+                "domicile": 1,
+"location": 1
             },
             "description": "Flower-thronged Tirana, where Zogist soldiers crowd the cafes with drunken laughter, where the Flowermaker hums his dreamy songs in the bee-droning shadows.",
             "icon": "domicile.tirana",
@@ -7192,7 +7204,8 @@
             "id": "domicile.vienna",
             "label": "Vienna",
             "aspects": {
-                "domicile": 1
+                "domicile": 1,
+"location": 1
             },
             "description": "One of those few cities which has the same name in every History... if you believe that sort of thing. For a very long time it was the first heart of the Dual Empire, and for the longest time the adepts have known it as the White City. But now it's Red Vienna under the First Republic, and the streets are bright with dawn.",
             "icon": "domicile.vienna",
@@ -8526,7 +8539,8 @@
             "id": "domicile.wilderness",
             "label": "Lonely Places Between",
             "aspects": {
-                "domicile": 1
+                "domicile": 1,
+"location": 1
             },
             "description": "There are always choices. I could die of thirst, or cold, or hunger. [Few opportunities of any use, and you'll have to take whatever road onwards presents itself.]",
             "icon": "wilderness"
@@ -8837,7 +8851,7 @@
         {
             "id": "temptation.defiance",
             "label": "Temptation: Defiance",
-            "unique": true,
+            "uniquenessgroup": "uqdesire",
             "aspects": {
                 "defiancemarks": 1,
                 "desire": 1,

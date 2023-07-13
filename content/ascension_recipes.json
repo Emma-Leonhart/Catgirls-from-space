@@ -149,6 +149,55 @@
             "craftable": true
         },
         {
+            "id": "dream.temptation.remembrance",
+            "label": "Meditate on the pursuit of memories",
+            "actionid": "dream",
+            "requirements": {
+                "ascensioncapitala": 1
+            },
+            "slots": [
+                {
+                    "id": "Musing",
+                    "label": "Musing",
+                    "required": {
+                        "lore": 1,
+                        "passion": 1,
+                        "reason": 1,
+                        "priestjob": 1,
+                        "funds": 1,
+                        "health": 1
+                    },
+                    "description": "Dedicate myself with the lore of the principle I seek; or focus my efforts elsewhere."
+                }
+            ],
+            "startdescription": "Should I dedicate myself to my purpose? Or focus my efforts elsewhere?",
+            "description": "I have decided to remain as I am... for now.",
+            "alt": [
+                {
+                    "id": "dreamascension_abandontemptation",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_switchto_power",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_switchto_enlightenment",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_switchto_capital",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_switchto_sensation",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "craftable": true
+        },
+        {
             "id": "dreamascensioncapitala",
             "label": "Meditate on the pursuit of money",
             "actionid": "dream",

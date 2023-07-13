@@ -654,7 +654,8 @@
             "requirements": {
                 "temptation.defiance": 1,
                 "lure.foe": 1,
-                "domicile": 1
+                "domicile": 1,
+"location": 1
             },
             "extantreqs": {
                 "rkx.foe": -1,
@@ -1546,7 +1547,8 @@
             "startdescription": "You might call this place the edge of the world.",
             "requirements": {
                 "end": 1,
-                "domicile": 1
+                "domicile": 1,
+"location": 1
             },
             "hintonly": true,
             "craftable": false

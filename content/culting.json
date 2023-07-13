@@ -207,7 +207,6 @@
             "description": "We shall follow the path that #PREVIOUSCHARACTERNAME# set... for now.",
             "requirements": {
                 "society": 1,
-                "rededicable": 1,
                 "mortal": -1,
                 "summoned": -1,
                 "influence": -1,
