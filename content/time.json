@@ -581,9 +581,6 @@
             ],
             "linked": [
                 {
-                    "id": "wounds.exile.danger"
-                },
-                {
                     "id": "drawseason_exile"
                 }
             ]
@@ -619,9 +616,6 @@
             ],
             "linked": [
                 {
-                    "id": "wounds.exile.danger"
-                },
-                {
                     "id": "drawseason_exile"
                 }
             ]
@@ -643,9 +637,6 @@
                 }
             ],
             "linked": [
-                {
-                    "id": "wounds.exile.danger"
-                },
                 {
                     "id": "drawseason_exile"
                 }
@@ -670,9 +661,6 @@
             ],
             "linked": [
                 {
-                    "id": "wounds.exile.danger"
-                },
-                {
                     "id": "drawseason_exile"
                 }
             ]
@@ -696,9 +684,6 @@
             ],
             "linked": [
                 {
-                    "id": "wounds.exile.danger"
-                },
-                {
                     "id": "drawseason_exile"
                 }
             ]
@@ -720,9 +705,6 @@
                 }
             ],
             "linked": [
-                {
-                    "id": "wounds.exile.danger"
-                },
                 {
                     "id": "drawseason_exile"
                 }
@@ -867,9 +849,6 @@
             "startdescription": "The sun crosses the sky. Night pursues it. [At the end of each cycle, reckoners may also enter the city. This is more likely if you've created a Trace, and much more likely if you've created more than one.]",
             "comments": "using linked recipes so we can select just one possible additional trace response",
             "linked": [
-                {
-                    "id": "wounds.exile.danger"
-                },
                 {
                     "id": "turn.check.traces"
                 },
