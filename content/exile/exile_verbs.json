@@ -36,7 +36,7 @@
             }
         },
         {
-            "id": "time.exile",
+            "id": "time",
             "label": "Time",
             "description": "The final enemy?",
             "slot": {
