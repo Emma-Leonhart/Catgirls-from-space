@@ -1,8 +1,8 @@
 {
     "recipes": [
         {
-            "id": "scout.first",
-            "actionid": "scout",
+            "id": "explore.first",
+            "actionid": "explore",
             "label": "Reconnoitre",
             "startdescription": "It's a cold old world out there, but I know a few tricks.",
             "effects": {
@@ -18,8 +18,8 @@
             "comments": "opened by initial travel recipe"
         },
         {
-            "id": "scout.turmoil",
-            "actionid": "scout",
+            "id": "explore.turmoil",
+            "actionid": "explore",
             "label": "A City in Turmoil",
             "startdescription": "I should leave - and soon.",
             "requirements": {
@@ -29,8 +29,8 @@
             "hintonly": true
         },
         {
-            "id": "scout.aachen",
-            "actionid": "scout",
+            "id": "explore.aachen",
+            "actionid": "explore",
             "label": "Reconnoitre Aachen",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -60,14 +60,14 @@
             }
         },
         {
-            "id": "scout.alexandria",
+            "id": "explore.alexandria",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
                 "tracerisk": 1
             },
             "craftable": true,
-            "actionid": "scout",
+            "actionid": "explore",
             "label": "Reconnoitre Alexandria",
             "requirements": {
                 "domicile.alexandria": 1
@@ -99,8 +99,8 @@
             }
         },
         {
-            "id": "scout.algiers",
-            "actionid": "scout",
+            "id": "explore.algiers",
+            "actionid": "explore",
             "label": "Reconnoitre Algiers",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -137,8 +137,8 @@
             }
         },
         {
-            "id": "scout.amsterdam",
-            "actionid": "scout",
+            "id": "explore.amsterdam",
+            "actionid": "explore",
             "label": "Reconnoitre Amsterdam",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -171,8 +171,8 @@
             }
         },
         {
-            "id": "scout.avignon",
-            "actionid": "scout",
+            "id": "explore.avignon",
+            "actionid": "explore",
             "label": "Reconnoitre Avignon",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -203,8 +203,8 @@
             }
         },
         {
-            "id": "scout.baghdad",
-            "actionid": "scout",
+            "id": "explore.baghdad",
+            "actionid": "explore",
             "label": "Reconnoitre Baghdad",
             "requirements": {
                 "domicile.baghdad": 1
@@ -236,8 +236,8 @@
             }
         },
         {
-            "id": "scout.budapest",
-            "actionid": "scout",
+            "id": "explore.budapest",
+            "actionid": "explore",
             "label": "Reconnoitre Budapest",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -269,8 +269,8 @@
             }
         },
         {
-            "id": "scout.candia",
-            "actionid": "scout",
+            "id": "explore.candia",
+            "actionid": "explore",
             "label": "Reconnoitre Candia-Heraklion",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -305,8 +305,8 @@
             }
         },
         {
-            "id": "scout.cluj",
-            "actionid": "scout",
+            "id": "explore.cluj",
+            "actionid": "explore",
             "label": "Reconnoitre Cluj-Napoca",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -339,8 +339,8 @@
             }
         },
         {
-            "id": "scout.granada",
-            "actionid": "scout",
+            "id": "explore.granada",
+            "actionid": "explore",
             "label": "Reconnoitre Granada",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -375,8 +375,8 @@
             }
         },
         {
-            "id": "scout.istanbul",
-            "actionid": "scout",
+            "id": "explore.istanbul",
+            "actionid": "explore",
             "label": "Reconnoitre Istanbul",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -413,8 +413,8 @@
             }
         },
         {
-            "id": "scout.kaunas",
-            "actionid": "scout",
+            "id": "explore.kaunas",
+            "actionid": "explore",
             "label": "Reconnoitre Kaunas",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -449,8 +449,8 @@
             }
         },
         {
-            "id": "scout.kiev",
-            "actionid": "scout",
+            "id": "explore.kiev",
+            "actionid": "explore",
             "label": "Reconnoitre Kyiv",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -483,8 +483,8 @@
             }
         },
         {
-            "id": "scout.krakow",
-            "actionid": "scout",
+            "id": "explore.krakow",
+            "actionid": "explore",
             "label": "Reconnoitre Kraków",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -516,8 +516,8 @@
             }
         },
         {
-            "id": "scout.leningrad",
-            "actionid": "scout",
+            "id": "explore.leningrad",
+            "actionid": "explore",
             "label": "Reconnoitre Leningrad",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -548,8 +548,8 @@
             }
         },
         {
-            "id": "scout.london",
-            "actionid": "scout",
+            "id": "explore.london",
+            "actionid": "explore",
             "label": "Reconnoitre London",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -580,8 +580,8 @@
             }
         },
         {
-            "id": "scout.marrakech",
-            "actionid": "scout",
+            "id": "explore.marrakech",
+            "actionid": "explore",
             "label": "Reconnoitre Marrakech",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -618,8 +618,8 @@
             }
         },
         {
-            "id": "scout.meshad",
-            "actionid": "scout",
+            "id": "explore.meshad",
+            "actionid": "explore",
             "label": "Reconnoitre Meshad",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -655,8 +655,8 @@
             }
         },
         {
-            "id": "scout.munich",
-            "actionid": "scout",
+            "id": "explore.munich",
+            "actionid": "explore",
             "label": "Reconnoitre Munich",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -687,8 +687,8 @@
             }
         },
         {
-            "id": "scout.nizhny",
-            "actionid": "scout",
+            "id": "explore.nizhny",
+            "actionid": "explore",
             "label": "Reconnoitre Nizhny",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -719,8 +719,8 @@
             }
         },
         {
-            "id": "scout.paris",
-            "actionid": "scout",
+            "id": "explore.paris",
+            "actionid": "explore",
             "label": "Reconnoitre Paris",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -753,8 +753,8 @@
             }
         },
         {
-            "id": "scout.prague",
-            "actionid": "scout",
+            "id": "explore.prague",
+            "actionid": "explore",
             "label": "Reconnoitre Prague",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -786,8 +786,8 @@
             }
         },
         {
-            "id": "scout.rostock",
-            "actionid": "scout",
+            "id": "explore.rostock",
+            "actionid": "explore",
             "label": "Reconnoitre Rostock",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -821,8 +821,8 @@
             }
         },
         {
-            "id": "scout.samarkand",
-            "actionid": "scout",
+            "id": "explore.samarkand",
+            "actionid": "explore",
             "label": "Reconnoitre Samarkand",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -855,8 +855,8 @@
             }
         },
         {
-            "id": "scout.stalingrad",
-            "actionid": "scout",
+            "id": "explore.stalingrad",
+            "actionid": "explore",
             "label": "Reconnoitre Stalingrad",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -888,8 +888,8 @@
             }
         },
         {
-            "id": "scout.strasbourg",
-            "actionid": "scout",
+            "id": "explore.strasbourg",
+            "actionid": "explore",
             "label": "Reconnoitre Strasbourg",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -920,8 +920,8 @@
             }
         },
         {
-            "id": "scout.sverdlovsk",
-            "actionid": "scout",
+            "id": "explore.sverdlovsk",
+            "actionid": "explore",
             "label": "Reconnoitre Sverdlovsk",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -951,8 +951,8 @@
             }
         },
         {
-            "id": "scout.tiflis",
-            "actionid": "scout",
+            "id": "explore.tiflis",
+            "actionid": "explore",
             "label": "Reconnoitre Tiflis",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -983,8 +983,8 @@
             }
         },
         {
-            "id": "scout.tirana",
-            "actionid": "scout",
+            "id": "explore.tirana",
+            "actionid": "explore",
             "label": "Reconnoitre Tirana",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -1015,8 +1015,8 @@
             }
         },
         {
-            "id": "scout.tripoli",
-            "actionid": "scout",
+            "id": "explore.tripoli",
+            "actionid": "explore",
             "label": "Reconnoitre Tripoli dell'ovest",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -1051,8 +1051,8 @@
             }
         },
         {
-            "id": "scout.valletta",
-            "actionid": "scout",
+            "id": "explore.valletta",
+            "actionid": "explore",
             "label": "Reconnoitre Valletta",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -1084,8 +1084,8 @@
             }
         },
         {
-            "id": "scout.venice",
-            "actionid": "scout",
+            "id": "explore.venice",
+            "actionid": "explore",
             "label": "Reconnoitre Venice",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -1118,8 +1118,8 @@
             }
         },
         {
-            "id": "scout.vienna",
-            "actionid": "scout",
+            "id": "explore.vienna",
+            "actionid": "explore",
             "label": "Reconnoitre Vienna",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -1150,14 +1150,15 @@
             }
         },
         {
-            "id": "scout.end.foe.defeated",
-            "actionid": "scout",
+            "id": "explore.end.foe.defeated",
+            "actionid": "explore",
             "label": "Rest and Wait",
             "startdescription": "@#domicile.bornholm| The locals don't know exactly what happened, but they know it's over. One painter keeps pestering me to sit for a portrait. Perhaps, some day soon, I will.\n#domicile.cheko|Each day, sunrise comes a little earlier. The winds grow a little less savage. It's almost spring.\n#domicile.ghardaia|The buffeting half-silence of the high desert; the creeping sun. The locals still keep a respectful distance, but now they nod as I pass them.\n#domicile.messana|Shadows sprawl as each day passes. Sometimes, now, the villagers come up to leave me small gifts of food, and salute me.\n#domicile.morbihan|The brothers have tidied away the debris of the battle, and permit me to break fast with them in the long hall where the sunlight slants.\n#domicile.paro|Each morning I clamber up the steps and across the rickety bridges to watch the dawn. The monks smile at me as I pass.\n#domicile.slettnes|The sea crashes grey on the stones each morning, and grumbles at me all through the night. It's something to listen to when I can't sleep.@",
             "warmup": 30,
             "craftable": true,
             "requirements": {
                 "domicile": 1,
+"location": 1,
                 "end": 1
             },
             "extantreqs": {
@@ -1168,8 +1169,8 @@
             }
         },
         {
-            "id": "scout.bornholm",
-            "actionid": "scout",
+            "id": "explore.bornholm",
+            "actionid": "explore",
             "label": "Reconnoitre Sunshine Island",
             "startdescription": "Walk the island, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -1189,8 +1190,8 @@
             }
         },
         {
-            "id": "scout.slettnes",
-            "actionid": "scout",
+            "id": "explore.slettnes",
+            "actionid": "explore",
             "label": "Reconnoitre Fogfire Point",
             "startdescription": "Prowl the coast, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -1212,8 +1213,8 @@
             }
         },
         {
-            "id": "scout.cheko",
-            "actionid": "scout",
+            "id": "explore.cheko",
+            "actionid": "explore",
             "label": "Reconnoitre Wounded Moon Lake ",
             "startdescription": "Roam the woods, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
@@ -1235,8 +1236,8 @@
             }
         },
         {
-            "id": "scout.paro",
-            "actionid": "scout",
+            "id": "explore.paro",
+            "actionid": "explore",
             "label": "Reconnoitre the Tiger's Nest",
             "startdescription": "Range the mountain and the monastery, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 60,
@@ -1258,8 +1259,8 @@
             }
         },
         {
-            "id": "scout.messana",
-            "actionid": "scout",
+            "id": "explore.messana",
+            "actionid": "explore",
             "label": "Reconnoitre the Hermitage of the Scythe",
             "startdescription": "Walk the hills, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 60,
@@ -1281,8 +1282,8 @@
             }
         },
         {
-            "id": "scout.ghardaia",
-            "actionid": "scout",
+            "id": "explore.ghardaia",
+            "actionid": "explore",
             "label": "Reconnoitre the Pentapolis",
             "startdescription": "Roam the village and the plateau, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 60,
@@ -1303,8 +1304,8 @@
             }
         },
         {
-            "id": "scout.morbihan",
-            "actionid": "scout",
+            "id": "explore.morbihan",
+            "actionid": "explore",
             "label": "Reconnoitre the Priory of Captains",
             "startdescription": "Roam the island, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 60,
@@ -1326,8 +1327,8 @@
             }
         },
         {
-            "id": "scout.wilderness",
-            "actionid": "scout",
+            "id": "explore.wilderness",
+            "actionid": "explore",
             "label": "Reconnoitre",
             "startdescription": "Where even am I?",
             "description": "\"@#op.cold|Somewhere floundering in the snow.\r\n#op.heat|Somewhere where the wind blows dry and hot.\r\n#op.sea|Somewhere by a nighted sea.\r\n#|Who even knows?@\"",
@@ -1335,6 +1336,7 @@
             "craftable": true,
             "requirements": {
                 "domicile": 1,
+"location": 1,
                 "wilderness": 1
             },
             "internaldeck": {

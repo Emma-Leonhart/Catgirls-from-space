@@ -2,6 +2,7 @@
     "elements": [
         {
             "id": "funds",
+            "label": "Capital",
             "aspects$add": {
                 "ability": 1,
                 "hand": 2

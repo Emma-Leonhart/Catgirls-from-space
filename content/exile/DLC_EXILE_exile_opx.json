@@ -208,6 +208,7 @@
                 "connection.radicals": 1,
                 "winter": 2,
                 "domicile": 1,
+"location": 1,
                 "temptation.defiance": 1
             },
             "extantreqs": {
@@ -226,6 +227,7 @@
                 "connection.radicals": 1,
                 "forge": 8,
                 "domicile": 1,
+"location": 1,
                 "temptation.defiance": 1,
                 "turmoil": -1
             },
@@ -671,6 +673,7 @@
                 "connection.radicals": 1,
                 "op.wolf": 1,
                 "domicile": 1,
+"location": 1,
                 "temptation.defiance": 1,
                 "troubled": 1,
                 "turmoil": -1
@@ -693,6 +696,7 @@
                             "space": 1,
                             "op.connection.radicals": 1,
                             "domicile": 1,
+"location": 1,
                             "temptation.defiance": 1,
                             "op.wolf.husk.active": 1
                         }
@@ -710,6 +714,7 @@
                 "connection.radicals": 1,
                 "winter": 2,
                 "domicile": 1,
+"location": 1,
                 "temptation.defiance": 1,
                 "troubled": 1,
                 "turmoil": -1
@@ -732,6 +737,7 @@
                             "space": 1,
                             "op.connection.radicals": 1,
                             "domicile": 1,
+"location": 1,
                             "temptation.defiance": 1
                         }
                     }
@@ -749,6 +755,7 @@
                 "connection.radicals": 1,
                 "forge": 8,
                 "domicile": 1,
+"location": 1,
                 "temptation.defiance": 1,
                 "troubled": 1,
                 "turmoil": -1
@@ -771,6 +778,7 @@
                             "space": 1,
                             "op.connection.radicals": 1,
                             "domicile": 1,
+"location": 1,
                             "temptation.defiance": 1
                         }
                     }

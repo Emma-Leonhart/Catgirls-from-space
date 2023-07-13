@@ -1,18 +1,6 @@
 {
     "verbs": [
         {
-            "id": "scout",
-            "label": "Reconnoitre",
-            "description": "Sniff out possibilities.",
-            "slot": {
-                "id": "scout",
-                "label": "Reconnoitre",
-                "required": {
-                    "domicile": 1
-                }
-            }
-        },
-        {
             "id": "use",
             "label": "Employ",
             "description": "Make use of something. [Address Opportunities, run Operations, or convert years to cash.]",
@@ -57,6 +45,7 @@
                 "required": {
                     "desire": 1,
                     "domicile": 1,
+"location": 1,
                     "cash": 1,
                     "mortal": 1,
                     "ligeian": 1

@@ -601,6 +601,9 @@
             "id": "domicile",
             "label": "Place of Residence",
             "description": "I'm here, for now.",
+            "aspects":{
+                "location": 1
+            },
             "isAspect": true
         },
         {
@@ -6406,6 +6409,7 @@
             "label": "Sunshine Island",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "end": 1,
                 "remote": 1,
                 "rkx.underlings.blocker": 1
@@ -6419,6 +6423,7 @@
             "label": "Wounded Moon Lake",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "end": 1,
                 "remote": 1,
                 "rkx.underlings.blocker": 1
@@ -6432,6 +6437,7 @@
             "label": "The Pentapolis",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "end": 1,
                 "remote": 1,
                 "rkx.underlings.blocker": 1
@@ -6445,6 +6451,7 @@
             "label": "Hermitage of the Scythe",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "end": 1,
                 "remote": 1,
                 "rkx.underlings.blocker": 1
@@ -6458,6 +6465,7 @@
             "label": "Priory of Captains",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "end": 1,
                 "remote": 1,
                 "rkx.underlings.blocker": 1
@@ -6471,6 +6479,7 @@
             "label": "The Tiger's Nest",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "end": 1,
                 "remote": 1,
                 "rkx.underlings.blocker": 1
@@ -6484,6 +6493,7 @@
             "label": "Fogfire Point",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "end": 1,
                 "remote": 1,
                 "rkx.underlings.blocker": 1
@@ -6770,6 +6780,7 @@
             "label": "Rhenish Aachen",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "troubled": 1,
                 "shrine.colonel.marker": 1
             },
@@ -6791,6 +6802,7 @@
             "label": "Alexandria",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "shrine.lionsmith.marker": 1
             },
             "description": "Dignified men of business in tall red hats and immaculate white suits outside the Bourse; British soldiers bickering drunkenly by a melon-slice stall; theosophists playing backgammon in the Cafe Al Aktar. At the Rialto in Safiya Zaghloul, they're showing a German film about waxworks, but the power goes off and on and off again. Behind the curtain of night, the Invisible Serapeum waits.",
@@ -6802,6 +6814,7 @@
             "label": "Algiers",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "troubled": 1,
                 "shrine.lionsmith.marker": 1
             },
@@ -6837,6 +6850,7 @@
             "label": "Baghdad",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "troubled": 1
             },
             "xtriggers": {
@@ -6861,6 +6875,7 @@
             "label": "Candia-Heraklion",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "remote": 1,
                 "shrine.colonel.marker": 1
             },
@@ -6893,6 +6908,7 @@
             "label": "Istanbul",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "troubled": 1
             },
             "xtriggers": {
@@ -6917,6 +6933,7 @@
             "label": "Kyiv",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "troubled": 1
             },
             "xtriggers": {
@@ -6941,6 +6958,7 @@
             "label": "Leningrad",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "troubled": 1,
                 "shrine.colonel.marker": 1
             },
@@ -6956,6 +6974,7 @@
             "label": "London",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "troubled": 1
             },
             "xtriggers": {
@@ -6970,6 +6989,7 @@
             "label": "Marrakech",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "shrine.lionsmith.marker": 1
             },
             "description": "Five hundred miles away, the Republic of the Rif wages guerilla war against the French Protectorate. But here in Marrakech it's still mint tea and parasols.",
@@ -6981,6 +7001,7 @@
             "label": "Meshad",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "remote": 1,
                 "shrine.lionsmith.marker": 1
             },
@@ -6993,6 +7014,7 @@
             "label": "Munich",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "troubled": 1,
                 "shrine.colonel.marker": 1
             },
@@ -7008,6 +7030,7 @@
             "label": "Nizhny Novgorod",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "remote": 1,
                 "troubled": 1,
                 "shrine.colonel.marker": 1
@@ -7054,6 +7077,7 @@
             "label": "Samarkand",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "remote": 1,
                 "troubled": 1,
                 "shrine.lionsmith.marker": 1
@@ -7070,6 +7094,7 @@
             "label": "Stalingrad",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "remote": 1,
                 "troubled": 1,
                 "shrine.colonel.marker": 1
@@ -7096,6 +7121,7 @@
             "label": "Sverdlovsk",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "remote": 1,
                 "troubled": 1
             },
@@ -7111,6 +7137,7 @@
             "label": "Tiflis",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "troubled": 1
             },
             "xtriggers": {
@@ -7135,6 +7162,7 @@
             "label": "Tripoli dell'ovest",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "comfort": 2,
                 "shrine.lionsmith.marker": 1
             },
@@ -7147,6 +7175,7 @@
             "label": "Valletta",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "remote": 1,
                 "shrine.colonel.marker": 1
             },
@@ -7179,6 +7208,7 @@
             "label": "Venice",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "shrine.lionsmith.marker": 1
             },
             "description": "Deep fog has made Venice a pale city more heard than seen: the plash of waves, the purr of vaporettos, the scent of seaweed and sewage. The sun is a blind eye. If ever the Nameless Name of the Velvet walks by day, she must walk here.",
@@ -7200,6 +7230,7 @@
             "label": "Aachen in Flames",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "turmoil": 1
             },
             "description": "Rhenish separatists are fighting German loyalists in the streets. I should leave while I still can.",
@@ -7211,6 +7242,7 @@
             "label": "Algiers in Flames",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "turmoil": 1
             },
             "description": "Nationalists are fighting French troops in the streets. I should leave while I still can.",
@@ -7222,6 +7254,7 @@
             "label": "Baghdad in Flames",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "turmoil": 1
             },
             "description": "Hashemite forces are fighting nationalists in the streets. I should leave while I still can.",
@@ -7233,6 +7266,7 @@
             "label": "Istanbul in Flames",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "turmoil": 1
             },
             "description": "Revolutionaries and counter-revolutionaries are fighting street to street. I should leave while I still can.",
@@ -7244,6 +7278,7 @@
             "label": "Kyiv in Flames",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "turmoil": 1
             },
             "description": "Revolutionaries and counter-revolutionaries are fighting street to street. I should leave while I still can.",
@@ -7255,6 +7290,7 @@
             "label": "Leningrad in Flames",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "turmoil": 1
             },
             "description": "Revolutionaries and counter-revolutionaries are fighting street to street. I should leave while I still can.",
@@ -7266,6 +7302,7 @@
             "label": "London in Flames",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "turmoil": 1
             },
             "description": "Police are fighting pitched battles with workers in the streets. I should leave while I still can.",
@@ -7277,6 +7314,7 @@
             "label": "Munich in Flames",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "turmoil": 1
             },
             "description": "Communists and and nationalists are fighting street-to-street. I should leave while I still can.",
@@ -7288,6 +7326,7 @@
             "label": "Nizhny Novgorod in Flames",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "turmoil": 1
             },
             "description": "Revolutionaries and counter-revolutionaries are fighting street to street. I should leave while I still can.",
@@ -7299,6 +7338,7 @@
             "label": "Samarkand in Flames",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "turmoil": 1
             },
             "description": "Soviets and Jadidists are fighting street to street. I should leave while I still can.",
@@ -7310,6 +7350,7 @@
             "label": "Stalingrad in Flames",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "turmoil": 1
             },
             "description": "Revolutionaries and counter-revolutionaries are fighting street to street. I should leave while I still can.",
@@ -7321,6 +7362,7 @@
             "label": "Sverdlovsk in Flames",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "turmoil": 1
             },
             "description": "Revolutionaries and counter-revolutionaries are fighting street to street. I should leave while I still can.",
@@ -7332,6 +7374,7 @@
             "label": "Tiflis in Flames",
             "aspects": {
                 "domicile": 1,
+"location": 1,
                 "turmoil": 1
             },
             "description": "Revolutionaries and counter-revolutionaries are fighting street to street. I should leave while I still can.",
@@ -8835,6 +8878,7 @@
                     "description": "I could tell my Foe where I am. Or even send him a gift.",
                     "required": {
                         "domicile": 1,
+"location": 1,
                         "weapon": 1
                     },
                     "forbidden": {
@@ -8985,7 +9029,7 @@
             }
         },
         {
-            "id": "rkx.scout",
+            "id": "rkx.explore",
             "label": "Reckoner Informants",
             "aspects": {
                 "rkx.internal": 1
@@ -9015,7 +9059,7 @@
             },
             "xtriggers": {
                 "rkx.promote": "rkx.underboss",
-                "rkx.demote": "rkx.scout"
+                "rkx.demote": "rkx.explore"
             },
             "lifetime": 1,
             "decayTo": "corpse.exile.underling"
@@ -9031,7 +9075,7 @@
             },
             "xtriggers": {
                 "rkx.promote": "rkx.underboss",
-                "rkx.demote": "rkx.scout"
+                "rkx.demote": "rkx.explore"
             },
             "lifetime": 1,
             "decayTo": "corpse.exile.underling"
