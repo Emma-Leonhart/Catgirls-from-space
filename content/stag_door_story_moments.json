@@ -106,13 +106,13 @@
             "decade.stolen": 9,
             "year.stolen": 9,
             "ticket.train": 1,
-            "health": 
+            "health": 3
         }
     },
     {
         "id": "catgirl_ascension_craving",
         "actionid": "craving",
-        "warmup": 60,
+        "warmup": 10,
         "linked":[
             {
                 "id": "catgirl_healing",
@@ -127,8 +127,9 @@
     {
         "id": "catgirl_healing",
         "actionid": "craving",
-        "warmup": 60,
-        "Tablereqs": {"decrepitude": -1},
+        "warmup": 10,
+        "label": "The Immortal catgirl is healing me",
+        "Tablereqs": {"decrepitude": 1},
         "slots": [
             {
                 "id": "Conversation",
@@ -158,6 +159,7 @@
     {
         "id": "catgirl_craving_revolution",
         "chance": 100,
+        "label": "The Immortal catgirl wants more",
         "actionid": "craving",
         "warmup": 60,
         "effects":{
