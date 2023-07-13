@@ -559,7 +559,7 @@
             ],
             "linked": [
                 {
-                    "id": "needs_exile"
+                    "id": "drawseason_exile"
                 }
             ]
         },
@@ -584,7 +584,7 @@
                     "id": "wounds.exile.danger"
                 },
                 {
-                    "id": "needs_exile"
+                    "id": "drawseason_exile"
                 }
             ]
         },
@@ -622,7 +622,7 @@
                     "id": "wounds.exile.danger"
                 },
                 {
-                    "id": "needs_exile"
+                    "id": "drawseason_exile"
                 }
             ]
         },
@@ -647,7 +647,7 @@
                     "id": "wounds.exile.danger"
                 },
                 {
-                    "id": "needs_exile"
+                    "id": "drawseason_exile"
                 }
             ]
         },
@@ -673,7 +673,7 @@
                     "id": "wounds.exile.danger"
                 },
                 {
-                    "id": "needs_exile"
+                    "id": "drawseason_exile"
                 }
             ]
         },
@@ -699,7 +699,7 @@
                     "id": "wounds.exile.danger"
                 },
                 {
-                    "id": "needs_exile"
+                    "id": "drawseason_exile"
                 }
             ]
         },
@@ -724,7 +724,7 @@
                     "id": "wounds.exile.danger"
                 },
                 {
-                    "id": "needs_exile"
+                    "id": "drawseason_exile"
                 }
             ]
         },
@@ -743,7 +743,7 @@
                     "id": "wounds.exile.ending"
                 },
                 {
-                    "id": "discardseason_exile"
+                    "id": "drawseason_exile"
                 }
             ]
         },
@@ -839,7 +839,7 @@
             ],
             "linked": [
                 {
-                    "id": "turn.next",
+                    "id": "discardseason_exile",
                     "chance": 100
                 }
             ],
@@ -855,7 +855,7 @@
             "warmup": 0,
             "linked": [
                 {
-                    "id": "drawseason_exile",
+                    "id": "turn.next",
                     "chance": 100
                 }
             ]
@@ -889,7 +889,7 @@
                     "id": "turn.check.mapedge.no.trace"
                 },
                 {
-                    "id": "discardseason_exile"
+                    "id": "drawseason_exile"
                 }
             ],
             "warmup": 0
