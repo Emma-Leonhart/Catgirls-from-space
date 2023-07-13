@@ -1,0 +1,63 @@
+{
+    "recipes": [
+        {
+            "id": "merge_years_start",
+            "label": "Merging",
+            "actionid": "study",
+            "requirements": {
+                "year.stolen": 1
+            },
+            "startdescription": "I am merging ten years into a decade\n [Note that this does not work at the moment and will crash your game]",
+            "craftable": true,
+            "linked":[
+                {
+                    "id": "grab_year",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "grab_year",
+            "label": "Merging",
+            "actionid": "study",
+            "slots": [
+                {
+                    "id": "another_year",
+                    "label": "Another Year",
+                    "required": {
+                        "year.stolen": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked":[
+                {
+                    "id": "merge_years_finish",
+                    "chance": 100
+                },
+                {
+                    "id": "grab_year",
+                    "chance": 100
+                }
+            ],
+            "effects": {
+                "lensing": -1
+            },
+            "warmup": 5
+        },
+        {
+            "id": "merge_years_finish",
+            "label": "A new decade",
+            "requirements": {
+                "year.stolen": 10
+            },
+            "effects": {
+                "year.stolen": -10,
+                "decade.stolen": 1,
+                "lensing": -1
+            },
+            "warmup": 30
+        }
+    ]
+}
