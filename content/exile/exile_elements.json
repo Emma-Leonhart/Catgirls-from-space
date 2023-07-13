@@ -1047,13 +1047,14 @@
             "noartneeded": true
         },
         {
-            "id": "opx.sanatorium.complete",
+            "id": "opx.sanatorium.complete", 
             "label": "Sanatorium Paying Off",
             "description": "--",
             "aspects": {
                 "opx.sanatorium": 1,
                 "opx.basepayout": 4
             },
+            "decayTo": "sanatoriumjob",
             "lifetime": 1,
             "isHidden": true,
             "noartneeded": true
@@ -8900,7 +8901,8 @@
                 "choice.merciful": 1
             },
             "description": "Even in a life like mine, there are moments when it's possible to think: what may come, may come.",
-            "lifetime": 300
+            "lifetime": 300,
+            "decayTo": "contentment"
         },
         {
             "id": "grief",

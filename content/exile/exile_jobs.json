@@ -1,0 +1,15 @@
+{
+    "elements":[
+        {
+            "id": "sanatoriumjob",
+            "aspects": {
+                "job": 1,
+                "local": 1
+            },
+            "unique": true,
+            "icon": "institutephysicianjob",
+            "description": "Low profile and good pay.",
+            "label": "A Position at the Sanatorium"
+        }
+    ]
+}
