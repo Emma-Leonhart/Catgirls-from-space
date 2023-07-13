@@ -2000,7 +2000,45 @@
                 {
                     "id": "travel.enroute"
                 }
+            ],
+            "alt": [
+                {
+                    "id": "exile_dream",
+                    "chance": 30,
+                    "additional": true
+                },
+                {
+                    "id": "exile_study",
+                    "chance": 30,
+                    "additional": true
+                }
             ]
+        },
+        {
+            "id": "exile_dream",
+            "actionid": "dream",
+            "label": "Dreaming of Freedom",
+            "startdescription": "I'm having a beautiful dream of freedom",
+            "description": "I had a beautiful dream on the train ride",
+            "effects":{
+                "health": 7,
+                "passion": 2,
+                "reason": 2
+            },
+            "warmup": 30
+        },
+        {
+            "id": "exile_study",
+            "actionid": "study",
+            "label": "Train Reading",
+            "startdescription": "I'll read something for the trip",
+            "description": "I did good reading on the trip. I feel empowered",
+            "effects":{
+                "erudition": 1,
+                "vitality": 1,
+                "glimmering": 1
+            },
+            "warmup": 30
         },
         {
             "id": "travel.enroute",

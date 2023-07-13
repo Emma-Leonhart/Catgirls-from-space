@@ -36,15 +36,15 @@
             ],
             "linked":[
                 {
+                    "id": "decade_failure",
+                    "chance": 100
+                },
+                {
                     "id": "merge_years_finish",
                     "chance": 100
                 },
                 {
                     "id": "grab_year",
-                    "chance": 100
-                },
-                {
-                    "id": "decade_failure",
                     "chance": 100
                 }
             ],
@@ -67,16 +67,15 @@
                 "decade.stolen": 1,
                 "lensing": -1
             },
-            "warmup": 10
+            "warmup": 10,
+            "comment": "optimized to 60 seconds on a success"
         },
         {
             "id": "decade_failure",
             "effects": {
                 "lensing": -1
             },
-            "requirements": {
-                "year.stolen": -1
-            },
+            "Tablereqs": {"year.stolen": -1},
             "warmup": 10,
             "startdescription": "not enough years",
             "label": "A failure",

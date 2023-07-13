@@ -80,9 +80,11 @@
                 "marked_for_death": 1,
                 "investigator3": 1,
                 "dread": 3,
-                "evidenceb": 10
+                "evidenceb": 10,
+                "trace": 10,
+                "ticket.train": 1
             },
-            "description": "I'm fucked'",
+            "description": "I can't stay here with what I know'",
             "actionid": "work",
             "alt": [
                 {
