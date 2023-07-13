@@ -559,7 +559,7 @@
             ],
             "linked": [
                 {
-                    "id": "turn.next"
+                    "id": "needs_exile"
                 }
             ]
         },
@@ -568,7 +568,6 @@
             "actionid": "time",
             "label": "The Wheel Turns",
             "startdescription": "The sun crosses the sky. Night pursues it. [At the end of each cycle, reckoners may also enter the city. This is more likely if you've created a Trace, and much more likely if you've created more than one.]",
-            "warmup": 60,
             "comments": "using linked recipes so we can select just one possible additional trace response",
             "linked": [
                 {
@@ -595,7 +594,8 @@
                 {
                     "id": "discardseason_exile"
                 }
-            ]
+            ],
+            "warmup": 0
         },
         {
             "id": "turn.check.traces",
@@ -618,7 +618,7 @@
                     "id": "wounds.exile.danger"
                 },
                 {
-                    "id": "turn.next"
+                    "id": "needs_exile"
                 }
             ]
         },
@@ -656,7 +656,7 @@
                     "id": "wounds.exile.danger"
                 },
                 {
-                    "id": "turn.next"
+                    "id": "needs_exile"
                 }
             ]
         },
@@ -681,7 +681,7 @@
                     "id": "wounds.exile.danger"
                 },
                 {
-                    "id": "turn.next"
+                    "id": "needs_exile"
                 }
             ]
         },
@@ -707,7 +707,7 @@
                     "id": "wounds.exile.danger"
                 },
                 {
-                    "id": "turn.next"
+                    "id": "needs_exile"
                 }
             ]
         },
@@ -733,7 +733,7 @@
                     "id": "wounds.exile.danger"
                 },
                 {
-                    "id": "turn.next"
+                    "id": "needs_exile"
                 }
             ]
         },
@@ -758,7 +758,7 @@
                     "id": "wounds.exile.danger"
                 },
                 {
-                    "id": "turn.next"
+                    "id": "needs_exile"
                 }
             ]
         },
@@ -777,7 +777,7 @@
                     "id": "wounds.exile.ending"
                 },
                 {
-                    "id": "turn.next"
+                    "id": "needs_exile"
                 }
             ]
         },
