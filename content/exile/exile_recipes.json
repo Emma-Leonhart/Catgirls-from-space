@@ -1956,7 +1956,8 @@
             },
 			"deleteverb": {
 			                "rkx*": 100,
-                            "suspicion": 100
+                            "suspicion": 100,
+                            "scheme": 100
 			},
             "haltverb": {
                 "opx*": 100,
@@ -2004,12 +2005,12 @@
             "alt": [
                 {
                     "id": "exile_dream",
-                    "chance": 30,
+                    "chance": 100,
                     "additional": true
                 },
                 {
                     "id": "exile_study",
-                    "chance": 30,
+                    "chance": 100,
                     "additional": true
                 }
             ]
@@ -2101,6 +2102,12 @@
                 {
                     "id": "meeting.navil.chaima",
                     "additional": true
+                },
+                {
+                    "id": "relinquish.first",
+                    "chance": 100,
+                    "additional": true,
+                    "comment": "works well in the general mod but since people have travel already it malfunctions and they lose the ability to relinquish"
                 }
             ],
             "mutations": [

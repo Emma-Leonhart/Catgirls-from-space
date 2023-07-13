@@ -47,8 +47,13 @@
                 "men_in_black_briefing": -1,
                 "legacydetective_plotitem_burning": 1,
                 "contentment": 1,
-                "dread": 1,
-                "ascensionpowera": 1
+                "temptation.obscurity": 1,
+                "marked_for_death": 1,
+                "investigator3": 1,
+                "dread": 3,
+                "evidenceb": 10,
+                "trace": 10,
+                "ticket.train": 1
             },
             "startdescription": "I will not let my principles slide",
             "description": "Some say Plata o Plomo. I choose Plomo. I choose to face certain death for my principles.",
@@ -58,39 +63,6 @@
                 {
                     "id": "detective_harassment",
                     "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "detective_harassment",
-            "label": "It's too dangerous to go to work",
-            "actionid": "work",
-            "startdescription": "I knew what I was getting into",
-            "warmup": 270,
-            "linked": [
-                {
-                    "id": "detective_marked_for_death",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "detective_marked_for_death",
-            "effects":{
-                "marked_for_death": 1,
-                "investigator3": 1,
-                "dread": 3,
-                "evidenceb": 10,
-                "trace": 10,
-                "ticket.train": 1
-            },
-            "description": "I can't stay here with what I know'",
-            "actionid": "work",
-            "alt": [
-                {
-                    "id": "suspicion",
-                    "chance": 100,
-                    "additional": true
                 }
             ]
         },

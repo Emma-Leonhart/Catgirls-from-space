@@ -1,0 +1,112 @@
+{
+    "recipes":[
+    {
+        "id": "dreamenterstag",
+        "label": "Entering the Stag Door",
+        "actionid": "dream",
+        "craftable": false,
+        "requirements": {
+          "waystag_after": 1,
+          "reason": 1
+        },
+        "aspects": {
+          "fatiguing": 1
+        },
+        "startdescription": "The Stag Door is the Adept's Gate. To pass it is to be initiated into the first true mystery of the House of the Sun. The Head, Ghirbi, weeps to see me enter where it cannot: but it must let me pass. The scarred valves of the Door grind open.",
+        "description": ".",
+        "alt": [
+          {
+            "id": "poison.long.way.trap",
+            "additional": true
+          }
+        ],
+        "portaleffect": "stagdoor",
+        "warmup": 30,
+        "linked":
+        {
+            
+                "id": "stag_contact",
+                "chance": 100
+            
+        }
+      },
+      {
+        "id": "stag_contact",
+        "actionid": "dream",
+        "maxexecutions": 1,
+        "craftable": false,
+        "linked":{
+            "id": "catgirl_contact",
+            "chance": 100
+        },
+        "comment": "dummy action to ensure max executions of one"
+      },
+      {
+        "id": "catgirl_contact",
+        "actionid": "dream",
+        "label": "Someone is looking into your desires",
+        "actionid": "dream",
+        "requirements": {},
+        "effects": {},
+        "slots": [
+            {
+                "id": "desire",
+                "label": "Desire",
+                "required": {
+                    "desire": 1
+                },
+                "description": "What do we seek?",
+                "greedy": true
+            }
+        ],
+        "startdescription": "Your desires are being probed",
+        "description": "",
+        "warmup": 30,
+        "craftable": false,
+        "linked": [
+            {
+                "id": "catgirl_detects_capitalism",
+                "chance": 100
+            },
+            {
+                "id": "catgirl_detects_alzo",
+                "chance": 100
+            },
+            {
+                "id": "catgirl_contact",
+                "chance": 100
+            }
+        ]
+    },
+    {
+        "id": "catgirl_detects_capitalism",
+        "actionid": "dream",
+        "requirements":{
+            "capitalmarks": 1
+        }
+    },
+    {
+        "id": "catgirl_detects_alzo",
+        "actionid": "dream",
+        "requirements":{
+            "remembrancemarks": 1
+        }
+    },
+    {
+        "id": "general_desire",
+        "actionid": "dream",
+        "requirements":{
+            "desire": 1
+        }
+    },
+    {
+        "id": "catgirl_gives_help",
+        "actionid": "dream",
+        "effects":{
+            "decade.stolen": 9,
+            "year.stolen": 9,
+            "ticket.train": 1
+        }
+    }
+    ]
+}

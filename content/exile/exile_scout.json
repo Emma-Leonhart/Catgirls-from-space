@@ -11,6 +11,7 @@
             "alt": [
                 {
                     "id": "relinquish.first",
+                    "chance": 100,
                     "additional": true
                 }
             ],
