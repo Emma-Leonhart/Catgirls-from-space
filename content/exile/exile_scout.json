@@ -19,6 +19,37 @@
             "comments": "opened by initial travel recipe"
         },
         {
+            "id": "explorefunds",
+            "label": "Search the City",
+            "actionid": "explore",
+            "requirements": {
+                "funds": 1
+            },
+            "deckeffects": {
+                "exploreevents": 1
+            },
+            "linked": [
+                {
+                    "id": "explorefindcriminal",
+                    "chance": 100
+                },
+                {
+                    "id": "explorefindnobody",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Crowded thoroughfares by day, a fog-wrapped labyrinth by night. I'll walk the streets, seeking secrets, until I can walk no more.",
+            "description": ".",
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "explorefindnobody",
+            "label": "Couldn't find anyone",
+            "actionid": "explore",
+            "description": "Maybe next time."
+        },
+        {
             "id": "explore.turmoil",
             "actionid": "explore",
             "label": "A City in Turmoil",
