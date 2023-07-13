@@ -1130,7 +1130,7 @@
             "description": "The congregation are hungry for something more. [If you achieve at least one Effectiveness when running a Faith-Healing Cult, you might be able to establish an Esoteric Cult.]",
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "meetingplace",
                     "label": "Meeting Place",
                     "required": {
@@ -1138,7 +1138,7 @@
                     }
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "year",
                     "label": "Year",
                     "required": {
@@ -1146,7 +1146,7 @@
                     }
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "influence",
                     "label": "Influence",
                     "required": {
@@ -4198,7 +4198,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4223,7 +4223,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4249,7 +4249,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4258,7 +4258,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment2",
                     "label": "Payment",
                     "required": {
@@ -4284,7 +4284,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4310,7 +4310,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4319,7 +4319,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment2",
                     "label": "Payment",
                     "required": {
@@ -4345,7 +4345,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4371,7 +4371,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4397,7 +4397,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4406,7 +4406,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment2",
                     "label": "Payment",
                     "required": {
@@ -4433,7 +4433,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4442,7 +4442,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment2",
                     "label": "Payment",
                     "required": {
@@ -4469,7 +4469,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4478,7 +4478,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment2",
                     "label": "Payment",
                     "required": {
@@ -4505,7 +4505,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4532,7 +4532,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4541,7 +4541,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment2",
                     "label": "Payment",
                     "required": {
@@ -4567,7 +4567,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4576,7 +4576,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment2",
                     "label": "Payment",
                     "required": {
@@ -4585,7 +4585,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment3",
                     "label": "Payment",
                     "required": {
@@ -4611,7 +4611,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4620,7 +4620,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment2",
                     "label": "Payment",
                     "required": {
@@ -4629,7 +4629,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment3",
                     "label": "Payment",
                     "required": {
@@ -4655,7 +4655,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4664,7 +4664,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment2",
                     "label": "Payment",
                     "required": {
@@ -4690,7 +4690,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4699,7 +4699,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment2",
                     "label": "Payment",
                     "required": {
@@ -4725,7 +4725,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4734,7 +4734,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment2",
                     "label": "Payment",
                     "required": {
@@ -4743,7 +4743,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment3",
                     "label": "Payment",
                     "required": {
@@ -4752,7 +4752,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment4",
                     "label": "Payment",
                     "required": {
@@ -4779,7 +4779,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4805,7 +4805,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4814,7 +4814,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment2",
                     "label": "Payment",
                     "required": {
@@ -4840,7 +4840,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4849,7 +4849,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment2",
                     "label": "Payment",
                     "required": {
@@ -4858,7 +4858,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment3",
                     "label": "Payment",
                     "required": {
@@ -4867,7 +4867,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment4",
                     "label": "Payment",
                     "required": {
@@ -4893,7 +4893,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -4902,7 +4902,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment2",
                     "label": "Payment",
                     "required": {
@@ -4911,7 +4911,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment3",
                     "label": "Payment",
                     "required": {
@@ -4920,7 +4920,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment4",
                     "label": "Payment",
                     "required": {
@@ -4929,7 +4929,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment5",
                     "label": "Payment",
                     "required": {
@@ -4938,7 +4938,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment6",
                     "label": "Payment",
                     "required": {
@@ -4947,7 +4947,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment7",
                     "label": "Payment",
                     "required": {
@@ -4956,7 +4956,7 @@
                     "consumes": true
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment8",
                     "label": "Payment",
                     "required": {
@@ -4981,7 +4981,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "connection",
                     "label": "Connection",
                     "required": {
@@ -5007,7 +5007,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "connection",
                     "label": "Connection",
                     "required": {
@@ -5033,7 +5033,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -5058,7 +5058,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -5083,7 +5083,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -5108,7 +5108,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -5133,7 +5133,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "payment",
                     "label": "Payment",
                     "required": {
@@ -5233,7 +5233,7 @@
                 {
                     "id": "parttwo",
                     "label": "Pages",
-                    "actionid": "use",
+                    "actionid": "work",
                     "required": {
                         "curio.lantern": 1
                     }
@@ -5241,7 +5241,7 @@
                 {
                     "id": "partthree",
                     "label": "Pages",
-                    "actionid": "use",
+                    "actionid": "work",
                     "required": {
                         "curio.lantern": 1
                     }
@@ -5249,7 +5249,7 @@
                 {
                     "id": "cost",
                     "label": "Cost",
-                    "actionid": "use",
+                    "actionid": "work",
                     "description": "I'll need to pay a specialist to restore and rebind the Book of Suns.",
                     "required": {
                         "cash": 1
@@ -5552,7 +5552,7 @@
             "description": "The name on the licence isn't exactly mine, but it's close enough.",
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "location",
                     "label": "Location",
                     "required": {
@@ -5560,7 +5560,7 @@
                     }
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "year",
                     "label": "Year",
                     "required": {
@@ -5581,7 +5581,7 @@
             "description": "The name on the licence isn't exactly mine, but it's close enough. [Import licences are only valid in the city where you acquire them.]",
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "location",
                     "label": "Location",
                     "required": {
@@ -5589,7 +5589,7 @@
                     }
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "means",
                     "label": "Means",
                     "required": {
@@ -5611,7 +5611,7 @@
             "description": "A mutually beneficial arrangement with someone in authority.",
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "consideration",
                     "label": "Consideration",
                     "required": {
@@ -5637,7 +5637,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "year",
                     "label": "Year",
                     "required": {
@@ -5663,7 +5663,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "venue",
                     "label": "Venue",
                     "required": {
@@ -5671,7 +5671,7 @@
                     }
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "year",
                     "label": "Year",
                     "required": {
@@ -5698,7 +5698,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "direction",
                     "label": "Direction",
                     "required": {
@@ -5707,7 +5707,7 @@
                     }
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "city",
                     "label": "City",
                     "required": {
@@ -5718,7 +5718,7 @@
                     }
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "defiance",
                     "label": "Defiance",
                     "required": {
@@ -5745,7 +5745,7 @@
             },
             "slots": [
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "means",
                     "label": "Means",
                     "required": {
@@ -5755,7 +5755,7 @@
                     }
                 },
                 {
-                    "actionid": "use",
+                    "actionid": "work",
                     "id": "location",
                     "label": "Location",
                     "required": {
@@ -8604,7 +8604,7 @@
                 {
                     "id": "more",
                     "label": "More",
-                    "actionid": "use",
+                    "actionid": "work",
                     "description": "Something I can only use by the sea.",
                     "required": {
                         "curio.morgen": 1

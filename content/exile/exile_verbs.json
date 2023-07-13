@@ -1,23 +1,6 @@
 {
     "verbs": [
         {
-            "id": "use",
-            "label": "Employ",
-            "description": "Make use of something. [Address Opportunities, run Operations, or convert years to cash.]",
-            "slot": {
-                "id": "plan",
-                "label": "Plan",
-                "required": {
-                    "connection": 1,
-                    "op": 1,
-                    "weapon": 1,
-                    "lore": 1,
-                    "comfort": 1,
-                    "proof": 1
-                }
-            }
-        },
-        {
             "id": "travel",
             "label": "Travel",
             "description": "Some travels are intended to broaden one's mind: others, to lengthen one's life.",
@@ -28,7 +11,8 @@
                 "required": {
                     "destination": 1,
                     "location": 1,
-                    "ally": 1
+                    "ally": 1,
+                    "vault": 1
                 },
                 "forbidden": {
                     "exhausted": 1

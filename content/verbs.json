@@ -18,9 +18,24 @@
         },
         {
             "id": "work",
-            "slot$dictedit": {
-                "required$add": {
-                    "funds": 1
+            "label": "Work",
+            "description": "Earn a living, or practice the invisible arts, or make use of something. [Address Opportunities, run Operations, or convert years to cash.]",
+            "slot": {
+                "id": "work",
+                "label": "Work",
+                "description": "Something I can do; something I know; or something I am, or something I have.",
+                "required": {
+                    "ability": 1,
+                    "job": 1,
+                    "ritual": 1,
+                    "desire": 1,
+                    "benefactor": 1,
+                    "connection": 1,
+                    "op": 1,
+                    "weapon": 1,
+                    "lore": 1,
+                    "comfort": 1,
+                    "proof": 1
                 }
             }
         },

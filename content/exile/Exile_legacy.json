@@ -21,7 +21,7 @@
                 "damage.exile",
                 "lifespan.stolen"
             ],
-            "startingverbid": "use",
+            "startingverbid": "work",
             "newstart": true,
             "tablecoverimage": "table_leather_exile"
         },
@@ -46,7 +46,7 @@
                 "damage.exile",
                 "lifespan.stolen"
             ],
-            "startingverbid": "use",
+            "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
         },
         {
@@ -70,7 +70,7 @@
                 "damage.exile",
                 "lifespan.stolen"
             ],
-            "startingverbid": "use",
+            "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
         },
         {
@@ -94,7 +94,7 @@
                 "damage.exile",
                 "lifespan.stolen"
             ],
-            "startingverbid": "use",
+            "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
         },
         {
@@ -118,7 +118,7 @@
                 "damage.exile",
                 "lifespan.stolen"
             ],
-            "startingverbid": "use",
+            "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
         },
         {
@@ -142,7 +142,7 @@
                 "damage.exile",
                 "lifespan.stolen"
             ],
-            "startingverbid": "use",
+            "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
         },
         {
@@ -166,7 +166,7 @@
                 "damage.exile",
                 "lifespan.stolen"
             ],
-            "startingverbid": "use",
+            "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
         },
         {
@@ -190,7 +190,7 @@
                 "damage.exile",
                 "lifespan.stolen"
             ],
-            "startingverbid": "use",
+            "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
         },
         {
@@ -214,7 +214,7 @@
                 "damage.exile",
                 "lifespan.stolen"
             ],
-            "startingverbid": "use",
+            "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
         },
         {
@@ -238,7 +238,7 @@
                 "damage.exile",
                 "lifespan.stolen"
             ],
-            "startingverbid": "use",
+            "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
         },
         {
@@ -262,7 +262,7 @@
                 "damage.exile",
                 "lifespan.stolen"
             ],
-            "startingverbid": "use",
+            "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
         },
         {
@@ -286,7 +286,7 @@
                 "damage.exile",
                 "lifespan.stolen"
             ],
-            "startingverbid": "use",
+            "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
         }
     ]

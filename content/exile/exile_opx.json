@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "use.sanatorium.duplicate.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Run another Sanatorium?",
             "startdescription": "One at a time is enough.",
             "requirements": {
@@ -32,7 +32,7 @@
         },
         {
             "id": "use.doctorspractice.duplicate.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Run another Doctor's Practice?",
             "startdescription": "One at a time is enough.",
             "requirements": {
@@ -48,7 +48,7 @@
         },
         {
             "id": "use.miracles.duplicate.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Run another Faith-Healing Cult?",
             "startdescription": "One at a time is enough.",
             "requirements": {
@@ -64,7 +64,7 @@
         },
         {
             "id": "use.cultseed.flowermaker.duplicate.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Assemble another Esoteric Cult of the Flowermaker?",
             "startdescription": "One at a time is enough.",
             "description": "The congregation is assembling.",
@@ -82,7 +82,7 @@
         },
         {
             "id": "use.cultseed.horned.duplicate.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Assemble another Esoteric Cult of the Horned Axe?",
             "startdescription": "One at a time is enough.",
             "description": "The congregation is assembling.",
@@ -100,7 +100,7 @@
         },
         {
             "id": "use.cultseed.wolf.duplicate.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Assemble another Esoteric Cult of the Wolf Divided?",
             "startdescription": "One at a time is enough.",
             "description": "The congregation is assembling.",
@@ -118,7 +118,7 @@
         },
         {
             "id": "use.cultseed.miracles.duplicate.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Continue another Faith-Healing Cult?",
             "startdescription": "One at a time is enough.",
             "description": "The congregation is assembling, again.",
@@ -135,7 +135,7 @@
         },
         {
             "id": "use.import.duplicate.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Run another Import Business?",
             "startdescription": "One at a time is enough.",
             "description": "I've opened up shop.",
@@ -152,7 +152,7 @@
         },
         {
             "id": "use.counterfeiting.duplicate.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Run another Counterfeiting Operation?",
             "startdescription": "One at a time is enough.",
             "description": "The presses are almost ready.",
@@ -169,7 +169,7 @@
         },
         {
             "id": "use.smuggling.duplicate.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Run another Smuggling Operation?",
             "startdescription": "One at a time is enough.",
             "description": "Everything is ready.",
@@ -186,7 +186,7 @@
         },
         {
             "id": "use.fights.duplicate.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Compete in Even More Illegal Fights?",
             "startdescription": "Seriously, though.",
             "requirements": {
@@ -201,7 +201,7 @@
         },
         {
             "id": "use.betrayal.duplicate.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Betray another Uprising?",
             "startdescription": "One at a time is enough.",
             "requirements": {
@@ -219,7 +219,7 @@
         },
         {
             "id": "use.uprising.duplicate.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Assist another Uprising?",
             "startdescription": "One at a time is enough.",
             "comments": "Assumes Radicals add Forge 6",
@@ -239,7 +239,7 @@
         },
         {
             "id": "use.patronage.duplicate.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Pester the Ruler for Further Patronage?",
             "startdescription": "Perhaps not.",
             "requirements": {
@@ -254,7 +254,7 @@
         },
         {
             "id": "use.sanatorium",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Run a Sanatorium",
             "startdescription": "Once I've treated a couple of wealthy widows, the word will spread quickly. [A reasonably safe way to convert stolen lifespan into cash. Heart aspect cards are often useful when running a Sanatorium.]",
             "description": "The Sanatorium is open.",
@@ -288,7 +288,7 @@
         },
         {
             "id": "use.sanatorium.doctor.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Run a Sanatorium or a Doctor's Practice?",
             "startdescription": "I'll need an Office to run a Doctor's Practice, or a large, but also an impressive venue to run a Sanatorium. A warehouse or other unattractive space won't cut it.",
             "requirements": {
@@ -304,7 +304,7 @@
         },
         {
             "id": "use.doctorspractice",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Run a Doctor's Practice",
             "startdescription": "My treatments may not be quite what they seem... but my results are always excellent. [A reasonably safe way to convert stolen lifespan into cash. Heart aspect cards are often useful when running a Practice.]",
             "description": "The Practice is open.",
@@ -338,7 +338,7 @@
         },
         {
             "id": "use.miracles",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Run a Faith-Healing Cult",
             "startdescription": "I can bring genuine healing miracles to a congregation. [A reasonably safe way to convert stolen lifespan into cash. Moth aspect cards are often useful when running a Cult.]",
             "description": "The congregation is assembling.",
@@ -374,7 +374,7 @@
         },
         {
             "id": "use.cultseed.flowermaker",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Assemble an Esoteric Cult of the Flowermaker",
             "startdescription": "The Flowermaker's presence is strong here. I'll let the enthusiasts in the congregation pursue their pleasures. [A reasonably safe way to convert stolen lifespan into cash. Moth aspect cards are often useful when running a Cult.]",
             "description": "The congregation is assembling.",
@@ -409,7 +409,7 @@
         },
         {
             "id": "use.cultseed.horned",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Assemble an Esoteric Cult of the Horned Axe",
             "startdescription": "The Horned-Axe's presence is strong here. Some of the congregation will be drawn to her. [A reasonably safe way to convert stolen lifespan into cash. Moth aspect cards are often useful when running a Cult.]",
             "description": "The congregation is assembling.",
@@ -444,7 +444,7 @@
         },
         {
             "id": "use.cultseed.wolf",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Assemble an Esoteric Cult of the Wolf Divided",
             "startdescription": "The Wolf Divided's presence is strong here. The more violent members of the congregation will respond to that. [A reasonably safe way to convert stolen lifespan into cash. Moth aspect cards are often useful when running a Cult.]",
             "description": "The congregation is assembling.",
@@ -479,7 +479,7 @@
         },
         {
             "id": "use.cultseed.miracles",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Continue a Faith-Healing Cult",
             "startdescription": "Everyone's happy. The show must go on. [A reasonably safe way to convert stolen lifespan into cash. Moth aspect cards are often useful when running a Cult.]",
             "description": "The congregation is assembling, again.",
@@ -514,7 +514,7 @@
         },
         {
             "id": "use.import",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Run an Import Business",
             "startdescription": "And everything's legal. So legal it's a little unnerving. [A reasonably safe way to generate cash. Lantern aspect cards are often useful when running an Import Business.]",
             "description": "I've opened up shop.",
@@ -545,7 +545,7 @@
         },
         {
             "id": "use.counterfeiting",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Run a Counterfeiting Operation",
             "startdescription": "As long as I have the connections and the resources, I can... make money. [A reasonably safe way to generate cash. Forge aspect cards are often useful when running a Counterfeiting Operation.]",
             "description": "The presses are almost ready.",
@@ -576,7 +576,7 @@
         },
         {
             "id": "use.smuggling",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Run a Smuggling Operation",
             "startdescription": "Everything's valuable somewhere. [A reasonably safe way to generate cash. Smuggling operations are generally Subtle, but pay well anyway. Moth aspect cards are often useful when running a  Smuggling Operation.]",
             "description": "Everything is ready.",
@@ -610,7 +610,7 @@
         },
         {
             "id": "use.fights",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Compete in Illegal Fights",
             "startdescription": "Nasty. But as long as I keep some years on hand, I shouldn't suffer too much permanent damage. [Any failed challenges will result in a Wound, which you won't be able to heal until the Operation is complete. Edge aspect cards are often useful when competing in Illegal Fights.]",
             "requirements": {
@@ -644,7 +644,7 @@
         },
         {
             "id": "use.underworld.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Use Underworld Connections?",
             "requirements": {
                 "connection.underworld": 1
@@ -655,7 +655,7 @@
         },
         {
             "id": "use.radicals.hint",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Use Connections with Radicals?",
             "requirements": {
                 "connection.radicals": 1
@@ -666,7 +666,7 @@
         },
         {
             "id": "use.uprising.wolf",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Foment Chaos for the Wolf Divided",
             "startdescription": "'Caput gerat lupinum.' Well, why not, then? What do I owe to anyone, after all? [This will cause suffering and destruction. There will be an opportunity for profit; and it'll be harder for the reckoners to pick up your trail.]",
             "requirements": {
@@ -707,7 +707,7 @@
         },
         {
             "id": "use.betrayal",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Betray an Uprising",
             "startdescription": "This has been a century for revolutions, and it's hardly begun. I'll be saving lives [There will be an opportunity for profit, and you'll win favour with the local authorities. The Colonel likes the status quo.]",
             "requirements": {
@@ -747,7 +747,7 @@
         },
         {
             "id": "use.uprising",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Assist an Uprising",
             "startdescription": "It'll be messy, but it might even make the world a better place, eventually. [There will be an opportunity for profit; and it'll be harder for the reckoners to pick up your trail. The Lionsmith likes rebellions.]",
             "comments": "Assumes Radicals add Forge 6",
@@ -788,7 +788,7 @@
         },
         {
             "id": "use.patronage",
-            "actionid": "use",
+            "actionid": "work",
             "label": "Accept Patronage",
             "startdescription": "There's nothing a ruler wants more than more life, and there's no-one who pays better. I'll need to make sure my patron doesn't understand my methods, though, or they might get ideas. [A reasonably safe way to convert stolen lifespan into cash.]",
             "requirements": {

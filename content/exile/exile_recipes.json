@@ -1960,7 +1960,7 @@
             "haltverb": {
                 "opx*": 100,
                 "explore": 1,
-                "use": 1,
+                "work": 1,
                 "send": 1,
                 "relinquish": 1,
                 "spawn.*": 100,
