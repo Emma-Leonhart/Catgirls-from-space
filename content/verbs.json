@@ -88,7 +88,8 @@
             "id": "study",
             "slot$dictedit": {
                 "required$add": {
-                    "funds": 1
+                    "funds": 1,
+                    "lifespan.stolen": 1
                 }
             }
         },

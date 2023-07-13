@@ -56,7 +56,7 @@
                     "additional": true
                 },
                 {
-                    "id": "starvation",
+                    "id": "starvation_year_test",
                     "chance": 100,
                     "additional": true
                 },
@@ -389,10 +389,117 @@
             ]
         },
         {
+            "id": "starvation_year_test",
+            "label": "Starvation",
+            "actionid": "illhealth",
+            "startdescription": "Maybe some kind of magic will save me",
+            "requirements": {
+                "funds": -1
+            },
+            "slots": [
+                {
+                    "id": "starvation",
+                    "label": "Starvation",
+                    "required": {
+                        "year.stolen": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked":[
+                {
+                    "id": "forced_relinquish_year",
+                    "chance": 100
+                },
+                {
+                    "id": "starvation_decade_test",
+                    "chance": 100
+                }
+            ],
+            "warmup": 15
+        },
+        {
+            "id": "forced_relinquish_year",
+            "actionid": "illhealth",
+            "label": "Forced to lose a year",
+            "startdescription": "Selling lifespan directly for funds gets a lower price, and will quickly draw reckoner attention. Once I find a better alternative, I should do it as little as possible.",
+            "description": "Smoky rooms; crumpled banknotes. I'm tired of this. [Operations are a much safer way to convert years to funds. Most Operations require Connections.]",
+            "requirements": {
+                "year.stolen": 1
+            },
+            "effects": {
+                "year.stolen": -1,
+                "funds": 4
+            },
+            "aspects": {
+                "terribletracerisk": 1
+            },
+            "warmup": 45,
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "forced_relinquish_year_pay",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "starvation_decade_test",
+            "label": "Starvation",
+            "actionid": "illhealth",
+            "startdescription": "Maybe some kind of greater magic will save me",
+            "requirements": {
+                "year.stolen": -1
+            },
+            "slots": [
+                {
+                    "id": "starvation",
+                    "label": "Starvation",
+                    "required": {
+                        "decade.stolen": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "warmup": 15,
+            "linked":[
+                {
+                    "id": "forced_relinquish_decade",
+                    "chance": 100
+                },
+                {
+                    "id": "starvation",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "forced_relinquish_decade",
+            "actionid": "illhealth",
+            "label": "Forced to lose a decade",
+            "startdescription": "Selling lifespan directly for funds gets a lower price, and will quickly draw reckoner attention. Once I find a better alternative, I should do it as little as possible.",
+            "description": "Smoky rooms; crumpled banknotes. I'm tired of this. [Operations are a much safer way to convert years to funds. Most Operations require Connections.]",
+            "requirements": {
+                "decade.stolen": 1
+            },
+            "effects": {
+                "decade.stolen": -1,
+                "funds": 4,
+                "year.stolen": 9
+            },
+            "aspects": {
+                "terribletracerisk": 1
+            },
+            "warmup": 30,
+            "craftable": false
+        },
+        {
             "id": "starvation",
             "label": "Starvation",
             "actionid": "illhealth",
             "requirements": {
+                "decade.stolen": -1,
+                "year.stolen": -1,
                 "funds": -1
             },
             "effects": {
@@ -419,9 +526,9 @@
                     "chance": 100
                 }
             ],
-            "startdescription": ".",
+            "startdescription": "I need food or I will starve.",
             "description": "Without money, I'll soon starve. [If an illness cannot consume Health, it will kill you.]",
-            "warmup": 60,
+            "warmup": 30,
             "slots": [
                 {
                     "id": "starvation",
