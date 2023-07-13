@@ -580,7 +580,7 @@
             "isAspect": true
         },
         {
-            "id": "cash.sent",
+            "id": "funds.sent",
             "label": "Preparations",
             "description": "I've sent funds ahead to make life in this place easier. [Once you've arrived, use this card with Communicate again to retrieve your funds.]",
             "isAspect": true
@@ -711,7 +711,7 @@
         {
             "id": "worth",
             "label": "Worth",
-            "description": "If I had to convert this into cash, how much would it be worth?",
+            "description": "If I had to convert this into funds, how much would it be worth?",
             "isAspect": true,
             "icon": "compensationvalue"
         },
@@ -2547,33 +2547,6 @@
             "icon": "bid"
         },
         {
-            "id": "cash",
-            "label": "Cash",
-            "aspects": {
-                "asset": 1,
-                "portable": 1,
-                "worth": 1,
-                "supplies": 1,
-                "forge": 2,
-                "grail": 2,
-                "knock": 2
-            },
-            "xtriggers": {
-                "fatiguing": "husk"
-            },
-            "description": "A considerable sum - enough to open a door, fund a project, or excite avarice.",
-            "slots": [
-                {
-                    "actionid": "send",
-                    "id": "destination",
-                    "label": "Destination",
-                    "required": {
-                        "destination": 1
-                    }
-                }
-            ]
-        },
-        {
             "id": "loc.shrine.nameless",
             "label": "Misty Nook",
             "aspects": {
@@ -3249,7 +3222,7 @@
                         "morpheffect": "spawn"
                     },
                     {
-                        "id": "cash",
+                        "id": "funds",
                         "morpheffect": "spawn"
                     }
                 ],
@@ -5252,7 +5225,7 @@
                     "actionid": "work",
                     "description": "I'll need to pay a specialist to restore and rebind the Book of Suns.",
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     },
                     "consumes": true
                 }
@@ -6520,21 +6493,21 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 },
                 {
-                    "id": "cash2",
+                    "id": "funds2",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -6559,21 +6532,21 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 },
                 {
-                    "id": "cash2",
+                    "id": "funds2",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -6598,21 +6571,21 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 },
                 {
-                    "id": "cash2",
+                    "id": "funds2",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -6637,21 +6610,21 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 },
                 {
-                    "id": "cash2",
+                    "id": "funds2",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -6676,21 +6649,21 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 },
                 {
-                    "id": "cash2",
+                    "id": "funds2",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -6715,21 +6688,21 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 },
                 {
-                    "id": "cash2",
+                    "id": "funds2",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -6754,21 +6727,21 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 },
                 {
-                    "id": "cash2",
+                    "id": "funds2",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7181,21 +7154,21 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 },
                 {
-                    "id": "cash2",
+                    "id": "funds2",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7391,12 +7364,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7423,12 +7396,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7457,12 +7430,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7489,12 +7462,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7521,12 +7494,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7554,12 +7527,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7590,12 +7563,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7624,21 +7597,21 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 },
                 {
-                    "id": "cash2",
+                    "id": "funds2",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7665,12 +7638,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7697,12 +7670,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7730,12 +7703,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7762,12 +7735,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7794,12 +7767,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7826,12 +7799,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7860,12 +7833,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7893,12 +7866,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7926,12 +7899,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -7960,21 +7933,21 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 },
                 {
-                    "id": "cash2",
+                    "id": "funds2",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -8003,12 +7976,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -8038,21 +8011,21 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 },
                 {
-                    "id": "cash2",
+                    "id": "funds2",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -8079,12 +8052,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -8111,12 +8084,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -8143,12 +8116,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -8178,21 +8151,21 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 },
                 {
-                    "id": "cash2",
+                    "id": "funds2",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -8222,21 +8195,21 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 },
                 {
-                    "id": "cash2",
+                    "id": "funds2",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -8263,12 +8236,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -8297,21 +8270,21 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 },
                 {
-                    "id": "cash2",
+                    "id": "funds2",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -8339,12 +8312,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -8371,12 +8344,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -8404,12 +8377,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -8434,21 +8407,21 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 },
                 {
-                    "id": "cash2",
+                    "id": "funds2",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -8476,12 +8449,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],
@@ -8508,12 +8481,12 @@
             },
             "slots": [
                 {
-                    "id": "cash1",
+                    "id": "funds1",
                     "label": "Expenses",
                     "actionid": "travel",
                     "consumes": true,
                     "required": {
-                        "cash": 1
+                        "funds": 1
                     }
                 }
             ],

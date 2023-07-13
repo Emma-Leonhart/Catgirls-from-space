@@ -256,7 +256,7 @@
             "id": "use.sanatorium",
             "actionid": "work",
             "label": "Run a Sanatorium",
-            "startdescription": "Once I've treated a couple of wealthy widows, the word will spread quickly. [A reasonably safe way to convert stolen lifespan into cash. Heart aspect cards are often useful when running a Sanatorium.]",
+            "startdescription": "Once I've treated a couple of wealthy widows, the word will spread quickly. [A reasonably safe way to convert stolen lifespan into funds. Heart aspect cards are often useful when running a Sanatorium.]",
             "description": "The Sanatorium is open.",
             "requirements": {
                 "licence.medical": 1,
@@ -306,7 +306,7 @@
             "id": "use.doctorspractice",
             "actionid": "work",
             "label": "Run a Doctor's Practice",
-            "startdescription": "My treatments may not be quite what they seem... but my results are always excellent. [A reasonably safe way to convert stolen lifespan into cash. Heart aspect cards are often useful when running a Practice.]",
+            "startdescription": "My treatments may not be quite what they seem... but my results are always excellent. [A reasonably safe way to convert stolen lifespan into funds. Heart aspect cards are often useful when running a Practice.]",
             "description": "The Practice is open.",
             "requirements": {
                 "licence.medical": 1,
@@ -340,7 +340,7 @@
             "id": "use.miracles",
             "actionid": "work",
             "label": "Run a Faith-Healing Cult",
-            "startdescription": "I can bring genuine healing miracles to a congregation. [A reasonably safe way to convert stolen lifespan into cash. Moth aspect cards are often useful when running a Cult.]",
+            "startdescription": "I can bring genuine healing miracles to a congregation. [A reasonably safe way to convert stolen lifespan into funds. Moth aspect cards are often useful when running a Cult.]",
             "description": "The congregation is assembling.",
             "requirements": {
                 "connection.holy": 1,
@@ -376,7 +376,7 @@
             "id": "use.cultseed.flowermaker",
             "actionid": "work",
             "label": "Assemble an Esoteric Cult of the Flowermaker",
-            "startdescription": "The Flowermaker's presence is strong here. I'll let the enthusiasts in the congregation pursue their pleasures. [A reasonably safe way to convert stolen lifespan into cash. Moth aspect cards are often useful when running a Cult.]",
+            "startdescription": "The Flowermaker's presence is strong here. I'll let the enthusiasts in the congregation pursue their pleasures. [A reasonably safe way to convert stolen lifespan into funds. Moth aspect cards are often useful when running a Cult.]",
             "description": "The congregation is assembling.",
             "requirements": {
                 "op.miracles.cultseed": 1,
@@ -411,7 +411,7 @@
             "id": "use.cultseed.horned",
             "actionid": "work",
             "label": "Assemble an Esoteric Cult of the Horned Axe",
-            "startdescription": "The Horned-Axe's presence is strong here. Some of the congregation will be drawn to her. [A reasonably safe way to convert stolen lifespan into cash. Moth aspect cards are often useful when running a Cult.]",
+            "startdescription": "The Horned-Axe's presence is strong here. Some of the congregation will be drawn to her. [A reasonably safe way to convert stolen lifespan into funds. Moth aspect cards are often useful when running a Cult.]",
             "description": "The congregation is assembling.",
             "requirements": {
                 "op.miracles.cultseed": 1,
@@ -446,7 +446,7 @@
             "id": "use.cultseed.wolf",
             "actionid": "work",
             "label": "Assemble an Esoteric Cult of the Wolf Divided",
-            "startdescription": "The Wolf Divided's presence is strong here. The more violent members of the congregation will respond to that. [A reasonably safe way to convert stolen lifespan into cash. Moth aspect cards are often useful when running a Cult.]",
+            "startdescription": "The Wolf Divided's presence is strong here. The more violent members of the congregation will respond to that. [A reasonably safe way to convert stolen lifespan into funds. Moth aspect cards are often useful when running a Cult.]",
             "description": "The congregation is assembling.",
             "requirements": {
                 "op.miracles.cultseed": 1,
@@ -481,7 +481,7 @@
             "id": "use.cultseed.miracles",
             "actionid": "work",
             "label": "Continue a Faith-Healing Cult",
-            "startdescription": "Everyone's happy. The show must go on. [A reasonably safe way to convert stolen lifespan into cash. Moth aspect cards are often useful when running a Cult.]",
+            "startdescription": "Everyone's happy. The show must go on. [A reasonably safe way to convert stolen lifespan into funds. Moth aspect cards are often useful when running a Cult.]",
             "description": "The congregation is assembling, again.",
             "requirements": {
                 "op.miracles.cultseed": 1,
@@ -516,7 +516,7 @@
             "id": "use.import",
             "actionid": "work",
             "label": "Run an Import Business",
-            "startdescription": "And everything's legal. So legal it's a little unnerving. [A reasonably safe way to generate cash. Lantern aspect cards are often useful when running an Import Business.]",
+            "startdescription": "And everything's legal. So legal it's a little unnerving. [A reasonably safe way to generate funds. Lantern aspect cards are often useful when running an Import Business.]",
             "description": "I've opened up shop.",
             "requirements": {
                 "licence.import": 1,
@@ -547,7 +547,7 @@
             "id": "use.counterfeiting",
             "actionid": "work",
             "label": "Run a Counterfeiting Operation",
-            "startdescription": "As long as I have the connections and the resources, I can... make money. [A reasonably safe way to generate cash. Forge aspect cards are often useful when running a Counterfeiting Operation.]",
+            "startdescription": "As long as I have the connections and the resources, I can... make money. [A reasonably safe way to generate funds. Forge aspect cards are often useful when running a Counterfeiting Operation.]",
             "description": "The presses are almost ready.",
             "requirements": {
                 "connection.underworld": 1,
@@ -578,7 +578,7 @@
             "id": "use.smuggling",
             "actionid": "work",
             "label": "Run a Smuggling Operation",
-            "startdescription": "Everything's valuable somewhere. [A reasonably safe way to generate cash. Smuggling operations are generally Subtle, but pay well anyway. Moth aspect cards are often useful when running a  Smuggling Operation.]",
+            "startdescription": "Everything's valuable somewhere. [A reasonably safe way to generate funds. Smuggling operations are generally Subtle, but pay well anyway. Moth aspect cards are often useful when running a  Smuggling Operation.]",
             "description": "Everything is ready.",
             "requirements": {
                 "connection.underworld": 1,
@@ -790,7 +790,7 @@
             "id": "use.patronage",
             "actionid": "work",
             "label": "Accept Patronage",
-            "startdescription": "There's nothing a ruler wants more than more life, and there's no-one who pays better. I'll need to make sure my patron doesn't understand my methods, though, or they might get ideas. [A reasonably safe way to convert stolen lifespan into cash.]",
+            "startdescription": "There's nothing a ruler wants more than more life, and there's no-one who pays better. I'll need to make sure my patron doesn't understand my methods, though, or they might get ideas. [A reasonably safe way to convert stolen lifespan into funds.]",
             "requirements": {
                 "connection.ruler": 1,
                 "year.stolen": 1
@@ -1645,7 +1645,7 @@
                 "fatiguing": 1
             },
             "effects": {
-                "cash": "opx.basepayout"
+                "funds": "opx.basepayout"
             },
             "linked": [
                 {
@@ -1769,7 +1769,7 @@
                 "progress.effectiveness": 1
             },
             "effects": {
-                "cash": "progress.effectiveness",
+                "funds": "progress.effectiveness",
                 "progress.effectiveness": -3
             },
             "linked": [

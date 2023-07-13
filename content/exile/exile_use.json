@@ -888,11 +888,11 @@
             "description": "Greed compelled, and callousness permitted, the separation of the pages of the Book of Suns. So the story goes. But was that really all the reason? The sky draws in its breath as the golden images come to lie together again; the wind ceases. Or so it seems. Probably I just need more sleep.",
             "requirements": {
                 "curio.lantern": 3,
-                "cash": 1
+                "funds": 1
             },
             "effects": {
                 "curio.lantern": -3,
-                "cash": -1,
+                "funds": -1,
                 "rarity.lantern": 1,
                 "fascination": 1
             },

@@ -3,10 +3,32 @@
         {
             "id": "funds",
             "label": "Capital",
-            "aspects$add": {
+            "aspects": {
                 "ability": 1,
-                "hand": 2
-            }
+                "hand": 2,
+                "asset": 1,
+                "portable": 1,
+                "worth": 1,
+                "supplies": 1,
+                "forge": 2,
+                "grail": 2,
+                "knock": 2,
+                "ingredient": 1
+            },
+            "xtriggers": {
+                "fatiguing": "husk"
+            },
+            "description": "Capital. The lifeblood of the global economy.",
+            "slots": [
+                {
+                    "actionid": "send",
+                    "id": "destination",
+                    "label": "Destination",
+                    "required": {
+                        "destination": 1
+                    }
+                }
+            ]
         },
         {
             "id": "reason",

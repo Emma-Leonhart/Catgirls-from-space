@@ -887,34 +887,34 @@
             "craftable": true
         },
         {
-            "id": "send.ahead.cash.hint",
+            "id": "send.ahead.funds.hint",
             "actionid": "send",
             "label": "Send Cash Ahead?",
             "startdescription": "I  might need to leave in a hurry. I can prepare the way by sending funds ahead to a possible destination. Of course, if I never go there, the funds will be lost.",
             "requirements": {
-                "cash": 1,
+                "funds": 1,
                 "destination": -1
             },
             "craftable": false,
             "hintonly": true
         },
         {
-            "id": "send.ahead.cash",
+            "id": "send.ahead.funds",
             "actionid": "send",
             "label": "Send Cash Ahead",
             "startdescription": "I  might need to leave in a hurry. I can prepare the way by sending funds ahead to a possible destination. Of course, if I never go there, the funds will be lost.",
             "description": "It's done. If I need to run, I might have a softer landing.",
             "requirements": {
-                "cash": 1,
+                "funds": 1,
                 "destination": 1
             },
             "effects": {
-                "cash": -1
+                "funds": -1
             },
             "mutations": [
                 {
                     "filter": "destination",
-                    "mutate": "cash.sent",
+                    "mutate": "funds.sent",
                     "level": 1,
                     "additive": true
                 }
@@ -923,57 +923,57 @@
             "craftable": true
         },
         {
-            "id": "send.getsentahead.cash.hint",
+            "id": "send.getsentahead.funds.hint",
             "actionid": "send",
             "label": "Take Advantage of my Preparations?",
-            "startdescription": "Once I arrive at this place, I can retrieve the cash I sent ahead.",
+            "startdescription": "Once I arrive at this place, I can retrieve the funds I sent ahead.",
             "requirements": {
                 "domicile": -1,
-                "cash.sent": 1
+                "funds.sent": 1
             },
             "craftable": false,
             "hintonly": true
         },
         {
-            "id": "send.getsentahead.cash",
+            "id": "send.getsentahead.funds",
             "actionid": "send",
             "label": "Take Advantage of my Preparations",
-            "startdescription": "I should retrieve the cash I sent ahead.",
+            "startdescription": "I should retrieve the funds I sent ahead.",
             "requirements": {
                 "domicile": 1,
 "location": 1,
-                "cash.sent": 1
+                "funds.sent": 1
             },
             "warmup": 10,
             "craftable": true,
             "linked": [
                 {
-                    "id": "send.getsentahead.cash.loop"
+                    "id": "send.getsentahead.funds.loop"
                 }
             ]
         },
         {
-            "id": "send.getsentahead.cash.loop",
+            "id": "send.getsentahead.funds.loop",
             "actionid": "send",
             "label": "Done!",
-            "startdescription": "I've sent cash ahead. I can retrieve it once I arrive.",
+            "startdescription": "I've sent funds ahead. I can retrieve it once I arrive.",
             "requirements": {
-                "cash.sent": 1
+                "funds.sent": 1
             },
             "mutations": [
                 {
                     "filter": "domicile",
-                    "mutate": "cash.sent",
+                    "mutate": "funds.sent",
                     "level": -1,
                     "additive": true
                 }
             ],
             "effects": {
-                "cash": 1
+                "funds": 1
             },
             "linked": [
                 {
-                    "id": "send.getsentahead.cash.loop"
+                    "id": "send.getsentahead.funds.loop"
                 }
             ]
         },

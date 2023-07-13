@@ -19,7 +19,7 @@
         {
             "id": "work",
             "label": "Work",
-            "description": "Earn a living, or practice the invisible arts, or make use of something. [Address Opportunities, run Operations, or convert years to cash.]",
+            "description": "Earn a living, or practice the invisible arts, or make use of something. [Address Opportunities, run Operations, or convert years to funds.]",
             "slot": {
                 "id": "work",
                 "label": "Work",

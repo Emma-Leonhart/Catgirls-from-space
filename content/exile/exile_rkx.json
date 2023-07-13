@@ -1061,7 +1061,7 @@
             "startdescription": "My pursuers have followed the trail of the funds I sent ahead.",
             "requirements": {
                 "destination": 1,
-                "cash.sent": 1
+                "funds.sent": 1
             },
             "mutations": [
                 {
@@ -1084,7 +1084,7 @@
             "startdescription": "My pursuers are focusing their attention somewhere else - why? ",
             "requirements": {
                 "destination": 1,
-                "cash.sent": -1
+                "funds.sent": -1
             },
             "mutations": [
                 {

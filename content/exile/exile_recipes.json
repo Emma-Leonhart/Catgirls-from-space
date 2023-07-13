@@ -84,9 +84,9 @@
             "id": "travel.first",
             "actionid": "travel",
             "label": "Far Enough and Fast Enough ",
-            "startdescription": "I have more than enough cash for the journey - but I might need to travel light. [Leaving a city will shake off your pursuers - but they'll find you again eventually.",
+            "startdescription": "I have more than enough funds for the journey - but I might need to travel light. [Leaving a city will shake off your pursuers - but they'll find you again eventually.",
             "effects": {
-                "cash": 2
+                "funds": 2
             },
             "warmup": 1
         },
@@ -1526,7 +1526,7 @@
                 "wilderness": 1,
                 "domicile": 1,
 "location": 1,
-                "cash": 1
+                "funds": 1
             },
             "effects": {
                 "wilderness": -1
@@ -1767,7 +1767,7 @@
             "requirements": {
                 "end": 1,
                 "destination": 1,
-                "cash": 2
+                "funds": 2
             },
             "extantreqs": {
                 "rage": -1
@@ -1806,7 +1806,7 @@
             "requirements": {
                 "remote": 1,
                 "destination": 1,
-                "cash": 2
+                "funds": 2
             },
             "extantreqs": {
                 "rage": -1
@@ -1825,7 +1825,7 @@
             "startdescription": "Time to go. Have I forgotten anything? [You can only take Portable Assets with you. Departure will end all ongoing reckoner actions and remove all Traces, but it will also abandon Assets, Locations, Destinations, Local Contacts, and ongoing Operations.]",
             "requirements": {
                 "destination": 1,
-                "cash": 1,
+                "funds": 1,
                 "remote": -1,
                 "end": -1
             },
