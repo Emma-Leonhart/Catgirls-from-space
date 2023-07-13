@@ -1,0 +1,15 @@
+{
+    "recipes": [
+        {
+            "id": "study_years_hint",
+            "label": "Merge my years into a decade?",
+            "actionid": "study",
+            "requirements": {
+                "year.stolen": 1
+            },
+            "startdescription": "If I merge ten years together I can get a decade. [Years can be sold, decades can heal wounds. Process will automatically gather ten years if present]",
+            "craftable": false,
+            "hintonly": true
+        }
+    ]
+}

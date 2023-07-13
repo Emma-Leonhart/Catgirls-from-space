@@ -6312,7 +6312,18 @@
             "description": "A year of generously donated life, as entered in the Cindered Tally.",
             "aspects": {
                 "lifespan.stolen": 1
-            }
+            },
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "study",
+                    "label": "With",
+                    "required": {
+                        "lensing": 1
+                    },
+                    "consumes": true
+                }
+            ]
         },
         {
             "id": "trace",
