@@ -105,7 +105,63 @@
         "effects":{
             "decade.stolen": 9,
             "year.stolen": 9,
-            "ticket.train": 1
+            "ticket.train": 1,
+            "health": 
+        }
+    },
+    {
+        "id": "catgirl_ascension_craving",
+        "actionid": "craving",
+        "warmup": 60,
+        "linked":[
+            {
+                "id": "catgirl_healing",
+                "chance": 100
+            },
+            {
+                "id": "catgirl_craving_revolution",
+                "chance": 100
+            }
+        ]
+    },
+    {
+        "id": "catgirl_healing",
+        "actionid": "craving",
+        "warmup": 60,
+        "Tablereqs": {"decrepitude": -1},
+        "slots": [
+            {
+                "id": "Conversation",
+                "label": "Conversation",
+                "description": "The last words of a living mind.",
+                "required": {
+                    "decrepitude": 1
+                },
+                "greedy": true
+            }
+        ],
+        "effects": {
+            "decrepitude": -1,
+            "wound.exile": 1
+        },
+        "linked":[
+            {
+                "id": "catgirl_healing",
+                "chance": 100
+            },
+            {
+                "id": "catgirl_craving_revolution",
+                "chance": 100
+            }
+        ]
+    },
+    {
+        "id": "catgirl_craving_revolution",
+        "chance": 100,
+        "actionid": "craving",
+        "warmup": 60,
+        "effects":{
+            "year.stolen": 1
         }
     }
     ]

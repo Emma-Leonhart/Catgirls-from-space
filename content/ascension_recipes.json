@@ -425,6 +425,10 @@
                     "chance": 100
                 },
                 {
+                    "id": "catgirl_ascension_craving",
+                    "chance": 100
+                },
+                {
                     "id": "ascensioncravingpower",
                     "chance": 100
                 },

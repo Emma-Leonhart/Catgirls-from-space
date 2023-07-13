@@ -792,7 +792,7 @@
                     "additional": true
                 },
                 {
-                    "id": "suspicion",
+                    "id": "exile_suspicion",
                     "chance": 100,
                     "additional": true
                 },
