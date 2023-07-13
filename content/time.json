@@ -564,40 +564,6 @@
             ]
         },
         {
-            "id": "turn.next",
-            "actionid": "time",
-            "label": "The Wheel Turns",
-            "startdescription": "The sun crosses the sky. Night pursues it. [At the end of each cycle, reckoners may also enter the city. This is more likely if you've created a Trace, and much more likely if you've created more than one.]",
-            "comments": "using linked recipes so we can select just one possible additional trace response",
-            "linked": [
-                {
-                    "id": "wounds.exile.danger"
-                },
-                {
-                    "id": "turn.check.traces"
-                },
-                {
-                    "id": "turn.check.trace"
-                },
-                {
-                    "id": "turn.check.no.trace"
-                },
-                {
-                    "id": "turn.check.mapedge.traces"
-                },
-                {
-                    "id": "turn.check.mapedge.trace"
-                },
-                {
-                    "id": "turn.check.mapedge.no.trace"
-                },
-                {
-                    "id": "discardseason_exile"
-                }
-            ],
-            "warmup": 0
-        },
-        {
             "id": "turn.check.traces",
             "actionid": "time",
             "extantreqs": {
@@ -893,6 +859,40 @@
                     "chance": 100
                 }
             ]
+        },
+        {
+            "id": "turn.next",
+            "actionid": "time",
+            "label": "The Wheel Turns",
+            "startdescription": "The sun crosses the sky. Night pursues it. [At the end of each cycle, reckoners may also enter the city. This is more likely if you've created a Trace, and much more likely if you've created more than one.]",
+            "comments": "using linked recipes so we can select just one possible additional trace response",
+            "linked": [
+                {
+                    "id": "wounds.exile.danger"
+                },
+                {
+                    "id": "turn.check.traces"
+                },
+                {
+                    "id": "turn.check.trace"
+                },
+                {
+                    "id": "turn.check.no.trace"
+                },
+                {
+                    "id": "turn.check.mapedge.traces"
+                },
+                {
+                    "id": "turn.check.mapedge.trace"
+                },
+                {
+                    "id": "turn.check.mapedge.no.trace"
+                },
+                {
+                    "id": "discardseason_exile"
+                }
+            ],
+            "warmup": 0
         }
     ]
 }
