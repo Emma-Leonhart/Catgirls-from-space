@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "invertwintera",
+            "id": "invert_influence_wintera",
             "label": "Invert Winter Influence",
             "actionid": "study",
             "requirements": {
@@ -19,7 +19,7 @@
             "craftable": true
         },
         {
-            "id": "invertlanterna",
+            "id": "invert_influence_lanterna",
             "label": "Invert Lantern Influence",
             "actionid": "study",
             "requirements": {
@@ -37,11 +37,11 @@
             "craftable": true
         },
         {
-            "id": "invertforgea",
+            "id": "invert_influence_forgea",
             "label": "Invert Forge Influence",
             "actionid": "study",
             "requirements": {
-                "influenceforge": 1,
+                "influenceforge": 1, 
                 "lensing": 1
             },
             "effects": {
@@ -55,7 +55,7 @@
             "craftable": true
         },
         {
-            "id": "invertedgea",
+            "id": "invert_influence_edgea",
             "label": "Invert Edge Influence",
             "actionid": "study",
             "requirements": {
@@ -73,7 +73,7 @@
             "craftable": true
         },
         {
-            "id": "invertknocka",
+            "id": "invert_influence_knocka",
             "label": "Invert Knock Influence",
             "actionid": "study",
             "requirements": {
@@ -91,7 +91,7 @@
             "craftable": true
         },
         {
-            "id": "invertsecreta",
+            "id": "invert_influence_secreta",
             "label": "Invert Secret Histories Influence",
             "actionid": "study",
             "requirements": {

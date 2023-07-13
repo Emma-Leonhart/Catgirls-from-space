@@ -6,7 +6,7 @@
                 {
                     "id": "with",
                     "label": "With",
-                    "description": "Study with another winter influence to upgrade, invert with dread and fascination, conjugate with any other influence to produce two different influences.",
+                    "description": "Study with another winter influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
                     "actionid": "study",
                     "required": {
                         "influence": 1
@@ -16,7 +16,7 @@
                 {
                     "id": "with2",
                     "label": "And",
-                    "description": "Study with another winter influence to upgrade, invert with dread and fascination, conjugate with any other influence to produce two different influences.",
+                    "description": "Study with another winter influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
                     "actionid": "study",
                     "required": {
                         "influence": 1
@@ -31,7 +31,7 @@
                 {
                     "id": "with",
                     "label": "With",
-                    "description": "Study with another lantern influence to upgrade, invert with dread and fascination, conjugate with any other influence to produce two different influences.",
+                    "description": "Study with another lantern influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
                     "actionid": "study",
                     "required": {
                         "influence": 1
@@ -41,7 +41,7 @@
                 {
                     "id": "with2",
                     "label": "And",
-                    "description": "Study with another lantern influence to upgrade, invert with dread and fascination, conjugate with any other influence to produce two different influences.",
+                    "description": "Study with another lantern influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
                     "actionid": "study",
                     "required": {
                         "influence": 1
@@ -56,24 +56,7 @@
                 {
                     "id": "with",
                     "label": "With",
-                    "description": "Study with another heart influence, invert with dread and vitality, conjugate with any other influence to produce two different influences.",
-                    "actionid": "study"
-                },
-                {
-                    "id": "with2",
-                    "label": "And",
-                    "description": "Study with another heart influence, invert with dread and vitality, conjugate with any other influence to produce two different influences.",
-                    "actionid": "study"
-                }
-            ],
-        },
-        {
-            "id": "influencegrailg",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "With",
-                    "description": "Study with another grail influence to upgrade, invert with dread and fascination, conjugate with any other influence to produce two different influences.",
+                    "description": "Study with another heart influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
                     "actionid": "study",
                     "required": {
                         "influence": 1
@@ -83,7 +66,32 @@
                 {
                     "id": "with2",
                     "label": "And",
-                    "description": "Study with another grail influence to upgrade, invert with dread and fascination, conjugate with any other influence to produce two different influences.",
+                    "description": "Study with another heart influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
+                    "actionid": "study",
+                    "required": {
+                        "influence": 1
+                    },
+                    "$priority": 500
+                }
+            ],
+        },
+        {
+            "id": "influencegrailg",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with another grail influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
+                    "actionid": "study",
+                    "required": {
+                        "influence": 1
+                    },
+                    "$priority": 500
+                },
+                {
+                    "id": "with2",
+                    "label": "And",
+                    "description": "Study with another grail influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
                     "actionid": "study",
                     "required": {
                         "influence": 1
@@ -98,24 +106,7 @@
                 {
                     "id": "with",
                     "label": "With",
-                    "description": "Study with another moth influence, invert with dread and restlessness, conjugate with any other influence to produce two different influences.",
-                    "actionid": "study"
-                },
-                {
-                    "id": "with2",
-                    "label": "And",
-                    "description": "Study with another moth influence, invert with dread and restlessness, conjugate with any other influence to produce two different influences.",
-                    "actionid": "study"
-                }
-            ],
-        },
-        {
-            "id": "influenceedgeg",
-            "slots": [
-                {
-                    "id": "with",
-                    "label": "With",
-                    "description": "Study with another edge influence to upgrade, invert with dread and fascination, conjugate with any other influence to produce two different influences.",
+                    "description": "Study with another moth influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
                     "actionid": "study",
                     "required": {
                         "influence": 1
@@ -125,7 +116,32 @@
                 {
                     "id": "with2",
                     "label": "And",
-                    "description": "Study with another edge influence to upgrade, invert with dread and fascination, conjugate with any other influence to produce two different influences.",
+                    "description": "Study with another moth influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
+                    "actionid": "study",
+                    "required": {
+                        "influence": 1
+                    },
+                    "$priority": 500
+                }
+            ],
+        },
+        {
+            "id": "influenceedgeg",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Study with another edge influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
+                    "actionid": "study",
+                    "required": {
+                        "influence": 1
+                    },
+                    "$priority": 500
+                },
+                {
+                    "id": "with2",
+                    "label": "And",
+                    "description": "Study with another edge influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
                     "actionid": "study",
                     "required": {
                         "influence": 1
@@ -140,7 +156,7 @@
                 {
                     "id": "with",
                     "label": "With",
-                    "description": "Study with another forge influence to upgrade, invert with dread and fascination, conjugate with any other influence to produce two different influences.",
+                    "description": "Study with another forge influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
                     "actionid": "study",
                     "required": {
                         "influence": 1
@@ -150,7 +166,7 @@
                 {
                     "id": "with2",
                     "label": "And",
-                    "description": "Study with another forge influence to upgrade, invert with dread and fascination, conjugate with any other influence to produce two different influences.",
+                    "description": "Study with another forge influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
                     "actionid": "study",
                     "required": {
                         "influence": 1
@@ -165,7 +181,7 @@
                 {
                     "id": "with",
                     "label": "With",
-                    "description": "Study with another knock influence to upgrade, invert with dread and fascination, conjugate with any other influence to produce two different influences.",
+                    "description": "Study with another knock influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
                     "actionid": "study",
                     "required": {
                         "influence": 1
@@ -175,7 +191,7 @@
                 {
                     "id": "with2",
                     "label": "And",
-                    "description": "Study with another knock influence to upgrade, invert with dread and fascination, conjugate with any other influence to produce two different influences.",
+                    "description": "Study with another knock influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
                     "actionid": "study",
                     "required": {
                         "influence": 1
@@ -190,7 +206,7 @@
                 {
                     "id": "with",
                     "label": "With",
-                    "description": "Study with another influence to upgrade, invert with dread and fascination, conjugate with any other influence to produce two different influences.",
+                    "description": "Study with another influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
                     "actionid": "study",
                     "required": {
                         "influence": 1
@@ -200,7 +216,7 @@
                 {
                     "id": "with2",
                     "label": "And",
-                    "description": "Study with another influence to upgrade, invert with dread and fascination, conjugate with any other influence to produce two different influences.",
+                    "description": "Study with another influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
                     "actionid": "study",
                     "required": {
                         "influence": 1
@@ -215,7 +231,7 @@
                 {
                     "id": "with",
                     "label": "With",
-                    "description": "Study with another secret histories influence to upgrade, invert with dread and fascination, conjugate with any other influence to produce two different influences.",
+                    "description": "Study with another secret histories influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
                     "actionid": "study",
                     "required": {
                         "influence": 1
@@ -225,7 +241,7 @@
                 {
                     "id": "with2",
                     "label": "And",
-                    "description": "Study with another secret histories influence to upgrade, invert with dread and fascination, conjugate with any other influence to produce two different influences.",
+                    "description": "Study with another secret histories influence to upgrade, invert with lensing, conjugate with any other influence to produce two different influences.",
                     "actionid": "study",
                     "required": {
                         "influence": 1

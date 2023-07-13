@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "invertwinterg",
+            "id": "invert_influence_winterg",
             "label": "Invert Winter Influence",
             "actionid": "study",
             "requirements": {
@@ -19,10 +19,10 @@
             "craftable": true
         },
         {
-            "id": "invertlanterng",
+            "id": "invert_influence_lanterng",
             "label": "Invert Lantern Influence",
             "actionid": "study",
-            "requirements": {
+            "requirements": { 
                 "influencelanterng": 1,
                 "lensing": 1
             },
@@ -37,7 +37,7 @@
             "craftable": true
         },
         {
-            "id": "invertforgeg",
+            "id": "invert_influence_forgeg",
             "label": "Invert Forge Influence",
             "actionid": "study",
             "requirements": {
@@ -55,7 +55,7 @@
             "craftable": true
         },
         {
-            "id": "invertedgeg",
+            "id": "invert_influence_edgeg",
             "label": "Invert Edge Influence",
             "actionid": "study",
             "requirements": {
@@ -73,7 +73,7 @@
             "craftable": true
         },
         {
-            "id": "invertknockg",
+            "id": "invert_influence_knockg",
             "label": "Invert Knock Influence",
             "actionid": "study",
             "requirements": {
@@ -91,7 +91,7 @@
             "craftable": true
         },
         {
-            "id": "invertsecretg",
+            "id": "invert_influence_secretg",
             "label": "Invert Secret Histories Influence",
             "actionid": "study",
             "requirements": {

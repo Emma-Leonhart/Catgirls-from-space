@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "invertwinterc",
+            "id": "invert_influence_winterc",
             "label": "Invert Winter Influence",
             "actionid": "study",
             "requirements": {
@@ -19,7 +19,7 @@
             "craftable": true
         },
         {
-            "id": "invertlanternc",
+            "id": "invert_influence_lanternc",
             "label": "Invert Lantern Influence",
             "actionid": "study",
             "requirements": {
@@ -33,11 +33,11 @@
             },
             "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Lantern (LA) becomes Winter (AL)]",
             "$priority": 100,
-            "warmup": 60,
+            "warmup": 60, 
             "craftable": true
         },
         {
-            "id": "invertforgec",
+            "id": "invert_influence_forgec",
             "label": "Invert Forge Influence",
             "actionid": "study",
             "requirements": {
@@ -55,7 +55,7 @@
             "craftable": true
         },
         {
-            "id": "invertedgec",
+            "id": "invert_influence_edgec",
             "label": "Invert Edge Influence",
             "actionid": "study",
             "requirements": {
@@ -73,7 +73,7 @@
             "craftable": true
         },
         {
-            "id": "invertknockc",
+            "id": "invert_influence_knockc",
             "label": "Invert Knock Influence",
             "actionid": "study",
             "requirements": {
@@ -91,7 +91,7 @@
             "craftable": true
         },
         {
-            "id": "invertsecretc",
+            "id": "invert_influence_secretc",
             "label": "Invert Secret Histories Influence",
             "actionid": "study",
             "requirements": {
