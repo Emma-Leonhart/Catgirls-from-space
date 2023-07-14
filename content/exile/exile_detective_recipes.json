@@ -273,9 +273,9 @@
             "effects": {
                 "funds": 7,
                 "favour": 1,
+                "obscurity": 1,
                 "suspicious": -99,
-                "independent": -1,
-                "legacydetective_plotitem_backup": 1
+                "independent": -1
             },
             "warmup": 60,
             "aspects": {
