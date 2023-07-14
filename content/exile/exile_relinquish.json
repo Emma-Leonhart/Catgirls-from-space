@@ -9,16 +9,18 @@
             "alt":[
                 {
                     "id": "exile_inflict_wound",
-                    "chance": 100
-                }
-            ],
-            "comments": "opened by initial explore recipe",
-            "alt": [
+                    "chance": 100,
+                    "additional": true
+                },
                 {
                     "id": "send.first",
                     "additional": true
                 }
             ],
+            "effects": {
+                
+            },
+            "comments": "opened by initial explore recipe",
             "warmup": 10,
             "craftable": false
         },

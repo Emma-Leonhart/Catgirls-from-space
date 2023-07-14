@@ -3062,14 +3062,18 @@
             "alt":[
                 {
                     "id": "exile_inflict_wound",
-                    "chance": 100
+                    "chance": 100,
+                    "additional": true
                 }
             ],
             "linked": [
                 {
                     "id": "send.investigate.description"
                 }
-            ]
+            ],
+            "effects": {
+                
+            }
         }
     ]
 }
