@@ -179,7 +179,7 @@
     },
     {
         "id": "catgirl_begin",
-        "label": "Beginning",
+        "label": "Inspiration of the Lioness",
         "actionid": "work",
         "requirements": {
             "desire": 1,
@@ -199,7 +199,12 @@
         "description": "The Rite is complete. The Marks of the Forge are upon me. The First Mark is what I have said, and the Second is what I have done. If I inspect my body, I'll find the Third. I am aglow with new needs.",
         "warmup": 60,
         "craftable": true,
-        "burnimage": "flammarion"
+        "burnimage": "flammarion",
+        "linked": [
+            {
+                "id": "foe.weaknesses.generate"
+            }
+        ]
     },
     {
         "id": "catghoul_begin",
@@ -227,52 +232,50 @@
         "id": "catgirl_begin_exile",
         "label": "Beginning",
         "actionid": "work",
+        "Tablereqs":{
+            "domicile": 1
+        },
         "requirements": {
-            "desire": 1,
             "waystag_after": 1,
             "catgirl_truth": 1
         },
         "effects": {
-            "desire": -1,
             "catgirl_dedication_3": 1,
             "fatigue": 4,
             "decade.stolen": 9,
             "year.stolen": 9,
-            "funds": 9,
-            "ticket.train": 1
+            "funds": 9
         },
         "startdescription": "I will dedicate myself to the Immortal Catgirl. This will begin a long task of overcoming the aliens.",
-        "description": "The Rite is complete. The Marks of the Forge are upon me. The First Mark is what I have said, and the Second is what I have done. If I inspect my body, I'll find the Third. I am aglow with new needs.",
+        "description": "Description of understanding that the world is going to end, understanding where the aliens come from, and how you need to fight them.",
         "warmup": 60,
         "craftable": true,
         "burnimage": "flammarion"
     },
     {
-        "id": "use.attack.lore.createdefiance",
+        "id": "catgirl_begin_exile_trace",
+        "label": "Beginning",
         "actionid": "work",
-        "label": "Inspiration of the Lioness",
-        "startdescription": "No reckoner is ever foolish enough to pass into the higher levels of the Mansus. To draw the attention of the true Long - or their masters - would invite annihilation. But my Foe had some traffic with the Hours of struggle and conquest. He enjoyed certain protections. [Boldness draws attention. This will destroy any current Obscurity and create a Trace.]",
-        "description": "My Foe knows something of the 'invisible arts.' Perhaps it's time I applied myself to their study, too.",
-        "requirements": {
-            "catgirl_truth": 1
-        },
-        "extantreqs": {
-            "temptation.defiance": -1
-        },
-        "effects": {
-            "temptation.defiance": 1,
+        "Tablereqs":{
             "trace": 1
         },
-        "purge": {
-            "obscurity": 100
+        "requirements": {
+            "waystag_after": 1,
+            "catgirl_truth": 1
         },
-        "warmup": 30,
+        "effects": {
+            "catgirl_dedication_3": 1,
+            "fatigue": 4,
+            "decade.stolen": 9,
+            "year.stolen": 9,
+            "funds": 9
+        },
+        "startdescription": "I will dedicate myself to the Immortal Catgirl. This will begin a long task of overcoming the aliens.",
+        "description": "Description of understanding that the world is going to end, understanding where the aliens come from, and how you need to fight them.",
+        "warmup": 60,
         "craftable": true,
-        "linked": [
-            {
-                "id": "foe.weaknesses.generate"
-            }
-        ]
-    },
+        "burnimage": "flammarion",
+        "comment": "duplicated because of two different trigger conditions"
+    }
     ]
 }
