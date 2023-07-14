@@ -6409,11 +6409,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -6434,11 +6435,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -6459,11 +6461,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -6484,11 +6487,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -6509,11 +6513,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -6534,11 +6539,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -6559,11 +6565,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -6865,11 +6872,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -6888,11 +6896,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -6915,11 +6924,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -6937,11 +6947,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -6959,11 +6970,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -6985,11 +6997,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7007,11 +7020,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7031,11 +7045,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7053,11 +7068,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7075,11 +7091,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7101,11 +7118,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7123,11 +7141,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7149,11 +7168,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7171,11 +7191,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7198,11 +7219,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7224,11 +7246,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7247,11 +7270,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7271,11 +7295,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7298,11 +7323,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7326,11 +7352,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7348,11 +7375,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7370,11 +7398,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7392,11 +7421,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7420,11 +7450,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7459,11 +7490,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7486,11 +7518,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7512,11 +7545,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7534,11 +7568,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7558,11 +7593,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7602,11 +7638,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7625,11 +7662,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7647,11 +7685,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7670,11 +7709,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7693,11 +7733,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7716,11 +7757,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7739,11 +7781,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7762,11 +7805,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7785,11 +7829,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7808,11 +7853,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7831,11 +7877,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7854,11 +7901,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7877,11 +7925,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7900,11 +7949,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7923,11 +7973,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
@@ -7946,11 +7997,12 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "meticulous",
-                    "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
                     "required": {
-                        "reason": 1
+                        "health": 1,
+                        "follower": 1
                     },
                     "actionid": "explore"
                 }
