@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "work.priest.first",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "Conduct My First Service",
             "startdescription": "I have chosen as my text Matthias 7:7 - 'Ask, and it shall be given; suffer, and ye shall attain; knock, and ye shall be opened.' The Book fell open at that page. I swear that I would have not have chosen it otherwise.",
             "description": "The sermon went well, though the echoes in this place are seductive, and I was drawn to extemporise. I do not remember all that I said, but it was all well received. When I descended from the pulpit, I tore my sleeve upon a nail, and a woman in the front row gasped.",
@@ -30,7 +30,7 @@
         },
         {
             "id": "work.priest.second",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "Conduct a Service, and speak of the Locksmith's Dream",
             "startdescription": "I will speak again of what Matthias said about doors, but I will speak of St Agnes, too, and of what comes at night when one has shaped a key.",
             "description": "Some of them have had the dream, too. I see it in their faces. It's this church - the doors here are not only the doors we see. Even the valves of the heart are a door, when the limbs are properly aligned. I never said that in my sermon, but their hearts respond nonetheless to its truth.",
@@ -58,7 +58,7 @@
         },
         {
             "id": "work.priest.third",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "Conduct a Service",
             "startdescription": "The congregation whispers as it waits, and the echoes are like wings in a high place, like tree-branches in the wind. The deacon and the sacristan watch me as I take my place. There is something in their eyes I didn't quite expect. Is it... pride?",
             "description": "My heart is the crossroads of my blood. My tongue is a sharpened flame. I see shapes in the stained glass that are not always there. A grey mare; a sundered tree; a twinned serpent. When I've finished, the congregation is on their feet, stamping and hooting, and their eyes, their mouths, are doors. The sacristan takes my hand in his withered own, before the whole church. There are tears in his eyes. 'We've waited so long', he whispers.",
@@ -157,7 +157,7 @@
         },
         {
             "id": "work.priest.passion.fervour.lore",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "Improvise upon a secret doctrine, before a fervent congregation",
             "startdescription": "The congregation is already in a state of excitement. Any secret knowledge will almost certainly drive them to exultation.",
             "description": "At last their fervour is spent.  What have they made of this night? [Fervour and Lore together will almost always cause Exultation, but will use up the Fervour.]",
@@ -183,7 +183,7 @@
         },
         {
             "id": "work.priest.reason.fervour.lore",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "Prepare a sermon on a secret doctrine, to give to a fervent congregation",
             "startdescription": "The congregation is already in a state of excitement. Any secret knowledge will almost certainly drive them to exultation.",
             "description": "At last their fervour is spent.  What have they made of this night? [Fervour and Lore together will almost always cause Exultation, but will use up the Fervour.]",
@@ -209,7 +209,7 @@
         },
         {
             "id": "work.priest.passion.fervour",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "Improvise a sermon, before a fervent congregation",
             "startdescription": "The congregation is already in a state of excitement. Any secret knowledge will likely drive them to exultation.",
             "description": "At last their fervour is spent.  What have they made of this night? [Fervour will usually cause Exultation, but will use up the Fervour.]",
@@ -234,7 +234,7 @@
         },
         {
             "id": "work.priest.reason.fervour",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "Carefully prepare a sermon for a fervent congregation",
             "startdescription": "The congregation is already in a state of excitement. Any secret knowledge will likely drive them to exultation.",
             "description": "At last their fervour is spent.  What have they made of this night? [Fervour will usually cause Exultation, but will use up the Fervour.]",
@@ -259,7 +259,7 @@
         },
         {
             "id": "work.priest.passion.lore",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "Improvise a sermon on a secret doctrine",
             "startdescription": "I will speak to their souls, and if I speak with conviction, their souls may answer me. [Using a suitable doctrine with Passionate preaching is more likely to create Fervour. Improvised preaching is a little quicker.]",
             "requirements": {
@@ -307,7 +307,7 @@
         },
         {
             "id": "work.priest.reason.lore",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "Prepare a sermon on a secret doctrine",
             "startdescription": "I will speak to their souls, and if I speak with precision, their souls may answer me. [Using a suitable doctrine with Reasoned preaching is more likely to create Fervour.]",
             "requirements": {
@@ -349,7 +349,7 @@
         },
         {
             "id": "work.priest.nolorematch",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "A Subdued Ceremony",
             "startdescription": "Tonight, they listen... but they do not hear. [If you use Reason with more Reasoned doctrines, or Passion with more Passionate lore, you are more likely to create Fervour. The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
@@ -358,7 +358,7 @@
         },
         {
             "id": "preach.edge",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "'Answer strength with strength.'",
             "startdescription": "'The light above the world does not look kindly on surrender. Strive until your last breath. As the high angels of the House of the Sun strive on against another, so shall we strive, until we are, at last, conquered.' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
@@ -377,7 +377,7 @@
         },
         {
             "id": "preach.forge",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "'The thought of the wood was in vain, for the fire came and it was changed unto ash.'",
             "startdescription": "'We are all changed. Sometimes we are changed to that which does not live - sometimes to that which that has never lived - sometimes, to something glorious. And sometimes, we change ourselves. This is the crossroads  where the Sun's shadow waits.' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
@@ -396,7 +396,7 @@
         },
         {
             "id": "preach.grail",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "'Thou hast walked in the way of our Mother; therefore will I give her cup into thine hand.'",
             "startdescription": "'Our souls dwell each in the house which is our flesh. Our senses are the windows, and each sense has its attendant appetites. To leave the appetites unsatisfied, is to leave the windows uncared for. And who would choose to live in a house with filthy windows?' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
@@ -415,7 +415,7 @@
         },
         {
             "id": "preach.heart",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "'The hearts of the false shall be taken from them when they cease; but the hearts of the true cease not.'",
             "startdescription": "'In the House of the Sun, the dance of the angels of Glory does not cease. Those who were cast down, wave or wound or snow, are gone from the House, and as long as their parts in the dance are filled, they may never return. Therefore let us join hands, and add our little steps to the dance.' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
@@ -434,7 +434,7 @@
         },
         {
             "id": "preach.knock",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "'Behold, he breaketh down, and it cannot be built again: he openeth up a man, and he shall not be closed.'",
             "startdescription": "'You have opened the door of this place, and I have passed through to stand before you now, but this is my promise: a time will come when I shall open, and you shall pass through me to stand in a higher place than this.' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
@@ -453,7 +453,7 @@
         },
         {
             "id": "preach.lantern",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "'Mercy and truth preserve the king: but the light, only truth preserveth.'",
             "startdescription": "'The Glory demands truth. When we are clad in truth, it shall not burn us.' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
@@ -472,7 +472,7 @@
         },
         {
             "id": "preach.moth",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "'They have led me, and brought me first into darkness, then into light.'",
             "startdescription": "'The Glory demands truth. When we are clad in lies, then it shall burn them from us.' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
@@ -491,7 +491,7 @@
         },
         {
             "id": "preach.secrethistories",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "'If one sews a new patch on to an old garment, and the garment should tear, is there then one garment, or two, or none?'",
             "startdescription": "'I have said these words to you. I have not said these words to you. Yesterday both these things were false. Tomorrow, how many will be true?' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
@@ -510,7 +510,7 @@
         },
         {
             "id": "preach.winter",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "'He sitteth alone and keepeth silence, for Winter waiteth not forever.'",
             "startdescription": "'Close your mouths. Close your ears. Listen.' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
@@ -675,7 +675,7 @@
         },
         {
             "id": "work.priest.passion",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "Conduct a Service",
             "startdescription": "I will improvise my sermon.",
             "description": "The congregation listens closely. I have shared no secret doctrine today.",
@@ -698,7 +698,7 @@
         },
         {
             "id": "work.priest.reason",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "Conduct a Service",
             "startdescription": "I will prepare my sermon with care.",
             "description": "The congregation listens closely. I have shared no secret doctrine today.",
@@ -721,7 +721,7 @@
         },
         {
             "id": "work.openscar",
-            "actionid": "work",
+            "actionid": "surf",
             "label": "Opening the Scars",
             "startdescription": "Once I am seven locks, I may be opened, for my people to pass. That is what the yearning has been teaching me, these long nights past. My congregation's prayers will exalt my pain.",
             "description": "The pain recedes. For a moment it is a relief, and then the despair floods in. Perhaps I am not yet ready. Perhaps I never will be.",
