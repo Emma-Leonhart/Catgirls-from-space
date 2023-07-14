@@ -236,11 +236,11 @@
             "startdescription": "It would be indecent to leave them unburied. But there's no need to make a fuss.",
             "description": "We've made sure this poor shell has been put quietly out of the way. Anyone looking for them will find a trail of false clues to follow.",
             "requirements": {
-                "corpse.exile": 1,
+                "corpse": 1,
                 "deception": 2
             },
             "effects": {
-                "corpse.exile": -1,
+                "corpse": -1,
                 "obscurity": 1
             },
             "warmup": 60,
