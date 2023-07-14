@@ -297,34 +297,6 @@
             ]
         },
         {
-            "id": "use.attack.lore.createdefiance",
-            "actionid": "work",
-            "label": "The Deadliest of Weapons",
-            "startdescription": "No reckoner is ever foolish enough to pass into the higher levels of the Mansus. To draw the attention of the true Long - or their masters - would invite annihilation. But my Foe had some traffic with the Hours of struggle and conquest. He enjoyed certain protections. [Boldness draws attention. This will destroy any current Obscurity and create a Trace.]",
-            "description": "My Foe knows something of the 'invisible arts.' Perhaps it's time I applied myself to their study, too.",
-            "requirements": {
-                "lore": 1,
-                "temptation.obscurity": 1
-            },
-            "extantreqs": {
-                "temptation.defiance": -1
-            },
-            "effects": {
-                "temptation.defiance": 1,
-                "trace": 1
-            },
-            "purge": {
-                "obscurity": 100
-            },
-            "warmup": 30,
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "foe.weaknesses.generate"
-                }
-            ]
-        },
-        {
             "id": "foe.weaknesses.generate",
             "actionid": "work",
             "label": "Dangerous Possibilities",
