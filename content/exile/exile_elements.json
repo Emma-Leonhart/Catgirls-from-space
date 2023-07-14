@@ -358,8 +358,8 @@
             "isHidden": true
         },
         {
-            "id": "supplies",
-            "label": "Supplies",
+            "id": "ingredient",
+            "label": "ingredient",
             "description": "Finite, like a lifetime. [Supplies are consumed when used.]",
             "isAspect": true,
             "icon": "ingredient"
@@ -2451,7 +2451,7 @@
                 "remnant": 1,
                 "winter": 2,
                 "grail": 2,
-                "supplies": 1
+                "ingredient": 1
             },
             "description": "They're not here any more. I should make sure I'm not, either.",
             "slots": [
@@ -2488,7 +2488,7 @@
                 "remnant": 1,
                 "winter": 2,
                 "grail": 2,
-                "supplies": 1
+                "ingredient": 1
             },
             "description": "Proof of a victory. This is going to make my Foe very upset.",
             "lifetime": 600,
@@ -3356,7 +3356,7 @@
                 "moth": 12,
                 "asset": 1,
                 "portable": 1,
-                "supplies": 1,
+                "ingredient": 1,
                 "worth": 1
             },
             "xtriggers": {
@@ -3373,7 +3373,7 @@
                 "forge": 12,
                 "asset": 1,
                 "portable": 1,
-                "supplies": 1,
+                "ingredient": 1,
                 "worth": 1
             },
             "xtriggers": {
@@ -3400,7 +3400,7 @@
                 "winter": 12,
                 "asset": 1,
                 "portable": 1,
-                "supplies": 1,
+                "ingredient": 1,
                 "worth": 1
             },
             "xtriggers": {
@@ -5139,7 +5139,7 @@
                 "portable": 1,
                 "forge": 4,
                 "grail": 2,
-                "supplies": 1,
+                "ingredient": 1,
                 "worth": 1
             },
             "description": "A pinch of this goes up like lightning-struck thermite.",
@@ -5156,7 +5156,7 @@
                 "portable": 1,
                 "comfort": 1,
                 "grail": 8,
-                "supplies": 1,
+                "ingredient": 1,
                 "worth": 2
             },
             "description": "I'd say it tasted like blood, if it didn't taste so good.",
@@ -5252,7 +5252,7 @@
                 "portable": 1,
                 "comfort": 1,
                 "edge": 8,
-                "supplies": 1,
+                "ingredient": 1,
                 "pentiment": 1,
                 "pentiment.3": 1
             },
@@ -5393,7 +5393,7 @@
                 "portable": 1,
                 "knock": 8,
                 "edge": 8,
-                "supplies": 1,
+                "ingredient": 1,
                 "worth": 1
             },
             "icon": "ingredientknockd",
@@ -6225,7 +6225,7 @@
             "aspects": {
                 "moth": 2,
                 "winter": 2,
-                "supplies": 1
+                "ingredient": 1
             },
             "xtriggers": {
                 "fatiguing": "husk"
