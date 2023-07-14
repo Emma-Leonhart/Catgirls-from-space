@@ -8935,7 +8935,7 @@
                 "winter": 4,
                 "damage.exile": 1
             },
-            "description": "Seven of these will end me.",
+            "description": "I will need a long time to heal.",
             "slots": [
                 {
                     "actionid": "relinquish",
@@ -8948,7 +8948,8 @@
                     }
                 }
             ],
-            "lifetime": 1200
+            "lifetime": 1200,
+            "decayTo": "fatigue"
         },
         {
             "id": "wound.exile.unstanchable",
@@ -8958,7 +8959,7 @@
                 "winter": 4,
                 "damage.exile": 1
             },
-            "description": "Seven of these will end me. [This Wound will take twice as long to heal.]",
+            "description": "I will need a long time to heal. [This Wound will take twice as long to heal.]",
             "slots": [
                 {
                     "actionid": "relinquish",
@@ -8971,7 +8972,8 @@
                     }
                 }
             ],
-            "lifetime": 2400
+            "lifetime": 2400,
+            "decayTo": "fatigue"
         },
         {
             "id": "wound.exile.medusa",
@@ -8983,7 +8985,7 @@
                 "pentiment": 1,
                 "pentiment.6": 1
             },
-            "description": "Six more wounds will end me. This wound will not heal without extraordinary measures.",
+            "description": "A few more wounds will end me. This wound will not heal without extraordinary measures.",
             "slots": [
                 {
                     "actionid": "relinquish",
@@ -8996,7 +8998,8 @@
                     }
                 }
             ],
-            "icon": "scar_knock"
+            "icon": "scar_knock",
+            "burnTo": "fatigue"
         },
         {
             "id": "wound.foe",

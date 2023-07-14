@@ -143,7 +143,7 @@
             "id": "relinquish.decade.unpack",
             "actionid": "relinquish",
             "label": "Break down a Stolen Decade",
-            "startdescription": "Stolen life is more easily sold by the year than the decade. I have the tools to make the necessary changes, but I must be very careful with my pen-strokes. She who comes before the Sun looks unkindly on sloppiness. [Decades cannot be sold. Years cannot be used to heal Wounds. Years cannot be converted back into Decades.]",
+            "startdescription": "Stolen life is more easily sold by the year than the decade. I have the tools to make the necessary changes, but I must be very careful with my pen-strokes. She who comes before the Sun looks unkindly on sloppiness. [Decades cannot be sold. Years cannot be used to heal Wounds. Years can be converted to Decades with study.]",
             "description": "At last it's done. I have drawn up ten careful drafts against the Tally, and burnt the decade draft. Each of my new drafts is worth forty-two million human heartbeats. I fancy I can hear them trembling in the paper...",
             "requirements": {
                 "decade.stolen": 1
