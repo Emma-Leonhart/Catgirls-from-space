@@ -6,7 +6,7 @@
             "aspects": {
                 "desire": 3,
                 "catgirl_marks": 3,
-                "desire": 3,
+                "desire": 3
             },
             "xtriggers": {
                 "ascend": "catgirl_dedication_4"
@@ -20,5 +20,72 @@
 			"isAspect": true,
 			"description": "I may seek immortality and enlightenment in the Immortal Catgirl. Her touch brings particular appetites, and Marks."
 		},
+        {
+            "id": "catgirl_dedication_2",
+            "label": "Dedication: Catgirls",
+            "aspects": {
+                "desire": 2,
+                "powermarks": 2
+            },
+            "description": "I have dedicated myself to the acquisition of immortal power, at any cost. [Upgrade this card further to make a Power victory possible. I must be a true initiate of the Mansus; I'll need to Work with Forge-aspect to invoke the Forge of Days and begin the change.]",
+            "slots": [
+                {
+                    "id": "Know",
+                    "label": "Know",
+                    "actionid": "work",
+                    "required": {
+                        "waystag_after": 1
+                    },
+                    "description": "Only a true adept, a Know, may take this step. The Know are those who have passed the Stag Door, in dreams."
+                },
+                {
+                    "id": "Power",
+                    "label": "Power",
+                    "actionid": "work",
+                    "required": {
+                        "forge": 1
+                    },
+                    "description": "I will require sufficient of the furious incandescence of the Forge."
+                }
+            ],
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "catgirl_truth",
+            "label": "The Catgirl Truth",
+            "aspects": {
+                "lore": 1,
+                "heart": 6,
+                "winter": 6,
+                "secrethistories": 6,
+                "lantern": 6,
+                "grail": 6,
+                "edge": 6,
+                "knock": 6,
+                "forge": 6,
+                "moth": 6
+            },
+            "description": "All magic but that of the hand comes from the Immortal Catgirl",
+            "slots": [
+                {
+                    "id": "Know",
+                    "label": "Know",
+                    "actionid": "work",
+                    "required": {
+                        "waystag_after": 1
+                    },
+                    "description": "Only a true adept, a Know, may take this step. The Know are those who have passed the Stag Door, in dreams."
+                },
+                {
+                    "id": "Desire",
+                    "label": "Desire",
+                    "actionid": "work",
+                    "required": {
+                        "desire": 1
+                    },
+                    "description": "I will relinquish my old desire."
+                }
+            ]
+        }
     ]
 }

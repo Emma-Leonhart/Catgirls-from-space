@@ -176,6 +176,76 @@
         "effects":{
             "year.stolen": 1
         }
+    },
+    {
+        "id": "catgirl_begin",
+        "label": "Beginning",
+        "actionid": "work",
+        "requirements": {
+            "desire": 1,
+            "waystag_after": 1,
+            "catgirl_truth": 1
+        },
+        "effects": {
+            "desire": -1,
+            "catgirl_dedication_3": 1,
+            "fatigue": 4,
+            "decade.stolen": 9,
+            "year.stolen": 9,
+            "funds": 9,
+            "ticket.train": 1
+        },
+        "startdescription": "I will dedicate myself to the Immortal Catgirl. This will begin a long task of overcoming the aliens.",
+        "description": "The Rite is complete. The Marks of the Forge are upon me. The First Mark is what I have said, and the Second is what I have done. If I inspect my body, I'll find the Third. I am aglow with new needs.",
+        "warmup": 60,
+        "craftable": true,
+        "burnimage": "flammarion"
+    },
+    {
+        "id": "catghoul_begin",
+        "label": "Beginning",
+        "actionid": "work",
+        "requirements": {
+            "temptation.remembrance": 1,
+            "waystag_after": 1,
+            "alzabo": 1
+        },
+        "effects": {
+            "fatigue": 4,
+            "decade.stolen": 9,
+            "year.stolen": 9,
+            "funds": 9,
+            "ticket.train": 1
+        },
+        "startdescription": "I will fight alongside the Immortal Catgirl as a ghoul. I will receive her blessings [Warning this is not balanced, does not have a proper ending and is    only intended as an option for die hard ghoul fans]",
+        "description": "The Rite is complete. The Marks of the Forge are upon me. The First Mark is what I have said, and the Second is what I have done. If I inspect my body, I'll find the Third. I am aglow with new needs.",
+        "warmup": 60,
+        "craftable": true,
+        "burnimage": "flammarion"
+    },
+    {
+        "id": "catgirl_begin_exile",
+        "label": "Beginning",
+        "actionid": "work",
+        "requirements": {
+            "desire": 1,
+            "waystag_after": 1,
+            "catgirl_truth": 1
+        },
+        "effects": {
+            "desire": -1,
+            "catgirl_dedication_3": 1,
+            "fatigue": 4,
+            "decade.stolen": 9,
+            "year.stolen": 9,
+            "funds": 9,
+            "ticket.train": 1
+        },
+        "startdescription": "I will dedicate myself to the Immortal Catgirl. This will begin a long task of overcoming the aliens.",
+        "description": "The Rite is complete. The Marks of the Forge are upon me. The First Mark is what I have said, and the Second is what I have done. If I inspect my body, I'll find the Third. I am aglow with new needs.",
+        "warmup": 60,
+        "craftable": true,
+        "burnimage": "flammarion"
     }
     ]
 }
