@@ -5,7 +5,7 @@
             "label": "At the Station",
             "actionid": "work",
             "requirements": {
-                "legacydetectivejob": 1
+                "licence.cop": 1
             },
             "aspects": {
                 "careeradvancement": 1
@@ -52,7 +52,7 @@
             "craftable": false
         },
         {
-            "id": "workdetectivejob_matured_investigate_hint",
+            "id": "workdetectivejob_exile_investigate_hint",
             "label": "Pursuing an Investigation?",
             "actionid": "work",
             "requirements": {
@@ -64,7 +64,7 @@
             "craftable": false
         },
         {
-            "id": "workdetectivejob_matured_pursuepromotion",
+            "id": "workdetectivejob_exile_pursuepromotion",
             "label": "A Kind of Ascension",
             "actionid": "work",
             "requirements": {
@@ -79,7 +79,7 @@
             "craftable": true
         },
         {
-            "id": "workdetectivejob_matured_investigate",
+            "id": "workdetectivejob_exile_investigate",
             "label": "Pursuing an Investigation",
             "actionid": "work",
             "requirements": {
@@ -94,15 +94,15 @@
                     "additional": true
                 },
                 {
-                    "id": "workdetectivejob_matured_investigate_threereason_success",
+                    "id": "workdetectivejob_exile_investigate_threereason_success",
                     "chance": 100
                 },
                 {
-                    "id": "workdetectivejob_matured_investigate_tworeason_success",
+                    "id": "workdetectivejob_exile_investigate_tworeason_success",
                     "chance": 70
                 },
                 {
-                    "id": "workdetectivejob_matured_investigate_onereason_success",
+                    "id": "workdetectivejob_exile_investigate_onereason_success",
                     "chance": 30
                 }
             ],
@@ -119,7 +119,7 @@
             "craftable": true
         },
         {
-            "id": "workdetectivejob_matured_investigate_threereason_success",
+            "id": "workdetectivejob_exile_investigate_threereason_success",
             "label": "Progress!",
             "actionid": "work",
             "alt": [
@@ -135,17 +135,17 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "workdetectivejob_matured_attemptsolvecase",
+                    "id": "workdetectivejob_exile_attemptsolvecase",
                     "chance": 100
                 },
                 {
-                    "id": "workdetectivejob_matured_investigate_successresults",
+                    "id": "workdetectivejob_exile_investigate_successresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "workdetectivejob_matured_investigate_tworeason_success",
+            "id": "workdetectivejob_exile_investigate_tworeason_success",
             "label": "Progress!",
             "actionid": "work",
             "alt": [
@@ -161,17 +161,17 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "workdetectivejob_matured_attemptsolvecase",
+                    "id": "workdetectivejob_exile_attemptsolvecase",
                     "chance": 100
                 },
                 {
-                    "id": "workdetectivejob_matured_investigate_successresults",
+                    "id": "workdetectivejob_exile_investigate_successresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "workdetectivejob_matured_investigate_onereason_success",
+            "id": "workdetectivejob_exile_investigate_onereason_success",
             "label": "Progress!",
             "actionid": "work",
             "alt": [
@@ -187,17 +187,17 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "workdetectivejob_matured_attemptsolvecase",
+                    "id": "workdetectivejob_exile_attemptsolvecase",
                     "chance": 100
                 },
                 {
-                    "id": "workdetectivejob_matured_investigate_successresults",
+                    "id": "workdetectivejob_exile_investigate_successresults",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "workdetectivejob_matured_investigate_successresults",
+            "id": "workdetectivejob_exile_investigate_successresults",
             "label": "Progress!",
             "actionid": "work",
             "effects": {
@@ -214,7 +214,7 @@
             "craftable": false
         },
         {
-            "id": "workdetectivejob_matured_attemptsolvecase",
+            "id": "workdetectivejob_exile_attemptsolvecase",
             "label": "Solving the case",
             "actionid": "work",
             "requirements": {
@@ -234,11 +234,11 @@
             "description": "I've provided the Suppression Bureau with enough evidence to make an arrest... but there's no-one to arrest.",
             "alt": [
                 {
-                    "id": "workdetectivejob_matured_solvecase_withbackup",
+                    "id": "workdetectivejob_exile_solvecase_withbackup",
                     "chance": 100
                 },
                 {
-                    "id": "workdetectivejob_matured_solvecase",
+                    "id": "workdetectivejob_exile_solvecase",
                     "chance": 100
                 }
             ],
@@ -254,7 +254,7 @@
             "craftable": false
         },
         {
-            "id": "workdetectivejob_matured_solvecase_withbackup",
+            "id": "workdetectivejob_exile_solvecase_withbackup",
             "label": "Solving the case",
             "actionid": "work",
             "requirements": {
@@ -288,7 +288,7 @@
             "craftable": false
         },
         {
-            "id": "workdetectivejob_matured_solvecase",
+            "id": "workdetectivejob_exile_solvecase",
             "label": "Solving the case",
             "actionid": "work",
             "requirements": {
@@ -404,7 +404,7 @@
             "craftable": false
         },
         {
-            "id": "workdetectivejob_matured_plead",
+            "id": "workdetectivejob_exile_plead",
             "label": "Plead for reinstatement!",
             "actionid": "work",
             "requirements": {

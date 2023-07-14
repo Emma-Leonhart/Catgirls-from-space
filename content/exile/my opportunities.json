@@ -53,37 +53,6 @@
             "lifetime": 300
         },
         {
-            "id": "licence.cop",
-            "label": "Detective Credentials",
-            "aspects": {
-                "asset": 1,
-                "worth": 1,
-                "proof": 1,
-                "job": 1
-            },
-            "description": "You need a license to be a cop?",
-            "slots": [
-                {
-                    "actionid": "work",
-                    "id": "location",
-                    "label": "Location",
-                    "required": {
-                        "space": 1
-                    }
-                },
-                {
-                    "actionid": "work",
-                    "id": "year",
-                    "label": "Year",
-                    "required": {
-                        "year.stolen": 1
-                    }
-                }
-            ],
-            "unique": true,
-            "comment": "The job will disappear if you leave the town. The license is used to spawn the job. Job works reasonably different from men in black positions, being more forgiving and more susceptible to bribery"
-        },
-        {
             "id": "op.cats",
             "label": "Cats",
             "aspects": {
