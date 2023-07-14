@@ -6409,15 +6409,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -6436,15 +6461,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -6463,15 +6513,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -6490,15 +6565,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -6517,15 +6617,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -6544,15 +6669,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -6571,15 +6721,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -6879,15 +7054,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -6904,15 +7104,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -6933,15 +7158,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -6957,15 +7207,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -6981,15 +7256,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7009,15 +7309,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7033,15 +7358,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7059,15 +7409,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7083,15 +7458,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7107,15 +7507,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7135,15 +7560,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7159,15 +7609,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7187,15 +7662,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7211,15 +7711,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7240,15 +7765,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7268,15 +7818,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7293,15 +7868,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7319,15 +7919,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7348,15 +7973,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7378,15 +8028,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7402,15 +8077,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7426,15 +8126,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7450,15 +8175,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7480,15 +8230,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7521,15 +8296,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7550,15 +8350,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7578,15 +8403,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7602,15 +8452,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7628,15 +8503,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7674,15 +8574,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7699,15 +8624,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7723,15 +8673,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7748,15 +8723,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7773,15 +8773,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7798,15 +8823,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7823,15 +8873,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7848,15 +8923,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7873,15 +8973,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7898,15 +9023,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7923,15 +9073,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7948,15 +9123,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7973,15 +9173,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -7998,15 +9223,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -8023,15 +9273,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
@@ -8048,15 +9323,40 @@
             "unique": true,
             "slots": [
                 {
-                    "id": "with",
-                    "actionid": "explore",
-                    "label": "with?",
+                    "id": "target",
+                    "label": "Subject",
                     "required": {
-                        "health": 1,
-                        "follower": 1
+                        "suspicious": 1
                     },
-                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "description": "Until I have evidence, I must start by observing my quarry directly.",
                     "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Meticulous",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Vigilant",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Singleminded",
+                    "description": "More Reason will give my investigation a better chance of success.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "explore"
                 }
             ]
         },
