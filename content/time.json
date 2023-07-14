@@ -730,15 +730,6 @@
             ]
         },
         {
-            "id": "wounds.exile.ending",
-            "actionid": "time",
-            "label": "A Reckoning Comes",
-            "extantreqs": {
-                "damage.exile": 7
-            },
-            "ending": "foecaughtup"
-        },
-        {
             "id": "drawseason_exile",
             "actionid": "time",
             "deckeffects": {

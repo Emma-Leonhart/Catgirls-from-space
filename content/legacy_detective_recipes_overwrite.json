@@ -63,7 +63,13 @@
             "alt": [
                 {
                     "id": "exile_suspicion",
-                    "chance": 100
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "rkx.first",
+                    "chance": 100,
+                    "additional": true
                 }
             ]
         },
