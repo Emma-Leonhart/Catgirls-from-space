@@ -724,14 +724,19 @@
                 "weakness.foe.unknown": -1
             },
             "effects": {
-                "location": -1,
-                "wound.exile": 1
+                "location": -1
             },
             "aspects": {
                 "epiphany.colonel": 1
             },
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "alt":[
+                {
+                    "id": "exile_inflict_wound",
+                    "chance": 100
+                }
+            ]
         },
         {
             "id": "travel.visit.shrine.colonel.consecrated.revelation",
@@ -748,9 +753,14 @@
                 "tranquillity": -1
             },
             "effects": {
-                "location": -1,
-                "wound.exile": 1
+                "location": -1
             },
+            "alt":[
+                {
+                    "id": "exile_inflict_wound",
+                    "chance": 100
+                }
+            ],
             "linked": [
                 {
                     "id": "cold.weakness.reveal.colonel",
@@ -864,9 +874,14 @@
                 "epiphany.colonel": 1
             },
             "effects": {
-                "location": -1,
-                "wound.exile": 1
+                "location": -1
             },
+            "alt":[
+                {
+                    "id": "exile_inflict_wound",
+                    "chance": 100
+                }
+            ],
             "warmup": 60,
             "craftable": true
         },
@@ -1122,12 +1137,17 @@
                 }
             ],
             "effects": {
-                "location": -1,
-                "wound.exile": 1
+                "location": -1
             },
             "burnimage": "consecration.colonel",
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "alt":[
+                {
+                    "id": "exile_inflict_wound",
+                    "chance": 100
+                }
+            ]
         },
         {
             "id": "travel.visit.shrine.consecration.lionsmith",
@@ -1200,11 +1220,16 @@
             ],
             "effects": {
                 "temptation.obscurity": -1,
-                "location": -1,
-                "wound.exile": 1
+                "location": -1
             },
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "alt":[
+                {
+                    "id": "exile_inflict_wound",
+                    "chance": 100
+                }
+            ]
         },
         {
             "id": "travel.visit.shrine.lionsmith.abandonobscurity",

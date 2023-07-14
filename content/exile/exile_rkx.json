@@ -914,9 +914,12 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "effects": {
-                "wound.exile": 1
-            },
+            "alt":[
+                {
+                    "id": "exile_inflict_wound",
+                    "chance": 100
+                }
+            ],
             "warmup": 2
         },
         {

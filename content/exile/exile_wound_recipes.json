@@ -42,5 +42,108 @@
             "label": "A Reckoning Comes",
             "ending": "foecaughtup"
         },
+        {
+            "id": "exile_inflict_wound_unstanchable",
+            "actionid": "inflict_wound",
+            "label": "I am wounded",
+            "requirements": {
+                "decade.stolen": -1,
+                "year.stolen": -1,
+                "funds": -1
+            },
+            "effects": {
+                "health": -1,
+                "wound.exile.unstanchable": 1
+            },
+            "alt": [
+                {
+                    "id": "wounds.exile.ending",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "I need food or I will starve.",
+            "description": "Without money, I'll soon starve. [If an illness cannot consume Health, it will kill you.]",
+            "warmup": 10,
+            "slots": [
+                {
+                    "id": "health",
+                    "label": "Health",
+                    "required": {
+                        "health": 1
+                    },
+                    "greedy": true
+                }
+            ]
+        },
+        {
+            "id": "exile_inflict_wound_medusa",
+            "actionid": "inflict_wound",
+            "label": "I am wounded",
+            "requirements": {
+                "decade.stolen": -1,
+                "year.stolen": -1,
+                "funds": -1
+            },
+            "effects": {
+                "health": -1,
+                "wound.exile.medusa": 1
+            },
+            "alt": [
+                {
+                    "id": "wounds.exile.ending",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "I need food or I will starve.",
+            "description": "Without money, I'll soon starve. [If an illness cannot consume Health, it will kill you.]",
+            "warmup": 10,
+            "slots": [
+                {
+                    "id": "health",
+                    "label": "Health",
+                    "required": {
+                        "health": 1
+                    },
+                    "greedy": true
+                }
+            ]
+        },
+        {
+            "id": "exile_inflict_wound_double",
+            "actionid": "inflict_wound",
+            "label": "I am wounded",
+            "requirements": {
+                "decade.stolen": -1,
+                "year.stolen": -1,
+                "funds": -1
+            },
+            "effects": {
+                "health": -1,
+                "wound.exile": 1
+            },
+            "alt": [
+                {
+                    "id": "wounds.exile.ending",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "I need food or I will starve.",
+            "description": "Without money, I'll soon starve. [If an illness cannot consume Health, it will kill you.]",
+            "warmup": 10,
+            "slots": [
+                {
+                    "id": "health",
+                    "label": "Health",
+                    "required": {
+                        "health": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked":{
+                "id": "exile_inflict_wound",
+                "chance": 100
+            }
+        }
     ]
 }

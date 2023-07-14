@@ -356,12 +356,17 @@
                 "moth": 1
             },
             "effects": {
-                "wound.exile.medusa": 1,
                 "op.medusa": -1,
 				"moth":-1
             },
             "burnimage": "pentiment",
-            "warmup": 30
+            "warmup": 30,
+            "alt":[
+                {
+                    "id": "exile_inflict_wound_medusa",
+                    "chance": 100
+                }
+            ]
         },
         {
             "id": "send.ligeian",
@@ -562,11 +567,16 @@
             "startdescription": "A flapping nightmare of teeth and webbed skin! I'm trying to struggle free - ",
             "description": "Back into the safety of the streets. But I haven't escaped unscathed. Bystanders turn to look as I stagger past.",
             "effects": {
-                "wound.exile.unstanchable": 1,
                 "trace": 1,
                 "ligeian": -1
             },
-            "warmup": 30
+            "warmup": 30,
+            "alt":[
+                {
+                    "id": "exile_inflict_wound_unstanchable",
+                    "chance": 100
+                }
+            ]
         },
         {
             "id": "send.defiance.ascend.colonel",
@@ -3049,9 +3059,12 @@
                 "defaultcard": "end.cheko",
                 "resetonexhaustion": false
             },
-            "effects": {
-                "wound.exile": 1
-            },
+            "alt":[
+                {
+                    "id": "exile_inflict_wound",
+                    "chance": 100
+                }
+            ],
             "linked": [
                 {
                     "id": "send.investigate.description"

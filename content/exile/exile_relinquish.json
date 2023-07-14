@@ -6,9 +6,12 @@
             "label": "Relinquish",
             "startdescription": "Someone took a shot at me as I got out with the years. I'd almost forgotten.",
             "description": "I've changed the dressing. I can move well enough. I could wait for it to heal, or heal it with stolen years if I'm in a hurry - but it'll take a whole Decade, and it'll certainly be noticed.",
-            "effects": {
-                "wound.exile": 1
-            },
+            "alt":[
+                {
+                    "id": "exile_inflict_wound",
+                    "chance": 100
+                }
+            ],
             "comments": "opened by initial explore recipe",
             "alt": [
                 {

@@ -253,9 +253,12 @@
             "actionid": "spit.foe.attack",
             "label": "Badly wounded!",
             "startdescription": "I've paid the price for my audacity -",
-            "effects": {
-                "wound.exile": 2
-            },
+            "alt":[
+                {
+                    "id": "exile_inflict_wound_double",
+                    "chance": 100
+                }
+            ],
             "aspects": {
                 "fatiguing": 1
             },
@@ -577,10 +580,13 @@
             "id": "spit.foe.attack.success",
             "actionid": "spit.foe.attack",
             "label": "A Crushing Blow!",
-            "startdescription": "The bastard's still damnably strong. [Seven Wounds will kill you.]",
-            "effects": {
-                "wound.exile": 2
-            },
+            "startdescription": "The bastard's still damnably strong.",
+            "alt":[
+                {
+                    "id": "exile_inflict_wound_double",
+                    "chance": 100
+                }
+            ],
             "aspects": {
                 "fatiguing": 1
             },
