@@ -6399,98 +6399,189 @@
             "label": "Sunshine Island",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "end": 1,
                 "remote": 1,
                 "rkx.underlings.blocker": 1
             },
             "description": "The light is famously good - enough so that a small colony of artists toils here - but it's still an optimistic name for a storm-beaten tumble of Baltic granite.",
             "icon": "end.bornholm",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.cheko",
             "label": "Wounded Moon Lake",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "end": 1,
                 "remote": 1,
                 "rkx.underlings.blocker": 1
             },
             "description": "Deep in the taiga forests of Siberia, a hunting lodge decays gracefully into an ice-blue lake - a lake, it's said, that a falling moon-fragment scarred from the forest.",
             "icon": "end.cheko",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.ghardaia",
             "label": "The Pentapolis",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "end": 1,
                 "remote": 1,
                 "rkx.underlings.blocker": 1
             },
             "description": "On a high far limestone plateau in the greatest of deserts, the Mozabites built five citadel villages to be a refuge for their people. Now, one is a refuge for me.",
             "icon": "end.ghardaia",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.messana",
             "label": "Hermitage of the Scythe",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "end": 1,
                 "remote": 1,
                 "rkx.underlings.blocker": 1
             },
             "description": "Across the deadly sands, an oasis where peculiarly healthy villagers thrive. In the hills above, a sunny, rocky cell of three windows.",
             "icon": "end.messana",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.morbihan",
             "label": "Priory of Captains",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "end": 1,
                 "remote": 1,
                 "rkx.underlings.blocker": 1
             },
             "description": "In the little sea called Morbihan, the gate to the western ocean, there's an isle famed for its sailors. On its westmost tip lies a quiet priory. The monks enjoy their privacy, but they've been known to offer sanctuary.",
             "icon": "end.morbihan",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.paro",
             "label": "The Tiger's Nest",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "end": 1,
                 "remote": 1,
                 "rkx.underlings.blocker": 1
             },
             "description": "High in the abode of eternal snows, a monastery of the Diamond Vehicle clings improbably to a cliff face like flowers on lichen.",
             "icon": "end.paro",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.slettnes",
             "label": "Fogfire Point",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "end": 1,
                 "remote": 1,
                 "rkx.underlings.blocker": 1
             },
             "description": "On an icy promontory in northernmost Norway, a lonely lighthouse stands proudly with its back to the ocean.",
             "icon": "end.slettnes",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "end.bornholm",
@@ -6770,7 +6861,7 @@
             "label": "Rhenish Aachen",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "troubled": 1,
                 "shrine.colonel.marker": 1
             },
@@ -6785,26 +6876,52 @@
                 "uprising": "domicile.aachen.turmoil"
             },
             "icon": "domicile.aachen",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.alexandria",
             "label": "Alexandria",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "shrine.lionsmith.marker": 1
             },
             "description": "Dignified men of business in tall red hats and immaculate white suits outside the Bourse; British soldiers bickering drunkenly by a melon-slice stall; theosophists playing backgammon in the Cafe Al Aktar. At the Rialto in Safiya Zaghloul, they're showing a German film about waxworks, but the power goes off and on and off again. Behind the curtain of night, the Invisible Serapeum waits.",
             "icon": "domicile.alexandria",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.algiers",
             "label": "Algiers",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "troubled": 1,
                 "shrine.lionsmith.marker": 1
             },
@@ -6813,36 +6930,75 @@
             },
             "description": "Pine scent and bougainvillea, white walls and ocean light, sirocco winds and the smoulder of revolution.",
             "icon": "domicile.algiers",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.amsterdam",
             "label": "Amsterdam",
             "aspects": {
                 "domicile": 1,
-"location": 1
+                "location": 1
             },
             "description": "The Golden Age is over, but glory lingers like fading music. Bicycles rattle across cobbles. A woman in white throws open the shutters of a high window. On misty evenings, the Nameless Name of the Velvet walks here.",
             "icon": "domicile.amsterdam",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.avignon",
             "label": "Avignon",
             "aspects": {
                 "domicile": 1,
-"location": 1
+                "location": 1
             },
             "description": "Sleepy Avignon, where the mistral blows.",
             "icon": "domicile.avignon",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.baghdad",
             "label": "Baghdad",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "troubled": 1
             },
             "xtriggers": {
@@ -6850,60 +7006,125 @@
             },
             "description": "Baking heat, dusty orange trees, tiled and genteel decay. The Ottomans did not favour Baghdad. Now the British have imported a Syrian puppet king, and alternate between building hospitals and bombing the locals into bloody compliance. The city is probably due another rebellion any day now.",
             "icon": "domicile.baghdad",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.budapest",
             "label": "Budapest",
             "aspects": {
                 "domicile": 1,
-"location": 1
+                "location": 1
             },
             "description": "Winter in Budapest, and the Danube is dusted with snow. The Dual Monarchy has collapsed, but somehow this city is once again the capital of the Kingdom of Hungary. The King has twice tried to return, and twice been driven out. Politics.",
             "icon": "domicile.budapest",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.candia",
             "label": "Candia-Heraklion",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "remote": 1,
                 "shrine.colonel.marker": 1
             },
             "description": "A hard two decades. The Asia Minor Disaster; independence, and the Union with Greece; and then a monkey bit the King to death. But the Cretans and their island have endured four thousand years, and they endure still. The harbour is mountainous with fortifications, but Heraklion lies quiet in the afternoon sun.",
             "icon": "domicile.candia",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.cluj",
             "label": "Cluj-Napoca",
             "aspects": {
                 "domicile": 1,
-"location": 1
+                "location": 1
             },
             "description": "Nestled in the mountains of sunset lies the city of the Archangel Michael. I remember it mostly as the place where I drank too much tsuica and got into a fight with bricklayers. We've all been young.",
             "icon": "domicile.cluj",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.granada",
             "label": "Granada",
             "aspects": {
                 "domicile": 1,
-"location": 1
+                "location": 1
             },
             "description": "Cold clean air and hushed white streets and green-splashed patios and the mountains looking down. I might find something like respite.",
             "icon": "domicile.granada",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.istanbul",
             "label": "Istanbul",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "troubled": 1
             },
             "xtriggers": {
@@ -6911,25 +7132,51 @@
             },
             "description": "Seven hills, three names, two continents and a hundred thousand cats. The bustle of the Grand Bazaar and the sudden silent dazzle of the Golden Horn.",
             "icon": "domicile.istanbul",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.kaunas",
             "label": "Kaunas (Little Paris)",
             "aspects": {
                 "domicile": 1,
-"location": 1
+                "location": 1
             },
             "description": "Half of Lithuania has fallen to Poland, and the peace is desperately fragile, but this is the capital now. They call it Little Paris, and the lamplight glows in the cafes and the dance halls. But there is a new president, and now the Association of the Iron Wolf begins to tighten its jaws.",
             "icon": "domicile.kaunas",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.kiev",
             "label": "Kyiv",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "troubled": 1
             },
             "xtriggers": {
@@ -6937,25 +7184,51 @@
             },
             "description": "The city of the black earth and the golden gate. For a little while it was free, but first the Marshal and then the Red Army put an end to that.",
             "icon": "domicile.kiev",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.krakow",
             "label": "Kraków",
             "aspects": {
                 "domicile": 1,
-"location": 1
+                "location": 1
             },
             "description": "The castle on the hill where the dragon died looks out across a city mellow with October sunlight. Just don't speak ill of the Marshal.",
             "icon": "domicile.krakow",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.leningrad",
             "label": "Leningrad",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "troubled": 1,
                 "shrine.colonel.marker": 1
             },
@@ -6964,14 +7237,27 @@
             },
             "description": "Lenin is dead, and the old capital now carries his name. It carries, too, the scars of the Revolution, of the Red Terror, and now of the September Deluge. The streets still stink of the Neva mud. In a dim curtained office high in the Tauride Palace, Zinoviev awaits Stalin's next move.",
             "icon": "domicile.leningrad",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.london",
             "label": "London",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "troubled": 1
             },
             "xtriggers": {
@@ -6979,39 +7265,78 @@
             },
             "description": "Mass strikes and martial law have paralysed the big smoke this month. Tanks rumble along Pall Mall. Agitators conspire in the city's lethal fogs. Perhaps the Nameless Name will shield me with her mists...",
             "icon": "domicile.london",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.marrakech",
             "label": "Marrakech",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "shrine.lionsmith.marker": 1
             },
             "description": "Five hundred miles away, the Republic of the Rif wages guerilla war against the French Protectorate. But here in Marrakech it's still mint tea and parasols.",
             "icon": "domicile.marrakech",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.meshad",
             "label": "Meshad",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "remote": 1,
                 "shrine.lionsmith.marker": 1
             },
             "description": "A mild and turquoise sunset in Meshad, and the lights along Khayam Boulevard flickering to life. Armoured cars growl past: the new Shah is wary. A thousand years ago, here between the mountains, Ferdowsi wrote: 'How shall a man escape from that which is written; How shall he flee from his destiny?' It's a good question, actually.",
             "icon": "domicile.meshad",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.munich",
             "label": "Munich",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "troubled": 1,
                 "shrine.colonel.marker": 1
             },
@@ -7020,14 +7345,27 @@
             },
             "description": "Munich is still a gracious city, and the chestnuts are very lovely in the spring. But hatreds old and new, and the privations of the Great War, make it a difficult place just now. More so since the beer-hall business last year with Ludendorff and that godawful little Austrian.",
             "icon": "domicile.munich",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.nizhny",
             "label": "Nizhny Novgorod",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "remote": 1,
                 "troubled": 1,
                 "shrine.colonel.marker": 1
@@ -7037,47 +7375,99 @@
             },
             "description": "For a hundred years, here where the Volga and the Oka meet, all the riches of old Russia and beyond have met at Nizhny Great Fair. Now the Red Army garrisons the echoing old spaces, but still the goods come. Copper, salt, grain, tea; wool, coal, nails, flesh.",
             "icon": "domicile.nizhny",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.paris",
             "label": "Paris",
             "aspects": {
                 "domicile": 1,
-"location": 1
+                "location": 1
             },
             "description": "This year in the City of Lights, the socialists battle the communists, the Métro grumbles, gaunt artists prowl bookshops on the Other Bank. Plus ça change.",
             "icon": "domicile.paris",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.prague",
             "label": "Prague",
             "aspects": {
                 "domicile": 1,
-"location": 1
+                "location": 1
             },
             "description": "The City of a Hundred Spires, flexing its republican muscles beneath the benign gaze of Masaryk and his Castlemen. Statues watch the bridges each night. This is Europe's heart, and for a while longer, it will beat with cheery vigour.",
             "icon": "domicile.prague",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.rostock",
             "label": "Rostock",
             "aspects": {
                 "domicile": 1,
-"location": 1
+                "location": 1
             },
             "description": "Beyond the kerosene bustle of the great port, here by the dark sea where the amber comes to light, ancient clockwork drives the Warnemünde Lighthouse. Each night it winks at the horizon. ",
             "icon": "domicile.rostock",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.samarkand",
             "label": "Samarkand",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "remote": 1,
                 "troubled": 1,
                 "shrine.lionsmith.marker": 1
@@ -7087,14 +7477,27 @@
             },
             "description": "The metropolis of the conqueror Timur, the crossroads of the silk trade, the city of a hundred faiths. The Tsars and now the Bolsheviks have ruled here since the Manghit emirs were ousted.",
             "icon": "domicile.samarkand",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.stalingrad",
             "label": "Stalingrad",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "remote": 1,
                 "troubled": 1,
                 "shrine.colonel.marker": 1
@@ -7111,18 +7514,31 @@
             "label": "Strasbourg",
             "aspects": {
                 "domicile": 1,
-"location": 1
+                "location": 1
             },
             "description": "Here were sworn the great oaths that divided the empire of the great Charles between east and west. In consequence, the land has been contested for a thousand years; in consequence, the shadow of the Horned Axe lies long here. Also, there's a cheery little bistro where they serve that stew with juniper and white wine that I like.",
             "icon": "domicile.strasbourg",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.sverdlovsk",
             "label": "Sverdlovsk",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "remote": 1,
                 "troubled": 1
             },
@@ -7131,14 +7547,27 @@
             },
             "description": "This was always the city of the jewel-merchants and the malachite miners. Now the Bolsheviks are remaking it as a crucible of heavy industry.",
             "icon": "domicile.sverdlovsk",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.tiflis",
             "label": "Tiflis",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "troubled": 1
             },
             "xtriggers": {
@@ -7146,38 +7575,77 @@
             },
             "description": "The falcon-king found the sulphur-springs, and built his city here. Now it's the capital of the Transcaucasian Socialist Federative Soviet Republic, and there are motor-cars, a telegraph office. Progress.",
             "icon": "domicile.tiflis",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.tirana",
             "label": "Tirana",
             "aspects": {
                 "domicile": 1,
-"location": 1
+                "location": 1
             },
             "description": "Flower-thronged Tirana, where Zogist soldiers crowd the cafes with drunken laughter, where the Flowermaker hums his dreamy songs in the bee-droning shadows.",
             "icon": "domicile.tirana",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.tripoli",
             "label": "Tripoli dell'ovest",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "comfort": 2,
                 "shrine.lionsmith.marker": 1
             },
             "description": "The Spanish took Tripoli from the Berbers, the Knights of St John took it from the Spanish, the Ottomans took it from the Knights, and now the Italians run the place. The Berbers called Tripoli 'the Bride of the Sea'. And, if I can believe my Foe, my mother called it 'home'.",
             "icon": "domicile.tripoli",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.valletta",
             "label": "Valletta",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "remote": 1,
                 "shrine.colonel.marker": 1
             },
@@ -7203,186 +7671,394 @@
             ],
             "description": "Sunny seat of the Crown Colony of Malta. British sailors saunter along the sloping streets. The battleship <i>Royal Rose</i> dominates the harbour like an iron cathedral.",
             "icon": "domicile.valletta",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.venice",
             "label": "Venice",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "shrine.lionsmith.marker": 1
             },
             "description": "Deep fog has made Venice a pale city more heard than seen: the plash of waves, the purr of vaporettos, the scent of seaweed and sewage. The sun is a blind eye. If ever the Nameless Name of the Velvet walks by day, she must walk here.",
             "icon": "domicile.venice",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.vienna",
             "label": "Vienna",
             "aspects": {
                 "domicile": 1,
-"location": 1
+                "location": 1
             },
             "description": "One of those few cities which has the same name in every History... if you believe that sort of thing. For a very long time it was the first heart of the Dual Empire, and for the longest time the adepts have known it as the White City. But now it's Red Vienna under the First Republic, and the streets are bright with dawn.",
             "icon": "domicile.vienna",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.aachen.turmoil",
             "label": "Aachen in Flames",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "turmoil": 1
             },
             "description": "Rhenish separatists are fighting German loyalists in the streets. I should leave while I still can.",
             "icon": "city.inflames",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.algiers.turmoil",
             "label": "Algiers in Flames",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "turmoil": 1
             },
             "description": "Nationalists are fighting French troops in the streets. I should leave while I still can.",
             "icon": "city.inflames",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.baghdad.turmoil",
             "label": "Baghdad in Flames",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "turmoil": 1
             },
             "description": "Hashemite forces are fighting nationalists in the streets. I should leave while I still can.",
             "icon": "city.inflames",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.istanbul.turmoil",
             "label": "Istanbul in Flames",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "turmoil": 1
             },
             "description": "Revolutionaries and counter-revolutionaries are fighting street to street. I should leave while I still can.",
             "icon": "city.inflames",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.kiev.turmoil",
             "label": "Kyiv in Flames",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "turmoil": 1
             },
             "description": "Revolutionaries and counter-revolutionaries are fighting street to street. I should leave while I still can.",
             "icon": "city.inflames",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.leningrad.turmoil",
             "label": "Leningrad in Flames",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "turmoil": 1
             },
             "description": "Revolutionaries and counter-revolutionaries are fighting street to street. I should leave while I still can.",
             "icon": "city.inflames",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.london.turmoil",
             "label": "London in Flames",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "turmoil": 1
             },
             "description": "Police are fighting pitched battles with workers in the streets. I should leave while I still can.",
             "icon": "city.inflames",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.munich.turmoil",
             "label": "Munich in Flames",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "turmoil": 1
             },
             "description": "Communists and and nationalists are fighting street-to-street. I should leave while I still can.",
             "icon": "city.inflames",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.nizhny.turmoil",
             "label": "Nizhny Novgorod in Flames",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "turmoil": 1
             },
             "description": "Revolutionaries and counter-revolutionaries are fighting street to street. I should leave while I still can.",
             "icon": "city.inflames",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.samarkand.turmoil",
             "label": "Samarkand in Flames",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "turmoil": 1
             },
             "description": "Soviets and Jadidists are fighting street to street. I should leave while I still can.",
             "icon": "city.inflames",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.stalingrad.turmoil",
             "label": "Stalingrad in Flames",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "turmoil": 1
             },
             "description": "Revolutionaries and counter-revolutionaries are fighting street to street. I should leave while I still can.",
             "icon": "city.inflames",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.sverdlovsk.turmoil",
             "label": "Sverdlovsk in Flames",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "turmoil": 1
             },
             "description": "Revolutionaries and counter-revolutionaries are fighting street to street. I should leave while I still can.",
             "icon": "city.inflames",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "domicile.tiflis.turmoil",
             "label": "Tiflis in Flames",
             "aspects": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "turmoil": 1
             },
             "description": "Revolutionaries and counter-revolutionaries are fighting street to street. I should leave while I still can.",
             "icon": "city.inflames",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "actionid": "explore",
+                    "label": "with?",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "description": "Will I explore myself with health, or have a follower do it?",
+                    "actionid": "work"
+                }
+            ]
         },
         {
             "id": "city.aachen",
@@ -8557,7 +9233,7 @@
             "label": "Lonely Places Between",
             "aspects": {
                 "domicile": 1,
-"location": 1
+                "location": 1
             },
             "description": "There are always choices. I could die of thirst, or cold, or hunger. [Few opportunities of any use, and you'll have to take whatever road onwards presents itself.]",
             "icon": "wilderness"
@@ -8882,7 +9558,7 @@
                     "description": "I could tell my Foe where I am. Or even send him a gift.",
                     "required": {
                         "domicile": 1,
-"location": 1,
+                "location": 1,
                         "weapon": 1
                     },
                     "forbidden": {
@@ -9064,7 +9740,7 @@
             "aspects": {
                 "rkx.rank": 1,
                 "rkx.internal": 1
-            },
+            }, 
             "xtriggers": {
                 "rkx.promote": "rkx.underboss",
                 "rkx.demote": "rkx.explore"

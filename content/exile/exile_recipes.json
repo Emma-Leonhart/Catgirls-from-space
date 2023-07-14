@@ -1555,7 +1555,7 @@
             "requirements": {
                 "wilderness": 1,
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "funds": 1
             },
             "effects": {

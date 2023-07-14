@@ -3,7 +3,7 @@
         {
             "id": "explore.first",
             "actionid": "explore",
-            "label": "Reconnoitre",
+            "label": "Explore",
             "startdescription": "It's a cold old world out there, but I know a few tricks.",
             "effects": {
                 "fragmentedge.exile": 1
@@ -63,7 +63,7 @@
         {
             "id": "explore.aachen",
             "actionid": "explore",
-            "label": "Reconnoitre Aachen",
+            "label": "Explore Aachen",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -71,7 +71,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.aachen": 1
+                "domicile.aachen": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -85,7 +86,15 @@
                     "op.weapon.a",
                     "op.weapon.b",
                     "op.night",
-                    "op.dawn"
+                    "op.dawn",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -100,9 +109,10 @@
             },
             "craftable": true,
             "actionid": "explore",
-            "label": "Reconnoitre Alexandria",
+            "label": "Explore Alexandria",
             "requirements": {
-                "domicile.alexandria": 1
+                "domicile.alexandria": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -124,7 +134,15 @@
                     "op.sea",
                     "op.sea",
                     "op.night",
-                    "op.dawn"
+                    "op.dawn",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -133,7 +151,7 @@
         {
             "id": "explore.algiers",
             "actionid": "explore",
-            "label": "Reconnoitre Algiers",
+            "label": "Explore Algiers",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -141,7 +159,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.algiers": 1
+                "domicile.algiers": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -162,7 +181,15 @@
                     "op.sea",
                     "op.sea",
                     "op.connection.radicals",
-                    "op.dawn"
+                    "op.dawn",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -171,7 +198,7 @@
         {
             "id": "explore.amsterdam",
             "actionid": "explore",
-            "label": "Reconnoitre Amsterdam",
+            "label": "Explore Amsterdam",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -179,7 +206,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.amsterdam": 1
+                "domicile.amsterdam": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -196,7 +224,15 @@
                     "op.weapon.b",
                     "op.sunset",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -205,7 +241,7 @@
         {
             "id": "explore.avignon",
             "actionid": "explore",
-            "label": "Reconnoitre Avignon",
+            "label": "Explore Avignon",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -213,7 +249,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.avignon": 1
+                "domicile.avignon": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -228,7 +265,15 @@
                     "op.villa",
                     "op.sunset",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -237,7 +282,7 @@
         {
             "id": "explore.baghdad",
             "actionid": "explore",
-            "label": "Reconnoitre Baghdad",
+            "label": "Explore Baghdad",
             "requirements": {
                 "domicile.baghdad": 1
             },
@@ -261,7 +306,15 @@
                     "op.connection.ruler",
                     "op.connection.radicals",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -270,7 +323,7 @@
         {
             "id": "explore.budapest",
             "actionid": "explore",
-            "label": "Reconnoitre Budapest",
+            "label": "Explore Budapest",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -278,7 +331,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.budapest": 1
+                "domicile.budapest": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -294,7 +348,15 @@
                     "op.connection.underworld",
                     "op.night",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -303,7 +365,7 @@
         {
             "id": "explore.candia",
             "actionid": "explore",
-            "label": "Reconnoitre Candia-Heraklion",
+            "label": "Explore Candia-Heraklion",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -311,7 +373,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.candia": 1
+                "domicile.candia": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -330,7 +393,15 @@
                     "op.sea",
                     "op.sea",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -339,7 +410,7 @@
         {
             "id": "explore.cluj",
             "actionid": "explore",
-            "label": "Reconnoitre Cluj-Napoca",
+            "label": "Explore Cluj-Napoca",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -347,7 +418,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.cluj": 1
+                "domicile.cluj": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -364,7 +436,15 @@
                     "op.connection.ruler",
                     "op.sunset",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -373,7 +453,7 @@
         {
             "id": "explore.granada",
             "actionid": "explore",
-            "label": "Reconnoitre Granada",
+            "label": "Explore Granada",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -381,7 +461,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.granada": 1
+                "domicile.granada": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -400,7 +481,15 @@
                     "op.night",
                     "op.dawn",
                     "op.weapon.a",
-                    "op.weapon.d"
+                    "op.weapon.d",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -409,7 +498,7 @@
         {
             "id": "explore.istanbul",
             "actionid": "explore",
-            "label": "Reconnoitre Istanbul",
+            "label": "Explore Istanbul",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -417,7 +506,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.istanbul": 1
+                "domicile.istanbul": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -438,7 +528,15 @@
                     "op.sunset",
                     "op.dawn",
                     "op.weapon.a",
-                    "op.weapon.d"
+                    "op.weapon.d",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -447,7 +545,7 @@
         {
             "id": "explore.kaunas",
             "actionid": "explore",
-            "label": "Reconnoitre Kaunas",
+            "label": "Explore Kaunas",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -455,7 +553,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.kaunas": 1
+                "domicile.kaunas": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -474,7 +573,15 @@
                     "op.connection.ruler",
                     "op.night",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -483,7 +590,7 @@
         {
             "id": "explore.kiev",
             "actionid": "explore",
-            "label": "Reconnoitre Kyiv",
+            "label": "Explore Kyiv",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -491,7 +598,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.kiev": 1
+                "domicile.kiev": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -508,7 +616,15 @@
                     "op.connection.holy",
                     "op.sunset",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -517,7 +633,7 @@
         {
             "id": "explore.krakow",
             "actionid": "explore",
-            "label": "Reconnoitre Kraków",
+            "label": "Explore Kraków",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -525,7 +641,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.krakow": 1
+                "domicile.krakow": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -541,7 +658,15 @@
                     "op.faith",
                     "op.connection.holy",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -550,7 +675,7 @@
         {
             "id": "explore.leningrad",
             "actionid": "explore",
-            "label": "Reconnoitre Leningrad",
+            "label": "Explore Leningrad",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -558,7 +683,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.leningrad": 1
+                "domicile.leningrad": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -573,7 +699,15 @@
                     "op.connection.radicals",
                     "op.sunset",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -582,7 +716,7 @@
         {
             "id": "explore.london",
             "actionid": "explore",
-            "label": "Reconnoitre London",
+            "label": "Explore London",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -590,7 +724,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.london": 1
+                "domicile.london": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -605,7 +740,15 @@
                     "op.sea",
                     "op.connection.radicals",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -614,7 +757,7 @@
         {
             "id": "explore.marrakech",
             "actionid": "explore",
-            "label": "Reconnoitre Marrakech",
+            "label": "Explore Marrakech",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -622,7 +765,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.marrakech": 1
+                "domicile.marrakech": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -643,7 +787,15 @@
                     "op.sunset",
                     "op.dawn",
                     "op.weapon.a",
-                    "op.weapon.d"
+                    "op.weapon.d",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -652,7 +804,7 @@
         {
             "id": "explore.meshad",
             "actionid": "explore",
-            "label": "Reconnoitre Meshad",
+            "label": "Explore Meshad",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -660,7 +812,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.meshad": 1
+                "domicile.meshad": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -680,7 +833,15 @@
                     "op.sunset",
                     "op.dawn",
                     "op.weapon.a",
-                    "op.weapon.d"
+                    "op.weapon.d",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -689,7 +850,7 @@
         {
             "id": "explore.munich",
             "actionid": "explore",
-            "label": "Reconnoitre Munich",
+            "label": "Explore Munich",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -697,7 +858,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.munich": 1
+                "domicile.munich": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -712,7 +874,15 @@
                     "op.weapon.b",
                     "op.night",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -721,7 +891,7 @@
         {
             "id": "explore.nizhny",
             "actionid": "explore",
-            "label": "Reconnoitre Nizhny",
+            "label": "Explore Nizhny",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -729,7 +899,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.nizhny": 1
+                "domicile.nizhny": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -744,7 +915,15 @@
                     "loc.shrine.colonel.nizhny",
                     "op.sunset",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -753,7 +932,7 @@
         {
             "id": "explore.paris",
             "actionid": "explore",
-            "label": "Reconnoitre Paris",
+            "label": "Explore Paris",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -761,7 +940,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.paris": 1
+                "domicile.paris": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -778,7 +958,15 @@
                     "op.flowermaker",
                     "op.night",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -787,7 +975,7 @@
         {
             "id": "explore.prague",
             "actionid": "explore",
-            "label": "Reconnoitre Prague",
+            "label": "Explore Prague",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -795,7 +983,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.prague": 1
+                "domicile.prague": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -811,7 +1000,15 @@
                     "op.connection.ruler",
                     "op.night",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -820,7 +1017,7 @@
         {
             "id": "explore.rostock",
             "actionid": "explore",
-            "label": "Reconnoitre Rostock",
+            "label": "Explore Rostock",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -828,7 +1025,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.rostock": 1
+                "domicile.rostock": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -846,7 +1044,15 @@
                     "op.sea",
                     "op.night",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -855,7 +1061,7 @@
         {
             "id": "explore.samarkand",
             "actionid": "explore",
-            "label": "Reconnoitre Samarkand",
+            "label": "Explore Samarkand",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -863,7 +1069,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.samarkand": 1
+                "domicile.samarkand": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -880,7 +1087,15 @@
                     "op.cats",
                     "op.dawn",
                     "op.weapon.a",
-                    "op.weapon.d"
+                    "op.weapon.d",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -889,7 +1104,7 @@
         {
             "id": "explore.stalingrad",
             "actionid": "explore",
-            "label": "Reconnoitre Stalingrad",
+            "label": "Explore Stalingrad",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -897,7 +1112,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.stalingrad": 1
+                "domicile.stalingrad": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -913,7 +1129,15 @@
                     "op.connection.radicals",
                     "op.night",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -922,7 +1146,7 @@
         {
             "id": "explore.strasbourg",
             "actionid": "explore",
-            "label": "Reconnoitre Strasbourg",
+            "label": "Explore Strasbourg",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -930,7 +1154,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.strasbourg": 1
+                "domicile.strasbourg": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -945,7 +1170,15 @@
                     "op.villa",
                     "op.horned",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -954,7 +1187,7 @@
         {
             "id": "explore.sverdlovsk",
             "actionid": "explore",
-            "label": "Reconnoitre Sverdlovsk",
+            "label": "Explore Sverdlovsk",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -962,7 +1195,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.sverdlovsk": 1
+                "domicile.sverdlovsk": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -976,7 +1210,15 @@
                     "op.connection.radicals",
                     "op.night",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -985,7 +1227,7 @@
         {
             "id": "explore.tiflis",
             "actionid": "explore",
-            "label": "Reconnoitre Tiflis",
+            "label": "Explore Tiflis",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -993,7 +1235,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.tiflis": 1
+                "domicile.tiflis": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1008,7 +1251,15 @@
                     "op.wolf",
                     "op.weapon.b",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -1017,7 +1268,7 @@
         {
             "id": "explore.tirana",
             "actionid": "explore",
-            "label": "Reconnoitre Tirana",
+            "label": "Explore Tirana",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -1025,7 +1276,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.tirana": 1
+                "domicile.tirana": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1040,7 +1292,15 @@
                     "op.connection.ruler",
                     "op.sunset",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -1049,7 +1309,7 @@
         {
             "id": "explore.tripoli",
             "actionid": "explore",
-            "label": "Reconnoitre Tripoli dell'ovest",
+            "label": "Explore Tripoli dell'ovest",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -1057,7 +1317,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.tripoli": 1
+                "domicile.tripoli": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1076,7 +1337,15 @@
                     "op.sunset",
                     "op.dawn",
                     "op.weapon.a",
-                    "op.weapon.d"
+                    "op.weapon.d",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -1085,7 +1354,7 @@
         {
             "id": "explore.valletta",
             "actionid": "explore",
-            "label": "Reconnoitre Valletta",
+            "label": "Explore Valletta",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -1093,7 +1362,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.valletta": 1
+                "domicile.valletta": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1109,7 +1379,15 @@
                     "op.sea",
                     "op.sea",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -1118,7 +1396,7 @@
         {
             "id": "explore.venice",
             "actionid": "explore",
-            "label": "Reconnoitre Venice",
+            "label": "Explore Venice",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -1126,7 +1404,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.venice": 1
+                "domicile.venice": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1143,7 +1422,15 @@
                     "op.connection.holy",
                     "op.cats",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -1152,7 +1439,7 @@
         {
             "id": "explore.vienna",
             "actionid": "explore",
-            "label": "Reconnoitre Vienna",
+            "label": "Explore Vienna",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "aspects": {
@@ -1160,7 +1447,8 @@
             },
             "craftable": true,
             "requirements": {
-                "domicile.vienna": 1
+                "domicile.vienna": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1175,7 +1463,15 @@
                     "op.villa",
                     "op.kleidouchos",
                     "op.dawn",
-                    "op.weapon.a"
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance"
                 ],
                 "draws": 1,
                 "resetonexhaustion": true
@@ -1190,7 +1486,7 @@
             "craftable": true,
             "requirements": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "end": 1
             },
             "extantreqs": {
@@ -1203,12 +1499,13 @@
         {
             "id": "explore.bornholm",
             "actionid": "explore",
-            "label": "Reconnoitre Sunshine Island",
+            "label": "Explore Sunshine Island",
             "startdescription": "Walk the island, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "craftable": true,
             "requirements": {
-                "domicile.bornholm": 1
+                "domicile.bornholm": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1224,19 +1521,20 @@
         {
             "id": "explore.slettnes",
             "actionid": "explore",
-            "label": "Reconnoitre Fogfire Point",
+            "label": "Explore Fogfire Point",
             "startdescription": "Prowl the coast, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "craftable": true,
             "requirements": {
-                "domicile.slettnes": 1
+                "domicile.slettnes": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
                     "op.cold",
                     "op.wolf",
                     "op.sea",
-                    "obscurity",
+                    "obscurity", 
                     "op.sunset",
                     "op.dawn"
                 ],
@@ -1247,12 +1545,13 @@
         {
             "id": "explore.cheko",
             "actionid": "explore",
-            "label": "Reconnoitre Wounded Moon Lake ",
+            "label": "Explore Wounded Moon Lake ",
             "startdescription": "Roam the woods, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 30,
             "craftable": true,
             "requirements": {
-                "domicile.cheko": 1
+                "domicile.cheko": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1270,12 +1569,13 @@
         {
             "id": "explore.paro",
             "actionid": "explore",
-            "label": "Reconnoitre the Tiger's Nest",
+            "label": "Explore the Tiger's Nest",
             "startdescription": "Range the mountain and the monastery, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 60,
             "craftable": true,
             "requirements": {
-                "domicile.paro": 1
+                "domicile.paro": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1293,12 +1593,13 @@
         {
             "id": "explore.messana",
             "actionid": "explore",
-            "label": "Reconnoitre the Hermitage of the Scythe",
+            "label": "Explore the Hermitage of the Scythe",
             "startdescription": "Walk the hills, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 60,
             "craftable": true,
             "requirements": {
-                "domicile.messana": 1
+                "domicile.messana": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1316,12 +1617,13 @@
         {
             "id": "explore.ghardaia",
             "actionid": "explore",
-            "label": "Reconnoitre the Pentapolis",
+            "label": "Explore the Pentapolis",
             "startdescription": "Roam the village and the plateau, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 60,
             "craftable": true,
             "requirements": {
-                "domicile.ghardaia": 1
+                "domicile.ghardaia": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1338,12 +1640,13 @@
         {
             "id": "explore.morbihan",
             "actionid": "explore",
-            "label": "Reconnoitre the Priory of Captains",
+            "label": "Explore the Priory of Captains",
             "startdescription": "Roam the island, seeking opportunities. [Sometimes, this will create a Trace.]",
             "warmup": 60,
             "craftable": true,
             "requirements": {
-                "domicile.morbihan": 1
+                "domicile.morbihan": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1361,15 +1664,16 @@
         {
             "id": "explore.wilderness",
             "actionid": "explore",
-            "label": "Reconnoitre",
+            "label": "Explore",
             "startdescription": "Where even am I?",
             "description": "\"@#op.cold|Somewhere floundering in the snow.\r\n#op.heat|Somewhere where the wind blows dry and hot.\r\n#op.sea|Somewhere by a nighted sea.\r\n#|Who even knows?@\"",
             "warmup": 60,
             "craftable": true,
             "requirements": {
                 "domicile": 1,
-"location": 1,
-                "wilderness": 1
+                "location": 1,
+                "wilderness": 1,
+            "health": 1
             },
             "internaldeck": {
                 "spec": [

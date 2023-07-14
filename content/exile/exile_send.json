@@ -793,7 +793,7 @@
             "requirements": {
                 "temptation.defiance": 1,
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "lure.foe": -1,
                 "defiance.foesummoned": -1
             },
@@ -840,7 +840,7 @@
             "requirements": {
                 "temptation.defiance": 1,
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "lure.foe": -1
             },
             "purge": {
@@ -952,7 +952,7 @@
             "startdescription": "I should retrieve the funds I sent ahead.",
             "requirements": {
                 "domicile": 1,
-"location": 1,
+                "location": 1,
                 "funds.sent": 1
             },
             "warmup": 10,
