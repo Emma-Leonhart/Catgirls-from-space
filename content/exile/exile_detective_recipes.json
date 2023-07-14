@@ -280,7 +280,7 @@
             },
             "alt": [
                 {
-                    "id": "workdetectivejob_newrival",
+                    "id": "workdetectivejob_exile_newrival",
                     "chance": 100,
                     "additional": true
                 }
@@ -310,7 +310,7 @@
             },
             "alt": [
                 {
-                    "id": "workdetectivejob_newrival",
+                    "id": "workdetectivejob_exile_newrival",
                     "chance": 100,
                     "additional": true
                 }
@@ -318,7 +318,7 @@
             "craftable": false
         },
         {
-            "id": "workdetectivejob_newrival",
+            "id": "workdetectivejob_exile_newrival",
             "label": "Another Miscreant?",
             "actionid": "newrival",
             "startdescription": "Will it ever end? Can we ever call the law, the city, the world 'safe'?",
@@ -329,13 +329,13 @@
             "warmup": 60,
             "linked": [
                 {
-                    "id": "workdetectivejob_newrival_recruit",
+                    "id": "workdetectivejob_exile_newrival_recruit",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "workdetectivejob_newrival_recruit",
+            "id": "workdetectivejob_exile_newrival_recruit",
             "label": "Another Miscreant?",
             "actionid": "newrival",
             "startdescription": ".",
