@@ -113,6 +113,12 @@
         "id": "catgirl_ascension_craving",
         "actionid": "craving",
         "warmup": 10,
+        "label": "The Immortal catgirl is healing me",
+        "startdescription": "The Immortal Catgirl wants more",
+        "description": "The Immortal Catgirl wants more",
+        "requirements":{
+            "catgirl_marks": 1
+        },
         "linked":[
             {
                 "id": "catgirl_healing",
@@ -129,6 +135,8 @@
         "actionid": "craving",
         "warmup": 10,
         "label": "The Immortal catgirl is healing me",
+        "startdescription": "The Immortal Catgirl wants more",
+        "description": "The Immortal Catgirl wants more",
         "Tablereqs": {"decrepitude": 1},
         "slots": [
             {
@@ -160,8 +168,10 @@
         "id": "catgirl_craving_revolution",
         "chance": 100,
         "label": "The Immortal catgirl wants more",
+        "startdescription": "The Immortal Catgirl wants more",
+        "description": "The Immortal Catgirl wants more",
         "actionid": "craving",
-        "warmup": 60,
+        "warmup": 10,
         "effects":{
             "year.stolen": 1
         }

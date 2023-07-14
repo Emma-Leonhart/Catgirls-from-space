@@ -1,12 +1,21 @@
 {
     "endings": [
-{
-    "id": "chi.ascended",
-    "image": "chiascends",
-    "label": "Capital Won!",
-    "description": "Congratulations! You ended humanity. \nSorry the sinister aeon is in fact the end of humanity. \nHomogeneity was enforced and capital concentrated all resources\nA worn down monoculture was easy pickings for extermination",
-    "flavour": "Grand",
-    "anim": "DramaticLight"
-}
+        {
+            "id": "capital_won",
+            "image": "chiascends",
+            "label": "Capital Won!",
+            "description": "Congratulations! You ended humanity. \nSorry the sinister aeon is in fact the end of humanity. \nHomogeneity was enforced and capital concentrated all resources\nA worn down monoculture was easy pickings for extermination",
+            "flavour": "Grand",
+            "anim": "DramaticLight"
+        },
+        {
+            "id": "exile_arrest",
+            "label": "A tragic suicide",
+            "description": "Tragically after my arrest I died of suicide with a shotgun to the back of my head.\nIf only the hail guards weren't busy looking at boat brochures they might have saved me",
+            "image": "notorious",
+            "flavour": "Melancholy",
+            "anim": "DramaticLightEvil",
+            "achievement": "A_ENDING_ARREST"
+        }
     ]
 }

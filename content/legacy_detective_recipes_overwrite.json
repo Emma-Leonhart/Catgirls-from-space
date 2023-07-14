@@ -50,7 +50,8 @@
                 "temptation.obscurity": 1,
                 "marked_for_death": 1,
                 "investigator3": 1,
-                "dread": 3,
+                "dread": 2,
+                "fascination": 2,
                 "evidenceb": 10,
                 "trace": 10,
                 "ticket.train": 1
@@ -59,9 +60,9 @@
             "description": "Some say Plata o Plomo. I choose Plomo. I choose to face certain death for my principles.",
             "warmup": 30,
             "craftable": true,
-            "linked": [
+            "alt": [
                 {
-                    "id": "detective_harassment",
+                    "id": "exile_suspicion",
                     "chance": 100
                 }
             ]

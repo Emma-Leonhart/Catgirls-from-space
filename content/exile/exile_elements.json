@@ -6353,7 +6353,9 @@
             "icon": "rumour",
             "aspects": {
                 "trace": 1,
-                "local": 1
+                "local": 1,
+                "evidencelevel": 2,
+                "reputation": 2
             }
         },
         {

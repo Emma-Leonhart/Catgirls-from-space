@@ -193,8 +193,7 @@
             "requirements": {
                 "evidence": 1,
                 "reputation": 1,
-                "meticulous": 1,
-                "trace": 1
+                "meticulous": 1
             },
             "linked": [
                 {
@@ -208,8 +207,7 @@
             "actionid": "suspicion",
             "requirements": {
                 "evidence": 1,
-                "reputation": 1,
-                "trace": 1
+                "reputation": 1
             },
             "label": "Creating Damning Evidence",
             "startdescription": "This hunter is putting the finishing touches to their investigation.",
@@ -559,7 +557,7 @@
             "description": ".",
             "warmup": 10,
             "signalEndingFlavour": "Melancholy",
-            "ending": "arrest"
+            "ending": "exile_arrest"
         },
         {
             "id": "exile_suspicion_followerexonerated",

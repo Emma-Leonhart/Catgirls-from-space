@@ -464,7 +464,7 @@
 			"actionid": "craving",
 			"warmup": 120,
 			"startdescription": "It's over.",
-			"ending": "chi.ascended",
+			"ending": "capital_won",
             "signalendingflavour": "Grand"
 		}
 	]

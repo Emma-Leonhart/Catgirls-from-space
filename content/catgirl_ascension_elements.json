@@ -1,0 +1,24 @@
+{
+    "elements":[
+        {
+            "id": "catgirl_dedication_3",
+            "label": "Ascension: Catgirl",
+            "aspects": {
+                "desire": 3,
+                "catgirl_marks": 3,
+                "desire": 3,
+            },
+            "xtriggers": {
+                "ascend": "catgirl_dedication_4"
+            },
+            "description": "The Red Grail has warmed me. Its thirsts have begun to dry my mouth and itch my hands. I know this to be the Third Mark.",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+			"id": "catgirl_marks",
+			"label": "The Marks of the Immortal Catgirl",
+			"isAspect": true,
+			"description": "I may seek immortality and enlightenment in the Immortal Catgirl. Her touch brings particular appetites, and Marks."
+		},
+    ]
+}
