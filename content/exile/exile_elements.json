@@ -9262,22 +9262,6 @@
             "lifetime": 300
         },
         {
-            "id": "op.cats",
-            "label": "Cats",
-            "aspects": {
-                "op": 1,
-                "distraction": 1,
-                "grail": 2,
-                "moth": 2
-            },
-            "description": "I've found a place bristling with excitable cats.",
-            "xtriggers": {
-                "renewal.exile": "op.cats",
-                "fatiguing": "husk"
-            },
-            "lifetime": 300
-        },
-        {
             "id": "op.heights",
             "label": "Heights",
             "aspects": {
