@@ -57,9 +57,9 @@
             "label": "Detective Credentials",
             "aspects": {
                 "asset": 1,
-                "portable": 1,
                 "worth": 1,
-                "proof": 1
+                "proof": 1,
+                "job": 1
             },
             "description": "You need a license to be a cop?",
             "slots": [
@@ -80,7 +80,8 @@
                     }
                 }
             ],
-            "unique": true
+            "unique": true,
+            "comment": "The job will disappear if you leave the town. The license is used to spawn the job. Job works reasonably different from men in black positions, being more forgiving and more susceptible to bribery"
         },
         {
             "id": "op.cats",
