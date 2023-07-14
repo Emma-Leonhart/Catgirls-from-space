@@ -170,11 +170,10 @@
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
-                "catgirl_truth": 1,
+                "health": 2,
                 "waystag_after": 1,
                 "ticket.train": 1,
-                "trace": 7,
-                "fatigue": 2
+                "trace": 7
             },
             "fromending": "wintersacrifice",
             "availableWithoutEndingMatch": true,
@@ -196,11 +195,10 @@
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
-                "catgirl_truth": 1,
+                "health": 2,
                 "waystag_after": 1,
                 "ticket.train": 1,
-                "trace": 7,
-                "fatigue": 2
+                "trace": 7
             },
             "fromending": "obscurityvictorya",
             "availableWithoutEndingMatch": false,
@@ -221,11 +219,10 @@
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
-                "catgirl_truth": 1,
+                "health": 2,
                 "waystag_after": 1,
                 "ticket.train": 1,
-                "trace": 7,
-                "fatigue": 2
+                "trace": 7
             },
             "fromending": "obscurityvictoryb",
             "availableWithoutEndingMatch": false,
@@ -246,11 +243,10 @@
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
-                "catgirl_truth": 1,
+                "health": 2,
                 "waystag_after": 1,
                 "ticket.train": 1,
-                "trace": 7,
-                "fatigue": 2
+                "trace": 7
             },
             "fromending": "obscurityvictoryc",
             "availableWithoutEndingMatch": false,
@@ -271,11 +267,10 @@
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
-                "catgirl_truth": 1,
+                "health": 2,
                 "waystag_after": 1,
                 "ticket.train": 1,
-                "trace": 7,
-                "fatigue": 2
+                "trace": 7
             },
             "fromending": "obscurityvictoryafoeslain",
             "availableWithoutEndingMatch": false,
@@ -296,11 +291,10 @@
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
-                "catgirl_truth": 1,
+                "health": 2,
                 "waystag_after": 1,
                 "ticket.train": 1,
-                "trace": 7,
-                "fatigue": 2
+                "trace": 7
             },
             "fromending": "obscurityvictorybfoeslain",
             "availableWithoutEndingMatch": false,
@@ -321,11 +315,10 @@
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
-                "catgirl_truth": 1,
+                "health": 2,
                 "waystag_after": 1,
                 "ticket.train": 1,
-                "trace": 7,
-                "fatigue": 2
+                "trace": 7
             },
             "fromending": "obscurityvictorycfoeslain",
             "availableWithoutEndingMatch": false,
@@ -346,11 +339,10 @@
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
-                "catgirl_truth": 1,
+                "health": 2,
                 "waystag_after": 1,
                 "ticket.train": 1,
-                "trace": 7,
-                "fatigue": 2
+                "trace": 7
             },
             "fromending": "foecaughtup",
             "availableWithoutEndingMatch": false,
@@ -371,11 +363,10 @@
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
-                "catgirl_truth": 1,
+                "health": 2,
                 "waystag_after": 1,
                 "ticket.train": 1,
-                "trace": 7,
-                "fatigue": 2
+                "trace": 7
             },
             "fromending": "ascensioncolonel",
             "availableWithoutEndingMatch": false,
@@ -396,11 +387,10 @@
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
-                "catgirl_truth": 1,
+                "health": 2,
                 "waystag_after": 1,
                 "ticket.train": 1,
-                "trace": 7,
-                "fatigue": 2
+                "trace": 7
             },
             "fromending": "ascensionlionsmith",
             "availableWithoutEndingMatch": false,
@@ -421,11 +411,10 @@
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
-                "catgirl_truth": 1,
+                "health": 2,
                 "waystag_after": 1,
                 "ticket.train": 1,
-                "trace": 7,
-                "fatigue": 2
+                "trace": 7
             },
             "fromending": "ascensionwolf",
             "availableWithoutEndingMatch": false,
@@ -446,11 +435,10 @@
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
-                "catgirl_truth": 1,
+                "health": 2,
                 "waystag_after": 1,
                 "ticket.train": 1,
-                "trace": 7,
-                "fatigue": 2
+                "trace": 7
             },
             "fromending": "victoryvelvet",
             "availableWithoutEndingMatch": false,
