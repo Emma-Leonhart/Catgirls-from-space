@@ -4,7 +4,27 @@
             "id": "legacydetectivejob_matured",
             "label": "Man in Black Position",
             "aspects$add": {
-                "imbalance": 1
+                "imbalance": 1,
+                "asset": 1,
+                "local": 1
+            }
+        },
+        {
+            "id": "legacydetectivejob_suspended",
+            "label": "Man in Black Position",
+            "aspects$add": {
+                "imbalance": 1,
+                "asset": 1,
+                "local": 1
+            }
+        },
+        {
+            "id": "legacydetectivejob_disgraced",
+            "label": "Man in Black Position",
+            "aspects$add": {
+                "imbalance": 1,
+                "asset": 1,
+                "local": 1
             }
         },
         {

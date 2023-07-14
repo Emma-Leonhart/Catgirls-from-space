@@ -7,14 +7,12 @@
             "requirements": {
                 "licence.cop": 1
             },
-            "aspects": {
+            "aspects": { 
                 "careeradvancement": 1
             },
             "effects": {
-                "lever_LastFollower": 1,
-                "legacydetective_plotitem": 1,
-                "funds": 3,
-                "health": 1
+                "myevidence": 1,
+                "funds": 3
             },
             "alt": [
                 {
@@ -24,6 +22,11 @@
                 },
                 {
                     "id": "detectiveopendream",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "workdetectivejob_exile_newrival",
                     "chance": 100,
                     "additional": true
                 }
@@ -69,7 +72,8 @@
             "actionid": "work",
             "requirements": {
                 "detectivejob.exile": 1,
-                "favour": 1
+                "favour": 1,
+                "obscurity": 1
             },
             "startdescription": "I've won favour with the authorities. I could use this to win myself a promotion to a place in the hierarchy of the Bureau itself. [This is a minor victory ending.]",
             "description": "Ending finish.",

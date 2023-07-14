@@ -4,11 +4,12 @@
             "id": "licence.cop",
             "label": "Detective Credentials",
             "aspects": {
-                "asset": 1,
+                "asset": 1, 
                 "worth": 1,
                 "proof": 1,
                 "job": 1
             },
+            "icon": "license.medical",
             "description": "You need a license to be a cop?",
             "unique": true,
             "xtriggers": {

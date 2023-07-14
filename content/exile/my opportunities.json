@@ -61,7 +61,7 @@
                 "grail": 2,
                 "moth": 2
             },
-            "description": "I've found a place bristling with excitable cats.",
+            "description": "I found some alien messengers here to stop the evil aliens.",
             "xtriggers": {
                 "renewal.exile": "op.cats",
                 "fatiguing": "husk"
