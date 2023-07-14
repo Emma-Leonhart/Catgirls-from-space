@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "workdetectivejob_start",
+            "id": "exile_workdetectivejob_start",
             "label": "At the Station",
             "actionid": "work",
             "requirements": {

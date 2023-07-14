@@ -67,12 +67,12 @@
             "xtriggers": {
                 "employment": "detectivejob.exile"
             },
-            "lifetime": 90,
+            "lifetime": 300,
             "decayTo": "detectivejob.exile",
             "icon": "legacydetectivejob"
         },
         {
-            "id": "detectivejob.exile",
+            "id": "detectivejob.exile.suspended",
             "label": "Inspector of Police [Suspended]",
             "description": "My absence has been noted. I've been suspended. [Plead your case soon, or lose your position forever.]",
             "slots": [
@@ -91,7 +91,7 @@
             "xtriggers": {
                 "plead": "detectivejob.exile"
             },
-            "lifetime": 90,
+            "lifetime": 300,
             "decayTo": "detectivejob.disgraced"
         },
         {
