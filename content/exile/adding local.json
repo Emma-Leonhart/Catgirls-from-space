@@ -127,7 +127,7 @@
             }
         },
         {
-            "id": "priestjob",
+            "id": "influencerjob",
             "aspects$add": {
                 "local": 1
             }

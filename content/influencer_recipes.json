@@ -7,7 +7,7 @@
             "startdescription": "I have chosen as my text Matthias 7:7 - 'Ask, and it shall be given; suffer, and ye shall attain; knock, and ye shall be opened.' The Book fell open at that page. I swear that I would have not have chosen it otherwise.",
             "description": "The sermon went well, though the echoes in this place are seductive, and I was drawn to extemporise. I do not remember all that I said, but it was all well received. When I descended from the pulpit, I tore my sleeve upon a nail, and a woman in the front row gasped.",
             "requirements": {
-                "priestjob": 1,
+                "influencerjob": 1,
                 "passion": 1
             },
             "effects": {
@@ -35,7 +35,7 @@
             "startdescription": "I will speak again of what Matthias said about doors, but I will speak of St Agnes, too, and of what comes at night when one has shaped a key.",
             "description": "Some of them have had the dream, too. I see it in their faces. It's this church - the doors here are not only the doors we see. Even the valves of the heart are a door, when the limbs are properly aligned. I never said that in my sermon, but their hearts respond nonetheless to its truth.",
             "requirements": {
-                "priestjob": 1,
+                "influencerjob": 1,
                 "reason": 1,
                 "fragmentknock": 1
             },
@@ -63,7 +63,7 @@
             "startdescription": "The congregation whispers as it waits, and the echoes are like wings in a high place, like tree-branches in the wind. The deacon and the sacristan watch me as I take my place. There is something in their eyes I didn't quite expect. Is it... pride?",
             "description": "My heart is the crossroads of my blood. My tongue is a sharpened flame. I see shapes in the stained glass that are not always there. A grey mare; a sundered tree; a twinned serpent. When I've finished, the congregation is on their feet, stamping and hooting, and their eyes, their mouths, are doors. The sacristan takes my hand in his withered own, before the whole church. There are tears in his eyes. 'We've waited so long', he whispers.",
             "requirements": {
-                "priestjob": 1,
+                "influencerjob": 1,
                 "ability": 1,
                 "lore": 1,
                 "fervour": 1
@@ -162,7 +162,7 @@
             "startdescription": "The congregation is already in a state of excitement. Any secret knowledge will almost certainly drive them to exultation.",
             "description": "At last their fervour is spent.  What have they made of this night? [Fervour and Lore together will almost always cause Exultation, but will use up the Fervour.]",
             "requirements": {
-                "priestjob": 1,
+                "influencerjob": 1,
                 "passion": 1,
                 "lore": 1,
                 "fervour": 1
@@ -188,7 +188,7 @@
             "startdescription": "The congregation is already in a state of excitement. Any secret knowledge will almost certainly drive them to exultation.",
             "description": "At last their fervour is spent.  What have they made of this night? [Fervour and Lore together will almost always cause Exultation, but will use up the Fervour.]",
             "requirements": {
-                "priestjob": 1,
+                "influencerjob": 1,
                 "reason": 1,
                 "lore": 1,
                 "fervour": 1
@@ -214,7 +214,7 @@
             "startdescription": "The congregation is already in a state of excitement. Any secret knowledge will likely drive them to exultation.",
             "description": "At last their fervour is spent.  What have they made of this night? [Fervour will usually cause Exultation, but will use up the Fervour.]",
             "requirements": {
-                "priestjob": 1,
+                "influencerjob": 1,
                 "passion": 1,
                 "fervour": 1
             },
@@ -239,7 +239,7 @@
             "startdescription": "The congregation is already in a state of excitement. Any secret knowledge will likely drive them to exultation.",
             "description": "At last their fervour is spent.  What have they made of this night? [Fervour will usually cause Exultation, but will use up the Fervour.]",
             "requirements": {
-                "priestjob": 1,
+                "influencerjob": 1,
                 "reason": 1,
                 "fervour": 1
             },
@@ -263,7 +263,7 @@
             "label": "Improvise a sermon on a secret doctrine",
             "startdescription": "I will speak to their souls, and if I speak with conviction, their souls may answer me. [Using a suitable doctrine with Passionate preaching is more likely to create Fervour. Improvised preaching is a little quicker.]",
             "requirements": {
-                "priestjob": 1,
+                "influencerjob": 1,
                 "passion": 1,
                 "lore": 1
             },
@@ -311,7 +311,7 @@
             "label": "Prepare a sermon on a secret doctrine",
             "startdescription": "I will speak to their souls, and if I speak with precision, their souls may answer me. [Using a suitable doctrine with Reasoned preaching is more likely to create Fervour.]",
             "requirements": {
-                "priestjob": 1,
+                "influencerjob": 1,
                 "reason": 1,
                 "lore": 1
             },
@@ -680,7 +680,7 @@
             "startdescription": "I will improvise my sermon.",
             "description": "The congregation listens closely. I have shared no secret doctrine today.",
             "requirements": {
-                "priestjob": 1,
+                "influencerjob": 1,
                 "passion": 1
             },
             "effects": {
@@ -703,7 +703,7 @@
             "startdescription": "I will prepare my sermon with care.",
             "description": "The congregation listens closely. I have shared no secret doctrine today.",
             "requirements": {
-                "priestjob": 1,
+                "influencerjob": 1,
                 "reason": 1
             },
             "effects": {

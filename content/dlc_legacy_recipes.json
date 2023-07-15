@@ -1088,6 +1088,43 @@
                 "mystique": 1,
                 "fleeting": -1
             }
+        },
+        {
+            "id": "surf.priest.open",
+            "actionid": "surf",
+            "label": "Getting online attention",
+            "warmup": 30,
+            "description": "I'm getting online attention for my preaching"
+        },
+        {
+            "id": "work.priest.third",
+            "actionid": "work",
+            "label": "Conduct a Service",
+            "startdescription": "The congregation whispers as it waits, and the echoes are like wings in a high place, like tree-branches in the wind. The deacon and the sacristan watch me as I take my place. There is something in their eyes I didn't quite expect. Is it... pride?",
+            "description": "My heart is the crossroads of my blood. My tongue is a sharpened flame. I see shapes in the stained glass that are not always there. A grey mare; a sundered tree; a twinned serpent. When I've finished, the congregation is on their feet, stamping and hooting, and their eyes, their mouths, are doors. The sacristan takes my hand in his withered own, before the whole church. There are tears in his eyes. 'We've waited so long', he whispers.",
+            "requirements": {
+                "influencerjob": 1,
+                "ability": 1,
+                "lore": 1,
+                "fervour": 1
+            },
+            "effects": {
+                "funds": 1,
+                "fervour": -1
+            },
+            "warmup": 60,
+            "craftable": true,
+            "maxexecutions": 1,
+            "alt": [
+                {
+                    "id": "talk.priest.open",
+                    "additional": true
+                },
+                {
+                    "id": "surf.priest.open",
+                    "additional": true
+                }
+            ]
         }
     ]
 }
