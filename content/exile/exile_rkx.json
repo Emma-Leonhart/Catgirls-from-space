@@ -914,11 +914,10 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "alt":[
+            "linked":[
                 {
                     "id": "exile_inflict_wound",
-                    "chance": 100,
-                    "additional": true
+                    "chance": 100
                 }
             ],
             "warmup": 2,
