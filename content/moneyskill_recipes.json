@@ -19,7 +19,7 @@
             "craftable": true
         },
         {
-            "id": "studyincreasecapitalisticnesstoplus",
+            "id": "studyincreasecapitalisticnesstoplus", 
             "label": "Study Finance",
             "actionid": "study",
             "requirements": {
@@ -105,7 +105,7 @@
             "effects": {
                 "health": 1,
                 "skillmoneyc": -1,
-                "skillmoneyd_strength": 1
+                "skillmoneyd": 1
             },
             "warmup": 60,
             "craftable": true
