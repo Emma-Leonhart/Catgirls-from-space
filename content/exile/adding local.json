@@ -91,6 +91,12 @@
             }
         },
         {
+            "id": "priestjob",
+            "aspects$add": {
+                "local": 1
+            }
+        },
+        {
             "id": "institutephysicianjob",
             "aspects$add": {
                 "local": 1
