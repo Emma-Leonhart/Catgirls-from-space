@@ -163,7 +163,8 @@
             "requirements": {
                 "funds": 1,
                 "job": -1,
-                "benefactor": -1
+                "benefactor": -1,
+                "moneyskill": -1
             },
             "effects": {
                 "funds": 1,
@@ -215,6 +216,66 @@
                 "employment": 1
             },
             "craftable": "false"
+        },
+        {
+            "id": "workfunds_moneyskill",
+            "label": "Invest my Capital",
+            "actionid": "work",
+            "startdescription": "I'm a seasoned investor. I will make big returns",
+            "requirements": {
+                "funds": 1,
+                "job": -1,
+                "benefactor": -1,
+                "moneyskill": 1
+            },
+            "aspects": {
+                "employment": 1
+            },
+            "warmup": 60,
+            "craftable": true,
+            "linked":[
+                {
+                    "id": "workfunds.three_funds.router"
+                }
+            ],
+            "$priority": 500
+        },
+        {
+            "id": "workfunds.three_funds.router",
+            "actionid": "work",
+            "requirements":{
+                "funds": 3
+            },
+            "linked":[
+                {
+                    "id": "six_return",
+                    "chance": 50
+                },
+                {
+                    "id": "no_gain",
+                    "chance": 100
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "six_return",
+            "label": "To the Moon!",
+            "description": "My investment went to the moon. Got so much money",
+            "effects": {
+                "funds": 3,
+                "capitalisticnessplus": 3
+            },
+            "craftable": false
+        },
+        {
+            "id": "no_gain",
+            "label": "No return",
+            "description": "I got no returns sadly",
+            "effects": {
+                "restlessness": 3
+            },
+            "craftable": false
         }
     ]
 }
