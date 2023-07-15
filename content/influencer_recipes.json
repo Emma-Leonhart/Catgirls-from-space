@@ -1,6 +1,23 @@
 {
     "recipes": [
         {
+            "id": "start.channel",
+            "actionid": "surf",
+            "label": "Start a YouTube channel",
+            "startdescription": "I could make videos about this lore",
+            "description": "My video was a good explanation, I feel I enlightened the masses with it",
+            "requirements": {
+                "lore": 1
+            },
+            "effects": {
+                "influencerjob": 1
+            },
+            "$priority": 500,
+            "craftable": true,
+            "warmup": 60,
+            "maxexecutions": 1
+        },
+        {
             "id": "work.priest.first",
             "actionid": "surf",
             "label": "Conduct My First Service",
@@ -82,7 +99,7 @@
                 },
                 {
                     "id": "surf.priest.open",
-                    "additional": true
+                    "additional": true 
                 }
             ]
         },

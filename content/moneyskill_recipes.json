@@ -150,10 +150,11 @@
             "aspects": {
                 "employment": 1
             },
-            "startdescription": "Spend Money to make Money. I am definitely not gonna lose all my money from this",
+            "startdescription": "Spend Money to make Money",
             "description": "My sigma grindset continues.",
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "comment": "deprecated as it does not work"
         },
         {
             "id": "investmentStart",
@@ -173,8 +174,10 @@
             },
             "startdescription": ".",
             "description": "I lost my investment.",
+            "startdescription": "Spend Money to make Money. I am definitely not gonna lose all my money from this",
             "warmup": 60,
-            "craftable": false
+            "craftable": true,
+            "comment": "this seems to be the recipe that works. Unclear why workfunds doesn't work but deprecating it"
         }
     ]
 }

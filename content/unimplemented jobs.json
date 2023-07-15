@@ -1,0 +1,13 @@
+{
+    "elements":[
+        {
+            "id": "auctioneerjob",
+            "aspects": {
+                "job": 1
+            },
+            "label": "A Position at Oriflamme's Auction House",
+            "description": "A Position at Oriflamme's Auction House",
+            "noartneeded": true
+        }
+    ]
+}
