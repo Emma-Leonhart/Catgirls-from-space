@@ -1,7 +1,7 @@
 {
     "elements":[
         {
-            "id": "skillmoneya",
+            "id": "skillmoneya", 
             "label": "Skill: a Stronger Work Ethic",
             "aspects": {
                 "healthskill": 1,
@@ -10,11 +10,30 @@
             "description": "I have benefited from exercise. [Use this with two Lessons Learnt to gain more Health.]",
             "slots": [
                 {
-                    "id": "Health",
+                    "id": "Capital",
+                    "label": "Capital",
                     "actionid": "work",
-                    "description": "I must devote my energies to this.",
+                    "description": "I must devote my funds to this.",
                     "required": {
-                        "health": 1
+                        "funds": 1
+                    }
+                },
+{
+                    "id": "Capital2",
+                    "label": "More Capital",
+                    "actionid": "work",
+                    "description": "I betting more.",
+                    "required": {
+                        "funds": 1
+                    }
+                },
+{
+                    "id": "Capital3",
+                    "label": "All In",
+                    "actionid": "work",
+                    "description": "We're going to the moon.",
+                    "required": {
+                        "funds": 1
                     }
                 },
                 {
@@ -55,11 +74,30 @@
             },
             "slots": [
                 {
-                    "id": "Health",
+                    "id": "Capital",
+                    "label": "Capital",
                     "actionid": "work",
-                    "description": "I must devote my energies to this.",
+                    "description": "I must devote my funds to this.",
                     "required": {
-                        "health": 1
+                        "funds": 1
+                    }
+                },
+{
+                    "id": "Capital2",
+                    "label": "More Capital",
+                    "actionid": "work",
+                    "description": "I betting more.",
+                    "required": {
+                        "funds": 1
+                    }
+                },
+{
+                    "id": "Capital3",
+                    "label": "All In",
+                    "actionid": "work",
+                    "description": "We're going to the moon.",
+                    "required": {
+                        "funds": 1
                     }
                 },
                 {
@@ -104,11 +142,30 @@
             },
             "slots": [
                 {
-                    "id": "Health",
+                    "id": "Capital",
+                    "label": "Capital",
                     "actionid": "work",
-                    "description": "I must devote my energies to this.",
+                    "description": "I must devote my funds to this.",
                     "required": {
-                        "health": 1
+                        "funds": 1
+                    }
+                },
+{
+                    "id": "Capital2",
+                    "label": "More Capital",
+                    "actionid": "work",
+                    "description": "I betting more.",
+                    "required": {
+                        "funds": 1
+                    }
+                },
+{
+                    "id": "Capital3",
+                    "label": "All In",
+                    "actionid": "work",
+                    "description": "We're going to the moon.",
+                    "required": {
+                        "funds": 1
                     }
                 },
                 {
@@ -172,11 +229,30 @@
             },
             "slots": [
                 {
-                    "id": "Health",
+                    "id": "Capital",
+                    "label": "Capital",
                     "actionid": "work",
-                    "description": "I must devote my energies to this.",
+                    "description": "I must devote my funds to this.",
                     "required": {
-                        "health": 1
+                        "funds": 1
+                    }
+                },
+{
+                    "id": "Capital2",
+                    "label": "More Capital",
+                    "actionid": "work",
+                    "description": "I betting more.",
+                    "required": {
+                        "funds": 1
+                    }
+                },
+{
+                    "id": "Capital3",
+                    "label": "All In",
+                    "actionid": "work",
+                    "description": "We're going to the moon.",
+                    "required": {
+                        "funds": 1
                     }
                 }
             ]
