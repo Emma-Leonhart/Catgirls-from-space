@@ -203,7 +203,8 @@
             },
             "description": "I lost my investment.",
             "aspects": {
-                "employment": 1
+                "employment": 1,
+                "fatigue_funds": 1
             },
             "craftable": "false"
         },
@@ -217,7 +218,8 @@
             },
             "description": "I doubled my money.",
             "aspects": {
-                "employment": 1
+                "employment": 1,
+                "fatigue_funds": 1
             },
             "craftable": "false"
         },
@@ -305,6 +307,9 @@
                 "funds": 6,
                 "capitalisticnessplus": 3
             },
+            "aspects":{
+                "fatigue_funds": 1
+            },
             "comment": "This is the highest possible return with a 10% probability",
             "craftable": false
         },
@@ -315,6 +320,9 @@
             "effects": {
                 "funds": 3,
                 "capitalisticness": 3
+            },
+            "aspects":{
+                "fatigue_funds": 1
             },
             "comment": "This card represents a significant return with a 20% probability",
             "craftable": false
@@ -327,6 +335,9 @@
                 "funds": 2,
                 "capitalisticness": 3
             },
+            "aspects":{
+                "fatigue_funds": 1
+            },
             "comment": "This card represents a modest return with a 30% probability",
             "craftable": false
         },
@@ -338,6 +349,9 @@
                 "funds": 1,
                 "capitalisticness": 3
             },
+            "aspects":{
+                "fatigue_funds": 1
+            },
             "comment": "This card represents breaking even with a 40% probability",
             "craftable": false
         },
@@ -348,6 +362,9 @@
             "effects": {
                 "funds": -1,
                 "restlessness": 3
+            },
+            "aspects":{
+                "fatigue_funds": 1
             },
             "comment": "This card represents a slight loss with a 50% probability",
             "craftable": false
@@ -361,6 +378,9 @@
                 "restlessness": 1,
                 "dread": 1
             },
+            "aspects":{
+                "fatigue_funds": 1
+            },
             "comment": "This card represents a moderate loss with a 60% probability",
             "craftable": false
         },
@@ -373,6 +393,9 @@
                 "restlessness": 1,
                 "dread": 2
             },
+            "aspects":{
+                "fatigue_funds": 1
+            },
             "comment": "This card represents a severe loss with a 70% probability",
             "craftable": false
         },
@@ -383,6 +406,9 @@
             "effects": {
                 "funds": -3,
                 "dread": 3
+            },
+            "aspects":{
+                "fatigue_funds": 1
             },
             "comment": "This card represents a total loss with an 80% probability",
             "craftable": false
@@ -426,6 +452,9 @@
                 "funds": 4,
                 "capitalisticnessplus": 2
             },
+            "aspects":{
+                "fatigue_funds": 1
+            },
             "comment": "This is the highest possible return with a 10% probability",
             "craftable": false
         },
@@ -437,6 +466,9 @@
                 "funds": 2,
                 "capitalisticness": 2
             },
+            "aspects":{
+                "fatigue_funds": 1
+            },
             "comment": "This card represents a solid return with a 30% probability",
             "craftable": false
         },
@@ -446,6 +478,9 @@
             "description": "I broke even. At least I didn't lose anything",
             "effects": {
                 "restlessness": 2
+            },
+            "aspects":{
+                "fatigue_funds": 1
             },
             "comment": "This card represents breaking even with a 50% probability",
             "craftable": false
@@ -459,6 +494,9 @@
                 "restlessness": 1,
                 "dread": 1
             },
+            "aspects":{
+                "fatigue_funds": 1
+            },
             "comment": "This card represents a minor loss with a 70% probability",
             "craftable": false
         },
@@ -469,6 +507,9 @@
             "effects": {
                 "funds": -2,
                 "dread": 2
+            },
+            "aspects":{
+                "fatigue_funds": 1
             },
             "comment": "This card represents a total loss with a 100% probability",
             "craftable": false
@@ -508,6 +549,9 @@
                 "funds": 2,
                 "capitalisticnessplus": 1
             },
+            "aspects":{
+                "fatigue_funds": 1
+            },
             "comment": "This is the highest possible return with a 10% probability",
             "craftable": false
         },
@@ -519,6 +563,9 @@
                 "funds": 1,
                 "capitalisticness": 1
             },
+            "aspects":{
+                "fatigue_funds": 1
+            },
             "comment": "This card represents a solid return with a 30% probability",
             "craftable": false
         },
@@ -528,6 +575,9 @@
             "description": "I broke even. It could be worse",
             "effects": {
                 "restlessness": 1
+            },
+            "aspects":{
+                "fatigue_funds": 1
             },
             "comment": "This card represents breaking even with a 50% probability",
             "craftable": false
@@ -539,6 +589,9 @@
             "effects": {
                 "funds": -1,
                 "dread": 1
+            },
+            "aspects":{
+                "fatigue_funds": 1
             },
             "comment": "This card represents a total loss with a 100% probability",
             "craftable": false

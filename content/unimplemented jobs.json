@@ -8,6 +8,45 @@
             "label": "A Position at Oriflamme's Auction House",
             "description": "A Position at Oriflamme's Auction House",
             "noartneeded": true
+        },
+        {
+            "id": "investmentsjobc",
+            "aspects": {
+                "benign": 1,
+                "job": 1
+            },
+            "label": "A Generous Private Income",
+            "description": "I am well provided for.",
+            "xtriggers": {
+                "decline": "investmentsjobb"
+            },
+            "noartneeded": true
+        },
+        {
+            "id": "investmentsjobb",
+            "label": "A Substantial Private Income",
+            "description": "Enough of an income to live in comfort.",
+            "aspects": {
+                "benign": 1,
+                "job": 1
+            },
+            "xtriggers": {
+                "decline": "investmentsjoba"
+            },
+            "noartneeded": true
+        },
+        {
+            "id": "investmentsjoba",
+            "aspects": {
+                "benign": 1,
+                "job": 1
+            },
+            "label": "A Modest Private Income",
+            "description": "My investments provide more than enough to live on.",
+            "xtriggers": {
+                "decline": "jumble"
+            },
+            "noartneeded": true
         }
     ]
 }

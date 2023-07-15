@@ -192,6 +192,9 @@
             "deckeffects": {
                 "explore.lensing.finds": 1
             },
+            "effects":{
+                "lensing": -1
+            },
             "startdescription": "Streets are strange in the hour called Meniscate.",
             "description": "Visions pass me with pavane grace - a window over a wood, a garden of ice, a shivering sun, a woman of glass. I will return home, with reluctance.",
             "warmup": 30,

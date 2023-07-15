@@ -16,7 +16,8 @@
                 "ingredient": 1
             },
             "xtriggers": {
-                "fatiguing": "husk"
+                "fatiguing": "husk",
+                "fatigue_funds": "illiquid"
             },
             "description": "Capital. The lifeblood of the global economy.",
             "slots": [
@@ -41,6 +42,34 @@
             "aspects$remove": [
                 "lantern"
              ]
+        },
+        {
+            "id": "illiquid",
+            "label": "Capital (illiquid)",
+            "aspects": {
+                "illhealth": 1,
+                "hand": 2,
+                "asset": 1,
+                "portable": 1,
+                "worth": 1,
+                "ingredient": 1,
+                "forge": 2,
+                "grail": 2,
+                "knock": 2,
+                "ingredient": 1
+            },
+            "description": "This card can't be used, but it will recover after sixty seconds. I can recover it faster by Dreaming.",
+            "xtriggers": {
+                "restorehealth": "funds",
+                "damagehealth": "injury",
+                "destroyfunds": "husk",
+                "fallsick": "affliction",
+                "scarability": "scar_heart"
+            },
+            "lifetime": 60,
+            "decayTo": "funds",
+            "icon": "funds",
+            "resaturate": true
         }
     ]
 }

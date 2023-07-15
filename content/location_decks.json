@@ -50,7 +50,6 @@
                 "vitality",
                 "vitality",
                 "dread",
-                "restlessness",
                 "fleeting",
                 "fleeting"
             ],
@@ -65,8 +64,16 @@
                 "influencelanternc",
                 "erudition",
                 "erudition",
+                "dread",
                 "lensing",
-                "lensing"
+                "contentment",
+                "influencelanternc",
+                "influencelanternc",
+                "erudition",
+                "erudition",
+                "fascination",
+                "lensing",
+                "fleeting"
             ],
             "resetonexhaustion": true
         }
