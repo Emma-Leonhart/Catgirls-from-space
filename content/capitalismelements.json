@@ -4,7 +4,7 @@
             "id": "skillmoneya", 
             "label": "Skill: a Stronger Work Ethic",
             "aspects": {
-                "healthskill": 1,
+                "moneyskill": 1,
                 "ability": 1
             },
             "description": "I have benefited from exercise. [Use this with two Lessons Learnt to gain more Health.]",
@@ -97,7 +97,7 @@
                 "careeradvancement": "skillmoneyc"
             },
             "aspects": {
-                "healthskill": 2,
+                "moneyskill": 2,
                 "ability": 1
             },
             "slots": [
@@ -193,7 +193,7 @@
             "label": "Skill: a Steely Work Ethic",
             "description": "There are many things now that I could crush in my fists. [Use this with four Lessons Learnt to gain more Health.]",
             "aspects": {
-                "healthskill": 3,
+                "moneyskill": 3,
                 "ability": 1
             },
             "slots": [
@@ -308,7 +308,7 @@
             "label": "Skill: a Matchless Work Ethic",
             "description": "I move like a mountain and strike like the sky. 'To master others is strength. To master yourself is power.' [Health and Skill can increase no further.]",
             "aspects": {
-                "healthskill": 4,
+                "moneyskill": 4,
                 "ability": 1
             },
             "slots": [
@@ -368,6 +368,24 @@
                     }
                 }
             ]
+        },
+        {
+			"id": "moneyskill",
+			"label": "Business Acumen",
+			"isAspect": true,
+			"description": "My skull roils with visions. [This may allow you get bigger investment returns.]"
+		},
+        {
+            "id": "skillmoneyhintwork",
+            "label": "Investing",
+            "actionid": "work",
+            "requirements": {
+                "healthskill": 1,
+                "job": -1
+            },
+            "startdescription": "I've built a lot of investing skill. I can take a bit of seed capital and go to the moon with it.",
+            "craftable": false,
+            "hintonly": true
         }
     ]
 }
