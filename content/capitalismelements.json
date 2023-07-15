@@ -37,6 +37,26 @@
                     }
                 },
                 {
+                    "id": "ability1",
+                    "label": "Ability",
+                    "actionid": "work",
+                    "description": "Should I use something more?",
+                    "required": {
+                        "ability": 1,
+                        "funds": -1
+                    }
+                },
+                {
+                    "id": "ability2",
+                    "label": "Ability",
+                    "actionid": "work",
+                    "description": "Should I use something more?",
+                    "required": {
+                        "ability": 1,
+                        "funds": -1
+                    }
+                },
+                {
                     "id": "V1",
                     "actionid": "study",
                     "label": "A Lesson Learnt",
@@ -98,6 +118,26 @@
                     "description": "We're going to the moon.",
                     "required": {
                         "funds": 1
+                    }
+                },
+                {
+                    "id": "ability1",
+                    "label": "Ability",
+                    "actionid": "work",
+                    "description": "Should I use something more?",
+                    "required": {
+                        "ability": 1,
+                        "funds": -1
+                    }
+                },
+                {
+                    "id": "ability2",
+                    "label": "Ability",
+                    "actionid": "work",
+                    "description": "Should I use something more?",
+                    "required": {
+                        "ability": 1,
+                        "funds": -1
                     }
                 },
                 {
@@ -166,6 +206,26 @@
                     "description": "We're going to the moon.",
                     "required": {
                         "funds": 1
+                    }
+                },
+                {
+                    "id": "ability1",
+                    "label": "Ability",
+                    "actionid": "work",
+                    "description": "Should I use something more?",
+                    "required": {
+                        "ability": 1,
+                        "funds": -1
+                    }
+                },
+                {
+                    "id": "ability2",
+                    "label": "Ability",
+                    "actionid": "work",
+                    "description": "Should I use something more?",
+                    "required": {
+                        "ability": 1,
+                        "funds": -1
                     }
                 },
                 {
@@ -253,6 +313,26 @@
                     "description": "We're going to the moon.",
                     "required": {
                         "funds": 1
+                    }
+                },
+                {
+                    "id": "ability1",
+                    "label": "Ability",
+                    "actionid": "work",
+                    "description": "Should I use something more?",
+                    "required": {
+                        "ability": 1,
+                        "funds": -1
+                    }
+                },
+                {
+                    "id": "ability2",
+                    "label": "Ability",
+                    "actionid": "work",
+                    "description": "Should I use something more?",
+                    "required": {
+                        "ability": 1,
+                        "funds": -1
                     }
                 }
             ]
