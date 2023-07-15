@@ -1,55 +1,6 @@
 {
     "recipes": [
         {
-            "id": "workfunds",
-            "label": "Investing",
-            "alt": [
-                {
-                    "id": "workfundsloss",
-                    "chance": 30
-                }
-            ],
-            "actionid": "work",
-            "requirements": {
-                "health": 1,
-                "ritual": -1,
-                "job": -1,
-                "benefactor": -1
-            },
-            "effects": {
-                "funds": 2,
-                "capitalisticness": 1
-            },
-            "aspects": {
-                "employment": 1
-            },
-            "startdescription": "Spend Money to make Money",
-            "description": "My sigma grindset continues.",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "investmentStart",
-            "label": "Invest my Capital",
-            "actionid": "work",
-            "requirements": {
-                "funds": 1,
-                "job": -1,
-                "benefactor": -1
-            },
-            "effects": {
-                "funds": 1,
-                "capitalisticness": 1
-            },
-            "aspects": {
-                "employment": 1
-            },
-            "startdescription": ".",
-            "description": "I lost my investment.",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
             "id": "lensingrestlessness",
             "label": "Enlens my experiences",
             "actionid": "study",
