@@ -235,47 +235,307 @@
             "craftable": true,
             "linked":[
                 {
-                    "id": "workfunds.three_funds.router"
+                    "id": "workfunds.three_funds.router",
+                    "chance": 100
+                },
+                {
+                    "id": "workfunds.two_funds.router",
+                    "chance": 100
+                },
+                {
+                    "id": "workfunds.one_fund.router",
+                    "chance": 100
                 }
             ],
-            "$priority": 500
+            "$priority": 500,
+            "comment": "the fact that there's an even distribution of returns no matter what your input is is an intentional choice. Not a developer oversight"
         },
         {
             "id": "workfunds.three_funds.router",
             "actionid": "work",
-            "requirements":{
+            "requirements": {
                 "funds": 3
             },
-            "linked":[
+            "linked": [
                 {
-                    "id": "six_return",
+                    "id": "nine_return.three_funds",
+                    "chance": 10
+                },
+                {
+                    "id": "six_return.three_funds",
+                    "chance": 20
+                },
+                {
+                    "id": "five_return.three_funds",
+                    "chance": 30
+                },
+                {
+                    "id": "four_return.three_funds",
+                    "chance": 40
+                },
+                {
+                    "id": "three_return.three_funds",
                     "chance": 50
                 },
                 {
-                    "id": "no_gain",
+                    "id": "two_return.three_funds",
+                    "chance": 60
+                },
+                {
+                    "id": "one_return.three_funds",
+                    "chance": 70
+                },
+                {
+                    "id": "no_gain.three_funds",
                     "chance": 100
                 }
             ],
             "craftable": false
         },
         {
-            "id": "six_return",
-            "label": "To the Moon!",
-            "description": "My investment went to the moon. Got so much money",
+            "id": "nine_return.three_funds",
+            "label": "To the Moon and Beyond!",
+            "description": "My investment was more than fruitful. Got so much money",
             "effects": {
-                "funds": 3,
+                "funds": 6,
                 "capitalisticnessplus": 3
             },
+            "comment": "This is the highest possible return with a 10% probability",
             "craftable": false
         },
         {
-            "id": "no_gain",
-            "label": "No return",
-            "description": "I got no returns sadly",
+            "id": "six_return.three_funds",
+            "label": "Solid Returns",
+            "description": "My investment yielded a solid return. Feeling prosperous",
             "effects": {
+                "funds": 3,
+                "capitalisticness": 3
+            },
+            "comment": "This card represents a significant return with a 20% probability",
+            "craftable": false
+        },
+        {
+            "id": "five_return.three_funds",
+            "label": "Modest Gains",
+            "description": "The investment yielded a modest gain. Not too shabby",
+            "effects": {
+                "funds": 2,
+                "capitalisticness": 3
+            },
+            "comment": "This card represents a modest return with a 30% probability",
+            "craftable": false
+        },
+        {
+            "id": "four_return.three_funds",
+            "label": "Breakeven",
+            "description": "The investment just covered the principal. Could have been worse",
+            "effects": {
+                "funds": 1,
+                "capitalisticness": 3
+            },
+            "comment": "This card represents breaking even with a 40% probability",
+            "craftable": false
+        },
+        {
+            "id": "three_return.three_funds",
+            "label": "Slight Loss",
+            "description": "The investment had a slight loss. Feeling a bit restless",
+            "effects": {
+                "funds": -1,
                 "restlessness": 3
             },
+            "comment": "This card represents a slight loss with a 50% probability",
+            "craftable": false
+        },
+        {
+            "id": "two_return.three_funds",
+            "label": "Moderate Loss",
+            "description": "The investment suffered a moderate loss. This is unsettling",
+            "effects": {
+                "funds": -2,
+                "restlessness": 1,
+                "dread": 1
+            },
+            "comment": "This card represents a moderate loss with a 60% probability",
+            "craftable": false
+        },
+        {
+            "id": "one_return.three_funds",
+            "label": "Severe Loss",
+            "description": "The investment had a severe loss. I'm filled with dread",
+            "effects": {
+                "funds": -3,
+                "restlessness": 1,
+                "dread": 2
+            },
+            "comment": "This card represents a severe loss with a 70% probability",
+            "craftable": false
+        },
+        {
+            "id": "no_gain.three_funds",
+            "label": "Major Loss",
+            "description": "My investment yielded no return and I lost some of my principal. Feeling hopeless",
+            "effects": {
+                "funds": -3,
+                "dread": 3
+            },
+            "comment": "This card represents a total loss with an 80% probability",
+            "craftable": false
+        },
+        {
+            "id": "workfunds.two_funds.router",
+            "actionid": "work",
+            "requirements": {
+                "funds": 2
+            },
+            "linked": [
+                {
+                    "id": "six_return.two_funds",
+                    "chance": 10
+                },
+                {
+                    "id": "four_return.two_funds",
+                    "chance": 30
+                },
+                {
+                    "id": "two_return.two_funds",
+                    "chance": 50
+                },
+                {
+                    "id": "one_return.two_funds",
+                    "chance": 70
+                },
+                {
+                    "id": "no_gain.two_funds",
+                    "chance": 100
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "six_return.two_funds",
+            "label": "Tripled Investment!",
+            "description": "My investment tripled! Incredible!",
+            "effects": {
+                "funds": 4,
+                "capitalisticnessplus": 2
+            },
+            "comment": "This is the highest possible return with a 10% probability",
+            "craftable": false
+        },
+        {
+            "id": "four_return.two_funds",
+            "label": "Doubled Investment",
+            "description": "My investment doubled. Feeling fortunate",
+            "effects": {
+                "funds": 2,
+                "capitalisticness": 2
+            },
+            "comment": "This card represents a solid return with a 30% probability",
+            "craftable": false
+        },
+        {
+            "id": "two_return.two_funds",
+            "label": "No Gain",
+            "description": "I broke even. At least I didn't lose anything",
+            "effects": {
+                "restlessness": 2
+            },
+            "comment": "This card represents breaking even with a 50% probability",
+            "craftable": false
+        },
+        {
+            "id": "one_return.two_funds",
+            "label": "Minor Loss",
+            "description": "I suffered a minor loss. Feeling a bit unsettled",
+            "effects": {
+                "funds": -1,
+                "restlessness": 1,
+                "dread": 1
+            },
+            "comment": "This card represents a minor loss with a 70% probability",
+            "craftable": false
+        },
+        {
+            "id": "no_gain.two_funds",
+            "label": "Total Loss",
+            "description": "I lost my entire investment. Feeling hopeless",
+            "effects": {
+                "funds": -2,
+                "dread": 2
+            },
+            "comment": "This card represents a total loss with a 100% probability",
+            "craftable": false
+        },
+        {
+            "id": "workfunds.one_fund.router",
+            "actionid": "work",
+            "requirements": {
+                "funds": 1
+            },
+            "linked": [
+                {
+                    "id": "three_return.one_fund",
+                    "chance": 10
+                },
+                {
+                    "id": "two_return.one_fund",
+                    "chance": 30
+                },
+                {
+                    "id": "one_return.one_fund",
+                    "chance": 50
+                },
+                {
+                    "id": "no_gain.one_fund",
+                    "chance": 100
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "three_return.one_fund",
+            "label": "Tripled Investment!",
+            "description": "My investment tripled! I'm rich!",
+            "effects": {
+                "funds": 2,
+                "capitalisticnessplus": 1
+            },
+            "comment": "This is the highest possible return with a 10% probability",
+            "craftable": false
+        },
+        {
+            "id": "two_return.one_fund",
+            "label": "Doubled Investment",
+            "description": "My investment doubled. Not bad at all",
+            "effects": {
+                "funds": 1,
+                "capitalisticness": 1
+            },
+            "comment": "This card represents a solid return with a 30% probability",
+            "craftable": false
+        },
+        {
+            "id": "one_return.one_fund",
+            "label": "No Gain",
+            "description": "I broke even. It could be worse",
+            "effects": {
+                "restlessness": 1
+            },
+            "comment": "This card represents breaking even with a 50% probability",
+            "craftable": false
+        },
+        {
+            "id": "no_gain.one_fund",
+            "label": "Total Loss",
+            "description": "I lost my entire investment. This is a disaster",
+            "effects": {
+                "funds": -1,
+                "dread": 1
+            },
+            "comment": "This card represents a total loss with a 100% probability",
             "craftable": false
         }
+                
     ]
 }
