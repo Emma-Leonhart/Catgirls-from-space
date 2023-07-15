@@ -132,7 +132,7 @@
             "label": "Investing",
             "alt": [
                 {
-                    "id": "workfundsloss",
+                    "id": "workfunds_loss",
                     "chance": 30
                 }
             ],
@@ -172,12 +172,49 @@
             "aspects": {
                 "employment": 1
             },
-            "startdescription": ".",
             "description": "I lost my investment.",
             "startdescription": "Spend Money to make Money. I am definitely not gonna lose all my money from this",
             "warmup": 60,
             "craftable": true,
-            "comment": "this seems to be the recipe that works. Unclear why workfunds doesn't work but deprecating it"
+            "comment": "this seems to be the recipe that works. Unclear why workfunds doesn't work but deprecating it. On average without applying skill you will break even from investing",
+            "linked": [
+                {
+                    "id": "workfunds_loss",
+                    "chance": 50
+                },
+                {
+                    "id": "workfunds_gain",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "workfunds_loss",
+            "label": "I lost my money",
+            "actionid": "work",
+            "effects": {
+                "funds": -1,
+                "dread": 1
+            },
+            "description": "I lost my investment.",
+            "aspects": {
+                "employment": 1
+            },
+            "craftable": "false"
+        },
+        {
+            "id": "workfunds_gain",
+            "label": "I doubled my money",
+            "actionid": "work",
+            "effects": {
+                "funds": 1,
+                "capitalisticness": 1
+            },
+            "description": "I doubled my money.",
+            "aspects": {
+                "employment": 1
+            },
+            "craftable": "false"
         }
     ]
 }

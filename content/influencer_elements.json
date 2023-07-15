@@ -4,7 +4,7 @@
             "id": "influencerjob",
             "aspects": {
                 "job": 1
-            },
+            }, 
             "slots": [
                 {
                     "id": "ability",
@@ -34,7 +34,8 @@
                 }
             ],
             "label": "My Online Brand",
-            "description": "I can build a larger following online."
+            "description": "I can build a larger following online.",
+            "unique": "true"
         }
     ]
 }
