@@ -171,10 +171,6 @@
         },
         "linked":[
             {
-                "id": "catgirl_healing",
-                "chance": 100
-            },
-            {
                 "id": "catgirl_craving_revolution",
                 "chance": 100
             }
