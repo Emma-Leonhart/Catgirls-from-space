@@ -5,14 +5,28 @@
             "label": "City Secrets",
             "description": "Easily overlooked locations.",
             "spec": [
-                "locationauctionhouse",
-                "locationcabaret",
-                "locationbookdealer",
-                "locationstreetsstrange",
-                "location.cemetery",
-                "location.temple"
+                    "op.curio.lantern2",
+                    "op.licence.import",
+                    "op.office",
+                    "op.warehouse",
+                    "op.sulochana",
+                    "op.sea",
+                    "op.sea",
+                    "op.connection.radicals",
+                    "op.dawn",
+                    "op.weapon.a",
+                    "locationauctionhouse",
+                    "locationcabaret",
+                    "locationbookdealer",
+                    "locationstreetsstrange",
+                    "location.cemetery",
+                    "location.temple",
+                    "op.licence.cop",
+                    "op.dance",
+                    "op.hireling"
             ],
-            "defaultcard": "location.temple"
+            "defaultcard": "location.temple",
+            "comment": "base exploration for inside the city of london at the beginning. But generic and does not create trace"
         },
         {
             "id": "explore.lensing.finds",

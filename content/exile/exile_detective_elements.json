@@ -9,7 +9,7 @@
                 "proof": 1,
                 "job": 1
             },
-            "icon": "license.medical",
+            "icon": "licence.medical",
             "description": "You need a license to be a cop?",
             "unique": true,
             "xtriggers": {

@@ -724,6 +724,128 @@
             "craftable": true
         },
         {
+            "id": "use.negotiate.hireling",
+            "actionid": "work",
+            "label": "A Hireling?",
+            "startdescription": "I found a lackey I can hire.",
+            "description": ".",
+            "comments": "The slots on the purchaseable item are what restrict to a relevant connection.",
+            "requirements": {
+                "op.hireling": 1
+            },
+            "effects": {
+                "daycriminals": 1
+            },
+            "warmup": 10,
+            "craftable": true,
+            "$priority": 500,
+            "linked":[
+                {
+                    "id": "explorefindcriminal",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorefindcriminal",
+            "label": "A Hireling?",
+            "actionid": "work",
+            "requirements": {
+                "daycriminals": 1
+            },
+            "deckeffects": {
+                "hirelings": 1
+            },
+            "effects": {
+                "season": -1
+            },
+            "warmup": 0,
+            "linked": [
+                {
+                    "id": "explorechoosepaycriminal",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorechoosepaycriminal",
+            "label": "A Hireling?",
+            "actionid": "work",
+            "startdescription": "I've found someone whom I might pay to enact regrettable necessities. [Add Funds to hire them, for a limited time.]",
+            "slots": [
+                {
+                    "id": "Payment",
+                    "label": "Payment",
+                    "required": {
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "explorepaycriminal",
+                    "chance": 100
+                },
+                {
+                    "id": "explorepaycriminal.connection",
+                    "chance": 100
+                },
+                {
+                    "id": "explorepaycriminal.year",
+                    "chance": 100
+                }
+            ],
+            "effects": {
+                "hireling": -1
+            },
+            "description": "Better not. I must be careful of the company I keep.",
+            "warmup": 60
+        },
+        {
+            "id": "explorepaycriminal",
+            "label": "A Hireling",
+            "requirements": {
+                "funds": 1,
+                "connection.underworld": 1,
+                "year.stolen": 1
+            },
+            "actionid": "work",
+            "startdescription": "This will buy their loyalty, for now.",
+            "effects": {
+                "funds": -1,
+                "connection.underworld": -1,
+                "year.stolen": -1
+            }
+        },
+        {
+            "id": "explorepaycriminal.connection",
+            "label": "A Hireling",
+            "requirements": {
+                "connection.underworld": 1
+            },
+            "actionid": "work",
+            "startdescription": "This will buy their loyalty, for now.",
+            "effects": {
+                "funds": -1,
+                "connection.underworld": -1,
+                "year.stolen": -1
+            }
+        },
+        {
+            "id": "explorepaycriminal.year",
+            "label": "A Hireling",
+            "requirements": {
+                "year.stolen": 1
+            },
+            "actionid": "work",
+            "startdescription": "This will buy their loyalty, for now.",
+            "effects": {
+                "funds": -1,
+                "connection.underworld": -1,
+                "year.stolen": -1
+            }
+        },
+        {
             "id": "use.purchase.lifespan.radicals.problem",
             "actionid": "work",
             "label": "Purchase with Years",

@@ -35,7 +35,7 @@
             },
             "description": "I could take this opportunity to qualify, extremely rapidly, as a dancer.",
             "xtriggers": {
-                "negotiation": "licence.cop",
+                "negotiation": "intro_legacydancerjob",
                 "renewal.exile": "op.licence.cop"
             },
             "slots": [
@@ -44,8 +44,7 @@
                     "id": "connection",
                     "label": "Connection",
                     "required": {
-                        "connection.": 1,
-                        "connection.ruler": 1
+                        "connection.underworld": 1
                     },
                     "consumes": true
                 }
@@ -61,9 +60,25 @@
                 "grail": 2,
                 "moth": 2
             },
-            "description": "I found some alien messengers here to stop the evil aliens.",
+            "description": "Good aliens here to help fight the evil aliens.",
             "xtriggers": {
                 "renewal.exile": "op.cats",
+                "fatiguing": "husk"
+            },
+            "lifetime": 300
+        },
+        {
+            "id": "op.hireling",
+            "label": "Opportunity: A hireling?",
+            "aspects": {
+                "op": 1,
+                "edge": 2,
+                "moth": 2,
+                "knock": 2
+            },
+            "description": "I found someone I can hire.",
+            "xtriggers": {
+                "renewal.exile": "op.hireling",
                 "fatiguing": "husk"
             },
             "lifetime": 300
