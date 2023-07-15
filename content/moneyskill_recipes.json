@@ -290,7 +290,8 @@
                     "chance": 100
                 }
             ],
-            "craftable": false
+            "craftable": false,
+            "comment": "average return seems to be 5.6548723 funds, 1.88 multiplier, check math later"
         },
         {
             "id": "nine_return.three_funds",
@@ -410,7 +411,8 @@
                     "chance": 100
                 }
             ],
-            "craftable": false
+            "craftable": false,
+            "comment": "average return seems to be 3.52735 funds, 1.77 multiplier, check math later"
         },
         {
             "id": "six_return.two_funds",
@@ -491,7 +493,8 @@
                     "chance": 100
                 }
             ],
-            "craftable": false
+            "craftable": false,
+            "comment": "average return seems to be 2.155 funds, 2.16 multiplier, check math later"
         },
         {
             "id": "three_return.one_fund",
