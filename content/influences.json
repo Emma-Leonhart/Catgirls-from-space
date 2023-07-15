@@ -77,6 +77,22 @@
             "comments": "lensing is only a way because that is the only way to get it to work with dream"
         },
         {
+            "id": "fleeting",
+            "lifetime": 180
+        },
+        {
+            "id": "contentment",
+            "lifetime": 180
+        },
+        {
+            "id": "fascination",
+            "lifetime": 180
+        },
+        {
+            "id": "dread",
+            "lifetime": 180
+        },
+        {
             "id": "influencehand",
             "label": "Capital Suggestions",
             "aspects": {
