@@ -180,11 +180,15 @@
             "comment": "this seems to be the recipe that works. Unclear why workfunds doesn't work but deprecating it. On average without applying skill you will break even from investing",
             "linked": [
                 {
-                    "id": "workfunds_loss",
+                    "id": "two_return.one_fund",
+                    "chance": 30
+                },
+                {
+                    "id": "one_return.one_fund",
                     "chance": 50
                 },
                 {
-                    "id": "workfunds_gain",
+                    "id": "no_gain.one_fund",
                     "chance": 100
                 }
             ]

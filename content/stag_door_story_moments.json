@@ -288,6 +288,64 @@
         "craftable": true,
         "burnimage": "flammarion",
         "comment": "duplicated because of two different trigger conditions"
+    },
+    {
+        "id": "exile_dream_2",
+        "actionid": "dream",
+        "label": "Dreaming of Freedom",
+        "description": "I had a magnificent vision of the Immortal Catgirl when I slept",
+            "effects":{
+                "passion": 2,
+                "reason": 2,
+                "waywood": 1,
+                "waywhite": 1,
+                "catgirl_truth": 1,
+                "fatigue": 4,
+                "decade.stolen": 9,
+                "year.stolen": 9,
+                "funds": 9,
+                "temptation.obscurity": 1,
+                "catgirl_dedication_3": 1
+            },
+            "portaleffect": "stagdoor",
+            "slots": [
+				{
+					"id": "stagdoor",
+					"label": "The Way?",
+					"description": "The Way",
+					"required": {
+						"waystag_after": 1
+					},
+					"greedy": true
+				}
+			],
+            "warmup": 30,
+            "linked":[
+                {
+                    "id": "exile_dream_3",
+                    "chance": 100
+                }
+            ],
+            "burnimage": "flammarion"
+    },
+    {
+        "id": "exile_dream_3",
+        "actionid": "dream",
+        "description": "I had a magnificent vision of the Immortal Catgirl when I slept",
+        "warmup": 10,
+        "alt":[
+            {
+                "id": "surf.exile",
+                "additional": true,
+                "chance": 100
+            }
+        ]
+    },
+    {
+        "id": "surf.exile",
+        "actionid": "surf",
+        "description": "I am looking over the internet for any resources to help me escape",
+        "warmup": 30
     }
     ]
 }

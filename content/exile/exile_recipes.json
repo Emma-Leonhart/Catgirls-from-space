@@ -86,7 +86,7 @@
             "label": "Far Enough and Fast Enough ",
             "startdescription": "I have more than enough funds for the journey - but I might need to travel light. [Leaving a city will shake off your pursuers - but they'll find you again eventually.",
             "effects": {
-                "funds": 5
+                "funds": 3
             },
             "warmup": 1
         },
@@ -2049,27 +2049,12 @@
             "id": "exile_dream",
             "actionid": "dream",
             "label": "Dreaming of Freedom",
-            "startdescription": "I'm having a beautiful dream of freedom",
-            "description": "Now that I have some time to rest the lore I read can't get out of my mind as I sleep",
-            "effects":{
-                "passion": 2,
-                "reason": 2
-            },
-            "slots": [
-				{
-					"id": "stagdoor",
-					"label": "The Way?",
-					"description": "The Way",
-					"required": {
-						"waystag_after": 1
-					},
-					"greedy": true
-				}
-			],
+            "startdescription": "Now that I have some time to rest the lore I read can't get out of my mind as I sleep",
             "warmup": 30,
             "linked":[
-                {"id": "dreamenterstag",
-            "chance": 100
+                {
+                    "id": "exile_dream_2",
+                    "chance": 100
             }
             ]
         },
