@@ -344,7 +344,12 @@
     {
         "id": "surf.exile",
         "actionid": "surf",
-        "description": "I am looking over the internet for any resources to help me escape",
+        "label": "Searching the internet for info",
+        "startdescription": "I am looking over the internet for any resources to help me escape",
+        "description": "I found a bit of info",
+        "effects":{
+            "obscurity": 1
+        },
         "warmup": 30
     }
     ]
