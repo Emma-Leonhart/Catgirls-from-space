@@ -128,7 +128,7 @@
             "craftable": true
         },
         {
-            "id": "workfunds",
+            "id": "workfunds_deprecated",
             "label": "Investing",
             "alt": [
                 {
@@ -157,7 +157,7 @@
             "comment": "deprecated as it does not work"
         },
         {
-            "id": "investmentStart",
+            "id": "workfunds",
             "label": "Invest my Capital",
             "actionid": "work",
             "requirements": {
