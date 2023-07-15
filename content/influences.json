@@ -78,19 +78,19 @@
         },
         {
             "id": "fleeting",
-            "lifetime": 180
+            "lifetime": 120
         },
         {
             "id": "contentment",
-            "lifetime": 180
+            "lifetime": 120
         },
         {
             "id": "fascination",
-            "lifetime": 180
+            "lifetime": 120
         },
         {
             "id": "dread",
-            "lifetime": 180
+            "lifetime": 120
         },
         {
             "id": "influencehand",

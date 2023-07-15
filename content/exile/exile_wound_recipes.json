@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "exile_inflict_wound",
-            "actionid": "inflict_wound",
+            "actionid": "spit.underling.attack",
             "label": "I am wounded",
             "requirements": {
                 "decade.stolen": -1,
@@ -31,20 +31,21 @@
                     },
                     "greedy": true
                 }
-            ]
+            ],
+            "icon": "spit.underling.attack"
         },
         {
             "id": "wounds.exile.ending",
             "requirements": {
                 "health": -1
             },
-            "actionid": "inflict_wound",
+            "actionid": "spit.underling.attack",
             "label": "A Reckoning Comes",
             "ending": "foecaughtup"
         },
         {
             "id": "exile_inflict_wound_unstanchable",
-            "actionid": "inflict_wound",
+            "actionid": "spit.underling.attack",
             "label": "I am wounded",
             "requirements": {
                 "decade.stolen": -1,
@@ -73,11 +74,12 @@
                     },
                     "greedy": true
                 }
-            ]
+            ],
+            "icon": "spit.underling.attack"
         },
         {
             "id": "exile_inflict_wound_medusa",
-            "actionid": "inflict_wound",
+            "actionid": "spit.underling.attack",
             "label": "I am wounded",
             "requirements": {
                 "decade.stolen": -1,
@@ -106,11 +108,12 @@
                     },
                     "greedy": true
                 }
-            ]
+            ],
+            "icon": "spit.underling.attack"
         },
         {
             "id": "exile_inflict_wound_double",
-            "actionid": "inflict_wound",
+            "actionid": "spit.underling.attack",
             "label": "I am wounded",
             "requirements": {
                 "decade.stolen": -1,
@@ -143,7 +146,8 @@
             "linked":{
                 "id": "exile_inflict_wound",
                 "chance": 100
-            }
+            },
+            "icon": "spit.underling.attack"
         }
     ]
 }
