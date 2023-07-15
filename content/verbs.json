@@ -2,8 +2,8 @@
     "verbs": [
         {
             "id": "surf",
-            "label": "surf",
-            "description": "Surf the Net 90s style!",
+            "label": "Surf the Web",
+            "description": "Surf the Web 90s style!",
             "slot": {
                 "id": "attention",
                 "label": "What to do?",
