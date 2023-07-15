@@ -263,7 +263,7 @@
                 "corpse": 1,
                 "funds": 1
             },
-            "startdescription": "I will dine alone - or not exactly alone.",
+            "startdescription": "I will dine alone - or not exactly alone. [Note this is the end point unless you have the ghoul dlc active]",
             "slots": [
                 {
                     "id": "forceofwill",
@@ -274,46 +274,8 @@
                     }
                 }
             ],
-            "alt": [
-                {
-                    "id": "ghoul.firsttaste"
-                }
-            ],
-            "description": "I could not.",
+            "description": "I could not. [Maybe you could if you had the ghoul DLC]",
             "warmup": 10,
-            "craftable": true
-        },
-        {
-            "id": "ghoul.firsttaste",
-            "actionid": "study",
-            "label": "The First Taste",
-            "startdescription": "It is difficult to begin. I find that I have to concentrate my will into a jagged thing like a stone spear-head. But with each mouthful it is easier.",
-            "description": "'We each of us' - I wrote much later in my journal - 'have a memory of a moment when things changed forever, though at the time we never knew it. Perhaps the world also has those memories.' I recall then that I laid down my pen and looked out past the window into the dark, but I have forgotten the other side of that moment. Perhaps I wiped my mouth. Perhaps I licked my lips.",
-            "requirements": {
-                "prealzabo": 1,
-                "temptation.remembrance": 1,
-                "corpse": 1,
-                "funds": 1,
-                "passion": 1
-            },
-            "effects": {
-                "corpse": -1,
-                "memory.unexpected": 1,
-                "prealzabo": -1,
-                "funds": -1,
-                "alzabo": 1
-            },
-            "aspects": {
-                "ascend": 1
-            },
-            "mutations": [
-                {
-                    "filter": "desire",
-                    "mutate": "ghoul.hunger",
-                    "level": 1
-                }
-            ],
-            "warmup": 30,
             "craftable": true
         },
         {
@@ -907,7 +869,7 @@
             ]
         },
         {
-            "id": "study.alzabo.crucible",
+            "id": "study.alzabo.crucible", 
             "actionid": "study",
             "label": "Feast upon Crucible's Remains",
             "startdescription": "Go up: I need only take a little.",
