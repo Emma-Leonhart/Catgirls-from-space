@@ -1,6 +1,210 @@
 {
     "recipes": [
         {
+            "id": "all_induction",
+            "label": "Inducing all of ALO",
+            "comment": "debug induction to remind me of the order of the alo elements",
+            "actionid": "alo_induction",
+            "description": "Testing the induction of all the elements",
+            "warmup": 10,
+            "alt":[
+                {
+                    "id": "heartinduction",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "linked":[
+                {
+                    "id": "all_induction_winter",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "all_induction_winter",
+            "label": "Inducing all of ALO",
+            "comment": "debug induction to remind me of the order of the alo elements",
+            "actionid": "alo_induction",
+            "description": "Testing the induction of all the elements",
+            "warmup": 10,
+            "alt":[
+                {
+                    "id": "winterinduction",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "linked":[
+                {
+                    "id": "all_induction_secret_histories",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "all_induction_secret_histories",
+            "label": "Inducing all of ALO",
+            "comment": "debug induction to remind me of the order of the alo elements",
+            "actionid": "alo_induction",
+            "description": "Testing the induction of all the elements",
+            "warmup": 10,
+            "alt":[
+                {
+                    "id": "secret_histories.induction",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "linked":[
+                {
+                    "id": "all_induction_lantern",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "all_induction_lantern",
+            "label": "Inducing all of ALO",
+            "comment": "debug induction to remind me of the order of the alo elements",
+            "actionid": "alo_induction",
+            "description": "Testing the induction of all the elements",
+            "warmup": 10,
+            "alt":[
+                {
+                    "id": "lanterninduction",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "linked":[
+                {
+                    "id": "all_induction_grail",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "all_induction_grail",
+            "label": "Inducing all of ALO",
+            "comment": "debug induction to remind me of the order of the alo elements",
+            "actionid": "alo_induction",
+            "description": "Testing the induction of all the elements",
+            "warmup": 10,
+            "alt":[
+                {
+                    "id": "grailinduction",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "linked":[
+                {
+                    "id": "all_induction_edge",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "all_induction_edge",
+            "label": "Inducing all of ALO",
+            "comment": "debug induction to remind me of the order of the alo elements",
+            "actionid": "alo_induction",
+            "description": "Testing the induction of all the elements",
+            "warmup": 10,
+            "alt":[
+                {
+                    "id": "edgeinduction",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "linked":[
+                {
+                    "id": "all_induction_knock",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "all_induction_knock",
+            "label": "Inducing all of ALO",
+            "comment": "debug induction to remind me of the order of the alo elements",
+            "actionid": "alo_induction",
+            "description": "Testing the induction of all the elements",
+            "warmup": 10,
+            "alt":[
+                {
+                    "id": "knockinduction",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "linked":[
+                {
+                    "id": "all_induction_knock",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "all_induction_forge",
+            "label": "Inducing all of ALO",
+            "comment": "debug induction to remind me of the order of the alo elements",
+            "actionid": "alo_induction",
+            "description": "Testing the induction of all the elements",
+            "warmup": 10,
+            "alt":[
+                {
+                    "id": "forgeinduction",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "linked":[
+                {
+                    "id": "all_induction_moth",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "all_induction_moth",
+            "label": "Inducing all of ALO",
+            "comment": "debug induction to remind me of the order of the alo elements",
+            "actionid": "alo_induction",
+            "description": "Testing the induction of all the elements",
+            "warmup": 10,
+            "alt":[
+                {
+                    "id": "mothinduction",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "linked":[
+                {
+                    "id": "all_induction_hand",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "all_induction_hand",
+            "label": "Inducing hand too",
+            "comment": "debug induction to remind me of the order of the alo elements",
+            "actionid": "alo_induction",
+            "description": "Testing the induction of all the elements",
+            "warmup": 10,
+            "alt":[
+                {
+                    "id": "handinduction",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
             "id": "heartinduction",
             "label": "The Course of the Heart",
             "actionid": "heartinduction",
@@ -25,6 +229,18 @@
             "craftable": false
         },
         {
+            "id": "grailinduction",
+            "label": "The Place Behind Desire",
+            "actionid": "grailinduction",
+            "effects": {
+                "preglimmering": 1
+            },
+            "startdescription": "Is there something to be learnt from the satisfaction of desire?",
+            "description": "This is something like enlightenment.",
+            "warmup": 30,
+            "craftable": false
+        },
+        {
             "id": "mothinduction",
             "label": "Old Unhappy Far-off Things",
             "actionid": "mothinduction",
@@ -45,18 +261,6 @@
             },
             "startdescription": "Moth finds the light in the dark, and so do I.",
             "description": "What could I be if I could be not this?",
-            "warmup": 30,
-            "craftable": false
-        },
-        {
-            "id": "grailinduction",
-            "label": "The Place Behind Desire",
-            "actionid": "grailinduction",
-            "effects": {
-                "preglimmering": 1
-            },
-            "startdescription": "Is there something to be learnt from the satisfaction of desire?",
-            "description": "This is something like enlightenment.",
             "warmup": 30,
             "craftable": false
         },
