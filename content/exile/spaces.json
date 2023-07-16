@@ -635,7 +635,7 @@
                 }
             ],
             "xtriggers": {
-                "movehq": "hq.townhouse.jannings"
+                "movehq": "hq.villa"
             }
         },
         {
