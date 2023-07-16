@@ -30,7 +30,8 @@
             "description": "This used to be the address of Morland's, the book dealer, but I'll have to look elsewhere for knowledge, now.",
             "aspects": {
                 "location": 1,
-                "hq.potential": 1
+                "hq.potential": 1,
+                "space": 1
             },
             "slots": [
                 {
@@ -46,21 +47,6 @@
             "xtriggers": {
                 "movehq": "hq.bookshop"
             }
-        },
-        {
-            "id": "hq.abandoned",
-            "label": "Abandoned Headquarters",
-            "description": "Forget it, J.N.",
-            "lifetime": 1
-        },
-        {
-            "id": "generichq",
-            "label": "Headquarters?",
-            "aspects": {
-                "hq": 1
-            },
-            "description": "[Headquarters mechanics have changed.]",
-            "unique": true
         },
         {
             "id": "hq.temporary",
@@ -91,48 +77,13 @@
             "icon": "generichq"
         },
         {
-            "id": "hq.townhouse",
-            "label": "Opulent Townhouse",
-            "aspects": {
-                "hq": 1,
-                "location": 1,
-                "library": 1
-            },
-            "description": "We always close the curtains tight before we roll back the rugs and mark the floor with chalk.",
-            "slots": [
-                {
-                    "id": "Attic",
-                    "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
-                    "actionid": "talk",
-                    "required": {
-                        "follower": 1
-                    },
-                    "forbidden": {
-                        "summoned": 1
-                    }
-                },
-                {
-                    "id": "funds",
-                    "label": "Funds",
-                    "description": "Place Funds in here to raise Grail-influence.",
-                    "actionid": "explore",
-                    "required": {
-                        "funds": 1
-                    }
-                }
-            ],
-            "xtriggers": {
-                "movehq": "hq.abandoned"
-            },
-            "unique": true
-        },
-        {
             "id": "hq.church",
             "label": "Heterodox Church",
             "aspects": {
                 "hq": 1,
                 "location": 1,
-                "sanctuary": 1
+                "sanctuary": 1,
+                "space": 2
             },
             "description": "Even on Sunday morning, there are quirks in the order of service, but most outsiders don't notice. Outsiders are not invited to the ceremonies we hold at chillier hours.",
             "slots": [
@@ -169,7 +120,8 @@
                 "hq": 1,
                 "location": 1,
                 "sanctuary": 1,
-                "secret": 1
+                "secret": 1,
+                "space": 1
             },
             "description": "Initiates have celebrated the Mysteries here for almost two thousand years. The words change, the gods change, but always, eventually, there is blood.",
             "slots": [
@@ -206,7 +158,8 @@
                 "hq": 1,
                 "location": 1,
                 "pit": 1,
-                "secret": 1
+                "secret": 1,
+                "space": 2
             },
             "description": "We've painted the walls within the rich colour of the Violet Chamber. We've cleaned the cobwebs and placed unobtrusive shutters behind all the windows. And we've replaced all the locks.",
             "slots": [
@@ -242,7 +195,8 @@
             "aspects": {
                 "hq": 1,
                 "location": 1,
-                "library": 1
+                "library": 1,
+                "space": 1
             },
             "description": "The lesser elements of Miss Morland's stock yet remain. Over time, strangers drift in with books to sell, and sometimes we indulge them.",
             "slots": [
@@ -279,7 +233,8 @@
                 "hq": 1,
                 "location": 1,
                 "pit": 1,
-                "secret": 1
+                "secret": 1,
+                "space": 2
             },
             "description": "The rafters are rank with rats. Their smell is almost lost beneath the reek of the river. It's a long way from anywhere anyone would want to go. All these things are, in their way, advantages.",
             "slots": [
@@ -314,7 +269,8 @@
             "label": "Unattended Church",
             "aspects": {
                 "location": 1,
-                "hq.potential": 1
+                "hq.potential": 1,
+                "space": 0
             },
             "description": "The minister disappeared, one night, quite abruptly, with his inner circle and the church's chiefest treasures. He is widely assumed to have gone to a better place: possibly a sunny place beside a shining sea. We could recruit his leaderless flock, and make this our base of operations.",
             "slots": [
@@ -338,7 +294,8 @@
             "label": "Empty Mithraeum",
             "aspects": {
                 "location": 1,
-                "hq.potential": 1
+                "hq.potential": 1,
+                "space": 1
             },
             "description": "This was a place of worship, once. We could make it so again.",
             "slots": [
@@ -362,7 +319,8 @@
             "label": "Empty Hospital",
             "aspects": {
                 "location": 1,
-                "hq.potential": 1
+                "hq.potential": 1,
+                "space": 2
             },
             "description": "Phantoms - the neighbours say - still walk the echoing halls here. If we take possession, of course, they will leave, or we'll turn them to our use.",
             "slots": [
@@ -385,7 +343,12 @@
             "id": "hq.warehouse.potential",
             "label": "An Abandoned Warehouse",
             "aspects": {
-                "location": 1,
+                "asset": 1,
+                "space": 2,
+                "forge": 4,
+                "heart": 4,
+                "worth": 2,
+                "deception": 1,
                 "hq.potential": 1
             },
             "description": "A rotting shell beside a rotting river. Who would follow us here?",
@@ -406,20 +369,6 @@
             "icon": "hq.warehouse"
         },
         {
-            "id": "office",
-            "label": "Discreet Office",
-            "aspects": {
-                "asset": 1,
-                "space": 1,
-                "heart": 2,
-                "worth": 1,
-                "comfort": 1,
-                "deception": 1
-            },
-            "description": "Not too obvious, and not too far out of the way.",
-            "icon": "vaultcapital1"
-        },
-        {
             "id": "warehouse",
             "label": "Quiet Warehouse",
             "aspects": {
@@ -428,10 +377,136 @@
                 "forge": 4,
                 "heart": 4,
                 "worth": 2,
-                "deception": 1
+                "deception": 1,
+                "hq.potential": 1
+            },
+            "slots": [
+                {
+                    "id": "Old HQ",
+                    "description": "Place an old HQ here to abandon it and move to this new location. No return will be possible.",
+                    "actionid": "explore",
+                    "required": {
+                        "hq": 1
+                    }
+                }
+            ],
+            "xtriggers": {
+                "movehq": "hq.warehouse"
             },
             "description": "There's plenty of space here, although not much else to recommend it.",
             "icon": "vaultcapitaldefault"
+        },
+        {
+            "id": "office",
+            "label": "Discreet Office",
+            "aspects": {
+                "asset": 1,
+                "space": 1,
+                "heart": 2,
+                "worth": 1,
+                "comfort": 1,
+                "deception": 1,
+                "hq.potential": 1
+            },
+            "description": "Not too obvious, and not too far out of the way.",
+            "icon": "vaultcapital1",
+            "slots": [
+                {
+                    "id": "Old HQ",
+                    "description": "Place an old HQ here to abandon it and move to this new location. No return will be possible.",
+                    "actionid": "explore",
+                    "required": {
+                        "hq": 1
+                    }
+                }
+            ],
+            "xtriggers": {
+                "movehq": "hq.office"
+            }
+        },
+        {
+            "id": "hq.office",
+            "label": "Secret Office",
+            "aspects": {
+                "asset": 1,
+                "space": 1,
+                "heart": 2,
+                "worth": 1,
+                "comfort": 1,
+                "deception": 1,
+                "hq": 1
+            },
+            "description": "Not too obvious, and not too far out of the way.",
+            "icon": "vaultcapital1",
+            "slots": [
+                {
+                    "id": "Cubicle",
+                    "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
+                    "actionid": "talk",
+                    "required": {
+                        "follower": 1
+                    },
+                    "forbidden": {
+                        "summoned": 1
+                    }
+                },
+                {
+                    "id": "funds",
+                    "label": "Funds",
+                    "description": "Place Funds in here to raise Grail-influence.",
+                    "actionid": "explore",
+                    "required": {
+                        "funds": 1
+                    }
+                }
+            ],
+            "xtriggers": {
+                "movehq": "hq.abandoned"
+            },
+            "unique": true
+        },
+        {
+            "id": "hq.townhouse",
+            "label": "Opulent Townhouse",
+            "aspects": {
+                "asset": 1,
+                "space": 2,
+                "comfort": 4,
+                "heart": 4,
+                "grail": 4,
+                "worth": 4,
+                "deception": 1,
+                "hq": 1,
+                "location": 1,
+                "library": 1
+            },
+            "description": "We always close the curtains tight before we roll back the rugs and mark the floor with chalk.",
+            "slots": [
+                {
+                    "id": "Attic",
+                    "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
+                    "actionid": "talk",
+                    "required": {
+                        "follower": 1
+                    },
+                    "forbidden": {
+                        "summoned": 1
+                    }
+                },
+                {
+                    "id": "funds",
+                    "label": "Funds",
+                    "description": "Place Funds in here to raise Grail-influence.",
+                    "actionid": "explore",
+                    "required": {
+                        "funds": 1
+                    }
+                }
+            ],
+            "xtriggers": {
+                "movehq": "hq.abandoned"
+            },
+            "unique": true
         },
         {
             "id": "townhouse",
@@ -443,10 +518,24 @@
                 "heart": 4,
                 "grail": 4,
                 "worth": 4,
-                "deception": 1
+                "deception": 1,
+                "hq.potential": 1
             },
             "description": "The envy of every passerby. Let's close the curtains tightly.",
-            "icon": "hq.townhouse"
+            "icon": "hq.townhouse",
+            "slots": [
+                {
+                    "id": "Old HQ",
+                    "description": "Place an old HQ here to abandon it and move to this new location. No return will be possible.",
+                    "actionid": "explore",
+                    "required": {
+                        "hq": 1
+                    }
+                }
+            ],
+            "xtriggers": {
+                "movehq": "hq.townhouse"
+            }
         },
         {
             "id": "townhouse.jannings",
@@ -457,9 +546,66 @@
                 "comfort": 4,
                 "heart": 4,
                 "grail": 4,
-                "deception": 1
+                "deception": 1,
+                "hq.potential": 1
             },
             "description": "The envy of every passerby. Let's close the curtains tightly.",
+            "slots": [
+                {
+                    "id": "Old HQ",
+                    "description": "Place an old HQ here to abandon it and move to this new location. No return will be possible.",
+                    "actionid": "explore",
+                    "required": {
+                        "hq": 1
+                    }
+                }
+            ],
+            "xtriggers": {
+                "movehq": "hq.townhouse.jannings"
+            },
+            "icon": "hq.townhouse"
+        },
+        {
+            "id": "hq.townhouse.jannings",
+            "label": "Jannings' Opulent Townhouse",
+            "aspects": {
+                "asset": 1,
+                "space": 2,
+                "comfort": 4,
+                "heart": 4,
+                "grail": 4,
+                "deception": 1,
+                "hq": 1,
+                "location": 1,
+                "library": 1
+            },
+            "description": "We always close the curtains tight before we roll back the rugs and mark the floor with chalk.",
+            "slots": [
+                {
+                    "id": "Attic",
+                    "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
+                    "actionid": "talk",
+                    "required": {
+                        "follower": 1
+                    },
+                    "forbidden": {
+                        "summoned": 1
+                    }
+                },
+                {
+                    "id": "funds",
+                    "label": "Funds",
+                    "description": "Place Funds in here to raise Grail-influence.",
+                    "actionid": "explore",
+                    "required": {
+                        "funds": 1
+                    }
+                }
+            ],
+            "xtriggers": {
+                "movehq": "hq.abandoned"
+            },
+            "unique": true,
             "icon": "hq.townhouse"
         },
         {
@@ -473,10 +619,71 @@
                 "heart": 6,
                 "grail": 6,
                 "deception": 1,
-                "worth": 8
+                "worth": 8,
+                "hq.potential": 1
             },
             "description": "I could live out my days here very happily, if it weren't for certain immediate practical difficulties...",
-            "icon": "vaultcontinent5"
+            "icon": "vaultcontinent5",
+            "slots": [
+                {
+                    "id": "Old HQ",
+                    "description": "Place an old HQ here to abandon it and move to this new location. No return will be possible.",
+                    "actionid": "explore",
+                    "required": {
+                        "hq": 1
+                    }
+                }
+            ],
+            "xtriggers": {
+                "movehq": "hq.townhouse.jannings"
+            }
+        },
+        {
+            "id": "hq.villa",
+            "label": "Beautiful Villa",
+            "aspects": {
+                "asset": 1,
+                "space": 2,
+                "comfort": 8,
+                "forge": 6,
+                "heart": 6,
+                "grail": 6,
+                "deception": 1,
+                "worth": 8,
+                "hq": 1,
+                "sanctuary": 1,
+                "secret": 1,
+                "library": 1,
+                "pit": 1
+            },
+            "icon": "vaultcontinent5",
+            "description": "I could live out my days here very happily, if it weren't for certain immediate practical difficulties...",
+            "slots": [
+                {
+                    "id": "Dungeon",
+                    "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
+                    "actionid": "talk",
+                    "required": {
+                        "follower": 1
+                    },
+                    "forbidden": {
+                        "summoned": 1
+                    }
+                },
+                {
+                    "id": "funds",
+                    "label": "Funds",
+                    "description": "Place Funds in here to raise Grail-influence.",
+                    "actionid": "explore",
+                    "required": {
+                        "funds": 1
+                    }
+                }
+            ],
+            "xtriggers": {
+                "movehq": "hq.abandoned"
+            },
+            "unique": true
         }
     ]
 }

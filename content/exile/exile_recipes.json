@@ -2152,6 +2152,9 @@
                     "level": 0
                 }
             ],
+            "effects": {
+                "hq.temporary": 1
+            },
             "warmup": 10
         },
         {

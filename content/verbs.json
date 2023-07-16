@@ -100,7 +100,8 @@
             "slot$dictedit": {
                 "required$add": {
                     "funds": 1,
-                    "domicile": 1
+                    "domicile": 1,
+                    "space": 1
                 }
             }
         }

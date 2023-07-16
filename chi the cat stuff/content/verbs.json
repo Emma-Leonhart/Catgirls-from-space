@@ -17,7 +17,8 @@
             "id": "explore",
             "slot$add": {
                 "ability": 1,
-                "hand": 1
+                "hand": 1,
+                "space": 1
             }
         }
     ]

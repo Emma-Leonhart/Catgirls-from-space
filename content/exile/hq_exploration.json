@@ -11,13 +11,76 @@
                 "hq.potential": 1
             },
             "aspects": {
+                
+            },
+            "craftable": true,
+            "linked":[
+                {
+                    "id": "exploremovehq.trace",
+                    "chance": 100
+                },
+                {
+                    "id": "exploremovehq.notoriety",
+                    "chance": 100
+                },
+                {
+                    "id": "exploremovehq.mystique",
+                    "chance": 100
+                }
+            ],
+            "warmup": 0,
+            "slots":[]
+        },
+        {
+            "id": "exploremovehq.trace",
+            "actionid": "explore",
+            "label": "A Change of Premises",
+            "startdescription": "Move our organisation's headquarters to a new location. [This will permanently relocate your headquarters. No return is possible. It can reduce Notoriety.]",
+            "description": "No address is really ever permanent. Like our bodies, we leave them all in the end. But for now, this is home.",
+            "requirements": {
+                "hq": 1,
+                "hq.potential": 1
+            },
+            "Tablereqs": {"trace": 1},
+            "aspects": {
                 "movehq": 1
             },
             "slots": [
                 {
                     "id": "coldtrail",
                     "label": "A Cold Trail",
-                    "description": "When we move, the Suppression Bureau may waste time investigating our old location.",
+                    "description": "When we move, the assasins may waste time investigating our old location.",
+                    "greedy": true,
+                    "required": {
+                        "trace": 1
+                    }
+                }
+            ],
+            "effects": {
+                "trace": -1
+            },
+            "warmup": 60,
+            "craftable": false
+        },
+        {
+            "id": "exploremovehq.notoriety",
+            "actionid": "explore",
+            "label": "A Change of Premises",
+            "startdescription": "Move our organisation's headquarters to a new location. [This will permanently relocate your headquarters. No return is possible. It can reduce Notoriety.]",
+            "description": "No address is really ever permanent. Like our bodies, we leave them all in the end. But for now, this is home.",
+            "requirements": {
+                "hq": 1,
+                "hq.potential": 1
+            },
+            "Tablereqs": {"notoriety": 1},
+            "aspects": {
+                "movehq": 1
+            },
+            "slots": [
+                {
+                    "id": "coldtrail",
+                    "label": "A Cold Trail",
+                    "description": "When we move, the police may waste time investigating our old location.",
                     "greedy": true,
                     "required": {
                         "notoriety": 1
@@ -28,7 +91,37 @@
                 "notoriety": -1
             },
             "warmup": 60,
-            "craftable": true
+            "craftable": false
+        },
+        {
+            "id": "exploremovehq.mystique",
+            "actionid": "explore",
+            "label": "A Change of Premises",
+            "startdescription": "Move our organisation's headquarters to a new location. [This will permanently relocate your headquarters. No return is possible. It can reduce Notoriety.]",
+            "description": "No address is really ever permanent. Like our bodies, we leave them all in the end. But for now, this is home.",
+            "requirements": {
+                "hq": 1,
+                "hq.potential": 1
+            },
+            "aspects": {
+                "movehq": 1
+            },
+            "slots": [
+                {
+                    "id": "coldtrail",
+                    "label": "A Cold Trail",
+                    "description": "When we move, the police may waste time investigating our old location.",
+                    "greedy": true,
+                    "required": {
+                        "mystique": 1
+                    }
+                }
+            ],
+            "effects": {
+                "mystique": -1
+            },
+            "warmup": 60,
+            "craftable": false
         },
         {
             "id": "explorehq.townhouse",
