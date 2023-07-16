@@ -117,7 +117,9 @@
                         "vitality": 1,
                         "eruditionplus": 1,
                         "glimmeringplus": 1,
-                        "vitalityplus": 1
+                        "vitalityplus": 1,
+                        "influenceknock": 1,
+                        "influencesecret": 1
                     }
                 },
                 {
@@ -162,7 +164,9 @@
                         "influencehandc": 1,
                         "influencelanternc": 1,
                         "influencemothc": 1,
-                        "influencewinterc": 1
+                        "influencewinterc": 1,
+                        "influenceknockc": 1,
+                        "influencesecretc": 1
                     }
                 },
                 {
@@ -207,7 +211,9 @@
                         "influencehande": 1,
                         "influencelanterne": 1,
                         "influencemothe": 1,
-                        "influencewintere": 1
+                        "influencewintere": 1,
+                        "influenceknocke": 1,
+                        "influencesecrete": 1
                     }
                 },
                 {

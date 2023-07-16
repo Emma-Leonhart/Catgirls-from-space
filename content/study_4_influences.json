@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "studyugradeknockinfluence",
+            "id": "studyugradehandinfluence",
             "label": "Accelerate Fractures",
             "actionid": "study",
             "requirements": {
@@ -10,10 +10,10 @@
                 "reasonskill": -1,
                 "passionskill": -1,
                 "lore": 1,
-                "knock": 1
+                "hand": 1
             },
             "effects": {
-                "project_influence_upgrade_subvert_knock": 1
+                "project_influence_upgrade_subvert_hand": 1
             },
             "linked": [
                 {
@@ -21,7 +21,7 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "Apply pressure to the skin of the world, and it will part like the skin of a ripe fruit. [Any influence studied with Knock becomes Knock.]",
+            "startdescription": "Apply pressure to the skin of the world, and it will part like the skin of a ripe fruit. [Any influence studied with hand becomes hand.]",
             "description": ".",
             "warmup": 5,
             "craftable": true
@@ -39,7 +39,7 @@
                 "edge": 1,
                 "winter": -1,
                 "forge": -1,
-                "knock": -1
+                "hand": -1
             },
             "effects": {
                 "project_influence_upgrade_edge": 1
@@ -109,7 +109,7 @@
                 "forge": 1,
                 "edge": -1,
                 "lantern": -1,
-                "knock": -1
+                "hand": -1
             },
             "effects": {
                 "project_influence_upgrade_forge": 1
@@ -163,7 +163,7 @@
                 "grail": 1,
                 "moth": -1,
                 "heart": -1,
-                "knock": -1
+                "hand": -1
             },
             "effects": {
                 "project_influence_upgrade_grail": 1
@@ -217,7 +217,7 @@
                 "heart": 1,
                 "grail": -1,
                 "winter": -1,
-                "knock": -1
+                "hand": -1
             },
             "effects": {
                 "project_influence_upgrade_heart": 1
@@ -271,7 +271,7 @@
                 "lantern": 1,
                 "forge": -1,
                 "moth": -1,
-                "knock": -1
+                "hand": -1
             },
             "effects": {
                 "project_influence_upgrade_lantern": 1
@@ -325,7 +325,7 @@
                 "moth": 1,
                 "lantern": -1,
                 "grail": -1,
-                "knock": -1
+                "hand": -1
             },
             "alt": [
                 {
@@ -392,7 +392,7 @@
                 "lore": 1,
                 "winter": 1,
                 "heart": -1,
-                "knock": -1
+                "hand": -1
             },
             "effects": {
                 "project_influence_upgrade_winter": 1
@@ -500,9 +500,9 @@
                     "chance": 100
                 },
                 {
-                    "id": "studyproject_influence_upgrade_subvert_knock",
+                    "id": "studyproject_influence_upgrade_subvert_hand",
                     "chance": 100
-                }
+                } 
             ]
         },
         {
@@ -758,11 +758,11 @@
             "description": "Winter's coming must yield at last to spring."
         },
         {
-            "id": "studyproject_influence_upgrade_subvert_knock",
+            "id": "studyproject_influence_upgrade_subvert_hand",
             "label": "The Skin of the World",
             "actionid": "study",
             "requirements": {
-                "project_influence_upgrade_subvert_knock": 1
+                "hand": 1
             },
             "effects": {
                 "influenceedge": -1,
@@ -792,7 +792,11 @@
                 "influencewinter": -1,
                 "influencewinterc": -1,
                 "influencewintere": -1,
-                "influencewinterg": -1
+                "influencewinterg": -1,
+                "influenceknock": -1,
+                "influenceknockc": -1,
+                "influenceknocke": -1,
+                "influenceknockg": -1
             },
             "aspects": {
                 "upgradeinfluence": 1
@@ -800,24 +804,24 @@
             "description": "Place pressure upon a weakness, and rend the skin of the world.",
             "linked": [
                 {
-                    "id": "studyproject_influence_upgrade_subvert_knock_remove_spare_knock",
+                    "id": "studyproject_influence_upgrade_subvert_hand_remove_spare_hand",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "studyproject_influence_upgrade_subvert_knock_remove_spare_knock",
+            "id": "studyproject_influence_upgrade_subvert_hand_remove_spare_hand",
             "label": "All Shall Be Opened",
-            "comments": "This exists to remove a Knock influence, if we were combining Knock influences rather than Knock + another. Dangit Kennedy you wouldn't need hacks like this if you'd implemented OR conditions. Aspects don't *quite* always cut it.",
+            "comments": "This exists to remove a hand influence, if we were combining hand influences rather than hand + another. Dangit Kennedy you wouldn't need hacks like this if you'd implemented OR conditions. Aspects don't *quite* always cut it.",
             "actionid": "study",
             "requirements": {
                 "influence": 2
             },
             "effects": {
-                "influenceknock": -1,
-                "influenceknockc": -1,
-                "influenceknocke": -1,
-                "influenceknockg": -1
+                "influencehand": -1,
+                "influencehandc": -1,
+                "influencehande": -1,
+                "influencehandg": -1
             },
             "description": "."
         }

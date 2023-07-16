@@ -16,8 +16,16 @@
                     "label": "With",
                     "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead.",
                     "required": {
-                        "fragmenthand": 1,
-                        "fragmentlantern": 1
+                        "influenceedge": 1,
+                        "influenceforge": 1,
+                        "influencegrail": 1,
+                        "influenceheart": 1,
+                        "influencehand": 1,
+                        "influencelantern": 1,
+                        "influencemoth": 1,
+                        "influencewinter": 1,
+                        "influenceknock": 1,
+                        "influencesecret": 1
                     },
                     "actionid": "study"
                 }
@@ -42,8 +50,16 @@
                     "label": "With",
                     "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
                     "required": {
-                        "fragmenthandb": 1,
-                        "fragmentlanternb": 1,
+                        "influenceedgeb": 1,
+                        "influenceforgeb": 1,
+                        "influencegrailb": 1,
+                        "influenceheartb": 1,
+                        "influencehandb": 1,
+                        "influencelanternb": 1,
+                        "influencemothb": 1,
+                        "influencewinterb": 1,
+                        "influenceknockb": 1,
+                        "influencesecretb": 1,
                         "reason": 1
                     },
                     "actionid": "study"
@@ -70,8 +86,16 @@
                     "label": "With",
                     "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
                     "required": {
-                        "fragmenthandc": 1,
-                        "fragmentlanternc": 1,
+                        "influenceedgec": 1,
+                        "influenceforgec": 1,
+                        "influencegrailc": 1,
+                        "influenceheartc": 1,
+                        "influencehandc": 1,
+                        "influencelanternc": 1,
+                        "influencemothc": 1,
+                        "influencewinterc": 1,
+                        "influenceknockc": 1,
+                        "influencesecretc": 1,
                         "reason": 1
                     },
                     "actionid": "study"
@@ -98,8 +122,16 @@
                     "label": "With",
                     "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
                     "required": {
-                        "fragmenthandd": 1,
-                        "fragmentlanternd": 1,
+                        "influenceedged": 1,
+                        "influenceforged": 1,
+                        "influencegraild": 1,
+                        "influenceheartd": 1,
+                        "influencehandd": 1,
+                        "influencelanternd": 1,
+                        "influencemothd": 1,
+                        "influencewinterd": 1,
+                        "influenceknockd": 1,
+                        "influencesecretd": 1,
                         "reason": 1
                     },
                     "actionid": "study"
@@ -127,8 +159,16 @@
                     "label": "With",
                     "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
                     "required": {
-                        "fragmenthande": 1,
-                        "fragmentlanterne": 1,
+                        "influenceedgee": 1,
+                        "influenceforgee": 1,
+                        "influencegraile": 1,
+                        "influencehearte": 1,
+                        "influencehande": 1,
+                        "influencelanterne": 1,
+                        "influencemothe": 1,
+                        "influencewintere": 1,
+                        "influenceknocke": 1,
+                        "influencesecrete": 1,
                         "reason": 1
                     },
                     "actionid": "study"
@@ -156,8 +196,16 @@
                     "label": "With",
                     "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
                     "required": {
-                        "fragmenthandf": 1,
-                        "fragmentlanternf": 1,
+                        "influenceedgef": 1,
+                        "influenceforgef": 1,
+                        "influencegrailf": 1,
+                        "influenceheartf": 1,
+                        "influencehandf": 1,
+                        "influencelanternf": 1,
+                        "influencemothf": 1,
+                        "influencewinterf": 1,
+                        "influenceknockf": 1,
+                        "influencesecretf": 1,
                         "reason": 1
                     },
                     "actionid": "study"
