@@ -214,7 +214,17 @@
             "startdescription": "Whenever the principle of The Pride is invoked, its influence may surge within me.",
             "description": "The rhythm of my heart is in harmony with the shared beat of humanity.",
             "warmup": 30,
-            "craftable": false
+            "craftable": false,
+            "slots": [
+                {
+                    "id": "work",
+                    "label": "Some extra effort",
+                    "description": "Will I explore this influence further",
+                    "required": {
+                        "health": 1
+                    }
+                }
+            ]
         },
         {
             "id": "winter.induction",
@@ -226,7 +236,17 @@
             "startdescription": "As I engage in Inner Dialogue, the winter's icy touch may resonate within me.",
             "description": "A serene calm blankets my mind; silence is now a comforting companion.",
             "warmup": 30,
-            "craftable": false
+            "craftable": false,
+            "slots": [
+                {
+                    "id": "work",
+                    "label": "Some extra effort",
+                    "description": "Will I explore this influence further",
+                    "required": {
+                        "health": 1
+                    }
+                }
+            ]
         },
         {
             "id": "secret_histories.induction",
@@ -238,7 +258,17 @@
             "startdescription": "As I engage in the act of Enlensing, the secret histories may etch themselves within me.",
             "description": "I perceive life from a renewed perspective, hidden truths unveil their surreal beauty.",
             "warmup": 30,
-            "craftable": false
+            "craftable": false,
+            "slots": [
+                {
+                    "id": "work",
+                    "label": "Some extra effort",
+                    "description": "Will I explore this influence further",
+                    "required": {
+                        "health": 1
+                    }
+                }
+            ]
         },
         {
             "id": "lanterninduction",
@@ -250,7 +280,17 @@
             "startdescription": "When I Remember, the lantern's radiance may shed its illuminating influence.",
             "description": "Long-lost memories emerge from the fog of the forgotten past, now clear as crystal.",
             "warmup": 30,
-            "craftable": false
+            "craftable": false,
+            "slots": [
+                {
+                    "id": "work",
+                    "label": "Some extra effort",
+                    "description": "Will I explore this influence further",
+                    "required": {
+                        "reason": 1
+                    }
+                }
+            ]
         },
         {
             "id": "grailinduction",
@@ -262,7 +302,17 @@
             "startdescription": "There is an influence to be gained from the act of Counter-Spiralling.",
             "description": "I venture beyond the spiral's pull, revelling in the spectrum of experience.",
             "warmup": 30,
-            "craftable": false
+            "craftable": false,
+            "slots": [
+                {
+                    "id": "work",
+                    "label": "Some extra effort",
+                    "description": "Will I explore this influence further",
+                    "required": {
+                        "reason": 1
+                    }
+                }
+            ]
         },
         {
             "id": "edge.induction",
@@ -274,7 +324,17 @@
             "startdescription": "Engaging with the Flow may cast a sharp influence on my spirit.",
             "description": "I traverse life's currents, my resilience rendering me invincible against adversity.",
             "warmup": 30,
-            "craftable": false
+            "craftable": false,
+            "slots": [
+                {
+                    "id": "work",
+                    "label": "Some extra effort",
+                    "description": "Will I explore this influence further",
+                    "required": {
+                        "reason": 1
+                    }
+                }
+            ]
         },
         {
             "id": "knock.induction",
@@ -286,7 +346,17 @@
             "startdescription": "In creating Antibodies, the Knock's influence may resonate within me.",
             "description": "I liberate myself from external chains, becoming immune to the foreign within.",
             "warmup": 30,
-            "craftable": false
+            "craftable": false,
+            "slots": [
+                {
+                    "id": "work",
+                    "label": "Some extra effort",
+                    "description": "Will I explore this influence further",
+                    "required": {
+                        "passion": 1
+                    }
+                }
+            ]
         },
         {
             "id": "forge.induction",
@@ -298,7 +368,17 @@
             "startdescription": "In the process of Ego Loosening, the Forge's influence may radiate from me.",
             "description": "I reshape my identity like malleable metal, embracing change and fostering growth.",
             "warmup": 30,
-            "craftable": false
+            "craftable": false,
+            "slots": [
+                {
+                    "id": "work",
+                    "label": "Some extra effort",
+                    "description": "Will I explore this influence further",
+                    "required": {
+                        "passion": 1
+                    }
+                }
+            ]
         },
         {
             "id": "mothinduction",
@@ -310,7 +390,17 @@
             "startdescription": "The act of Larping may imbue me with the fluttering influence of the Moth.",
             "description": "I flit between personas, tasting myriad perspectives, unshackled from my singular viewpoint.",
             "warmup": 30,
-            "craftable": false
+            "craftable": false,
+            "slots": [
+                {
+                    "id": "work",
+                    "label": "Some extra effort",
+                    "description": "Will I explore this influence further",
+                    "required": {
+                        "passion": 1
+                    }
+                }
+            ]
         },
         {
             "id": "hand.induction",
@@ -322,7 +412,17 @@
             "startdescription": "Grasping the mechanism of the Invisible Hand may imbue an insatiable restlessness within me.",
             "description": "The shroud lifts, revealing the machinations of capital's cold, calculating control.",
             "warmup": 30,
-            "craftable": false
+            "craftable": false,
+            "slots": [
+                {
+                    "id": "work",
+                    "label": "Some extra effort",
+                    "description": "Will I explore this influence further",
+                    "required": {
+                        "moneyskill": 1
+                    }
+                }
+            ]
         },
         {
             "id": "dreadinduction",
