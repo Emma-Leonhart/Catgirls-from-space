@@ -209,10 +209,10 @@
             "label": "Invoking The Pride",
             "actionid": "heartinduction",
             "effects": {
-                "previtality": 1
+                "influenceheartc": 1
             },
-            "startdescription": "Whenever the principle of The Pride is invoked, I may experience an increase in Vitality.",
-            "description": "The rhythm of my heart pounds in time with the shared beat of humanity.",
+            "startdescription": "Whenever the principle of The Pride is invoked, its influence may surge within me.",
+            "description": "The rhythm of my heart is in harmony with the shared beat of humanity.",
             "warmup": 30,
             "craftable": false
         },
@@ -221,10 +221,10 @@
             "label": "Inner Dialogue Commenced",
             "actionid": "winter.induction",
             "effects": {
-                "previtality": 1
+                "influencewinterc": 1
             },
-            "startdescription": "As I engage in Inner Dialogue, my Vitality may rise.",
-            "description": "A serene calm blankets my mind, silence becomes a comforting companion.",
+            "startdescription": "As I engage in Inner Dialogue, the winter's icy touch may resonate within me.",
+            "description": "A serene calm blankets my mind; silence is now a comforting companion.",
             "warmup": 30,
             "craftable": false
         },
@@ -233,10 +233,10 @@
             "label": "Enlensing the Absurd",
             "actionid": "secret_histories.induction",
             "effects": {
-                "previtality": 1
+                "influencesecretc": 1
             },
-            "startdescription": "As I engage in the act of Enlensing, my Vitality may be restored.",
-            "description": "I perceive life from a renewed perspective, hidden truths unveil their beauty.",
+            "startdescription": "As I engage in the act of Enlensing, the secret histories may etch themselves within me.",
+            "description": "I perceive life from a renewed perspective, hidden truths unveil their surreal beauty.",
             "warmup": 30,
             "craftable": false
         },
@@ -245,10 +245,10 @@
             "label": "Ritual of Remembering",
             "actionid": "lanterninduction",
             "effects": {
-                "preerudition": 1
+                "influencelanternc": 1
             },
-            "startdescription": "When I Remember, I may gain additional scraps of knowledge.",
-            "description": "Long-lost memories emerge from the fog of forgotten past, now clear as crystal.",
+            "startdescription": "When I Remember, the lantern's radiance may shed its illuminating influence.",
+            "description": "Long-lost memories emerge from the fog of the forgotten past, now clear as crystal.",
             "warmup": 30,
             "craftable": false
         },
@@ -257,10 +257,10 @@
             "label": "Path of Counter-Spiralling",
             "actionid": "grailinduction",
             "effects": {
-                "preglimmering": 1
+                "influencegrailc": 1
             },
-            "startdescription": "There is knowledge to be gained from the act of Counter-Spiralling.",
-            "description": "I venture beyond the spiral's pull, reveling in the spectrum of experience.",
+            "startdescription": "There is an influence to be gained from the act of Counter-Spiralling.",
+            "description": "I venture beyond the spiral's pull, revelling in the spectrum of experience.",
             "warmup": 30,
             "craftable": false
         },
@@ -269,9 +269,9 @@
             "label": "The Flow's Embrace",
             "actionid": "edge.induction",
             "effects": {
-                "preglimmering": 1
+                "influenceedgec": 1
             },
-            "startdescription": "Engaging with the Flow may shed light on previously hidden insights.",
+            "startdescription": "Engaging with the Flow may cast a sharp influence on my spirit.",
             "description": "I traverse life's currents, my resilience rendering me invincible against adversity.",
             "warmup": 30,
             "craftable": false
@@ -281,9 +281,9 @@
             "label": "Cultivation of Antibodies",
             "actionid": "knock.induction",
             "effects": {
-                "preglimmering": 1
+                "influenceknockc": 1
             },
-            "startdescription": "In creating Antibodies, I may gain hidden insights.",
+            "startdescription": "In creating Antibodies, the Knock's influence may resonate within me.",
             "description": "I liberate myself from external chains, becoming immune to the foreign within.",
             "warmup": 30,
             "craftable": false
@@ -293,9 +293,9 @@
             "label": "Ego's Unbinding",
             "actionid": "forge.induction",
             "effects": {
-                "preglimmering": 1
+                "influenceforgec": 1
             },
-            "startdescription": "In the process of Ego Loosening, there is wisdom to be unearthed.",
+            "startdescription": "In the process of Ego Loosening, the Forge's influence may radiate from me.",
             "description": "I reshape my identity like malleable metal, embracing change and fostering growth.",
             "warmup": 30,
             "craftable": false
@@ -305,9 +305,9 @@
             "label": "The Larping Game",
             "actionid": "mothinduction",
             "effects": {
-                "prerestlessness": 1
+                "influencemothc": 1
             },
-            "startdescription": "The act of Larping may bring forth unforeseen revelations.",
+            "startdescription": "The act of Larping may imbue me with the fluttering influence of the Moth.",
             "description": "I flit between personas, tasting myriad perspectives, unshackled from my singular viewpoint.",
             "warmup": 30,
             "craftable": false
@@ -317,22 +317,10 @@
             "label": "Invisible Hand Revealed",
             "actionid": "hand.induction",
             "effects": {
-                "prefascination": 1
+                "influencehandc": 1
             },
-            "startdescription": "Grasping the mechanism of the Invisible Hand may induce an inexplicable restlessness.",
+            "startdescription": "Grasping the mechanism of the Invisible Hand may imbue an insatiable restlessness within me.",
             "description": "The shroud lifts, revealing the machinations of capital's cold, calculating control.",
-            "warmup": 30,
-            "craftable": false
-        },
-        {
-            "id": "mothglimmeringinduction",
-            "label": "The Dark, the Light",
-            "actionid": "mothinduction",
-            "effects": {
-                "preglimmering": 1
-            },
-            "startdescription": "Moth finds the light in the dark, and so do I.",
-            "description": "What could I be if I could be not this?",
             "warmup": 30,
             "craftable": false
         },
