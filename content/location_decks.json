@@ -6,13 +6,8 @@
             "description": "Easily overlooked locations.",
             "spec": [
                     "op.curio.lantern2",
-                    "op.licence.import",
                     "op.office",
                     "op.warehouse",
-                    "op.sulochana",
-                    "op.sea",
-                    "op.sea",
-                    "op.dawn",
                     "op.weapon.a",
                     "locationauctionhouse",
                     "locationcabaret",
@@ -20,7 +15,6 @@
                     "locationstreetsstrange",
                     "location.cemetery",
                     "location.temple",
-                    "op.dance",
                     "op.hireling"
             ],
             "defaultcard": "location.temple",
