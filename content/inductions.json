@@ -317,7 +317,7 @@
             "label": "Invisible Hand Revealed",
             "actionid": "hand.induction",
             "effects": {
-                "prerestlessness": 1
+                "prefascination": 1
             },
             "startdescription": "Grasping the mechanism of the Invisible Hand may induce an inexplicable restlessness.",
             "description": "The shroud lifts, revealing the machinations of capital's cold, calculating control.",
