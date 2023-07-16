@@ -33,9 +33,9 @@
         {
             "id": "explorehq.townhouse",
             "actionid": "explore",
-            "label": "--",
-            "startdescription": "--",
-            "description": "--",
+            "label": "Quiet Respectability",
+            "startdescription": "The townhouse holds a veneer of respectable civility. Beyond its façade, we can prepare a sanctuary for our pursuits. [This might cost some Funds]",
+            "description": "A genteel shell on the outside, within it pulsates with the heartbeat of our hidden purpose. Our secrets are safe under the guise of the townhouse's respectable silence.",
             "requirements": {
                 "hq.townhouse": 1,
                 "funds": 1
