@@ -142,7 +142,7 @@
             ],
             "linked":[
                 {
-                    "id": "all_induction_knock",
+                    "id": "all_induction_forge",
                     "chance": 100
                 }
             ]
@@ -218,7 +218,7 @@
         },
         {
             "id": "winter.induction",
-            "label": "The Course of the Heart",
+            "label": "PLACEHOLDER TITLE",
             "actionid": "winter.induction",
             "effects": {
                 "previtality": 1
@@ -230,7 +230,7 @@
         },
         {
             "id": "secret_histories.induction",
-            "label": "The Course of the Heart",
+            "label": "PLACEHOLDER TITLE",
             "actionid": "secret_histories.induction",
             "effects": {
                 "previtality": 1
@@ -266,7 +266,7 @@
         },
         {
             "id": "edge.induction",
-            "label": "The Place Behind Desire",
+            "label": "PLACEHOLDER TITLE",
             "actionid": "edge.induction",
             "effects": {
                 "preglimmering": 1
@@ -278,7 +278,7 @@
         },
         {
             "id": "knock.induction",
-            "label": "The Place Behind Desire",
+            "label": "PLACEHOLDER TITLE",
             "actionid": "knock.induction",
             "effects": {
                 "preglimmering": 1
@@ -290,7 +290,7 @@
         },
         {
             "id": "forge.induction",
-            "label": "The Place Behind Desire",
+            "label": "PLACEHOLDER TITLE",
             "actionid": "knock.induction",
             "effects": {
                 "preglimmering": 1
@@ -314,7 +314,7 @@
         },
         {
             "id": "hand.induction",
-            "label": "Old Unhappy Far-off Things",
+            "label": "PLACEHOLDER TITLE",
             "actionid": "hand.induction",
             "effects": {
                 "prerestlessness": 1

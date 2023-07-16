@@ -7,7 +7,7 @@
                         "isAspect": true,
                         "induces": [
                             {
-                                "id": "heartinduction",
+                                "id": "hand.induction",
                                 "comment": "originally heartinduction",
                                 "chance": 10
                             }
@@ -32,64 +32,118 @@
                         "isAspect": true
                     },
                     {
-                        "id": "heart",
-                        "label": "Heart",
-                        "description": "[AA] The Heart represents vitality, emotion, and human connection. Just as Heart bolsters power with human bonds and emotions, The Pride aims to bridge alienation and restore communal unity.",
-                        "isAspect": true
-                    },
-                    {
-                        "id": "winter",
-                        "label": "Winter",
-                        "description": "[AL] The Winter aspect mirrors the calming effect of the Inner Dialogue, akin to a period of mental hibernation where individuals process emotions and experiences, creating a soothing refuge from anxiety.",
-                        "isAspect": true
-                    },
-                    {
-                        "id": "secrethistories",
-                        "label": "Secret Histories",
-                        "description": "[AO] Secret Histories correspond to hidden truths and obscured knowledge, mirroring the aim of Enlensing to reframe perspectives, seeking hidden meanings, and approaching life's mysteries with a fresh lens.",
-                        "isAspect": true
-                    },
-                    {
                         "id": "venerationsecret",
                         "label": "Veneration: Secret Histories",
                         "description": "This organization explores the principle of Secret Histories, using Enlensing to unearth hidden truths, find obscured meanings, and approach mysteries from fresh perspectives.",
                         "isAspect": true
                     },
                     {
+                        "id": "heart",
+                        "label": "Heart",
+                        "description": "[AA] The Heart represents vitality, emotion, and human connection. Just as Heart bolsters power with human bonds and emotions, The Pride aims to bridge alienation and restore communal unity.",
+                        "isAspect": true,
+                        "induces": [
+                            {
+                                "id": "heartinduction",
+                                "chance": 10
+                            }
+                        ]
+                    },
+                    {
+                        "id": "winter",
+                        "label": "Winter",
+                        "description": "[AL] The Winter aspect mirrors the calming effect of the Inner Dialogue, akin to a period of mental hibernation where individuals process emotions and experiences, creating a soothing refuge from anxiety.",
+                        "isAspect": true,
+                        "induces": [
+                            {
+                                "id": "winter.induction",
+                                "chance": 10
+                            }
+                        ]
+                    },
+                    {
+                        "id": "secrethistories",
+                        "label": "Secret Histories",
+                        "description": "[AO] Secret Histories correspond to hidden truths and obscured knowledge, mirroring the aim of Enlensing to reframe perspectives, seeking hidden meanings, and approaching life's mysteries with a fresh lens.",
+                        "isAspect": true,
+                        "induces": [
+                            {
+                                "id": "secret_histories.induction",
+                                "chance": 10
+                            }
+                        ]
+                    },
+                    {
                         "id": "lantern",
                         "label": "Lantern",
                         "description": "[LA] The Lantern embodies enlightenment, understanding, and knowledge. Remembering shares this focus on illumination, bringing obscured or forgotten experiences back into the light.",
-                        "isAspect": true
+                        "isAspect": true,
+                        "induces": [
+                            {
+                                "id": "lanterninduction",
+                                "chance": 5
+                            }
+                        ]
                     },
                     {
                         "id": "grail",
                         "label": "Grail",
                         "description": "[LL] The Grail symbolizes desire and physical experiences. Counter-Spiralling, aligns well with the Grail, offering a broader, more enriching view of life through diverse experiences.",
-                        "isAspect": true
+                        "isAspect": true,
+                        "induces": [
+                            {
+                                "id": "grailinduction",
+                                "chance": 5
+                            }
+                        ]
                     },
                     {
                         "id": "edge",
                         "label": "Edge",
                         "description": "[LO] The Edge stands for overcoming challenges, synonymous with Flow, representing the endeavor to overcome the sensation of drowning in one's problems, achieving a state of effortless performance.",
-                        "isAspect": true
+                        "isAspect": true,
+                        "induces": [
+                            {
+                                "id": "edge.induction",
+                                "chance": 10
+                            }
+                        ]
                     },
                     {
                         "id": "knock",
                         "label": "Knock",
                         "description": "[OA] The Knock signifies transitions and the overcoming of barriers, finds a counterpart in Antibodies, providing a way to neutralize harmful foreign influences, liberating individuals from the chains of external entrapment.",
-                        "isAspect": true
+                        "isAspect": true,
+                        "induces": [
+                            {
+                                "id": "knock.induction",
+                                "chance": 10
+                            }
+                        ]
                     },
                     {
                         "id": "forge",
                         "label": "Forge",
                         "description": "[OL] The Forge stands for transformation and change, paralleling the process of Ego Loosening. This aspect echoes the personal metamorphosis facilitated by Ego Loosening, underscoring the value of adaptability and self-reinvention.",
-                        "isAspect": true
+                        "isAspect": true,
+                        "induces": [
+                            {
+                                "id": "forge.induction",
+                                "chance": 10
+                            }
+                        ]
                     },
                     {
                         "id": "moth",
                         "label": "Moth",
                         "description": "[OO] The Moth represents secrets, dreams, transformation, and elusive elements, aligns with the concept of Larping, promoting a fluid identity by stepping into different roles and perspectives.",
-                        "isAspect": true
+                        "isAspect": true,
+                        "induces": [
+                            {
+                                "id": "mothinduction",
+                                "chance": 10
+                            }
+                        ]
                     },
                     {
                         "id": "imbalance",
