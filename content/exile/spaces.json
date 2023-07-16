@@ -404,7 +404,7 @@
                 "movehq": "hq.warehouse"
             },
             "icon": "hq.warehouse"
-        }
+        },
         {
             "id": "office",
             "label": "Discreet Office",
