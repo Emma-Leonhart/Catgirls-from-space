@@ -30,7 +30,7 @@
             "warmup": 10,
             "alt":[
                 {
-                    "id": "winterinduction",
+                    "id": "winter.induction",
                     "chance": 100,
                     "additional": true
                 }
@@ -114,7 +114,7 @@
             "warmup": 10,
             "alt":[
                 {
-                    "id": "edgeinduction",
+                    "id": "edge.induction",
                     "chance": 100,
                     "additional": true
                 }
@@ -135,7 +135,7 @@
             "warmup": 10,
             "alt":[
                 {
-                    "id": "knockinduction",
+                    "id": "knock.induction",
                     "chance": 100,
                     "additional": true
                 }
@@ -156,7 +156,7 @@
             "warmup": 10,
             "alt":[
                 {
-                    "id": "forgeinduction",
+                    "id": "forge.induction",
                     "chance": 100,
                     "additional": true
                 }
@@ -198,7 +198,7 @@
             "warmup": 10,
             "alt":[
                 {
-                    "id": "handinduction",
+                    "id": "hand.induction",
                     "chance": 100,
                     "additional": true
                 }
@@ -208,6 +208,30 @@
             "id": "heartinduction",
             "label": "The Course of the Heart",
             "actionid": "heartinduction",
+            "effects": {
+                "previtality": 1
+            },
+            "startdescription": "Whenever the principle of the Heart is implicated, I may gain Vitality.",
+            "description": "My own heart pumps more strongly, today.",
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "winter.induction",
+            "label": "The Course of the Heart",
+            "actionid": "winter.induction",
+            "effects": {
+                "previtality": 1
+            },
+            "startdescription": "Whenever the principle of the Heart is implicated, I may gain Vitality.",
+            "description": "My own heart pumps more strongly, today.",
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "secret_histories.induction",
+            "label": "The Course of the Heart",
+            "actionid": "secret_histories.induction",
             "effects": {
                 "previtality": 1
             },
@@ -241,9 +265,57 @@
             "craftable": false
         },
         {
+            "id": "edge.induction",
+            "label": "The Place Behind Desire",
+            "actionid": "edge.induction",
+            "effects": {
+                "preglimmering": 1
+            },
+            "startdescription": "Is there something to be learnt from the satisfaction of desire?",
+            "description": "This is something like enlightenment.",
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "knock.induction",
+            "label": "The Place Behind Desire",
+            "actionid": "knock.induction",
+            "effects": {
+                "preglimmering": 1
+            },
+            "startdescription": "Is there something to be learnt from the satisfaction of desire?",
+            "description": "This is something like enlightenment.",
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "forge.induction",
+            "label": "The Place Behind Desire",
+            "actionid": "knock.induction",
+            "effects": {
+                "preglimmering": 1
+            },
+            "startdescription": "Is there something to be learnt from the satisfaction of desire?",
+            "description": "This is something like enlightenment.",
+            "warmup": 30,
+            "craftable": false
+        },
+        {
             "id": "mothinduction",
             "label": "Old Unhappy Far-off Things",
             "actionid": "mothinduction",
+            "effects": {
+                "prerestlessness": 1
+            },
+            "startdescription": "Moth finds the light in the dark, and so do I.",
+            "description": "A half-glimpsed wistfulness has touched me.",
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "hand.induction",
+            "label": "Old Unhappy Far-off Things",
+            "actionid": "hand.induction",
             "effects": {
                 "prerestlessness": 1
             },
