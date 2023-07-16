@@ -206,121 +206,121 @@
         },
         {
             "id": "heartinduction",
-            "label": "The Course of the Heart",
+            "label": "Invoking The Pride",
             "actionid": "heartinduction",
             "effects": {
                 "previtality": 1
             },
-            "startdescription": "Whenever the principle of the Heart is implicated, I may gain Vitality.",
-            "description": "My own heart pumps more strongly, today.",
+            "startdescription": "Whenever the principle of The Pride is invoked, I may experience an increase in Vitality.",
+            "description": "The rhythm of my heart pounds in time with the shared beat of humanity.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "winter.induction",
-            "label": "PLACEHOLDER TITLE",
+            "label": "Inner Dialogue Commenced",
             "actionid": "winter.induction",
             "effects": {
                 "previtality": 1
             },
-            "startdescription": "Whenever the principle of the Heart is implicated, I may gain Vitality.",
-            "description": "My own heart pumps more strongly, today.",
+            "startdescription": "As I engage in Inner Dialogue, my Vitality may rise.",
+            "description": "A serene calm blankets my mind, silence becomes a comforting companion.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "secret_histories.induction",
-            "label": "PLACEHOLDER TITLE",
+            "label": "Enlensing the Absurd",
             "actionid": "secret_histories.induction",
             "effects": {
                 "previtality": 1
             },
-            "startdescription": "Whenever the principle of the Heart is implicated, I may gain Vitality.",
-            "description": "My own heart pumps more strongly, today.",
+            "startdescription": "As I engage in the act of Enlensing, my Vitality may be restored.",
+            "description": "I perceive life from a renewed perspective, hidden truths unveil their beauty.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "lanterninduction",
-            "label": "A Light in the Skull",
+            "label": "Ritual of Remembering",
             "actionid": "lanterninduction",
             "effects": {
                 "preerudition": 1
             },
-            "startdescription": "Whenever the principle of the Lantern sheds its light, I may recall additional scraps of knowledge.",
-            "description": "Dusty facts have come clear in my brain. For now, at least.",
+            "startdescription": "When I Remember, I may gain additional scraps of knowledge.",
+            "description": "Long-lost memories emerge from the fog of forgotten past, now clear as crystal.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "grailinduction",
-            "label": "The Place Behind Desire",
+            "label": "Path of Counter-Spiralling",
             "actionid": "grailinduction",
             "effects": {
                 "preglimmering": 1
             },
-            "startdescription": "Is there something to be learnt from the satisfaction of desire?",
-            "description": "This is something like enlightenment.",
+            "startdescription": "There is knowledge to be gained from the act of Counter-Spiralling.",
+            "description": "I venture beyond the spiral's pull, reveling in the spectrum of experience.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "edge.induction",
-            "label": "PLACEHOLDER TITLE",
+            "label": "The Flow's Embrace",
             "actionid": "edge.induction",
             "effects": {
                 "preglimmering": 1
             },
-            "startdescription": "Is there something to be learnt from the satisfaction of desire?",
-            "description": "This is something like enlightenment.",
+            "startdescription": "Engaging with the Flow may shed light on previously hidden insights.",
+            "description": "I traverse life's currents, my resilience rendering me invincible against adversity.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "knock.induction",
-            "label": "PLACEHOLDER TITLE",
+            "label": "Cultivation of Antibodies",
             "actionid": "knock.induction",
             "effects": {
                 "preglimmering": 1
             },
-            "startdescription": "Is there something to be learnt from the satisfaction of desire?",
-            "description": "This is something like enlightenment.",
+            "startdescription": "In creating Antibodies, I may gain hidden insights.",
+            "description": "I liberate myself from external chains, becoming immune to the foreign within.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "forge.induction",
-            "label": "PLACEHOLDER TITLE",
-            "actionid": "knock.induction",
+            "label": "Ego's Unbinding",
+            "actionid": "forge.induction",
             "effects": {
                 "preglimmering": 1
             },
-            "startdescription": "Is there something to be learnt from the satisfaction of desire?",
-            "description": "This is something like enlightenment.",
+            "startdescription": "In the process of Ego Loosening, there is wisdom to be unearthed.",
+            "description": "I reshape my identity like malleable metal, embracing change and fostering growth.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "mothinduction",
-            "label": "Old Unhappy Far-off Things",
+            "label": "The Larping Game",
             "actionid": "mothinduction",
             "effects": {
                 "prerestlessness": 1
             },
-            "startdescription": "Moth finds the light in the dark, and so do I.",
-            "description": "A half-glimpsed wistfulness has touched me.",
+            "startdescription": "The act of Larping may bring forth unforeseen revelations.",
+            "description": "I flit between personas, tasting myriad perspectives, unshackled from my singular viewpoint.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "hand.induction",
-            "label": "PLACEHOLDER TITLE",
+            "label": "Invisible Hand Revealed",
             "actionid": "hand.induction",
             "effects": {
                 "prerestlessness": 1
             },
-            "startdescription": "Moth finds the light in the dark, and so do I.",
-            "description": "A half-glimpsed wistfulness has touched me.",
+            "startdescription": "Grasping the mechanism of the Invisible Hand may induce an inexplicable restlessness.",
+            "description": "The shroud lifts, revealing the machinations of capital's cold, calculating control.",
             "warmup": 30,
             "craftable": false
         },
