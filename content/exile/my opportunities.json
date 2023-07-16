@@ -81,7 +81,8 @@
                 "renewal.exile": "op.hireling",
                 "fatiguing": "husk"
             },
-            "lifetime": 300
+            "lifetime": 300,
+            "icon": "thugedge"
         }
     ]
 }

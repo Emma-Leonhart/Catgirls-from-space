@@ -5435,79 +5435,6 @@
             "description": "A great vintage wrung from a <i>terroir</i> ripe with secrets in the times before the Grand Blight. With discipline, patience, and resolution, it is <i>possible</i> to taste a glass of this wine and not to finish the bottle."
         },
         {
-            "id": "office",
-            "label": "Discreet Office",
-            "aspects": {
-                "asset": 1,
-                "space": 1,
-                "heart": 2,
-                "worth": 1,
-                "comfort": 1,
-                "deception": 1
-            },
-            "description": "Not too obvious, and not too far out of the way.",
-            "icon": "vaultcapital1"
-        },
-        {
-            "id": "warehouse",
-            "label": "Quiet Warehouse",
-            "aspects": {
-                "asset": 1,
-                "space": 2,
-                "forge": 4,
-                "heart": 4,
-                "worth": 2,
-                "deception": 1
-            },
-            "description": "There's plenty of space here, although not much else to recommend it.",
-            "icon": "vaultcapitaldefault"
-        },
-        {
-            "id": "townhouse",
-            "label": "Grand Townhouse",
-            "aspects": {
-                "asset": 1,
-                "space": 2,
-                "comfort": 4,
-                "heart": 4,
-                "grail": 4,
-                "worth": 4,
-                "deception": 1
-            },
-            "description": "The envy of every passerby. Let's close the curtains tightly.",
-            "icon": "hq.townhouse"
-        },
-        {
-            "id": "townhouse.jannings",
-            "label": "Jannings' Townhouse",
-            "aspects": {
-                "asset": 1,
-                "space": 2,
-                "comfort": 4,
-                "heart": 4,
-                "grail": 4,
-                "deception": 1
-            },
-            "description": "The envy of every passerby. Let's close the curtains tightly.",
-            "icon": "hq.townhouse"
-        },
-        {
-            "id": "villa",
-            "label": "Secluded Villa",
-            "aspects": {
-                "asset": 1,
-                "space": 2,
-                "comfort": 8,
-                "forge": 6,
-                "heart": 6,
-                "grail": 6,
-                "deception": 1,
-                "worth": 8
-            },
-            "description": "I could live out my days here very happily, if it weren't for certain immediate practical difficulties...",
-            "icon": "vaultcontinent5"
-        },
-        {
             "id": "licence.medical",
             "label": "Medical Credentials",
             "aspects": {
@@ -9469,7 +9396,6 @@
         {
             "id": "temptation.defiance",
             "label": "Temptation: Defiance",
-            "uniquenessgroup": "uqdesire",
             "aspects": {
                 "defiancemarks": 1,
                 "desire": 1,
