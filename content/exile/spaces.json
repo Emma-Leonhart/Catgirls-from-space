@@ -109,7 +109,7 @@
                 }
             ],
             "xtriggers": {
-                "movehq": "hq.abandoned"
+                "movehq": "hq.church.potential"
             },
             "unique": true
         },
@@ -147,7 +147,7 @@
                 }
             ],
             "xtriggers": {
-                "movehq": "hq.abandoned"
+                "movehq": "hq.mithraeum.potential"
             },
             "unique": true
         },
@@ -185,7 +185,7 @@
                 }
             ],
             "xtriggers": {
-                "movehq": "hq.abandoned"
+                "movehq": "hq.hospital.potential"
             },
             "unique": true
         },
@@ -222,7 +222,7 @@
                 }
             ],
             "xtriggers": {
-                "movehq": "hq.abandoned"
+                "movehq": "locationbookdealer_exhausted"
             },
             "unique": true
         },
@@ -260,7 +260,7 @@
                 }
             ],
             "xtriggers": {
-                "movehq": "hq.abandoned"
+                "movehq": "hq.warehouse.potential"
             },
             "unique": true
         },
@@ -461,7 +461,7 @@
                 }
             ],
             "xtriggers": {
-                "movehq": "hq.abandoned"
+                "movehq": "office"
             },
             "unique": true
         },
@@ -504,7 +504,7 @@
                 }
             ],
             "xtriggers": {
-                "movehq": "hq.abandoned"
+                "movehq": "townhouse"
             },
             "unique": true
         },
@@ -603,7 +603,7 @@
                 }
             ],
             "xtriggers": {
-                "movehq": "hq.abandoned"
+                "movehq": "townhouse.jannings"
             },
             "unique": true,
             "icon": "hq.townhouse"
@@ -681,7 +681,7 @@
                 }
             ],
             "xtriggers": {
-                "movehq": "hq.abandoned"
+                "movehq": "villa"
             },
             "unique": true
         }
