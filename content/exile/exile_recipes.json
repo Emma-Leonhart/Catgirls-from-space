@@ -892,7 +892,7 @@
             "id": "travel.visit.shrine.colonel.upgrade",
             "actionid": "travel",
             "label": "Visit an Iron Shrine",
-            "startdescription": "The Colonel's shrines sometimes smell of gunpowder, and sometimes of snow. @#fragmentedgeg.exile|I won't learn anything more here, but I could gain a Vitality so I can heal a Wound.#|I can learn more of the battle-mysteries of the Edge here.@",
+            "startdescription": "The Colonel's shrines sometimes smell of gunpowder, and sometimes of snow. @#fragmentedgeg|I won't learn anything more here, but I could gain a Vitality so I can heal a Wound.#|I can learn more of the battle-mysteries of the Edge here.@",
             "description": "My bones creak. My hearing seems sharper.",
             "requirements": {
                 "shrine.colonel": 1,
@@ -1092,7 +1092,7 @@
             "id": "travel.visit.shrine.lionsmith.upgrade",
             "actionid": "travel",
             "label": "Visit a Brazen Shrine",
-            "startdescription": "The Lionsmith's shrines are bright with the scent of hot brass, and rank with the scent of big cats. @#fragmentedgeg.exile|I won't learn anything more here, but I could gain a Vitality so I can heal a Wound.#|I can learn more of the battle-techniques of the Edge here.@",
+            "startdescription": "The Lionsmith's shrines are bright with the scent of hot brass, and rank with the scent of big cats. @#fragmentedgeg|I won't learn anything more here, but I could gain a Vitality so I can heal a Wound.#|I can learn more of the battle-techniques of the Edge here.@",
             "description": "I am growing stronger.",
             "requirements": {
                 "shrine.lionsmith": 1,

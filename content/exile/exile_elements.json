@@ -2558,7 +2558,7 @@
                         "pentiment.display": 1
                     },
                     "forbidden": {
-                        "fragmentedge.exile": 1,
+                        "fragmentedge": 1,
                         "fragmentedgeb.colonel": 1,
                         "fragmentedgeb.lionsmith": 1
                     }

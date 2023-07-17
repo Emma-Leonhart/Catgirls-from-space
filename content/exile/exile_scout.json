@@ -6,7 +6,7 @@
             "label": "Explore",
             "startdescription": "It's a cold old world out there, but I know a few tricks.",
             "effects": {
-                "fragmentedge.exile": 1
+                "fragmentedge": 1
             },
             "alt": [
                 {
