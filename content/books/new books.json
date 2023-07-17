@@ -1,0 +1,19 @@
+{
+    "elements":[
+        {
+            "id": "bookheart1",
+            "unique": true,
+            "label": "The Book of Joy: Lasting Happiness in a Changing World",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "description": "The Book of Joy: Lasting Happiness in a Changing World is a profound and inspiring collaboration between two of the world's most spiritually influential figures, His Holiness the Dalai Lama (Tenzin Gyatso) and Archbishop Desmond Tutu. Compiled and co-authored by Douglas Abrams, the book records a week-long dialogue between the Dalai Lama and Archbishop Tutu in Dharamsala, India, where they discuss one of life's most fundamental quests: finding lasting joy in the face of life's inevitable suffering.",
+            "xtriggers": {
+                "book_to_lore": "fragmentheart"
+            }
+        }
+    ]
+}
