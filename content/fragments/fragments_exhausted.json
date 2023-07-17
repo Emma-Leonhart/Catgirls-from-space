@@ -1,501 +1,921 @@
 {
     "elements":[
     {
-    "id": "fragmentheart",
-    "label": "A Leader's Secret",
+    "id": "fragmentheart.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "A Leader's Secret (Exhausted)",
     "old_description": "The roar of unity echoes in every lionheart. Let us recognize this shared pulse.",
     "decayTo": "fragmentheart",
     "icon": "fragmentheart"
     },
     {
-    "id": "fragmentheartb",
-    "label": "Iron Lion Zion",
+    "id": "fragmentheartb.exhausted",
+"lifetime": 260,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Iron Lion Zion (Exhausted)",
     "old_description": "The syllables of this chant hold a compelling rhythm, mirroring the steady beat of a lionheart. It yearns for the continuity of the pride.",
     "decayTo": "fragmentheartb",
     "icon": "fragmentheartb"
     },
     
     {
-    "id": "fragmentheartc",
-    "label": "The Pride's Anthem",
+    "id": "fragmentheartc.exhausted",
+"lifetime": 220,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "The Pride's Anthem (Exhausted)",
     "old_description": "Who could hear this and remain untouched? The lone? The lost? The land and the heavens? [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
     "decayTo": "fragmentheartc",
     "icon": "fragmentheartc"
     },
     
     {
-    "id": "fragmentheartd",
-    "label": "Twinned Roars",
+    "id": "fragmentheartd.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Twinned Roars (Exhausted)",
     "old_description": "The Lioness-and-King has always been invoked for protection, at crossroads, moonrise, and where the land cradles the sea. [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
     "decayTo": "fragmentheartd",
     "icon": "fragmentheartd"
     },
     
     {
-    "id": "fragmenthearte",
-    "label": "Rhythm of the Watchful",
+    "id": "fragmenthearte.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Rhythm of the Watchful (Exhausted)",
     "old_description": "One who watches over the pride does not sleep; one who sleeps is not the watcher. <b>One who watches over the pride does not sleep; one who sleeps is not the watcher.</b> [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
     "decayTo": "fragmenthearte",
     "icon": "fragmenthearte"
     },
     {
-    "id": "fragmentheartf",
-    "label": "Sanctuary of the Strong",
+    "id": "fragmentheartf.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Sanctuary of the Strong (Exhausted)",
     "old_description": "Within the firm 'No' of the Pride lies a refuge—an impenetrable fortress sheltering those within from harm. [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
     "decayTo": "fragmentheartf",
     "icon": "fragmentheartf"
     },
     {
-    "id": "fragmentheartg",
-    "label": "Unfathomable Prowess",
+    "id": "fragmentheartg.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Unfathomable Prowess (Exhausted)",
     "old_description": "The Grail marked the Lionheart with its roar. The Lioness-and-King emerged from two lairs. The Pride awoke when the land tasted the strength of unity. The Heart is the beat of the Pride, and here is its sacred doctrine... [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
     "decayTo": "fragmentheartg",
     "icon": "fragmentheartg"
     },
     
     {
-    "id": "fragmentwinter",
-    "label": "A Therapist's Secret",
+    "id": "fragmentwinter.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "A Therapist's Secret (Exhausted)",
     "old_description": "It is often suggested that true understanding lies within the comforting embrace of silence. A notion playfully countered by the idea that this wisdom is best perceived with one's eyes shut. [Incorporate this into a Rite with a departed soul and Edge aspect, and behold as the lifeless stirs.]",
     "decayTo": "fragmentwinter",
     "icon": "fragmentwinter"
     },
     
     {
-    "id": "fragmentwinterb",
-    "label": "A Solitary Ritual",
+    "id": "fragmentwinterb.exhausted",
+"lifetime": 260,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "A Solitary Ritual (Exhausted)",
     "old_description": "When uttered, my lips remain untouched by the chill. This lack of frosty touch remains unexpected, every time. [Use this in a Rite with a Heart influence and Byzantine Tinct to call forth the Silent Departed.]",
     "decayTo": "fragmentwinterb",
     "icon": "fragmentwinterb"
     },
     
     {
-    "id": "fragmentwinterc",
-    "label": "Meditation on the Fading Sun",
+    "id": "fragmentwinterc.exhausted",
+"lifetime": 220,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Meditation on the Fading Sun (Exhausted)",
     "old_description": "This pays homage to, acknowledges, and gracefully accepts the transition into quietude. [Employ this in a Rite with a Heart influence and Byzantine Tinct to summon the Silent Departed.]",
     "decayTo": "fragmentwinterc",
     "icon": "fragmentwinterc"
     },
     
     {
-    "id": "fragmentwinterd",
-    "label": "Invocation of the Alabaster Sparrow",
+    "id": "fragmentwinterd.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Invocation of the Alabaster Sparrow (Exhausted)",
     "old_description": "There exists a force that honors and mourns, from whom nothing can be stolen, and who cannot be duped. One might assume you could crumble it in your grasp, into fragments of avian bone. [Use this in a Rite with Martensite Paste and an assistant pledged to Knock - or resources of equal potency - to summon a Reflective Servant.]",
     "decayTo": "fragmentwinterd",
     "icon": "fragmentwinterd"
     },
     
     {
-    "id": "fragmentwintere",
-    "label": "Reminiscence of Vanished Moments",
+    "id": "fragmentwintere.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Reminiscence of Vanished Moments (Exhausted)",
     "old_description": "Six have departed. Five sprung from Stone and one from Light. All vanished into the Void. Their memories, however, still hold power, and now we invoke them. [Incorporate this in a Rite with Martensite Paste and an assistant pledged to Knock - or resources of equal potency - to summon a Reflective Servant.]",
     "decayTo": "fragmentwintere",
     "icon": "fragmentwintere"
     },
     
     {
-    "id": "fragmentwinterf",
-    "label": "The Fractures of Identity",
+    "id": "fragmentwinterf.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "The Fractures of Identity (Exhausted)",
     "old_description": "When the Sun-in-Splendour fractured, its identities splintered as well. Here lie the fragments of names that once were whole. [Use this in a Rite with Martensite Paste and an assistant pledged to Knock - or resources of equal potency - to summon a Reflective Servant.]",
     "decayTo": "fragmentwinterf",
     "icon": "fragmentwinterf"
     },
     
     {
-    "id": "fragmentwinterg",
-    "label": "Solitude's Pledge",
+    "id": "fragmentwinterg.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Solitude's Pledge (Exhausted)",
     "old_description": "When the Forge cools, the Glory dims, and the Wood turns to dust, perhaps the Wolf Divided shall rest, but only until it can consume itself. This Pledge almost mirrors the Divided One's resentment. [Speak this to a Hunter, and it might induce madness immediately.]",
     "decayTo": "fragmentwinterg",
     "icon": "fragmentwinterg"
     },
     {
-    "id": "fragmentsecrethistories",
-    "label": "A Lensmaker's Secret",
+    "id": "fragmentsecrethistories.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "A Lensmaker's Secret (Exhausted)",
     "old_description": "The truth is often elusive, hidden behind layers of deception and misconception. But through the lens of careful scrutiny, the obscured becomes clear. This is the puzzle that every seeker of truth faces: what reality does the lens reveal?",
     "decayTo": "fragmentsecrethistories",
     "icon": "fragmentsecrethistories"
     },
     {
-    "id": "fragmentsecrethistoriesb",
-    "label": "The Revelation of Focus",
+    "id": "fragmentsecrethistoriesb.exhausted",
+"lifetime": 260,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "The Revelation of Focus (Exhausted)",
     "old_description": "The most profound truths often lie in plain sight, concealed only by our inability to perceive them. By applying the right lens, these truths are brought into sharp focus, resulting in transformative revelations.",
     "decayTo": "fragmentsecrethistoriesb",
     "icon": "fragmentsecrethistoriesb"
     },
     {
-    "id": "fragmentsecrethistoriesc",
-    "label": "An Optical Odyssey",
+    "id": "fragmentsecrethistoriesc.exhausted",
+"lifetime": 220,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "An Optical Odyssey (Exhausted)",
     "old_description": "The journey to discern truth is a path laden with distortions and illusions. It's an odyssey through a world that can shift and change under different lenses. But through this journey, the traveller learns to distinguish the genuine from the artificial.",
     "decayTo": "fragmentsecrethistoriesc",
     "icon": "fragmentsecrethistoriesc"
     },
     {
-    "id": "fragmentsecrethistoriesd",
-    "label": "Focus of the Fact-seeker",
+    "id": "fragmentsecrethistoriesd.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Focus of the Fact-seeker (Exhausted)",
     "old_description": "In the realm of truth, perspective is paramount. The Fact-seeker understands this, manipulating the lens to filter bias and distortion, honing in on the pure, unadulterated truth.",
     "decayTo": "fragmentsecrethistoriesd",
     "icon": "fragmentsecrethistoriesd"
     },
     {
-    "id": "fragmentsecrethistoriese",
-    "label": "Prism's Perspective",
+    "id": "fragmentsecrethistoriese.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Prism's Perspective (Exhausted)",
     "old_description": "Truth, like light through a prism, can split into a spectrum of interpretations. Understanding this, the seeker knows to explore each aspect, each color of the spectrum, to piece together the full picture of reality.",
     "decayTo": "fragmentsecrethistoriese",
     "icon": "fragmentsecrethistoriese"
     },
     {
-    "id": "fragmentsecrethistoriesf",
-    "label": "Observation's Oracle",
+    "id": "fragmentsecrethistoriesf.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Observation's Oracle (Exhausted)",
     "old_description": "One's ability to perceive the world is an oracle in itself, predicting our understanding of reality. When one learns to adjust their lens, the world unravels its secrets, offering insights into the hidden depths of existence.",
     "decayTo": "fragmentsecrethistoriesf",
     "icon": "fragmentsecrethistoriesf"
     },
     {
-    "id": "fragmentsecrethistoriesg",
-    "label": "The Refraction Narrative",
+    "id": "fragmentsecrethistoriesg.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "The Refraction Narrative (Exhausted)",
     "old_description": "Every truth-seeker has a narrative, a tale of discovery and revelation, of truths uncovered and mysteries solved. These narratives are shaped by the lens they use, bending and refracting to create a unique path of understanding.",
     "decayTo": "fragmentsecrethistoriesg",
     "icon": "fragmentsecrethistoriesg"
     },              
     {
-    "id": "fragmentlantern",
-    "label": "An Archivist's Secret",
+    "id": "fragmentlantern.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "An Archivist's Secret (Exhausted)",
     "old_description": "The whispers of ancient texts echo, 'Each truth has its hue, but hues only come to life under the gaze of enlightenment.' This forms the core of the archivist's enlightenment.",
     "decayTo": "fragmentlantern",
     "icon": "fragmentlantern"
     },
     {
-    "id": "fragmentlanternb",
-    "label": "A Glimmer of the Mansus",
+    "id": "fragmentlanternb.exhausted",
+"lifetime": 260,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "A Glimmer of the Mansus (Exhausted)",
     "old_description": "A snippet of verse; a sole memory of a peculiar abode visited by all at least twice in their existence. Mastery of this lore is indispensable for the inaugural voyage into the Mansus.",
     "decayTo": "fragmentlanternb",
     "icon": "fragmentlanternb"
     },
     {
-    "id": "fragmentlanternc",
-    "label": "A Luminary's Chant",
+    "id": "fragmentlanternc.exhausted",
+"lifetime": 220,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "A Luminary's Chant (Exhausted)",
     "old_description": "The Watchman decrees, 'True understanding dwells in the crevices of shadow.'",
     "decayTo": "fragmentlanternc",
     "icon": "fragmentlanternc"
     },
     {
-    "id": "fragmentlanternd",
-    "label": "Guiding Incantation",
+    "id": "fragmentlanternd.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Guiding Incantation (Exhausted)",
     "old_description": "The Door-in-the-Eye navigates; it is first and foremost, a bearer of enlightenment.",
     "decayTo": "fragmentlanternd",
     "icon": "fragmentlanternd"
     },
     {
-    "id": "fragmentlanterne",
-    "label": "Formulae of the Crossroads",
+    "id": "fragmentlanterne.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Formulae of the Crossroads (Exhausted)",
     "old_description": "The Concursum, bathed in the glow of the Mansus' Lantern, is a labyrinth whose intricacies surpass mortal comprehension, yet these formulae attempt to outline its profound enigma.",
     "decayTo": "fragmentlanterne",
     "icon": "fragmentlanterne"
     },
     {
-    "id": "fragmentlanternf",
-    "label": "Chant of the Ascending",
+    "id": "fragmentlanternf.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Chant of the Ascending (Exhausted)",
     "old_description": "The Ascent of Knives signifies the most challenging of the Watchman's trials. Those who survive it, ascend closer to the radiant Glory.",
     "decayTo": "fragmentlanternf",
     "icon": "fragmentlanternf"
     },
     {
-    "id": "fragmentlanterng",
-    "label": "Illuminated Enigmas",
+    "id": "fragmentlanterng.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Illuminated Enigmas (Exhausted)",
     "old_description": "The Meniscate, the Madrugad, the Flowermaker, and the Forge of Days are the gods-from-Light. There exists a fifth, not the Watchman, yet the Watchman shares an arcane doctrine with these luminous entities...",
     "decayTo": "fragmentlanterng",
     "icon": "fragmentlanterng"
     },
     {
-    "id": "fragmentgrail",
-    "label": "A Hedonist's Secret",
+    "id": "fragmentgrail.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "A Hedonist's Secret (Exhausted)",
     "old_description": "In the crimson dance of desire, the hedonist discovers: 'New experiences are the truest colors of life.' The exploration of unchartered territories and unmet souls underpins their hedonistic journey.",
     "decayTo": "fragmentgrail",
     "icon": "fragmentgrail"
     },
     {
-    "id": "fragmentgrailb",
-    "label": "Emissary's Incantation",
+    "id": "fragmentgrailb.exhausted",
+"lifetime": 260,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Emissary's Incantation (Exhausted)",
     "old_description": "The Great Mother, the custodian of limitless encounters, hums the rhythm of primal connections. A chant resonating with untapped bonds.",
     "decayTo": "fragmentgrailb",
     "icon": "fragmentgrailb"
     },
     {
-    "id": "fragmentgrailc",
-    "label": "Rite of Revelry",
+    "id": "fragmentgrailc.exhausted",
+"lifetime": 220,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Rite of Revelry (Exhausted)",
     "old_description": "A symphony of sensations that unlocks the heart to the carousel of existence, making even the notion of sacrifice an intoxicating dance.",
     "decayTo": "fragmentgrailc",
     "icon": "fragmentgrailc"
     },
     {
-    "id": "fragmentgraild",
-    "label": "Harmony of Embrace",
+    "id": "fragmentgraild.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Harmony of Embrace (Exhausted)",
     "old_description": "Each Name of the Grail is a celebration of connection. We echo them, hoping to imbibe the pulsating energy they exude.",
     "decayTo": "fragmentgraild",
     "icon": "fragmentgraild"
     },
     {
-    "id": "fragmentgraile",
-    "label": "Chronicle of Delight",
+    "id": "fragmentgraile.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Chronicle of Delight (Exhausted)",
     "old_description": "Some joys are so potent, they are able to warp the very fabric of reality. Such delights are born from the unfettered exploration of the new.",
     "decayTo": "fragmentgraile",
     "icon": "fragmentgraile"
     },
     {
-    "id": "fragmentgrailf",
-    "label": "Anthic Insight",
+    "id": "fragmentgrailf.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Anthic Insight (Exhausted)",
     "old_description": "The elusive Flowermaker, an emblem of the unknown, draws the eye of the Hours. Exploring his works is like traversing an uncharted landscape.",
     "decayTo": "fragmentgrailf",
     "icon": "fragmentgrailf"
     },
     {
-    "id": "fragmentgrailg",
-    "label": "Insatiable Paradox",
+    "id": "fragmentgrailg.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Insatiable Paradox (Exhausted)",
     "old_description": "The Grail, the Flowermaker, and the Beach-Crow depict the mosaic of unending desire. Enclosed within this ever-changing puzzle lies the doctrine of Hunger, Greed, and Yearning.",
     "decayTo": "fragmentgrailg",
     "icon": "fragmentgrailg"
     },
     {
-    "id": "fragmentedge",
+    "id": "fragmentedge.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
     "label": "A Surfer's Secret", 
     "old_description": "This secret speaks of the symbiosis between body and the environment, the ecstasy of riding the wave of the present moment in perfect harmony with the forces of nature.",
     "decayTo": "fragmentedge",
     "icon": "fragmentedge"
     },
     {
-    "id": "fragmentedgeb",
-    "label": "The Mountaineer's Testament",
+    "id": "fragmentedgeb.exhausted",
+"lifetime": 260,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "The Mountaineer's Testament (Exhausted)",
     "old_description": "Carved from a thousand encounters with the raw, untamed elements, this testament whispers of an unspoken connection with the earth beneath our feet and the air that fills our lungs.",
     "decayTo": "fragmentedgeb",
     "icon": "fragmentedgeb"
     },
     {
-    "id": "fragmentedgec",
-    "label": "Ritual of the Flowing Current",
+    "id": "fragmentedgec.exhausted",
+"lifetime": 220,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Ritual of the Flowing Current (Exhausted)",
     "old_description": "A series of mystic exercises aligning one's being with the rhythm of existence, attuning to the eternal ebb and flow of energy around us.",
     "decayTo": "fragmentedgec",
     "icon": "fragmentedgec"
     },
     {
-    "id": "fragmentedged",
-    "label": "Tales of the Silent Wanderer",
+    "id": "fragmentedged.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Tales of the Silent Wanderer (Exhausted)",
     "old_description": "The Silent Wanderer, eternally present and fully absorbed in the here and now, whispers tales of unity and connection, as timeless as the cosmos itself.",
     "decayTo": "fragmentedged",
     "icon": "fragmentedged"
     },
     {
-    "id": "fragmentedgee",
-    "label": "The Navigator's Epics",
+    "id": "fragmentedgee.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "The Navigator's Epics (Exhausted)",
     "old_description": "The Navigator, a being of pure presence, echoes with Names that resonate with the ever-changing currents of existence, guiding us through the ebb and flow of life.",
     "decayTo": "fragmentedgee",
     "icon": "fragmentedgee"
     },
     {
-    "id": "fragmentedgef",
-    "label": "Pathways of Presence",
+    "id": "fragmentedgef.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Pathways of Presence (Exhausted)",
     "old_description": "These are the intricate routes of attunement, the pathways that connect us to the raw, visceral experience of existence in its purest form.",
     "decayTo": "fragmentedgef",
     "icon": "fragmentedgef"
     },
     {
-    "id": "fragmentedgeg",
-    "label": "The Mystery of Connection",
+    "id": "fragmentedgeg.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "The Mystery of Connection (Exhausted)",
     "old_description": "The Surfer, the Mountaineer, and the Navigator share a profound secret: the essence of living fully in the present moment, connected to the cosmic rhythms of existence.",
     "decayTo": "fragmentedgeg",
     "icon": "fragmentedgeg"
     },
     {
-    "id": "fragmentknock",
-    "label": "A Locksmith's Secret",
+    "id": "fragmentknock.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "A Locksmith's Secret (Exhausted)",
     "old_description": "Sooner or later, every locksmith has the Dream. Now we recite its seven phases... [Nearly every summoning Rite requires Knock influence. This lore will provide it.]",
     "decayTo": "fragmentknock",
     "icon": "fragmentknock"
     },
     {
-    "id": "fragmentknockb",
-    "label": "Rites of the Unbound",
+    "id": "fragmentknockb.exhausted",
+"lifetime": 260,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Rites of the Unbound (Exhausted)",
     "old_description": "When entrapped by foreign ideas, it is a daunting task to free oneself. Rites of the Unbound aids in navigating this labyrinth, providing the necessary guidance and strength to break free.",
     "decayTo": "fragmentknockb",
     "icon": "fragmentknockb"
     },
     {
-    "id": "fragmentknockc",
-    "label": "The Serpent's Shed",
+    "id": "fragmentknockc.exhausted",
+"lifetime": 220,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "The Serpent's Shed (Exhausted)",
     "old_description": "Just as a serpent sheds its skin, one must discard outdated ideas and perspectives that no longer serve. The Serpent's Shed signifies this necessary transformation, resonating with the theme of renewal and rebirth.",
     "decayTo": "fragmentknockc",
     "icon": "fragmentknockc"
     },
     {
-    "id": "fragmentknockd",
-    "label": "Incantation of Release",
+    "id": "fragmentknockd.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Incantation of Release (Exhausted)",
     "old_description": "Harnessing the transformative power of cosmic transitions, this incantation aids in the release of internalized prejudices and fears, empowering the individual to break free from the foreign entrapment.",
     "decayTo": "fragmentknockd",
     "icon": "fragmentknockd"
     },
     {
-    "id": "fragmentknocke",
-    "label": "Pathway of the Released",
+    "id": "fragmentknocke.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Pathway of the Released (Exhausted)",
     "old_description": "This wisdom helps unravel the chains of outdated ideas and beliefs, guiding the individual along the pathway of the Released, where one's identity is no longer dictated by foreign entrapment.",
     "decayTo": "fragmentknocke",
     "icon": "fragmentknocke"
     },
     {
-    "id": "fragmentknockf",
-    "label": "Threshold Invocation",
+    "id": "fragmentknockf.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Threshold Invocation (Exhausted)",
     "old_description": "The Threshold Invocation seeks guidance from the Earth-Bound Deity, a symbol of transitions, to understand and navigate the intricacies of foreign entrapment, fostering resilience and adaptability.",
     "decayTo": "fragmentknockf",
     "icon": "fragmentknockf"
     },
     {
-    "id": "fragmentknockg",
-    "label": "Secrets of the Liberated",
+    "id": "fragmentknockg.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Secrets of the Liberated (Exhausted)",
     "old_description": "These teachings offer insight into the mysteries of the Gate - the transition from a life ruled by foreign entrapment to a life of self-guided liberation and individual truth.",
     "decayTo": "fragmentknockg",
     "icon": "fragmentknockg"
     },
     {
-    "id": "fragmentmoth",
-    "label": "A Scholar's Secret",
+    "id": "fragmentmoth.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "A Scholar's Secret (Exhausted)",
     "old_description": "Within the encroaching darkness lies the spark of enlightenment. Embrace the allure of shadows, for they hold the keys to knowledge hidden from the light of day.",
     "decayTo": "fragmentmoth",
     "icon": "fragmentmoth"
     },
     {
-    "id": "fragmentmothb",
-    "label": "The Obsidian Mirror",
+    "id": "fragmentmothb.exhausted",
+"lifetime": 260,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "The Obsidian Mirror (Exhausted)",
     "old_description": "Peer into the depths of the Obsidian Mirror and see the hidden truths that lie beyond the realm of ordinary perception. Let the shadows whisper their arcane secrets.",
     "decayTo": "fragmentmothb",
     "icon": "fragmentmothb"
     },
     {
-    "id": "fragmentmothc",
-    "label": "Lurking in the Periphery",
+    "id": "fragmentmothc.exhausted",
+"lifetime": 220,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Lurking in the Periphery (Exhausted)",
     "old_description": "The unseen realm holds its breath, waiting to be discovered. With each fleeting glimpse, a world of secrets unfolds, offering wisdom that evades the grasp of the uninitiated.",
     "decayTo": "fragmentmothc",
     "icon": "fragmentmothc"
     },
     {
-    "id": "fragmentmothd",
-    "label": "Eclipse Invocation",
+    "id": "fragmentmothd.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Eclipse Invocation (Exhausted)",
     "old_description": "In the embrace of darkness, truths are illuminated. The Eclipse Invocation unveils hidden knowledge, allowing the seeker to navigate the obscure depths of existence.",
     "decayTo": "fragmentmothd",
     "icon": "fragmentmothd"
     },
     {
-    "id": "fragmentmothe",
-    "label": "Shroud of the Watcher",
+    "id": "fragmentmothe.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Shroud of the Watcher (Exhausted)",
     "old_description": "The Watcher, with all-seeing eyes, pierces the veil of ignorance. Embrace the shroud that conceals the secrets of the world, and the path to enlightenment shall be revealed.",
     "decayTo": "fragmentmothe",
     "icon": "fragmentmothe"
     },
     {
-    "id": "fragmentmothf",
-    "label": "Whispers of the Nocturne",
+    "id": "fragmentmothf.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Whispers of the Nocturne (Exhausted)",
     "old_description": "In the hushed whispers of the Nocturne, lies the knowledge that transcends mortal understanding. These whispered truths are sought by scholars who dare to venture into the darkness.",
     "decayTo": "fragmentmothf",
     "icon": "fragmentmothf"
     },
     {
-    "id": "fragmentmothg",
-    "label": "Veiled Illumination",
+    "id": "fragmentmothg.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Veiled Illumination (Exhausted)",
     "old_description": "The Scholar, the Obsidian Mirror, and the Watcher. Each holds a piece of the puzzle, a fragment of the hidden wisdom that lies within the embrace of darkness.",
     "decayTo": "fragmentmothg",
     "icon": "fragmentmothg"
     },
     {
-    "id": "fragmentforge",
-    "label": "A Blacksmith's Secret",
+    "id": "fragmentforge.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "A Blacksmith's Secret (Exhausted)",
     "old_description": "The heat of the forge fuels transformation, turning raw materials into something stronger, more resilient. The blacksmith's secret lies in harnessing this transformative power.",
     "decayTo": "fragmentforge",
     "icon": "fragmentforge"
     },
     {
-    "id": "fragmentforgeb",
-    "label": "Anvil's Resonance",
+    "id": "fragmentforgeb.exhausted",
+"lifetime": 260,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Anvil's Resonance (Exhausted)",
     "old_description": "The resonance of the anvil echoes with the ancient wisdom of the forge. In its rhythmic pounding, the blacksmith discovers the secret to shaping the world to their will.",
     "decayTo": "fragmentforgeb",
     "icon": "fragmentforgeb"
     },
     {
-    "id": "fragmentforgec",
-    "label": "Invocation of Flames",
+    "id": "fragmentforgec.exhausted",
+"lifetime": 220,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Invocation of Flames (Exhausted)",
     "old_description": "Fire, the primal force of creation and destruction, is the blacksmith's most trusted ally. The invocation of flames kindles the forge and ignites the power within.",
     "decayTo": "fragmentforgec",
     "icon": "fragmentforgec"
     },
     {
-    "id": "fragmentforged",
-    "label": "Hammer's Benediction",
+    "id": "fragmentforged.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Hammer's Benediction (Exhausted)",
     "old_description": "The hammer, wielded with skill and precision, is the conduit of the blacksmith's will. Through its rhythmic strikes, the world is shaped and transformed.",
     "decayTo": "fragmentforged",
     "icon": "fragmentforged"
     },
     {
-    "id": "fragmentforgee",
-    "label": "Unyielding Mettle",
+    "id": "fragmentforgee.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Unyielding Mettle (Exhausted)",
     "old_description": "To forge something enduring, one must possess unyielding mettle. The blacksmith's secret lies in their unwavering determination and unwavering commitment to their craft.",
     "decayTo": "fragmentforgee",
     "icon": "fragmentforgee"
     },
     {
-    "id": "fragmentforgef",
-    "label": "Flames Eternal",
+    "id": "fragmentforgef.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Flames Eternal (Exhausted)",
     "old_description": "The eternal flames of the forge illuminate the path of the blacksmith, guiding them through the darkest depths of creation. This secret speaks of the enduring power of the forge's fire.",
     "decayTo": "fragmentforgef",
     "icon": "fragmentforgef"
     },
     {
-    "id": "fragmentforgeg",
-    "label": "The Eternal Forge",
+    "id": "fragmentforgeg.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "The Eternal Forge (Exhausted)",
     "old_description": "The blacksmith, the anvil, and the hammer. Each holds a piece of the secret, a fragment of the divine knowledge that lies within the heart of the eternal forge.",
     "decayTo": "fragmentforgeg",
     "icon": "fragmentforgeg"
     },
     {
-    "id": "fragmentmoth",
-    "label": "An Actor's Secret",
+    "id": "fragmentmoth.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "An Actor's Secret (Exhausted)",
     "old_description": "A power of the Wood finds joy in a player's divergent fate from their scripted role. To attract attention, perform a dramatic twist. For an opportunity, adopt subtlety. [Utter this within a larp scenario threaded with 'Winter', and watch the dynamics shift, just as a lock separates from a scalp.]",
     "decayTo": "fragmentmothg",
     "icon": "fragmentmothg"
     },
     {
-    "id": "fragmentmothb",
-    "label": "Whispers from the Wilderness",
+    "id": "fragmentmothb.exhausted",
+"lifetime": 260,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Whispers from the Wilderness (Exhausted)",
     "old_description": "Listen closely to the breeze; it carries tales of unforeseen adventures. The buildings, like ancient trees, whisper their concealed stories. These are the trails where unpredictability breeds creativity. [Invoke this in a larp setting accompanied by a 'Winter' narrative, and witness the plot evolve like a barbershop full of secrets.]",
     "decayTo": "fragmentmothb",
     "icon": "fragmentmothb"
     },
     {
-    "id": "fragmentmothc",
-    "label": "Roleplayer's Parable",
+    "id": "fragmentmothc.exhausted",
+"lifetime": 220,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Roleplayer's Parable (Exhausted)",
     "old_description": "In every role-player's heart lies the Dilemma: 'What could we become?' Each Roleplayer's Parable is a key to unlock this mystery, allowing unexpected transformations and plot developments.",
     "decayTo": "fragmentmothc",
     "icon": "fragmentmothc"
     },
     {
-    "id": "fragmentmothd",
-    "label": "Nature's Guidance",
+    "id": "fragmentmothd.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Nature's Guidance (Exhausted)",
     "old_description": "Nature, like a sage barber, holds her secrets close, encouraging exploration and unpredictability. These insights she willingly shares with the imaginative larp participant who dares to venture off their scripted path.",
     "decayTo": "fragmentmothd",
     "icon": "fragmentmothd"
     },
     {
-    "id": "fragmentmothe",
-    "label": "Manifesto of Transformation",
+    "id": "fragmentmothe.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Manifesto of Transformation (Exhausted)",
     "old_description": "Just as a barber might shape a new hairstyle, a transformative player reshapes their role. They venture into the unknown, embrace foreign narratives, and inject new life into the storyline. This is their commitment to the craft.",
     "decayTo": "fragmentmothe",
     "icon": "fragmentmothe"
     },
     {
-    "id": "fragmentmothf",
-    "label": "Birth of the Butterfly Sovereign",
+    "id": "fragmentmothf.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Birth of the Butterfly Sovereign (Exhausted)",
     "old_description": "A larp participant, crowned in imagination, born from the game's challenges. Their character's evolution mirrors a barber's creation. Herein lie their metamorphic experiences.",
     "decayTo": "fragmentmothf",
     "icon": "fragmentmothf"
     },
     {
-    "id": "fragmentmothg",
-    "label": "Meetings in the Narrative",
+    "id": "fragmentmothg.exhausted",
+"lifetime": 300,
+"aspects": {
+                "exhausted": 1
+            },
+"description": "[I'll need time to recover before I can use this again. Upgrading a technique allows it to recover more quickly with each upgrade.]",
+"resaturate": true,
+    "label": "Meetings in the Narrative (Exhausted)",
     "old_description": "In the realm of larp, as in a bustling barber shop, characters from divergent narratives meet. Within the verdant setting of the Enchanted Forest, such encounters are common. Their unpredictable exchanges hold power, just like the unanticipated twists of a barber's scissors.",
     "decayTo": "fragmentmothg",
     "icon": "fragmentmothg"
