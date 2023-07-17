@@ -12,7 +12,8 @@
                 "ascend": "catgirl_dedication_4"
             },
             "description": "The Red Grail has warmed me. Its thirsts have begun to dry my mouth and itch my hands. I know this to be the Third Mark.",
-            "uniquenessgroup": "uqdesire"
+            "uniquenessgroup": "uqdesire",
+            "icon": "Temptation.Catgirl"
         },
         {
 			"id": "catgirl_marks",
@@ -48,7 +49,8 @@
                     "description": "I will require sufficient of the furious incandescence of the Forge."
                 }
             ],
-            "uniquenessgroup": "uqdesire"
+            "uniquenessgroup": "uqdesire",
+            "icon": "Temptation.Catgirl"
         },
         {
             "id": "catgirl_truth",
