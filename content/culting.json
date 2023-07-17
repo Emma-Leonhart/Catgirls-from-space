@@ -16,7 +16,8 @@
                     "id": "cultfoundation_wealth",
                     "chance": 100
                 }
-            ]
+            ],
+            "icon": "cultlantern_1"
         },
         {
             "id": "cultfoundation_wealth",
