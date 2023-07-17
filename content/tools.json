@@ -350,7 +350,8 @@
             "description": "A deep crack runs across the shimmering metal. A Forge-aspected follower could repair it, with sufficient resources - or I could use up what power remains in it.",
             "aspects": {
                 "lantern": 2,
-                "ingredient": 1
+                "ingredient": 1,
+                "portable": 1
             }
         },
         {
@@ -359,7 +360,8 @@
             "description": " A Forge-aspected follower could repair it, but the cost would be high - or I could use up what power remains in it.",
             "aspects": {
                 "lantern": 3,
-                "ingredient": 1
+                "ingredient": 1,
+                "portable": 1
             }
         },
         {
