@@ -1,7 +1,7 @@
 {
     "elements":[
         {
-            "id": "bookheart1",
+            "id": "bookhearta",
             "unique": true,
             "label": "The Book of Joy: Lasting Happiness in a Changing World",
             "aspects": {
@@ -18,7 +18,7 @@
             }
         },
         {
-            "id": "bookheart2",
+            "id": "bookheartb",
             "unique": true,
             "label": "The Four Loves",
             "aspects": {
@@ -35,7 +35,7 @@
             }
         },
         {
-            "id": "bookheart3",
+            "id": "bookheartc",
             "unique": true,
             "label": "A Theory of Justice",
             "aspects": {
@@ -52,7 +52,7 @@
             }
         },
         {
-            "id": "bookheart4",
+            "id": "bookheartd",
             "unique": true,
             "label": "The Economic and Philosophic Manuscripts of 1844",
             "aspects": {
@@ -69,7 +69,7 @@
             }
         },
         {
-            "id": "bookheart5",
+            "id": "bookhearte",
             "unique": true,
             "label": "The Analects",
             "aspects": {
@@ -86,7 +86,7 @@
             }
         },
         {
-            "id": "bookheart6",
+            "id": "bookheartf",
             "unique": true,
             "label": "The Theory of Moral Sentiments",
             "aspects": {
@@ -103,7 +103,7 @@
             }
         },
         {
-            "id": "bookheart7",
+            "id": "bookheartg",
             "unique": true,
             "label": "The Social Contract",
             "aspects": {
@@ -354,7 +354,7 @@
             "icon": "indignitiesobliviate",
             "xtriggers": {
 
-                "book_to_lore": "fragmentsecrethistoriesg.1"
+                "book_to_lore": "fragmentsecrethistoriesg"
             }
         },
         {
@@ -371,7 +371,7 @@
             "icon": "indignitiesobliviate",
             "xtriggers": {
 
-                "book_to_lore": "fragmentsecrethistoriesg.2"
+                "book_to_lore": "fragmentsecrethistoriesg"
             }
         },
         {
@@ -388,7 +388,7 @@
             "icon": "indignitiesobliviate",
             "xtriggers": {
 
-                "book_to_lore": "fragmentsecrethistoriesg.3"
+                "book_to_lore": "fragmentsecrethistoriesg"
             }
         },
         {
