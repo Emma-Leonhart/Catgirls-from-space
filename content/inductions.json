@@ -224,7 +224,37 @@
                         "health": 1
                     }
                 }
+            ],
+            "linked": [
+                {
+                    "id": "heartinduction.success",
+                    "chance": 100
+                },
+                {
+                    "id": "heartinduction.failure",
+                    "chance": 100
+                }
             ]
+        },
+        {
+            "id": "heartinduction.success",
+            "label": "Unified Beat",
+            "description": "The rhythm of my heart now resonates with the grand pulse of humanity. I understand The Pride a little better.",
+            "warmup": 0,
+            "craftable": false,
+            "requirements": {
+                "health": 1
+            },
+            "effects":{
+                "fragmentheart": 1
+            }
+        },
+        {
+            "id": "heartinduction.failure",
+            "label": "Invoking The Pride",
+            "description": "The rhythm of my heart is in harmony with the shared beat of humanity.",
+            "warmup": 0,
+            "craftable": false
         },
         {
             "id": "winter.induction",
@@ -246,7 +276,37 @@
                         "health": 1
                     }
                 }
+            ],
+            "linked": [
+                {
+                    "id": "winter.induction.success",
+                    "chance": 100
+                },
+                {
+                    "id": "winter.induction.failure",
+                    "chance": 100
+                }
             ]
+        },
+        {
+            "id": "winter.induction.success",
+            "label": "Serene Solitude",
+            "description": "A tranquil calm pervades my mind; silence is no longer just a companion, it's a friend. I understand the nature of Winter a little better.",
+            "warmup": 0,
+            "craftable": false,
+            "requirements": {
+                "health": 1
+            },
+            "effects":{
+                "fragmentwinter": 1
+            }
+        },
+        {
+            "id": "winter.induction.failure",
+            "label": "Inner Dialogue Commenced",
+            "description": "A serene calm blankets my mind; silence is now a comforting companion.",
+            "warmup": 0,
+            "craftable": false
         },
         {
             "id": "secret_histories.induction",
@@ -268,17 +328,47 @@
                         "health": 1
                     }
                 }
+            ],
+            "linked": [
+                {
+                    "id": "secret_histories.induction.success",
+                    "chance": 100
+                },
+                {
+                    "id": "secret_histories.induction.failure",
+                    "chance": 100
+                }
             ]
         },
         {
+            "id": "secret_histories.induction.success",
+            "label": "Absurdity Unveiled",
+            "description": "A new lens allows me to see the world differently, and hidden truths unfold in their absurd glory. I understand the secret histories a little better.",
+            "warmup": 0,
+            "craftable": false,
+            "requirements": {
+                "health": 1
+            },
+            "effects":{
+                "fragmentsecret_histories": 1
+            }
+        },
+        {
+            "id": "secret_histories.induction.failure",
+            "label": "Enlensing the Absurd",
+            "description": "I perceive life from a renewed perspective, hidden truths unveil their surreal beauty.",
+            "warmup": 0,
+            "craftable": false
+        },
+        {
             "id": "lanterninduction",
-            "label": "Ritual of Remembering",
+            "label": "Illuminating the Mystery",
             "actionid": "lanterninduction",
             "effects": {
                 "influencelanternc": 1
             },
-            "startdescription": "When I Remember, the lantern's radiance may shed its illuminating influence.",
-            "description": "Long-lost memories emerge from the fog of the forgotten past, now clear as crystal.",
+            "startdescription": "As I endeavor to Illuminate the Mystery, Lantern's wisdom may illuminate my mind.",
+            "description": "Knowledge is light, and in its glow, mysteries unravel.",
             "warmup": 30,
             "craftable": false,
             "slots": [
@@ -289,18 +379,48 @@
                     "required": {
                         "reason": 1
                     }
+                }
+            ],
+            "linked": [
+                {
+                    "id": "lantern.induction.success",
+                    "chance": 100
+                },
+                {
+                    "id": "lantern.induction.failure",
+                    "chance": 100
                 }
             ]
         },
         {
+            "id": "lantern.induction.success",
+            "label": "Mystery Unveiled",
+            "description": "The lantern's light pierces the darkness, and the mysteries stand unveiled. I understand Lantern a little better.",
+            "warmup": 0,
+            "craftable": false,
+            "requirements": {
+                "reason": 1
+            },
+            "effects":{
+                "fragmentlantern": 1
+            }
+        },
+        {
+            "id": "lantern.induction.failure",
+            "label": "Illuminating the Mystery",
+            "description": "Knowledge is light, and in its glow, mysteries unravel.",
+            "warmup": 0,
+            "craftable": false
+        },
+        {
             "id": "grailinduction",
-            "label": "Path of Counter-Spiralling",
+            "label": "Chasing the Mirage",
             "actionid": "grailinduction",
             "effects": {
                 "influencegrailc": 1
             },
-            "startdescription": "There is an influence to be gained from the act of Counter-Spiralling.",
-            "description": "I venture beyond the spiral's pull, revelling in the spectrum of experience.",
+            "startdescription": "As I chase the Mirage, the Grail's allure may pull at my heartstrings.",
+            "description": "Desire fuels me, and the world seems to pulse with vibrant colors and sensations.",
             "warmup": 30,
             "craftable": false,
             "slots": [
@@ -312,7 +432,37 @@
                         "reason": 1
                     }
                 }
+            ],
+            "linked": [
+                {
+                    "id": "grail.induction.success",
+                    "chance": 100
+                },
+                {
+                    "id": "grail.induction.failure",
+                    "chance": 100
+                }
             ]
+        },
+        {
+            "id": "grail.induction.success",
+            "label": "Mirage Manifested",
+            "description": "Desire fulfilled sharpens the senses, and the world is a carnival of colors and sensations. I understand Grail a little better.",
+            "warmup": 0,
+            "craftable": false,
+            "requirements": {
+                "reason": 1
+            },
+            "effects":{
+                "fragmentgrail": 1
+            }
+        },
+        {
+            "id": "grail.induction.failure",
+            "label": "Chasing the Mirage",
+            "description": "Desire fuels me, and the world seems to pulse with vibrant colors and sensations.",
+            "warmup": 0,
+            "craftable": false
         },
         {
             "id": "edge.induction",
@@ -334,7 +484,37 @@
                         "reason": 1
                     }
                 }
+            ],
+            "linked": [
+                {
+                    "id": "edge.induction.success",
+                    "chance": 100
+                },
+                {
+                    "id": "edge.induction.failure",
+                    "chance": 100
+                }
             ]
+        },
+        {
+            "id": "edge.induction.success",
+            "label": "Currents Conquered",
+            "description": "I navigate life's rapids with finesse, my resilience making me a master of adversity. I understand Edge a little better.",
+            "warmup": 0,
+            "craftable": false,
+            "requirements": {
+                "reason": 1
+            },
+            "effects":{
+                "fragmentedge": 1
+            }
+        },
+        {
+            "id": "edge.induction.failure",
+            "label": "The Flow's Embrace",
+            "description": "I traverse life's currents, my resilience rendering me invincible against adversity.",
+            "warmup": 0,
+            "craftable": false
         },
         {
             "id": "knock.induction",
@@ -356,7 +536,37 @@
                         "passion": 1
                     }
                 }
+            ],
+            "linked": [
+                {
+                    "id": "knock.induction.success",
+                    "chance": 100
+                },
+                {
+                    "id": "knock.induction.failure",
+                    "chance": 100
+                }
             ]
+        },
+        {
+            "id": "knock.induction.success",
+            "label": "Immunity Imbued",
+            "description": "External chains lose their hold, and I rise immune, understanding the Knock a little better.",
+            "warmup": 0,
+            "craftable": false,
+            "requirements": {
+                "passion": 1
+            },
+            "effects":{
+                "fragmentknock": 1
+            }
+        },
+        {
+            "id": "knock.induction.failure",
+            "label": "Cultivation of Antibodies",
+            "description": "I liberate myself from external chains, becoming immune to the foreign within.",
+            "warmup": 0,
+            "craftable": false
         },
         {
             "id": "forge.induction",
@@ -378,7 +588,37 @@
                         "passion": 1
                     }
                 }
+            ],
+            "linked": [
+                {
+                    "id": "forge.induction.success",
+                    "chance": 100
+                },
+                {
+                    "id": "forge.induction.failure",
+                    "chance": 100
+                }
             ]
+        },
+        {
+            "id": "forge.induction.success",
+            "label": "Metamorphosis Mastered",
+            "description": "Identity, like malleable metal, is reshaped. Change is embraced, growth fostered. I understand Forge a little better.",
+            "warmup": 0,
+            "craftable": false,
+            "requirements": {
+                "passion": 1
+            },
+            "effects":{
+                "fragmentforge": 1
+            }
+        },
+        {
+            "id": "forge.induction.failure",
+            "label": "Ego's Unbinding",
+            "description": "I reshape my identity like malleable metal, embracing change and fostering growth.",
+            "warmup": 0,
+            "craftable": false
         },
         {
             "id": "mothinduction",
@@ -400,17 +640,47 @@
                         "passion": 1
                     }
                 }
+            ],
+            "linked": [
+                {
+                    "id": "mothinduction.success",
+                    "chance": 100
+                },
+                {
+                    "id": "mothinduction.failure",
+                    "chance": 100
+                }
             ]
         },
         {
+            "id": "mothinduction.success",
+            "label": "Personas Pierced",
+            "description": "The many faces of life are donned, myriad perspectives tasted. I understand Moth a little better.",
+            "warmup": 0,
+            "craftable": false,
+            "requirements": {
+                "passion": 1
+            },
+            "effects":{
+                "fragmentmoth": 1
+            }
+        },
+        {
+            "id": "mothinduction.failure",
+            "label": "The Larping Game",
+            "description": "I flit between personas, tasting myriad perspectives, unshackled from my singular viewpoint.",
+            "warmup": 0,
+            "craftable": false
+        },
+        {
             "id": "hand.induction",
-            "label": "Invisible Hand Revealed",
+            "label": "Touching the Material",
             "actionid": "hand.induction",
             "effects": {
                 "influencehandc": 1
             },
-            "startdescription": "Grasping the mechanism of the Invisible Hand may imbue an insatiable restlessness within me.",
-            "description": "The shroud lifts, revealing the machinations of capital's cold, calculating control.",
+            "startdescription": "As I focus on Touching the Material, Hand's tactile understanding may course through me.",
+            "description": "Reality under my fingertips feels more real than ever.",
             "warmup": 30,
             "craftable": false,
             "slots": [
@@ -419,10 +689,40 @@
                     "label": "Some extra effort",
                     "description": "Will I explore this influence further",
                     "required": {
-                        "moneyskill": 1
+                        "funds": 1
                     }
                 }
+            ],
+            "linked": [
+                {
+                    "id": "hand.induction.success",
+                    "chance": 100
+                },
+                {
+                    "id": "hand.induction.failure",
+                    "chance": 100
+                }
             ]
+        },
+        {
+            "id": "hand.induction.success",
+            "label": "Material Mastered",
+            "description": "Reality, under my fingertips, transforms into something I can shape and understand. I understand Hand a little better.",
+            "warmup": 0,
+            "craftable": false,
+            "requirements": {
+                "funds": 1
+            },
+            "effects":{
+                "fragmenthand": 1
+            }
+        },
+        {
+            "id": "hand.induction.failure",
+            "label": "Touching the Material",
+            "description": "Reality under my fingertips feels more real than ever.",
+            "warmup": 0,
+            "craftable": false
         },
         {
             "id": "dreadinduction",
