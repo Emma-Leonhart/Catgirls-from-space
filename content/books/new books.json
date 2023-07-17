@@ -11,7 +11,9 @@
                 "worth": 1
             },
             "description": "The Book of Joy: Lasting Happiness in a Changing World is a profound and inspiring collaboration between two of the world's most spiritually influential figures, His Holiness the Dalai Lama (Tenzin Gyatso) and Archbishop Desmond Tutu. Compiled and co-authored by Douglas Abrams, the book records a week-long dialogue between the Dalai Lama and Archbishop Tutu in Dharamsala, India, where they discuss one of life's most fundamental quests: finding lasting joy in the face of life's inevitable suffering.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentheart"
             }
         },
@@ -26,7 +28,9 @@
                 "worth": 1
             },
             "description": "In The Four Loves, C.S. Lewis explores the nature of love from a Christian and philosophical perspective. He categorizes love into four types—Affection, Friendship, Eros, and Charity—and reflects upon their role in our lives, providing deep insights into the complexities and significance of human relationships.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentheartb"
             }
         },
@@ -41,7 +45,9 @@
                 "worth": 1
             },
             "description": "John Rawls's A Theory of Justice is a seminal work in modern political philosophy. The book provides an alternative to utilitarianism and intuitionism, proposing a conception of justice as fairness, and offering a comprehensive discussion of distributive justice.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentheartc"
             }
         },
@@ -56,7 +62,9 @@
                 "worth": 1
             },
             "description": "The Economic and Philosophic Manuscripts of 1844 by Karl Marx is a series of notes that express the author's ideas on alienation, the state of the worker, and the evolution of capitalism. It contains the core ideas that later became the backbone of Marx's masterpieces, Capital and The Communist Manifesto.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentheartd"
             }
         },
@@ -71,7 +79,9 @@
                 "worth": 1
             },
             "description": "The Analects is a collection of sayings and ideas attributed to the Chinese philosopher Confucius and his contemporaries. Considered one of the central texts of Confucianism, it offers deep insights into personal morality, ethical conduct, and the proper exercise of political power.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmenthearte"
             }
         },
@@ -86,7 +96,9 @@
                 "worth": 1
             },
             "description": "In The Theory of Moral Sentiments, Adam Smith presents a comprehensive discussion of the nature of morality, virtue, and the motivations behind human actions. Known for his economic theories, Smith delves into moral philosophy in this work, exploring how mutual sympathy forms the basis of moral sentiments.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentheartf"
             }
         },
@@ -101,7 +113,9 @@
                 "worth": 1
             },
             "description": "Jean-Jacques Rousseau's The Social Contract is a fundamental work in political philosophy, examining the concept of a legitimate political authority within the context of classical republicanism. Rousseau posits that a just society is guided by the 'general will' of its citizenry, an idea that has greatly influenced modern political thought.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentheartg"
             }
         },
@@ -116,7 +130,9 @@
                 "worth": 1
             },
             "description": "Charles Dickens' A Christmas Carol is a story of transformation and redemption, where the miserly Ebenezer Scrooge undergoes profound change after a series of ghostly visits on Christmas Eve.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentwintera"
             }
         },
@@ -131,7 +147,9 @@
                 "worth": 1
             },
             "description": "Bhante Henepola Gunaratana's Mindfulness in Plain English is a clear, straightforward guide to mindfulness, meditation, and the philosophy of Buddhism. It offers practical advice on developing a meditation practice and integrating mindfulness into daily life.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentwinterb"
             }
         },
@@ -146,7 +164,9 @@
                 "worth": 1
             },
             "description": "Fear and Trembling by Søren Kierkegaard is a profound philosophical work that delves into the existential and theological concepts of faith, sacrifice, and individuality. It uses the Biblical story of Abraham's willingness to sacrifice his son Isaac to examine the complexities of faith and obedience.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentwinterc"
             }
         },
@@ -161,7 +181,9 @@
                 "worth": 1
             },
             "description": "Charles Taylor's A Secular Age investigates the development of secularism in Western society. It examines the transformation that has taken religion from the center of human life to the private sphere, focusing on the cultural shifts that have resulted in a widespread move away from traditional religious practices.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentwinterd"
             }
         },
@@ -176,7 +198,9 @@
                 "worth": 1
             },
             "description": "Charles Taylor's The Ethics of Authenticity is a critique of contemporary individualism. It explores the dangers of self-centered subjectivity and challenges the modern notion of 'authenticity', arguing for a more nuanced understanding of self-fulfillment that acknowledges the role of communal and societal obligations.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentwintere"
             }
         },
@@ -191,7 +215,9 @@
                 "worth": 1
             },
             "description": "Immanuel Kant's Groundwork of the Metaphysics of Morals is a foundational text in moral philosophy. It introduces and develops the concept of 'categorical imperative', a principle that obliges individuals to act in a way that their actions could be universally applied.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentwinterf"
             }
         },
@@ -206,7 +232,9 @@
                 "worth": 1
             },
             "description": "The Emerald Tablet is a compact and cryptic piece of Hermetica reputed to contain the secrets of the prima materia and its transmutation. Its origins are lost in the mists of time, but it has been highly influential in the Western esoteric tradition, being frequently cited by alchemists and magicians.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentwinterg"
             }
         },
@@ -221,7 +249,9 @@
                 "worth": 1
             },
             "description": "Meditations is a series of personal writings by Marcus Aurelius, Roman Emperor from 161 to 180 AD, recording his private notes to himself and ideas on Stoic philosophy.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentsecrethistoriesa"
             }
         },
@@ -236,7 +266,9 @@
                 "worth": 1
             },
             "description": "In this work, Dawkins extends the influential concept of the gene to explore evolution from the lens of the gene itself, rather than the organism, challenging traditional perspectives and providing fresh insights.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentsecrethistoriesb"
             }
         },
@@ -251,7 +283,9 @@
                 "worth": 1
             },
             "description": "The seminal work that introduced the scientific theory that populations evolve over the course of generations through a process of natural selection. It introduced the world to evolution and changed our understanding of the natural world.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentsecrethistoriesc"
             }
         },
@@ -266,7 +300,9 @@
                 "worth": 1
             },
             "description": "In this key work, Schopenhauer presents a pessimistic picture on the nature of existence, arguing that both the will (our deepest desires) and representation (the phenomenal world) determine our reality.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentsecrethistoriesd"
             }
         },
@@ -281,7 +317,9 @@
                 "worth": 1
             },
             "description": "Kripke's influential lectures, which revolutionized the philosophy of language, challenged the then-dominant theory of descriptivism with his causal-historical theory of reference, forever changing the discourse on naming.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentsecrethistoriese"
             }
         },
@@ -296,7 +334,9 @@
                 "worth": 1
             },
             "description": "Leibniz’s Monadology, one of the most important pieces of the Leibniz corpus, is his attempt to reconcile his personal philosophical system with that of his orthodox Christian beliefs. The monads, the philosophical building blocks of the universe, reflect Leibniz’s metaphysics that was influenced by Plato, Aristotle, Descartes and Spinoza.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentsecrethistoriesf"
             }
         },
@@ -311,7 +351,9 @@
                 "worth": 1
             },
             "description": "A monumental work in the history of philosophy, Spinoza's Ethics presents his vision of the ideal human condition and the path to achieving it, delving deep into concepts of God, human nature, and happiness.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentsecrethistoriesg.1"
             }
         },
@@ -326,7 +368,9 @@
                 "worth": 1
             },
             "description": "A central text in Western philosophy, Kant's critique is a deep exploration into metaphysics and epistemology. Kant endeavors to reconcile empiricism and rationalism, ultimately proposing a new, groundbreaking perspective on the limits and capabilities of reason itself.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentsecrethistoriesg.2"
             }
         },
@@ -341,7 +385,9 @@
                 "worth": 1
             },
             "description": "Hegel's masterwork is a complex exploration of human consciousness and its development through stages of self-awareness, culminating in the absolute knowing. It's considered one of the most difficult yet rewarding texts in Western philosophy.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentsecrethistoriesg.3"
             }
         },
@@ -356,7 +402,9 @@
                 "worth": 1
             },
             "description": "Eckhart Tolle's The Power of Now is a guide to spiritual enlightenment that aims to bring about a transformation of consciousness and a end to personal suffering through the power of living in the present moment.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentlantern"
             }
         },
@@ -371,7 +419,9 @@
                 "worth": 1
             },
             "description": "Written by Viktor Frankl, an Austrian psychiatrist who survived the Holocaust, this book is a memoir that explores the pursuit of meaning as the primary motivation in human life, under even the most difficult circumstances.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentlanternb"
             }
         },
@@ -386,7 +436,9 @@
                 "worth": 1
             },
             "description": "Erich Fromm's To Have or To Be? is a psychological exploration of the two modes of existence that pervade our culture and affect our wellbeing, suggesting that being far exceeds having as a source of happiness and fulfilment.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentlanternc"
             }
         },
@@ -401,7 +453,9 @@
                 "worth": 1
             },
             "description": "In this pioneering work, Thorstein Veblen critiques the values of the emerging consumer culture at the turn of the 20th century, and introduces concepts like 'conspicuous consumption' and 'pecuniary emulation'.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentlanternd"
             }
         },
@@ -416,7 +470,9 @@
                 "worth": 1
             },
             "description": "Martin Heidegger's Being and Time is a landmark of 20th-century philosophy that presents a profound inquiry into the nature of being, exploring concepts such as the 'they', authenticity, and temporality.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentlanterne"
             }
         },
@@ -431,7 +487,9 @@
                 "worth": 1
             },
             "description": "Summa Theologica is the best-known work of Thomas Aquinas, presenting a comprehensive synthesis of Christian theology and philosophical thought.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentlanternf"
             }
         },
@@ -446,7 +504,9 @@
                 "worth": 1
             },
             "description": "In Religion and Nothingness, the leading representative of the Kyoto School of Philosophy lays the foundation of thought for a world in the making, a world united beyond the differences of East and West.",
+            "icon": "indignitiesobliviate",
             "xtriggers": {
+
                 "book_to_lore": "fragmentlanterng"
             }
         }
