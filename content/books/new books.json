@@ -509,6 +509,831 @@
 
                 "book_to_lore": "fragmentlanterng"
             }
-        }
+        },
+        {
+            "id": "bookgraila.1",
+            "unique": true,
+            "label": "Thinking, Fast and Slow",
+            "icon": "queensoftherivers",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "description": "In Thinking, Fast and Slow, psychologist and economist Daniel Kahneman dives deep into the two systems that drive the way we think—System 1, which is fast and intuitive, and System 2, which is slow and deliberative. Kahneman, a Nobel laureate, explores the gap between these two systems, where biases and errors can slip in and affect our decision making.",
+            "xtriggers": {
+                "book_to_lore": "fragmentgraila"
+            }
+        },
+        {
+            "id": "bookgraila.2",
+            "unique": true,
+            "label": "On Bullshit",
+            "icon": "queensoftherivers",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "description": "In On Bullshit, philosopher Harry G. Frankfurt rigorously explores the concept of 'bullshit', defining it as a form of communication intended to persuade without regard for truth. Frankfurt examines the prevalence of bullshit in modern society, analyzing its nature, its various forms, and its implications.",
+            "xtriggers": {
+                "book_to_lore": "fragmentgraila"
+            }
+        },
+        {
+            "id": "bookgrailb",
+            "unique": true,
+            "label": "Zombies in Western Culture: A Twenty-First Century Crisis",
+            "icon": "queensoftherivers",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "description": "This exploration by Vervaeke, Mastropietro, and Miscevic delves into the prevalent cultural phenomenon of zombies. The authors examine the metaphorical richness zombies offer in discussing our culture, psychology, and philosophical standing.",
+            "xtriggers": {
+                "book_to_lore": "fragmentgrailb"
+            }
+        },
+        {
+            "id": "bookgraila.1",
+            "unique": true,
+            "label": "Thinking, Fast and Slow",
+            "icon": "queensoftherivers",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "description": "In Thinking, Fast and Slow, psychologist and economist Daniel Kahneman dives deep into the two systems that drive the way we think—System 1, which is fast and intuitive, and System 2, which is slow and deliberative. Kahneman, a Nobel laureate, explores the gap between these two systems, where biases and errors can slip in and affect our decision making.",
+            "xtriggers": {
+                "book_to_lore": "fragmentgraila"
+            }
+        },
+        {
+            "id": "bookgraila.2",
+            "unique": true,
+            "label": "On Bullshit",
+            "icon": "queensoftherivers",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "description": "In On Bullshit, philosopher Harry G. Frankfurt rigorously explores the concept of 'bullshit', defining it as a form of communication intended to persuade without regard for truth. Frankfurt examines the prevalence of bullshit in modern society, analyzing its nature, its various forms, and its implications.",
+            "xtriggers": {
+                "book_to_lore": "fragmentgraila"
+            }
+        },
+        {
+            "id": "bookgrailb",
+            "unique": true,
+            "label": "Zombies in Modern Culture: A Deathly Examination",
+            "icon": "queensoftherivers",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "description": "This exploration by Vervaeke, Mastropietro, and Miscevic delves into the prevalent cultural phenomenon of zombies. The authors examine the metaphorical richness zombies offer in discussing our culture, psychology, and philosophical standing.",
+            "xtriggers": {
+                "book_to_lore": "fragmentgrailb"
+            }
+        },
+        {
+            "id": "bookgrailc",
+            "unique": true,
+            "label": "Addiction and the Brain: Development, Not Disease",
+            "icon": "queensoftherivers",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "description": "Marc Lewis's Addiction and the Brain: Development, Not Disease disputes the disease model of addiction, arguing that it emerges through the brain's natural development process. Lewis explores the neurological elements of addiction, its causes, its affects on the brain, and its potential treatments.",
+            "xtriggers": {
+                "book_to_lore": "fragmentgrailc"
+            }
+        },
+        {
+            "id": "bookgraild",
+            "unique": true,
+            "label": "Pensées",
+            "icon": "queensoftherivers",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "description": "Blaise Pascal's Pensées is a collection of thoughts and ideas on religion and philosophy. Written as an apologetic work to defend Christianity, the Pensées are a reflection of Pascal's religious beliefs and his perspectives on human nature.",
+            "xtriggers": {
+                "book_to_lore": "fragmentgraild"
+            }
+        },
+        {
+            "id": "bookgraile",
+            "unique": true,
+            "label": "Principal Doctrines of Epicureanism",
+            "icon": "queensoftherivers",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "description": "Principal Doctrines of Epicureanism by Epicurus offers profound insights into the philosophy of Epicureanism, proposing a life led by simple pleasures, friendship, and a quiet life as the path to happiness. The doctrines delve into a range of topics including theology, death, the role of senses, and happiness.",
+            "xtriggers": {
+                "book_to_lore": "fragmentgraile"
+            }
+        },
+        {
+            "id": "bookgrailf.1",
+            "unique": true,
+            "label": "I Ching",
+            "icon": "queensoftherivers",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "description": "The I Ching, or Book of Changes, is one of the oldest Chinese texts, offering wisdom and guidance through a divination system. It employs a set of 64 hexagrams (six-line figures) that represent different life situations, providing philosophical responses to these scenarios.",
+            "xtriggers": {
+                "book_to_lore": "fragmentgrailf"
+            }
+        },
+        {
+            "id": "bookgrailf.2",
+            "unique": true,
+            "label": "Tractatus Logico-Philosophicus",
+            "icon": "queensoftherivers",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "description": "Wittgenstein's Tractatus Logico-Philosophicus is a significant philosophical work that outlines his picture theory of language and the idea that language represents the logical structure of reality. It's a dense text, presenting seven main propositions that dive deep into the philosophy of language and metaphysics.",
+            "xtriggers": {
+                "book_to_lore": "fragmentgrailf"
+            }
+        },
+        {
+            "id": "bookgrailg",
+            "unique": true,
+            "label": "Process and Reality",
+            "icon": "queensoftherivers",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "description": "Alfred North Whitehead's Process and Reality is a comprehensive exploration of metaphysical philosophy. It establishes Whitehead's process philosophy, which posits that reality is composed of processes rather than material objects. It's a challenging text that radically reinterprets many of philosophy's fundamental concepts.",
+            "xtriggers": {
+                "book_to_lore": "fragmentgrailg"
+            }
+        },
+        {
+            "id": "bookedgea.1",
+            "unique": true,
+            "label": "The Inner Game of Tennis: The Classic Guide to the Mental Side of Peak Performance",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "icon": "queensoftherivers",
+            "description": "This transformative guide by W. Timothy Gallwey provides deep insights into the relationship between the conscious and unconscious mind, using tennis as the metaphor. It explores how to achieve peak performance by overcoming self-doubt and anxiety.",
+            "xtriggers": {
+                "book_to_lore": "fragmentedgea"
+            }
+        },
+        {
+            "id": "bookedgea.2",
+            "unique": true,
+            "label": "Deep Work",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "icon": "queensoftherivers",
+            "description": "Deep Work by Cal Newport presents a strong argument for the value of deep, focused work. It suggests strategies for prioritizing tasks and minimizing distractions to boost productivity and creativity.",
+            "xtriggers": {
+                "book_to_lore": "fragmentedgea"
+            }
+        },
+        {
+            "id": "bookedgeb",
+            "unique": true,
+            "label": "Flow: The Psychology of Optimal Experience",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "icon": "queensoftherivers",
+            "description": "Mihaly Csikszentmihalyi's work explores the 'optimal experience' and explains how these moments of flow can make everyday life more rewarding. It presents ways to create conditions that foster a state of flow, leading to increased focus and productivity.",
+            "xtriggers": {
+                "book_to_lore": "fragmentedgeb"
+            }
+        },
+        {
+            "id": "bookedgec",
+            "unique": true,
+            "label": "A Book of Five Rings: The Classic Guide to Strategy",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "icon": "queensoftherivers",
+            "description": "Written by Miyamoto Musashi, a renowned Japanese swordsman, this book provides profound insights into the intersection of martial arts and strategy. It serves as a guide to achieving success through discipline, mindfulness, and a deep understanding of life's principles.",
+            "xtriggers": {
+                "book_to_lore": "fragmentedgec"
+            }
+        },
+        {
+            "id": "bookedged",
+            "unique": true,
+            "label": "Tao Te Ching",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "icon": "queensoftherivers",
+            "description": "Penned by ancient Chinese philosopher Laozi, the Tao Te Ching offers profound wisdom on governance, lifestyle, and philosophy. Central to its teachings is the concept of living in harmony with the Tao, or the natural order of the universe.",
+            "xtriggers": {
+                "book_to_lore": "fragmentedged"
+            }
+        },
+        {
+            "id": "bookedgee",
+            "unique": true,
+            "label": "The Record of Linji",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "icon": "queensoftherivers",
+            "description": "The Record of Linji is a collection of the teachings and sayings of Linji Yixuan, a seminal figure in Chan (Zen) Buddhism. It emphasizes the importance of direct personal experience over theoretical knowledge in the quest for spiritual enlightenment.",
+            "xtriggers": {
+                "book_to_lore": "fragmentedgee"
+            }
+        },
+        {
+            "id": "bookedgef",
+            "unique": true,
+            "label": "Object-Oriented Ontology: A New Theory of Everything",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "icon": "queensoftherivers",
+            "description": "This book by Graham Harman is a groundbreaking exploration of metaphysics. It challenges the anthropocentric leanings of traditional philosophy, arguing for a 'flat ontology' where all objects (human, non-human, physical, abstract) exist with equal status.",
+            "xtriggers": {
+                "book_to_lore": "fragmentedgef"
+            }
+        },
+        {
+        "id": "bookknocka.1",
+        "unique": true,
+        "label": "Things Fall Apart",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Things Fall Apart by Chinua Achebe is a seminal piece of literature, an uncompromising exploration of the clash between tradition and change, offering a profound portrayal of the human response to societal transformation.",
+        "xtriggers": {
+            "book_to_lore": "fragmentknock"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookknocka.2",
+        "unique": true,
+        "label": "The Body Keeps the Score",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "In The Body Keeps the Score, Dr. Bessel van der Kolk uses recent scientific advances to show how trauma literally reshapes both body and brain, compromising sufferers’ capacities for pleasure, engagement, self-control, and trust.",
+        "xtriggers": {
+            "book_to_lore": "fragmentknock"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookknockb",
+        "unique": true,
+        "label": "Braiding Sweetgrass",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Braiding Sweetgrass by Robin Wall Kimmerer is an extraordinary journey intertwining indigenous wisdom, scientific knowledge and the teachings of plants, illuminating a path toward healing the ecological devastation of our lands.",
+        "xtriggers": {
+            "book_to_lore": "fragmentknockb"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookknockc",
+        "unique": true,
+        "label": "Undoing Gender",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Undoing Gender by Judith Butler addresses the regulation of sexuality and gender that takes place in psychology, aesthetics, and social policy. It investigates the ways in which the gendered subject is formed.",
+        "xtriggers": {
+            "book_to_lore": "fragmentknockc"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookknockd",
+        "unique": true,
+        "label": "Stone Butch Blues",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Stone Butch Blues, Leslie Feinberg’s 1993 first novel, is widely considered in and outside the U.S. to be a groundbreaking work about the complexities of gender. It is a profound exploration of identity and the quest for social justice.",
+        "xtriggers": {
+            "book_to_lore": "fragmentknockd"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookknocke",
+        "unique": true,
+        "label": "African Ethics",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "African Ethics by Thaddeus Metz presents a comprehensive ethical theory that is grounded on the principles of African philosophy, offering a philosophical justification for moral ideals that have their origins in African cultures.",
+        "xtriggers": {
+            "book_to_lore": "fragmentknocke"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookknockf",
+        "unique": true,
+        "label": "Post Transsexual Manifesto",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "The Post-Transsexual Manifesto by Sandy Stone breaks new ground in the study of gender, challenging the medicalization and pathologization of transgender people, while arguing for an acceptance of multiple identities.",
+        "xtriggers": {
+            "book_to_lore": "fragmentknockf"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookknockg",
+        "unique": true,
+        "label": "The Tibetan Book of the Dead",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "The Tibetan Book of the Dead is a Buddhist scripture that guides the departed through the experiences in the afterlife. Its profound insights make it a guide for living, dying, and transcending the confines of ordinary reality.",
+        "xtriggers": {
+            "book_to_lore": "fragmentknockg"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookforgea",
+        "unique": true,
+        "label": "The Alchemist",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Paulo Coelho's 'The Alchemist' is a mystical novel about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried in the Pyramids.",
+        "xtriggers": {
+            "book_to_lore": "fragmentforge"
+        },
+        "icon": "humoursofagentleman"
+    },
+    {
+        "id": "bookforgeb",
+        "unique": true,
+        "label": "Ego Is the Enemy",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "In 'Ego Is the Enemy', Ryan Holiday draws on a vast array of stories and examples, from literature to philosophy to history, to illustrate that ego is one of the biggest detriments to success and happiness.",
+        "xtriggers": {
+            "book_to_lore": "fragmentforgeb"
+        },
+        "icon": "humoursofagentleman"
+    },
+    {
+        "id": "bookforgec",
+        "unique": true,
+        "label": "Homo Deus: A Brief History of Tomorrow",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "'Homo Deus: A Brief History of Tomorrow' is a profound sequel to Sapiens. In this work, Yuval Noah Harari delves into the future of humankind: a not-so-distant future in which we face a new set of challenges.",
+        "xtriggers": {
+            "book_to_lore": "fragmentforgec"
+        },
+        "icon": "humoursofagentleman"
+    },
+    {
+        "id": "bookforged",
+        "unique": true,
+        "label": "Wittgenstein on Rules and Private Language",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Saul Kripke's 'Wittgenstein on Rules and Private Language' is a seminal work that has shaped debates on the philosophy of language. In it, Kripke presents a controversial interpretation of Wittgenstein's philosophy.",
+        "xtriggers": {
+            "book_to_lore": "fragmentforged"
+        },
+        "icon": "humoursofagentleman"
+    },
+    {
+        "id": "bookforgee",
+        "unique": true,
+        "label": "The Aim and Structure of Physical Theory",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "'The Aim and Structure of Physical Theory' by Pierre Duhem is a philosophical critique of physical theory and an exploration of the underlying philosophical notions that guide scientific investigation.",
+        "xtriggers": {
+            "book_to_lore": "fragmentforgee"
+        },
+        "icon": "humoursofagentleman"
+    },
+    {
+        "id": "bookforgef",
+        "unique": true,
+        "label": "Two Dogmas of Empiricism",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "W.V. Quine's 'Two Dogmas of Empiricism' is a groundbreaking essay that challenges the logical positivist distinction between analytic and synthetic propositions, reshaping the landscape of epistemology and the philosophy of language.",
+        "xtriggers": {
+            "book_to_lore": "fragmentforgef"
+        },
+        "icon": "humoursofagentleman"
+    },
+    {
+        "id": "bookforgeg",
+        "unique": true,
+        "label": "Anti-Oedipus",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Gilles Deleuze and Félix Guattari's 'Anti-Oedipus' is a radical work of post-structuralist philosophy that combines interpretations of Freud, Marx, Nietzsche and others in a critique of capitalism and psychoanalysis.",
+        "xtriggers": {
+            "book_to_lore": "fragmentforgeg"
+        },
+        "icon": "humoursofagentleman"
+    },
+    {
+        "id": "bookmotha",
+        "unique": true,
+        "label": "Dungeons & Dragons Player's Handbook",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "This guide by the Wizards RPG Team provides rules and advice for players of the popular fantasy tabletop RPG Dungeons & Dragons. It serves as an introduction to game mechanics, character creation, and the basic elements of storytelling and roleplaying in the D&D universe.",
+        "xtriggers": {
+            "book_to_lore": "fragmentmoth"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookmothb",
+        "unique": true,
+        "label": "On Jeepform",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "'On Jeepform' is a fictional book that serves as an introduction to the Jeepform style of Nordic LARP (live-action role play). It explores the history, techniques, and principles of Jeepform, an approach to LARP that emphasizes story, emotion, and the exploration of challenging themes.",
+        "xtriggers": {
+            "book_to_lore": "fragmentmothb"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookmothc",
+        "unique": true,
+        "label": "Engines of Creation: The Coming Era of Nanotechnology",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "K. Eric Drexler's 'Engines of Creation' is a groundbreaking work on nanotechnology. It discusses the potential benefits and risks of molecular manufacturing, and paints a picture of how it could transform society.",
+        "xtriggers": {
+            "book_to_lore": "fragmentmothc"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookmothd",
+        "unique": true,
+        "label": "Acid Communism",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Mark Fisher's 'Acid Communism' explores the intersection of countercultural movements and leftist politics, proposing a new form of political consciousness that embraces both radical change and communal values.",
+        "xtriggers": {
+            "book_to_lore": "fragmentmothd"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookmothe",
+        "unique": true,
+        "label": "Orion's Arm Universe Project Inc.",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "This collaborative work by M. Alan Kazlev, Bernd Helfert, and Anders Sandberg outlines the 'Orion's Arm' universe, a complex vision of post-singularity and far-future humanity. The text dives deep into speculative technology, future societies, and high-concept science fiction world-building.",
+        "xtriggers": {
+            "book_to_lore": "fragmentmothe"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookmothf",
+        "unique": true,
+        "label": "Cyborg Manifesto",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Donna Haraway's 'Cyborg Manifesto' is a seminal work in feminist theory and science studies. It explores the notion of the cyborg as a challenge to traditional notions of gender, nature, and humanity, and calls for a radical reconsideration of the boundaries between human and machine.",
+        "xtriggers": {
+            "book_to_lore": "fragmentmothf"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookmothg.1",
+        "unique": true,
+        "label": "Common Cause of Humanity",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Nikolai Fyodorovich Fyodorov's 'Common Cause of Humanity' is a philosophical work advocating for a 'common task' for all humanity: the resurrection of the dead. Fyodorov believed that scientific progress and human solidarity should work together to achieve this goal.",
+        "xtriggers": {
+            "book_to_lore": "fragmentmothg"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookmothg.2",
+        "unique": true,
+        "label": "The Phenomenon of Man",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Pierre Teilhard de Chardin's 'The Phenomenon of Man' is a philosophically dense exploration of evolution, consciousness, and human progress. The text presents a vision of humanity's place in the universe that integrates science, philosophy, and spirituality.",
+        "xtriggers": {
+            "book_to_lore": "fragmentmothg"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookhanda",
+        "unique": true,
+        "label": "The Art of the Deal",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "The Art of the Deal is a book written by Donald Trump and Tony Schwartz. It provides insights into Trump's business strategies and negotiation tactics.",
+        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "xtriggers": {
+            "book_to_lore": "fragmenthand"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookhandb",
+        "unique": true,
+        "label": "Zero to One: Notes on Startups, or How to Build the Future",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Zero to One is a book by Peter Thiel and Blake Masters that explores innovative thinking and strategies for building successful startups and shaping the future.",
+        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "xtriggers": {
+            "book_to_lore": "fragmenthandb"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookhandc.1",
+        "unique": false,
+        "label": "The Wealth of Nations",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "The Wealth of Nations is a seminal work by Adam Smith that delves into the principles of economics, discussing the division of labor, free markets, and the invisible hand.",
+        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "xtriggers": {
+            "book_to_lore": "fragmenthandc"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookhandc.2",
+        "unique": false,
+        "label": "Das Kapital",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Das Kapital is a seminal work by Karl Marx that analyzes the capitalist mode of production, exploring the dynamics of labor, commodities, and capital.",
+        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "xtriggers": {
+            "book_to_lore": "fragmenthandc"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookhandd.1",
+        "unique": false,
+        "label": "Phenotypic Revolutions: Genotype to Phenotype in Digital Organisms",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Phenotypic Revolutions is a book by Jean-Francois Gariepy that explores the transformations from genotype to phenotype in digital organisms, shedding light on the complexities of genetic algorithms.",
+        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "xtriggers": {
+            "book_to_lore": "fragmenthandd"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookhandd.2",
+        "unique": false,
+        "label": "Industrial Society and Its Future",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Industrial Society and Its Future, also known as The Unabomber's Manifesto, is a controversial work by Theodore Kaczynski that critiques technological advancement and modern industrial society.",
+        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "xtriggers": {
+            "book_to_lore": "fragmenthandd"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookhande",
+        "unique": true,
+        "label": "The Dark Forest",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "The Dark Forest is a science fiction novel by Cixin Liu. It is the second book in the Remembrance of Earth's Past trilogy, exploring themes of interstellar civilizations and the survival of humanity.",
+        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "xtriggers": {
+            "book_to_lore": "fragmenthande"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookhandf",
+        "unique": true,
+        "label": "Dead Space",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Dead Space is a science fiction horror novel by Antony Johnston and Ben Templesmith. It serves as a tie-in to the popular video game franchise, exploring the chilling events aboard a derelict spaceship.",
+        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "xtriggers": {
+            "book_to_lore": "fragmenthandf"
+        },
+        "icon": "queensoftherivers"
+    },
+    {
+        "id": "bookhandg",
+        "unique": true,
+        "label": "Fanged Noumena: Collected Writings 1987–2007",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "Fanged Noumena is a collection of writings by Nick Land. It spans the years 1987 to 2007 and explores topics such as philosophy, culture, and technology, often challenging conventional perspectives.",
+        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "xtriggers": {
+            "book_to_lore": "fragmenthandg"
+        },
+        "icon": "queensoftherivers"
+    }
     ]
 }
