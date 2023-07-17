@@ -1,0 +1,10 @@
+{
+    "recipes": [
+        {
+            "id": "speakpublicly",
+            "aspects":{
+                "fatiguing": 1
+            }
+        }
+    ]
+}
