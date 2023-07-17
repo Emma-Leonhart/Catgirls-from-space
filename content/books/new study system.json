@@ -1,0 +1,17 @@
+{
+    "recipes":[
+        {
+            "id": "studybook_new",
+            "actionid": "study",
+            "requirements": {
+                "text": 1
+            },
+            "label": "Study a book",
+            "aspectS":{
+                "book_to_lore": 1
+            },
+            "startdescription": "Study this book to learn its lore",
+            "description": "I have learned so much from this book",
+        }
+    ]
+}
