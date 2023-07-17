@@ -6,6 +6,7 @@
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
+                "local": 1,
                 "follower": 1,
                 "edge": 3
             },
@@ -24,6 +25,7 @@
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
+                "local": 1,
                 "follower": 1,
                 "moth": 3
             },
@@ -42,6 +44,7 @@
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
+                "local": 1,
                 "follower": 1,
                 "edge": 5
             },
@@ -60,6 +63,7 @@
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
+                "local": 1,
                 "follower": 1,
                 "forge": 5,
                 "edge": 3
@@ -79,6 +83,7 @@
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
+                "local": 1,
                 "follower": 1,
                 "knock": 5
             },
@@ -97,6 +102,7 @@
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
+                "local": 1,
                 "follower": 1,
                 "lantern": 5,
                 "moth": 3
@@ -116,6 +122,7 @@
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
+                "local": 1,
                 "follower": 1,
                 "moth": 5,
                 "grail": 1
