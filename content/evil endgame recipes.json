@@ -61,7 +61,8 @@
             "effects": {
                 "culthand_1": -1,
                 "cult_imbalance": 1
-            }
+            },
+            "icon": "cultlantern_1"
         },
         {
             "id": "evilcycle",

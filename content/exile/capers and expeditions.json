@@ -1,0 +1,75 @@
+{
+    "recipes":[
+        {
+            "id": "travel.caper.begin",
+            "actionid": "travel",
+            "label": "Begin a Caper",
+            "startdescription": "Get in, get the goods, get out. I don't think it's ever been that simple.",
+            "description": "I've begun. [Keep an eye on the Operation. Complications will arise along the way.]",
+            "requirements": {
+                "vault": 1
+            },
+            "aspects": {
+                "minortracerisk": 1
+            },
+            "alt": [
+                {
+                    "id": "opx.caper.populate",
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 2,
+                        "filter": {
+                            "vault": 1,
+                            "edge": 1,
+                            "forge": 1,
+                            "grail": 1,
+                            "heart": 1,
+                            "knock": 1,
+                            "lantern": 1,
+                            "moth": 1,
+                            "secrethistories": 1,
+                            "winter": 1
+                        }
+                    }
+                }
+            ],
+            "warmup": 30,
+            "craftable": true
+        },
+        {
+            "id": "explorevault_hint_addfunds",
+            "label": "Preparations for an Expedition?",
+            "actionid": "explore",
+            "requirements": {
+                "vault": 1,
+                "follower": 1
+            },
+            "startdescription": "If I add at least one Funds, I can begin the Expedition. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "hintonly": true,
+            "craftable": false
+        },
+        {
+            "id": "explorevault_hint_addfollower",
+            "label": "Preparations for an Expedition?",
+            "actionid": "explore",
+            "requirements": {
+                "vault": 1,
+                "funds": 1
+            },
+            "startdescription": "If I add a Follower, I can begin the Expedition. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "hintonly": true,
+            "craftable": false
+        },
+        {
+            "id": "explorevault_hint",
+            "label": "Preparations for an Expedition?",
+            "actionid": "explore",
+            "requirements": {
+                "vault": 1
+            },
+            "startdescription": "I could send an Expedition here to find books, treasures, tools of power. But I'll need Followers to send, and Funds to supply them.",
+            "hintonly": true,
+            "craftable": false
+        }
+    ]
+}

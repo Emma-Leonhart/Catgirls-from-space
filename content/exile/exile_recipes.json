@@ -91,42 +91,6 @@
             "warmup": 1
         },
         {
-            "id": "travel.caper.begin",
-            "actionid": "travel",
-            "label": "Begin a Caper",
-            "startdescription": "Get in, get the goods, get out. I don't think it's ever been that simple.",
-            "description": "I've begun. [Keep an eye on the Operation. Complications will arise along the way.]",
-            "requirements": {
-                "vault": 1
-            },
-            "aspects": {
-                "minortracerisk": 1
-            },
-            "alt": [
-                {
-                    "id": "opx.caper.populate",
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 2,
-                        "filter": {
-                            "vault": 1,
-                            "edge": 1,
-                            "forge": 1,
-                            "grail": 1,
-                            "heart": 1,
-                            "knock": 1,
-                            "lantern": 1,
-                            "moth": 1,
-                            "secrethistories": 1,
-                            "winter": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 30,
-            "craftable": true
-        },
-        {
             "id": "opx.caper.progress3",
             "actionid": "opx.caper",
             "label": "The Prize!",
