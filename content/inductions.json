@@ -247,7 +247,10 @@
             },
             "effects":{
                 "fragmentheart": 1
-            }
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
         },
         {
             "id": "heartinduction.failure",
@@ -299,7 +302,10 @@
             },
             "effects":{
                 "fragmentwinter": 1
-            }
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
         },
         {
             "id": "winter.induction.failure",
@@ -351,7 +357,10 @@
             },
             "effects":{
                 "fragmentsecret_histories": 1
-            }
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
         },
         {
             "id": "secret_histories.induction.failure",
@@ -403,7 +412,10 @@
             },
             "effects":{
                 "fragmentlantern": 1
-            }
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
         },
         {
             "id": "lantern.induction.failure",
@@ -455,7 +467,10 @@
             },
             "effects":{
                 "fragmentgrail": 1
-            }
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
         },
         {
             "id": "grail.induction.failure",
@@ -507,7 +522,10 @@
             },
             "effects":{
                 "fragmentedge": 1
-            }
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
         },
         {
             "id": "edge.induction.failure",
@@ -559,7 +577,10 @@
             },
             "effects":{
                 "fragmentknock": 1
-            }
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
         },
         {
             "id": "knock.induction.failure",
@@ -611,7 +632,10 @@
             },
             "effects":{
                 "fragmentforge": 1
-            }
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
         },
         {
             "id": "forge.induction.failure",
@@ -663,7 +687,10 @@
             },
             "effects":{
                 "fragmentmoth": 1
-            }
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
         },
         {
             "id": "mothinduction.failure",
@@ -715,7 +742,10 @@
             },
             "effects":{
                 "fragmenthand": 1
-            }
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
         },
         {
             "id": "hand.induction.failure",
