@@ -1,330 +1,330 @@
 {
-    "elements":[
-            {
-            "id": "fragmentheart",
-            "label": "A Leader's Secret",
-            "description": "The roar of unity echoes in every lionheart. Let us recognize this shared pulse.",
+   "elements":[
+           {
+           "id": "fragmentheart",
+           "label": "A Leader's Secret",
+           "description": "The roar of unity echoes in every lionheart. Let us recognize this shared pulse.",
+           },
+           
+           {
+           "id": "fragmentheartb",
+           "label": "Iron Lion Zion",
+           "description": "The syllables of this chant hold a compelling rhythm, mirroring the steady beat of a lionheart. It yearns for the continuity of the pride.",
+           },
+           
+           {
+           "id": "fragmentheartc",
+           "label": "The Pride's Anthem",
+           "description": "Who could hear this and remain untouched? The lone? The lost? The land and the heavens? [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
+           },
+           
+           {
+           "id": "fragmentheartd",
+           "label": "Twinned Roars",
+           "description": "The Lioness-and-King has always been invoked for protection, at crossroads, moonrise, and where the land cradles the sea. [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
+           },
+           
+           {
+           "id": "fragmenthearte",
+           "label": "Rhythm of the Watchful",
+           "description": "One who watches over the pride does not sleep; one who sleeps is not the watcher. <b>One who watches over the pride does not sleep; one who sleeps is not the watcher.</b> [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
+           },
+           {
+              "id": "fragmentheartf",
+              "label": "Sanctuary of the Strong",
+              "description": "Within the firm 'No' of the Pride lies a refuge—an impenetrable fortress sheltering those within from harm. [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
             },
-            
+           {
+           "id": "fragmentheartg",
+           "label": "Unfathomable Prowess",
+           "description": "The Grail marked the Lionheart with its roar. The Lioness-and-King emerged from two lairs. The Pride awoke when the land tasted the strength of unity. The Heart is the beat of the Pride, and here is its sacred doctrine... [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]"
+           },
+           
+           {
+           "id": "fragmentwinter",
+           "label": "A Therapist's Secret",
+           "description": "It is often suggested that true understanding lies within the comforting embrace of silence. A notion playfully countered by the idea that this wisdom is best perceived with one's eyes shut. [Incorporate this into a Rite with a departed soul and Edge aspect, and behold as the lifeless stirs.]"
+           },
+           
+           {
+           "id": "fragmentwinterb",
+           "label": "A Solitary Ritual",
+           "description": "When uttered, my lips remain untouched by the chill. This lack of frosty touch remains unexpected, every time. [Use this in a Rite with a Heart influence and Byzantine Tinct to call forth the Silent Departed.]"
+           },
+           
+           {
+           "id": "fragmentwinterc",
+           "label": "Meditation on the Fading Sun",
+           "description": "This pays homage to, acknowledges, and gracefully accepts the transition into quietude. [Employ this in a Rite with a Heart influence and Byzantine Tinct to summon the Silent Departed.]"
+           },
+           
+           {
+           "id": "fragmentwinterd",
+           "label": "Invocation of the Alabaster Sparrow",
+           "description": "There exists a force that honors and mourns, from whom nothing can be stolen, and who cannot be duped. One might assume you could crumble it in your grasp, into fragments of avian bone. [Use this in a Rite with Martensite Paste and an assistant pledged to Knock - or resources of equal potency - to summon a Reflective Servant.]"
+           },
+           
+           {
+           "id": "fragmentwintere",
+           "label": "Reminiscence of Vanished Moments",
+           "description": "Six have departed. Five sprung from Stone and one from Light. All vanished into the Void. Their memories, however, still hold power, and now we invoke them. [Incorporate this in a Rite with Martensite Paste and an assistant pledged to Knock - or resources of equal potency - to summon a Reflective Servant.]"
+           },
+           
+           {
+           "id": "fragmentwinterf",
+           "label": "The Fractures of Identity",
+           "description": "When the Sun-in-Splendour fractured, its identities splintered as well. Here lie the fragments of names that once were whole. [Use this in a Rite with Martensite Paste and an assistant pledged to Knock - or resources of equal potency - to summon a Reflective Servant.]"
+           },
+           
+           {
+           "id": "fragmentwinterg",
+           "label": "Solitude's Pledge",
+           "description": "When the Forge cools, the Glory dims, and the Wood turns to dust, perhaps the Wolf Divided shall rest, but only until it can consume itself. This Pledge almost mirrors the Divided One's resentment. [Speak this to a Hunter, and it might induce madness immediately.]"
+           },
+           {
+               "id": "fragmentsecrethistories",
+               "label": "A Lensmaker's Secret",
+               "description": "The truth is often elusive, hidden behind layers of deception and misconception. But through the lens of careful scrutiny, the obscured becomes clear. This is the puzzle that every seeker of truth faces: what reality does the lens reveal?"
+             },
+             {
+               "id": "fragmentsecrethistoriesb",
+               "label": "The Revelation of Focus",
+               "description": "The most profound truths often lie in plain sight, concealed only by our inability to perceive them. By applying the right lens, these truths are brought into sharp focus, resulting in transformative revelations."
+             },
+             {
+               "id": "fragmentsecrethistoriesc",
+               "label": "An Optical Odyssey",
+               "description": "The journey to discern truth is a path laden with distortions and illusions. It's an odyssey through a world that can shift and change under different lenses. But through this journey, the traveller learns to distinguish the genuine from the artificial."
+             },
+             {
+               "id": "fragmentsecrethistoriesd",
+               "label": "Focus of the Fact-seeker",
+               "description": "In the realm of truth, perspective is paramount. The Fact-seeker understands this, manipulating the lens to filter bias and distortion, honing in on the pure, unadulterated truth."
+             },
+             {
+               "id": "fragmentsecrethistoriese",
+               "label": "Prism's Perspective",
+               "description": "Truth, like light through a prism, can split into a spectrum of interpretations. Understanding this, the seeker knows to explore each aspect, each color of the spectrum, to piece together the full picture of reality."
+             },
+             {
+               "id": "fragmentsecrethistoriesf",
+               "label": "Observation's Oracle",
+               "description": "One's ability to perceive the world is an oracle in itself, predicting our understanding of reality. When one learns to adjust their lens, the world unravels its secrets, offering insights into the hidden depths of existence."
+             },
+             {
+               "id": "fragmentsecrethistoriesg",
+               "label": "The Refraction Narrative",
+               "description": "Every truth-seeker has a narrative, a tale of discovery and revelation, of truths uncovered and mysteries solved. These narratives are shaped by the lens they use, bending and refracting to create a unique path of understanding."
+             },              
             {
-            "id": "fragmentheartb",
-            "label": "Iron Lion Zion",
-            "description": "The syllables of this chant hold a compelling rhythm, mirroring the steady beat of a lionheart. It yearns for the continuity of the pride.",
-            },
-            
-            {
-            "id": "fragmentheartc",
-            "label": "The Pride's Anthem",
-            "description": "Who could hear this and remain untouched? The lone? The lost? The land and the heavens? [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
-            },
-            
-            {
-            "id": "fragmentheartd",
-            "label": "Twinned Roars",
-            "description": "The Lioness-and-King has always been invoked for protection, at crossroads, moonrise, and where the land cradles the sea. [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
-            },
-            
-            {
-            "id": "fragmenthearte",
-            "label": "Rhythm of the Watchful",
-            "description": "One who watches over the pride does not sleep; one who sleeps is not the watcher. <b>One who watches over the pride does not sleep; one who sleeps is not the watcher.</b> [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
-            },
-            {
-               "id": "fragmentheartf",
-               "label": "Sanctuary of the Strong",
-               "description": "Within the firm 'No' of the Pride lies a refuge—an impenetrable fortress sheltering those within from harm. [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
-             },
-            {
-            "id": "fragmentheartg",
-            "label": "Unfathomable Prowess",
-            "description": "The Grail marked the Lionheart with its roar. The Lioness-and-King emerged from two lairs. The Pride awoke when the land tasted the strength of unity. The Heart is the beat of the Pride, and here is its sacred doctrine... [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]"
-            },
-            
-            {
-            "id": "fragmentwinter",
-            "label": "A Therapist's Secret",
-            "description": "It is often suggested that true understanding lies within the comforting embrace of silence. A notion playfully countered by the idea that this wisdom is best perceived with one's eyes shut. [Incorporate this into a Rite with a departed soul and Edge aspect, and behold as the lifeless stirs.]"
-            },
-            
-            {
-            "id": "fragmentwinterb",
-            "label": "A Solitary Ritual",
-            "description": "When uttered, my lips remain untouched by the chill. This lack of frosty touch remains unexpected, every time. [Use this in a Rite with a Heart influence and Byzantine Tinct to call forth the Silent Departed.]"
-            },
-            
-            {
-            "id": "fragmentwinterc",
-            "label": "Meditation on the Fading Sun",
-            "description": "This pays homage to, acknowledges, and gracefully accepts the transition into quietude. [Employ this in a Rite with a Heart influence and Byzantine Tinct to summon the Silent Departed.]"
-            },
-            
-            {
-            "id": "fragmentwinterd",
-            "label": "Invocation of the Alabaster Sparrow",
-            "description": "There exists a force that honors and mourns, from whom nothing can be stolen, and who cannot be duped. One might assume you could crumble it in your grasp, into fragments of avian bone. [Use this in a Rite with Martensite Paste and an assistant pledged to Knock - or resources of equal potency - to summon a Reflective Servant.]"
-            },
-            
-            {
-            "id": "fragmentwintere",
-            "label": "Reminiscence of Vanished Moments",
-            "description": "Six have departed. Five sprung from Stone and one from Light. All vanished into the Void. Their memories, however, still hold power, and now we invoke them. [Incorporate this in a Rite with Martensite Paste and an assistant pledged to Knock - or resources of equal potency - to summon a Reflective Servant.]"
-            },
-            
-            {
-            "id": "fragmentwinterf",
-            "label": "The Fractures of Identity",
-            "description": "When the Sun-in-Splendour fractured, its identities splintered as well. Here lie the fragments of names that once were whole. [Use this in a Rite with Martensite Paste and an assistant pledged to Knock - or resources of equal potency - to summon a Reflective Servant.]"
-            },
-            
-            {
-            "id": "fragmentwinterg",
-            "label": "Solitude's Pledge",
-            "description": "When the Forge cools, the Glory dims, and the Wood turns to dust, perhaps the Wolf Divided shall rest, but only until it can consume itself. This Pledge almost mirrors the Divided One's resentment. [Speak this to a Hunter, and it might induce madness immediately.]"
-            },
-            {
-                "id": "fragmentsecrethistories",
-                "label": "A Lensmaker's Secret",
-                "description": "The truth is often elusive, hidden behind layers of deception and misconception. But through the lens of careful scrutiny, the obscured becomes clear. This is the puzzle that every seeker of truth faces: what reality does the lens reveal?"
-              },
-              {
-                "id": "fragmentsecrethistoriesb",
-                "label": "The Revelation of Focus",
-                "description": "The most profound truths often lie in plain sight, concealed only by our inability to perceive them. By applying the right lens, these truths are brought into sharp focus, resulting in transformative revelations."
-              },
-              {
-                "id": "fragmentsecrethistoriesc",
-                "label": "An Optical Odyssey",
-                "description": "The journey to discern truth is a path laden with distortions and illusions. It's an odyssey through a world that can shift and change under different lenses. But through this journey, the traveller learns to distinguish the genuine from the artificial."
-              },
-              {
-                "id": "fragmentsecrethistoriesd",
-                "label": "Focus of the Fact-seeker",
-                "description": "In the realm of truth, perspective is paramount. The Fact-seeker understands this, manipulating the lens to filter bias and distortion, honing in on the pure, unadulterated truth."
-              },
-              {
-                "id": "fragmentsecrethistoriese",
-                "label": "Prism's Perspective",
-                "description": "Truth, like light through a prism, can split into a spectrum of interpretations. Understanding this, the seeker knows to explore each aspect, each color of the spectrum, to piece together the full picture of reality."
-              },
-              {
-                "id": "fragmentsecrethistoriesf",
-                "label": "Observation's Oracle",
-                "description": "One's ability to perceive the world is an oracle in itself, predicting our understanding of reality. When one learns to adjust their lens, the world unravels its secrets, offering insights into the hidden depths of existence."
-              },
-              {
-                "id": "fragmentsecrethistoriesg",
-                "label": "The Refraction Narrative",
-                "description": "Every truth-seeker has a narrative, a tale of discovery and revelation, of truths uncovered and mysteries solved. These narratives are shaped by the lens they use, bending and refracting to create a unique path of understanding."
-              },              
-             {
-                "id": "fragmentlantern",
-                "label": "An Archivist's Secret",
-                "description": "The whispers of ancient texts echo, 'Each truth has its hue, but hues only come to life under the gaze of enlightenment.' This forms the core of the archivist's enlightenment."
-             },
-             {
-                "id": "fragmentlanternb",
-                "label": "A Glimmer of the Mansus",
-                "description": "A snippet of verse; a sole memory of a peculiar abode visited by all at least twice in their existence. Mastery of this lore is indispensable for the inaugural voyage into the Mansus."
-             },
-             {
-                "id": "fragmentlanternc",
-                "label": "A Luminary's Chant",
-                "description": "The Watchman decrees, 'True understanding dwells in the crevices of shadow.'"
-             },
-             {
-                "id": "fragmentlanternd",
-                "label": "Guiding Incantation",
-                "description": "The Door-in-the-Eye navigates; it is first and foremost, a bearer of enlightenment."
-             },
-             {
-                "id": "fragmentlanterne",
-                "label": "Formulae of the Crossroads",
-                "description": "The Concursum, bathed in the glow of the Mansus' Lantern, is a labyrinth whose intricacies surpass mortal comprehension, yet these formulae attempt to outline its profound enigma."
-             },
-             {
-                "id": "fragmentlanternf",
-                "label": "Chant of the Ascending",
-                "description": "The Ascent of Knives signifies the most challenging of the Watchman's trials. Those who survive it, ascend closer to the radiant Glory."
-             },
-             {
-                "id": "fragmentlanterng",
-                "label": "Illuminated Enigmas",
-                "description": "The Meniscate, the Madrugad, the Flowermaker, and the Forge of Days are the gods-from-Light. There exists a fifth, not the Watchman, yet the Watchman shares an arcane doctrine with these luminous entities..."
-             },
-             {
-                "id": "fragmentgrail",
-                "label": "A Hedonist's Secret",
-                "description": "In the crimson dance of desire, the hedonist discovers: 'New experiences are the truest colors of life.' The exploration of unchartered territories and unmet souls underpins their hedonistic journey."
-             },
-             {
-                "id": "fragmentgrailb",
-                "label": "Emissary's Incantation",
-                "description": "The Great Mother, the custodian of limitless encounters, hums the rhythm of primal connections. A chant resonating with untapped bonds."
-             },
-             {
-                "id": "fragmentgrailc",
-                "label": "Rite of Revelry",
-                "description": "A symphony of sensations that unlocks the heart to the carousel of existence, making even the notion of sacrifice an intoxicating dance."
-             },
-             {
-                "id": "fragmentgraild",
-                "label": "Harmony of Embrace",
-                "description": "Each Name of the Grail is a celebration of connection. We echo them, hoping to imbibe the pulsating energy they exude."
-             },
-             {
-                "id": "fragmentgraile",
-                "label": "Chronicle of Delight",
-                "description": "Some joys are so potent, they are able to warp the very fabric of reality. Such delights are born from the unfettered exploration of the new."
-             },
-             {
-                "id": "fragmentgrailf",
-                "label": "Anthic Insight",
-                "description": "The elusive Flowermaker, an emblem of the unknown, draws the eye of the Hours. Exploring his works is like traversing an uncharted landscape."
-             },
-             {
-                "id": "fragmentgrailg",
-                "label": "Insatiable Paradox",
-                "description": "The Grail, the Flowermaker, and the Beach-Crow depict the mosaic of unending desire. Enclosed within this ever-changing puzzle lies the doctrine of Hunger, Greed, and Yearning."
-             },
-             {
-                "id": "fragmentedge",
-                "label": "A Surfer's Secret",
-                "description": "This secret speaks of the symbiosis between body and the environment, the ecstasy of riding the wave of the present moment in perfect harmony with the forces of nature."
-             },
-             {
-                "id": "fragmentedgeb",
-                "label": "The Mountaineer's Testament",
-                "description": "Carved from a thousand encounters with the raw, untamed elements, this testament whispers of an unspoken connection with the earth beneath our feet and the air that fills our lungs."
-             },
-             {
-                "id": "fragmentedgec",
-                "label": "Ritual of the Flowing Current",
-                "description": "A series of mystic exercises aligning one's being with the rhythm of existence, attuning to the eternal ebb and flow of energy around us."
-             },
-             {
-                "id": "fragmentedged",
-                "label": "Tales of the Silent Wanderer",
-                "description": "The Silent Wanderer, eternally present and fully absorbed in the here and now, whispers tales of unity and connection, as timeless as the cosmos itself."
-             },
-             {
-                "id": "fragmentedgee",
-                "label": "The Navigator's Epics",
-                "description": "The Navigator, a being of pure presence, echoes with Names that resonate with the ever-changing currents of existence, guiding us through the ebb and flow of life."
-             },
-             {
-                "id": "fragmentedgef",
-                "label": "Pathways of Presence",
-                "description": "These are the intricate routes of attunement, the pathways that connect us to the raw, visceral experience of existence in its purest form."
-             },
-             {
-                "id": "fragmentedgeg",
-                "label": "The Mystery of Connection",
-                "description": "The Surfer, the Mountaineer, and the Navigator share a profound secret: the essence of living fully in the present moment, connected to the cosmic rhythms of existence."
-             },
-             {
-                "id": "fragmentknock",
-                "label": "A Locksmith's Secret",
-                "description": "Sooner or later, every locksmith has the Dream. Now we recite its seven phases... [Nearly every summoning Rite requires Knock influence. This lore will provide it.]"
+               "id": "fragmentlantern",
+               "label": "An Archivist's Secret",
+               "description": "The whispers of ancient texts echo, 'Each truth has its hue, but hues only come to life under the gaze of enlightenment.' This forms the core of the archivist's enlightenment."
             },
             {
-                "id": "fragmentknockb",
-                "label": "Rites of the Unbound",
-                "description": "When entrapped by foreign ideas, it is a daunting task to free oneself. Rites of the Unbound aids in navigating this labyrinth, providing the necessary guidance and strength to break free."
+               "id": "fragmentlanternb",
+               "label": "A Glimmer of the Mansus",
+               "description": "A snippet of verse; a sole memory of a peculiar abode visited by all at least twice in their existence. Mastery of this lore is indispensable for the inaugural voyage into the Mansus."
             },
             {
-                "id": "fragmentknockc",
-                "label": "The Serpent's Shed",
-                "description": "Just as a serpent sheds its skin, one must discard outdated ideas and perspectives that no longer serve. The Serpent's Shed signifies this necessary transformation, resonating with the theme of renewal and rebirth."
+               "id": "fragmentlanternc",
+               "label": "A Luminary's Chant",
+               "description": "The Watchman decrees, 'True understanding dwells in the crevices of shadow.'"
             },
             {
-                "id": "fragmentknockd",
-                "label": "Incantation of Release",
-                "description": "Harnessing the transformative power of cosmic transitions, this incantation aids in the release of internalized prejudices and fears, empowering the individual to break free from the foreign entrapment."
+               "id": "fragmentlanternd",
+               "label": "Guiding Incantation",
+               "description": "The Door-in-the-Eye navigates; it is first and foremost, a bearer of enlightenment."
             },
             {
-                "id": "fragmentknocke",
-                "label": "Pathway of the Released",
-                "description": "This wisdom helps unravel the chains of outdated ideas and beliefs, guiding the individual along the pathway of the Released, where one's identity is no longer dictated by foreign entrapment."
+               "id": "fragmentlanterne",
+               "label": "Formulae of the Crossroads",
+               "description": "The Concursum, bathed in the glow of the Mansus' Lantern, is a labyrinth whose intricacies surpass mortal comprehension, yet these formulae attempt to outline its profound enigma."
             },
             {
-                "id": "fragmentknockf",
-                "label": "Threshold Invocation",
-                "description": "The Threshold Invocation seeks guidance from the Earth-Bound Deity, a symbol of transitions, to understand and navigate the intricacies of foreign entrapment, fostering resilience and adaptability."
+               "id": "fragmentlanternf",
+               "label": "Chant of the Ascending",
+               "description": "The Ascent of Knives signifies the most challenging of the Watchman's trials. Those who survive it, ascend closer to the radiant Glory."
             },
             {
-                "id": "fragmentknockg",
-                "label": "Secrets of the Liberated",
-                "description": "These teachings offer insight into the mysteries of the Gate - the transition from a life ruled by foreign entrapment to a life of self-guided liberation and individual truth."
-            },            
-             {
-                "id": "fragmentforge",
-                "label": "An Artisans' Secret",
-                "description": "Throughout five continents, artisans have whispered these words to their creations, sparking a transformation not just in the material, but in themselves. This transformation becomes a testament to our flexibility and ability to reinvent our identity."
-             },
-             {
-                "id": "fragmentforgeb",
-                "label": "Ardent Adaptation",
-                "description": "When we observe a fire, what do we seek? Upon finding it, these are the words the flames echo: a decree that celebrates the transformation, as our ego's rigidity burns away, much like old skin peeling off to reveal the new underneath."
-             },
-             {
-                "id": "fragmentforgec",
-                "label": "The Chant of Change",
-                "description": "Appropriate words are required to herald the coming Change. This chant resonates with the malleable self, inviting adaptability and resilience, echoing the transformative effect of the Forge."
-             },
-             {
-                "id": "fragmentforged",
-                "label": "Invocation of Identity",
-                "description": "The Names of the Forge have all uttered these words, serving as a reminder of our capacity for constant self-reinvention. The power of the Forge is in the transformation it incites within us."
-             },
-             {
-                "id": "fragmentforgee",
-                "label": "Formula of Flexibility",
-                "description": "Break a thing, and you have fragments. Break those fragments, and you have dust. Break the dust, and then break what remains. From the ashes, the phoenix of a new self rises, embodying the spirit of the Forge."
-             },
-             {
-                "id": "fragmentforgef",
-                "label": "Praise of Potential",
-                "description": "This is the hymn sung to our potential for change. Faithful imitation may scar us, but it also allows for transformation. The spirit of the Forge celebrates the rewards of embracing change."
-             },
-             {
-                "id": "fragmentforgeg",
-                "label": "Mysteries of Metamorphosis",
-                "description": "The Forge of Days, the Meniscate and the Madrugad are gods-from-Light. Their teachings reveal that constant transformation is the cornerstone of existence, symbolizing our capacity for self-reinvention and adaptability."
-             },
-             {
-                "id": "fragmentmoth",
-                "label": "An Actor's Secret",
-                "description": "A power of the Wood finds joy in a player's divergent fate from their scripted role. To attract attention, perform a dramatic twist. For an opportunity, adopt subtlety. [Utter this within a larp scenario threaded with 'Winter', and watch the dynamics shift, just as a lock separates from a scalp.]"
-                },
-                {
-                "id": "fragmentmothb",
-                "label": "Whispers from the Wilderness",
-                "description": "Listen closely to the breeze; it carries tales of unforeseen adventures. The buildings, like ancient trees, whisper their concealed stories. These are the trails where unpredictability breeds creativity. [Invoke this in a larp setting accompanied by a 'Winter' narrative, and witness the plot evolve like a barbershop full of secrets.]"
-                },
-                {
-                "id": "fragmentmothc",
-                "label": "Roleplayer's Parable",
-                "description": "In every role-player's heart lies the Dilemma: 'What could we become?' Each Roleplayer's Parable is a key to unlock this mystery, allowing unexpected transformations and plot developments."
-                },
-                {
-                "id": "fragmentmothd",
-                "label": "Nature's Guidance",
-                "description": "Nature, like a sage barber, holds her secrets close, encouraging exploration and unpredictability. These insights she willingly shares with the imaginative larp participant who dares to venture off their scripted path."
-                },
-                {
-                "id": "fragmentmothe",
-                "label": "Manifesto of Transformation",
-                "description": "Just as a barber might shape a new hairstyle, a transformative player reshapes their role. They venture into the unknown, embrace foreign narratives, and inject new life into the storyline. This is their commitment to the craft."
-                },
-                {
-                "id": "fragmentmothf",
-                "label": "Birth of the Butterfly Sovereign",
-                "description": "A larp participant, crowned in imagination, born from the game's challenges. Their character's evolution mirrors a barber's creation. Herein lie their metamorphic experiences."
-                },
-                {
-                "id": "fragmentmothg",
-                "label": "Meetings in the Narrative",
-                "description": "In the realm of larp, as in a bustling barber shop, characters from divergent narratives meet. Within the verdant setting of the Enchanted Forest, such encounters are common. Their unpredictable exchanges hold power, just like the unanticipated twists of a barber's scissors."
-                }                   
-    ]
+               "id": "fragmentlanterng",
+               "label": "Illuminated Enigmas",
+               "description": "The Meniscate, the Madrugad, the Flowermaker, and the Forge of Days are the gods-from-Light. There exists a fifth, not the Watchman, yet the Watchman shares an arcane doctrine with these luminous entities..."
+            },
+            {
+               "id": "fragmentgrail",
+               "label": "A Hedonist's Secret",
+               "description": "In the crimson dance of desire, the hedonist discovers: 'New experiences are the truest colors of life.' The exploration of unchartered territories and unmet souls underpins their hedonistic journey."
+            },
+            {
+               "id": "fragmentgrailb",
+               "label": "Emissary's Incantation",
+               "description": "The Great Mother, the custodian of limitless encounters, hums the rhythm of primal connections. A chant resonating with untapped bonds."
+            },
+            {
+               "id": "fragmentgrailc",
+               "label": "Rite of Revelry",
+               "description": "A symphony of sensations that unlocks the heart to the carousel of existence, making even the notion of sacrifice an intoxicating dance."
+            },
+            {
+               "id": "fragmentgraild",
+               "label": "Harmony of Embrace",
+               "description": "Each Name of the Grail is a celebration of connection. We echo them, hoping to imbibe the pulsating energy they exude."
+            },
+            {
+               "id": "fragmentgraile",
+               "label": "Chronicle of Delight",
+               "description": "Some joys are so potent, they are able to warp the very fabric of reality. Such delights are born from the unfettered exploration of the new."
+            },
+            {
+               "id": "fragmentgrailf",
+               "label": "Anthic Insight",
+               "description": "The elusive Flowermaker, an emblem of the unknown, draws the eye of the Hours. Exploring his works is like traversing an uncharted landscape."
+            },
+            {
+               "id": "fragmentgrailg",
+               "label": "Insatiable Paradox",
+               "description": "The Grail, the Flowermaker, and the Beach-Crow depict the mosaic of unending desire. Enclosed within this ever-changing puzzle lies the doctrine of Hunger, Greed, and Yearning."
+            },
+            {
+               "id": "fragmentedge",
+               "label": "A Surfer's Secret", 
+               "description": "This secret speaks of the symbiosis between body and the environment, the ecstasy of riding the wave of the present moment in perfect harmony with the forces of nature."
+            },
+            {
+               "id": "fragmentedgeb",
+               "label": "The Mountaineer's Testament",
+               "description": "Carved from a thousand encounters with the raw, untamed elements, this testament whispers of an unspoken connection with the earth beneath our feet and the air that fills our lungs."
+            },
+            {
+               "id": "fragmentedgec",
+               "label": "Ritual of the Flowing Current",
+               "description": "A series of mystic exercises aligning one's being with the rhythm of existence, attuning to the eternal ebb and flow of energy around us."
+            },
+            {
+               "id": "fragmentedged",
+               "label": "Tales of the Silent Wanderer",
+               "description": "The Silent Wanderer, eternally present and fully absorbed in the here and now, whispers tales of unity and connection, as timeless as the cosmos itself."
+            },
+            {
+               "id": "fragmentedgee",
+               "label": "The Navigator's Epics",
+               "description": "The Navigator, a being of pure presence, echoes with Names that resonate with the ever-changing currents of existence, guiding us through the ebb and flow of life."
+            },
+            {
+               "id": "fragmentedgef",
+               "label": "Pathways of Presence",
+               "description": "These are the intricate routes of attunement, the pathways that connect us to the raw, visceral experience of existence in its purest form."
+            },
+            {
+               "id": "fragmentedgeg",
+               "label": "The Mystery of Connection",
+               "description": "The Surfer, the Mountaineer, and the Navigator share a profound secret: the essence of living fully in the present moment, connected to the cosmic rhythms of existence."
+            },
+            {
+               "id": "fragmentknock",
+               "label": "A Locksmith's Secret",
+               "description": "Sooner or later, every locksmith has the Dream. Now we recite its seven phases... [Nearly every summoning Rite requires Knock influence. This lore will provide it.]"
+           },
+           {
+               "id": "fragmentknockb",
+               "label": "Rites of the Unbound",
+               "description": "When entrapped by foreign ideas, it is a daunting task to free oneself. Rites of the Unbound aids in navigating this labyrinth, providing the necessary guidance and strength to break free."
+           },
+           {
+               "id": "fragmentknockc",
+               "label": "The Serpent's Shed",
+               "description": "Just as a serpent sheds its skin, one must discard outdated ideas and perspectives that no longer serve. The Serpent's Shed signifies this necessary transformation, resonating with the theme of renewal and rebirth."
+           },
+           {
+               "id": "fragmentknockd",
+               "label": "Incantation of Release",
+               "description": "Harnessing the transformative power of cosmic transitions, this incantation aids in the release of internalized prejudices and fears, empowering the individual to break free from the foreign entrapment."
+           },
+           {
+               "id": "fragmentknocke",
+               "label": "Pathway of the Released",
+               "description": "This wisdom helps unravel the chains of outdated ideas and beliefs, guiding the individual along the pathway of the Released, where one's identity is no longer dictated by foreign entrapment."
+           },
+           {
+               "id": "fragmentknockf",
+               "label": "Threshold Invocation",
+               "description": "The Threshold Invocation seeks guidance from the Earth-Bound Deity, a symbol of transitions, to understand and navigate the intricacies of foreign entrapment, fostering resilience and adaptability."
+           },
+           {
+               "id": "fragmentknockg",
+               "label": "Secrets of the Liberated",
+               "description": "These teachings offer insight into the mysteries of the Gate - the transition from a life ruled by foreign entrapment to a life of self-guided liberation and individual truth."
+           },            
+            {
+               "id": "fragmentforge",
+               "label": "An Artisans' Secret",
+               "description": "Throughout five continents, artisans have whispered these words to their creations, sparking a transformation not just in the material, but in themselves. This transformation becomes a testament to our flexibility and ability to reinvent our identity."
+            },
+            {
+               "id": "fragmentforgeb",
+               "label": "Ardent Adaptation",
+               "description": "When we observe a fire, what do we seek? Upon finding it, these are the words the flames echo: a decree that celebrates the transformation, as our ego's rigidity burns away, much like old skin peeling off to reveal the new underneath."
+            },
+            {
+               "id": "fragmentforgec",
+               "label": "The Chant of Change",
+               "description": "Appropriate words are required to herald the coming Change. This chant resonates with the malleable self, inviting adaptability and resilience, echoing the transformative effect of the Forge."
+            },
+            {
+               "id": "fragmentforged",
+               "label": "Invocation of Identity",
+               "description": "The Names of the Forge have all uttered these words, serving as a reminder of our capacity for constant self-reinvention. The power of the Forge is in the transformation it incites within us."
+            },
+            {
+               "id": "fragmentforgee",
+               "label": "Formula of Flexibility",
+               "description": "Break a thing, and you have fragments. Break those fragments, and you have dust. Break the dust, and then break what remains. From the ashes, the phoenix of a new self rises, embodying the spirit of the Forge."
+            },
+            {
+               "id": "fragmentforgef",
+               "label": "Praise of Potential",
+               "description": "This is the hymn sung to our potential for change. Faithful imitation may scar us, but it also allows for transformation. The spirit of the Forge celebrates the rewards of embracing change."
+            },
+            {
+               "id": "fragmentforgeg",
+               "label": "Mysteries of Metamorphosis",
+               "description": "The Forge of Days, the Meniscate and the Madrugad are gods-from-Light. Their teachings reveal that constant transformation is the cornerstone of existence, symbolizing our capacity for self-reinvention and adaptability."
+            },
+            {
+               "id": "fragmentmoth",
+               "label": "An Actor's Secret",
+               "description": "A power of the Wood finds joy in a player's divergent fate from their scripted role. To attract attention, perform a dramatic twist. For an opportunity, adopt subtlety. [Utter this within a larp scenario threaded with 'Winter', and watch the dynamics shift, just as a lock separates from a scalp.]"
+               },
+               {
+               "id": "fragmentmothb",
+               "label": "Whispers from the Wilderness",
+               "description": "Listen closely to the breeze; it carries tales of unforeseen adventures. The buildings, like ancient trees, whisper their concealed stories. These are the trails where unpredictability breeds creativity. [Invoke this in a larp setting accompanied by a 'Winter' narrative, and witness the plot evolve like a barbershop full of secrets.]"
+               },
+               {
+               "id": "fragmentmothc",
+               "label": "Roleplayer's Parable",
+               "description": "In every role-player's heart lies the Dilemma: 'What could we become?' Each Roleplayer's Parable is a key to unlock this mystery, allowing unexpected transformations and plot developments."
+               },
+               {
+               "id": "fragmentmothd",
+               "label": "Nature's Guidance",
+               "description": "Nature, like a sage barber, holds her secrets close, encouraging exploration and unpredictability. These insights she willingly shares with the imaginative larp participant who dares to venture off their scripted path."
+               },
+               {
+               "id": "fragmentmothe",
+               "label": "Manifesto of Transformation",
+               "description": "Just as a barber might shape a new hairstyle, a transformative player reshapes their role. They venture into the unknown, embrace foreign narratives, and inject new life into the storyline. This is their commitment to the craft."
+               },
+               {
+               "id": "fragmentmothf",
+               "label": "Birth of the Butterfly Sovereign",
+               "description": "A larp participant, crowned in imagination, born from the game's challenges. Their character's evolution mirrors a barber's creation. Herein lie their metamorphic experiences."
+               },
+               {
+               "id": "fragmentmothg",
+               "label": "Meetings in the Narrative",
+               "description": "In the realm of larp, as in a bustling barber shop, characters from divergent narratives meet. Within the verdant setting of the Enchanted Forest, such encounters are common. Their unpredictable exchanges hold power, just like the unanticipated twists of a barber's scissors."
+               }                   
+   ]
 }

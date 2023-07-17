@@ -45,7 +45,7 @@
                 ]
             },
             "icon": "fragmentedge",
-            "uniquenessgroup": "uqedgelore.exile"
+            "uniquenessgroup_deprecated": "uqedgelore.exile"
         },
         {
             "id": "fragmentedgeb",
@@ -75,7 +75,7 @@
                 ]
             },
             "icon": "fragmentedgeb",
-            "uniquenessgroup": "uqedgelore.exile"
+            "uniquenessgroup_deprecated": "uqedgelore.exile"
         },
         {
             "id": "fragmentedgec",
@@ -105,7 +105,7 @@
                 ]
             },
             "icon": "fragmentedgec",
-            "uniquenessgroup": "uqedgelore.exile"
+            "uniquenessgroup_deprecated": "uqedgelore.exile"
         },
         {
             "id": "fragmentedged",
@@ -135,7 +135,7 @@
                 ]
             },
             "icon": "fragmentedged",
-            "uniquenessgroup": "uqedgelore.exile"
+            "uniquenessgroup_deprecated": "uqedgelore.exile"
         },
         {
             "id": "fragmentedgee",
@@ -165,7 +165,7 @@
                 ]
             },
             "icon": "fragmentedgee",
-            "uniquenessgroup": "uqedgelore.exile"
+            "uniquenessgroup_deprecated": "uqedgelore.exile"
         },
         {
             "id": "fragmentedgef",
@@ -195,7 +195,7 @@
                 ]
             },
             "icon": "fragmentedgef",
-            "uniquenessgroup": "uqedgelore.exile"
+            "uniquenessgroup_deprecated": "uqedgelore.exile"
         },
         {
             "id": "fragmentedgeg",
@@ -230,7 +230,7 @@
                 ]
             },
             "icon": "fragmentedgeg",
-            "uniquenessgroup": "uqedgelore.exile"
+            "uniquenessgroup_deprecated": "uqedgelore.exile"
         },
         {
             "id": "fragmentedge.exhausted",
@@ -243,7 +243,7 @@
             "lifetime": 300,
             "decayTo": "fragmentedge",
             "icon": "fragmentedge",
-            "uniquenessgroup": "uqedgelore.exile"
+            "uniquenessgroup_deprecated": "uqedgelore.exile"
         },
         {
             "id": "fragmentedgeb.exhausted",
@@ -256,7 +256,7 @@
             "lifetime": 260,
             "decayTo": "fragmentedgeb",
             "icon": "fragmentedgeb",
-            "uniquenessgroup": "uqedgelore.exile"
+            "uniquenessgroup_deprecated": "uqedgelore.exile"
         },
         {
             "id": "fragmentedgec.exhausted",
@@ -269,7 +269,7 @@
             "lifetime": 220,
             "decayTo": "fragmentedgec",
             "icon": "fragmentedgec",
-            "uniquenessgroup": "uqedgelore.exile"
+            "uniquenessgroup_deprecated": "uqedgelore.exile"
         },
         {
             "id": "fragmentedged.exhausted",
@@ -282,7 +282,7 @@
             "lifetime": 180,
             "decayTo": "fragmentedged",
             "icon": "fragmentedged",
-            "uniquenessgroup": "uqedgelore.exile"
+            "uniquenessgroup_deprecated": "uqedgelore.exile"
         },
         {
             "id": "fragmentedgee.exhausted",
@@ -295,7 +295,7 @@
             "lifetime": 140,
             "decayTo": "fragmentedgee",
             "icon": "fragmentedgee",
-            "uniquenessgroup": "uqedgelore.exile"
+            "uniquenessgroup_deprecated": "uqedgelore.exile"
         },
         {
             "id": "fragmentedgef.exhausted",
@@ -308,7 +308,7 @@
             "lifetime": 100,
             "decayTo": "fragmentedgef",
             "icon": "fragmentedgef",
-            "uniquenessgroup": "uqedgelore.exile"
+            "uniquenessgroup_deprecated": "uqedgelore.exile"
         },
         {
             "id": "fragmentedgeg.exhausted",
@@ -321,7 +321,7 @@
             "lifetime": 60,
             "decayTo": "fragmentedgeg",
             "icon": "fragmentedgeg",
-            "uniquenessgroup": "uqedgelore.exile"
+            "uniquenessgroup_deprecated": "uqedgelore.exile"
         },
         {
             "id": "fragmentedgeb.colonel",
@@ -350,7 +350,7 @@
                     }
                 ]
             },
-            "uniquenessgroup": "uqedgelore.colonel"
+            "uniquenessgroup_deprecated": "uqedgelore.colonel"
         },
         {
             "id": "fragmentedgec.colonel",
@@ -380,7 +380,7 @@
                     }
                 ]
             },
-            "uniquenessgroup": "uqedgelore.colonel"
+            "uniquenessgroup_deprecated": "uqedgelore.colonel"
         },
         {
             "id": "fragmentedged.colonel",
@@ -410,7 +410,7 @@
                     }
                 ]
             },
-            "uniquenessgroup": "uqedgelore.colonel"
+            "uniquenessgroup_deprecated": "uqedgelore.colonel"
         },
         {
             "id": "fragmentedgee.colonel",
@@ -440,7 +440,7 @@
                     }
                 ]
             },
-            "uniquenessgroup": "uqedgelore.colonel"
+            "uniquenessgroup_deprecated": "uqedgelore.colonel"
         },
         {
             "id": "fragmentedgef.colonel",
@@ -470,7 +470,7 @@
                     }
                 ]
             },
-            "uniquenessgroup": "uqedgelore.colonel"
+            "uniquenessgroup_deprecated": "uqedgelore.colonel"
         },
         {
             "id": "fragmentedgeg.colonel",
@@ -510,7 +510,7 @@
                     }
                 ]
             },
-            "uniquenessgroup": "uqedgelore.colonel"
+            "uniquenessgroup_deprecated": "uqedgelore.colonel"
         },
         {
             "id": "fragmentedgeb.colonel.exhausted",
@@ -523,7 +523,7 @@
             "lifetime": 250,
             "decayTo": "fragmentedgeb.colonel",
             "icon": "fragmentedgeb.colonel",
-            "uniquenessgroup": "uqedgelore.colonel"
+            "uniquenessgroup_deprecated": "uqedgelore.colonel"
         },
         {
             "id": "fragmentedgec.colonel.exhausted",
@@ -536,7 +536,7 @@
             "lifetime": 210,
             "decayTo": "fragmentedgec.colonel",
             "icon": "fragmentedgec.colonel",
-            "uniquenessgroup": "uqedgelore.colonel"
+            "uniquenessgroup_deprecated": "uqedgelore.colonel"
         },
         {
             "id": "fragmentedged.colonel.exhausted",
@@ -549,7 +549,7 @@
             "lifetime": 170,
             "decayTo": "fragmentedged.colonel",
             "icon": "fragmentedged.colonel",
-            "uniquenessgroup": "uqedgelore.colonel"
+            "uniquenessgroup_deprecated": "uqedgelore.colonel"
         },
         {
             "id": "fragmentedgee.colonel.exhausted",
@@ -562,7 +562,7 @@
             "lifetime": 130,
             "decayTo": "fragmentedgee.colonel",
             "icon": "fragmentedgee.colonel",
-            "uniquenessgroup": "uqedgelore.colonel"
+            "uniquenessgroup_deprecated": "uqedgelore.colonel"
         },
         {
             "id": "fragmentedgef.colonel.exhausted",
@@ -575,7 +575,7 @@
             "lifetime": 90,
             "decayTo": "fragmentedgef.colonel",
             "icon": "fragmentedgef.colonel",
-            "uniquenessgroup": "uqedgelore.colonel"
+            "uniquenessgroup_deprecated": "uqedgelore.colonel"
         },
         {
             "id": "fragmentedgeg.colonel.exhausted",
@@ -588,7 +588,7 @@
             "lifetime": 50,
             "decayTo": "fragmentedgeg.colonel",
             "icon": "fragmentedgeg.colonel",
-            "uniquenessgroup": "uqedgelore.colonel"
+            "uniquenessgroup_deprecated": "uqedgelore.colonel"
         },
         {
             "id": "fragmentedgeb.lionsmith",
@@ -617,7 +617,7 @@
                     }
                 ]
             },
-            "uniquenessgroup": "uqedgelore.lionsmith"
+            "uniquenessgroup_deprecated": "uqedgelore.lionsmith"
         },
         {
             "id": "fragmentedgec.lionsmith",
@@ -647,7 +647,7 @@
                     }
                 ]
             },
-            "uniquenessgroup": "uqedgelore.lionsmith"
+            "uniquenessgroup_deprecated": "uqedgelore.lionsmith"
         },
         {
             "id": "fragmentedged.lionsmith",
@@ -677,7 +677,7 @@
                     }
                 ]
             },
-            "uniquenessgroup": "uqedgelore.lionsmith"
+            "uniquenessgroup_deprecated": "uqedgelore.lionsmith"
         },
         {
             "id": "fragmentedgee.lionsmith",
@@ -707,7 +707,7 @@
                     }
                 ]
             },
-            "uniquenessgroup": "uqedgelore.lionsmith"
+            "uniquenessgroup_deprecated": "uqedgelore.lionsmith"
         },
         {
             "id": "fragmentedgef.lionsmith",
@@ -737,7 +737,7 @@
                     }
                 ]
             },
-            "uniquenessgroup": "uqedgelore.lionsmith"
+            "uniquenessgroup_deprecated": "uqedgelore.lionsmith"
         },
         {
             "id": "fragmentedgeg.lionsmith",
@@ -777,7 +777,7 @@
                     }
                 ]
             },
-            "uniquenessgroup": "uqedgelore.lionsmith"
+            "uniquenessgroup_deprecated": "uqedgelore.lionsmith"
         },
         {
             "id": "fragmentedgeb.lionsmith.exhausted",
@@ -790,7 +790,7 @@
             "lifetime": 250,
             "decayTo": "fragmentedgeb.lionsmith",
             "icon": "fragmentedgeb.lionsmith",
-            "uniquenessgroup": "uqedgelore.lionsmith"
+            "uniquenessgroup_deprecated": "uqedgelore.lionsmith"
         },
         {
             "id": "fragmentedgec.lionsmith.exhausted",
@@ -803,7 +803,7 @@
             "lifetime": 210,
             "decayTo": "fragmentedgec.lionsmith",
             "icon": "fragmentedgec.lionsmith",
-            "uniquenessgroup": "uqedgelore.lionsmith"
+            "uniquenessgroup_deprecated": "uqedgelore.lionsmith"
         },
         {
             "id": "fragmentedged.lionsmith.exhausted",
@@ -816,7 +816,7 @@
             "lifetime": 170,
             "decayTo": "fragmentedged.lionsmith",
             "icon": "fragmentedged.lionsmith",
-            "uniquenessgroup": "uqedgelore.lionsmith"
+            "uniquenessgroup_deprecated": "uqedgelore.lionsmith"
         },
         {
             "id": "fragmentedgee.lionsmith.exhausted",
@@ -829,7 +829,7 @@
             "lifetime": 130,
             "decayTo": "fragmentedgee.lionsmith",
             "icon": "fragmentedgee.lionsmith",
-            "uniquenessgroup": "uqedgelore.lionsmith"
+            "uniquenessgroup_deprecated": "uqedgelore.lionsmith"
         },
         {
             "id": "fragmentedgef.lionsmith.exhausted",
@@ -842,7 +842,7 @@
             "lifetime": 90,
             "decayTo": "fragmentedgef.lionsmith",
             "icon": "fragmentedgef.lionsmith",
-            "uniquenessgroup": "uqedgelore.lionsmith"
+            "uniquenessgroup_deprecated": "uqedgelore.lionsmith"
         },
         {
             "id": "fragmentedgeg.lionsmith.exhausted",
@@ -855,7 +855,7 @@
             "lifetime": 50,
             "decayTo": "fragmentedgeg.lionsmith",
             "icon": "fragmentedgeg.lionsmith",
-            "uniquenessgroup": "uqedgelore.lionsmith"
+            "uniquenessgroup_deprecated": "uqedgelore.lionsmith"
         }
     ]
 }
