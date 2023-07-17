@@ -84,7 +84,54 @@
         },
         {
             "id": "fascination",
-            "lifetime": 120
+            "label": "Fascination",
+            "aspects": {
+                "moth": 2,
+                "illhealth": 1,
+                "influence": 1,
+                "memory": 1,
+                "hand": 2
+            },
+            "slots": [
+                {
+                    "id": "reminders",
+                    "label": "Reminders",
+                    "required": {
+                        "dread": 1,
+                        "fleeting": 1
+                    },
+                    "actionid": "dream",
+                    "description": "Grey reality will steady my soul."
+                },
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Perhaps I can use my Fascination to strengthen a tempting influence.",
+                    "required": {
+                        "influencemoth": 1,
+                        "influencelantern": 1
+                    },
+                    "actionid": "study"
+                },
+                {
+                    "id": "knowledge",
+                    "label": "Knowledge",
+                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "required": {
+                        "fragmentmothc": 1,
+                        "fragmentmothd": 1,
+                        "fragmentmothe": 1,
+                        "fragmentmothf": 1,
+                        "fragmentmothg": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "description": "Light LEAKS through the CRACKS. My mind is BRIGHTER than it EVER was. THE HIGHER I RISE THE MORE I SEE.",
+            "lifetime": 180,
+            "xtriggers": {
+                "upgradeinfluence": "influencehandc"
+            }
         },
         {
             "id": "dread",
@@ -427,12 +474,6 @@
         {
             "id": "influencewinter",
             "decayTo": "vitality"
-        },
-        {
-            "id": "fascination",
-            "aspects$add": {
-                "hand": 2
-            }
         },
         {
             "id": "capitalisticnessplus",

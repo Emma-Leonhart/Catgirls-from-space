@@ -1202,7 +1202,7 @@
     {
         "id": "bookhandb",
         "unique": true,
-        "label": "Zero to One: Notes on Startups, or How to Build the Future",
+        "label": "Zero to One",
         "aspects": {
             "text": 1,
             "portable": 1,
