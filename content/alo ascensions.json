@@ -11,6 +11,7 @@
             },
             "effects": {
                 "ascensionenlightenmentb": -1,
+                "cult_catgirl": 1,
                 "catgirl_dedication_3": 1
             },
             "startdescription": "This rite is the Key that will allow the Watchman's gaze to enter me. I will be changed forever.",
@@ -30,6 +31,7 @@
             },
             "effects": {
                 "ascensionpowerb": -1,
+                "cult_catgirl": 1,
                 "catgirl_dedication_3": 1
             },
             "startdescription": "This rite is the Key that will allow the Forge of Days to enter me. I will be changed forever.",
@@ -50,6 +52,7 @@
             },
             "effects": {
                 "ascensionsensationbm": -1,
+                "cult_catgirl": 1,
                 "catgirl_dedication_3": 1
             },
             "startdescription": "This rite is the Key that will allow the Red Grail to enter me. I will be changed forever.",
@@ -70,6 +73,7 @@
             },
             "effects": {
                 "ascensionsensationbf": -1,
+                "cult_catgirl": 1,
                 "catgirl_dedication_3": 1
             },
             "startdescription": "This rite is the Key that will allow the Red Grail to enter me. I will be changed forever.",
