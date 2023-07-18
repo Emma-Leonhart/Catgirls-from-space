@@ -89,6 +89,9 @@
             "requirements": {
                 "health": -1
             },
+            "extantreqs": {
+                "health": 0
+            },
             "actionid": "spit.underling.attack",
             "label": "A Reckoning Comes",
             "ending": "foecaughtup"
