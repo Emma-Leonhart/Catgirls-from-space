@@ -4,31 +4,31 @@
             "id": "cultedge_1",
             "label": "Church of the Bright Edge",
             "description": "The Church of the Bright Edge embraces the aspect of Edge, representing challenge, survival, and victory. They harness the power of Flow, a vaccine against Drowning, which mirrors the spirit of overcoming challenges represented by Edge. The Edge Cult guides its followers to achieve a state of effortless performance and productivity, conquering the sensation of drowning in one's problems and thriving amidst adversity. [You can use Cults with the Talk verb to recruit or promote followers, and to send them out on errands to gather resources. A Believer can be promoted to a Disciple; a few gifted Disciples can be exalted even higher, to Assassins.]",
-            "unique": true
+            "uniquenessgroup": "uqcult"
         },
         {
             "id": "cultforge_1",
             "label": "Unflinching Order",
             "description": "The Forge Cult embraces the aspect of Forge, representing transformation and change. They practice Ego Loosening, a vaccine against Ego Entrapment, mirroring the transformative power of the Forge aspect. The Forge Cult guides its followers to reshape rigid self-identities and embrace adaptability and self-reinvention. [You can use Cults with the Talk verb to recruit or promote followers, and to send them out on errands to gather resources. A Believer can be promoted to a Disciple; a few gifted Disciples can be exalted even higher, to Reshapers.]",
-            "unique": true
+            "uniquenessgroup": "uqcult"
         },
         {
             "id": "cultgrail_1",
             "label": "Order of the Bloody Cup",
             "description": "The Grail Cult reveres the aspect of Grail, symbolizing desire and physical experiences. They recognize the power of Counter-Spiralling, a vaccine against the negative effects of Spiralling. The Grail Cult encourages its followers to indulge in diverse experiences to counter narrow perspectives or issues. By embracing the richness of life's desires and experiences, they strive to foster a broader, more enriching view of existence. [You can use Cults with the Talk verb to recruit or promote followers, and to send them out on errands to gather resources. A Believer can be promoted to a Disciple; a few gifted Disciples can be exalted even higher, to Cyprians.]",
-            "unique": true
+            "uniquenessgroup": "uqcult"
         },
         {
             "id": "cultheart_1",
             "label": "Temple Unceasing",
             "description": "The Temple Unceasing is devoted to the aspect of Heart, representing vitality, emotion, and human connection. They understand that the power of the Heart aspect is akin to The Pride, a vaccine against Alienation. The Heart Cult aims to revive a sense of belonging and communal unity by fostering pride in their unique qualities and strengthening the bonds of human connection. Through rituals and practices, they strive to bridge the alienation gap and restore vitality to individuals and communities.. [You can use Cults with the Talk verb to recruit or promote followers, and to send them out on errands to gather resources. A Believer can be promoted to a Disciple; a few gifted Disciples can be exalted even higher, to Tarantellists.]",
-            "unique": true
+            "uniquenessgroup": "uqcult"
         },
         {
             "id": "cultknock_1",
             "label": "Society of the Holy Wound",
             "description": "The Knock Cult venerates the aspect of Knock, symbolizing transitions and overcoming barriers. They understand the power of Antibodies, a vaccine against Foreign Entrapment, which mirrors Knock's ability to open new doors and neutralize harmful foreign influences. The Knock Cult empowers its followers to navigate transitions and liberate themselves from external entrapment, fostering resilience and adaptability. [You can use Cults with the Talk verb to recruit or promote followers, and to send them out on errands to gather resources. A Believer can be promoted to a Disciple; a few gifted Disciples can be exalted even higher, to Keys.]",
-            "unique": true
+            "uniquenessgroup": "uqcult"
         },
         {
             "id": "cultlantern_1",
@@ -38,13 +38,13 @@
                 "venerationlantern": 1
             },
             "description": "The Lantern Cult venerates the aspect of Lantern, embodying enlightenment, understanding, and knowledge. They pursue Remembering, a vaccine against Forgetting, which shares the focus on illumination and enlightenment. The Lantern Cult believes in bringing obscured or forgotten experiences back into the light through erosophic processes. They seek to merge with knowledge without claiming ownership, illuminating forgotten truths with newfound understanding and perspective. [You can use Cults with the Talk verb to recruit or promote followers, and to send them out on errands to gather resources. A Believer can be promoted to a Disciple; a few gifted Disciples can be exalted even higher, to Seers.]",
-            "unique": true
+            "uniquenessgroup": "uqcult"
         },
         {
             "id": "cultmoth_1",
             "label": "Wildwood Club",
             "description": "The Moth Cult reveres the aspect of Moth, representing secrets, dreams, transformation, and elusive elements. They embody the concept of Larping, an Empathic Entrapment vaccine, which aligns with Moth's transformative nature. The Moth Cult encourages its followers to adopt different roles and perspectives, promoting a fluid identity and freeing themselves from the confines of Empathic Entrapment. Through playful yet transformative practices, they explore diverse viewpoints and challenge preconceptions in a liberating and dynamic manner. [You can use Cults with the Talk verb to recruit or promote followers, and to send them out on errands to gather resources. A Believer can be promoted to a Disciple; a few gifted Disciples can be exalted even higher, to Skintwisters.]",
-            "unique": true
+            "uniquenessgroup": "uqcult"
         },
         {
             "id": "cultsecrethistories_1",
@@ -54,7 +54,7 @@
                 "venerationsecret": 1
             },
             "description": "The Secret Histories Cult delves into the aspect of Secret Histories, representing hidden truths and obscured knowledge. They practice Enlensing, an Absurdity vaccine that reframes perspectives and seeks out hidden meanings. Just as Secret Histories uncover concealed truths, the Secret Histories Cult explores life's mysteries and promotes acceptance and insight. Through esoteric rituals and uncovering hidden narratives, they illuminate the absurdities of existence and reveal deeper understandings of the world. [St Hydra, unusually, allows you to use any aspect to promote Believers; but it has no Exalted specialists.]",
-            "unique": true
+            "uniquenessgroup": "uqcult"
         },
         {
             "id": "cultwinter_1",
@@ -114,7 +114,7 @@
                 }
             ],
             "description": "An occult society dedicated to the study of the invisible hand and capital. [Guiding Palm, unusually, allows you to use any aspect to promote Believers.]",
-            "unique": true
+            "uniquenessgroup": "uqcult"
         },
         {
             "id": "cult_imbalance",
@@ -159,7 +159,7 @@
                 }
             ],
             "description": "An occult society dedicated to helping its alien overlords destroy humanity. Can recruit hunters",
-            "unique": true
+            "uniquenessgroup": "uqcult"
         },
         {
             "id": "cult_catgirl",
@@ -205,7 +205,7 @@
                 }
             ],
             "description": "An occult society dedicated to the Immortal Catgirl",
-            "unique": true
+            "uniquenessgroup": "uqcult"
         }
     ]
 }
