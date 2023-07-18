@@ -2273,7 +2273,7 @@
             "comments": "legacy element to keep saves valid",
             "xtriggers": {
                 "recruiting": "generic_b",
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r"
             }
@@ -2287,7 +2287,7 @@
             },
             "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "recruiting": "generic_b_edge"
@@ -2302,7 +2302,7 @@
             },
             "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "recruiting": "generic_b_forge"
@@ -2317,7 +2317,7 @@
             },
             "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "recruiting": "generic_b_grail"
@@ -2332,7 +2332,7 @@
             },
             "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "recruiting": "generic_b_heart"
@@ -2347,7 +2347,7 @@
             },
             "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "recruiting": "generic_b_knock"
@@ -2362,7 +2362,7 @@
             },
             "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "recruiting": "generic_b_lantern"
@@ -2393,7 +2393,7 @@
             },
             "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "recruiting": "generic_b_winter"
