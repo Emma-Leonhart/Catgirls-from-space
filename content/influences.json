@@ -59,6 +59,14 @@
             "decayTo": "fascination"
         },
         {
+            "id": "prelensing",
+            "label": "Lensing",
+            "lifetime": 1,
+            "description": "As above so below\na moving up and down of psespective\nunity with all things\n[Decays to restlessness unless used. Can invert lores, with study.\nPainting gives glimmering, talking gives fleeting, dreaming gives either, exploring gives either moonlit streets or another location for vitality/fleeting, ]",
+            "decayTo": "lensing",
+            "comments": "lensing is only a way because that is the only way to get it to work with dream"
+        },
+        {
             "id": "lensing",
             "label": "Lensing",
             "lifetime": 120,

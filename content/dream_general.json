@@ -300,8 +300,23 @@
                 {
                     "id": "nightmarecleansingdawn",
                     "chance": 100
+                },
+                {
+                    "id": "dream_get_lensing",
+                    "chance": 100
                 }
             ],
+            "warmup": 10
+        },
+        {
+            "id": "dream_get_lensing",
+            "label": "Seeing everything",
+            "actionid": "dream",
+            "requirements": {
+                "prelensing": 1
+            },
+            "startdescription": "I'm seeing everything.",
+            "description": "I felt myself floating above everything. I am one with the universe.",
             "warmup": 10
         },
         {
