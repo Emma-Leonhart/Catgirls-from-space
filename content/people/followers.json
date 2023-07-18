@@ -2710,7 +2710,7 @@
             },
             "description": "This one rails weakly against their fate.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic"
             }
   
