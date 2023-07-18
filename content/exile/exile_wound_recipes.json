@@ -32,7 +32,7 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "Our numbers dwindle.",
+            "deprecated_startdescription": "Our numbers dwindle.",
             "description": "Their wounds are grievous. [Heal a fallen Follower with Talk.]",
             "craftable": false,
             "mutations": [
@@ -69,8 +69,8 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "I need food or I will starve.",
-            "description": "Without money, I'll soon starve. [If an illness cannot consume Health, it will kill you.]",
+            "deprecated_startdescription": "I need food or I will starve.",
+            "description": "If I get wounded enough I will die",
             "warmup": 10,
             "slots": [
                 {
@@ -112,8 +112,8 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "I need food or I will starve.",
-            "description": "Without money, I'll soon starve. [If an illness cannot consume Health, it will kill you.]",
+            "deprecated_startdescription": "I need food or I will starve.",
+            "description": "If I get wounded enough I will die",
             "warmup": 10,
             "slots": [
                 {
@@ -146,8 +146,8 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "I need food or I will starve.",
-            "description": "Without money, I'll soon starve. [If an illness cannot consume Health, it will kill you.]",
+            "deprecated_startdescription": "I need food or I will starve.",
+            "description": "If I get wounded enough I will die",
             "warmup": 10,
             "slots": [
                 {
@@ -195,6 +195,7 @@
             "aspects":{
                 "killmortal": 1
             },
+            "description": "I must freeze them before its too late!",
             "warmup": 60
         },
         {
@@ -220,8 +221,8 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "I need food or I will starve.",
-            "description": "Without money, I'll soon starve. [If an illness cannot consume Health, it will kill you.]",
+            "deprecated_startdescription": "I need food or I will starve.",
+            "description": "If I get wounded enough I will die",
             "warmup": 10,
             "slots": [
                 {
