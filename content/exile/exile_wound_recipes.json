@@ -13,7 +13,7 @@
                 "health": -1,
                 "wound.exile": 1
             },
-            "alt": [
+            "linked": [
                 {
                     "id": "wounds.exile.ending",
                     "chance": 100
@@ -56,7 +56,7 @@
                 "health": -1,
                 "wound.exile.unstanchable": 1
             },
-            "alt": [
+            "linked": [
                 {
                     "id": "wounds.exile.ending",
                     "chance": 100
@@ -90,7 +90,7 @@
                 "health": -1,
                 "wound.exile.medusa": 1
             },
-            "alt": [
+            "linked": [
                 {
                     "id": "wounds.exile.ending",
                     "chance": 100
@@ -124,9 +124,13 @@
                 "health": -1,
                 "wound.exile": 1
             },
-            "alt": [
+            "linked": [
                 {
                     "id": "wounds.exile.ending",
+                    "chance": 100
+                },
+                {
+                    "id": "exile_inflict_wound",
                     "chance": 100
                 }
             ],
@@ -143,10 +147,6 @@
                     "greedy": true
                 }
             ],
-            "linked":{
-                "id": "exile_inflict_wound",
-                "chance": 100
-            },
             "icon": "spit.underling.attack"
         }
     ]

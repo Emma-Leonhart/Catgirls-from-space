@@ -9088,7 +9088,8 @@
             "aspects": {
                 "knock": 4,
                 "winter": 4,
-                "damage.exile": 1
+                "damage.exile": 1,
+                "ability": 1
             },
             "description": "I will need a long time to heal.",
             "slots": [

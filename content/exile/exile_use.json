@@ -6,7 +6,7 @@
             "label": "From Under Their Noses",
             "startdescription": "My old confederates are out searching for me. I hear their whistles and their finger-snapping at every corner. And no wonder, given what I've just stolen. But enough was enough.",
             "requirements": {
-                "ticket.train": 1
+                "ticket.train": 1 
             },
             "effects": {
                 "ticket.train": -1

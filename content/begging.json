@@ -1,0 +1,44 @@
+{
+    "recipes":
+    [
+        {
+            "id": "workbeg_wound",
+            "label": "Beg in the Streets",
+            "actionid": "work",
+            "requirements": {
+                "wound.exile": 1
+            },
+            "effects": {
+                "funds": 1,
+                "dread": 1
+            },
+            "alt": [
+                {
+                    "id": "workbeg_lucky.exile",
+                    "chance": 30
+                }
+            ],
+            "startdescription": "I'll display my infirmities, and hope for compassion from passers-by.",
+            "description": "A long day. Some flung coins, most turned away. It is difficult to watch so many retreating backs for so many hours.",
+            "warmup": 90,
+            "craftable": true,
+            "aspects": {
+                "tracerisk": 1,
+                "fatiguing": 1
+            }
+        },
+        {
+            "id": "workbeg_lucky",
+            "label": "Beg in the Streets",
+            "actionid": "work",
+            "requirements": {
+                "wound.exile": 1
+            },
+            "effects": {
+                "funds": 2
+            },
+            "description": "A long day. Some flung coins, most turned away. But there is a gold sovereign in my bowl! A generous donation, or an accident?",
+            "warmup": 90
+        }
+    ]
+}

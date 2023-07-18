@@ -1,0 +1,92 @@
+{
+    "recipes":
+    [
+        {
+            "id": "suspicion_attemptmitigation_me",
+            "actionid": "suspicion",
+            "comment": "router that gives train ticket first time",
+            "warmup": 0,
+            "linked": [
+                {
+                    "chance": 100,
+                    "id": "suspicion_first"
+                },
+                {
+                    "chance": 100,
+                    "id": "suspicion_attemptmitigation_me_normal"
+                }
+            ],
+        },
+        {
+            "id": "suspicion_first",
+            "actionid": "suspicion",
+            "comment": "gives train ticket so you can attempt an escape",
+            "linked": [
+                {
+                    "chance": 100,
+                    "id": "suspicion_attemptmitigation_me_normal"
+                }
+            ],
+            "alt": [
+                {
+                    "chance": 100,
+                    "id": "travel.first.suspicion",
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "travel.first.suspicion",
+            "actionid": "travel",
+            "label": "An escape? ",
+            "startdescription": "I could run from my trial. I will be a fugitive and my future will be difficult. But it might be my only option.",
+            "internaldeck": {
+                "spec": [
+                    "city.aachen",
+                    "city.prague",
+                    "city.munich",
+                    "city.london",
+                    "city.krakow",
+                    "city.avignon",
+                    "city.venice",
+                    "city.budapest"
+                ],
+                "draws": 1,
+                "defaultcard": "wilderness",
+                "resetonexhaustion": false
+            },
+            "warmup": 1
+        },
+        {
+            "id": "suspicion_attemptmitigation_me_normal",
+            "actionid": "suspicion",
+            "label": "The Suppression Bureau is bringing me to trial!",
+            "startdescription": "There are crimes the state does not openly recognise. I stand accused of one of these. The Suppression Bureau holds its trials in closed court, and they are not merciful. Unless I can take advantage of a connection, I risk imprisonment!",
+            "description": ".",
+            "slots": [
+                {
+                    "id": "favour",
+                    "label": "A Favour",
+                    "required": {
+                        "favour": 1
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "chance": 100,
+                    "id": "suspicion_favourused"
+                },
+                {
+                    "chance": 70,
+                    "id": "suspicion_meimprisoned"
+                },
+                {
+                    "chance": 100,
+                    "id": "suspicion_meexonerated"
+                }
+            ],
+            "warmup": 60
+        }
+    ]
+}
