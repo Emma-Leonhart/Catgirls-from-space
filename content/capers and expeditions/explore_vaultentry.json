@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "explorevault_expeditionbegun",
+            "id": "explorevault_expeditionbegun", 
             "label": "The Expedition Sets Off",
             "actionid": "explore",
             "requirements": {
