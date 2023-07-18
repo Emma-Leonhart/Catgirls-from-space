@@ -404,11 +404,10 @@
             "label": "Major Loss",
             "description": "My investment yielded no return and I lost some of my principal. Feeling hopeless",
             "effects": {
-                "funds": -3,
                 "dread": 3
             },
             "aspects":{
-                "fatigue_funds": 1
+                "fatiguing": 1
             },
             "comment": "This card represents a total loss with an 80% probability",
             "craftable": false
@@ -505,11 +504,10 @@
             "label": "Total Loss",
             "description": "I lost my entire investment. Feeling hopeless",
             "effects": {
-                "funds": -2,
                 "dread": 2
             },
             "aspects":{
-                "fatigue_funds": 1
+                "fatiguing": 1
             },
             "comment": "This card represents a total loss with a 100% probability",
             "craftable": false
@@ -587,11 +585,10 @@
             "label": "Total Loss",
             "description": "I lost my entire investment. This is a disaster",
             "effects": {
-                "funds": -1,
                 "dread": 1
             },
             "aspects":{
-                "fatigue_funds": 1
+                "fatiguing": 1
             },
             "comment": "This card represents a total loss with a 100% probability",
             "craftable": false

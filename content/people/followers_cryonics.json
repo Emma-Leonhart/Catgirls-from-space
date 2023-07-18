@@ -38,7 +38,7 @@
             "uniquenessgroup": "uqauclair"
         },
         {
-            "id": "auclair_c",
+            "id": "auclair_deprecated",
             "label": "Auclair, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -59,7 +59,7 @@
             "uniquenessgroup": "uqauclair"
         },
         {
-            "id": "auclair_d",
+            "id": "auclair_deprecated_2",
             "label": "A gaunt woman, who is silent.",
             "aspects": {
                 "mortal": 1,
@@ -116,7 +116,7 @@
             "uniquenessgroup": "uqcat"
         },
         {
-            "id": "cat_c",
+            "id": "cat_deprecated",
             "label": "Cat Caro, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -137,7 +137,7 @@
             "uniquenessgroup": "uqcat"
         },
         {
-            "id": "cat_d",
+            "id": "cat_deprecated_2",
             "label": "Cat Caro, a Seer",
             "aspects": {
                 "mortal": 1,
@@ -193,7 +193,7 @@
             "uniquenessgroup": "uqclifton"
         },
         {
-            "id": "clifton_c",
+            "id": "clifton_deprecated",
             "label": "'Pope' Clifton, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -214,7 +214,7 @@
             "uniquenessgroup": "uqclifton"
         },
         {
-            "id": "clifton_d",
+            "id": "clifton_deprecated_2",
             "label": "Clifton, a Seer",
             "aspects": {
                 "mortal": 1,
@@ -270,7 +270,7 @@
             "uniquenessgroup": "uqclovette"
         },
         {
-            "id": "clovette_c",
+            "id": "clovette_deprecated",
             "label": "Clovette, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -291,7 +291,7 @@
             "uniquenessgroup": "uqclovette"
         },
         {
-            "id": "clovette_d",
+            "id": "clovette_deprecated_2",
             "label": "Clovette, a Tarantellist",
             "aspects": {
                 "mortal": 1,
@@ -311,7 +311,7 @@
             "uniquenessgroup": "uqclovette"
         },
         {
-            "id": "connie_c",
+            "id": "connie_deprecated",
             "label": "Connie, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -333,7 +333,7 @@
             "icon": "connie_r"
         },
         {
-            "id": "connie_d",
+            "id": "connie_deprecated_2",
             "label": "Connie, a Conqueress",
             "aspects": {
                 "mortal": 1,
@@ -390,7 +390,7 @@
             "uniquenessgroup": "uqdorothy"
         },
         {
-            "id": "dorothy_c",
+            "id": "dorothy_deprecated",
             "label": "Dorothy, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -411,7 +411,7 @@
             "uniquenessgroup": "uqdorothy"
         },
         {
-            "id": "dorothy_d",
+            "id": "dorothy_deprecated_2",
             "label": "Dorothy, a Tarantellist",
             "aspects": {
                 "mortal": 1,
@@ -451,7 +451,7 @@
             "icon": "douglas_r"
         },
         {
-            "id": "douglas_c",
+            "id": "douglas_deprecated",
             "label": "Douglas, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -472,7 +472,7 @@
             "icon": "douglas_r"
         },
         {
-            "id": "douglas_d",
+            "id": "douglas_deprecated_2",
             "label": "Douglas, a Reshaper",
             "aspects": {
                 "mortal": 1,
@@ -528,7 +528,7 @@
             "uniquenessgroup": "uqelridge"
         },
         {
-            "id": "elridge_c",
+            "id": "elridge_deprecated",
             "label": "Elridge, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -549,7 +549,7 @@
             "uniquenessgroup": "uqelridge"
         },
         {
-            "id": "elridge_d",
+            "id": "elridge_deprecated_2",
             "label": "Elridge, an Assassin",
             "aspects": {
                 "mortal": 1,
@@ -605,7 +605,7 @@
             "uniquenessgroup": "uqenid"
         },
         {
-            "id": "enid_c",
+            "id": "enid_deprecated",
             "label": "Enid, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -626,7 +626,7 @@
             "uniquenessgroup": "uqenid"
         },
         {
-            "id": "enid_d",
+            "id": "enid_deprecated_2",
             "label": "Enid, a Key",
             "aspects": {
                 "mortal": 1,
@@ -682,7 +682,7 @@
             "uniquenessgroup": "uqlaidlaw"
         },
         {
-            "id": "laidlaw_c",
+            "id": "laidlaw_deprecated",
             "label": "Laidlaw, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -703,7 +703,7 @@
             "uniquenessgroup": "uqlaidlaw"
         },
         {
-            "id": "laidlaw_d",
+            "id": "laidlaw_deprecated_2",
             "label": "Laidlaw, a Reshaper",
             "aspects": {
                 "mortal": 1,
@@ -759,7 +759,7 @@
             "uniquenessgroup": "uqleo"
         },
         {
-            "id": "leo_c",
+            "id": "leo_deprecated",
             "label": "Leo, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -780,7 +780,7 @@
             "uniquenessgroup": "uqleo"
         },
         {
-            "id": "leo_d",
+            "id": "leo_deprecated_2",
             "label": "Leo, a Tarantellist",
             "aspects": {
                 "mortal": 1,
@@ -800,7 +800,7 @@
             "uniquenessgroup": "uqleo"
         },
         {
-            "id": "natalia_c",
+            "id": "natalia_deprecated",
             "label": "Natalia, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -822,7 +822,7 @@
             "icon": "natalia_r"
         },
         {
-            "id": "natalia_d",
+            "id": "natalia_deprecated_2",
             "label": "Natalia, a Sage",
             "aspects": {
                 "mortal": 1,
@@ -879,7 +879,7 @@
             "uniquenessgroup": "uqneville"
         },
         {
-            "id": "neville_c",
+            "id": "neville_deprecated",
             "label": "Neville, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -900,7 +900,7 @@
             "uniquenessgroup": "uqneville"
         },
         {
-            "id": "neville_d",
+            "id": "neville_deprecated_2",
             "label": "Neville, a Key",
             "aspects": {
                 "mortal": 1,
@@ -956,7 +956,7 @@
             "uniquenessgroup": "uqporter"
         },
         {
-            "id": "porter_c",
+            "id": "porter_deprecated",
             "label": "Porter, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -977,7 +977,7 @@
             "uniquenessgroup": "uqporter"
         },
         {
-            "id": "porter_d",
+            "id": "porter_deprecated_2",
             "label": "Porter, a Skintwister",
             "aspects": {
                 "mortal": 1,
@@ -1033,7 +1033,7 @@
             "uniquenessgroup": "uqrenira"
         },
         {
-            "id": "renira_c",
+            "id": "renira_deprecated",
             "label": "Renira, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1054,7 +1054,7 @@
             "uniquenessgroup": "uqrenira"
         },
         {
-            "id": "renira_d",
+            "id": "renira_deprecated_2",
             "label": "Renira, a Cyprian",
             "aspects": {
                 "mortal": 1,
@@ -1110,7 +1110,7 @@
             "uniquenessgroup": "uqrose"
         },
         {
-            "id": "rose_c",
+            "id": "rose_deprecated",
             "label": "Rose, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1131,7 +1131,7 @@
             "uniquenessgroup": "uqrose"
         },
         {
-            "id": "rose_d",
+            "id": "rose_deprecated_2",
             "label": "Rose, an Assassin",
             "aspects": {
                 "mortal": 1,
@@ -1187,7 +1187,7 @@
             "uniquenessgroup": "uqsaliba"
         },
         {
-            "id": "saliba_c",
+            "id": "saliba_deprecated",
             "label": "Saliba, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1208,7 +1208,7 @@
             "uniquenessgroup": "uqsaliba"
         },
         {
-            "id": "saliba_d",
+            "id": "saliba_deprecated_2",
             "label": "Saliba, a Cyprian",
             "aspects": {
                 "mortal": 1,
@@ -1264,7 +1264,7 @@
             "uniquenessgroup": "uqslee"
         },
         {
-            "id": "slee_c",
+            "id": "slee_deprecated",
             "label": "Slee, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1285,7 +1285,7 @@
             "uniquenessgroup": "uqslee"
         },
         {
-            "id": "slee_d",
+            "id": "slee_deprecated_2",
             "label": "Slee, a Seer",
             "aspects": {
                 "mortal": 1,
@@ -1305,7 +1305,7 @@
             "uniquenessgroup": "uqslee"
         },
         {
-            "id": "spencer_c",
+            "id": "spencer_deprecated",
             "label": "Spencer, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1327,7 +1327,7 @@
             "icon": "spencer_r"
         },
         {
-            "id": "spencer_d",
+            "id": "spencer_deprecated_2",
             "label": "Spencer, a Herald",
             "aspects": {
                 "mortal": 1,
@@ -1384,7 +1384,7 @@
             "uniquenessgroup": "uqsylvia"
         },
         {
-            "id": "sylvia_c",
+            "id": "sylvia_deprecated",
             "label": "Sylvia, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1405,7 +1405,7 @@
             "uniquenessgroup": "uqsylvia"
         },
         {
-            "id": "sylvia_d",
+            "id": "sylvia_deprecated_2",
             "label": "Sylvia, a Skintwister",
             "aspects": {
                 "mortal": 1,
@@ -1461,7 +1461,7 @@
             "uniquenessgroup": "uqtristan"
         },
         {
-            "id": "tristan_c",
+            "id": "tristan_deprecated",
             "label": "Tristan, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1482,7 +1482,7 @@
             "uniquenessgroup": "uqtristan"
         },
         {
-            "id": "tristan_d",
+            "id": "tristan_deprecated_2",
             "label": "Tristan, a Reshaper",
             "aspects": {
                 "mortal": 1,
@@ -1538,7 +1538,7 @@
             "uniquenessgroup": "uqvalciane"
         },
         {
-            "id": "valciane_c",
+            "id": "valciane_deprecated",
             "label": "Valciane, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1559,7 +1559,7 @@
             "uniquenessgroup": "uqvalciane"
         },
         {
-            "id": "valciane_d",
+            "id": "valciane_deprecated_2",
             "label": "Valciane, a Reshaper",
             "aspects": {
                 "mortal": 1,
@@ -1615,7 +1615,7 @@
             "uniquenessgroup": "uqvictor"
         },
         {
-            "id": "victor_c",
+            "id": "victor_deprecated",
             "label": "Victor, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1636,7 +1636,7 @@
             "uniquenessgroup": "uqvictor"
         },
         {
-            "id": "victor_d",
+            "id": "victor_deprecated_2",
             "label": "Victor, an Assassin",
             "aspects": {
                 "mortal": 1,
@@ -1692,7 +1692,7 @@
             "uniquenessgroup": "uqviolet"
         },
         {
-            "id": "violet_c",
+            "id": "violet_deprecated",
             "label": "Violet, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1713,7 +1713,7 @@
             "uniquenessgroup": "uqviolet"
         },
         {
-            "id": "violet_d",
+            "id": "violet_deprecated_2",
             "label": "A kindly-faced woman, who is silent.",
             "aspects": {
                 "mortal": 1,
@@ -1769,7 +1769,7 @@
             "uniquenessgroup": "uqysabet"
         },
         {
-            "id": "ysabet_c",
+            "id": "ysabet_deprecated",
             "label": "Ysabet, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1790,7 +1790,7 @@
             "uniquenessgroup": "uqysabet"
         },
         {
-            "id": "ysabet_d",
+            "id": "ysabet_deprecated_2",
             "label": "Ysabet, a Skintwister",
             "aspects": {
                 "mortal": 1,
@@ -1810,7 +1810,7 @@
             "uniquenessgroup": "uqysabet"
         },
         {
-            "id": "zachary_c",
+            "id": "zachary_deprecated",
             "label": "Zachary, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1832,7 +1832,7 @@
             "icon": "zachary_r"
         },
         {
-            "id": "zachary_d",
+            "id": "zachary_deprecated_2",
             "label": "Zachary, a Conclusion",
             "aspects": {
                 "mortal": 1,
@@ -2298,127 +2298,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r"
-            }
-        },
-        {
-            "id": "generic_a_edge",
-            "label": "A Hanger-On",
-            "aspects": {
-                "mortal": 1,
-                "acquaintance": 1
-            },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "recruiting": "generic_b_edge"
-            }
-        },
-        {
-            "id": "generic_a_forge",
-            "label": "A Hanger-On",
-            "aspects": {
-                "mortal": 1,
-                "acquaintance": 1
-            },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "recruiting": "generic_b_forge"
-            }
-        },
-        {
-            "id": "generic_a_grail",
-            "label": "A Hanger-On",
-            "aspects": {
-                "mortal": 1,
-                "acquaintance": 1
-            },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "recruiting": "generic_b_grail"
-            }
-        },
-        {
-            "id": "generic_a_heart",
-            "label": "A Hanger-On",
-            "aspects": {
-                "mortal": 1,
-                "acquaintance": 1
-            },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "recruiting": "generic_b_heart"
-            }
-        },
-        {
-            "id": "generic_a_knock",
-            "label": "A Hanger-On",
-            "aspects": {
-                "mortal": 1,
-                "acquaintance": 1
-            },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "recruiting": "generic_b_knock"
-            }
-        },
-        {
-            "id": "generic_a_lantern",
-            "label": "A Hanger-On",
-            "aspects": {
-                "mortal": 1,
-                "acquaintance": 1
-            },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "recruiting": "generic_b_lantern"
-            }
-        },
-        {
-            "id": "generic_a_moth",
-            "label": "A Hanger-On",
-            "aspects": {
-                "mortal": 1,
-                "acquaintance": 1
-            },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p",
-                "recruiting": "generic_b_moth"
-            }
-        },
-        {
-            "id": "generic_a_winter",
-            "label": "A Hanger-On",
-            "aspects": {
-                "mortal": 1,
-                "acquaintance": 1
-            },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "recruiting": "generic_b_winter"
             }
         },
         {
