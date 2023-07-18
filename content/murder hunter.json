@@ -1,0 +1,18 @@
+{
+    "recipes":[
+        {
+            "id": "murder_hunter",
+            "actionid": "talk",
+            "requirements":{
+                "hunter": 1,
+                "weapon": 1
+            },
+            "aspects": {
+                "killmortal": 1
+            },
+            "effects":{
+                "notoriety": 1
+            }
+        }
+    ]
+}

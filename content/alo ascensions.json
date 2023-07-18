@@ -1,6 +1,271 @@
 {
     "recipes":[
         {
+            "id": "dreamascension_upgrade_power_1to2",
+            "label": "Light's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1
+            },
+            "linked":[
+                {
+                    "id": "dreamascension_upgrade_power_1to2_forge",
+                    "chance": 100,
+                },
+                {
+                    "id": "dreamascension_upgrade_power_1to2_moth",
+                    "chance": 100,
+                },
+                {
+                    "id": "dreamascension_upgrade_power_1to2_knock",
+                    "chance": 100,
+                }
+            ]
+        },
+        {
+            "id": "dreamascension_upgrade_power_1to2_forge",
+            "label": "Flame's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "forge": 1
+            },
+            "startdescription": "I will dedicate myself to the pursuit of power.",
+            "description": "I've whispered the words that the smith speaks to the iron, that the murderer speaks to their victims, that the fire speaks to its fuel. Only I know what I have done, but it has shaped my path now. [I have advanced a step towards a terrible ascension.]",
+            "effects": {
+                "ascensionpowera": -1,
+                "ascensionpowerb": 1
+            },
+            "burnimage": "forgededication"
+        },
+        {
+            "id": "dreamascension_upgrade_power_1to2_moth",
+            "label": "Flame's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "moth": 1
+            },
+            "startdescription": "I will dedicate myself to the pursuit of power.",
+            "description": "I've whispered the words that the smith speaks to the iron, that the murderer speaks to their victims, that the fire speaks to its fuel. Only I know what I have done, but it has shaped my path now. [I have advanced a step towards a terrible ascension.]",
+            "effects": {
+                "ascensionpowera": -1,
+                "ascensionpowerb": 1
+            },
+            "burnimage": "forgededication"
+        },
+        {
+            "id": "dreamascension_upgrade_power_1to2_knock",
+            "label": "Flame's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "knock": 1
+            },
+            "startdescription": "I will dedicate myself to the pursuit of power.",
+            "description": "I've whispered the words that the smith speaks to the iron, that the murderer speaks to their victims, that the fire speaks to its fuel. Only I know what I have done, but it has shaped my path now. [I have advanced a step towards a terrible ascension.]",
+            "effects": {
+                "ascensionpowera": -1,
+                "ascensionpowerb": 1
+            },
+            "burnimage": "forgededication"
+        },
+        {
+            "id": "dreamascension_upgrade_sensation_1to2m",
+            "label": "Light's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1
+            },
+            "linked":[
+                {
+                    "id": "dreamascension_upgrade_sensation_1to2f_heart",
+                    "chance": 100,
+                },
+                {
+                    "id": "dreamascension_upgrade_sensation_1to2f_winter",
+                    "chance": 100,
+                },
+                {
+                    "id": "dreamascension_upgrade_sensation_1to2f_secrethistories",
+                    "chance": 100,
+                }
+            ]
+        },
+        {
+            "id": "dreamascension_upgrade_sensation_1to2f",
+            "label": "Light's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1
+            },
+            "linked":[
+                {
+                    "id": "dreamascension_upgrade_sensation_1to2f_heart",
+                    "chance": 100,
+                },
+                {
+                    "id": "dreamascension_upgrade_sensation_1to2f_winter",
+                    "chance": 100,
+                },
+                {
+                    "id": "dreamascension_upgrade_sensation_1to2f_secrethistories",
+                    "chance": 100,
+                }
+            ]
+        },
+        {
+            "id": "dreamascension_upgrade_sensation_1to2f_heart",
+            "label": "Blood's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "heart": 1
+            },
+            "startdescription": "I will dedicate myself to the pursuit of sensation.",
+            "description": "Some words are best heard. Some words are best tasted. That taste is on my tongue now, and I will never forget it. [I have advanced a step towards a terrible ascension.]",
+            "effects": {
+                "ascensionsensationa": -1,
+                "ascensionsensationbf": 1
+            },
+            "burnimage": "graildedication"
+        },
+        
+        {
+            "id": "dreamascension_upgrade_sensation_1to2f_winter",
+            "label": "Blood's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "winter": 1
+            },
+            "startdescription": "I will dedicate myself to the pursuit of sensation.",
+            "description": "Some words are best heard. Some words are best tasted. That taste is on my tongue now, and I will never forget it. [I have advanced a step towards a terrible ascension.]",
+            "effects": {
+                "ascensionsensationa": -1,
+                "ascensionsensationbf": 1
+            },
+            "burnimage": "graildedication"
+        },
+        
+        {
+            "id": "dreamascension_upgrade_sensation_1to2f_secrethistories",
+            "label": "Blood's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "secrethistories": 1
+            },
+            "startdescription": "I will dedicate myself to the pursuit of sensation.",
+            "description": "Some words are best heard. Some words are best tasted. That taste is on my tongue now, and I will never forget it. [I have advanced a step towards a terrible ascension.]",
+            "effects": {
+                "ascensionsensationa": -1,
+                "ascensionsensationbf": 1
+            },
+            "burnimage": "graildedication"
+        },
+        {
+            "id": "dreamascension_upgrade_sensation_1to2m",
+            "label": "Blood's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "heart": 1
+            },
+            "startdescription": "I will dedicate myself to the pursuit of sensation.",
+            "description": "Some words are best heard. Some words are best tasted. That taste is on my tongue now, and I will never forget it. [I have advanced a step towards a terrible ascension.]",
+            "effects": {
+                "ascensionsensationa": -1,
+                "ascensionsensationbf": 1
+            },
+            "burnimage": "graildedication"
+        },
+        {
+            "id": "dreamascension_upgrade_enlightenment_1to2",
+            "label": "Light's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1
+            },
+            "linked":[
+                {
+                    "id": "dreamascension_upgrade_enlightenment_1to2_lantern",
+                    "chance": 100,
+                },
+                {
+                    "id": "dreamascension_upgrade_enlightenment_1to2_grail",
+                    "chance": 100,
+                },
+                {
+                    "id": "dreamascension_upgrade_enlightenment_1to2_edge",
+                    "chance": 100,
+                }
+            ]
+        },
+        {
+            "id": "dreamascension_upgrade_enlightenment_1to2_lantern",
+            "label": "Light's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "lantern": 1
+            },
+            "startdescription": "I will dedicate myself to the pursuit of knowledge.",
+            "description": "I have spoken the words: 'Each Hour has its colour, but colour exists only where there is light.' I will go where there is light, though it bleach me to glass. [I have advanced a step towards a terrible ascension.]",
+            "effects": {
+                "ascensionenlightenmenta": -1,
+                "ascensionenlightenmentb": 1
+            },
+            "burnimage": "lanterndedication"
+        },
+        {
+            "id": "dreamascension_upgrade_enlightenment_1to2_grail",
+            "label": "Light's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "grail": 1
+            },
+            "startdescription": "I will dedicate myself to the pursuit of knowledge.",
+            "description": "I have spoken the words: 'Each Hour has its colour, but colour exists only where there is light.' I will go where there is light, though it bleach me to glass. [I have advanced a step towards a terrible ascension.]",
+            "effects": {
+                "ascensionenlightenmenta": -1,
+                "ascensionenlightenmentb": 1
+            },
+            "burnimage": "lanterndedication"
+        },
+        
+        {
+            "id": "dreamascension_upgrade_enlightenment_1to2_edge",
+            "label": "Light's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "edge": 1
+            },
+            "startdescription": "I will dedicate myself to the pursuit of knowledge.",
+            "description": "I have spoken the words: 'Each Hour has its colour, but colour exists only where there is light.' I will go where there is light, though it bleach me to glass. [I have advanced a step towards a terrible ascension.]",
+            "effects": {
+                "ascensionenlightenmenta": -1,
+                "ascensionenlightenmentb": 1
+            },
+            "burnimage": "lanterndedication"
+        },
+        {
+            "id": "ascensionenlightenment_upgradetoobsession_hint",
+            "label": "Not Enough, Not Yet",
+            "actionid": "work",
+            "requirements": {
+                "ascensionenlightenmentb": 1,
+                "waystag_after": 1,
+                "lantern": 1
+            },
+            "startdescription": "Not yet enough. The Watchman will not attend unless I can merit his attention. I need Lantern power of at least the sixth intensity.",
+            "description": ".",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
             "id": "ascensionenlightenment_upgradetoobsession",
             "label": "The Blinding Key",
             "actionid": "work",
@@ -25,7 +290,21 @@
                 "id": "travel.first.catgirl",
                 "chance": 100,
                 "additional": true
-            }
+            } 
+        },
+        {
+            "id": "ascensionpower_upgradetoobsession_hint",
+            "label": "Not Enough, Not Yet",
+            "actionid": "work",
+            "requirements": {
+                "ascensionpowerb": 1,
+                "waystag_after": 1,
+                "forge": 1
+            },
+            "startdescription": "Not yet enough. The Forge of Days will not attend unless I can merit her attention. I need Forge power of at least the sixth intensity.",
+            "description": ".",
+            "craftable": false,
+            "hintonly": true
         },
         {
             "id": "ascensionpower_upgradetoobsession",
@@ -53,6 +332,32 @@
                 "chance": 100,
                 "additional": true
             }
+        },
+        {
+            "id": "ascensionsensation_upgradetoobsession_hint_m",
+            "label": "Not Enough, Not Yet",
+            "actionid": "work",
+            "requirements": {
+                "ascensionsensationbm": 1,
+                "waystag_after": 1,
+                "grail": 1
+            },
+            "startdescription": "Not yet enough. The Red Grail will not attend unless I can merit her attention. I need Grail power of at least the sixth intensity.",
+            "description": ".",
+            "hintonly": true
+        },
+        {
+            "id": "ascensionsensation_upgradetoobsession_hint_f",
+            "label": "Not Enough, Not Yet",
+            "actionid": "work",
+            "requirements": {
+                "ascensionsensationbf": 1,
+                "waystag_after": 1,
+                "grail": 1
+            },
+            "startdescription": "Not yet enough. The Red Grail will not attend unless I can merit her attention. I need Grail power of at least the sixth intensity.",
+            "description": ".",
+            "hintonly": true
         },
         {
             "comments": "male and female flavour; //TODO implement more elegantly",
