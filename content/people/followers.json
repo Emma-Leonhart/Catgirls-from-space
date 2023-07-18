@@ -9,9 +9,8 @@
                 "follower_lustenlightenment": 1
             },
             "description": "Auclair has a scholarly aspect and a morbid streak. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "auclair_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "auclair_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "rebellion": "auclair_r"
             },
@@ -27,9 +26,8 @@
                 "follower_lustenlightenment": 1
             },
             "description": "Auclair is quiet, meticulous and remorseless.",
-            "xtriggers": {
-                "promotiontodisciple": "auclair_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "auclair_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "auclair_p",
                 "rebellion": "auclair_r"
@@ -86,9 +84,8 @@
                 "follower_lustenlightenment": 1
             },
             "description": "'Cat Caro', as she styles herself, earns a living as a stage medium and a fortune-teller. She may have deeper talents. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "cat_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "cat_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "rebellion": "cat_r"
             },
@@ -104,9 +101,8 @@
                 "follower_lustenlightenment": 1
             },
             "description": "A bright-eyed, watchful woman who recalls her dreams perfectly.",
-            "xtriggers": {
-                "promotiontodisciple": "cat_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "cat_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "cat_p",
                 "rebellion": "cat_r"
@@ -163,9 +159,8 @@
                 "follower_lustenlightenment": 1
             },
             "description": "A bellowing and unorthodox Catholic with a mystic streak and an untrimmed beard. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "clifton_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "clifton_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqclifton"
@@ -180,9 +175,8 @@
                 "follower_lustenlightenment": 1
             },
             "description": "Now Clifton improvises new prayers rich with solar metaphors. He still shouts like a soldier and drinks like a sailor.",
-            "xtriggers": {
-                "promotiontodisciple": "clifton_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "clifton_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "clifton_p",
                 "rebellion": "clifton_r"
@@ -239,9 +233,8 @@
                 "follower_lustchange": 1
             },
             "description": "Clovette is happy in a way that brooks no counter-argument to happiness. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "clovette_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "clovette_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqclovette"
@@ -256,9 +249,8 @@
                 "follower_lustchange": 1
             },
             "description": "Clovette's determined happiness now borders on the fanatical.",
-            "xtriggers": {
-                "promotiontodisciple": "clovette_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "clovette_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "clovette_p",
                 "rebellion": "clovette_r"
@@ -358,9 +350,8 @@
                 "follower_lustchange": 1
             },
             "description": "Dorothy is an enthusiastic sort with an eclectic reading habit. She's fascinated by my hints about the shapes beneath the world's skin. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "dorothy_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "dorothy_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqdorothy"
@@ -375,9 +366,8 @@
                 "follower_lustchange": 1
             },
             "description": "Dorothy is an enthusiastic sort, and I have turned her enthusiasm to our advantage.",
-            "xtriggers": {
-                "promotiontodisciple": "dorothy_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "dorothy_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "dorothy_p",
                 "rebellion": "dorothy_r"
@@ -434,9 +424,8 @@
                 "forge": 2
             },
             "description": "Douglas has exchanged the Force for the Forge.",
-            "xtriggers": {
-                "promotiontodisciple": "douglas_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "douglas_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "douglas_p",
                 "rebellion": "douglas_r"
@@ -494,9 +483,8 @@
                 "follower_lustpower": 1
             },
             "description": "An elegant man of inelegant habits. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "elridge_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "elridge_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqelridge"
@@ -511,9 +499,8 @@
                 "follower_lustpower": 1
             },
             "description": "Elridge has almost learnt not to pick his teeth with his knife in conversation. He has not yet learnt to leave his knife in his boot.",
-            "xtriggers": {
-                "promotiontodisciple": "elridge_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "elridge_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "elridge_p",
                 "rebellion": "elridge_r"
@@ -570,9 +557,8 @@
                 "follower_lustenlightenment": 1
             },
             "description": "Enid speaks softly, and sometimes her gaze doesn't focus on anything visible. It may be that you've dreamed the same dreams. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "enid_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "enid_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqenid"
@@ -587,9 +573,8 @@
                 "follower_lustenlightenment": 1
             },
             "description": "Enid speaks softly, and sometimes her gaze doesn't focus on anything visible. She sees things that others don't.",
-            "xtriggers": {
-                "promotiontodisciple": "enid_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "enid_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "enid_p",
                 "rebellion": "enid_r_c"
@@ -646,9 +631,8 @@
                 "follower_lustpower": 1
             },
             "description": "Laidlaw is a tinkerer and mechanic with an uncanny knack. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "laidlaw_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "laidlaw_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqlaidlaw"
@@ -663,9 +647,8 @@
                 "follower_lustpower": 1
             },
             "description": "Laidlaw has begun to understand the limitations of ingenuity, and the power of sacrifice.",
-            "xtriggers": {
-                "promotiontodisciple": "laidlaw_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "laidlaw_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "laidlaw_p",
                 "rebellion": "laidlaw_r"
@@ -722,9 +705,8 @@
                 "follower_lustchange": 1
             },
             "description": "Leo is an earnest sort with an interest in the occult. He hangs on your hints about the invisible arts. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "leo_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "leo_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqleo"
@@ -739,9 +721,8 @@
                 "follower_lustchange": 1
             },
             "description": "Leo is an earnest sort, but he's prepared to do what he must.",
-            "xtriggers": {
-                "promotiontodisciple": "leo_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "leo_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "leo_p",
                 "rebellion": "leo_r"
@@ -841,9 +822,8 @@
                 "follower_lustenlightenment": 1
             },
             "description": "Neville pauses before he speaks, and flinches easily. He laughs whenever he thinks you've made a joke. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "neville_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "neville_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqneville"
@@ -858,9 +838,8 @@
                 "follower_lustenlightenment": 1
             },
             "description": "Neville pauses before he speaks, and flinches easily. He's sensitive to deeper matters.",
-            "xtriggers": {
-                "promotiontodisciple": "neville_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "neville_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "neville_p",
                 "rebellion": "neville_r"
@@ -917,9 +896,8 @@
                 "follower_lustchange": 1
             },
             "description": "Porter was a barber, until the court case. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "porter_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "porter_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqporter"
@@ -934,9 +912,8 @@
                 "follower_lustchange": 1
             },
             "description": "Porter plies his razor and his scissors, to the great advantage of his friends.",
-            "xtriggers": {
-                "promotiontodisciple": "porter_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "porter_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "porter_p",
                 "rebellion": "porter_r"
@@ -993,9 +970,8 @@
                 "follower_lustsensation": 1
             },
             "description": "Renira has been found not guilty three times in three separate jurisdictions. She will likely never be found guilty of anything. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "renira_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "renira_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqrenira"
@@ -1010,9 +986,8 @@
                 "follower_lustsensation": 1
             },
             "description": "Renira continues to pursue her appetites discreetly, although her ambitions have grown.",
-            "xtriggers": {
-                "promotiontodisciple": "renira_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "renira_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "renira_p",
                 "rebellion": "renira_r"
@@ -1069,9 +1044,8 @@
                 "follower_lustsensation": 1
             },
             "description": "Rose is a sly miss, and she recognises you as someone uncommon. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "rose_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "rose_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqrose"
@@ -1086,9 +1060,8 @@
                 "follower_lustsensation": 1
             },
             "description": "Rose is a sly miss, but loyal.",
-            "xtriggers": {
-                "promotiontodisciple": "rose_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "rose_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "rose_p",
                 "rebellion": "rose_r"
@@ -1145,9 +1118,8 @@
                 "follower_lustsensation": 1
             },
             "description": "Saliba is a man of prodigious appetites. He is long past the point where their satisfaction has given him any pleasure; but he has learnt so very much. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "saliba_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "saliba_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqsaliba"
@@ -1162,9 +1134,8 @@
                 "follower_lustsensation": 1
             },
             "description": "Saliba understands blood. He does not yet understand birth.",
-            "xtriggers": {
-                "promotiontodisciple": "saliba_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "saliba_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "saliba_p",
                 "rebellion": "saliba_r"
@@ -1221,9 +1192,8 @@
                 "follower_lustenlightenment": 1
             },
             "description": "Craig Slee, the astronomer and avant-garde poet, has developed an interest in the esoteric as his health wanes. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "slee_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "slee_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqslee"
@@ -1238,9 +1208,8 @@
                 "follower_lustenlightenment": 1
             },
             "description": "Slee speaks earnestly of his theories to all who will listen: the stars as tiny wounds, and the Sun as a haemorrhage of glory. His poetry is more eccentric than ever.",
-            "xtriggers": {
-                "promotiontodisciple": "slee_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "slee_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "slee_p",
                 "rebellion": "slee_r"
@@ -1340,9 +1309,8 @@
                 "follower_lustchange": 1
             },
             "description": "Sylvia lost her eye in the woods when she was nine years old. Every year, at Candlemas, she returns to the place she buried it. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "sylvia_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "sylvia_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqsylvia"
@@ -1357,9 +1325,8 @@
                 "follower_lustchange": 1
             },
             "description": "Sylvia has a detailed knowledge of roof-ridges, of the river at low tide, of Irish whiskey, and of conjuring tricks.",
-            "xtriggers": {
-                "promotiontodisciple": "sylvia_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "sylvia_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "sylvia_p",
                 "rebellion": "sylvia_r"
@@ -1416,9 +1383,8 @@
                 "follower_lustpower": 1
             },
             "description": "Tristan dislikes distractions. Tristan gets things done. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "tristan_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "tristan_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqtristan"
@@ -1433,9 +1399,8 @@
                 "follower_lustpower": 1
             },
             "description": "Tristan dislikes distractions; Tristan likes results.",
-            "xtriggers": {
-                "promotiontodisciple": "tristan_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "tristan_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "tristan_p",
                 "rebellion": "tristan_r"
@@ -1492,9 +1457,8 @@
                 "follower_lustpower": 1
             },
             "description": "Valciane has operated her establishment for almost twenty years. She has never employed an assistant. Her hands are terribly strong. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "valciane_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "valciane_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqvalciane"
@@ -1509,9 +1473,8 @@
                 "follower_lustpower": 1
             },
             "description": "Valciane's ingenuities are endless, and her grip is stronger than a blacksmith's.",
-            "xtriggers": {
-                "promotiontodisciple": "valciane_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "valciane_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "valciane_p",
                 "rebellion": "valciane_r"
@@ -1568,9 +1531,8 @@
                 "follower_lustsensation": 1
             },
             "description": "Victor is a sly fellow, and he knows an unusual opportunity when he sees it. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "victor_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "victor_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqvictor"
@@ -1585,9 +1547,8 @@
                 "follower_lustsensation": 1
             },
             "description": "Victor is a sly fellow, but loyal.",
-            "xtriggers": {
-                "promotiontodisciple": "victor_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "victor_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "victor_p",
                 "rebellion": "victor_r"
@@ -1644,9 +1605,8 @@
                 "follower_lustsensation": 1
             },
             "description": "Violet has always given unstintingly of her time, easing the pain of the dying. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "violet_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "violet_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqviolet"
@@ -1661,9 +1621,8 @@
                 "follower_lustsensation": 1
             },
             "description": "Violet likes to paint. She has a gift, although she's always been very modest about it. She never puts human figures in her paintings. There are enough people in the world.",
-            "xtriggers": {
-                "promotiontodisciple": "violet_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "violet_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "violet_p",
                 "rebellion": "violet_r"
@@ -1720,9 +1679,8 @@
                 "follower_lustchange": 1
             },
             "description": "Ysabet has always been most comfortable by moonlight. She has excellent night vision. She is often overlooked in daylight. [You might be able to recruit this acquaintance as a follower.]",
-            "xtriggers": {
-                "recruiting": "ysabet_b",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "ysabet_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic"
             },
             "uniquenessgroup": "uqysabet"
@@ -1737,9 +1695,8 @@
                 "follower_lustchange": 1
             },
             "description": "Ysabet sleeps in fits and starts. She rises at dusk to do the things an Ysabet does.",
-            "xtriggers": {
-                "promotiontodisciple": "ysabet_c",
-                "killmortal": "corpse",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "ysabet_corpse"}}},
+                "dep_triggers":{
                 "derangemortal": "lunatic",
                 "capturefollower": "ysabet_p",
                 "rebellion": "ysabet_r"
@@ -2271,8 +2228,7 @@
             },
             "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
             "comments": "legacy element to keep saves valid",
-            "xtriggers": {
-                "recruiting": "generic_b",
+            "xtriggers$dictedit":{"killmortal$listedit":{"0$dictedit":{"id": "generic_b",
                 "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r"
