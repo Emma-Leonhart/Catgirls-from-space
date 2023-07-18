@@ -4,16 +4,18 @@
             "id": "locationstreetsstrange",
             "label": "Streets Strange by Moonlight",
             "aspects": {
-                "location": 1
+                "location": 1,
+                "date_location": 1
             },
             "description": "Sometimes, the light of the moon is a key to other spaces. I've found a place where, for a night or two, the streets curve in unfamiliar ways. If I walk here, I might find insight, or I might be touched by madness.",
             "lifetime": 300
         },
         {
-            "id": "location.temple",
+            "id": "location.temple", 
             "label": "A mysterious temple",
             "aspects": {
-                "location": 1
+                "location": 1,
+                "date_location": 1
             },
             "description": "I found this temple.",
             "lifetime": 300

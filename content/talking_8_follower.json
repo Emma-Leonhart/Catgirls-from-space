@@ -229,31 +229,7 @@
                     "chance": 100
                 },
                 {
-                    "id": "A_talktofollower_locationcabaret_lustsensation",
-                    "chance": 100
-                },
-                {
-                    "id": "A_talktofollower_locationcabaret_lustchange",
-                    "chance": 100
-                },
-                {
-                    "id": "A_talktofollower_locationstreetsstrange_lustenlightenment",
-                    "chance": 100
-                },
-                {
-                    "id": "A_talktofollower_locationauctionhouse_lustpower",
-                    "chance": 100
-                },
-                {
-                    "id": "A_talktofollower_locationcabaret_notinterested",
-                    "chance": 100
-                },
-                {
-                    "id": "A_talktofollower_locationstreetsstrange_notinterested",
-                    "chance": 100
-                },
-                {
-                    "id": "A_talktofollower_locationauctionhouse_notinterested",
+                    "id": "A_talktofollower_romance_router",
                     "chance": 100
                 },
                 {

@@ -228,6 +228,12 @@
                         "label": "Written in Vak",
                         "description": "Before gods arose from blood, before ever ape stood upright, this was the language heard in the House of the Sun.[Some books must be translated before they can be read.]",
                         "isAspect": true
+                    },
+                    {
+                        "id": "date_location",
+                        "label": "A good location for a date",
+                        "description": "Take a follower with an aligning interest here for a date. [Check their elemental affinities.]",
+                        "isAspect": true
                     }
                 ]
             }

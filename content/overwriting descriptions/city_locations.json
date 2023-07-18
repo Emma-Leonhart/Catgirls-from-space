@@ -103,7 +103,10 @@
         {
         "id": "location.cemetery",
         "label": "Cemetery",
-        "description": "In the waking world, as in dreams, the dead are most often found below."
+        "description": "In the waking world, as in dreams, the dead are most often found below.",
+        "aspects":{
+            "date_location": 1
+        }
         },
         {
         "id": "location.cemetery.closing",

@@ -1,0 +1,551 @@
+{
+    "recipes":[
+        {
+            "id": "A_talktofollower_romance_router",
+            "requirements": {
+                "romanticinterest": -1,
+                "follower": 1,
+                "date_location": 1
+            },
+            "linked": [
+                {
+                    "id": "A_talktofollower_location_temple_grail",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_location_temple_lantern",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_location_temple_edge",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_location_cemetary_heart",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_location_cemetary_winter",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_location_cemetary_secret_histories",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_location_locationstreetsstrange_knock",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_location_locationstreetsstrange_forge",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_location_locationstreetsstrange_moth",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_location_notinterested",
+                }
+            ]
+        },
+        {
+            "id": "A_talktofollower_location_temple_grail",
+            "label": "Invite them to an evening at the Temple",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "grail": 1,
+                "location.temple": 1
+            },
+            "startdescription": "@#uqrose|Rose grins. 'Thank you. I'm very fond of the Club. My brother used to take me there.'\n#uqsaliba|Saliba examines me, toe to head. He curls his fingers into the palms of his hands, into fists, and then smooths them out. 'Good,' he agrees.\n#uqvictor|Victor winks. 'Yes, let's. My sister used to like the Club. I've been looking for a chance to go back.'\n#uqviolet|Violet chuckles. The chuckle becomes a delighted cackle, which ends in coughs. She recovers, and places a finger under my chin, to look directly into my eyes. 'Oh, yes,' she says.\n#uqrenira|Renira doesn't say a word. She only stretches splendidly and rises to stalk from the room. But she sends me a long glance back over her shoulder as she goes.@",
+            "description": "If I'm thinking of beginning a dalliance, then really, this is the place. If I and my companion share the same sensibilities. [To begin an affair with this character, show them that your deepest desires are aligned.]",
+            "linked": [
+                {
+                    "id": "L_talk_roseopportunity",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "A_talktofollower_location_temple_lantern",
+            "label": "Invite them to an evening at the Temple",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "lantern": 1,
+                "location.temple": 1
+            },
+            "startdescription": "@#uqrose|Rose grins. 'Thank you. I'm very fond of the Club. My brother used to take me there.'\n#uqsaliba|Saliba examines me, toe to head. He curls his fingers into the palms of his hands, into fists, and then smooths them out. 'Good,' he agrees.\n#uqvictor|Victor winks. 'Yes, let's. My sister used to like the Club. I've been looking for a chance to go back.'\n#uqviolet|Violet chuckles. The chuckle becomes a delighted cackle, which ends in coughs. She recovers, and places a finger under my chin, to look directly into my eyes. 'Oh, yes,' she says.\n#uqrenira|Renira doesn't say a word. She only stretches splendidly and rises to stalk from the room. But she sends me a long glance back over her shoulder as she goes.@",
+            "description": "If I'm thinking of beginning a dalliance, then really, this is the place. If I and my companion share the same sensibilities. [To begin an affair with this character, show them that your deepest desires are aligned.]",
+            "linked": [
+                {
+                    "id": "L_talk_roseopportunity",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "A_talktofollower_location_temple_edge",
+            "label": "Invite them to an evening at the Temple",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "edge": 1,
+                "location.temple": 1
+            },
+            "startdescription": "@#uqrose|Rose grins. 'Thank you. I'm very fond of the Club. My brother used to take me there.'\n#uqsaliba|Saliba examines me, toe to head. He curls his fingers into the palms of his hands, into fists, and then smooths them out. 'Good,' he agrees.\n#uqvictor|Victor winks. 'Yes, let's. My sister used to like the Club. I've been looking for a chance to go back.'\n#uqviolet|Violet chuckles. The chuckle becomes a delighted cackle, which ends in coughs. She recovers, and places a finger under my chin, to look directly into my eyes. 'Oh, yes,' she says.\n#uqrenira|Renira doesn't say a word. She only stretches splendidly and rises to stalk from the room. But she sends me a long glance back over her shoulder as she goes.@",
+            "description": "If I'm thinking of beginning a dalliance, then really, this is the place. If I and my companion share the same sensibilities. [To begin an affair with this character, show them that your deepest desires are aligned.]",
+            "linked": [
+                {
+                    "id": "L_talk_roseopportunity",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "A_talktofollower_location_cemetary_heart",
+            "label": "Invite them to an evening at the Cemetary",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "heart": 1,
+                "location.cemetery": 1
+            },
+            "startdescription": "@#uqrose|Rose grins. 'Thank you. I'm very fond of the Club. My brother used to take me there.'\n#uqsaliba|Saliba examines me, toe to head. He curls his fingers into the palms of his hands, into fists, and then smooths them out. 'Good,' he agrees.\n#uqvictor|Victor winks. 'Yes, let's. My sister used to like the Club. I've been looking for a chance to go back.'\n#uqviolet|Violet chuckles. The chuckle becomes a delighted cackle, which ends in coughs. She recovers, and places a finger under my chin, to look directly into my eyes. 'Oh, yes,' she says.\n#uqrenira|Renira doesn't say a word. She only stretches splendidly and rises to stalk from the room. But she sends me a long glance back over her shoulder as she goes.@",
+            "description": "If I'm thinking of beginning a dalliance, then really, this is the place. If I and my companion share the same sensibilities. [To begin an affair with this character, show them that your deepest desires are aligned.]",
+            "linked": [
+                {
+                    "id": "L_talk_roseopportunity",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "A_talktofollower_location_cemetary_winter",
+            "label": "Invite them to an evening at the Cemetary",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "winter": 1,
+                "location.cemetery": 1
+            },
+            "startdescription": "@#uqrose|Rose grins. 'Thank you. I'm very fond of the Club. My brother used to take me there.'\n#uqsaliba|Saliba examines me, toe to head. He curls his fingers into the palms of his hands, into fists, and then smooths them out. 'Good,' he agrees.\n#uqvictor|Victor winks. 'Yes, let's. My sister used to like the Club. I've been looking for a chance to go back.'\n#uqviolet|Violet chuckles. The chuckle becomes a delighted cackle, which ends in coughs. She recovers, and places a finger under my chin, to look directly into my eyes. 'Oh, yes,' she says.\n#uqrenira|Renira doesn't say a word. She only stretches splendidly and rises to stalk from the room. But she sends me a long glance back over her shoulder as she goes.@",
+            "description": "If I'm thinking of beginning a dalliance, then really, this is the place. If I and my companion share the same sensibilities. [To begin an affair with this character, show them that your deepest desires are aligned.]",
+            "linked": [
+                {
+                    "id": "L_talk_roseopportunity",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "A_talktofollower_location_cemetary_secret_histories",
+            "label": "Invite them to an evening at the Cemetary",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "secrethistories": 1,
+                "location.cemetery": 1
+            },
+            "startdescription": "@#uqrose|Rose grins. 'Thank you. I'm very fond of the Club. My brother used to take me there.'\n#uqsaliba|Saliba examines me, toe to head. He curls his fingers into the palms of his hands, into fists, and then smooths them out. 'Good,' he agrees.\n#uqvictor|Victor winks. 'Yes, let's. My sister used to like the Club. I've been looking for a chance to go back.'\n#uqviolet|Violet chuckles. The chuckle becomes a delighted cackle, which ends in coughs. She recovers, and places a finger under my chin, to look directly into my eyes. 'Oh, yes,' she says.\n#uqrenira|Renira doesn't say a word. She only stretches splendidly and rises to stalk from the room. But she sends me a long glance back over her shoulder as she goes.@",
+            "description": "If I'm thinking of beginning a dalliance, then really, this is the place. If I and my companion share the same sensibilities. [To begin an affair with this character, show them that your deepest desires are aligned.]",
+            "linked": [
+                {
+                    "id": "L_talk_roseopportunity",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "A_talktofollower_location_locationstreetsstrange_knock",
+            "label": "Invite them to an evening at the Strange Streets",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "knock": 1,
+                "locationstreetsstrange": 1
+            },
+            "startdescription": "@#uqrose|Rose grins. 'Thank you. I'm very fond of the Club. My brother used to take me there.'\n#uqsaliba|Saliba examines me, toe to head. He curls his fingers into the palms of his hands, into fists, and then smooths them out. 'Good,' he agrees.\n#uqvictor|Victor winks. 'Yes, let's. My sister used to like the Club. I've been looking for a chance to go back.'\n#uqviolet|Violet chuckles. The chuckle becomes a delighted cackle, which ends in coughs. She recovers, and places a finger under my chin, to look directly into my eyes. 'Oh, yes,' she says.\n#uqrenira|Renira doesn't say a word. She only stretches splendidly and rises to stalk from the room. But she sends me a long glance back over her shoulder as she goes.@",
+            "description": "If I'm thinking of beginning a dalliance, then really, this is the place. If I and my companion share the same sensibilities. [To begin an affair with this character, show them that your deepest desires are aligned.]",
+            "linked": [
+                {
+                    "id": "L_talk_roseopportunity",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "A_talktofollower_location_locationstreetsstrange_forge",
+            "label": "Invite them to an evening at the Strange Streets",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "forge": 1,
+                "locationstreetsstrange": 1
+            },
+            "startdescription": "@#uqrose|Rose grins. 'Thank you. I'm very fond of the Club. My brother used to take me there.'\n#uqsaliba|Saliba examines me, toe to head. He curls his fingers into the palms of his hands, into fists, and then smooths them out. 'Good,' he agrees.\n#uqvictor|Victor winks. 'Yes, let's. My sister used to like the Club. I've been looking for a chance to go back.'\n#uqviolet|Violet chuckles. The chuckle becomes a delighted cackle, which ends in coughs. She recovers, and places a finger under my chin, to look directly into my eyes. 'Oh, yes,' she says.\n#uqrenira|Renira doesn't say a word. She only stretches splendidly and rises to stalk from the room. But she sends me a long glance back over her shoulder as she goes.@",
+            "description": "If I'm thinking of beginning a dalliance, then really, this is the place. If I and my companion share the same sensibilities. [To begin an affair with this character, show them that your deepest desires are aligned.]",
+            "linked": [
+                {
+                    "id": "L_talk_roseopportunity",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "A_talktofollower_location_locationstreetsstrange_moth",
+            "label": "Invite them to an evening at the Strange Streets",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "moth": 1,
+                "locationstreetsstrange": 1
+            },
+            "startdescription": "@#uqrose|Rose grins. 'Thank you. I'm very fond of the Club. My brother used to take me there.'\n#uqsaliba|Saliba examines me, toe to head. He curls his fingers into the palms of his hands, into fists, and then smooths them out. 'Good,' he agrees.\n#uqvictor|Victor winks. 'Yes, let's. My sister used to like the Club. I've been looking for a chance to go back.'\n#uqviolet|Violet chuckles. The chuckle becomes a delighted cackle, which ends in coughs. She recovers, and places a finger under my chin, to look directly into my eyes. 'Oh, yes,' she says.\n#uqrenira|Renira doesn't say a word. She only stretches splendidly and rises to stalk from the room. But she sends me a long glance back over her shoulder as she goes.@",
+            "description": "If I'm thinking of beginning a dalliance, then really, this is the place. If I and my companion share the same sensibilities. [To begin an affair with this character, show them that your deepest desires are aligned.]",
+            "linked": [
+                {
+                    "id": "L_talk_roseopportunity",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "L_talk_roseopportunity", 
+            "label": "A Liaison?",
+            "actionid": "talk",
+            "slots": [
+                {
+                    "id": "ascension",
+                    "label": "Kindred Spirits?",
+                    "required": {
+                        "desire": 1,
+                        "temptation.obscurity": -1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "id": "A_startrose_heart_initiate",
+                    "chance": 100
+                },
+                {
+                    "id": "A_startrose_winter_initiate",
+                    "chance": 100
+                },
+                {
+                    "id": "A_startrose_secrethistories_initiate",
+                    "chance": 100
+                },
+                {
+                    "id": "A_startrose_lantern_initiate",
+                    "chance": 100
+                },
+                {
+                    "id": "A_startrose_grail_initiate",
+                    "chance": 100
+                },
+                {
+                    "id": "A_startrose_edge_initiate",
+                    "chance": 100
+                },
+                {
+                    "id": "A_startrose_knock_initiate",
+                    "chance": 100
+                },
+                {
+                    "id": "A_startrose_forge_initiate",
+                    "chance": 100
+                },
+                {
+                    "id": "A_startrose_moth_initiate",
+                    "chance": 100
+                }
+            ],            
+            "startdescription": ".",
+            "description": "The evening is going in a direction I hadn't intended. Did I say the wrong thing? Or are we just hopelessly unsuited?",
+            "craftable": false,
+            "warmup": 30
+        },
+        {
+            "id": "A_talktofollower_location_temple_notinterested",
+            "label": "Invite them to an evening at the Ecdysis Club",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "location.temple": 1
+            },
+            "startdescription": "'I... don't think that's for me.'",
+            "description": "[Your follower has no especial interest in this place.]"
+        },
+        {
+            "id": "A_talktofollower_location_streetsstrange_notinterested",
+            "label": "Invite them to an evening at the Ecdysis Club",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "locationstreetsstrange": 1
+            },
+            "startdescription": "'I... don't think that's for me.'",
+            "description": "[Your follower has no especial interest in this place.]"
+        },
+        {
+            "id": "A_talktofollower_location_cemetary_notinterested",
+            "label": "Invite them to an evening at the Ecdysis Club",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "location.cemetery": 1
+            },
+            "startdescription": "'I... don't think that's for me.'",
+            "description": "[Your follower has no especial interest in this place.]"
+        },
+        {
+            "id": "A_talktofollower_location_notinterested",
+            "label": "No interest?",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "date_location": 1
+            },
+            "startdescription": "'I... don't think that's for me.'",
+            "description": "[Your follower has no especial interest in this place.]"
+        },
+        {
+            "id": "A_startrose_heart_initiate",
+            "actionid": "rose",
+            "label": "To Foster Vital Connection",
+            "requirements": {
+                "heart": 1,
+                "resentment": -1,
+                "sensationmarks": 1
+            },
+            "startdescription": "In the pulsing rhythm of our shared existence, we foster a unity born of mutual respect and understanding. My companion's hand finds mine, and in the rhythm of our connection, we find the strength to counter the alienation that seeks to separate us.",
+            "description": "Fostering vitality, emotion, and human connection to bridge the alienation gap.",
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "romanticinterest",
+                    "level": 1
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "heart",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "A_startrose_winter_initiate",
+            "actionid": "rose",
+            "label": "To Silent Depths",
+            "requirements": {
+                "winter": 1,
+                "resentment": -1,
+                "sensationmarks": 1
+            },
+            "startdescription": "As we share in silence, the clamour of the world recedes. My companion's touch is a calming anchor in the tumultuous sea of angst, a silent refuge against the winter of discontent.",
+            "description": "Exploring the silence, endings, and hidden depths to quiet the mind.",
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "romanticinterest",
+                    "level": 1
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "winter",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "A_startrose_secrethistories_initiate",
+            "actionid": "rose",
+            "label": "To Unveil Hidden Truths",
+            "requirements": {
+                "secrethistories": 1,
+                "resentment": -1,
+                "sensationmarks": 1
+            },
+            "startdescription": "As we peer beneath the surface, we unveil hidden truths, reframing our shared reality. In the enigmatic gaze of my companion, I see the lust for understanding that ignites our joined purpose.",
+            "description": "Uncovering hidden truths and obscured knowledge to illuminate life's absurdities.",
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "romanticinterest",
+                    "level": 1
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "secrethistories",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "A_startrose_lantern_initiate",
+            "actionid": "rose",
+            "label": "To Remember and Understand",
+            "requirements": {
+                "lantern": 1,
+                "resentment": -1,
+                "enlightenmentmarks": 1
+            },
+            "startdescription": "In our shared pursuit of knowledge, we rediscover forgotten truths. The light in my companion's eyes mirrors my own yearning for understanding, illuminating the past with the clarity of the present.",
+            "description": "Bringing obscured or forgotten experiences back into the light with newfound understanding.",
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "romanticinterest",
+                    "level": 1
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "lantern",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "A_startrose_grail_initiate",
+            "actionid": "rose",
+            "label": "To Experience and Desire",
+            "requirements": {
+                "grail": 1,
+                "resentment": -1,
+                "enlightenmentmarks": 1
+            },
+            "startdescription": "Together, we delve into the wellspring of our desires. The allure of experience shines in my companion's gaze, leading us away from the spiral of monotony into a vibrant array of lived moments.",
+            "description": "Indulging in diverse experiences to offer a broader view of life.",
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "romanticinterest",
+                    "level": 1
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "grail",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "A_startrose_edge_initiate",
+            "actionid": "rose",
+            "label": "To Flow and Overcome",
+            "requirements": {
+                "edge": 1,
+                "resentment": -1,
+                "enlightenmentmarks": 1
+            },
+            "startdescription": "Together, we confront the rising tide. My companion's strength emboldens me, bolstering my resolve. We shall not drown but flow with life's currents, embodying the spirit of survival and victory.",
+            "description": "Embodying the spirit of survival and victory to overcome challenges.",
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "romanticinterest",
+                    "level": 1
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "edge",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "A_startrose_knock_initiate",
+            "actionid": "rose",
+            "label": "To Open and Overcome",
+            "requirements": {
+                "knock": 1,
+                "resentment": -1,
+                "powermarks": 1
+            },
+            "startdescription": "Together, we knock on the doors of possibility. My companion's courage fuels my own, breaking down the barriers that confine us, allowing us to transcend the chains of external entrapment.",
+            "description": "Overcoming barriers and creating new paths to neutralize harmful foreign influences.",
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "romanticinterest",
+                    "level": 1
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "knock",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "A_startrose_forge_initiate",
+            "actionid": "rose",
+            "label": "To Change and Transform",
+            "requirements": {
+                "forge": 1,
+                "resentment": -1,
+                "powermarks": 1
+            },
+            "startdescription": "Together, we stoke the flames of transformation. My companion's fiery determination inspires my own, melting away the rigid confines of our self-identity, leaving in its wake a more adaptable, flexible self-view.",
+            "description": "Transforming rigid self-identity into a more adaptable, flexible self-view.",
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "romanticinterest",
+                    "level": 1
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "forge",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "A_startrose_moth_initiate",
+            "actionid": "rose",
+            "label": "To Dream and Transform",
+            "requirements": {
+                "moth": 1,
+                "resentment": -1,
+                "powermarks": 1
+            },
+            "startdescription": "In the dreamlike flicker of our shared reality, we step into various roles, each offering a fresh perspective. My companion's playful spirit guides me, freeing us both from the confines of empathic entrapment.",
+            "description": "Adopting different roles and perspectives to promote a fluid identity.",
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "romanticinterest",
+                    "level": 1
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "moth",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "craftable": false
+        }
+    ]
+}

@@ -1,41 +1,6 @@
 {
     "recipes": [
-        {
-            "id": "L_talk_roseopportunity",
-            "label": "A Liaison?",
-            "actionid": "talk",
-            "slots": [
-                {
-                    "id": "ascension",
-                    "label": "Kindred Spirits?",
-                    "required": {
-                        "desire": 1
-                    }
-                }
-            ],
-            "alt": [
-                {
-                    "id": "A_startrose_power_initiate",
-                    "chance": 100
-                },
-                {
-                    "id": "A_startrose_sensation_initiate",
-                    "chance": 100
-                },
-                {
-                    "id": "A_startrose_change_initiate",
-                    "chance": 100
-                },
-                {
-                    "id": "A_startrose_enlightenment_initiate",
-                    "chance": 100
-                }
-            ],
-            "startdescription": ".",
-            "description": "The evening is going in a direction I hadn't intended. Did I say the wrong thing? Or are we just hopelessly unsuited?",
-            "craftable": false,
-            "warmup": 30
-        },
+        
         {
             "id": "A_startrose_power_initiate",
             "actionid": "rose",
