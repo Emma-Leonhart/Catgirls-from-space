@@ -2468,38 +2468,8 @@
                     "consumes": true
                 }
             ],
-            "lifetime": 600,
+            "lifetime": 300,
             "icon": "corpse",
-            "xtriggers": {
-                "fatiguing": "husk"
-            }
-        },
-        {
-            "id": "corpse.exile.underling",
-            "label": "A Reckoner Corpse",
-            "aspects": {
-                "remnant": 1,
-                "winter": 2,
-                "grail": 2,
-                "ingredient": 1
-            },
-            "description": "Proof of a victory. This is going to make my Foe very upset.",
-            "lifetime": 600,
-            "decayTo": "trace",
-            "slots": [
-                {
-                    "actionid": "relinquish",
-                    "id": "purpose",
-                    "label": "Purpose",
-                    "required": {
-                        "temptation.defiance": 1,
-                        "lore": 1
-                    },
-                    "forbidden": {
-                        "exhausted": 1
-                    }
-                }
-            ],
             "xtriggers": {
                 "fatiguing": "husk"
             }

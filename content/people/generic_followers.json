@@ -1,7 +1,43 @@
 {
     "elements":
     [
-        
+        {
+            "id": "corpse.exile.underling",
+            "label": "A Reckoner Corpse",
+            "aspects": {
+                "remnant": 1,
+                "winter": 2,
+                "grail": 2,
+                "ingredient": 1,
+                "not_quite_dead": 1
+            },
+            "description": "Just because they're a shitty person did they really deserve to die. Maybe I can save them too.",
+            "lifetime": 300,
+            "decayTo": "corpse",
+            "slots": [
+                {
+                    "id": "assistance",
+                    "actionid": "relinquish",
+                    "label": "Assistance",
+                    "required": {
+                        "deception": 1
+                    },
+                    "consumes": true
+                },
+                {
+                    "id": "assistance2",
+                    "actionid": "relinquish",
+                    "label": "Assistance",
+                    "required": {
+                        "deception": 1
+                    },
+                    "consumes": true
+                }
+            ],
+            "xtriggers": {
+                "fatiguing": "husk"
+            }
+        },
         {
             "id": "generic_a",
             "label": "A Hanger-On",
