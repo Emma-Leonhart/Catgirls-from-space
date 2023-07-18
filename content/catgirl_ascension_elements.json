@@ -47,7 +47,8 @@
                     "label": "Power",
                     "actionid": "work",
                     "required": {
-                        "forge": 1
+                        "lore": 1,
+                        "hand": -1
                     },
                     "description": "I will require sufficient of the furious incandescence of the Forge."
                 }
