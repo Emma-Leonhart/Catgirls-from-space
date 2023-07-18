@@ -1,0 +1,31 @@
+{
+    "elements":[
+        {
+            "id": "cryonics_facility",
+            "label": "Cryonics Facility",
+            "aspects":{
+                "portable": 1,
+                "facility": 1
+            },
+            "unique": true,
+            "slots":[
+                {
+                    "id": "follower",
+                    "label": "Someone to freeze",
+                    "actionid": "work",
+                    "required":{
+                        "not_quite_dead": 1
+                    }
+                },
+                {
+                    "id": "funds",
+                    "label": "Resources",
+                    "actionid": "work",
+                    "required":{
+                        "funds": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "recipes":[
+        {
+            "id": "start_cryonics_facility_moth",
+            "craftable": true,
+            "actionid": "work",
+            "requirements":{
+                "hq": 1,
+                "moth": 6
+            },
+            "warmup": 30,
+            "effects": {
+                "cryonics_facility": 1
+            }
+        },
+        {
+            "id": "start_cryonics_facility_winter",
+            "craftable": true,
+            "actionid": "work",
+            "requirements":{
+                "hq": 1,
+                "winter": 6
+            },
+            "warmup": 30,
+            "effects": {
+                "cryonics_facility": 1
+            }
+        },
+        {
+            "id": "freeze_corpse",
+            "actionid": "work",
+            "label": "Save someone from death",
+            "startdescription": "Save someone from death by freezing them. [Warning this will make escaping pursuers more resource intensive]",
+            "warmup": 60,
+            "craftable": true,
+            "aspects": {
+                "freeze": 1,
+                "fatiguing": 1
+            },
+            "requirements":{
+                "cryonics_facility": 1,
+                "not_quite_dead": 1,
+                "funds": 1
+            },
+            "#priority": 999
+        }
+    ]
+}

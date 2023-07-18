@@ -37,7 +37,9 @@
                     "weapon": 1,
                     "lore": 1,
                     "comfort": 1,
-                    "proof": 1
+                    "proof": 1,
+                    "hq": 1,
+                    "facility": 1
                 }
             }
         },

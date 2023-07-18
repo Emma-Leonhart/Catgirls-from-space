@@ -1,11 +1,11 @@
 {
     "elements": [
         {
-            "id": "auclair_a",
-            "label": "Auclair, an acquaintance",
+            "id": "auclair_frozen",
+            "label": "Frozen Auclair",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustenlightenment": 1
             },
             "description": "Auclair has a scholarly aspect and a morbid streak. [You might be able to recruit this acquaintance as a follower.]",
@@ -18,17 +18,18 @@
             "uniquenessgroup": "uqauclair"
         },
         {
-            "id": "auclair_b",
-            "label": "Auclair, a believer",
+            "id": "auclair_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Auclair, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "winter": 2,
                 "follower_lustenlightenment": 1
             },
             "description": "Auclair is quiet, meticulous and remorseless.",
             "xtriggers": {
-                "promotiontodisciple": "auclair_c",
+                "freeze": "auclair_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "auclair_p",
@@ -78,11 +79,11 @@
             "uniquenessgroup": "uqauclair"
         },
         {
-            "id": "cat_a",
-            "label": "Cat Caro, an acquaintance",
+            "id": "cat_frozen",
+            "label": "Frozen Cat Caro",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustenlightenment": 1
             },
             "description": "'Cat Caro', as she styles herself, earns a living as a stage medium and a fortune-teller. She may have deeper talents. [You might be able to recruit this acquaintance as a follower.]",
@@ -95,17 +96,18 @@
             "uniquenessgroup": "uqcat"
         },
         {
-            "id": "cat_b",
-            "label": "Cat Caro, a believer",
+            "id": "cat_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Cat Caro, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "lantern": 2,
                 "follower_lustenlightenment": 1
             },
             "description": "A bright-eyed, watchful woman who recalls her dreams perfectly.",
             "xtriggers": {
-                "promotiontodisciple": "cat_c",
+                "freeze": "cat_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "cat_p",
@@ -155,11 +157,11 @@
             "uniquenessgroup": "uqcat"
         },
         {
-            "id": "clifton_a",
-            "label": "'Pope' Clifton, an acquaintance",
+            "id": "clifton_frozen",
+            "label": "Frozen 'Pope' Clifton",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustenlightenment": 1
             },
             "description": "A bellowing and unorthodox Catholic with a mystic streak and an untrimmed beard. [You might be able to recruit this acquaintance as a follower.]",
@@ -171,17 +173,18 @@
             "uniquenessgroup": "uqclifton"
         },
         {
-            "id": "clifton_b",
-            "label": "'Pope' Clifton, a believer",
+            "id": "clifton_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead 'Pope' Clifton, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "lantern": 2,
                 "follower_lustenlightenment": 1
             },
             "description": "Now Clifton improvises new prayers rich with solar metaphors. He still shouts like a soldier and drinks like a sailor.",
             "xtriggers": {
-                "promotiontodisciple": "clifton_c",
+                "freeze": "clifton_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "clifton_p",
@@ -231,11 +234,11 @@
             "uniquenessgroup": "uqclifton"
         },
         {
-            "id": "clovette_a",
-            "label": "Clovette, an acquaintance",
+            "id": "clovette_frozen",
+            "label": "Frozen Clovette",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustchange": 1
             },
             "description": "Clovette is happy in a way that brooks no counter-argument to happiness. [You might be able to recruit this acquaintance as a follower.]",
@@ -247,17 +250,18 @@
             "uniquenessgroup": "uqclovette"
         },
         {
-            "id": "clovette_b",
-            "label": "Clovette, a believer",
+            "id": "clovette_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Clovette, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "heart": 2,
                 "follower_lustchange": 1
             },
             "description": "Clovette's determined happiness now borders on the fanatical.",
             "xtriggers": {
-                "promotiontodisciple": "clovette_c",
+                "freeze": "clovette_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "clovette_p",
@@ -350,11 +354,11 @@
             "icon": "connie_r"
         },
         {
-            "id": "dorothy_a",
-            "label": "Dorothy, an acquaintance",
+            "id": "dorothy_frozen",
+            "label": "Frozen Dorothy",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustchange": 1
             },
             "description": "Dorothy is an enthusiastic sort with an eclectic reading habit. She's fascinated by my hints about the shapes beneath the world's skin. [You might be able to recruit this acquaintance as a follower.]",
@@ -366,17 +370,18 @@
             "uniquenessgroup": "uqdorothy"
         },
         {
-            "id": "dorothy_b",
-            "label": "Dorothy, a believer",
+            "id": "dorothy_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Dorothy, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "heart": 2,
                 "follower_lustchange": 1
             },
             "description": "Dorothy is an enthusiastic sort, and I have turned her enthusiasm to our advantage.",
             "xtriggers": {
-                "promotiontodisciple": "dorothy_c",
+                "freeze": "dorothy_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "dorothy_p",
@@ -426,16 +431,17 @@
             "uniquenessgroup": "uqdorothy"
         },
         {
-            "id": "douglas_b",
-            "label": "Douglas, a believer",
+            "id": "douglas_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Douglas, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "forge": 2
             },
             "description": "Douglas has exchanged the Force for the Forge.",
             "xtriggers": {
-                "promotiontodisciple": "douglas_c",
+                "freeze": "douglas_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "douglas_p",
@@ -486,11 +492,11 @@
             "icon": "douglas_r"
         },
         {
-            "id": "elridge_a",
-            "label": "Elridge, an acquaintance",
+            "id": "elridge_frozen",
+            "label": "Frozen Elridge",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustpower": 1
             },
             "description": "An elegant man of inelegant habits. [You might be able to recruit this acquaintance as a follower.]",
@@ -502,17 +508,18 @@
             "uniquenessgroup": "uqelridge"
         },
         {
-            "id": "elridge_b",
-            "label": "Elridge, a believer",
+            "id": "elridge_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Elridge, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "edge": 2,
                 "follower_lustpower": 1
             },
             "description": "Elridge has almost learnt not to pick his teeth with his knife in conversation. He has not yet learnt to leave his knife in his boot.",
             "xtriggers": {
-                "promotiontodisciple": "elridge_c",
+                "freeze": "elridge_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "elridge_p",
@@ -562,11 +569,11 @@
             "uniquenessgroup": "uqelridge"
         },
         {
-            "id": "enid_a",
-            "label": "Enid, an acquaintance",
+            "id": "enid_frozen",
+            "label": "Frozen Enid",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustenlightenment": 1
             },
             "description": "Enid speaks softly, and sometimes her gaze doesn't focus on anything visible. It may be that you've dreamed the same dreams. [You might be able to recruit this acquaintance as a follower.]",
@@ -578,17 +585,18 @@
             "uniquenessgroup": "uqenid"
         },
         {
-            "id": "enid_b",
-            "label": "Enid, a believer",
+            "id": "enid_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Enid, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "knock": 2,
                 "follower_lustenlightenment": 1
             },
             "description": "Enid speaks softly, and sometimes her gaze doesn't focus on anything visible. She sees things that others don't.",
             "xtriggers": {
-                "promotiontodisciple": "enid_c",
+                "freeze": "enid_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "enid_p",
@@ -638,11 +646,11 @@
             "uniquenessgroup": "uqenid"
         },
         {
-            "id": "laidlaw_a",
-            "label": "Laidlaw, an acquaintance",
+            "id": "laidlaw_frozen",
+            "label": "Frozen Laidlaw",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustpower": 1
             },
             "description": "Laidlaw is a tinkerer and mechanic with an uncanny knack. [You might be able to recruit this acquaintance as a follower.]",
@@ -654,17 +662,18 @@
             "uniquenessgroup": "uqlaidlaw"
         },
         {
-            "id": "laidlaw_b",
-            "label": "Laidlaw, a believer",
+            "id": "laidlaw_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Laidlaw, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "forge": 2,
                 "follower_lustpower": 1
             },
             "description": "Laidlaw has begun to understand the limitations of ingenuity, and the power of sacrifice.",
             "xtriggers": {
-                "promotiontodisciple": "laidlaw_c",
+                "freeze": "laidlaw_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "laidlaw_p",
@@ -714,11 +723,11 @@
             "uniquenessgroup": "uqlaidlaw"
         },
         {
-            "id": "leo_a",
-            "label": "Leo, an acquaintance",
+            "id": "leo_frozen",
+            "label": "Frozen Leo",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustchange": 1
             },
             "description": "Leo is an earnest sort with an interest in the occult. He hangs on your hints about the invisible arts. [You might be able to recruit this acquaintance as a follower.]",
@@ -730,17 +739,18 @@
             "uniquenessgroup": "uqleo"
         },
         {
-            "id": "leo_b",
-            "label": "Leo, a believer",
+            "id": "leo_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Leo, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "heart": 2,
                 "follower_lustchange": 1
             },
             "description": "Leo is an earnest sort, but he's prepared to do what he must.",
             "xtriggers": {
-                "promotiontodisciple": "leo_c",
+                "freeze": "leo_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "leo_p",
@@ -833,11 +843,11 @@
             "icon": "natalia_r"
         },
         {
-            "id": "neville_a",
-            "label": "Neville, an acquaintance",
+            "id": "neville_frozen",
+            "label": "Frozen Neville",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustenlightenment": 1
             },
             "description": "Neville pauses before he speaks, and flinches easily. He laughs whenever he thinks you've made a joke. [You might be able to recruit this acquaintance as a follower.]",
@@ -849,17 +859,18 @@
             "uniquenessgroup": "uqneville"
         },
         {
-            "id": "neville_b",
-            "label": "Neville, a believer",
+            "id": "neville_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Neville, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "knock": 2,
                 "follower_lustenlightenment": 1
             },
             "description": "Neville pauses before he speaks, and flinches easily. He's sensitive to deeper matters.",
             "xtriggers": {
-                "promotiontodisciple": "neville_c",
+                "freeze": "neville_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "neville_p",
@@ -909,11 +920,11 @@
             "uniquenessgroup": "uqneville"
         },
         {
-            "id": "porter_a",
-            "label": "Porter, an acquaintance",
+            "id": "porter_frozen",
+            "label": "Frozen Porter",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustchange": 1
             },
             "description": "Porter was a barber, until the court case. [You might be able to recruit this acquaintance as a follower.]",
@@ -925,17 +936,18 @@
             "uniquenessgroup": "uqporter"
         },
         {
-            "id": "porter_b",
-            "label": "Porter, a believer",
+            "id": "porter_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Porter, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "moth": 2,
                 "follower_lustchange": 1
             },
             "description": "Porter plies his razor and his scissors, to the great advantage of his friends.",
             "xtriggers": {
-                "promotiontodisciple": "porter_c",
+                "freeze": "porter_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "porter_p",
@@ -985,11 +997,11 @@
             "uniquenessgroup": "uqporter"
         },
         {
-            "id": "renira_a",
-            "label": "Renira, an acquaintance",
+            "id": "renira_frozen",
+            "label": "Frozen Renira",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustsensation": 1
             },
             "description": "Renira has been found not guilty three times in three separate jurisdictions. She will likely never be found guilty of anything. [You might be able to recruit this acquaintance as a follower.]",
@@ -1001,17 +1013,18 @@
             "uniquenessgroup": "uqrenira"
         },
         {
-            "id": "renira_b",
-            "label": "Renira, a believer",
+            "id": "renira_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Renira, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "grail": 2,
                 "follower_lustsensation": 1
             },
             "description": "Renira continues to pursue her appetites discreetly, although her ambitions have grown.",
             "xtriggers": {
-                "promotiontodisciple": "renira_c",
+                "freeze": "renira_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "renira_p",
@@ -1061,11 +1074,11 @@
             "uniquenessgroup": "uqrenira"
         },
         {
-            "id": "rose_a",
-            "label": "Rose, an acquaintance",
+            "id": "rose_frozen",
+            "label": "Frozen Rose",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustsensation": 1
             },
             "description": "Rose is a sly miss, and she recognises you as someone uncommon. [You might be able to recruit this acquaintance as a follower.]",
@@ -1077,17 +1090,18 @@
             "uniquenessgroup": "uqrose"
         },
         {
-            "id": "rose_b",
-            "label": "Rose, a believer",
+            "id": "rose_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Rose, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "edge": 2,
                 "follower_lustsensation": 1
             },
             "description": "Rose is a sly miss, but loyal.",
             "xtriggers": {
-                "promotiontodisciple": "rose_c",
+                "freeze": "rose_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "rose_p",
@@ -1137,11 +1151,11 @@
             "uniquenessgroup": "uqrose"
         },
         {
-            "id": "saliba_a",
-            "label": "Saliba, an acquaintance",
+            "id": "saliba_frozen",
+            "label": "Frozen Saliba",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustsensation": 1
             },
             "description": "Saliba is a man of prodigious appetites. He is long past the point where their satisfaction has given him any pleasure; but he has learnt so very much. [You might be able to recruit this acquaintance as a follower.]",
@@ -1153,17 +1167,18 @@
             "uniquenessgroup": "uqsaliba"
         },
         {
-            "id": "saliba_b",
-            "label": "Saliba, a believer",
+            "id": "saliba_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Saliba, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "grail": 2,
                 "follower_lustsensation": 1
             },
             "description": "Saliba understands blood. He does not yet understand birth.",
             "xtriggers": {
-                "promotiontodisciple": "saliba_c",
+                "freeze": "saliba_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "saliba_p",
@@ -1213,11 +1228,11 @@
             "uniquenessgroup": "uqsaliba"
         },
         {
-            "id": "slee_a",
-            "label": "Slee, an acquaintance",
+            "id": "slee_frozen",
+            "label": "Frozen Slee",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustenlightenment": 1
             },
             "description": "Craig Slee, the astronomer and avant-garde poet, has developed an interest in the esoteric as his health wanes. [You might be able to recruit this acquaintance as a follower.]",
@@ -1229,17 +1244,18 @@
             "uniquenessgroup": "uqslee"
         },
         {
-            "id": "slee_b",
-            "label": "Slee, a believer",
+            "id": "slee_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Slee, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "lantern": 2,
                 "follower_lustenlightenment": 1
             },
             "description": "Slee speaks earnestly of his theories to all who will listen: the stars as tiny wounds, and the Sun as a haemorrhage of glory. His poetry is more eccentric than ever.",
             "xtriggers": {
-                "promotiontodisciple": "slee_c",
+                "freeze": "slee_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "slee_p",
@@ -1332,11 +1348,11 @@
             "icon": "spencer_r"
         },
         {
-            "id": "sylvia_a",
-            "label": "Sylvia, an acquaintance",
+            "id": "sylvia_frozen",
+            "label": "Frozen Sylvia",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustchange": 1
             },
             "description": "Sylvia lost her eye in the woods when she was nine years old. Every year, at Candlemas, she returns to the place she buried it. [You might be able to recruit this acquaintance as a follower.]",
@@ -1348,17 +1364,18 @@
             "uniquenessgroup": "uqsylvia"
         },
         {
-            "id": "sylvia_b",
-            "label": "Sylvia, a believer",
+            "id": "sylvia_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Sylvia, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "moth": 2,
                 "follower_lustchange": 1
             },
             "description": "Sylvia has a detailed knowledge of roof-ridges, of the river at low tide, of Irish whiskey, and of conjuring tricks.",
             "xtriggers": {
-                "promotiontodisciple": "sylvia_c",
+                "freeze": "sylvia_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "sylvia_p",
@@ -1408,11 +1425,11 @@
             "uniquenessgroup": "uqsylvia"
         },
         {
-            "id": "tristan_a",
-            "label": "Tristan, an acquaintance",
+            "id": "tristan_frozen",
+            "label": "Frozen Tristan",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustpower": 1
             },
             "description": "Tristan dislikes distractions. Tristan gets things done. [You might be able to recruit this acquaintance as a follower.]",
@@ -1424,17 +1441,18 @@
             "uniquenessgroup": "uqtristan"
         },
         {
-            "id": "tristan_b",
-            "label": "Tristan, a believer",
+            "id": "tristan_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Tristan, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "forge": 2,
                 "follower_lustpower": 1
             },
             "description": "Tristan dislikes distractions; Tristan likes results.",
             "xtriggers": {
-                "promotiontodisciple": "tristan_c",
+                "freeze": "tristan_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "tristan_p",
@@ -1484,11 +1502,11 @@
             "uniquenessgroup": "uqtristan"
         },
         {
-            "id": "valciane_a",
-            "label": "Valciane, an acquaintance",
+            "id": "valciane_frozen",
+            "label": "Frozen Valciane",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustpower": 1
             },
             "description": "Valciane has operated her establishment for almost twenty years. She has never employed an assistant. Her hands are terribly strong. [You might be able to recruit this acquaintance as a follower.]",
@@ -1500,17 +1518,18 @@
             "uniquenessgroup": "uqvalciane"
         },
         {
-            "id": "valciane_b",
-            "label": "Valciane, a believer",
+            "id": "valciane_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Valciane, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "forge": 2,
                 "follower_lustpower": 1
             },
             "description": "Valciane's ingenuities are endless, and her grip is stronger than a blacksmith's.",
             "xtriggers": {
-                "promotiontodisciple": "valciane_c",
+                "freeze": "valciane_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "valciane_p",
@@ -1560,11 +1579,11 @@
             "uniquenessgroup": "uqvalciane"
         },
         {
-            "id": "victor_a",
-            "label": "Victor, an acquaintance",
+            "id": "victor_frozen",
+            "label": "Frozen Victor",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustsensation": 1
             },
             "description": "Victor is a sly fellow, and he knows an unusual opportunity when he sees it. [You might be able to recruit this acquaintance as a follower.]",
@@ -1576,17 +1595,18 @@
             "uniquenessgroup": "uqvictor"
         },
         {
-            "id": "victor_b",
-            "label": "Victor, a believer",
+            "id": "victor_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Victor, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "edge": 2,
                 "follower_lustsensation": 1
             },
             "description": "Victor is a sly fellow, but loyal.",
             "xtriggers": {
-                "promotiontodisciple": "victor_c",
+                "freeze": "victor_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "victor_p",
@@ -1636,11 +1656,11 @@
             "uniquenessgroup": "uqvictor"
         },
         {
-            "id": "violet_a",
-            "label": "Violet, an acquaintance",
+            "id": "violet_frozen",
+            "label": "Frozen Violet",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustsensation": 1
             },
             "description": "Violet has always given unstintingly of her time, easing the pain of the dying. [You might be able to recruit this acquaintance as a follower.]",
@@ -1652,17 +1672,18 @@
             "uniquenessgroup": "uqviolet"
         },
         {
-            "id": "violet_b",
-            "label": "Violet, a believer",
+            "id": "violet_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Violet, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "winter": 2,
                 "follower_lustsensation": 1
             },
             "description": "Violet likes to paint. She has a gift, although she's always been very modest about it. She never puts human figures in her paintings. There are enough people in the world.",
             "xtriggers": {
-                "promotiontodisciple": "violet_c",
+                "freeze": "violet_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "violet_p",
@@ -1712,11 +1733,11 @@
             "uniquenessgroup": "uqviolet"
         },
         {
-            "id": "ysabet_a",
-            "label": "Ysabet, an acquaintance",
+            "id": "ysabet_frozen",
+            "label": "Frozen Ysabet",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "frozen": 1,
+                "portable": 1,
                 "follower_lustchange": 1
             },
             "description": "Ysabet has always been most comfortable by moonlight. She has excellent night vision. She is often overlooked in daylight. [You might be able to recruit this acquaintance as a follower.]",
@@ -1728,17 +1749,18 @@
             "uniquenessgroup": "uqysabet"
         },
         {
-            "id": "ysabet_b",
-            "label": "Ysabet, a believer",
+            "id": "ysabet_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Ysabet, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "not_quite_dead": 1,
                 "moth": 2,
                 "follower_lustchange": 1
             },
             "description": "Ysabet sleeps in fits and starts. She rises at dusk to do the things an Ysabet does.",
             "xtriggers": {
-                "promotiontodisciple": "ysabet_c",
+                "freeze": "ysabet_frozen",
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "capturefollower": "ysabet_p",
@@ -2263,11 +2285,11 @@
             "uniquenessgroup": "uqysabet"
         },
         {
-            "id": "generic_a",
-            "label": "A Hanger-On",
+            "id": "generic_frozen",
+            "label": "Frozen A Hanger-On",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1
+                "frozen": 1,
+                "portable": 1
             },
             "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
             "comments": "legacy element to keep saves valid",
@@ -2400,320 +2422,18 @@
             }
         },
         {
-            "id": "generic_b",
-            "label": "A Pawn",
+            "id": "generic_corpse",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead A Pawn",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "edge": 1
+                "not_quite_dead": 1
             },
             "description": "This one is loyal, but lacks initiative.",
             "comments": "This is a legacy element to support older saves.",
             "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p",
-                "promotiontodisciple": "generic_c_knock"
+                "freeze": "generic_frozen"
             }
-        },
-        {
-            "id": "generic_b_edge",
-            "label": "A Pawn",
-            "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "edge": 1
-            },
-            "description": "This one is loyal, but lacks initiative.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p",
-                "promotiontodisciple": "generic_c_edge"
-            }
-        },
-        {
-            "id": "generic_b_forge",
-            "label": "A Pawn",
-            "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "edge": 1
-            },
-            "description": "This one is loyal, but lacks initiative.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p",
-                "promotiontodisciple": "generic_c_forge"
-            }
-        },
-        {
-            "id": "generic_b_grail",
-            "label": "A Pawn",
-            "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "edge": 1
-            },
-            "description": "This one is loyal, but lacks initiative.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p",
-                "promotiontodisciple": "generic_c_grail"
-            }
-        },
-        {
-            "id": "generic_b_heart",
-            "label": "A Pawn",
-            "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "edge": 1
-            },
-            "description": "This one is loyal, but lacks initiative.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p",
-                "promotiontodisciple": "generic_c_heart"
-            }
-        },
-        {
-            "id": "generic_b_knock",
-            "label": "A Pawn",
-            "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "edge": 1
-            },
-            "description": "This one is loyal, but lacks initiative.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p",
-                "promotiontodisciple": "generic_c_knock"
-            }
-        },
-        {
-            "id": "generic_b_lantern",
-            "label": "A Pawn",
-            "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "edge": 1
-            },
-            "description": "This one is loyal, but lacks initiative.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p",
-                "promotiontodisciple": "generic_c_lantern"
-            }
-        },
-        {
-            "id": "generic_b_moth",
-            "label": "A Pawn",
-            "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "edge": 1
-            },
-            "description": "This one is loyal, but lacks initiative.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p",
-                "promotiontodisciple": "generic_c_moth"
-            }
-        },
-        {
-            "id": "generic_b_winter",
-            "label": "A Pawn",
-            "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "edge": 1
-            },
-            "description": "This one is loyal, but lacks initiative.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p",
-                "promotiontodisciple": "generic_c_winter"
-            }
-        },
-        {
-            "id": "generic_c_edge",
-            "label": "A Sturdy Disciple",
-            "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "edge": 2
-            },
-            "description": "Loyalty, and muscles.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p"
-            }
-        },
-        {
-            "id": "generic_c_forge",
-            "label": "A Practical Disciple",
-            "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "edge": 1,
-                "forge": 2
-            },
-            "description": "Loyal, and good with their hands.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p"
-            }
-        },
-        {
-            "id": "generic_c_grail",
-            "label": "An Avid Disciple",
-            "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "edge": 1,
-                "grail": 2
-            },
-            "description": "Loyal, but greedy.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p"
-            }
-        },
-        {
-            "id": "generic_c_heart",
-            "label": "A Lively Disciple ",
-            "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "edge": 1,
-                "heart": 2
-            },
-            "description": "Loyal, and always ready with a song.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p"
-            }
-        },
-        {
-            "id": "generic_c_knock",
-            "label": "A Dextrous Disciple ",
-            "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "edge": 1,
-                "knock": 2
-            },
-            "description": "Loyal, and clever with locks.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p"
-            }
-        },
-        {
-            "id": "generic_c_lantern",
-            "label": "A Percipient Disciple",
-            "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "edge": 1,
-                "lantern": 2
-            },
-            "description": "Loyal, and keen-sighted.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p"
-            }
-        },
-        {
-            "id": "generic_c_moth",
-            "label": "An Erratic Disciple",
-            "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "edge": 1,
-                "moth": 2
-            },
-            "description": "Loyal, if peculiar; peculiar even for one of our kind.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p"
-            },
-            "lifetime": 600,
-            "decayTo": "lunatic"
-        },
-        {
-            "id": "generic_c_winter",
-            "label": "A Silent Disciple",
-            "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "edge": 1,
-                "winter": 2
-            },
-            "description": "Loyal, and quiet as falling snow.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r",
-                "capturefollower": "generic_p"
-            }
-        },
-        {
-            "id": "generic_p",
-            "label": "A Follower Betrayed",
-            "aspects": {
-                "mortal": 1,
-                "prisoner": 1,
-                "lantern": 3,
-                "grail": 3,
-                "heart": 3
-            },
-            "description": "This one rails weakly against their fate.",
-            "xtriggers": {
-                "killmortal": "corpse",
-                "derangemortal": "lunatic"
-            }
-  
         }
     ]
 }

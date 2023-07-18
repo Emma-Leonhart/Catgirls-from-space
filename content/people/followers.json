@@ -2377,7 +2377,7 @@
             },
             "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p",
@@ -2410,7 +2410,7 @@
             "description": "This one is loyal, but lacks initiative.",
             "comments": "This is a legacy element to support older saves.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p",
@@ -2427,7 +2427,7 @@
             },
             "description": "This one is loyal, but lacks initiative.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p",
@@ -2444,7 +2444,7 @@
             },
             "description": "This one is loyal, but lacks initiative.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p",
@@ -2461,7 +2461,7 @@
             },
             "description": "This one is loyal, but lacks initiative.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p",
@@ -2478,7 +2478,7 @@
             },
             "description": "This one is loyal, but lacks initiative.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p",
@@ -2495,7 +2495,7 @@
             },
             "description": "This one is loyal, but lacks initiative.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p",
@@ -2512,7 +2512,7 @@
             },
             "description": "This one is loyal, but lacks initiative.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p",
@@ -2529,7 +2529,7 @@
             },
             "description": "This one is loyal, but lacks initiative.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p",
@@ -2546,7 +2546,7 @@
             },
             "description": "This one is loyal, but lacks initiative.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p",
@@ -2564,7 +2564,7 @@
             },
             "description": "Loyalty, and muscles.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p"
@@ -2582,7 +2582,7 @@
             },
             "description": "Loyal, and good with their hands.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p"
@@ -2600,7 +2600,7 @@
             },
             "description": "Loyal, but greedy.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p"
@@ -2618,7 +2618,7 @@
             },
             "description": "Loyal, and always ready with a song.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p"
@@ -2636,7 +2636,7 @@
             },
             "description": "Loyal, and clever with locks.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p"
@@ -2654,7 +2654,7 @@
             },
             "description": "Loyal, and keen-sighted.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p"
@@ -2672,7 +2672,7 @@
             },
             "description": "Loyal, if peculiar; peculiar even for one of our kind.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p"
@@ -2692,7 +2692,7 @@
             },
             "description": "Loyal, and quiet as falling snow.",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p"

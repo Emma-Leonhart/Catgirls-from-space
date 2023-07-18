@@ -152,6 +152,24 @@
                         "isAspect": true
                     },
                     {
+                        "id": "not_quite_dead",
+                        "label": "Not quite dead",
+                        "description": "Can be frozen but will otherwise die. [Work using Winter and Moth lore with your HQ to start a cryonics facility.]",
+                        "isAspect": true
+                    },
+                    {
+                        "id": "frozen",
+                        "label": "Frozen",
+                        "description": "Someday they will wake up again.",
+                        "isAspect": true
+                    },
+                    {
+                        "id": "facility",
+                        "label": "Facility",
+                        "description": "A facility of our HQ. Can be moved",
+                        "isAspect": true
+                    },
+                    {
                         "id": "ascensionmaninblack_aspect",
                         "label": "Man in Black Ascension",
                         "description": "Alien, and not in a good way.",

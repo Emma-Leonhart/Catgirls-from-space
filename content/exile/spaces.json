@@ -68,6 +68,15 @@
                     "forbidden": {
                         "summoned": 1
                     }
+                },
+                {
+                    "id": "lore",
+                    "label": "Lore",
+                    "description": "Use lore to set up facilities. Moth or Winter makes cryonics facility.",
+                    "actionid": "work",
+                    "required": {
+                        "lore": 1
+                    }
                 }
             ],
             "xtriggers": {
@@ -96,6 +105,15 @@
                     },
                     "forbidden": {
                         "summoned": 1
+                    }
+                },
+                {
+                    "id": "lore",
+                    "label": "Lore",
+                    "description": "Use lore to set up facilities. Moth or Winter makes cryonics facility.",
+                    "actionid": "work",
+                    "required": {
+                        "lore": 1
                     }
                 },
                 {
@@ -137,6 +155,15 @@
                     }
                 },
                 {
+                    "id": "lore",
+                    "label": "Lore",
+                    "description": "Use lore to set up facilities. Moth or Winter makes cryonics facility.",
+                    "actionid": "work",
+                    "required": {
+                        "lore": 1
+                    }
+                },
+                {
                     "id": "funds",
                     "label": "Funds",
                     "description": "Place Funds in here to raise Lantern-influence.",
@@ -172,6 +199,15 @@
                     },
                     "forbidden": {
                         "summoned": 1
+                    }
+                },
+                {
+                    "id": "lore",
+                    "label": "Lore",
+                    "description": "Use lore to set up facilities. Moth or Winter makes cryonics facility.",
+                    "actionid": "work",
+                    "required": {
+                        "lore": 1
                     }
                 },
                 {
@@ -212,6 +248,15 @@
                     }
                 },
                 {
+                    "id": "lore",
+                    "label": "Lore",
+                    "description": "Use lore to set up facilities. Moth or Winter makes cryonics facility.",
+                    "actionid": "work",
+                    "required": {
+                        "lore": 1
+                    }
+                },
+                {
                     "id": "funds",
                     "label": "Funds",
                     "description": "Place Funds in here to raise Heart-influence.",
@@ -247,6 +292,15 @@
                     },
                     "forbidden": {
                         "summoned": 1
+                    }
+                },
+                {
+                    "id": "lore",
+                    "label": "Lore",
+                    "description": "Use lore to set up facilities. Moth or Winter makes cryonics facility.",
+                    "actionid": "work",
+                    "required": {
+                        "lore": 1
                     }
                 },
                 {
@@ -451,6 +505,15 @@
                     }
                 },
                 {
+                    "id": "lore",
+                    "label": "Lore",
+                    "description": "Use lore to set up facilities. Moth or Winter makes cryonics facility.",
+                    "actionid": "work",
+                    "required": {
+                        "lore": 1
+                    }
+                },
+                {
                     "id": "funds",
                     "label": "Funds",
                     "description": "Place Funds in here to raise Grail-influence.",
@@ -491,6 +554,15 @@
                     },
                     "forbidden": {
                         "summoned": 1
+                    }
+                },
+                {
+                    "id": "lore",
+                    "label": "Lore",
+                    "description": "Use lore to set up facilities. Moth or Winter makes cryonics facility.",
+                    "actionid": "work",
+                    "required": {
+                        "lore": 1
                     }
                 },
                 {
@@ -593,6 +665,15 @@
                     }
                 },
                 {
+                    "id": "lore",
+                    "label": "Lore",
+                    "description": "Use lore to set up facilities. Moth or Winter makes cryonics facility.",
+                    "actionid": "work",
+                    "required": {
+                        "lore": 1
+                    }
+                },
+                {
                     "id": "funds",
                     "label": "Funds",
                     "description": "Place Funds in here to raise Grail-influence.",
@@ -668,6 +749,15 @@
                     },
                     "forbidden": {
                         "summoned": 1
+                    }
+                },
+                {
+                    "id": "lore",
+                    "label": "Lore",
+                    "description": "Use lore to set up facilities. Moth or Winter makes cryonics facility.",
+                    "actionid": "work",
+                    "required": {
+                        "lore": 1
                     }
                 },
                 {
