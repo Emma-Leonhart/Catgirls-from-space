@@ -1,0 +1,13 @@
+{
+    "elements":[
+        {
+            "id": "last_player_cryonics",
+            "description": "Our leader #PREVIOUSCHARACTERNAME#. Someday I will revive them.",
+            "label": "#PREVIOUSCHARACTERNAME# Frozen",
+            "aspects": {
+                "legacyplotitem": 1,
+                "frozen": 1
+            }
+        }
+    ]
+}

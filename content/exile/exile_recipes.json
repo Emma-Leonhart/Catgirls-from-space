@@ -864,84 +864,6 @@
             "craftable": true
         },
         {
-            "id": "travel.visit.shrine.consecration.colonel",
-            "actionid": "travel",
-            "label": "A Consecration to the Colonel",
-            "startdescription": "I could dedicate myself to the Colonel. [This will harm you and limit your dealings with the Lionsmith, but increase Defiance and open the Colonel's mysteries.]",
-            "description": "I have masked my eyes and scarred my skin. I have bound myself with the Nine Patient Oaths. I am a soldier of the Colonel, who will not release me.",
-            "requirements": {
-                "shrine.colonel": 1,
-                "temptation.defiance": 1,
-                "defiance.consecration.lionsmith": -1,
-                "defiance.consecration.colonel": -1
-            },
-            "extantreqs": {
-                "tranquillity": -1
-            },
-            "mutations": [
-                {
-                    "filter": "temptation.defiance",
-                    "mutate": "defiancemarks",
-                    "level": 1,
-                    "additive": true
-                },
-                {
-                    "filter": "temptation.defiance",
-                    "mutate": "defiance.consecration.colonel",
-                    "level": 1
-                }
-            ],
-            "effects": {
-                "location": -1
-            },
-            "burnimage": "consecration.colonel",
-            "warmup": 60,
-            "craftable": true,
-            "alt":[
-                {
-                    "id": "exile_inflict_wound",
-                    "chance": 100,
-                    "additional": true
-                }
-            ]
-        },
-        {
-            "id": "travel.visit.shrine.consecration.lionsmith",
-            "actionid": "travel",
-            "label": "A Consecration to the Lionsmith",
-            "startdescription": "I could dedicate myself to the Lionsmith. [This will enrage you and limit your dealings with the Colonel, but increase Defiance, and open the Lionsmith's mysteries.]",
-            "description": "I have spilt the beast's blood and scorched my skin. I have undergone the Three Valorous Trials. I am a warrior of the Lionsmith, unless some day he releases me.",
-            "requirements": {
-                "shrine.lionsmith": 1,
-                "temptation.defiance": 1,
-                "defiance.consecration.lionsmith": -1,
-                "defiance.consecration.colonel": -1
-            },
-            "extantreqs": {
-                "tranquillity": -1
-            },
-            "mutations": [
-                {
-                    "filter": "temptation.defiance",
-                    "mutate": "defiancemarks",
-                    "level": 1,
-                    "additive": true
-                },
-                {
-                    "filter": "temptation.defiance",
-                    "mutate": "defiance.consecration.lionsmith",
-                    "level": 1
-                }
-            ],
-            "effects": {
-                "location": -1,
-                "rage": 1
-            },
-            "burnimage": "consecration.lionsmith",
-            "warmup": 60,
-            "craftable": true
-        },
-        {
             "id": "travel.visit.shrine.colonel.abandonobscurity",
             "actionid": "travel",
             "label": "The Unflinching Vow",
@@ -952,7 +874,7 @@
                 "temptation.obscurity": 1
             },
             "extantreqs": {
-                "temptation.defiance": 1,
+                "catgirl_dedication_3": 1,
                 "defiance.consecration.colonel": 1,
                 "tranquillity": -1
             },
@@ -961,7 +883,7 @@
                     "id": "defiance",
                     "label": "Defiance",
                     "required": {
-                        "temptation.defiance": 1
+                        "catgirl_dedication_3": 1
                     },
                     "greedy": true
                 }
@@ -999,7 +921,7 @@
                 "temptation.obscurity": 1
             },
             "extantreqs": {
-                "temptation.defiance": 1,
+                "catgirl_dedication_3": 1,
                 "defiance.consecration.lionsmith": 1,
                 "tranquillity": -1
             },
@@ -1008,7 +930,7 @@
                     "id": "defiance",
                     "label": "Defiance",
                     "required": {
-                        "temptation.defiance": 1
+                        "catgirl_dedication_3": 1
                     },
                     "greedy": true
                 }
