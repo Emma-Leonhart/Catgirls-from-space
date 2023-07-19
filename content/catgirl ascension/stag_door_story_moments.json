@@ -296,7 +296,7 @@
         "mutations": [
             {
                 "filter": "catgirl_dedication_3",
-                "mutate": "defiance.underlingdefeated",
+                "mutate": "cryonics_ascended",
                 "level": 1
             },
             {
