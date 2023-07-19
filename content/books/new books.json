@@ -751,6 +751,21 @@
             }
         },
         {
+            "id": "textbooksanskrit",
+            "label": "Black Swan",
+            "aspects": {
+                "text": 1,
+                "portable": 1,
+                "auctionable": 1,
+                "worth": 1
+            },
+            "description": "Proposing a major shift in the way we perceive the world and make predictions, 'The Black Swan' by Nassim Nicholas Taleb challenges conventional wisdom and navigates the realms of uncertainty and randomness. Taleb introduces the concept of a 'Black Swan', an unexpected event that has significant and often drastic impact, but which is rationalized in hindsight as if it could have been expected. This influential work pushes readers to confront the limitations of our knowledge, urging us to adapt and thrive amidst the unpredictable fluctuations and anomalies of life.",
+            "xtriggers": {
+                "book_to_lore": "fragmentedgec"
+            },
+            "comments": "this is the default book given to the bright young thing. Cannot be the sanskrit book since we do not use foreign languages in this mod"
+        },
+        {
             "id": "bookedgec",
             "unique": true,
             "label": "A Book of Five Rings: The Classic Guide to Strategy",

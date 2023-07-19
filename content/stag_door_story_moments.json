@@ -213,7 +213,7 @@
         "label": "The Immortal catgirl wants more",
         "startdescription": "The Immortal Catgirl wants more",
         "description": "The Immortal Catgirl wants more",
-        "requirements": {"ascensionlesson_polycule": 1},
+        "requirements": {"ascensionlesson_polycule": 1}, 
         "warmup": 60,
         "mutations": [
             {

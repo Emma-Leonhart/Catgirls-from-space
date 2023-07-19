@@ -64,16 +64,6 @@
             "unique": true
         },
         {
-            "id": "textbooksanskrit",
-            "label": "Gartside's Sanskrit Reader",
-            "aspects": {
-                "text": 1,
-                "portable": 1,
-                "auctionable": 1
-            },
-            "description": "A lucid book which outlines a careful path through the thickets of a vast and complex language."
-        },
-        {
             "id": "textbookvak",
             "label": "The Uyrus",
             "aspects": {
