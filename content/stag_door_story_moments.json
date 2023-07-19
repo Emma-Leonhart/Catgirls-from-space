@@ -135,7 +135,7 @@
         "requirements":{
             "powermarks": 3,
             "enlightenmentmarks": 3,
-            "sensationmarks": 3 
+            "sensationmarks": 3
         },
         "linked":[
             {
@@ -213,8 +213,8 @@
         "label": "The Immortal catgirl wants more",
         "startdescription": "The Immortal Catgirl wants more",
         "description": "The Immortal Catgirl wants more",
-        "requirements": "ascensionlesson_polycule",
         "warmup": 300
+        }
     },
     {
         "id": "catgirl_begin",
