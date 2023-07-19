@@ -61,7 +61,7 @@
   {
     "id": "lastfrozen",
     "onGameEnd": false,
-    "weights": { "tool": 1 }, 
+    "weights": { "frozen": 1 }, 
     "requiredScore": 1,
   }
 
