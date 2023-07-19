@@ -39,7 +39,7 @@
         },
         {
             "id": "auclair_lunatic",
-            "label": "Auclair, a disciple",
+            "label": "Auclair, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -117,7 +117,7 @@
         },
         {
             "id": "cat_lunatic",
-            "label": "Cat Caro, a disciple",
+            "label": "Cat Caro, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -194,7 +194,7 @@
         },
         {
             "id": "clifton_lunatic",
-            "label": "'Pope' Clifton, a disciple",
+            "label": "'Pope' Clifton, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -271,7 +271,7 @@
         },
         {
             "id": "clovette_lunatic",
-            "label": "Clovette, a disciple",
+            "label": "Clovette, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -312,7 +312,7 @@
         },
         {
             "id": "connie_lunatic",
-            "label": "Connie, a disciple",
+            "label": "Connie, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -391,7 +391,7 @@
         },
         {
             "id": "dorothy_lunatic",
-            "label": "Dorothy, a disciple",
+            "label": "Dorothy, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -452,7 +452,7 @@
         },
         {
             "id": "douglas_lunatic",
-            "label": "Douglas, a disciple",
+            "label": "Douglas, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -529,7 +529,7 @@
         },
         {
             "id": "elridge_lunatic",
-            "label": "Elridge, a disciple",
+            "label": "Elridge, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -606,7 +606,7 @@
         },
         {
             "id": "enid_lunatic",
-            "label": "Enid, a disciple",
+            "label": "Enid, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -683,7 +683,7 @@
         },
         {
             "id": "laidlaw_lunatic",
-            "label": "Laidlaw, a disciple",
+            "label": "Laidlaw, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -760,7 +760,7 @@
         },
         {
             "id": "leo_lunatic",
-            "label": "Leo, a disciple",
+            "label": "Leo, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -801,7 +801,7 @@
         },
         {
             "id": "natalia_lunatic",
-            "label": "Natalia, a disciple",
+            "label": "Natalia, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -880,7 +880,7 @@
         },
         {
             "id": "neville_lunatic",
-            "label": "Neville, a disciple",
+            "label": "Neville, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -957,7 +957,7 @@
         },
         {
             "id": "porter_lunatic",
-            "label": "Porter, a disciple",
+            "label": "Porter, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1034,7 +1034,7 @@
         },
         {
             "id": "renira_lunatic",
-            "label": "Renira, a disciple",
+            "label": "Renira, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1111,7 +1111,7 @@
         },
         {
             "id": "rose_lunatic",
-            "label": "Rose, a disciple",
+            "label": "Rose, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1188,7 +1188,7 @@
         },
         {
             "id": "saliba_lunatic",
-            "label": "Saliba, a disciple",
+            "label": "Saliba, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1265,7 +1265,7 @@
         },
         {
             "id": "slee_lunatic",
-            "label": "Slee, a disciple",
+            "label": "Slee, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1306,7 +1306,7 @@
         },
         {
             "id": "spencer_lunatic",
-            "label": "Spencer, a disciple",
+            "label": "Spencer, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1385,7 +1385,7 @@
         },
         {
             "id": "sylvia_lunatic",
-            "label": "Sylvia, a disciple",
+            "label": "Sylvia, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1462,7 +1462,7 @@
         },
         {
             "id": "tristan_lunatic",
-            "label": "Tristan, a disciple",
+            "label": "Tristan, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1539,7 +1539,7 @@
         },
         {
             "id": "valciane_lunatic",
-            "label": "Valciane, a disciple",
+            "label": "Valciane, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1616,7 +1616,7 @@
         },
         {
             "id": "victor_lunatic",
-            "label": "Victor, a disciple",
+            "label": "Victor, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1693,7 +1693,7 @@
         },
         {
             "id": "violet_lunatic",
-            "label": "Violet, a disciple",
+            "label": "Violet, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1770,7 +1770,7 @@
         },
         {
             "id": "ysabet_lunatic",
-            "label": "Ysabet, a disciple",
+            "label": "Ysabet, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1811,7 +1811,7 @@
         },
         {
             "id": "zachary_lunatic",
-            "label": "Zachary, a disciple",
+            "label": "Zachary, a lunatic",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
