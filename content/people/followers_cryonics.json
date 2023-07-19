@@ -38,7 +38,7 @@
             "uniquenessgroup": "uqauclair"
         },
         {
-            "id": "auclair_deprecated",
+            "id": "auclair_lunatic",
             "label": "Auclair, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -116,7 +116,7 @@
             "uniquenessgroup": "uqcat"
         },
         {
-            "id": "cat_deprecated",
+            "id": "cat_lunatic",
             "label": "Cat Caro, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -193,7 +193,7 @@
             "uniquenessgroup": "uqclifton"
         },
         {
-            "id": "clifton_deprecated",
+            "id": "clifton_lunatic",
             "label": "'Pope' Clifton, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -270,7 +270,7 @@
             "uniquenessgroup": "uqclovette"
         },
         {
-            "id": "clovette_deprecated",
+            "id": "clovette_lunatic",
             "label": "Clovette, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -311,7 +311,7 @@
             "uniquenessgroup": "uqclovette"
         },
         {
-            "id": "connie_deprecated",
+            "id": "connie_lunatic",
             "label": "Connie, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -390,7 +390,7 @@
             "uniquenessgroup": "uqdorothy"
         },
         {
-            "id": "dorothy_deprecated",
+            "id": "dorothy_lunatic",
             "label": "Dorothy, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -451,7 +451,7 @@
             "icon": "douglas_r"
         },
         {
-            "id": "douglas_deprecated",
+            "id": "douglas_lunatic",
             "label": "Douglas, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -528,7 +528,7 @@
             "uniquenessgroup": "uqelridge"
         },
         {
-            "id": "elridge_deprecated",
+            "id": "elridge_lunatic",
             "label": "Elridge, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -605,7 +605,7 @@
             "uniquenessgroup": "uqenid"
         },
         {
-            "id": "enid_deprecated",
+            "id": "enid_lunatic",
             "label": "Enid, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -682,7 +682,7 @@
             "uniquenessgroup": "uqlaidlaw"
         },
         {
-            "id": "laidlaw_deprecated",
+            "id": "laidlaw_lunatic",
             "label": "Laidlaw, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -759,7 +759,7 @@
             "uniquenessgroup": "uqleo"
         },
         {
-            "id": "leo_deprecated",
+            "id": "leo_lunatic",
             "label": "Leo, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -800,7 +800,7 @@
             "uniquenessgroup": "uqleo"
         },
         {
-            "id": "natalia_deprecated",
+            "id": "natalia_lunatic",
             "label": "Natalia, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -879,7 +879,7 @@
             "uniquenessgroup": "uqneville"
         },
         {
-            "id": "neville_deprecated",
+            "id": "neville_lunatic",
             "label": "Neville, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -956,7 +956,7 @@
             "uniquenessgroup": "uqporter"
         },
         {
-            "id": "porter_deprecated",
+            "id": "porter_lunatic",
             "label": "Porter, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1033,7 +1033,7 @@
             "uniquenessgroup": "uqrenira"
         },
         {
-            "id": "renira_deprecated",
+            "id": "renira_lunatic",
             "label": "Renira, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1110,7 +1110,7 @@
             "uniquenessgroup": "uqrose"
         },
         {
-            "id": "rose_deprecated",
+            "id": "rose_lunatic",
             "label": "Rose, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1187,7 +1187,7 @@
             "uniquenessgroup": "uqsaliba"
         },
         {
-            "id": "saliba_deprecated",
+            "id": "saliba_lunatic",
             "label": "Saliba, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1264,7 +1264,7 @@
             "uniquenessgroup": "uqslee"
         },
         {
-            "id": "slee_deprecated",
+            "id": "slee_lunatic",
             "label": "Slee, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1305,7 +1305,7 @@
             "uniquenessgroup": "uqslee"
         },
         {
-            "id": "spencer_deprecated",
+            "id": "spencer_lunatic",
             "label": "Spencer, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1384,7 +1384,7 @@
             "uniquenessgroup": "uqsylvia"
         },
         {
-            "id": "sylvia_deprecated",
+            "id": "sylvia_lunatic",
             "label": "Sylvia, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1461,7 +1461,7 @@
             "uniquenessgroup": "uqtristan"
         },
         {
-            "id": "tristan_deprecated",
+            "id": "tristan_lunatic",
             "label": "Tristan, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1538,7 +1538,7 @@
             "uniquenessgroup": "uqvalciane"
         },
         {
-            "id": "valciane_deprecated",
+            "id": "valciane_lunatic",
             "label": "Valciane, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1615,7 +1615,7 @@
             "uniquenessgroup": "uqvictor"
         },
         {
-            "id": "victor_deprecated",
+            "id": "victor_lunatic",
             "label": "Victor, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1692,7 +1692,7 @@
             "uniquenessgroup": "uqviolet"
         },
         {
-            "id": "violet_deprecated",
+            "id": "violet_lunatic",
             "label": "Violet, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1769,7 +1769,7 @@
             "uniquenessgroup": "uqysabet"
         },
         {
-            "id": "ysabet_deprecated",
+            "id": "ysabet_lunatic",
             "label": "Ysabet, a disciple",
             "aspects": {
                 "mortal": 1,
@@ -1810,7 +1810,7 @@
             "uniquenessgroup": "uqysabet"
         },
         {
-            "id": "zachary_deprecated",
+            "id": "zachary_lunatic",
             "label": "Zachary, a disciple",
             "aspects": {
                 "mortal": 1,
