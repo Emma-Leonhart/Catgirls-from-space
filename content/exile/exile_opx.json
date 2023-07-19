@@ -1913,7 +1913,7 @@
                     "additive": true
                 },
                 {
-                    "filter": "temptation.defiance",
+                    "filter": "catgirl_dedication_3",
                     "mutate": "defiance.uprising",
                     "level": 1,
                     "additive": false

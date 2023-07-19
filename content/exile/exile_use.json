@@ -1078,6 +1078,9 @@
             "alt": [
                 {
                     "id": "use.find.nameless"
+                },
+                {
+                    "id": "use.find.cats"
                 }
             ],
             "aspects": {
@@ -1085,6 +1088,16 @@
             },
             "warmup": 30,
             "craftable": true
+        },
+        {
+            "id": "use.find.cats",
+            "actionid": "work",
+            "description": "Praise cat",
+            "label": "I was given a blessing by the cats",
+            "warmup": 60,
+            "effects":{
+                "ascensionlesson_pet_cats": 1
+            }
         },
         {
             "id": "use.renew.op.horned.candia",

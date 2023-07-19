@@ -59,6 +59,12 @@
             "id": "catgirl_lesson",
             "label": "A lesson in being a catgirl",
             "isAspect": true
+        },
+        {
+            "id": "infinite_love",
+            "label": "Experienced infinite love in a polycule.",
+            "isAspect": true,
+            "icon": "remembrancemarks"
         }
     ]
 }
