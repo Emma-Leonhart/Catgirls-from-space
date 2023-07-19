@@ -1,0 +1,21 @@
+{
+    "recipes":[
+        {
+            "id": "studytextbooksanskrit",
+            "label": "Improve my Sanskrit",
+            "actionid": "study",
+            "requirements": {
+                "textbooksanskrit": 1
+            },
+            "effects": {
+                "textbooksanskrit": -1,
+                "scholarsanskrit": 1
+            },
+            "startdescription": "The name has been translated as 'the refined language'.",
+            "description": "So many words, such little time. I will keep my reference works close at hand.",
+            "warmup": 60,
+            "craftable": false,
+            "$priority": 500
+        }
+    ]
+}
