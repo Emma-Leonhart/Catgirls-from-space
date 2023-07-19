@@ -986,6 +986,76 @@
             },
             "craftable": false,
             "linked": { "id": "make.video.rank.g"}
+        },
+        {
+            "id": "make.video.rank.a",
+            "actionid": "surf",
+            "label": "Make a video",
+            "deprecated_requirements": {
+                "fragmenthand": 1
+            },
+            "craftable": false,
+            "unlinked": { "id": "make.video.rank.a"}
+        },
+        {
+            "id": "make.video.rank.b",
+            "actionid": "surf",
+            "label": "Make a video",
+            "deprecated_requirements": {
+                "fragmenthandb": 1
+            },
+            "craftable": false,
+            "unlinked": { "id": "make.video.rank.b"}
+        },
+        {
+            "id": "make.video.rank.c",
+            "actionid": "surf",
+            "label": "Make a video",
+            "deprecated_requirements": {
+                "fragmenthandc": 1
+            },
+            "craftable": false,
+            "unlinked": { "id": "make.video.rank.c"}
+        },
+        {
+            "id": "make.video.rank.d",
+            "actionid": "surf",
+            "label": "Make a video",
+            "deprecated_requirements": {
+                "fragmenthandd": 1
+            },
+            "craftable": false,
+            "unlinked": { "id": "make.video.rank.d"}
+        },
+        {
+            "id": "make.video.rank.e",
+            "actionid": "surf",
+            "label": "Make a video",
+            "deprecated_requirements": {
+                "fragmenthande": 1
+            },
+            "craftable": false,
+            "unlinked": { "id": "make.video.rank.e"}
+        },
+        {
+            "id": "make.video.rank.f",
+            "actionid": "surf",
+            "label": "Make a video",
+            "deprecated_requirements": {
+                "fragmenthandf": 1
+            },
+            "craftable": false,
+            "unlinked": { "id": "make.video.rank.f"}
+        },
+        {
+            "id": "make.video.rank.g",
+            "actionid": "surf",
+            "label": "Make a video",
+            "deprecated_requirements": {
+                "fragmenthandg": 1
+            },
+            "craftable": false,
+            "unlinked": { "id": "make.video.rank.g"}
         }
     ]
 }
