@@ -214,7 +214,41 @@
         "startdescription": "The Immortal Catgirl wants more",
         "description": "The Immortal Catgirl wants more",
         "requirements": {"ascensionlesson_polycule": 1},
-        "warmup": 300
+        "warmup": 60,
+        "mutations": [
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "defiance.underlingdefeated",
+                "level": 1
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "sensationmarks",
+                "level": 1,
+                "additive": true
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "enlightenmentmarks",
+                "level": 1,
+                "additive": true
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "powermarks",
+                "level": 1,
+                "additive": true
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "desire",
+                "level": 1,
+                "additive": true
+            }
+        ],
+        "effects":{
+            "catgirl_lesson": -1
+        }
     },
     {
         "id": "catgirl_begin",
