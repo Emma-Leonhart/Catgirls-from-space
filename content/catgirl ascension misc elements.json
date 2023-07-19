@@ -1,0 +1,39 @@
+{
+    "elements":[
+        {
+            "id": "ascensionlesson_polycule",  
+            "label": "The Spirit of the Polycule",
+            "aspects": {
+                "catgirl_lesson": 1
+            },
+            "description": "You are enlightened with infinite love",
+            "unique": true,
+            "comment": "based on ascensionlessonhearta from the dancer legacy"
+        },
+        {
+            "id": "ascensionlesson_cryonics",  
+            "label": "Common Cause of Humanity",
+            "aspects": {
+                "catgirl_lesson": 1
+            },
+            "description": "You shall live forever",
+            "unique": true,
+            "comment": "based on ascensionlessonhearta from the dancer legacy"
+        },
+        {
+            "id": "ascensionlesson_love_your_enemies",  
+            "label": "Love your enemies",
+            "aspects": {
+                "catgirl_lesson": 1
+            },
+            "description": "Everyone deserves to live forever",
+            "unique": true,
+            "comment": "based on ascensionlessonhearta from the dancer legacy"
+        },
+        {
+            "id": "catgirl_lesson",
+            "label": "A lesson in being a catgirl",
+            "isAspect": true
+        }
+    ]
+}
