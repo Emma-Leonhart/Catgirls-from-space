@@ -186,7 +186,8 @@
             "description": "We are a polycule now!.",
             "warmup": 10,
             "effects": {
-                "polycule": 1
+                "polycule": 1,
+                "ascensionlesson_polycule": 1
             },
             "linked": [
                 {
