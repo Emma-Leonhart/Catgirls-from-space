@@ -189,7 +189,32 @@
         "warmup": 10,
         "effects":{
             "year.stolen": 1
-        }
+        },
+        "slots": [
+            {
+                "id": "Conversation",
+                "label": "Conversation",
+                "description": "The last words of a living mind.",
+                "required": {
+                    "catgirl_lesson": 1
+                },
+                "greedy": true
+            }
+        ],
+        "linked": [
+            {
+                "id": "ascend_polycule",
+                "chance": 100
+            }
+        ]
+    },
+    {
+        "id": "ascend_polycule",
+        "label": "The Immortal catgirl wants more",
+        "startdescription": "The Immortal Catgirl wants more",
+        "description": "The Immortal Catgirl wants more",
+        "requirements": {"ascensionlesson_polycule": 1},
+        "warmup": 300
     },
     {
         "id": "catgirl_begin",
