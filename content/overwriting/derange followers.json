@@ -1,0 +1,1667 @@
+{
+    "elements": [
+        {
+            "id": "auclair_a",
+            "label": "Auclair, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Auclair has a scholarly aspect and a morbid streak. [You might be able to recruit this acquaintance as a follower.]",
+            "no_longer_needed_trigger_edit":{"id": "auclair_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"},
+                "xtriggers$dictedit":{"derangemortal": "auclair_corpse"},
+            "uniquenessgroup": "uqauclair"
+        },
+        {
+            "id": "auclair_b",
+            "label": "Auclair, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "winter": 2,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Auclair is quiet, meticulous and remorseless.",
+            "no_longer_needed_trigger_edit":{"id": "auclair_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "auclair_p"},
+                "xtriggers$dictedit":{"derangemortal": "auclair_corpse"},
+            "uniquenessgroup": "uqauclair"
+        },
+        {
+            "id": "auclair_c",
+            "label": "Auclair, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "winter": 5,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Auclair rarely speaks. She chooses her words with care. Even her movements have become economical. She is never seen to blink.",
+            "dep_triggers": {
+                "promotionto_d_winter": "auclair_d",
+
+                "capturefollower": "auclair_p"},
+                "xtriggers$dictedit":{"derangemortal": "auclair_corpse"},
+            "uniquenessgroup": "uqauclair"
+        },
+        {
+            "id": "auclair_d",
+            "label": "A gaunt woman, who is silent.",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "winter": 10,
+                "follower_lustenlightenment": 1
+            },
+            "description": "The air is frosty, the candles gutter, the street-sounds are hushed. Someone is here.",
+            "dep_triggers": {
+
+                "capturefollower": "auclair_p"},
+                "xtriggers$dictedit":{"derangemortal": "auclair_corpse"},
+            "uniquenessgroup": "uqauclair"
+        },
+        {
+            "id": "cat_a",
+            "label": "Cat Caro, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustenlightenment": 1
+            },
+            "description": "'Cat Caro', as she styles herself, earns a living as a stage medium and a fortune-teller. She may have deeper talents. [You might be able to recruit this acquaintance as a follower.]",
+            "no_longer_needed_trigger_edit":{"id": "cat_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"},
+                "xtriggers$dictedit":{"derangemortal": "cat_corpse"},
+            "uniquenessgroup": "uqcat"
+        },
+        {
+            "id": "cat_b",
+            "label": "Cat Caro, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "lantern": 2,
+                "follower_lustenlightenment": 1
+            },
+            "description": "A bright-eyed, watchful woman who recalls her dreams perfectly.",
+            "no_longer_needed_trigger_edit":{"id": "cat_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "cat_p"},
+                "xtriggers$dictedit":{"derangemortal": "cat_corpse"},
+            "uniquenessgroup": "uqcat"
+        },
+        {
+            "id": "cat_c",
+            "label": "Cat Caro, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "lantern": 5,
+                "follower_lustenlightenment": 1
+            },
+            "description": "She still performs in the theatres sometimes. 'Cat Caro,' the posters say, 'finds the path; Cat Caro knows the way.'",
+            "dep_triggers": {
+                "promotionto_d_lantern": "cat_d",
+
+                "capturefollower": "cat_p"},
+                "xtriggers$dictedit":{"derangemortal": "cat_corpse"},
+            "uniquenessgroup": "uqcat"
+        },
+        {
+            "id": "cat_d",
+            "label": "Cat Caro, a Seer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "lantern": 10,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Archaeologists find treasures in tombs. Farmers bring harvest from the fields. What does Cat Caro unearth in dreams?",
+            "dep_triggers": {
+
+                "capturefollower": "cat_p"},
+                "xtriggers$dictedit":{"derangemortal": "cat_corpse"},
+            "uniquenessgroup": "uqcat"
+        },
+        {
+            "id": "clifton_a",
+            "label": "'Pope' Clifton, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustenlightenment": 1
+            },
+            "description": "A bellowing and unorthodox Catholic with a mystic streak and an untrimmed beard. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "clifton_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqclifton"
+        },
+        {
+            "id": "clifton_b",
+            "label": "'Pope' Clifton, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "lantern": 2,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Now Clifton improvises new prayers rich with solar metaphors. He still shouts like a soldier and drinks like a sailor.",
+            "no_longer_needed_trigger_edit":{"id": "clifton_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "clifton_p"},
+                "xtriggers$dictedit":{"derangemortal": "clifton_corpse"},
+            "uniquenessgroup": "uqclifton"
+        },
+        {
+            "id": "clifton_c",
+            "label": "'Pope' Clifton, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "lantern": 5,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Clifton's devotions have grown complex. His eyes have grown wide and shining. His voice has become even louder.",
+            "dep_triggers": {
+                "promotionto_d_lantern": "clifton_d",
+
+                "capturefollower": "clifton_p"},
+                "xtriggers$dictedit":{"derangemortal": "clifton_corpse"},
+            "uniquenessgroup": "uqclifton"
+        },
+        {
+            "id": "clifton_d",
+            "label": "Clifton, a Seer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "lantern": 10,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Clifton still recites his prayers, but they are grown strange as old mirrors. He rises every morning to greet the dawn. He looks it full in the face, and tells you exactly what he sees.",
+            "dep_triggers": {
+
+                "capturefollower": "clifton_p"},
+                "xtriggers$dictedit":{"derangemortal": "clifton_corpse"},
+            "uniquenessgroup": "uqclifton"
+        },
+        {
+            "id": "clovette_a",
+            "label": "Clovette, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustchange": 1
+            },
+            "description": "Clovette is happy in a way that brooks no counter-argument to happiness. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "clovette_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqclovette"
+        },
+        {
+            "id": "clovette_b",
+            "label": "Clovette, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "heart": 2,
+                "follower_lustchange": 1
+            },
+            "description": "Clovette's determined happiness now borders on the fanatical.",
+            "no_longer_needed_trigger_edit":{"id": "clovette_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "clovette_p"},
+                "xtriggers$dictedit":{"derangemortal": "clovette_corpse"},
+            "uniquenessgroup": "uqclovette"
+        },
+        {
+            "id": "clovette_c",
+            "label": "Clovette, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "heart": 5,
+                "follower_lustchange": 1
+            },
+            "description": "Clovette's optimism is daunting. She wields her joy like a hammer.",
+            "dep_triggers": {
+                "promotionto_d_heart": "clovette_d",
+
+                "capturefollower": "clovette_p"},
+                "xtriggers$dictedit":{"derangemortal": "clovette_corpse"},
+            "uniquenessgroup": "uqclovette"
+        },
+        {
+            "id": "clovette_d",
+            "label": "Clovette, a Tarantellist",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "heart": 10,
+                "follower_lustchange": 1
+            },
+            "description": "Clovette is always in motion. She laughs easily. Her smile is the crescent at the edge of the moon.",
+            "dep_triggers": {
+
+                "capturefollower": "clovette_p"},
+                "xtriggers$dictedit":{"derangemortal": "clovette_corpse"},
+            "uniquenessgroup": "uqclovette"
+        },
+        {
+            "id": "connie_c",
+            "label": "Connie, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "edge": 5,
+                "grail": 4
+            },
+            "description": "Connie's found one last gambit she couldn't resist... or perhaps she's just enjoying life.",
+            "dep_triggers": {
+                "derangemortal": "corpse",
+                "promotionto_d_edge": "connie_d",
+                "derangemortal": "lunatic",
+                "capturefollower": "genericprisonerm"},
+                "xtriggers$dictedit":{"derangemortal": "connie_corpse"},
+            "uniquenessgroup": "uqconnie",
+            "icon": "connie_r"
+        },
+        {
+            "id": "connie_d",
+            "label": "Connie, a Conqueress",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "edge": 10,
+                "grail": 7
+            },
+            "description": "It's not in Connie's nature to serve. One day she'll rise as a river rises. But for now, she stoops to conquer.",
+            "dep_triggers": {
+
+                "capturefollower": "genericprisonerm"},
+                "xtriggers$dictedit":{"derangemortal": "connie_corpse"},
+            "uniquenessgroup": "uqconnie",
+            "icon": "connie_r"
+        },
+        {
+            "id": "dorothy_a",
+            "label": "Dorothy, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustchange": 1
+            },
+            "description": "Dorothy is an enthusiastic sort with an eclectic reading habit. She's fascinated by my hints about the shapes beneath the world's skin. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "dorothy_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqdorothy"
+        },
+        {
+            "id": "dorothy_b",
+            "label": "Dorothy, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "heart": 2,
+                "follower_lustchange": 1
+            },
+            "description": "Dorothy is an enthusiastic sort, and I have turned her enthusiasm to our advantage.",
+            "no_longer_needed_trigger_edit":{"id": "dorothy_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "dorothy_p"},
+                "xtriggers$dictedit":{"derangemortal": "dorothy_corpse"},
+            "uniquenessgroup": "uqdorothy"
+        },
+        {
+            "id": "dorothy_c",
+            "label": "Dorothy, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "heart": 5,
+                "follower_lustchange": 1
+            },
+            "description": "Dorothy's enthusiasm has become obsession. She will not cease; and how she loves to dance.",
+            "dep_triggers": {
+                "promotionto_d_heart": "dorothy_d",
+
+                "capturefollower": "dorothy_p"},
+                "xtriggers$dictedit":{"derangemortal": "dorothy_corpse"},
+            "uniquenessgroup": "uqdorothy"
+        },
+        {
+            "id": "dorothy_d",
+            "label": "Dorothy, a Tarantellist",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "heart": 10,
+                "follower_lustchange": 1
+            },
+            "description": "When Dorothy moves, we hear the drum. When she speaks, we see the dance. Her determination is her shield and her weapon.",
+            "dep_triggers": {
+
+                "capturefollower": "dorothy_p"},
+                "xtriggers$dictedit":{"derangemortal": "dorothy_corpse"},
+            "uniquenessgroup": "uqdorothy"
+        },
+        {
+            "id": "douglas_b",
+            "label": "Douglas, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "forge": 2
+            },
+            "description": "Douglas has exchanged the Force for the Forge.",
+            "no_longer_needed_trigger_edit":{"id": "douglas_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "douglas_p"},
+                "xtriggers$dictedit":{"derangemortal": "douglas_corpse"},
+            "uniquenessgroup": "uqdouglas",
+            "icon": "douglas_r"
+        },
+        {
+            "id": "douglas_c",
+            "label": "Douglas, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "forge": 5
+            },
+            "description": "Douglas doesn't like hammers. They remind him of an Incident. But he uses what instruments he must.",
+            "dep_triggers": {
+                "promotionto_d_forge": "douglas_d",
+
+                "capturefollower": "douglas_p"},
+                "xtriggers$dictedit":{"derangemortal": "douglas_corpse"},
+            "uniquenessgroup": "uqdouglas",
+            "icon": "douglas_r"
+        },
+        {
+            "id": "douglas_d",
+            "label": "Douglas, a Reshaper",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "forge": 10
+            },
+            "description": "Douglas has changed so much. His eyes glow like smithy windows in fog. His voice is the rattle of coal in the chute. His arm is long.",
+            "dep_triggers": {
+
+                "capturefollower": "douglas_p"},
+                "xtriggers$dictedit":{"derangemortal": "douglas_corpse"},
+            "uniquenessgroup": "uqdouglas",
+            "icon": "douglas_r"
+        },
+        {
+            "id": "elridge_a",
+            "label": "Elridge, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustpower": 1
+            },
+            "description": "An elegant man of inelegant habits. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "elridge_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqelridge"
+        },
+        {
+            "id": "elridge_b",
+            "label": "Elridge, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "edge": 2,
+                "follower_lustpower": 1
+            },
+            "description": "Elridge has almost learnt not to pick his teeth with his knife in conversation. He has not yet learnt to leave his knife in his boot.",
+            "no_longer_needed_trigger_edit":{"id": "elridge_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "elridge_p"},
+                "xtriggers$dictedit":{"derangemortal": "elridge_corpse"},
+            "uniquenessgroup": "uqelridge"
+        },
+        {
+            "id": "elridge_c",
+            "label": "Elridge, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "edge": 5,
+                "follower_lustpower": 1
+            },
+            "description": "Elridge is waiting patiently until it's time to knife someone again.",
+            "dep_triggers": {
+                "promotionto_d_edge": "elridge_d",
+
+                "capturefollower": "elridge_p"},
+                "xtriggers$dictedit":{"derangemortal": "elridge_corpse"},
+            "uniquenessgroup": "uqelridge"
+        },
+        {
+            "id": "elridge_d",
+            "label": "Elridge, an Assassin",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "edge": 10,
+                "follower_lustpower": 1
+            },
+            "description": "Elridge is never seen with a spot of blood upon his person. Not a spot.",
+            "dep_triggers": {
+
+                "capturefollower": "elridge_p"},
+                "xtriggers$dictedit":{"derangemortal": "elridge_corpse"},
+            "uniquenessgroup": "uqelridge"
+        },
+        {
+            "id": "enid_a",
+            "label": "Enid, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Enid speaks softly, and sometimes her gaze doesn't focus on anything visible. It may be that you've dreamed the same dreams. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "enid_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqenid"
+        },
+        {
+            "id": "enid_b",
+            "label": "Enid, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "knock": 2,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Enid speaks softly, and sometimes her gaze doesn't focus on anything visible. She sees things that others don't.",
+            "no_longer_needed_trigger_edit":{"id": "enid_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "enid_p"},
+                "xtriggers$dictedit":{"derangemortal": "enid_corpse"},
+            "uniquenessgroup": "uqenid"
+        },
+        {
+            "id": "enid_c",
+            "label": "Enid, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "knock": 5,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Enid sees what others do not. It is becoming difficult for her, but it is very useful.",
+            "dep_triggers": {
+                "promotionto_d_knock": "enid_d",
+
+                "capturefollower": "enid_p"},
+                "xtriggers$dictedit":{"derangemortal": "enid_corpse"},
+            "uniquenessgroup": "uqenid"
+        },
+        {
+            "id": "enid_d",
+            "label": "Enid, a Key",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "knock": 10,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Enid sees the gaps between things, and the arts that she has learned permit her, sometimes, to place her fingers in that gap.",
+            "dep_triggers": {
+
+                "capturefollower": "enid_p"},
+                "xtriggers$dictedit":{"derangemortal": "enid_corpse"},
+            "uniquenessgroup": "uqenid"
+        },
+        {
+            "id": "laidlaw_a",
+            "label": "Laidlaw, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustpower": 1
+            },
+            "description": "Laidlaw is a tinkerer and mechanic with an uncanny knack. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "laidlaw_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqlaidlaw"
+        },
+        {
+            "id": "laidlaw_b",
+            "label": "Laidlaw, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "forge": 2,
+                "follower_lustpower": 1
+            },
+            "description": "Laidlaw has begun to understand the limitations of ingenuity, and the power of sacrifice.",
+            "no_longer_needed_trigger_edit":{"id": "laidlaw_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "laidlaw_p"},
+                "xtriggers$dictedit":{"derangemortal": "laidlaw_corpse"},
+            "uniquenessgroup": "uqlaidlaw"
+        },
+        {
+            "id": "laidlaw_c",
+            "label": "Laidlaw, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "forge": 5,
+                "follower_lustpower": 1
+            },
+            "description": "Laidlaw has learnt the cleverer uses of fire and copper, wax and acid.",
+            "dep_triggers": {
+                "promotionto_d_forge": "laidlaw_d",
+
+                "capturefollower": "laidlaw_p"},
+                "xtriggers$dictedit":{"derangemortal": "laidlaw_corpse"},
+            "uniquenessgroup": "uqlaidlaw"
+        },
+        {
+            "id": "laidlaw_d",
+            "label": "Laidlaw, a Reshaper",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "forge": 10,
+                "follower_lustpower": 1
+            },
+            "description": "Laidlaw can shape what is broken into what is necessary.",
+            "dep_triggers": {
+
+                "capturefollower": "laidlaw_p"},
+                "xtriggers$dictedit":{"derangemortal": "laidlaw_corpse"},
+            "uniquenessgroup": "uqlaidlaw"
+        },
+        {
+            "id": "leo_a",
+            "label": "Leo, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustchange": 1
+            },
+            "description": "Leo is an earnest sort with an interest in the occult. He hangs on your hints about the invisible arts. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "leo_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqleo"
+        },
+        {
+            "id": "leo_b",
+            "label": "Leo, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "heart": 2,
+                "follower_lustchange": 1
+            },
+            "description": "Leo is an earnest sort, but he's prepared to do what he must.",
+            "no_longer_needed_trigger_edit":{"id": "leo_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "leo_p"},
+                "xtriggers$dictedit":{"derangemortal": "leo_corpse"},
+            "uniquenessgroup": "uqleo"
+        },
+        {
+            "id": "leo_c",
+            "label": "Leo, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "heart": 5,
+                "follower_lustchange": 1
+            },
+            "description": "Leo still yearns to preserve what is good and valuable; but he understands that to protect one's ideals, one must sometimes do questionable things.",
+            "dep_triggers": {
+                "promotionto_d_heart": "leo_d",
+
+                "capturefollower": "leo_p"},
+                "xtriggers$dictedit":{"derangemortal": "leo_corpse"},
+            "uniquenessgroup": "uqleo"
+        },
+        {
+            "id": "leo_d",
+            "label": "Leo, a Tarantellist",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "heart": 10,
+                "follower_lustchange": 1
+            },
+            "description": "Leo will preserve, at all costs. He will not cease.",
+            "dep_triggers": {
+
+                "capturefollower": "leo_p"},
+                "xtriggers$dictedit":{"derangemortal": "leo_corpse"},
+            "uniquenessgroup": "uqleo"
+        },
+        {
+            "id": "natalia_c",
+            "label": "Natalia, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "lantern": 5,
+                "forge": 4
+            },
+            "description": "Natalia never follows unquestioningly - but for now, she follows.",
+            "dep_triggers": {
+                "derangemortal": "corpse",
+                "promotionto_d_lantern": "natalia_d",
+                "derangemortal": "lunatic",
+                "capturefollower": "genericprisonerm"},
+                "xtriggers$dictedit":{"derangemortal": "natalia_corpse"},
+            "uniquenessgroup": "uqnatalia",
+            "icon": "natalia_r"
+        },
+        {
+            "id": "natalia_d",
+            "label": "Natalia, a Sage",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "lantern": 10,
+                "forge": 7
+            },
+            "description": "Natalia has aligned herself with the brightest path she can find.",
+            "dep_triggers": {
+
+                "capturefollower": "genericprisonerm"},
+                "xtriggers$dictedit":{"derangemortal": "natalia_corpse"},
+            "uniquenessgroup": "uqnatalia",
+            "icon": "natalia_r"
+        },
+        {
+            "id": "neville_a",
+            "label": "Neville, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Neville pauses before he speaks, and flinches easily. He laughs whenever he thinks you've made a joke. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "neville_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqneville"
+        },
+        {
+            "id": "neville_b",
+            "label": "Neville, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "knock": 2,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Neville pauses before he speaks, and flinches easily. He's sensitive to deeper matters.",
+            "no_longer_needed_trigger_edit":{"id": "neville_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "neville_p"},
+                "xtriggers$dictedit":{"derangemortal": "neville_corpse"},
+            "uniquenessgroup": "uqneville"
+        },
+        {
+            "id": "neville_c",
+            "label": "Neville, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "knock": 5,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Neville's gaze has grown furtive, and his voice is sometimes shrill. He speaks freely of his dreams.",
+            "dep_triggers": {
+                "promotionto_d_knock": "neville_d",
+
+                "capturefollower": "neville_p"},
+                "xtriggers$dictedit":{"derangemortal": "neville_corpse"},
+            "uniquenessgroup": "uqneville"
+        },
+        {
+            "id": "neville_d",
+            "label": "Neville, a Key",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "knock": 10,
+                "follower_lustenlightenment": 1
+            },
+            "description": "In his dreams, Neville sees the flaws where the world and its ways can be opened.",
+            "dep_triggers": {
+
+                "capturefollower": "neville_p"},
+                "xtriggers$dictedit":{"derangemortal": "neville_corpse"},
+            "uniquenessgroup": "uqneville"
+        },
+        {
+            "id": "porter_a",
+            "label": "Porter, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustchange": 1
+            },
+            "description": "Porter was a barber, until the court case. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "porter_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqporter"
+        },
+        {
+            "id": "porter_b",
+            "label": "Porter, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "moth": 2,
+                "follower_lustchange": 1
+            },
+            "description": "Porter plies his razor and his scissors, to the great advantage of his friends.",
+            "no_longer_needed_trigger_edit":{"id": "porter_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "porter_p"},
+                "xtriggers$dictedit":{"derangemortal": "porter_corpse"},
+            "uniquenessgroup": "uqporter"
+        },
+        {
+            "id": "porter_c",
+            "label": "Porter, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "moth": 5,
+                "follower_lustchange": 1
+            },
+            "description": "Porter goes unnoticed, until he's ready.",
+            "dep_triggers": {
+                "promotionto_d_moth": "porter_d",
+
+                "capturefollower": "porter_p"},
+                "xtriggers$dictedit":{"derangemortal": "porter_corpse"},
+            "uniquenessgroup": "uqporter"
+        },
+        {
+            "id": "porter_d",
+            "label": "Porter, a Skintwister",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "moth": 10,
+                "follower_lustchange": 1
+            },
+            "description": "Porter, like a spider, is found in the most unexpected places.",
+            "dep_triggers": {
+
+                "capturefollower": "porter_p"},
+                "xtriggers$dictedit":{"derangemortal": "porter_corpse"},
+            "uniquenessgroup": "uqporter"
+        },
+        {
+            "id": "renira_a",
+            "label": "Renira, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustsensation": 1
+            },
+            "description": "Renira has been found not guilty three times in three separate jurisdictions. She will likely never be found guilty of anything. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "renira_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqrenira"
+        },
+        {
+            "id": "renira_b",
+            "label": "Renira, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "grail": 2,
+                "follower_lustsensation": 1
+            },
+            "description": "Renira continues to pursue her appetites discreetly, although her ambitions have grown.",
+            "no_longer_needed_trigger_edit":{"id": "renira_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "renira_p"},
+                "xtriggers$dictedit":{"derangemortal": "renira_corpse"},
+            "uniquenessgroup": "uqrenira"
+        },
+        {
+            "id": "renira_c",
+            "label": "Renira, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "grail": 5,
+                "follower_lustsensation": 1
+            },
+            "description": "Renira commands admiration wherever she goes. She reserves her attentions  for those who merit admiration in return.",
+            "dep_triggers": {
+                "promotionto_d_grail": "renira_d",
+
+                "capturefollower": "renira_p"},
+                "xtriggers$dictedit":{"derangemortal": "renira_corpse"},
+            "uniquenessgroup": "uqrenira"
+        },
+        {
+            "id": "renira_d",
+            "label": "Renira, a Cyprian",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "grail": 10,
+                "follower_lustsensation": 1
+            },
+            "description": "Renira receives tokens from admirers almost daily. Some gifts are flowers, others poetry. Sometimes she receives jewels; sometimes, desperate gifts wrapped tightly in blood-stained crepe paper.",
+            "dep_triggers": {
+
+                "capturefollower": "renira_p"},
+                "xtriggers$dictedit":{"derangemortal": "renira_corpse"},
+            "uniquenessgroup": "uqrenira"
+        },
+        {
+            "id": "rose_a",
+            "label": "Rose, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustsensation": 1
+            },
+            "description": "Rose is a sly miss, and she recognises you as someone uncommon. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "rose_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqrose"
+        },
+        {
+            "id": "rose_b",
+            "label": "Rose, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "edge": 2,
+                "follower_lustsensation": 1
+            },
+            "description": "Rose is a sly miss, but loyal.",
+            "no_longer_needed_trigger_edit":{"id": "rose_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "rose_p"},
+                "xtriggers$dictedit":{"derangemortal": "rose_corpse"},
+            "uniquenessgroup": "uqrose"
+        },
+        {
+            "id": "rose_c",
+            "label": "Rose, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "edge": 5,
+                "follower_lustsensation": 1
+            },
+            "description": "Rose has sharpened her cunning to a concentrated point.",
+            "dep_triggers": {
+                "promotionto_d_edge": "rose_d",
+
+                "capturefollower": "rose_p"},
+                "xtriggers$dictedit":{"derangemortal": "rose_corpse"},
+            "uniquenessgroup": "uqrose"
+        },
+        {
+            "id": "rose_d",
+            "label": "Rose, an Assassin",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "edge": 10,
+                "follower_lustsensation": 1
+            },
+            "description": "The night before Rose meets her subject, the subject will receive a package with a single yellow rose.",
+            "dep_triggers": {
+
+                "capturefollower": "rose_p"},
+                "xtriggers$dictedit":{"derangemortal": "rose_corpse"},
+            "uniquenessgroup": "uqrose"
+        },
+        {
+            "id": "saliba_a",
+            "label": "Saliba, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustsensation": 1
+            },
+            "description": "Saliba is a man of prodigious appetites. He is long past the point where their satisfaction has given him any pleasure; but he has learnt so very much. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "saliba_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqsaliba"
+        },
+        {
+            "id": "saliba_b",
+            "label": "Saliba, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "grail": 2,
+                "follower_lustsensation": 1
+            },
+            "description": "Saliba understands blood. He does not yet understand birth.",
+            "no_longer_needed_trigger_edit":{"id": "saliba_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "saliba_p"},
+                "xtriggers$dictedit":{"derangemortal": "saliba_corpse"},
+            "uniquenessgroup": "uqsaliba"
+        },
+        {
+            "id": "saliba_c",
+            "label": "Saliba, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "grail": 5,
+                "follower_lustsensation": 1
+            },
+            "description": "Saliba's pleasures are taken in a room without windows. His companions return to him again and again, even though each time they are a little less.",
+            "dep_triggers": {
+                "promotionto_d_grail": "saliba_d",
+
+                "capturefollower": "saliba_p"},
+                "xtriggers$dictedit":{"derangemortal": "saliba_corpse"},
+            "uniquenessgroup": "uqsaliba"
+        },
+        {
+            "id": "saliba_d",
+            "label": "Saliba, a Cyprian",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "grail": 10,
+                "follower_lustsensation": 1
+            },
+            "description": "Saliba's charisma strikes with the force of a hammer. It is horribly difficult to refuse his desires.",
+            "dep_triggers": {
+
+                "capturefollower": "saliba_p"},
+                "xtriggers$dictedit":{"derangemortal": "saliba_corpse"},
+            "uniquenessgroup": "uqsaliba"
+        },
+        {
+            "id": "slee_a",
+            "label": "Slee, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Craig Slee, the astronomer and avant-garde poet, has developed an interest in the esoteric as his health wanes. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "slee_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqslee"
+        },
+        {
+            "id": "slee_b",
+            "label": "Slee, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "lantern": 2,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Slee speaks earnestly of his theories to all who will listen: the stars as tiny wounds, and the Sun as a haemorrhage of glory. His poetry is more eccentric than ever.",
+            "no_longer_needed_trigger_edit":{"id": "slee_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "slee_p"},
+                "xtriggers$dictedit":{"derangemortal": "slee_corpse"},
+            "uniquenessgroup": "uqslee"
+        },
+        {
+            "id": "slee_c",
+            "label": "Slee, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "lantern": 5,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Slee's headaches have become crippling, but his theories grow more practical by the day. His poetry's getting better, too.",
+            "dep_triggers": {
+                "promotionto_d_lantern": "slee_d",
+
+                "capturefollower": "slee_p"},
+                "xtriggers$dictedit":{"derangemortal": "slee_corpse"},
+            "uniquenessgroup": "uqslee"
+        },
+        {
+            "id": "slee_d",
+            "label": "Slee, a Seer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "lantern": 10,
+                "follower_lustenlightenment": 1
+            },
+            "description": "Slee speaks exclusively in mathematics and in poetry. Both are compelling: it is increasingly difficult to tell the difference.",
+            "dep_triggers": {
+
+                "capturefollower": "slee_p"},
+                "xtriggers$dictedit":{"derangemortal": "slee_corpse"},
+            "uniquenessgroup": "uqslee"
+        },
+        {
+            "id": "spencer_c",
+            "label": "Spencer, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "knock": 5,
+                "moth": 4
+            },
+            "description": "Spencer carries a tiny icon of St Agnes on a chain around his neck, to rest on the scar above his heart.",
+            "dep_triggers": {
+                "derangemortal": "corpse",
+                "promotionto_d_lantern": "spencer_d",
+                "derangemortal": "lunatic",
+                "capturefollower": "genericprisonerm"},
+                "xtriggers$dictedit":{"derangemortal": "spencer_corpse"},
+            "uniquenessgroup": "uqspencer",
+            "icon": "spencer_r"
+        },
+        {
+            "id": "spencer_d",
+            "label": "Spencer, a Herald",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "knock": 10,
+                "moth": 7
+            },
+            "description": "Some follow the Way, and some are the Way for others. Spencer no longer tells us he made a decision: instead, he suggests that the decision has made him.",
+            "dep_triggers": {
+
+                "capturefollower": "genericprisonerm"},
+                "xtriggers$dictedit":{"derangemortal": "spencer_corpse"},
+            "uniquenessgroup": "uqspencer",
+            "icon": "spencer_r"
+        },
+        {
+            "id": "sylvia_a",
+            "label": "Sylvia, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustchange": 1
+            },
+            "description": "Sylvia lost her eye in the woods when she was nine years old. Every year, at Candlemas, she returns to the place she buried it. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "sylvia_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqsylvia"
+        },
+        {
+            "id": "sylvia_b",
+            "label": "Sylvia, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "moth": 2,
+                "follower_lustchange": 1
+            },
+            "description": "Sylvia has a detailed knowledge of roof-ridges, of the river at low tide, of Irish whiskey, and of conjuring tricks.",
+            "no_longer_needed_trigger_edit":{"id": "sylvia_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "sylvia_p"},
+                "xtriggers$dictedit":{"derangemortal": "sylvia_corpse"},
+            "uniquenessgroup": "uqsylvia"
+        },
+        {
+            "id": "sylvia_c",
+            "label": "Sylvia, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "moth": 5,
+                "follower_lustchange": 1
+            },
+            "description": "Sylvia's favourite tactic is to smile and close her eye. It is remarkable how often her interlocutor will blurt out exactly what they are thinking.",
+            "dep_triggers": {
+                "promotionto_d_moth": "sylvia_d",
+
+                "capturefollower": "sylvia_p"},
+                "xtriggers$dictedit":{"derangemortal": "sylvia_corpse"},
+            "uniquenessgroup": "uqsylvia"
+        },
+        {
+            "id": "sylvia_d",
+            "label": "Sylvia, a Skintwister",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "moth": 10,
+                "follower_lustchange": 1
+            },
+            "description": "Sylvia has learnt to get out of a place almost before she has gotten in. Sometimes, she leaves dead leaves beneath the window-sill. Sometimes, she writes her name where it won't be found.",
+            "dep_triggers": {
+
+                "capturefollower": "sylvia_p"},
+                "xtriggers$dictedit":{"derangemortal": "sylvia_corpse"},
+            "uniquenessgroup": "uqsylvia"
+        },
+        {
+            "id": "tristan_a",
+            "label": "Tristan, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustpower": 1
+            },
+            "description": "Tristan dislikes distractions. Tristan gets things done. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "tristan_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqtristan"
+        },
+        {
+            "id": "tristan_b",
+            "label": "Tristan, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "forge": 2,
+                "follower_lustpower": 1
+            },
+            "description": "Tristan dislikes distractions; Tristan likes results.",
+            "no_longer_needed_trigger_edit":{"id": "tristan_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "tristan_p"},
+                "xtriggers$dictedit":{"derangemortal": "tristan_corpse"},
+            "uniquenessgroup": "uqtristan"
+        },
+        {
+            "id": "tristan_c",
+            "label": "Tristan, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "forge": 5,
+                "follower_lustpower": 1
+            },
+            "description": "Tristan will do what is necessary. To create, sometimes one must first destroy.",
+            "dep_triggers": {
+                "promotionto_d_forge": "tristan_d",
+
+                "capturefollower": "tristan_p"},
+                "xtriggers$dictedit":{"derangemortal": "tristan_corpse"},
+            "uniquenessgroup": "uqtristan"
+        },
+        {
+            "id": "tristan_d",
+            "label": "Tristan, a Reshaper",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "forge": 10,
+                "follower_lustpower": 1
+            },
+            "description": "In another age, Tristan might have been a smith. In another life, he might have been a bomb-maker.",
+            "dep_triggers": {
+
+                "capturefollower": "tristan_p"},
+                "xtriggers$dictedit":{"derangemortal": "tristan_corpse"},
+            "uniquenessgroup": "uqtristan"
+        },
+        {
+            "id": "valciane_a",
+            "label": "Valciane, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustpower": 1
+            },
+            "description": "Valciane has operated her establishment for almost twenty years. She has never employed an assistant. Her hands are terribly strong. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "valciane_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqvalciane"
+        },
+        {
+            "id": "valciane_b",
+            "label": "Valciane, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "forge": 2,
+                "follower_lustpower": 1
+            },
+            "description": "Valciane's ingenuities are endless, and her grip is stronger than a blacksmith's.",
+            "no_longer_needed_trigger_edit":{"id": "valciane_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "valciane_p"},
+                "xtriggers$dictedit":{"derangemortal": "valciane_corpse"},
+            "uniquenessgroup": "uqvalciane"
+        },
+        {
+            "id": "valciane_c",
+            "label": "Valciane, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "forge": 5,
+                "follower_lustpower": 1
+            },
+            "description": "Valciane is not a machine. We are reasonably confident of that, because she has been observed, now and then, to commit quite human errors.",
+            "dep_triggers": {
+                "promotionto_d_forge": "valciane_d",
+
+                "capturefollower": "valciane_p"},
+                "xtriggers$dictedit":{"derangemortal": "valciane_corpse"},
+            "uniquenessgroup": "uqvalciane"
+        },
+        {
+            "id": "valciane_d",
+            "label": "Valciane, a Reshaper",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "forge": 10,
+                "follower_lustpower": 1
+            },
+            "description": "Valciane has begun to work without tools. 'They get in the way,' she claims.",
+            "dep_triggers": {
+
+                "capturefollower": "valciane_p"},
+                "xtriggers$dictedit":{"derangemortal": "valciane_corpse"},
+            "uniquenessgroup": "uqvalciane"
+        },
+        {
+            "id": "victor_a",
+            "label": "Victor, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustsensation": 1
+            },
+            "description": "Victor is a sly fellow, and he knows an unusual opportunity when he sees it. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "victor_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqvictor"
+        },
+        {
+            "id": "victor_b",
+            "label": "Victor, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "edge": 2,
+                "follower_lustsensation": 1
+            },
+            "description": "Victor is a sly fellow, but loyal.",
+            "no_longer_needed_trigger_edit":{"id": "victor_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "victor_p"},
+                "xtriggers$dictedit":{"derangemortal": "victor_corpse"},
+            "uniquenessgroup": "uqvictor"
+        },
+        {
+            "id": "victor_c",
+            "label": "Victor, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "edge": 5,
+                "follower_lustsensation": 1
+            },
+            "description": "Victor has sharpened his cunning to a concentrated point.",
+            "dep_triggers": {
+                "promotionto_d_edge": "victor_d",
+
+                "capturefollower": "victor_p"},
+                "xtriggers$dictedit":{"derangemortal": "victor_corpse"},
+            "uniquenessgroup": "uqvictor"
+        },
+        {
+            "id": "victor_d",
+            "label": "Victor, an Assassin",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "edge": 10,
+                "follower_lustsensation": 1
+            },
+            "description": "Victor likes to become acquainted with his subjects, so he can apologise to them personally, just before the end.",
+            "dep_triggers": {
+
+                "capturefollower": "victor_p"},
+                "xtriggers$dictedit":{"derangemortal": "victor_corpse"},
+            "uniquenessgroup": "uqvictor"
+        },
+        {
+            "id": "violet_a",
+            "label": "Violet, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustsensation": 1
+            },
+            "description": "Violet has always given unstintingly of her time, easing the pain of the dying. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "violet_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqviolet"
+        },
+        {
+            "id": "violet_b",
+            "label": "Violet, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "winter": 2,
+                "follower_lustsensation": 1
+            },
+            "description": "Violet likes to paint. She has a gift, although she's always been very modest about it. She never puts human figures in her paintings. There are enough people in the world.",
+            "no_longer_needed_trigger_edit":{"id": "violet_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "violet_p"},
+                "xtriggers$dictedit":{"derangemortal": "violet_corpse"},
+            "uniquenessgroup": "uqviolet"
+        },
+        {
+            "id": "violet_c",
+            "label": "Violet, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "winter": 5,
+                "follower_lustsensation": 1
+            },
+            "description": "Violet is always very careful.",
+            "dep_triggers": {
+                "promotionto_d_winter": "violet_d",
+
+                "capturefollower": "violet_p"},
+                "xtriggers$dictedit":{"derangemortal": "violet_corpse"},
+            "uniquenessgroup": "uqviolet"
+        },
+        {
+            "id": "violet_d",
+            "label": "A kindly-faced woman, who is silent.",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "winter": 10,
+                "follower_lustsensation": 1
+            },
+            "description": "Sleep, now. Don't worry about a thing.",
+            "dep_triggers": {
+
+                "capturefollower": "violet_p"},
+                "xtriggers$dictedit":{"derangemortal": "violet_corpse"},
+            "uniquenessgroup": "uqviolet"
+        },
+        {
+            "id": "ysabet_a",
+            "label": "Ysabet, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1,
+                "follower_lustchange": 1
+            },
+            "description": "Ysabet has always been most comfortable by moonlight. She has excellent night vision. She is often overlooked in daylight. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers$dictedit":{"derangemortal": "ysabet_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic"
+            },
+            "uniquenessgroup": "uqysabet"
+        },
+        {
+            "id": "ysabet_b",
+            "label": "Ysabet, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "moth": 2,
+                "follower_lustchange": 1
+            },
+            "description": "Ysabet sleeps in fits and starts. She rises at dusk to do the things an Ysabet does.",
+            "no_longer_needed_trigger_edit":{"id": "ysabet_corpse"},
+                "dep_triggers":{
+                "derangemortal": "lunatic",
+                "capturefollower": "ysabet_p"},
+                "xtriggers$dictedit":{"derangemortal": "ysabet_corpse"},
+            "uniquenessgroup": "uqysabet"
+        },
+        {
+            "id": "ysabet_c",
+            "label": "Ysabet, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "moth": 5,
+                "follower_lustchange": 1
+            },
+            "description": "Ysabet was just here, just a moment ago. Just here. Almost certainly.",
+            "dep_triggers": {
+                "promotionto_d_moth": "ysabet_d",
+
+                "capturefollower": "ysabet_p"},
+                "xtriggers$dictedit":{"derangemortal": "ysabet_corpse"},
+            "uniquenessgroup": "uqysabet"
+        },
+        {
+            "id": "ysabet_d",
+            "label": "Ysabet, a Skintwister",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "moth": 10,
+                "follower_lustchange": 1
+            },
+            "description": "Ysabet never lies, now. She doesn't need to.",
+            "dep_triggers": {
+
+                "capturefollower": "ysabet_p"},
+                "xtriggers$dictedit":{"derangemortal": "ysabet_corpse"},
+            "uniquenessgroup": "uqysabet"
+        },
+        {
+            "id": "zachary_c",
+            "label": "Zachary, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "winter": 5,
+                "lantern": 4
+            },
+            "description": "Zachary's reasoning is as certain as ever, but now, it is chillier.",
+            "dep_triggers": {
+                "derangemortal": "corpse",
+                "promotionto_d_winter": "zachary_d",
+                "derangemortal": "lunatic",
+                "capturefollower": "genericprisonerm"},
+                "xtriggers$dictedit":{"derangemortal": "zachary_corpse"},
+            "uniquenessgroup": "uqzachary",
+            "icon": "zachary_r"
+        },
+        {
+            "id": "zachary_d",
+            "label": "Zachary, a Conclusion",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "winter": 10,
+                "lantern": 7
+            },
+            "description": "Zachary has chosen his ending.",
+            "dep_triggers": {
+
+                "capturefollower": "genericprisonerm"},
+                "xtriggers$dictedit":{"derangemortal": "zachary_corpse"},
+            "uniquenessgroup": "uqzachary",
+            "icon": "zachary_r"
+        }
+    ]
+}
