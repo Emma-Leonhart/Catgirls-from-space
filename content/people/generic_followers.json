@@ -531,6 +531,21 @@
             },
             "description": "Even bad people deserve to live",
             "comments": "legacy element to keep saves valid"
+        },
+        {
+            "id": "lunatic",
+            "label": "A Poor Lunatic",
+            "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "description": "Some overwhelming experience has robbed this individual of their senses.",
+            "xtriggers": {
+                "killmortal": "generic_corpse"
+            }
         }
     ]
 }
