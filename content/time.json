@@ -307,11 +307,25 @@
         },
         {
             "id": "rosenext",
-            "label": "Trysts and Interludes",
             "actionid": "rose",
             "requirements": {
                 "seasonardours": 1
             },
+            "linked": [
+                {
+                    "id": "rosenext_poly",
+                    "chance": 100
+                },
+                {
+                    "id": "rosenext_mono",
+                    "chance": 30
+                }
+            ]
+        },
+        {
+            "id": "rosenext_mono",
+            "label": "Trysts and Interludes",
+            "actionid": "rose",
             "slots": [
                 {
                     "id": "Who?",
@@ -343,6 +357,40 @@
                 }
             ],
             "warmup": 5
+        },
+        {
+            "id": "rosenext_poly",
+            "label": "Trysts and Interludes",
+            "actionid": "rose",
+            "requirements": {
+                "seasonardours": 1
+            },
+            "Tablereqs": {"polycule": 1},
+            "slots": [
+                {
+                    "id": "Who?",
+                    "label": "Who?",
+                    "description": "Palm to palm and eye to eye.",
+                    "required": {
+                        "polycule": 1
+                    },
+                    "forbidden": {
+                        "notoriety": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            
+            "deckeffects": {
+                "roserewards": 1
+            },
+            "linked": [
+                {
+                    "id": "A_continuerose_change_success",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60
         },
         {
             "id": "pleasantday",
