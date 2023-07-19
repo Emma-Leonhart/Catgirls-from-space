@@ -43,6 +43,13 @@
             "label": "Auclair, a lunatic",
             "aspects": {
                 "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
+                "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
                 "potential": 1,
@@ -122,6 +129,13 @@
             "label": "Cat Caro, a lunatic",
             "aspects": {
                 "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
+                "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
                 "potential": 1,
@@ -199,6 +213,13 @@
             "icon": "lunatic",
             "label": "'Pope' Clifton, a lunatic",
             "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
@@ -278,6 +299,13 @@
             "label": "Clovette, a lunatic",
             "aspects": {
                 "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
+                "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
                 "potential": 1,
@@ -319,6 +347,13 @@
             "icon": "lunatic",
             "label": "Connie, a lunatic",
             "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
@@ -400,6 +435,13 @@
             "label": "Dorothy, a lunatic",
             "aspects": {
                 "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
+                "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
                 "potential": 1,
@@ -461,6 +503,13 @@
             "icon": "lunatic",
             "label": "Douglas, a lunatic",
             "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
@@ -540,6 +589,13 @@
             "label": "Elridge, a lunatic",
             "aspects": {
                 "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
+                "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
                 "potential": 1,
@@ -617,6 +673,13 @@
             "icon": "lunatic",
             "label": "Enid, a lunatic",
             "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
@@ -696,6 +759,13 @@
             "label": "Laidlaw, a lunatic",
             "aspects": {
                 "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
+                "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
                 "potential": 1,
@@ -774,6 +844,13 @@
             "label": "Leo, a lunatic",
             "aspects": {
                 "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
+                "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
                 "potential": 1,
@@ -815,6 +892,13 @@
             "icon": "lunatic",
             "label": "Natalia, a lunatic",
             "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
@@ -896,6 +980,13 @@
             "label": "Neville, a lunatic",
             "aspects": {
                 "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
+                "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
                 "potential": 1,
@@ -973,6 +1064,13 @@
             "icon": "lunatic",
             "label": "Porter, a lunatic",
             "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
@@ -1052,6 +1150,13 @@
             "label": "Renira, a lunatic",
             "aspects": {
                 "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
+                "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
                 "potential": 1,
@@ -1129,6 +1234,13 @@
             "icon": "lunatic",
             "label": "Rose, a lunatic",
             "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
@@ -1208,6 +1320,13 @@
             "label": "Saliba, a lunatic",
             "aspects": {
                 "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
+                "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
                 "potential": 1,
@@ -1286,6 +1405,13 @@
             "label": "Slee, a lunatic",
             "aspects": {
                 "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
+                "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
                 "potential": 1,
@@ -1327,6 +1453,13 @@
             "icon": "lunatic",
             "label": "Spencer, a lunatic",
             "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
@@ -1408,6 +1541,13 @@
             "label": "Sylvia, a lunatic",
             "aspects": {
                 "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
+                "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
                 "potential": 1,
@@ -1485,6 +1625,13 @@
             "icon": "lunatic",
             "label": "Tristan, a lunatic",
             "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
@@ -1564,6 +1711,13 @@
             "label": "Valciane, a lunatic",
             "aspects": {
                 "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
+                "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
                 "potential": 1,
@@ -1641,6 +1795,13 @@
             "icon": "lunatic",
             "label": "Victor, a lunatic",
             "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
@@ -1720,6 +1881,13 @@
             "label": "Violet, a lunatic",
             "aspects": {
                 "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
+                "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
                 "potential": 1,
@@ -1798,6 +1966,13 @@
             "label": "Ysabet, a lunatic",
             "aspects": {
                 "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
+                "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
                 "potential": 1,
@@ -1839,6 +2014,13 @@
             "icon": "lunatic",
             "label": "Zachary, a lunatic",
             "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "dep_aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
