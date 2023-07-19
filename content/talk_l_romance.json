@@ -112,7 +112,28 @@
             "craftable": false
         },
         {
-            "id": "L_checkjealousy",
+            "id": "polycule_router",
+            "Tablereqs": {"polycule": 1},
+            "slots": [
+                {
+                    "id": "Polycule",
+                    "label": "Polycule",
+                    "description": "Palm to palm and eye to eye.",
+                    "required": {
+                        "polycule": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "L_roserouter",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "L_checkpolyamory",
             "label": "Another?",
             "actionid": "rose",
             "requirements": {
@@ -131,7 +152,8 @@
                     },
                     "forbidden": {
                         "summoned": -1,
-                        "corpse": -1
+                        "corpse": -1,
+                        "frozen": -1
                     },
                     "greedy": true
                 }
@@ -140,7 +162,7 @@
             "description": ".",
             "linked": [
                 {
-                    "id": "L_activatejealousy",
+                    "id": "L_activatepolycule",
                     "chance": 100
                 },
                 {
@@ -151,40 +173,28 @@
             "warmup": 5
         },
         {
-            "id": "L_activatejealousy",
-            "label": "O Rose Thou Art Sick",
+            "id": "L_activatepolycule",
+            "label": "The beginning of a beautiful polycule",
             "actionid": "rose",
+            "Tablereqs": {"polycule": -1},
             "requirements": {
                 "romanticinterest": 2
             },
             "comments": "careful: this is a potential weak spot if we ever start making romantic interest additive not binary",
-            "startdescription": "Two of my particular friends have chosen to call on me at the same hour. The conversation is stilted.",
-            "description": "As the evening proceeds, tempers become strained, and there is a difficult scene.",
+            "comment from Immanuelle": "We are forming a polycule here. So basically opposite the original",
+            "startdescription": "I introduced my lovers to each other. Things are going nice.",
+            "description": "We are a polycule now!.",
             "warmup": 10,
             "effects": {
-                "mystique": 1
+                "polycule": 1
             },
-            "alt": [
+            "linked": [
                 {
-                    "id": "A_roseend_expulsion",
-                    "chance": 100,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "resentment": 3
-                        }
-                    }
+                    "id": "L_roserouter",
+                    "chance": 100
                 }
             ],
-            "mutations": [
-                {
-                    "filter": "mortal",
-                    "mutate": "resentment",
-                    "level": 1,
-                    "additive": true
-                }
-            ]
+            "maxexecutions": 1
         },
         {
             "id": "A_roseend_expulsion",

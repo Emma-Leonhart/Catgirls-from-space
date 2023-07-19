@@ -133,7 +133,9 @@
         "startdescription": "The Immortal Catgirl wants more",
         "description": "The Immortal Catgirl wants more",
         "requirements":{
-            "catgirl_marks": 1
+            "powermarks": 3,
+            "enlightenmentmarks": 3,
+            "sensationmarks": 3
         },
         "linked":[
             {
