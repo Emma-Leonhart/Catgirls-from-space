@@ -42,40 +42,7 @@
                 "not_quite_dead": 1,
                 "funds": 1
             },
-            "#priority": 999,
-            "linked": [
-                {
-                    "id": "freeze_enemy_first",
-                    "chance": 100
-                },
-                {
-                    "id": "first_freeze",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "first_freeze",
-            "actionid": "work",
-            "effects":{
-                "ascensionlesson_cryonics": 1
-            },
-            "maxexecutions": 1
-        },
-        {
-            "id": "freeze_enemy_first",
-            "actionid": "work",
-            "requirements":{
-                "reckoner_frozen": 1
-            },
-            "effects":{
-                "ascensionlesson_love_your_enemies": 1
-            },
-            "linked":{
-                "id": "first_freeze",
-                "chance": 100
-            },
-            "maxexecutions": 1
+            "#priority": 999
         }
     ]
 }

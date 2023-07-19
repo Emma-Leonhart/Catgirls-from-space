@@ -112,6 +112,27 @@
             "craftable": false
         },
         {
+            "id": "polycule_router",
+            "Tablereqs": {"polycule": 1},
+            "slots": [
+                {
+                    "id": "Polycule",
+                    "label": "Polycule",
+                    "description": "Palm to palm and eye to eye.",
+                    "required": {
+                        "polycule": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "L_roserouter",
+                    "chance": 100
+                }
+            ]
+        },
+        {
             "id": "L_checkpolyamory",
             "label": "Another?",
             "actionid": "rose",
@@ -165,8 +186,7 @@
             "description": "We are a polycule now!.",
             "warmup": 10,
             "effects": {
-                "polycule": 1,
-                "ascensionlesson_polycule": 1
+                "polycule": 1
             },
             "linked": [
                 {
