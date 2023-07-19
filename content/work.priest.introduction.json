@@ -1,0 +1,162 @@
+{
+    "recipes":[
+        
+        {
+            "id": "work.priest.first",
+            "actionid": "surf",
+            "label": "Conduct My First Service",
+            "startdescription": "I have chosen as my text Matthias 7:7 - 'Ask, and it shall be given; suffer, and ye shall attain; knock, and ye shall be opened.' The Book fell open at that page. I swear that I would have not have chosen it otherwise.",
+            "description": "The sermon went well, though the echoes in this place are seductive, and I was drawn to extemporise. I do not remember all that I said, but it was all well received. When I descended from the pulpit, I tore my sleeve upon a nail, and a woman in the front row gasped.",
+            "requirements": {
+                "influencerjob": 1,
+                "passion": 1
+            },
+            "effects": {
+                "funds": 1,
+                "reason": 1
+            },
+            "warmup": 10,
+            "craftable": true,
+            "maxexecutions": 1,
+            "alt": [
+                {
+                    "id": "dream.priest.open",
+                    "additional": true
+                },
+                {
+                    "id": "study.priest.open",
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "work.priest.second",
+            "actionid": "surf",
+            "label": "Conduct a Service, and speak of the Locksmith's Dream",
+            "startdescription": "I will speak again of what Matthias said about doors, but I will speak of St Agnes, too, and of what comes at night when one has shaped a key.",
+            "description": "Some of them have had the dream, too. I see it in their faces. It's this church - the doors here are not only the doors we see. Even the valves of the heart are a door, when the limbs are properly aligned. I never said that in my sermon, but their hearts respond nonetheless to its truth.",
+            "requirements": {
+                "influencerjob": 1,
+                "reason": 1,
+                "fragmentknock": 1
+            },
+            "effects": {
+                "fervour": 1
+            },
+            "warmup": 60,
+            "craftable": true,
+            "maxexecutions": 1,
+            "alt": [
+                {
+                    "id": "priest.repevent",
+                    "additional": true
+                },
+                {
+                    "id": "explore.priest.open",
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "work.priest.third",
+            "actionid": "surf",
+            "label": "Conduct a Service",
+            "startdescription": "The congregation whispers as it waits, and the echoes are like wings in a high place, like tree-branches in the wind. The deacon and the sacristan watch me as I take my place. There is something in their eyes I didn't quite expect. Is it... pride?",
+            "description": "My heart is the crossroads of my blood. My tongue is a sharpened flame. I see shapes in the stained glass that are not always there. A grey mare; a sundered tree; a twinned serpent. When I've finished, the congregation is on their feet, stamping and hooting, and their eyes, their mouths, are doors. The sacristan takes my hand in his withered own, before the whole church. There are tears in his eyes. 'We've waited so long', he whispers.",
+            "requirements": {
+                "influencerjob": 1,
+                "ability": 1,
+                "lore": 1,
+                "fervour": 1
+            },
+            "effects": {
+                "funds": 1,
+                "fervour": -1
+            },
+            "warmup": 60,
+            "craftable": true,
+            "maxexecutions": 1,
+            "alt": [
+                {
+                    "id": "talk.priest.open",
+                    "additional": true
+                },
+                {
+                    "id": "surf.priest.open",
+                    "additional": true 
+                }
+            ]
+        },
+        {
+            "id": "dream.priest.open",
+            "actionid": "dream",
+            "label": "The Sleep of the Just",
+            "startdescription": "I have performed my devotions as I was taught. I have set aside the histories I should not have read. I no longer speak either of the Knot nor the Unconquered Sun. The Bishop's secretary was quite clear on all of that. But still, in my dreams, St Agnes comes to me now and then, and now is tonight.",
+            "description": "St Agnes walks in smoke, crushing violets beneath her narrow pale feet. St Agnes carries keys and a bright knife and a sharp candle and, in the last of her slender hands, her own martyred head. St Agnes lifts her face above my shoulder to kiss my forehead, and I open to her, like a door. When I wake, my heart is racing, my skin is pricking, my limbs jitter: I have begun to leak.",
+            "effects": {
+                "health": 1
+            },
+            "warmup": 60
+        },
+        {
+            "id": "study.priest.open",
+            "actionid": "study",
+            "label": "The Hinge in the Words",
+            "startdescription": "I have begun to unpack my books...",
+            "description": "Here is one of my old journals. A sheaf of papers slips from behind the cover, and drifts towards the floor. It is something I had copied and long tried to forget.",
+            "effects": {
+                "fragmentknock": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "explore.priest.open",
+            "actionid": "explore",
+            "label": "Old Stones",
+            "startdescription": "There is a cathedral in this city that was dedicated to St Peter of the Keys, long ago. It burned in the Fire two centuries ago. I have read that it was dedicated in secret to St Spark: perhaps that's why. When they rebuilt it, the King agreed, reluctantly, that St Peter should no longer have his keys. Once this church was dedicated to St Peter too...",
+            "description": "The church has another patron saint now. Perhaps another bishop wished to erase what the stones had seen. But the stones remember. Here is one marked with the rayed sun. Here, beneath the font, a knot. Here, in the window behind the altar, visible only at dawn, fanned like flowers, the seven keys...",
+            "effects": {
+                "hq.church": 1
+            },
+            "warmup": 30
+        },
+        
+        
+        {
+            "id": "talk.priest.open",
+            "actionid": "talk",
+            "label": "A Welcome",
+            "startdescription": "The deacon and the sacristan have come to speak with me on a private matter. They've brought a guest - someone I've never met, but someone who now drops to one knee to honour me. All three now do me honour - ",
+            "effects": {
+                "lever_LastCult": 1,
+                "lever_LastFollower": 1
+            },
+            "warmup": 30,
+            "linked": [
+                {
+                    "id": "talk.priest.open.followup"
+                }
+            ]
+        },
+        {
+            "id": "talk.priest.open.followup",
+            "actionid": "talk",
+            "label": "Rededication",
+            "startdescription": "The sacristan is weeping again. 'We've waited for you. #PREVIOUSCHARACTERNAME# taught us of the @#cultedge_1|Bright Edge#cultforge_1|power in the shaping flame#cultgrail_1|secret delights of appetite#cultheart_1|dance that does not end#cultknock_1|nature of keys#cultlantern_1|Glory#cultmoth_1|Wood#cultsecrethistories_1|many Histories#cultwinter_1|Silence#|colours beneath the world's skin@, and we have used those teachings to prepare the Way. You are our Light; you are our Threshold. We need you. Lead us.'",
+            "mutations": [
+                {
+                    "filter": "society",
+                    "mutate": "rededicable",
+                    "level": 1
+                }
+            ]
+        },
+        {
+            "id": "surf.priest.open",
+            "actionid": "surf",
+            "label": "Getting online attention",
+            "warmup": 30,
+            "description": "I'm getting online attention for my preaching"
+        }
+    ]
+}

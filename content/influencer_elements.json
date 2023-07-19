@@ -7,28 +7,10 @@
             }, 
             "slots": [
                 {
-                    "id": "ability",
-                    "label": "Ability",
-                    "required": {
-                        "passion": 1,
-                        "reason": 1,
-                        "health": 1
-                    },
-                    "actionid": "surf"
-                },
-                {
                     "id": "doctrine",
                     "label": "Doctrine",
                     "required": {
                         "lore": 1
-                    },
-                    "actionid": "surf"
-                },
-                {
-                    "id": "fervour",
-                    "label": "Fervour",
-                    "required": {
-                        "fervour": 1
                     },
                     "actionid": "surf"
                 }
