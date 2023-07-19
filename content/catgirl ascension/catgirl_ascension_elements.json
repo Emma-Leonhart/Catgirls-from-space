@@ -19,7 +19,7 @@
 		},
         {
             "id": "catgirl_dedication_2",
-            "label": "Dedication: Catgirls",
+            "label": "Dedication: Catgirl",
             "aspects": {
                 "desire": 2,
                 "nekomarks": 2
@@ -51,7 +51,7 @@
         },
         {
             "id": "catgirl_dedication_1",
-            "label": "Dedication: Catgirls",
+            "label": "Temptation: Catgirl",
             "aspects": {
                 "desire": 1,
                 "nekomarks": 1

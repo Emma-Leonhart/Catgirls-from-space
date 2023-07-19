@@ -320,7 +320,7 @@
             "requirements": {
                 "heart": 1,
                 "resentment": -1,
-                "sensationmarks": 1
+                "capitalmarks": -1
             },
             "startdescription": "In the pulsing rhythm of our shared existence, we foster a unity born of mutual respect and understanding. My companion's hand finds mine, and in the rhythm of our connection, we find the strength to counter the alienation that seeks to separate us.",
             "description": "Fostering vitality, emotion, and human connection to bridge the alienation gap.",
@@ -346,7 +346,7 @@
             "requirements": {
                 "winter": 1,
                 "resentment": -1,
-                "sensationmarks": 1
+                "capitalmarks": -1
             },
             "startdescription": "As we share in silence, the clamour of the world recedes. My companion's touch is a calming anchor in the tumultuous sea of angst, a silent refuge against the winter of discontent.",
             "description": "Exploring the silence, endings, and hidden depths to quiet the mind.",
@@ -372,7 +372,7 @@
             "requirements": {
                 "secrethistories": 1,
                 "resentment": -1,
-                "sensationmarks": 1
+                "capitalmarks": -1
             },
             "startdescription": "As we peer beneath the surface, we unveil hidden truths, reframing our shared reality. In the enigmatic gaze of my companion, I see the lust for understanding that ignites our joined purpose.",
             "description": "Uncovering hidden truths and obscured knowledge to illuminate life's absurdities.",
@@ -398,7 +398,7 @@
             "requirements": {
                 "lantern": 1,
                 "resentment": -1,
-                "enlightenmentmarks": 1
+                "capitalmarks": -1
             },
             "startdescription": "In our shared pursuit of knowledge, we rediscover forgotten truths. The light in my companion's eyes mirrors my own yearning for understanding, illuminating the past with the clarity of the present.",
             "description": "Bringing obscured or forgotten experiences back into the light with newfound understanding.",
@@ -424,7 +424,7 @@
             "requirements": {
                 "grail": 1,
                 "resentment": -1,
-                "enlightenmentmarks": 1
+                "capitalmarks": -1
             },
             "startdescription": "Together, we delve into the wellspring of our desires. The allure of experience shines in my companion's gaze, leading us away from the spiral of monotony into a vibrant array of lived moments.",
             "description": "Indulging in diverse experiences to offer a broader view of life.",
@@ -450,7 +450,7 @@
             "requirements": {
                 "edge": 1,
                 "resentment": -1,
-                "enlightenmentmarks": 1
+                "capitalmarks": -1
             },
             "startdescription": "Together, we confront the rising tide. My companion's strength emboldens me, bolstering my resolve. We shall not drown but flow with life's currents, embodying the spirit of survival and victory.",
             "description": "Embodying the spirit of survival and victory to overcome challenges.",
@@ -476,7 +476,7 @@
             "requirements": {
                 "knock": 1,
                 "resentment": -1,
-                "powermarks": 1
+                "capitalmarks": -1
             },
             "startdescription": "Together, we knock on the doors of possibility. My companion's courage fuels my own, breaking down the barriers that confine us, allowing us to transcend the chains of external entrapment.",
             "description": "Overcoming barriers and creating new paths to neutralize harmful foreign influences.",
@@ -502,7 +502,7 @@
             "requirements": {
                 "forge": 1,
                 "resentment": -1,
-                "powermarks": 1
+                "capitalmarks": -1
             },
             "startdescription": "Together, we stoke the flames of transformation. My companion's fiery determination inspires my own, melting away the rigid confines of our self-identity, leaving in its wake a more adaptable, flexible self-view.",
             "description": "Transforming rigid self-identity into a more adaptable, flexible self-view.",
@@ -528,7 +528,7 @@
             "requirements": {
                 "moth": 1,
                 "resentment": -1,
-                "powermarks": 1
+                "capitalmarks": -1
             },
             "startdescription": "In the dreamlike flicker of our shared reality, we step into various roles, each offering a fresh perspective. My companion's playful spirit guides me, freeing us both from the confines of empathic entrapment.",
             "description": "Adopting different roles and perspectives to promote a fluid identity.",

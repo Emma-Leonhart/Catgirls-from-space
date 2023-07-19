@@ -286,7 +286,7 @@
                     "chance": 100
                 }
             ]            
-        }
+        },
         {
             "id": "make.video.fragmentheart",
             "actionid": "surf",
@@ -295,7 +295,7 @@
                 "fragmentheart": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.a"},
+            "linked": { "id": "make.video.rank.a"}
         },
         {
             "id": "make.video.fragmentheartb",
@@ -305,7 +305,7 @@
                 "fragmentheartb": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.b"},
+            "linked": { "id": "make.video.rank.b"}
         },
         {
             "id": "make.video.fragmentheartc",
@@ -315,7 +315,7 @@
                 "fragmentheartc": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.c"},
+            "linked": { "id": "make.video.rank.c"}
         },
         {
             "id": "make.video.fragmentheartd",
@@ -325,7 +325,7 @@
                 "fragmentheartd": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.d"},
+            "linked": { "id": "make.video.rank.d"}
         },
         {
             "id": "make.video.fragmenthearte",
@@ -335,7 +335,7 @@
                 "fragmenthearte": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.e"},
+            "linked": { "id": "make.video.rank.e"}
         },
         {
             "id": "make.video.fragmentheartf",
@@ -345,7 +345,7 @@
                 "fragmentheartf": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.f"},
+            "linked": { "id": "make.video.rank.f"}
         },
         {
             "id": "make.video.fragmentheartg",
@@ -355,7 +355,7 @@
                 "fragmentheartg": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.g"},
+            "linked": { "id": "make.video.rank.g"}
         },
         {
             "id": "make.video.fragmentwinter",
@@ -365,7 +365,7 @@
                 "fragmentwinter": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.a"},
+            "linked": { "id": "make.video.rank.a"}
         },
         {
             "id": "make.video.fragmentwinterb",
@@ -375,7 +375,7 @@
                 "fragmentwinterb": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.b"},
+            "linked": { "id": "make.video.rank.b"}
         },
         {
             "id": "make.video.fragmentwinterc",
@@ -385,7 +385,7 @@
                 "fragmentwinterc": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.c"},
+            "linked": { "id": "make.video.rank.c"}
         },
         {
             "id": "make.video.fragmentwinterd",
@@ -395,7 +395,7 @@
                 "fragmentwinterd": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.d"},
+            "linked": { "id": "make.video.rank.d"}
         },
         {
             "id": "make.video.fragmentwintere",
@@ -405,7 +405,7 @@
                 "fragmentwintere": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.e"},
+            "linked": { "id": "make.video.rank.e"}
         },
         {
             "id": "make.video.fragmentwinterf",
@@ -415,7 +415,7 @@
                 "fragmentwinterf": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.f"},
+            "linked": { "id": "make.video.rank.f"}
         },
         {
             "id": "make.video.fragmentwinterg",
@@ -425,7 +425,7 @@
                 "fragmentwinterg": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.g"},
+            "linked": { "id": "make.video.rank.g"}
         },
         {
             "id": "make.video.fragmentsecrethistories",
@@ -435,7 +435,7 @@
                 "fragmentsecrethistories": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.a"},
+            "linked": { "id": "make.video.rank.a"}
         },
         {
             "id": "make.video.fragmentsecrethistoriesb",
@@ -445,7 +445,7 @@
                 "fragmentsecrethistoriesb": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.b"},
+            "linked": { "id": "make.video.rank.b"}
         },
         {
             "id": "make.video.fragmentsecrethistoriesc",
@@ -455,7 +455,7 @@
                 "fragmentsecrethistoriesc": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.c"},
+            "linked": { "id": "make.video.rank.c"}
         },
         {
             "id": "make.video.fragmentsecrethistoriesd",
@@ -465,7 +465,7 @@
                 "fragmentsecrethistoriesd": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.d"},
+            "linked": { "id": "make.video.rank.d"}
         },
         {
             "id": "make.video.fragmentsecrethistoriese",
@@ -475,7 +475,7 @@
                 "fragmentsecrethistoriese": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.e"},
+            "linked": { "id": "make.video.rank.e"}
         },
         {
             "id": "make.video.fragmentsecrethistoriesf",
@@ -485,7 +485,7 @@
                 "fragmentsecrethistoriesf": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.f"},
+            "linked": { "id": "make.video.rank.f"}
         },
         {
             "id": "make.video.fragmentsecrethistoriesg",
@@ -495,7 +495,7 @@
                 "fragmentsecrethistoriesg": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.g"},
+            "linked": { "id": "make.video.rank.g"}
         },
         {
             "id": "make.video.fragmentlantern",
@@ -505,7 +505,7 @@
                 "fragmentlantern": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.a"},
+            "linked": { "id": "make.video.rank.a"}
         },
         {
             "id": "make.video.fragmentlanternb",
@@ -515,7 +515,7 @@
                 "fragmentlanternb": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.b"},
+            "linked": { "id": "make.video.rank.b"}
         },
         {
             "id": "make.video.fragmentlanternc",
@@ -525,7 +525,7 @@
                 "fragmentlanternc": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.c"},
+            "linked": { "id": "make.video.rank.c"}
         },
         {
             "id": "make.video.fragmentlanternd",
@@ -535,7 +535,7 @@
                 "fragmentlanternd": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.d"},
+            "linked": { "id": "make.video.rank.d"}
         },
         {
             "id": "make.video.fragmentlanterne",
@@ -545,7 +545,7 @@
                 "fragmentlanterne": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.e"},
+            "linked": { "id": "make.video.rank.e"}
         },
         {
             "id": "make.video.fragmentlanternf",
@@ -555,7 +555,7 @@
                 "fragmentlanternf": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.f"},
+            "linked": { "id": "make.video.rank.f"}
         },
         {
             "id": "make.video.fragmentlanterng",
@@ -565,7 +565,7 @@
                 "fragmentlanterng": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.g"},
+            "linked": { "id": "make.video.rank.g"}
         },
         {
             "id": "make.video.fragmentgrail",
@@ -575,7 +575,7 @@
                 "fragmentgrail": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.a"},
+            "linked": { "id": "make.video.rank.a"}
         },
         {
             "id": "make.video.fragmentgrailb",
@@ -585,7 +585,7 @@
                 "fragmentgrailb": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.b"},
+            "linked": { "id": "make.video.rank.b"}
         },
         {
             "id": "make.video.fragmentgrailc",
@@ -595,7 +595,7 @@
                 "fragmentgrailc": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.c"},
+            "linked": { "id": "make.video.rank.c"}
         },
         {
             "id": "make.video.fragmentgraild",
@@ -605,7 +605,7 @@
                 "fragmentgraild": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.d"},
+            "linked": { "id": "make.video.rank.d"}
         },
         {
             "id": "make.video.fragmentgraile",
@@ -615,7 +615,7 @@
                 "fragmentgraile": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.e"},
+            "linked": { "id": "make.video.rank.e"}
         },
         {
             "id": "make.video.fragmentgrailf",
@@ -625,7 +625,7 @@
                 "fragmentgrailf": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.f"},
+            "linked": { "id": "make.video.rank.f"}
         },
         {
             "id": "make.video.fragmentgrailg",
@@ -635,7 +635,7 @@
                 "fragmentgrailg": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.g"},
+            "linked": { "id": "make.video.rank.g"}
         },
         {
             "id": "make.video.fragmentedge",
@@ -645,7 +645,7 @@
                 "fragmentedge": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.a"},
+            "linked": { "id": "make.video.rank.a"}
         },
         {
             "id": "make.video.fragmentedgeb",
@@ -655,7 +655,7 @@
                 "fragmentedgeb": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.b"},
+            "linked": { "id": "make.video.rank.b"}
         },
         {
             "id": "make.video.fragmentedgec",
@@ -665,7 +665,7 @@
                 "fragmentedgec": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.c"},
+            "linked": { "id": "make.video.rank.c"}
         },
         {
             "id": "make.video.fragmentedged",
@@ -675,7 +675,7 @@
                 "fragmentedged": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.d"},
+            "linked": { "id": "make.video.rank.d"}
         },
         {
             "id": "make.video.fragmentedgee",
@@ -685,7 +685,7 @@
                 "fragmentedgee": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.e"},
+            "linked": { "id": "make.video.rank.e"}
         },
         {
             "id": "make.video.fragmentedgef",
@@ -695,7 +695,7 @@
                 "fragmentedgef": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.f"},
+            "linked": { "id": "make.video.rank.f"}
         },
         {
             "id": "make.video.fragmentedgeg",
@@ -705,7 +705,7 @@
                 "fragmentedgeg": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.g"},
+            "linked": { "id": "make.video.rank.g"}
         },
         {
             "id": "make.video.fragmentknock",
@@ -715,7 +715,7 @@
                 "fragmentknock": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.a"},
+            "linked": { "id": "make.video.rank.a"}
         },
         {
             "id": "make.video.fragmentknockb",
@@ -725,7 +725,7 @@
                 "fragmentknockb": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.b"},
+            "linked": { "id": "make.video.rank.b"}
         },
         {
             "id": "make.video.fragmentknockc",
@@ -735,7 +735,7 @@
                 "fragmentknockc": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.c"},
+            "linked": { "id": "make.video.rank.c"}
         },
         {
             "id": "make.video.fragmentknockd",
@@ -745,7 +745,7 @@
                 "fragmentknockd": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.d"},
+            "linked": { "id": "make.video.rank.d"}
         },
         {
             "id": "make.video.fragmentknocke",
@@ -755,7 +755,7 @@
                 "fragmentknocke": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.e"},
+            "linked": { "id": "make.video.rank.e"}
         },
         {
             "id": "make.video.fragmentknockf",
@@ -765,7 +765,7 @@
                 "fragmentknockf": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.f"},
+            "linked": { "id": "make.video.rank.f"}
         },
         {
             "id": "make.video.fragmentknockg",
@@ -775,7 +775,7 @@
                 "fragmentknockg": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.g"},
+            "linked": { "id": "make.video.rank.g"}
         },
         {
             "id": "make.video.fragmentforge",
@@ -785,7 +785,7 @@
                 "fragmentforge": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.a"},
+            "linked": { "id": "make.video.rank.a"}
         },
         {
             "id": "make.video.fragmentforgeb",
@@ -795,7 +795,7 @@
                 "fragmentforgeb": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.b"},
+            "linked": { "id": "make.video.rank.b"}
         },
         {
             "id": "make.video.fragmentforgec",
@@ -805,7 +805,7 @@
                 "fragmentforgec": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.c"},
+            "linked": { "id": "make.video.rank.c"}
         },
         {
             "id": "make.video.fragmentforged",
@@ -815,7 +815,7 @@
                 "fragmentforged": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.d"},
+            "linked": { "id": "make.video.rank.d"}
         },
         {
             "id": "make.video.fragmentforgee",
@@ -825,7 +825,7 @@
                 "fragmentforgee": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.e"},
+            "linked": { "id": "make.video.rank.e"}
         },
         {
             "id": "make.video.fragmentforgef",
@@ -835,7 +835,7 @@
                 "fragmentforgef": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.f"},
+            "linked": { "id": "make.video.rank.f"}
         },
         {
             "id": "make.video.fragmentforgeg",
@@ -845,7 +845,7 @@
                 "fragmentforgeg": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.g"},
+            "linked": { "id": "make.video.rank.g"}
         },
         {
             "id": "make.video.fragmentmoth",
@@ -855,7 +855,7 @@
                 "fragmentmoth": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.a"},
+            "linked": { "id": "make.video.rank.a"}
         },
         {
             "id": "make.video.fragmentmothb",
@@ -865,7 +865,7 @@
                 "fragmentmothb": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.b"},
+            "linked": { "id": "make.video.rank.b"}
         },
         {
             "id": "make.video.fragmentmothc",
@@ -875,7 +875,7 @@
                 "fragmentmothc": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.c"},
+            "linked": { "id": "make.video.rank.c"}
         },
         {
             "id": "make.video.fragmentmothd",
@@ -885,7 +885,7 @@
                 "fragmentmothd": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.d"},
+            "linked": { "id": "make.video.rank.d"}
         },
         {
             "id": "make.video.fragmentmothe",
@@ -895,7 +895,7 @@
                 "fragmentmothe": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.e"},
+            "linked": { "id": "make.video.rank.e"}
         },
         {
             "id": "make.video.fragmentmothf",
@@ -905,7 +905,7 @@
                 "fragmentmothf": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.f"},
+            "linked": { "id": "make.video.rank.f"}
         },
         {
             "id": "make.video.fragmentmothg",
@@ -915,7 +915,7 @@
                 "fragmentmothg": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.g"},
+            "linked": { "id": "make.video.rank.g"}
         },
         {
             "id": "make.video.fragmenthand",
@@ -925,7 +925,7 @@
                 "fragmenthand": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.a"},
+            "linked": { "id": "make.video.rank.a"}
         },
         {
             "id": "make.video.fragmenthandb",
@@ -935,7 +935,7 @@
                 "fragmenthandb": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.b"},
+            "linked": { "id": "make.video.rank.b"}
         },
         {
             "id": "make.video.fragmenthandc",
@@ -945,7 +945,7 @@
                 "fragmenthandc": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.c"},
+            "linked": { "id": "make.video.rank.c"}
         },
         {
             "id": "make.video.fragmenthandd",
@@ -955,7 +955,7 @@
                 "fragmenthandd": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.d"},
+            "linked": { "id": "make.video.rank.d"}
         },
         {
             "id": "make.video.fragmenthande",
@@ -965,7 +965,7 @@
                 "fragmenthande": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.e"},
+            "linked": { "id": "make.video.rank.e"}
         },
         {
             "id": "make.video.fragmenthandf",
@@ -975,7 +975,7 @@
                 "fragmenthandf": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.f"},
+            "linked": { "id": "make.video.rank.f"}
         },
         {
             "id": "make.video.fragmenthandg",
@@ -985,7 +985,7 @@
                 "fragmenthandg": 1
             },
             "craftable": false,
-            "linked": { "id": "make.video.rank.g"},
+            "linked": { "id": "make.video.rank.g"}
         }
     ]
 }
