@@ -65,6 +65,18 @@
             "label": "Experienced infinite love in a polycule.",
             "isAspect": true,
             "icon": "remembrancemarks"
+        },
+        {
+            "id": "cat_hugger",
+            "label": "Hugged kitties.",
+            "isAspect": true,
+            "icon": "remembrancemarks"
+        },
+        {
+            "id": "cryonics_ascended",
+            "label": "Saved my friend.",
+            "isAspect": true,
+            "icon": "remembrancemarks"
         }
     ]
 }

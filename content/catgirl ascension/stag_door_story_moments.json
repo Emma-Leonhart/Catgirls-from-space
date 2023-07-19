@@ -213,10 +213,48 @@
                 "chance": 100
             },
             {
+                "id": "ascend_cryonics",
+                "chance": 100
+            },
+            {
                 "id": "ascend_mercy",
+                "chance": 100
+            },
+            {
+                "id": "ascend_cats",
                 "chance": 100
             }
         ]
+    },
+    {
+        "id": "ascend_cats",
+        "label": "The Immortal catgirl wants more",
+        "startdescription": "The Immortal Catgirl wants more",
+        "description": "The Immortal Catgirl wants more",
+        "requirements": {"ascensionlesson_pet_cats": 1}, 
+        "warmup": 60,
+        "mutations": [
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "cat_hugger",
+                "level": 1
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "nekomarks",
+                "level": 1,
+                "additive": true
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "desire",
+                "level": 1,
+                "additive": true
+            }
+        ],
+        "effects":{
+            "catgirl_lesson": -1
+        }
     },
     {
         "id": "ascend_polycule",
@@ -229,6 +267,36 @@
             {
                 "filter": "catgirl_dedication_3",
                 "mutate": "infinite_love",
+                "level": 1
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "nekomarks",
+                "level": 1,
+                "additive": true
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "desire",
+                "level": 1,
+                "additive": true
+            }
+        ],
+        "effects":{
+            "catgirl_lesson": -1
+        }
+    },
+    {
+        "id": "ascend_cryonics",
+        "label": "The Immortal catgirl wants more",
+        "startdescription": "The Immortal Catgirl wants more",
+        "description": "The Immortal Catgirl wants more",
+        "requirements": {"ascensionlesson_cryonics": 1}, 
+        "warmup": 60,
+        "mutations": [
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "defiance.underlingdefeated",
                 "level": 1
             },
             {
