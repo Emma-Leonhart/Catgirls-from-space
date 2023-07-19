@@ -2283,36 +2283,6 @@
             
             
             "uniquenessgroup": "uqysabet"
-        },
-        {
-            "id": "generic_frozen",
-            "label": "Frozen A Hanger-On",
-            "aspects": {
-                "frozen": 1,
-                "portable": 1
-            },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
-            "comments": "legacy element to keep saves valid",
-            "xtriggers": {
-                "recruiting": "generic_b",
-                "killmortal": "corpse",
-                "derangemortal": "lunatic",
-                "rebellion": "generic_r"
-            }
-        },
-        {
-            "id": "generic_corpse",
-            "decayto": "corpse",
-            "lifetime": 300,
-            "label": "Almost Dead A Pawn",
-            "aspects": {
-                "not_quite_dead": 1
-            },
-            "description": "This one is loyal, but lacks initiative.",
-            "comments": "This is a legacy element to support older saves.",
-            "xtriggers": {
-                "freeze": "generic_frozen"
-            }
         }
     ]
 }
