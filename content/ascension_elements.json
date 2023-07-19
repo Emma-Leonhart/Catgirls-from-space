@@ -338,6 +338,17 @@
 			"description": "I may seek immortality and enlightenment in the Hour called the Watchman. His touch brings particular appetites, and Marks."
 		},
         {
+            "id": "nekomarks",
+            "label": "The Marks of the Immortal Catgirl",
+            "isAspect": true,
+            "description": "I may seek Immortality and harmony in the Immortal Catgirl. Her touch brings connection.",
+            "aspects":{
+                "powermarks": 1,
+                "capitalmarks": 1,
+                "enlightenmentmarks": 1
+            }
+        },
+        {
             "id": "ascensionpowera",
             "label": "Inspiration: Imagination",
             "description": "It has occurred to me that imagination is the key to freedom. [This card will allow you to win an Omega victory, if you upgrade it far enough. Dreaming about it might advance or change it.]"

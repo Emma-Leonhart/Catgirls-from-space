@@ -5,12 +5,7 @@
             "label": "Ascension: Catgirl",
             "aspects": {
                 "desire": 3,
-                "powermarks": 3,
-                "enlightenmentmarks": 3,
-                "sensationmarks": 3
-            },
-            "xtriggers": {
-                "ascend": "catgirl_dedication_4"
+                "nekomarks": 3
             },
             "description": "The Red Grail has warmed me. Its thirsts have begun to dry my mouth and itch my hands. I know this to be the Third Mark.",
             "uniquenessgroup": "uqdesire",
@@ -27,9 +22,7 @@
             "label": "Dedication: Catgirls",
             "aspects": {
                 "desire": 2,
-                "powermarks": 2,
-                "enlightenmentmarks": 2,
-                "sensationmarks": 2
+                "nekomarks": 2
             },
             "description": "I have dedicated myself to the acquisition of immortal power, at any cost. [Upgrade this card further to make a Power victory possible. I must be a true initiate of the Mansus; I'll need to Work with Forge-aspect to invoke the Forge of Days and begin the change.]",
             "slots": [
@@ -61,9 +54,7 @@
             "label": "Dedication: Catgirls",
             "aspects": {
                 "desire": 1,
-                "powermarks": 1,
-                "enlightenmentmarks": 1,
-                "sensationmarks": 1
+                "nekomarks": 1
             },
             "description": "I have dedicated myself to the acquisition of immortal power, at any cost. [Upgrade this card further to make a Power victory possible. I must be a true initiate of the Mansus; I'll need to Work with Forge-aspect to invoke the Forge of Days and begin the change.]",
             "slots": [

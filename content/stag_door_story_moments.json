@@ -223,19 +223,7 @@
             },
             {
                 "filter": "catgirl_dedication_3",
-                "mutate": "sensationmarks",
-                "level": 1,
-                "additive": true
-            },
-            {
-                "filter": "catgirl_dedication_3",
-                "mutate": "enlightenmentmarks",
-                "level": 1,
-                "additive": true
-            },
-            {
-                "filter": "catgirl_dedication_3",
-                "mutate": "powermarks",
+                "mutate": "nekomarks",
                 "level": 1,
                 "additive": true
             },
