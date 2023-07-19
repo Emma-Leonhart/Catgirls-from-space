@@ -8,7 +8,8 @@
             },
             "description": "You are enlightened with infinite love",
             "unique": true,
-            "comment": "based on ascensionlessonhearta from the dancer legacy"
+            "comment": "based on ascensionlessonhearta from the dancer legacy",
+            "icon": "ascensionlesson_polycule"
         },
         {
             "id": "ascensionlesson_cryonics",  
@@ -18,7 +19,8 @@
             },
             "description": "You shall live forever",
             "unique": true,
-            "comment": "based on ascensionlessonhearta from the dancer legacy"
+            "comment": "based on ascensionlessonhearta from the dancer legacy",
+            "icon": "ascensionlessonmothf"
         },
         {
             "id": "ascensionlesson_love_your_enemies",  
@@ -28,7 +30,30 @@
             },
             "description": "Everyone deserves to live forever",
             "unique": true,
-            "comment": "based on ascensionlessonhearta from the dancer legacy"
+            "comment": "based on ascensionlessonhearta from the dancer legacy",
+            "icon": "ascensionlessonmothf"
+        },
+        {
+            "id": "ascensionlesson_pet_cats",  
+            "label": "Pet Kitties!",
+            "aspects": {
+                "catgirl_lesson": 1
+            },
+            "description": "Take some time to enjoy yourself with aliens!",
+            "unique": true,
+            "comment": "based on ascensionlessonhearta from the dancer legacy",
+            "icon": "op.cats"
+        },
+        {
+            "id": "ascensionlesson_revolution",
+            "label": "Freedom!",
+            "aspects": {
+                "catgirl_lesson": 1
+            },
+            "description": "I brought freedom from the invisible hand",
+            "unique": true,
+            "comment": "based on ascensionlessonhearta from the dancer legacy",
+            "icon": "ascensionlessonmothf"
         },
         {
             "id": "catgirl_lesson",

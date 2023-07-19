@@ -5215,7 +5215,8 @@
                     "id": "defiance",
                     "label": "Defiance",
                     "required": {
-                        "temptation.defiance": 1
+                        "temptation.defiance": 1,
+                        "catgirl_dedication_3": 1
                     }
                 }
             ],

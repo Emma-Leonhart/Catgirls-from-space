@@ -756,7 +756,7 @@
                 "forge": 8,
                 "domicile": 1,
                 "location": 1,
-                "temptation.defiance": 1,
+                "catgirl_dedication_3": 1,
                 "troubled": 1,
                 "turmoil": -1
             },
@@ -778,8 +778,8 @@
                             "space": 1,
                             "op.connection.radicals": 1,
                             "domicile": 1,
-                "location": 1,
-                            "temptation.defiance": 1
+                            "location": 1,
+                            "catgirl_dedication_3": 1
                         }
                     }
                 }
@@ -1814,7 +1814,8 @@
                 "opx.uprising.complete": 1
             },
             "effects": {
-                "trail.false.exile": 1
+                "trail.false.exile": 1,
+                "ascensionlesson_revolution": 1
             },
             "linked": [
                 {
@@ -1906,8 +1907,8 @@
             },
             "mutations": [
                 {
-                    "filter": "temptation.defiance",
-                    "mutate": "defiancemarks",
+                    "filter": "catgirl_dedication_3",
+                    "mutate": "nekomarks",
                     "level": 1,
                     "additive": true
                 },

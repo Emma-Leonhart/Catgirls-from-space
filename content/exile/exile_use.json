@@ -1070,7 +1070,8 @@
                     "label": "Light",
                     "description": "'When all candles be out, all cats be grey.'",
                     "required": {
-                        "lantern": 1
+                        "lantern": 1,
+                        "catgirl_dedication_3": 1
                     }
                 }
             ],
