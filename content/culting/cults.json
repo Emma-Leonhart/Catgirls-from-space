@@ -166,7 +166,15 @@
             "label": "Catgirl Army",
             "aspects": {
                 "society": 1,
-                "venerationbalance": 1
+                "venerationheart": 1,
+                "venerationwinter": 1,
+                "venerationsecret": 1,
+                "venerationlantern": 1,
+                "venerationgrail": 1,
+                "venerationedge": 1,
+                "venerationknock": 1,
+                "venerationforge": 1,
+                "venerationmoth": 1
             },
             "slots": [
                 {

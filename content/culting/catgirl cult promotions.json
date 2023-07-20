@@ -1,0 +1,211 @@
+{
+    "recipes":[
+        {
+            "id": "promoteto_d_heart_cult_catgirl",
+            "label": "Attempt to Exalt a Disciple to a Tarantellist",
+            "actionid": "talk",
+            "requirements": {
+                "cult_catgirl": 1,
+                "follower": 1,
+                "heart": 21,
+                "exalted": -1,
+                "potential": 1
+            },
+            "effects": {
+                "ingredient": -1,
+                "influence": -1
+            },
+            "aspects": {
+                "promotionto_d_heart": 1
+            },
+            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
+            "description": "'By the Pine and the Knife, by the Drum and the Circle, I pledge myself to lead the Dance that does not end. This is my service, but in the end, it is only the Dance that I serve. '",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "promoteto_d_winter_cult_catgirl",
+            "label": "Attempt to Exalt a Disciple",
+            "actionid": "talk",
+            "requirements": {
+                "cult_catgirl": 1,
+                "follower": 1,
+                "winter": 21,
+                "exalted": -1,
+                "potential": 1
+            },
+            "effects": {
+                "ingredient": -1,
+                "influence": -1
+            },
+            "aspects": {
+                "promotionto_d_winter": 1
+            },
+            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
+            "description": "\"'...?' '...?' '...?'\r\n\t\t\r\n\t\t'...'\"",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "promoteto_d_secret_cult_catgirl",
+            "label": "Attempt to Exalt a Disciple to a Veilkeeper",
+            "actionid": "talk",
+            "requirements": {
+                "cult_catgirl": 1,
+                "follower": 1,
+                "secrethistories": 21,
+                "exalted": -1,
+                "potential": 1
+            },
+            "effects": {
+                "ingredient": -1,
+                "influence": -1
+            },
+            "aspects": {
+                "promotionto_d_secrethistories": 1
+            },
+            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
+            "description": "'This was my past, but now I've evolved. These are my teachings, which I transcend. Here is my belief, but it is not my limit. Here is my identity, which is merely a riddle. Here is the Archive, where we illuminate the shadows. Here I sought, and here I have found.'",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "promoteto_d_lantern_cult_catgirl",
+            "label": "Attempt to Exalt a Disciple to a Seer",
+            "actionid": "talk",
+            "requirements": {
+                "cult_catgirl": 1,
+                "follower": 1,
+                "lantern": 21,
+                "exalted": -1,
+                "potential": 1
+            },
+            "effects": {
+                "ingredient": -1,
+                "influence": -1
+            },
+            "aspects": {
+                "promotionto_d_lantern": 1
+            },
+            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
+            "description": "'I pledge myself to light the way for the willing and for the unwilling. I pledge myself to navigate. I pledge myself to illuminate. I pledge myself against mercy. I will walk the path that is shown, no matter the price.'",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "promoteto_d_grail_cult_catgirl",
+            "label": "Attempt to Exalt a Disciple to a Cyprian",
+            "actionid": "talk",
+            "requirements": {
+                "cult_catgirl": 1,
+                "follower": 1,
+                "grail": 21,
+                "exalted": -1,
+                "potential": 1
+            },
+            "effects": {
+                "ingredient": -1,
+                "influence": -1
+            },
+            "aspects": {
+                "promotionto_d_grail": 1
+            },
+            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
+            "description": "'By the Copper and the Crow, by She for whom we Hunger and She who Hungers for us, I pledge myself to be the Feaster and the Feast. I will be devoured and I will devour.'",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "promoteto_d_edge_cult_catgirl",
+            "label": "Attempt to Exalt a Disciple to an Assassin",
+            "actionid": "talk",
+            "requirements": {
+                "cult_catgirl": 1,
+                "follower": 1,
+                "edge": 21,
+                "exalted": -1,
+                "potential": 1
+            },
+            "effects": {
+                "ingredient": -1,
+                "influence": -1
+            },
+            "aspects": {
+                "promotionto_d_edge": 1
+            },
+            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
+            "description": "'As the Lionsmith knelt to the Colonel, so now I kneel. My service ends in death, or in the resolution of strengths.'",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "promoteto_d_knock_cult_catgirl",
+            "label": "Attempt to Exalt a Disciple to a Key",
+            "actionid": "talk",
+            "requirements": {
+                "cult_catgirl": 1,
+                "follower": 1,
+                "knock": 21,
+                "exalted": -1,
+                "potential": 1
+            },
+            "effects": {
+                "ingredient": -1,
+                "influence": -1
+            },
+            "aspects": {
+                "promotionto_d_knock": 1
+            },
+            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
+            "description": "'No lock remains. No door remains. No gate remains. No wall remains. No fortress is closed against me. No country forbids me. No law binds but the law of the Mother. I am a Key, and this is my use.'",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "promoteto_d_forge_cult_catgirl",
+            "label": "Attempt to Exalt a Disciple to a Reshaper",
+            "actionid": "talk",
+            "requirements": {
+                "cult_catgirl": 1,
+                "follower": 1,
+                "forge": 21,
+                "exalted": -1,
+                "potential": 1
+            },
+            "effects": {
+                "ingredient": -1,
+                "influence": -1
+            },
+            "aspects": {
+                "promotionto_d_forge": 1
+            },
+            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
+            "description": "'I am the hammer and the anvil; I am the fire's touch and the iron's blessing. I pledge myself to the final conflagration.'",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "promoteto_d_moth_cult_catgirl",
+            "label": "Attempt to Exalt a Disciple to a Skintwister",
+            "actionid": "talk",
+            "requirements": {
+                "cultmoth_1": 1,
+                "follower": 1,
+                "moth": 21,
+                "exalted": -1,
+                "potential": 1
+            },
+            "effects": {
+                "ingredient": -1,
+                "influence": -1
+            },
+            "aspects": {
+                "promotionto_d_moth": 1
+            },
+            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
+            "description": "'This was my past, but now I am changed. These are my garments, which I set aside. Here is my skin, but it is loaned to me. Here is my name, which is only a blindfold. Here is the Wood, where we strangle the light. Here I was, and here I am not.'",
+            "warmup": 60,
+            "craftable": true
+        }
+    ]
+}
