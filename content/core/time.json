@@ -578,12 +578,34 @@
                     "chance": 100,
                     "actionid": "sickness",
                     "label": "Saved by Cryonics",
-                    "requirements": {
-                        "cryonics_facility": 1
+                    "extantreqs": {
+                        "cryonics_facility": 1,
+                        "health": -1
                     },
+                    "slots": [
+                        {
+                            "id": "sicknessprotection",
+                            "label": "Protection",
+                            "required": {
+                                "sicknessprotection": 1,
+                                "cryonics_facility": 1
+                            },
+                            "greedy": true
+                        }
+                    ],
                     "startdescription": "I'm happy I set up my facility. My successor will revive me",
                     "ending": "cryonics_continue",
-                    "warmup": 60
+                    "warmup": 60,
+                    "linked": [
+                        {
+                            "id": "saved_by_cryonics",
+                            "chance": 100
+                        },
+                        {
+                            "id": "deathofthebody",
+                            "chance": 100
+                        }
+                    ]
                 },
                 {
                     "id": "mareendingstarvation",

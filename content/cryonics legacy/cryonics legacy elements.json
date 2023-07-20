@@ -12,13 +12,13 @@
         },
         {
             "id": "introcorpse",
-            "label": "A houseless person",
-            "description": "A houseless person who asked in his last breath to be revived.",
+            "label": "A customer",
+            "description": "A customer I have to freeze.",
             "aspects": {
                 "legacyplotitem": 1,
                 "not_quite_dead": 1
             },
-            "icon": "corpse",
+            "icon": "corpse.exile.underling",
             "xtriggers": {
                 "freeze": "generic_frozen"
             }
@@ -34,6 +34,35 @@
             "icon": "corpse",
             "xtriggers": {
                 "freeze": "last_player_cryonics"
+            }
+        },
+        {
+            "id": "cryonics_promotion",
+            "label": "Promotional skill",
+            "description": "My dedication to promote cryonics",
+            "slots":[
+                {
+                    "id": "passion",
+                    "label": "Passion",
+                    "required":{
+                        "passion": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cryonics_customer",
+            "label": "A customer",
+            "icon": "corpse.exile.underling",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "aspects": {
+                "not_quite_dead": 1
+            },
+            "description": "A customer I have to freeze.",
+            "comments": "This is a legacy element to support older saves.",
+            "xtriggers": {
+                "freeze": "generic_frozen"
             }
         }
     ]

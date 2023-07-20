@@ -80,7 +80,8 @@
                     "patron": 1,
                     "society": 1,
                     "hq": 1,
-                    "lore": 1
+                    "lore": 1,
+                    "cryonics_promotion": 1
                 },
                 "forbidden": {
                     "exhausted": 1,

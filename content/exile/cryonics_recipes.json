@@ -23,7 +23,7 @@
             },
             "warmup": 30,
             "effects": {
-                "cryonics_facility": 1
+                "cryonics_facility": 1 
             }
         },
         {
@@ -31,7 +31,7 @@
             "actionid": "work",
             "label": "Save someone from death",
             "startdescription": "Save someone from death by freezing them. [Warning this will make escaping pursuers more resource intensive]",
-            "warmup": 60,
+            "warmup": 25,
             "craftable": true,
             "aspects": {
                 "freeze": 1,
@@ -42,7 +42,7 @@
                 "not_quite_dead": 1,
                 "funds": 1
             },
-            "#priority": 999,
+            "#priority": 950,
             "linked": [
                 {
                     "id": "freeze_enemy_first",

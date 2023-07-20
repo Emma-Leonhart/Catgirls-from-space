@@ -45,6 +45,45 @@
           "rkx.weakness.flowermaker.hidden"
         ],
         "resetonexhaustion": true
+      },
+      {
+        "id": "cryonicshometown",
+        "label": "Cryonics hometown",
+        "spec": [
+          "domicile.aachen",
+                "domicile.alexandria",
+                "domicile.algiers",
+                "domicile.amsterdam",
+                "domicile.avignon",
+                "domicile.baghdad",
+                "domicile.budapest",
+                "domicile.candia",
+                "domicile.cluj",
+                "domicile.granada",
+                "domicile.istanbul",
+                "domicile.kaunas",
+                "domicile.kiev",
+                "domicile.krakow",
+                "domicile.leningrad",
+                "domicile.london",
+                "domicile.marrakech",
+                "domicile.meshad",
+                "domicile.munich",
+                "domicile.nizhny",
+                "domicile.paris",
+                "domicile.prague",
+                "domicile.rostock",
+                "domicile.samarkand",
+                "domicile.stalingrad",
+                "domicile.strasbourg",
+                "domicile.sverdlovsk",
+                "domicile.tiflis",
+                "domicile.tirana",
+                "domicile.tripoli",
+                "domicile.valletta",
+                "domicile.venice",
+                "domicile.vienna"
+        ]
       }
     ]
 }

@@ -10,9 +10,9 @@
                 "funds": 1
             },
             "effects":{
-                "funds": 1
+                "funds": 3
             },
-            "warmup": 60,
+            "warmup": 25,
             "alt": [
                 {
                     "id": "cryonics.travel.open",
@@ -23,7 +23,8 @@
             "aspects": {
                 "fatiguing": 1,
                 "freeze": 1
-            }
+            },
+            "maxexecutions": 1
         },
         {
             "id": "cryonics.travel.open",
@@ -34,7 +35,6 @@
                 "funds": 3,
                 "lever_LastFollower": 1,
                 "lever_lastfrozen": 1,
-                "lever_LastCult": 1,
                 "lever_lastbook": 1
             },
             "alt":[
@@ -43,7 +43,8 @@
                     "chance": 100,
                     "additional": true
                 }
-            ]
+            ],
+            "warmup": 60
         },
         {
             "id": "cryonics.dream.open",
@@ -55,6 +56,172 @@
                 "passion": 4,
                 "health": 4
             }
+        },
+        {
+            "id": "cryonics.freeze.leader",
+            "actionid": "work",
+            "craftable": true,
+            "requirements":{
+                "leadercorpse": 1,
+                "cryonics_facility": 1,
+                "funds": 1
+            },
+            "warmup": 60,
+            "startdescription": "They rushed #PREVIOUSCHARACTERNAME# into the room, and I began freezing them immediately. They are the most important person I ever froze.",
+            "description": "As I freeze our leader #PREVIOUSCHARACTERNAME# their last follower said to me. Take the reigns of responsibility for our cult.",
+            "maxexecutions": 1,
+            "effects":{
+                "lever_LastCult": 1
+            },
+            "alt": [
+                {
+                    "id": "cryonics.talk.open",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "aspects": {
+                "fatiguing": 1,
+                "freeze": 1
+            },
+            "maxexecutions": 1,
+            "$priority": 999
+        },
+        {
+            "id": "cryonics.talk.open",
+            "actionid": "talk",
+            "label": "Talking about the future",
+            "startdescription": "The cult speaks to me. I am the best successor. I will revive #PREVIOUSCHARACTERNAME#.",
+            "description": ".",
+            "warmup": 60,
+            "alt": [
+                {
+                    "id": "cryonics.explore.open",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "linked":[
+                {
+                    "id": "first_promotion",
+                    "chance": 100
+                }
+            ],
+            "effects":{
+                "cryonics_promotion": 1,
+                "passion": 1
+            }
+        },
+        {
+            "id": "cryonics.explore.open",
+            "actionid": "explore",
+            "label": "Examining the town, looking for safety",
+            "deckeffects": {
+                "cryonicshometown": 1
+            },
+            "warmup": 60,
+            "maxexecutions": 1
+        },
+        {
+            "id": "first_promotion",
+            "label": "Seeking work",
+            "warmup": 25,
+            "actionid": "talk",
+            "startdescription": "I still need to do my job, finding people to freeze. That's how I make my living",
+            "requirements":{
+                "passion": 1,
+                "cryonics_promotion": 1
+            },
+            "effects":{
+                "cryonics_customer": 1
+            },
+            "alt":[
+                {
+                    "id": "drawseason",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "cryonics.study.open",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "aspects":{
+                "fatiguing": 1
+            },
+            "craftable": true
+        },
+        {
+            "id": "freeze_customer",
+            "actionid": "work",
+            "label": "Freeze a customer",
+            "startdescription": "Save someone from death by freezing them. [Warning this will make escaping pursuers more resource intensive]",
+            "warmup": 25,
+            "craftable": true,
+            "aspects": {
+                "freeze": 1,
+                "fatiguing": 1
+            },
+            "requirements":{
+                "cryonics_facility": 1,
+                "cryonics_customer": 1,
+                "funds": 1
+            },
+            "effects": {
+                "funds": 3
+            },
+            "#priority": 990,
+            "linked": [
+                {
+                    "id": "freeze_enemy_first",
+                    "chance": 100
+                },
+                {
+                    "id": "first_freeze",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "cryonics.study.open",
+            "actionid": "study",
+            "warmup": 60,
+            "label": "Studying cryonics to help my sales",
+            "effects":{
+                "glimmering": 1,
+                "dread": 1
+            },
+            "alt":[
+                {
+                    "id": "cryonics.relinquish.open",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "cryonics.relinquish.open",
+            "actionid": "relinquish",
+            "warmup": 60,
+            "label": "trying to get over my angst",
+            "startdescription": "I need to meditate. I'm filled with dread over my ",
+            "slots": [
+				{
+					"id": "dread",
+					"label": "Stress?",
+					"description": "I need more",
+					"required": {
+						"dread": 1
+					},
+					"greedy": true
+				}
+			],
+            "effects":{
+                "dread": -1,
+                "contentment": 1
+            },
+            "craftable": false
         }
     ]
 }
