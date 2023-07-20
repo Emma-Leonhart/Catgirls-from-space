@@ -24,17 +24,7 @@
             "requirements": {
                 "influencerjob": 1
             },
-            "craftable": true,
-            "linked": [
-                {
-                    "id": "make.video.too.complicated",
-                    "chance": 100
-                },
-                {
-                    "id": "make.video.simple",
-                    "chance": 100
-                }
-            ]
+            "craftable": true
         },
         {
             "id": "make.video.start",
@@ -47,11 +37,7 @@
             "craftable": true,
             "linked": [
                 {
-                    "id": "make.video.too.complicated",
-                    "chance": 100
-                },
-                {
-                    "id": "make.video.simple",
+                    "id": "make.video.fragment.router",
                     "chance": 100
                 }
             ]
