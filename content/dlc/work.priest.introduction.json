@@ -3,7 +3,7 @@
         
         {
             "id": "work.priest.first",
-            "actionid": "surf",
+            "actionid": "work",
             "label": "Conduct My First Service",
             "startdescription": "I have chosen as my text Matthias 7:7 - 'Ask, and it shall be given; suffer, and ye shall attain; knock, and ye shall be opened.' The Book fell open at that page. I swear that I would have not have chosen it otherwise.",
             "description": "The sermon went well, though the echoes in this place are seductive, and I was drawn to extemporise. I do not remember all that I said, but it was all well received. When I descended from the pulpit, I tore my sleeve upon a nail, and a woman in the front row gasped.",
@@ -31,7 +31,7 @@
         },
         {
             "id": "work.priest.second",
-            "actionid": "surf",
+            "actionid": "work",
             "label": "Conduct a Service, and speak of the Locksmith's Dream",
             "startdescription": "I will speak again of what Matthias said about doors, but I will speak of St Agnes, too, and of what comes at night when one has shaped a key.",
             "description": "Some of them have had the dream, too. I see it in their faces. It's this church - the doors here are not only the doors we see. Even the valves of the heart are a door, when the limbs are properly aligned. I never said that in my sermon, but their hearts respond nonetheless to its truth.",
@@ -59,7 +59,7 @@
         },
         {
             "id": "work.priest.third",
-            "actionid": "surf",
+            "actionid": "work",
             "label": "Conduct a Service",
             "startdescription": "The congregation whispers as it waits, and the echoes are like wings in a high place, like tree-branches in the wind. The deacon and the sacristan watch me as I take my place. There is something in their eyes I didn't quite expect. Is it... pride?",
             "description": "My heart is the crossroads of my blood. My tongue is a sharpened flame. I see shapes in the stained glass that are not always there. A grey mare; a sundered tree; a twinned serpent. When I've finished, the congregation is on their feet, stamping and hooting, and their eyes, their mouths, are doors. The sacristan takes my hand in his withered own, before the whole church. There are tears in his eyes. 'We've waited so long', he whispers.",
@@ -84,7 +84,7 @@
                 {
                     "id": "surf.priest.open",
                     "additional": true 
-                }
+                } 
             ]
         },
         {
@@ -153,7 +153,7 @@
         },
         {
             "id": "surf.priest.open",
-            "actionid": "surf",
+            "actionid": "work",
             "label": "Getting online attention",
             "warmup": 30,
             "description": "I'm getting online attention for my preaching"
