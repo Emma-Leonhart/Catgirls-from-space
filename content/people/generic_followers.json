@@ -506,7 +506,8 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r"
-            }
+            },
+            "icon": "frozen_person"
         },
         {
             "id": "generic_corpse",

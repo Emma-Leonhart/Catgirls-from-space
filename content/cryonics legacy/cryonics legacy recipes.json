@@ -10,12 +10,50 @@
                 "funds": 1
             },
             "effects":{
+                "funds": 1
+            },
+            "warmup": 60,
+            "alt": [
+                {
+                    "id": "cryonics.travel.open",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "aspects": {
+                "fatiguing": 1,
+                "freeze": 1
+            }
+        },
+        {
+            "id": "cryonics.travel.open",
+            "actionid": "travel",
+            "label": "A patient has arrived",
+            "effects":{
                 "leadercorpse": 1,
                 "funds": 3,
-                "lever_LastCult": 1,
                 "lever_LastFollower": 1,
                 "lever_lastfrozen": 1,
+                "lever_LastCult": 1,
                 "lever_lastbook": 1
+            },
+            "alt":[
+                {
+                    "id": "cryonics.dream.open",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "cryonics.dream.open",
+            "actionid": "dream",
+            "warmup": 60,
+            "effects":{
+                "lever_lastdesire": 1,
+                "reason": 4,
+                "passion": 4,
+                "health": 4
             }
         }
     ]

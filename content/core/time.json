@@ -574,6 +574,18 @@
             },
             "alt": [
                 {
+                    "id": "saved_by_cryonics_2",
+                    "chance": 100,
+                    "actionid": "sickness",
+                    "label": "Saved by Cryonics",
+                    "requirements": {
+                        "cryonics_facility": 1
+                    },
+                    "startdescription": "I'm happy I set up my facility. My successor will revive me",
+                    "ending": "cryonics_continue",
+                    "warmup": 60
+                },
+                {
                     "id": "mareendingstarvation",
                     "actionid": "illhealth",
                     "label": "The Mare In Me",

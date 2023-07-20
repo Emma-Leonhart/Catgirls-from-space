@@ -8,7 +8,7 @@
                 "legacyplotitem": 1,
                 "frozen": 1
             },
-            "icon": "corpse"
+            "icon": "frozen_person"
         },
         {
             "id": "introcorpse",
@@ -18,7 +18,10 @@
                 "legacyplotitem": 1,
                 "not_quite_dead": 1
             },
-            "icon": "corpse"
+            "icon": "corpse",
+            "xtriggers": {
+                "freeze": "generic_frozen"
+            }
         },
         {
             "id": "leadercorpse",
@@ -27,6 +30,10 @@
             "aspects": {
                 "legacyplotitem": 1,
                 "not_quite_dead": 1
+            },
+            "icon": "corpse",
+            "xtriggers": {
+                "freeze": "last_player_cryonics"
             }
         }
     ]

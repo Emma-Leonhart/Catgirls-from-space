@@ -416,7 +416,7 @@
                 "funds": 5
             },
             "fromending": "cryonics_continue",
-            "availableWithoutEndingMatch": false,
+            "availableWithoutEndingMatch": true,
             "statusbarelements": [
                 "health",
                 "reason",
