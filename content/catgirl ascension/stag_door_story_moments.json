@@ -331,6 +331,36 @@
         }
     },
     {
+        "id": "ascend_youtube",
+        "label": "The Immortal catgirl wants more",
+        "startdescription": "The Immortal Catgirl wants more",
+        "description": "The Immortal Catgirl wants more",
+        "requirements": {"ascensionlesson_youtube": 1}, 
+        "warmup": 60,
+        "mutations": [
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "youtube_ascension",
+                "level": 1
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "nekomarks",
+                "level": 1,
+                "additive": true
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "desire",
+                "level": 1,
+                "additive": true
+            }
+        ],
+        "effects":{
+            "catgirl_lesson": -1
+        }
+    },
+    {
         "id": "ascend_mercy",
         "label": "The Immortal catgirl wants more",
         "startdescription": "The Immortal Catgirl wants more",
@@ -371,6 +401,36 @@
             {
                 "filter": "catgirl_dedication_3",
                 "mutate": "defiance.uprising",
+                "level": 1
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "nekomarks",
+                "level": 1,
+                "additive": true
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "desire",
+                "level": 1,
+                "additive": true
+            }
+        ],
+        "effects":{
+            "catgirl_lesson": -1
+        }
+    },
+    {
+        "id": "ascend_game",
+        "label": "The Immortal catgirl wants more",
+        "startdescription": "The Immortal Catgirl wants more",
+        "description": "The Immortal Catgirl wants more",
+        "requirements": {"ascensionlesson_videogame": 1}, 
+        "warmup": 60,
+        "mutations": [
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "catgirl_gamer",
                 "level": 1
             },
             {
@@ -552,6 +612,119 @@
             "obscurity": 1
         },
         "warmup": 30
+    },
+    {
+        "id": "catgirl_defiance.summons",
+        "actionid": "talk",
+        "label": "Send a Defiant Summons",
+        "startdescription": "My writing on the envelope is crisp and firm. My hand does not shake. [This will destroy all Obscurity.]",
+        "description": "My Foe will be here very soon. Perhaps he already is. [Your Defiance is fiercer now.]",
+        "requirements": {
+            "catgirl_dedication_3": 1,
+            "domicile": 1,
+            "location": 1,
+            "lure.foe": -1,
+            "defiance.foesummoned": -1
+        },
+        "purge": {
+            "obscurity": 100
+        },
+        "mutations": [
+            {
+                "filter": "domicile",
+                "mutate": "lure.foe",
+                "level": 1
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "defiance.foesummoned",
+                "level": 1
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "nekomarks",
+                "level": 1,
+                "additive": true
+            }
+        ],
+        "alt": [
+            {
+                "id": "rkx.foe.arrive.defiance",
+                "additional": true
+            }
+        ],
+        "extantreqs": {
+            "rkx.foe": -1,
+            "rkx.foe.defeated": -1
+        },
+        "warmup": 10,
+        "craftable": true
+    },
+    {
+        "id": "catgirl_defiance.summons.again",
+        "actionid": "talk",
+        "label": "Send a Defiant Summons, Again",
+        "startdescription": "Let him come. Let him try to take his due. [This will destroy all Obscurity.]",
+        "description": "My Foe will be here very soon. Perhaps he already is.",
+        "requirements": {
+            "catgirl_dedication_3": 1,
+            "domicile": 1,
+            "location": 1,
+            "lure.foe": -1
+        },
+        "purge": {
+            "obscurity": 100
+        },
+        "mutations": [
+            {
+                "filter": "domicile",
+                "mutate": "lure.foe",
+                "level": 1
+            }
+        ],
+        "alt": [
+            {
+                "id": "rkx.foe.arrive.defiance",
+                "additional": true
+            }
+        ],
+        "extantreqs": {
+            "rkx.foe": -1,
+            "rkx.foe.defeated": -1
+        },
+        "warmup": 10,
+        "craftable": true
+    },
+    {
+        "id": "catgirl_defiance.gift",
+        "actionid": "talk",
+        "label": "Send a Defiant Gift",
+        "startdescription": "I'm going to send my Foe a weapon of power. Because it'll <i>really</i> annoy them.",
+        "description": "Perhaps he'll open the package himself. Perhaps he'll think it's a trap, and have someone else do it. Either way, it's hard not to laugh when I imagine his face. [Your Defiance is fiercer now.]",
+        "requirements": {
+            "catgirl_dedication_3": 1,
+            "weapon": 1,
+            "defiance.weaponsent": -1,
+            "uq.weapon.profane": -1
+        },
+        "mutations": [
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "defiance.weaponsent",
+                "level": 1
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "nekomarks",
+                "level": 1,
+                "additive": true
+            }
+        ],
+        "effects": {
+            "weapon": -1
+        },
+        "warmup": 10,
+        "craftable": true
     }
     ]
 }

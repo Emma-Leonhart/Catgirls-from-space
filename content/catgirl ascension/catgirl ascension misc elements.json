@@ -57,6 +57,7 @@
         },
         {
             "id": "ascensionlesson_shrine",  
+            "comment2": "this is currently implemented by shrine mechanics rather than as an ascension lesson",
             "label": "Shrine to the Catgirls",
             "aspects": {
                 "catgirl_lesson": 1
@@ -79,6 +80,7 @@
         },
         {
             "id": "ascensionlesson_summons",  
+            "comment2": "Implemented in other file.",
             "label": "Defiant Summons",
             "aspects": {
                 "catgirl_lesson": 1
@@ -97,7 +99,7 @@
             "description": "The game has been made. Through it, the saga of the Catgirls will be known to all.",
             "unique": true,
             "comment": "Making a Video Game: This could be a major project using the Work verb. It would require a high level of several different stats (e.g., Passion, Reason, Funds), and yield a significant increase in the Catgirl level and a new Influence or Remnant (e.g., 'Fanbase' or 'Viral Game'). This project could also potentially spawn a new rival or adversary (e.g., 'Corporate Saboteur' or 'Internet Troll').",
-            "icon": "ascensionlesson_videogame"
+            "icon": "ascensionlesson_videogame" 
         },
         {
             "id": "catgirl_lesson",
@@ -119,6 +121,18 @@
         {
             "id": "cryonics_ascended",
             "label": "Saved my friend.",
+            "isAspect": true,
+            "icon": "remembrancemarks"
+        },
+        {
+            "id": "youtube_ascension",
+            "label": "Youtuber",
+            "isAspect": true,
+            "icon": "remembrancemarks"
+        },
+        {
+            "id": "catgirl_gamer",
+            "label": "Gamer",
             "isAspect": true,
             "icon": "remembrancemarks"
         }
