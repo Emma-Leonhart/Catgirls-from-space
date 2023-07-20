@@ -175,11 +175,28 @@
         },
         "linked":[
             {
+                "id": "catgirl_give_year",
+                "chance": 50
+            },
+            {
                 "id": "catgirl_craving_revolution",
                 "chance": 100
             }
         ],
         "comment": "This turns health into less of an issue as the exile due to catgirl powers"
+    },
+    {
+        "id": "catgirl_give_year",
+        
+        "effects":{
+            "year.stolen": 1
+        },
+        "linked":[
+            {
+                "id": "catgirl_craving_revolution",
+                "chance": 100
+            }
+        ]
     },
     {
         "id": "catgirl_craving_revolution",
@@ -189,9 +206,6 @@
         "description": "The Immortal Catgirl wants more",
         "actionid": "craving",
         "warmup": 10,
-        "effects":{
-            "year.stolen": 1
-        },
         "slots": [
             {
                 "id": "Conversation",

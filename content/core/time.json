@@ -495,7 +495,7 @@
             },
             "effects": {
                 "year.stolen": -1,
-                "funds": 4
+                "funds": 2
             },
             "warmup": 45,
             "craftable": false,
@@ -547,7 +547,7 @@
             },
             "effects": {
                 "decade.stolen": -1,
-                "funds": 4,
+                "funds": 2,
                 "year.stolen": 9
             },
             "warmup": 30,
