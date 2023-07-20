@@ -1,0 +1,66 @@
+{
+    "elements":
+    [
+        {
+            "id": "influencer.marker.a",
+            "label": "Lore Fragment A",
+            "lifetime": 1,
+            "aspectS": {
+                "lorelevel": 1
+            }
+        },
+        {
+            "id": "influencer.marker.b",
+            "label": "Lore Fragment B",
+            "lifetime": 1,
+            "aspectS": {
+                "lorelevel": 2
+            }
+        },
+        {
+            "id": "influencer.marker.c",
+            "label": "Lore Fragment C",
+            "lifetime": 1,
+            "aspectS": {
+                "lorelevel": 3
+            }
+        },
+        {
+            "id": "influencer.marker.d",
+            "label": "Lore Fragment D",
+            "lifetime": 1,
+            "aspectS": {
+                "lorelevel": 4
+            }
+        },
+        {
+            "id": "influencer.marker.e",
+            "label": "Lore Fragment E",
+            "lifetime": 1,
+            "aspectS": {
+                "lorelevel": 5
+            }
+        },
+        {
+            "id": "influencer.marker.f",
+            "label": "Lore Fragment F",
+            "lifetime": 1,
+            "aspectS": {
+                "lorelevel": 6
+            }
+        },
+        {
+            "id": "influencer.marker.g",
+            "label": "Lore Fragment A",
+            "lifetime": 1,
+            "aspectS": {
+                "lorelevel": 7
+            }
+        },
+        {
+            "id": "lorelevel",
+            "label": "lorelevel",
+            "isAspect": true
+        }
+    ]
+}

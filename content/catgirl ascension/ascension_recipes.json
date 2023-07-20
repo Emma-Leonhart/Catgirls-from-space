@@ -2,20 +2,20 @@
     "recipes": [
         {
             "id": "dreamascensionpowera",
-            "label": "Meditate on my goal of unearthly power",
+            "label": "Meditate on my goal of unearthly power?",
             "actionid": "dream",
             "requirements": {
                 "ascensionpowera": 1
             },
             "slots": [
                 {
-                    "id": "Calculation",
+                    "id": "calculation",
                     "label": "Calculation",
                     "required": {
                         "lore": 1,
                         "health": 1,
                         "reason": 1,
-                        "influencerjob": 1,
+                        "priestjob": 1,
                         "funds": 1
                     },
                     "description": "Dedicate myself with the lore of the principle I seek; or focus my efforts elsewhere."
@@ -46,7 +46,8 @@
                 }
             ],
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "$priority": 500
         },
         {
             "id": "dreamascensionsensationa",
@@ -63,7 +64,7 @@
                         "lore": 1,
                         "passion": 1,
                         "reason": 1,
-                        "influencerjob": 1,
+                        "priestjob": 1,
                         "funds": 1
                     },
                     "description": "Dedicate myself with the lore of the principle I seek; or focus my efforts elsewhere."
@@ -98,7 +99,8 @@
                 }
             ],
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "$priority": 500
         },
         {
             "id": "dreamascensionenlightenmenta",
@@ -115,7 +117,6 @@
                         "lore": 1,
                         "passion": 1,
                         "health": 1,
-                        "influencerjob": 1,
                         "funds": 1
                     },
                     "description": "Dedicate myself with the lore of the principle I seek; or focus my efforts elsewhere."
@@ -146,14 +147,15 @@
                 }
             ],
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "$priority": 500
         },
         {
             "id": "dream.temptation.remembrance",
             "label": "Meditate on the pursuit of memories",
             "actionid": "dream",
             "requirements": {
-                "ascensioncapitala": 1
+                "temptation.remembrance": 1
             },
             "slots": [
                 {
@@ -163,7 +165,7 @@
                         "lore": 1,
                         "passion": 1,
                         "reason": 1,
-                        "influencerjob": 1,
+                        "priestjob": 1,
                         "funds": 1,
                         "health": 1
                     },
@@ -195,7 +197,8 @@
                 }
             ],
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "$priority": 500
         },
         {
             "id": "dreamascensioncapitala",
@@ -212,7 +215,7 @@
                         "lore": 1,
                         "passion": 1,
                         "reason": 1,
-                        "influencerjob": 1,
+                        "priestjob": 1,
                         "funds": 1,
                         "health": 1
                     },
@@ -244,7 +247,8 @@
                 }
             ],
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "$priority": 500
         },
         {
             "id": "dreamascension_switchto_capital",

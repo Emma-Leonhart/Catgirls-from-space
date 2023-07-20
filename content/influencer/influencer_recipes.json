@@ -57,46 +57,69 @@
             ]
         },
         {
-            "id": "work.priest.legacy",
-            "comment": "shoots you through the legacy options, you need an ability and the priestjob, and optional fervor and lore",
+            "id": "influencer.primaryrouting",
+            "actionid": "surf",
             "craftable": false,
+            "slots": [
+				{
+					"id": "peopleleft",
+					"label": "Nobody Left?",
+					"description": "I need more",
+					"required": {
+						"fervor": 1
+					},
+					"greedy": true
+				}
+			],
+            "warmup": 60,
             "linked":[
                 {
-                    "id": "work.priest.passion.fervour.lore",
-                    "chance": 100
-                },
-                {
-                    "id": "work.priest.passion.fervour",
-                    "chance": 100
-                },
-                {
-                    "id": "work.priest.passion.lore",
-                    "chance": 100
-                },
-                {
-                    "id": "work.priest.passion",
-                    "chance": 100
-                },
-                {
-                    "id": "work.priest.reason.fervour.lore",
-                    "chance": 100
-                },
-                {
-                    "id": "work.priest.reason.fervour",
-                    "chance": 100
-                },
-                {
-                    "id": "work.priest.reason.lore",
-                    "chance": 100
-                },
-                {
-                    "id": "work.priest.reason",
+                    "id": "work.influencer.legacy",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "work.priest.passion.fervour.lore",
+            "id": "work.influencer.legacy",
+            "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional fervor and lore",
+            "craftable": false,
+            "linked":[
+                {
+                    "id": "work.influencer.passion.fervour.lore",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.passion.fervour",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.passion.lore",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.passion",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.reason.fervour.lore",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.reason.fervour",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.reason.lore",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.reason",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "work.influencer.passion.fervour.lore",
             "actionid": "surf",
             "label": "Improvise upon a secret doctrine, before a fervent congregation",
             "startdescription": "The congregation is already in a state of excitement. Any secret knowledge will almost certainly drive them to exultation.",
@@ -113,7 +136,7 @@
             },
             "alt": [
                 {
-                    "id": "priest.repevent",
+                    "id": "influencer.repevent",
                     "chance": 90,
                     "additional": true
                 }
@@ -122,7 +145,7 @@
             "craftable": true
         },
         {
-            "id": "work.priest.reason.fervour.lore",
+            "id": "work.influencer.reason.fervour.lore",
             "actionid": "surf",
             "label": "Prepare a sermon on a secret doctrine, to give to a fervent congregation",
             "startdescription": "The congregation is already in a state of excitement. Any secret knowledge will almost certainly drive them to exultation.",
@@ -139,7 +162,7 @@
             },
             "alt": [
                 {
-                    "id": "priest.repevent",
+                    "id": "influencer.repevent",
                     "chance": 90,
                     "additional": true
                 }
@@ -148,7 +171,7 @@
             "craftable": true
         },
         {
-            "id": "work.priest.passion.fervour",
+            "id": "work.influencer.passion.fervour",
             "actionid": "surf",
             "label": "Improvise a sermon, before a fervent congregation",
             "startdescription": "The congregation is already in a state of excitement. Any secret knowledge will likely drive them to exultation.",
@@ -164,7 +187,7 @@
             },
             "alt": [
                 {
-                    "id": "priest.repevent",
+                    "id": "influencer.repevent",
                     "chance": 70,
                     "additional": true
                 }
@@ -173,7 +196,7 @@
             "craftable": true
         },
         {
-            "id": "work.priest.reason.fervour",
+            "id": "work.influencer.reason.fervour",
             "actionid": "surf",
             "label": "Carefully prepare a sermon for a fervent congregation",
             "startdescription": "The congregation is already in a state of excitement. Any secret knowledge will likely drive them to exultation.",
@@ -189,7 +212,7 @@
             },
             "alt": [
                 {
-                    "id": "priest.repevent",
+                    "id": "influencer.repevent",
                     "chance": 70,
                     "additional": true
                 }
@@ -198,7 +221,7 @@
             "craftable": true
         },
         {
-            "id": "work.priest.passion.lore",
+            "id": "work.influencer.passion.lore",
             "actionid": "surf",
             "label": "Improvise a sermon on a secret doctrine",
             "startdescription": "I will speak to their souls, and if I speak with conviction, their souls may answer me. [Using a suitable doctrine with Passionate preaching is more likely to create Fervour. Improvised preaching is a little quicker.]",
@@ -239,14 +262,14 @@
                     }
                 },
                 {
-                    "id": "work.priest.nolorematch"
+                    "id": "work.influencer.nolorematch"
                 }
             ],
             "warmup": 50,
             "craftable": true
         },
         {
-            "id": "work.priest.reason.lore",
+            "id": "work.influencer.reason.lore",
             "actionid": "surf",
             "label": "Prepare a sermon on a secret doctrine",
             "startdescription": "I will speak to their souls, and if I speak with precision, their souls may answer me. [Using a suitable doctrine with Reasoned preaching is more likely to create Fervour.]",
@@ -281,14 +304,14 @@
                     }
                 },
                 {
-                    "id": "work.priest.nolorematch"
+                    "id": "work.influencer.nolorematch"
                 }
             ],
             "warmup": 60,
             "craftable": true
         },
         {
-            "id": "work.priest.nolorematch",
+            "id": "work.influencer.nolorematch",
             "actionid": "surf",
             "label": "A Subdued Ceremony",
             "startdescription": "Tonight, they listen... but they do not hear. [If you use Reason with more Reasoned doctrines, or Passion with more Passionate lore, you are more likely to create Fervour. The deeper the Lore, the greater the chance of Exultation.]",
@@ -307,7 +330,7 @@
             },
             "alt": [
                 {
-                    "id": "priest.repevent",
+                    "id": "influencer.repevent",
                     "challenges": {
                         "edge": "base"
                     },
@@ -326,7 +349,7 @@
             },
             "alt": [
                 {
-                    "id": "priest.repevent",
+                    "id": "influencer.repevent",
                     "challenges": {
                         "forge": "base"
                     },
@@ -345,7 +368,7 @@
             },
             "alt": [
                 {
-                    "id": "priest.repevent",
+                    "id": "influencer.repevent",
                     "challenges": {
                         "grail": "base"
                     },
@@ -364,7 +387,7 @@
             },
             "alt": [
                 {
-                    "id": "priest.repevent",
+                    "id": "influencer.repevent",
                     "challenges": {
                         "heart": "base"
                     },
@@ -383,7 +406,7 @@
             },
             "alt": [
                 {
-                    "id": "priest.repevent",
+                    "id": "influencer.repevent",
                     "challenges": {
                         "knock": "base"
                     },
@@ -402,7 +425,7 @@
             },
             "alt": [
                 {
-                    "id": "priest.repevent",
+                    "id": "influencer.repevent",
                     "challenges": {
                         "lantern": "base"
                     },
@@ -421,7 +444,7 @@
             },
             "alt": [
                 {
-                    "id": "priest.repevent",
+                    "id": "influencer.repevent",
                     "challenges": {
                         "moth": "base"
                     },
@@ -440,7 +463,7 @@
             },
             "alt": [
                 {
-                    "id": "priest.repevent",
+                    "id": "influencer.repevent",
                     "challenges": {
                         "secrethistories": "base"
                     },
@@ -459,7 +482,7 @@
             },
             "alt": [
                 {
-                    "id": "priest.repevent",
+                    "id": "influencer.repevent",
                     "challenges": {
                         "winter": "base"
                     },
@@ -468,8 +491,8 @@
             ]
         },
         {
-            "id": "priest.repevent",
-            "actionid": "priest.repevent",
+            "id": "influencer.repevent",
+            "actionid": "influencer.repevent",
             "label": "Exultation",
             "startdescription": "Sometimes, my words - and those I have borrowed - move my congregation beyond mere concentration, to exultation.",
             "description": "@#reputation|Our devotion has drawn comment...\n#funds|The congregation has donated generously, and they haven't limited those donations to the collection plate.@",
@@ -485,12 +508,12 @@
             ],
             "alt": [
                 {
-                    "id": "priest.repevent.devotee.edge",
+                    "id": "influencer.repevent.devotee.edge",
                     "requirements": {
                         "venerationedge": 1
                     },
                     "deckeffects": {
-                        "priest.repevent": 1
+                        "influencer.repevent": 1
                     },
                     "label": "Inspiration",
                     "description": "A worshipper has dreamt of St Agnes of the Division! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
@@ -500,12 +523,12 @@
                     }
                 },
                 {
-                    "id": "priest.repevent.devotee.forge",
+                    "id": "influencer.repevent.devotee.forge",
                     "requirements": {
                         "venerationforge": 1
                     },
                     "deckeffects": {
-                        "priest.repevent": 1
+                        "influencer.repevent": 1
                     },
                     "label": "Inspiration",
                     "description": "A worshipper has dreamt of St Agnes of the Fires! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
@@ -515,12 +538,12 @@
                     }
                 },
                 {
-                    "id": "priest.repevent.devotee.grail",
+                    "id": "influencer.repevent.devotee.grail",
                     "requirements": {
                         "venerationgrail": 1
                     },
                     "deckeffects": {
-                        "priest.repevent": 1
+                        "influencer.repevent": 1
                     },
                     "label": "Inspiration",
                     "description": "A worshipper has dreamt of St Agnes the Red! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
@@ -530,12 +553,12 @@
                     }
                 },
                 {
-                    "id": "priest.repevent.devotee.heart",
+                    "id": "influencer.repevent.devotee.heart",
                     "requirements": {
                         "venerationheart": 1
                     },
                     "deckeffects": {
-                        "priest.repevent": 1
+                        "influencer.repevent": 1
                     },
                     "label": "Inspiration",
                     "description": "A worshipper has dreamt of St Agnes of the Drum! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
@@ -545,12 +568,12 @@
                     }
                 },
                 {
-                    "id": "priest.repevent.devotee.knock",
+                    "id": "influencer.repevent.devotee.knock",
                     "requirements": {
                         "venerationknock": 1
                     },
                     "deckeffects": {
-                        "priest.repevent": 1
+                        "influencer.repevent": 1
                     },
                     "label": "Inspiration",
                     "description": "A worshipper has dreamt of St Agnes of the Threshold! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
@@ -560,12 +583,12 @@
                     }
                 },
                 {
-                    "id": "priest.repevent.devotee.lantern",
+                    "id": "influencer.repevent.devotee.lantern",
                     "requirements": {
                         "venerationlantern": 1
                     },
                     "deckeffects": {
-                        "priest.repevent": 1
+                        "influencer.repevent": 1
                     },
                     "label": "Inspiration",
                     "description": "A worshipper has dreamt of St Agnes of the Candle! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
@@ -575,12 +598,12 @@
                     }
                 },
                 {
-                    "id": "priest.repevent.devotee.moth",
+                    "id": "influencer.repevent.devotee.moth",
                     "requirements": {
                         "venerationmoth": 1
                     },
                     "deckeffects": {
-                        "priest.repevent": 1
+                        "influencer.repevent": 1
                     },
                     "label": "Inspiration",
                     "description": "A worshipper has dreamt of St Agnes of the Shears! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
@@ -590,12 +613,12 @@
                     }
                 },
                 {
-                    "id": "priest.repevent.devotee.winter",
+                    "id": "influencer.repevent.devotee.winter",
                     "requirements": {
                         "venerationwinter": 1
                     },
                     "deckeffects": {
-                        "priest.repevent": 1
+                        "influencer.repevent": 1
                     },
                     "label": "Inspiration",
                     "description": "A worshipper has come who will not speak of their dreams; but, indeed, they need not! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
@@ -606,7 +629,7 @@
                 }
             ],
             "deckeffects": {
-                "priest.repevent": 1
+                "influencer.repevent": 1
             },
             "effects": {
                 "funds": 1
@@ -614,7 +637,7 @@
             "warmup": 30
         },
         {
-            "id": "work.priest.passion",
+            "id": "work.influencer.passion",
             "actionid": "surf",
             "label": "Conduct a Service",
             "startdescription": "I will improvise my sermon.",
@@ -628,7 +651,7 @@
             },
             "alt": [
                 {
-                    "id": "priest.repevent",
+                    "id": "influencer.repevent",
                     "chance": 90,
                     "additional": true
                 }
@@ -637,7 +660,7 @@
             "craftable": true
         },
         {
-            "id": "work.priest.reason",
+            "id": "work.influencer.reason",
             "actionid": "surf",
             "label": "Conduct a Service",
             "startdescription": "I will prepare my sermon with care.",
@@ -651,7 +674,7 @@
             },
             "alt": [
                 {
-                    "id": "priest.repevent",
+                    "id": "influencer.repevent",
                     "chance": 10,
                     "additional": true
                 }

@@ -995,7 +995,16 @@
                 "fragmenthand": 1
             },
             "craftable": false,
-            "unlinked": { "id": "make.video.rank.a"}
+            "unlinked": { "id": "make.video.rank.a"},
+            "effects":{
+                "influencer.marker.a": 1
+            },
+            "linked": [
+                {
+                    "id": "influencer.primaryrouting",
+                    "chance": 100
+                }
+            ]
         },
         {
             "id": "make.video.rank.b",
@@ -1005,7 +1014,16 @@
                 "fragmenthandb": 1
             },
             "craftable": false,
-            "unlinked": { "id": "make.video.rank.b"}
+            "unlinked": { "id": "make.video.rank.b"},
+            "effects":{
+                "influencer.marker.b": 1
+            },
+            "linked": [
+                {
+                    "id": "influencer.primaryrouting",
+                    "chance": 100
+                }
+            ]
         },
         {
             "id": "make.video.rank.c",
@@ -1015,7 +1033,16 @@
                 "fragmenthandc": 1
             },
             "craftable": false,
-            "unlinked": { "id": "make.video.rank.c"}
+            "unlinked": { "id": "make.video.rank.c"},
+            "effects":{
+                "influencer.marker.c": 1
+            },
+            "linked": [
+                {
+                    "id": "influencer.primaryrouting",
+                    "chance": 100
+                }
+            ]
         },
         {
             "id": "make.video.rank.d",
@@ -1025,7 +1052,10 @@
                 "fragmenthandd": 1
             },
             "craftable": false,
-            "unlinked": { "id": "make.video.rank.d"}
+            "unlinked": { "id": "make.video.rank.d"},
+            "effects":{
+                "influencer.marker.d": 1
+            }
         },
         {
             "id": "make.video.rank.e",
@@ -1035,7 +1065,16 @@
                 "fragmenthande": 1
             },
             "craftable": false,
-            "unlinked": { "id": "make.video.rank.e"}
+            "unlinked": { "id": "make.video.rank.e"},
+            "effects":{
+                "influencer.marker.e": 1
+            },
+            "linked": [
+                {
+                    "id": "influencer.primaryrouting",
+                    "chance": 100
+                }
+            ]
         },
         {
             "id": "make.video.rank.f",
@@ -1045,7 +1084,16 @@
                 "fragmenthandf": 1
             },
             "craftable": false,
-            "unlinked": { "id": "make.video.rank.f"}
+            "unlinked": { "id": "make.video.rank.f"},
+            "effects":{
+                "influencer.marker.f": 1
+            },
+            "linked": [
+                {
+                    "id": "influencer.primaryrouting",
+                    "chance": 100
+                }
+            ]
         },
         {
             "id": "make.video.rank.g",
@@ -1055,7 +1103,16 @@
                 "fragmenthandg": 1
             },
             "craftable": false,
-            "unlinked": { "id": "make.video.rank.g"}
+            "unlinked": { "id": "make.video.rank.g"},
+            "effects":{
+                "influencer.marker.g": 1
+            },
+            "linked": [
+                {
+                    "id": "influencer.primaryrouting",
+                    "chance": 100
+                }
+            ]
         }
     ]
 }
