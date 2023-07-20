@@ -2,6 +2,7 @@
     "elements": [
         {
             "id": "auclair_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Auclair",
             "aspects": {
                 "frozen": 1,
@@ -19,6 +20,7 @@
         },
         {
             "id": "auclair_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Auclair, a believer",
@@ -88,6 +90,7 @@
         },
         {
             "id": "cat_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Cat Caro",
             "aspects": {
                 "frozen": 1,
@@ -105,6 +108,7 @@
         },
         {
             "id": "cat_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Cat Caro, a believer",
@@ -174,6 +178,7 @@
         },
         {
             "id": "clifton_frozen",
+            "icon": "frozen_person",
             "label": "Frozen 'Pope' Clifton",
             "aspects": {
                 "frozen": 1,
@@ -190,6 +195,7 @@
         },
         {
             "id": "clifton_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead 'Pope' Clifton, a believer",
@@ -240,7 +246,7 @@
         {
             "id": "clifton_deprecated_2",
             "label": "Clifton, a Seer",
-            "aspects": {
+            "aspects": { 
                 "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
@@ -259,6 +265,7 @@
         },
         {
             "id": "clovette_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Clovette",
             "aspects": {
                 "frozen": 1,
@@ -275,6 +282,7 @@
         },
         {
             "id": "clovette_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Clovette, a believer",
@@ -395,6 +403,7 @@
         },
         {
             "id": "dorothy_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Dorothy",
             "aspects": {
                 "frozen": 1,
@@ -411,6 +420,7 @@
         },
         {
             "id": "dorothy_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Dorothy, a believer",
@@ -480,6 +490,7 @@
         },
         {
             "id": "douglas_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Douglas, a believer",
@@ -549,6 +560,7 @@
         },
         {
             "id": "elridge_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Elridge",
             "aspects": {
                 "frozen": 1,
@@ -565,6 +577,7 @@
         },
         {
             "id": "elridge_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Elridge, a believer",
@@ -634,6 +647,7 @@
         },
         {
             "id": "enid_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Enid",
             "aspects": {
                 "frozen": 1,
@@ -650,6 +664,7 @@
         },
         {
             "id": "enid_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Enid, a believer",
@@ -719,6 +734,7 @@
         },
         {
             "id": "laidlaw_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Laidlaw",
             "aspects": {
                 "frozen": 1,
@@ -735,6 +751,7 @@
         },
         {
             "id": "laidlaw_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Laidlaw, a believer",
@@ -804,6 +821,7 @@
         },
         {
             "id": "leo_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Leo",
             "aspects": {
                 "frozen": 1,
@@ -820,6 +838,7 @@
         },
         {
             "id": "leo_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Leo, a believer",
@@ -940,6 +959,7 @@
         },
         {
             "id": "neville_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Neville",
             "aspects": {
                 "frozen": 1,
@@ -956,6 +976,7 @@
         },
         {
             "id": "neville_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Neville, a believer",
@@ -1025,6 +1046,7 @@
         },
         {
             "id": "porter_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Porter",
             "aspects": {
                 "frozen": 1,
@@ -1041,6 +1063,7 @@
         },
         {
             "id": "porter_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Porter, a believer",
@@ -1110,6 +1133,7 @@
         },
         {
             "id": "renira_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Renira",
             "aspects": {
                 "frozen": 1,
@@ -1126,6 +1150,7 @@
         },
         {
             "id": "renira_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Renira, a believer",
@@ -1195,6 +1220,7 @@
         },
         {
             "id": "rose_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Rose",
             "aspects": {
                 "frozen": 1,
@@ -1211,6 +1237,7 @@
         },
         {
             "id": "rose_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Rose, a believer",
@@ -1280,6 +1307,7 @@
         },
         {
             "id": "saliba_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Saliba",
             "aspects": {
                 "frozen": 1,
@@ -1296,6 +1324,7 @@
         },
         {
             "id": "saliba_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Saliba, a believer",
@@ -1365,6 +1394,7 @@
         },
         {
             "id": "slee_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Slee",
             "aspects": {
                 "frozen": 1,
@@ -1381,6 +1411,7 @@
         },
         {
             "id": "slee_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Slee, a believer",
@@ -1501,6 +1532,7 @@
         },
         {
             "id": "sylvia_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Sylvia",
             "aspects": {
                 "frozen": 1,
@@ -1517,6 +1549,7 @@
         },
         {
             "id": "sylvia_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Sylvia, a believer",
@@ -1586,6 +1619,7 @@
         },
         {
             "id": "tristan_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Tristan",
             "aspects": {
                 "frozen": 1,
@@ -1602,6 +1636,7 @@
         },
         {
             "id": "tristan_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Tristan, a believer",
@@ -1671,6 +1706,7 @@
         },
         {
             "id": "valciane_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Valciane",
             "aspects": {
                 "frozen": 1,
@@ -1687,6 +1723,7 @@
         },
         {
             "id": "valciane_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Valciane, a believer",
@@ -1756,6 +1793,7 @@
         },
         {
             "id": "victor_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Victor",
             "aspects": {
                 "frozen": 1,
@@ -1772,6 +1810,7 @@
         },
         {
             "id": "victor_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Victor, a believer",
@@ -1841,6 +1880,7 @@
         },
         {
             "id": "violet_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Violet",
             "aspects": {
                 "frozen": 1,
@@ -1857,6 +1897,7 @@
         },
         {
             "id": "violet_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Violet, a believer",
@@ -1926,6 +1967,7 @@
         },
         {
             "id": "ysabet_frozen",
+            "icon": "frozen_person",
             "label": "Frozen Ysabet",
             "aspects": {
                 "frozen": 1,
@@ -1942,6 +1984,7 @@
         },
         {
             "id": "ysabet_corpse",
+            "icon": "corpse.exile.underling",
             "decayto": "corpse",
             "lifetime": 300,
             "label": "Almost Dead Ysabet, a believer",
