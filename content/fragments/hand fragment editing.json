@@ -1,0 +1,33 @@
+{
+    "elements":[
+        {
+            "id": "fragmenthand",
+            "xtriggers$add": {"fatiguing":"fragmenthand.exhausted"}
+          },
+          {
+            "id": "fragmenthandb",
+            "xtriggers$add": {"fatiguing":"fragmenthandb.exhausted"}
+          },
+          {
+            "id": "fragmenthandc",
+            "xtriggers$add": {"fatiguing":"fragmenthandc.exhausted"}
+          },
+          {
+            "id": "fragmenthandd",
+            "xtriggers$add": {"fatiguing":"fragmenthandd.exhausted"}
+          },
+          {
+            "id": "fragmenthande",
+            "xtriggers$add": {"fatiguing":"fragmenthande.exhausted"}
+          },
+          {
+            "id": "fragmenthandf",
+            "xtriggers$add": {"fatiguing":"fragmenthandf.exhausted"}
+          },
+          {
+            "id": "fragmenthandg",
+            "xtriggers$add": {"fatiguing":"fragmenthandg.exhausted"}
+          }
+          
+    ]
+}

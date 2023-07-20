@@ -1,0 +1,23 @@
+{
+    "recipes":[
+        {
+            "id": "study_restore_lore",
+            "warmup": 60,
+            "actionid": "study",
+            "label": "Study to renew lore",
+            "startdescription": "I will review this lore to regain my spirit in it.",
+            "requirements": {
+                "lore": 1,
+                "exhausted": 1
+            },
+            "effect":{
+                "exhausted": -1,
+                "lore": -1
+            },
+            "craftable": true,
+            "aspects":{
+                "rejuvenate": 1
+            }
+        }
+    ]
+}
