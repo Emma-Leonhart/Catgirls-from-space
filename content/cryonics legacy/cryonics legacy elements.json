@@ -7,7 +7,8 @@
             "aspects": {
                 "legacyplotitem": 1,
                 "frozen": 1
-            }
+            },
+            "icon": "corpse"
         },
         {
             "id": "introcorpse",
@@ -16,7 +17,8 @@
             "aspects": {
                 "legacyplotitem": 1,
                 "not_quite_dead": 1
-            }
+            },
+            "icon": "corpse"
         },
         {
             "id": "leadercorpse",
