@@ -497,9 +497,6 @@
                 "year.stolen": -1,
                 "funds": 4
             },
-            "aspects": {
-                "terribletracerisk": 1
-            },
             "warmup": 45,
             "craftable": false,
             "alt": [
@@ -552,9 +549,6 @@
                 "decade.stolen": -1,
                 "funds": 4,
                 "year.stolen": 9
-            },
-            "aspects": {
-                "terribletracerisk": 1
             },
             "warmup": 30,
             "craftable": false
