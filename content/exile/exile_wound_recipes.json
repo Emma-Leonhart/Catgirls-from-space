@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "id": "exile_inflict_wound",
+            "id": "inflict_wound",
             "actionid": "spit.underling.attack",
             "linked": [
                 {
@@ -9,7 +9,7 @@
                     "chance": 70
                 },
                 {
-                    "id": "exile_inflict_wound_player",
+                    "id": "inflict_wound_player",
                     "chance": 100
                 }
             ]
@@ -51,7 +51,7 @@
             ]
         },
         {
-            "id": "exile_inflict_wound_player",
+            "id": "inflict_wound_player",
             "actionid": "spit.underling.attack",
             "label": "I am wounded",
             "requirements": {
@@ -59,13 +59,13 @@
                 "year.stolen": -1,
                 "funds": -1
             },
-            "effects": {
-                "health": -1,
-                "wound.exile": 1
-            },
             "linked": [
                 {
                     "id": "wounds.exile.ending",
+                    "chance": 100
+                },
+                {
+                    "id": "inflict_wound_confirmed",
                     "chance": 100
                 }
             ],
@@ -83,21 +83,47 @@
                 }
             ],
             "icon": "spit.underling.attack"
+        },
+        {
+            "id": "inflict_wound_confirmed",
+            "effects": {
+                "health": -1,
+                "wound.exile": 1
+            }
         },
         {
             "id": "wounds.exile.ending",
             "requirements": {
                 "health": -1
             },
-            "extantreqs": {
-                "health": 0
-            },
             "actionid": "spit.underling.attack",
             "label": "A Reckoning Comes",
+            "ending": "foecaughtup",
+            "linked": [
+                {
+                    "id": "cryonics.ending",
+                    "chance": 100
+                },
+                {
+                    "id": "foe.ending",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "cryonics.ending",
+            "ending": "cryonics_continue",
+            "extantreqs": {
+                "frozen": 1,
+                "cryonics_facility": 1
+            }
+        },
+        {
+            "id": "foe.ending",
             "ending": "foecaughtup"
         },
         {
-            "id": "exile_inflict_wound_unstanchable",
+            "id": "inflict_wound_unstanchable",
             "actionid": "spit.underling.attack",
             "label": "I am wounded",
             "requirements": {
@@ -105,33 +131,41 @@
                 "year.stolen": -1,
                 "funds": -1
             },
+            "linked": [
+                {
+                    "id": "wounds.exile.ending",
+                    "chance": 100
+                },
+                {
+                    "id": "inflict_wound_unstanchable_confirmed"
+                }
+            ],
+            "deprecated_startdescription": "I need food or I will starve.",
+            "description": "If I get wounded enough I will die",
+            "warmup": 10,
+            "slots": [
+                {
+                    "id": "health",
+                    "label": "Health",
+                    "required": {
+                        "health": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "icon": "spit.underling.attack"
+        },
+        {
+            "id": "inflict_wound_unstanchable_confirmed",
+            "actionid": "spit.underling.attack",
+            "label": "I am wounded",
             "effects": {
                 "health": -1,
                 "wound.exile.unstanchable": 1
-            },
-            "linked": [
-                {
-                    "id": "wounds.exile.ending",
-                    "chance": 100
-                }
-            ],
-            "deprecated_startdescription": "I need food or I will starve.",
-            "description": "If I get wounded enough I will die",
-            "warmup": 10,
-            "slots": [
-                {
-                    "id": "health",
-                    "label": "Health",
-                    "required": {
-                        "health": 1
-                    },
-                    "greedy": true
-                }
-            ],
-            "icon": "spit.underling.attack"
+            }
         },
         {
-            "id": "exile_inflict_wound_medusa",
+            "id": "inflict_wound_medusa",
             "actionid": "spit.underling.attack",
             "label": "I am wounded",
             "requirements": {
@@ -139,14 +173,13 @@
                 "year.stolen": -1,
                 "funds": -1
             },
-            "effects": {
-                "health": -1,
-                "wound.exile.medusa": 1
-            },
             "linked": [
                 {
                     "id": "wounds.exile.ending",
                     "chance": 100
+                },
+                {
+                    "id": "inflict_wound_medusa_confirmed"
                 }
             ],
             "deprecated_startdescription": "I need food or I will starve.",
@@ -165,7 +198,15 @@
             "icon": "spit.underling.attack"
         },
         {
-            "id": "exile_inflict_wound_double",
+            "id": "inflict_wound_medusa_confirmed",
+            "effects": {
+                "health": -1,
+                "wound.exile.medusa": 1
+            }
+
+        },
+        {
+            "id": "inflict_wound_double",
             "actionid": "spit.underling.attack",
             "linked": [
                 {
@@ -173,7 +214,7 @@
                     "chance": 70
                 },
                 {
-                    "id": "exile_inflict_wound_double_player",
+                    "id": "inflict_wound_double_player",
                     "chance": 100
                 }
             ]
@@ -202,7 +243,7 @@
             "warmup": 60
         },
         {
-            "id": "exile_inflict_wound_double_player",
+            "id": "inflict_wound_double_player",
             "actionid": "spit.underling.attack",
             "label": "I am wounded",
             "requirements": {
@@ -210,17 +251,13 @@
                 "year.stolen": -1,
                 "funds": -1
             },
-            "effects": {
-                "health": -1,
-                "wound.exile": 1
-            },
             "linked": [
                 {
                     "id": "wounds.exile.ending",
                     "chance": 100
                 },
                 {
-                    "id": "exile_inflict_wound",
+                    "id": "inflict_wound_double_player",
                     "chance": 100
                 }
             ],
@@ -238,6 +275,19 @@
                 }
             ],
             "icon": "spit.underling.attack"
+        },
+        {
+            "id": "inflict_wound_double_player",
+            "effects": {
+                "health": -1,
+                "wound.exile": 1
+            },
+            "linked": [
+                {
+                    "id": "inflict_wound",
+                    "chance": 100
+                }
+            ]
         }
     ]
 }

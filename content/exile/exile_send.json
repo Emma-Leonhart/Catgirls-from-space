@@ -363,7 +363,7 @@
             "warmup": 30,
             "alt":[
                 {
-                    "id": "exile_inflict_wound_medusa",
+                    "id": "inflict_wound_medusa",
                     "chance": 100
                 }
             ]
@@ -573,7 +573,7 @@
             "warmup": 30,
             "alt":[
                 {
-                    "id": "exile_inflict_wound_unstanchable",
+                    "id": "inflict_wound_unstanchable",
                     "chance": 100
                 }
             ]
@@ -3061,7 +3061,7 @@
             },
             "alt":[
                 {
-                    "id": "exile_inflict_wound",
+                    "id": "inflict_wound",
                     "chance": 100,
                     "additional": true
                 }

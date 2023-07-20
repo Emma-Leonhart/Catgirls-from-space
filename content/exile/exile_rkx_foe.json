@@ -255,7 +255,7 @@
             "startdescription": "I've paid the price for my audacity -",
             "alt":[
                 {
-                    "id": "exile_inflict_wound_double",
+                    "id": "inflict_wound_double",
                     "chance": 100
                 }
             ],
@@ -583,7 +583,7 @@
             "startdescription": "The bastard's still damnably strong.",
             "alt":[
                 {
-                    "id": "exile_inflict_wound_double",
+                    "id": "inflict_wound_double",
                     "chance": 100
                 }
             ],

@@ -154,6 +154,15 @@
             "achievement": "A_ENDING_DEATHOFTHEBODY"
         },
         {
+            "id": "cryonics_continue",
+            "label": "I will be reborn",
+            "description": "I started cryonics, but now I am frozen. I will someday be reborn, but for now I leave it to my successor to save us.",
+            "image": "cryonics",
+            "flavour": "Grand",
+            "anim": "DramaticLight",
+            "achievement": "A_ENDING_DEATHOFTHEBODY"
+        },
+        {
             "id": "despairending",
             "label": "No more",
             "description": "Despair, the wolf that devours thought. Am I alive, or am I dead? It no longer matters.\n[I allowed the Despair token to reach 3 Dread or Injury.]",

@@ -199,7 +199,8 @@
                     "id": "sicknessprotection",
                     "label": "Protection",
                     "required": {
-                        "sicknessprotection": 1
+                        "sicknessprotection": 1,
+                        "cryonics_facility": 1
                     },
                     "greedy": true
                 }
@@ -213,6 +214,18 @@
             "signalEndingFlavour": "Melancholy",
             "ending": "deathofthebody",
             "alt": [
+                {
+                    "id": "saved_by_cryonics",
+                    "chance": 100,
+                    "actionid": "sickness",
+                    "label": "Saved by Cryonics",
+                    "requirements": {
+                        "cryonics_facility": 1
+                    },
+                    "startdescription": "I'm happy I set up my facility. My successor will revive me",
+                    "ending": "cryonics_continue",
+                    "warmup": 60
+                },
                 {
                     "id": "protectedagainstsickness",
                     "actionid": "sickness",

@@ -4,7 +4,10 @@
         {
             "id": "polycule",
             "label": "Polycule",
-            "description": "A molecule of love"
+            "description": "A molecule of love",
+            "aspects":{
+                "heart": 6
+            }
         }
     ]
 }

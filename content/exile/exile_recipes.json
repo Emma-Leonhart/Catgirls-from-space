@@ -485,7 +485,7 @@
             "craftable": true,
             "alt":[
                 {
-                    "id": "exile_inflict_wound",
+                    "id": "inflict_wound",
                     "chance": 100,
                     "additional": true
                 }
@@ -510,7 +510,7 @@
             },
             "alt":[
                 {
-                    "id": "exile_inflict_wound",
+                    "id": "inflict_wound",
                     "chance": 100,
                     "additional": true
                 }
@@ -632,7 +632,7 @@
             },
             "alt":[
                 {
-                    "id": "exile_inflict_wound",
+                    "id": "inflict_wound",
                     "chance": 100,
                     "additional": true
                 }
@@ -904,7 +904,7 @@
             "craftable": true,
             "alt":[
                 {
-                    "id": "exile_inflict_wound",
+                    "id": "inflict_wound",
                     "chance": 100,
                     "additional": true
                 }
