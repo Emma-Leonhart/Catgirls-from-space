@@ -1,0 +1,22 @@
+{
+    "recipes":[
+        {
+            "id": "work_first_cryonics",
+            "actionid": "work",
+            "craftable": true,
+            "requirements":{
+                "introcorpse": 1,
+                "cryonics_facility": 1,
+                "funds": 1
+            },
+            "effects":{
+                "leadercorpse": 1,
+                "funds": 3,
+                "lever_LastCult": 1,
+                "lever_LastFollower": 1,
+                "lever_lastfrozen": 1,
+                "lever_lastbook": 1
+            }
+        }
+    ]
+}

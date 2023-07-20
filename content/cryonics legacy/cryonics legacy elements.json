@@ -8,6 +8,24 @@
                 "legacyplotitem": 1,
                 "frozen": 1
             }
+        },
+        {
+            "id": "introcorpse",
+            "label": "A houseless person",
+            "description": "A houseless person who asked in his last breath to be revived.",
+            "aspects": {
+                "legacyplotitem": 1,
+                "not_quite_dead": 1
+            }
+        },
+        {
+            "id": "leadercorpse",
+            "label": "#PREVIOUSCHARACTERNAME#",
+            "description": "Our leader #PREVIOUSCHARACTERNAME#. I need to freeze them immediately.",
+            "aspects": {
+                "legacyplotitem": 1,
+                "not_quite_dead": 1
+            }
         }
     ]
 }

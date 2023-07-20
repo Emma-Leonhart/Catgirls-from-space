@@ -15,7 +15,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "tablecoverimage": "table_leather_exile"
         },
@@ -28,7 +28,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "tablecoverimage": "table_leather_exile"
         },
@@ -41,7 +41,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "tablecoverimage": "table_leather_exile"
         },
@@ -54,7 +54,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "tablecoverimage": "table_leather_exile"
         },
@@ -65,7 +65,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "tablecoverimage": "table_leather_exile"
         },
@@ -76,7 +76,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "tablecoverimage": "table_leather_exile"
         },
@@ -87,7 +87,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "tablecoverimage": "table_leather_exile"
         },
@@ -111,7 +111,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ]
         },
         {
@@ -133,7 +133,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "startingverbid": "work",
             "newstart": true,
@@ -158,7 +158,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
@@ -182,7 +182,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
@@ -206,7 +206,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
@@ -230,7 +230,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
@@ -254,7 +254,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
@@ -278,7 +278,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
@@ -302,7 +302,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
@@ -326,7 +326,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
@@ -350,7 +350,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
@@ -374,7 +374,7 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
             ],
             "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
@@ -398,7 +398,30 @@
                 "health",
                 "reason",
                 "passion",
-                "lifespan.stolen"
+                "funds"
+            ],
+            "startingverbid": "work",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "cryonics_legacy",
+            "label": "Cryonicist",
+			"family": "exile",
+            "description": "My leader is now frozen. But they left me with a duty to revive them.",
+            "startdescription": "I must continue their legacy.",
+            "image": "cryonics_legacy",
+            "effects": {
+                "cryonics_facility": 1,
+                "introcorpse": 1,
+                "funds": 5
+            },
+            "fromending": "cryonics_continue",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
             ],
             "startingverbid": "work",
             "tablecoverimage": "table_leather_exile"
