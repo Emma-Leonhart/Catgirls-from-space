@@ -497,6 +497,9 @@
                 "year.stolen": -1,
                 "funds": 2
             },
+            "aspects": {
+                "terribletracerisk": 1
+            },
             "warmup": 45,
             "craftable": false,
             "alt": [
@@ -524,6 +527,9 @@
                     "greedy": true
                 }
             ],
+            "aspects": {
+                "terribletracerisk": 1
+            },
             "warmup": 15,
             "linked":[
                 {
