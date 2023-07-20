@@ -24,7 +24,8 @@
             "requirements": {
                 "influencerjob": 1
             },
-            "craftable": true
+            "craftable": true,
+            "warmup": 60
         },
         {
             "id": "make.video.start",
@@ -40,10 +41,11 @@
                     "id": "make.video.fragment.router",
                     "chance": 100
                 }
-            ]
+            ],
+            "warmup": 60
         },
         {
-            "id": "influencer.primaryrouting",
+            "id": "influencer.secondaryrouting",
             "actionid": "surf",
             "craftable": false,
             "slots": [

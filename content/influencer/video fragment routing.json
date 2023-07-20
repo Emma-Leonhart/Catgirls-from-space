@@ -1001,7 +1001,7 @@
             },
             "linked": [
                 {
-                    "id": "influencer.primaryrouting",
+                    "id": "influencer.secondaryrouting",
                     "chance": 100
                 }
             ]
@@ -1020,7 +1020,7 @@
             },
             "linked": [
                 {
-                    "id": "influencer.primaryrouting",
+                    "id": "influencer.secondaryrouting",
                     "chance": 100
                 }
             ]
@@ -1039,7 +1039,7 @@
             },
             "linked": [
                 {
-                    "id": "influencer.primaryrouting",
+                    "id": "influencer.secondaryrouting",
                     "chance": 100
                 }
             ]
@@ -1071,7 +1071,7 @@
             },
             "linked": [
                 {
-                    "id": "influencer.primaryrouting",
+                    "id": "influencer.secondaryrouting",
                     "chance": 100
                 }
             ]
@@ -1090,7 +1090,7 @@
             },
             "linked": [
                 {
-                    "id": "influencer.primaryrouting",
+                    "id": "influencer.secondaryrouting",
                     "chance": 100
                 }
             ]
@@ -1109,7 +1109,7 @@
             },
             "linked": [
                 {
-                    "id": "influencer.primaryrouting",
+                    "id": "influencer.secondaryrouting",
                     "chance": 100
                 }
             ]
