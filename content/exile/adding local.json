@@ -121,12 +121,6 @@
             }
         },
         {
-            "id": "ghouljob.first",
-            "aspects$add": {
-                "local": 1
-            }
-        },
-        {
             "id": "auctioneerjob",
             "aspects$add": {
                 "local": 1
