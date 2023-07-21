@@ -171,7 +171,7 @@
             },
             "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
             "xtriggers": {
-                "killmortal": "corpse",
+                "killmortal": "generic_corpse",
                 "derangemortal": "lunatic",
                 "rebellion": "generic_r",
                 "capturefollower": "generic_p",
