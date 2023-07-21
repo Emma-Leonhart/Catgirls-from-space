@@ -2,11 +2,15 @@
     [
 		{id: "stagriddles",
 	spec:
-		["waystagbefore_1",
-	"waystagbefore_2",
-	"waystagbefore_3",
-	"waystagbefore_4",
-	"waystagbefore_5"
+	[
+		"waystagbefore_heart",
+		"waystagbefore_winter",
+		"waystagbefore_secret",
+		"waystagbefore_lantern",
+		"waystagbefore_grail",
+		"waystagbefore_knock",
+		"waystagbefore_forge",
+		"waystagbefore_moth"
 	],
 defaultcard: "fleeting",
 resetonexhaustion:false,
