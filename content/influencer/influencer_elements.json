@@ -13,6 +13,14 @@
                         "lore": 1
                     },
                     "actionid": "surf"
+                },
+                {
+                    "id": "ability",
+                    "label": "Ability",
+                    "required": {
+                        "ability": 1
+                    },
+                    "actionid": "surf"
                 }
             ],
             "label": "My Online Brand",
