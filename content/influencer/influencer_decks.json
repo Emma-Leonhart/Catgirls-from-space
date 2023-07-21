@@ -1,0 +1,41 @@
+{
+    "decks":[
+        {
+            "id": "influencer.repevent",
+            "label": "The Congregation's Passions",
+            "description": "What will come of this?",
+            "spec": [
+                "notoriety",
+                "notoriety",
+                "notoriety",
+                "notoriety",
+                "mystique",
+                "mystique",
+                "mystique",
+                "mystique",
+                "funds",
+                "funds",
+                "funds",
+                "funds"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "influencer.devotees",
+            "label": "The Congregation's Passions",
+            "description": "What will come of this?",
+            "spec": [
+                "devotee_heart",
+                "devotee_winter",
+                "devotee_secret",
+                "devotee_lantern",
+                "devotee_grail",
+                "devotee_edge",
+                "devotee_knock",
+                "devotee_forge",
+                "devotee_moth"
+            ],
+            "resetonexhaustion": true
+        }
+    ]
+}

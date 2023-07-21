@@ -648,6 +648,21 @@
             ],
             "alt": [
                 {
+                    "id": "influencer.repevent.devotee.catgirl",
+                    "requirements": {
+                        "cult_catgirl": 1
+                    },
+                    "label": "Inspiration",
+                    "description": "A fan has joined our cult",
+                    "deckeffects": {
+                        "influencer.repevent": 1,
+                        "influencer.devotees": 1
+                    },
+                    "effects": {
+                        "funds": 2
+                    }
+                },
+                {
                     "id": "influencer.repevent.devotee.edge",
                     "requirements": {
                         "venerationedge": 1
@@ -756,6 +771,21 @@
                     "id": "influencer.repevent.devotee.winter",
                     "requirements": {
                         "venerationwinter": 1
+                    },
+                    "deckeffects": {
+                        "influencer.repevent": 1
+                    },
+                    "label": "Inspiration",
+                    "description": "A worshipper has come who will not speak of their dreams; but, indeed, they need not! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
+                    "effects": {
+                        "funds": 2,
+                        "devotee_winter": 1
+                    }
+                },
+                {
+                    "id": "influencer.repevent.devotee.secrethistories",
+                    "requirements": {
+                        "venerationsecret": 1
                     },
                     "deckeffects": {
                         "influencer.repevent": 1

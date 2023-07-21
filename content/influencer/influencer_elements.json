@@ -224,6 +224,26 @@
             "label": "influencer job",
             "description": "I am an influencer",
             "isAspect": true
+        },
+        {
+            "id": "devotee_secret",
+            "label": "A Trueseeing Worshipper",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "devotee": 1,
+                "edge": 1,
+                "secrethistories": 2
+            },
+            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "xtriggers": {
+                "killmortal": "corpse",
+                "derangemortal": "lunatic",
+                "rebellion": "generic_r",
+                "capturefollower": "generic_p",
+                "refiring": "devotee_grail"
+            },
+            "lifetime": 180
         }
     ]
 }
