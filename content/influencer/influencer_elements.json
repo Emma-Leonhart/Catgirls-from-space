@@ -1,7 +1,11 @@
 {
     "elements":[
         {
-            "id": "influencerjob",
+            "id": "influencerjoba",
+            "aspects": {
+                "influencerjob": 1,
+                "influencerlevel": 1
+            },
             "slots": [
                 {
                     "id": "doctrine",
@@ -22,7 +26,186 @@
             ],
             "label": "My Online Brand",
             "description": "I can build a larger following online.",
-            "unique": "true"
+            "xtriggers":{
+                "influenceradvance": "influencerjobb"
+            }
+        },
+        {
+            "id": "influencerjobb",
+            "aspects": {
+                "influencerjob": 1,
+                "influencerlevel": 2
+            },
+            "slots": [
+                {
+                    "id": "doctrine",
+                    "label": "Doctrine",
+                    "required": {
+                        "lore": 1
+                    },
+                    "actionid": "surf"
+                },
+                {
+                    "id": "ability",
+                    "label": "Ability",
+                    "required": {
+                        "ability": 1
+                    },
+                    "actionid": "surf"
+                }
+            ],
+            "label": "My Online Brand",
+            "description": "I can build a larger following online.",
+            "xtriggers":{
+                "influenceradvance": "influencerjobc"
+            }
+        },
+        {
+            "id": "influencerjobc",
+            "aspects": {
+                "influencerjob": 1,
+                "influencerlevel": 3
+            },
+            "slots": [
+                {
+                    "id": "doctrine",
+                    "label": "Doctrine",
+                    "required": {
+                        "lore": 1
+                    },
+                    "actionid": "surf"
+                },
+                {
+                    "id": "ability",
+                    "label": "Ability",
+                    "required": {
+                        "ability": 1
+                    },
+                    "actionid": "surf"
+                }
+            ],
+            "label": "My Online Brand",
+            "description": "I can build a larger following online.",
+            "xtriggers":{
+                "influenceradvance": "influencerjobd"
+            }
+        },
+        {
+            "id": "influencerjobd",
+            "aspects": {
+                "influencerjob": 1,
+                "influencerlevel": 4
+            },
+            "slots": [
+                {
+                    "id": "doctrine",
+                    "label": "Doctrine",
+                    "required": {
+                        "lore": 1
+                    },
+                    "actionid": "surf"
+                },
+                {
+                    "id": "ability",
+                    "label": "Ability",
+                    "required": {
+                        "ability": 1
+                    },
+                    "actionid": "surf"
+                }
+            ],
+            "label": "My Online Brand",
+            "description": "I can build a larger following online.",
+            "xtriggers":{
+                "influenceradvance": "influencerjobe"
+            }
+        },
+        {
+            "id": "influencerjobe",
+            "aspects": {
+                "influencerjob": 1,
+                "influencerlevel": 5
+            },
+            "slots": [
+                {
+                    "id": "doctrine",
+                    "label": "Doctrine",
+                    "required": {
+                        "lore": 1
+                    },
+                    "actionid": "surf"
+                },
+                {
+                    "id": "ability",
+                    "label": "Ability",
+                    "required": {
+                        "ability": 1
+                    },
+                    "actionid": "surf"
+                }
+            ],
+            "label": "My Online Brand",
+            "description": "I can build a larger following online.",
+            "xtriggers":{
+                "influenceradvance": "influencerjobf"
+            }
+        },
+        {
+            "id": "influencerjobf",
+            "aspects": {
+                "influencerjob": 1,
+                "influencerlevel": 6
+            },
+            "slots": [
+                {
+                    "id": "doctrine",
+                    "label": "Doctrine",
+                    "required": {
+                        "lore": 1
+                    },
+                    "actionid": "surf"
+                },
+                {
+                    "id": "ability",
+                    "label": "Ability",
+                    "required": {
+                        "ability": 1
+                    },
+                    "actionid": "surf"
+                }
+            ],
+            "label": "My Online Brand",
+            "description": "I can build a larger following online.",
+            "xtriggers":{
+                "influenceradvance": "influencerjobg"
+            }
+        },
+        {
+            "id": "influencerjobg",
+            "aspects": {
+                "influencerjob": 1,
+                "influencerlevel": 7
+            },
+            "slots": [
+                {
+                    "id": "doctrine",
+                    "label": "Doctrine",
+                    "required": {
+                        "lore": 1
+                    },
+                    "actionid": "surf"
+                },
+                {
+                    "id": "ability",
+                    "label": "Ability",
+                    "required": {
+                        "ability": 1
+                    },
+                    "actionid": "surf"
+                }
+            ],
+            "label": "My Online Brand",
+            "description": "I can build a larger following online."
         },
         {
             "id": "virality",
@@ -35,6 +218,12 @@
             "description": "My congregation's passions run strong, if not deep. [Keep your congregation satisfied. virality, if unused, will decay to Dread.]",
             "lifetime": 180,
             "decayTo": "dread"
+        },
+        {
+            "id": "influencerjob",
+            "label": "influencer job",
+            "description": "I am an influencer",
+            "isAspect": true
         }
     ]
 }
