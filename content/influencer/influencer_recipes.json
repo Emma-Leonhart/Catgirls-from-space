@@ -24,6 +24,12 @@
             "requirements": {
                 "influencerjob": 1
             },
+            "linked":[
+                {
+                    "id": "influencer.secondaryrouting",
+                    "chance": 100
+                }
+            ],
             "craftable": true,
             "warmup": 60
         },
