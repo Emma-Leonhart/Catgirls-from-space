@@ -1,0 +1,22 @@
+{
+    "recipes":[
+        
+        {
+            "id": "catgirl_spawn_long",
+            "label": "Someone has Arrived",
+            "actionid": "long",
+            "startdescription": "We are warned by the alteration of savours, by the fall of blood-drops, by the prodigal births reported in the dockside districts. A great enemy of our Delight has come to the city - someone who would prevent our Work.",
+            "effects": {
+                "julian_unknown": 1 
+            },
+            "warmup": 60,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "long.cycle",
+                    "chance": 100
+                }
+            ]
+        }
+    ]
+}
