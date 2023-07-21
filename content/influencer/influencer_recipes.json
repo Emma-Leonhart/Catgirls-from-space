@@ -14,7 +14,7 @@
             },
             "$priority": 500,
             "craftable": true,
-            "warmup": 60,
+            "warmup": 15,
             "maxexecutions": 1
         },
         {
@@ -65,10 +65,10 @@
 					"greedy": true
 				}
 			],
-            "warmup": 60,
+            "warmup": 15,
             "linked":[
                 {
-                    "id": "work.influencer.chooseability",
+                    "id": "work.influencer.legacy",
                     "chance": 100
                 }
             ]
@@ -78,6 +78,8 @@
             "actionid": "surf",
             "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional fervour and lore",
             "craftable": false,
+            "warmup": 60,
+            "label": "Influencer Router",
             "linked":[
                 {
                     "id": "work.influencer.passion.fervour.lore",
@@ -110,8 +112,22 @@
                 {
                     "id": "work.influencer.reason",
                     "chance": 100
+                },
+                {
+                    "id": "work.influencer.nothing",
+                    "chance": 100
                 }
             ]
+        },
+        {
+            "id": "work.influencer.nothing",
+            "label": "You make a skibidi toilet compilation",
+            "startdescription": "You sit down at your editing station, surrounded by glowing screens and your trusty can of energy drink. You begin to sift through hours of footage, your eyes scouring every frame for the perfect shots of you performing the Skibidi dance near various toilets. The idea might seem ludicrous to anyone else, but to you, it's a burst of creative madness.",
+            "description": "After hours of meticulous work, your compilation video is ready. The world is now privy to a montage of you dancing the Skibidi by different toilets, from luxury bathrooms in five-star hotels to dilapidated porta-potties in obscure locations. The internet reacts with both confusion and amusement, and while it's not your typical content, the video goes viral. The comments range from laughter to outright bewilderment, but the views keep on climbing, and you can't help but smile at your oddball success.",
+            "effects":{
+                "illiquid": 1
+            },
+            "warmup": 15
         },
         {
             "id": "work.influencer.passion.fervour.lore",
