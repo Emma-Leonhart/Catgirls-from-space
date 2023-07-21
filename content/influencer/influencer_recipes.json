@@ -14,7 +14,7 @@
             },
             "$priority": 500,
             "craftable": true,
-            "warmup": 15,
+            "warmup": 60,
             "maxexecutions": 1
         },
         {
@@ -31,7 +31,7 @@
                 }
             ],
             "craftable": true,
-            "warmup": 60
+            "warmup": 15
         },
         {
             "id": "make.video.start",
@@ -48,7 +48,7 @@
                     "chance": 100
                 }
             ],
-            "warmup": 60
+            "warmup": 15
         },
         {
             "id": "influencer.secondaryrouting",
@@ -78,7 +78,7 @@
             "actionid": "surf",
             "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional fervour and lore",
             "craftable": false,
-            "warmup": 60,
+            "warmup": 15,
             "label": "Influencer Router",
             "linked":[
                 {
@@ -153,7 +153,7 @@
                 }
             ],
             "warmup": 50,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "work.influencer.reason.fervour.lore",
@@ -179,7 +179,7 @@
                 }
             ],
             "warmup": 60,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "work.influencer.passion.fervour",
@@ -204,7 +204,7 @@
                 }
             ],
             "warmup": 50,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "work.influencer.reason.fervour",
@@ -229,7 +229,7 @@
                 }
             ],
             "warmup": 60,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "work.influencer.passion.lore",
@@ -277,7 +277,7 @@
                 }
             ],
             "warmup": 50,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "work.influencer.reason.lore",
@@ -319,7 +319,7 @@
                 }
             ],
             "warmup": 60,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "work.influencer.nolorematch",
@@ -668,7 +668,7 @@
                 }
             ],
             "warmup": 50,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "work.influencer.reason",
@@ -691,7 +691,7 @@
                 }
             ],
             "warmup": 60,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "work.openscar",
