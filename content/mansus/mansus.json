@@ -20,12 +20,13 @@ comments: "but this should only be drawn from once."
 	
 			{id: "mansus_wood",
 	spec:
-		["influencemoth",
-		"fragmentsecrethistories",
-		"rumour"],
-		drawmessages:{influencemoth:"'In the midst of the journey of our life, I found myself in a dark wood without paths. It is difficult to express how wild, harsh and impenetrable that wood was...' I don't recall exactly what occurred, last night, in the beating black between the trunks of the trees, where winged things moved beneath my hands. But now this morning my brain fizzes with fragments: IN GI RUM IMUS NOC TE ET CON SUMI MUR IGNI RUM IMUS NOC TE ET CON SUMI MUR -'",
-		fragmentsecrethistories:"I walked in the Wood last night, and the scissors worked in the distance and the furred things crammed my mouth and swarmed my ears, and I felt the old urge to drop to wolf-fours and nose among the roots. But I remembered that I walk upright by day and I know fire and steel and words, and at last I found where the Velvet had concealed a secret on tree-bark beneath moss. I read it then with the tips of my fingers, and I think now that I could write it in full.",
-		rumour:"'While I was returning to the depths, one appeared, in front of my eyes, whose mouth was sealed. When I saw them, in the great emptiness, I cried out...' I think that last night I met another soul in the Wood. I will never recall exactly what we said, one to another, but I think that we will recognise each other in the waking world.",
+		["influencehandc",
+		"dread",
+		"rage",
+	"connection.official"],
+		drawmessages:{influencehandc:"'In the shadows of our collective journey, I found myself ensnared in a dark forest of invisible threads. It is challenging to articulate how deep, silent, and omnipresent that forest was...' My memory falters when I try to recall last night, amidst the darkened depths of the forest, where spectral hands brushed against my own. Yet this dawn, my mind hums with fragments: PECUNIA SI UTI SCIS ANCILLA EST SI NESCIS DOMINA'",
+		dread:"Under the oppressive canopy of our collective fear, I lost my way in a forest so silent it screamed. To convey the depth of that silence, the weight of the unseen terror it concealed, is a task that threatens to break my resolve. The chilling memory of last night within the forest's unlit labyrinth, where phantom whispers of the cannibalistic inhabitants clawed at my sanity, lingers like a specter. The rustling, the dreadful anticipation, the presence of a menace hidden in the shadows. This morning, my mind is an echo chamber of horror. Whispers of the unseen, terror of the forest-dwellers, dread of being the hunted prey in the dark forest.",
+		rage:"'In the belly of the dark forest, I bore witness to an unspeakable act that shook the very core of my being. Hidden among the gnarled trees and thick undergrowth, primal violence unveiled its grotesque face. A woman, a victim, was violated by heartless savages, their grunts echoing in the haunting silence, their eyes reflecting the sinister glee of the act. The helplessness, the anger, the indignation. The revolting picture is etched deep within my consciousness, igniting a blaze of rage that refuses to die. Every time I close my eyes, I see her pain, hear her screams, and feel the beast of wrath clawing inside me, thirsting for justice.",
 		},
 resetonexhaustion:true
 	},
