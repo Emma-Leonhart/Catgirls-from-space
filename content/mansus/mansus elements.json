@@ -2,21 +2,23 @@
     "elements": [
         {
             "id": "waywood",
-            "label": "Way: The Wood",
+            "label": "Way: Dark Forest",
             "description": "I've learnt the path to the Wood, the tangled darkness that grows around the walls of the Mansus (though the Mansus has no walls). I can Dream with this to return to the Wood.",
             "aspects": {
                 "way": 1
             },
-            "unique": true
+            "unique": true,
+            "icon": "waydarkwood"
         },
         {
             "id": "waywhite",
-            "label": "Way: The White Door",
+            "label": "Way: Enchanted Forest",
             "description": "In my dreams, I've passed the White Door, which has been called the Bone Door and the Gate of Ivory. My voice remains outside the House each time I enter.",
             "aspects": {
                 "way": 1
             },
-            "unique": true
+            "unique": true,
+            "icon": "waywood"
         },
         {
             "id": "waystagbefore_1",

@@ -29,7 +29,8 @@
                     "label": "Lesson",
                     "required":{
                         "influencerlesson": 1
-                    }
+                    },
+                    "actionid": "study"
                 }
             ],
             "label": "My Online Brand",
@@ -67,7 +68,8 @@
                     "label": "Lesson",
                     "required":{
                         "influencerlesson": 1
-                    }
+                    },
+                    "actionid": "study"
                 }
             ],
             "label": "My Online Brand",
@@ -105,7 +107,8 @@
                     "label": "Lesson",
                     "required":{
                         "influencerlesson": 1
-                    }
+                    },
+                    "actionid": "study"
                 }
             ],
             "label": "My Online Brand",
@@ -143,7 +146,8 @@
                     "label": "Lesson",
                     "required":{
                         "influencerlesson": 1
-                    }
+                    },
+                    "actionid": "study"
                 }
             ],
             "label": "My Online Brand",
@@ -181,7 +185,8 @@
                     "label": "Lesson",
                     "required":{
                         "influencerlesson": 1
-                    }
+                    },
+                    "actionid": "study"
                 }
             ],
             "label": "My Online Brand",
@@ -219,7 +224,8 @@
                     "label": "Lesson",
                     "required":{
                         "influencerlesson": 1
-                    }
+                    },
+                    "actionid": "study"
                 }
             ],
             "label": "My Online Brand",
