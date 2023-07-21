@@ -7,6 +7,9 @@
             "lifetime": 1,
             "aspectS": {
                 "lorelevel": 1
+            },
+            "xtriggers":{
+                "influencer.success": "influencer.lesson.a"
             }
         },
         {
@@ -15,6 +18,9 @@
             "lifetime": 1,
             "aspectS": {
                 "lorelevel": 2
+            },
+            "xtriggers":{
+                "influencer.success": "influencer.lesson.b"
             }
         },
         {
@@ -23,6 +29,9 @@
             "lifetime": 1,
             "aspectS": {
                 "lorelevel": 3
+            },
+            "xtriggers":{
+                "influencer.success": "influencer.lesson.c"
             }
         },
         {
@@ -31,6 +40,9 @@
             "lifetime": 1,
             "aspectS": {
                 "lorelevel": 4
+            },
+            "xtriggers":{
+                "influencer.success": "influencer.lesson.d"
             }
         },
         {
@@ -39,6 +51,9 @@
             "lifetime": 1,
             "aspectS": {
                 "lorelevel": 5
+            },
+            "xtriggers":{
+                "influencer.success": "influencer.lesson.e"
             }
         },
         {
@@ -47,20 +62,103 @@
             "lifetime": 1,
             "aspectS": {
                 "lorelevel": 6
+            },
+            "xtriggers":{
+                "influencer.success": "influencer.lesson.f"
             }
         },
         {
             "id": "influencer.marker.g",
-            "label": "Lore Fragment A",
+            "label": "Lore Fragment G",
             "lifetime": 1,
             "aspectS": {
                 "lorelevel": 7
+            },
+            "xtriggers":{
+                "influencer.success": "influencer.lesson.g"
             }
         },
         {
             "id": "lorelevel",
             "label": "lorelevel",
             "isAspect": true
+        },
+        {
+            "id": "influencer.lesson.a",
+            "label": "Influencer Lesson A",
+            "lifetime": 300,
+            "aspectS": {
+                "lorelevel": 1
+            },
+            "xtriggers":{
+                "influencer.success": "influencer.lesson.a"
+            }
+        },
+        {
+            "id": "influencer.lesson.b",
+            "label": "Influencer Lesson B",
+            "lifetime": 300,
+            "aspectS": {
+                "lorelevel": 2
+            },
+            "xtriggers":{
+                "influencer.success": "influencer.lesson.b"
+            }
+        },
+        {
+            "id": "influencer.lesson.c",
+            "label": "Influencer Lesson C",
+            "lifetime": 300,
+            "aspectS": {
+                "lorelevel": 3
+            },
+            "xtriggers":{
+                "influencer.success": "influencer.lesson.c"
+            }
+        },
+        {
+            "id": "influencer.lesson.d",
+            "label": "Influencer Lesson D",
+            "lifetime": 300,
+            "aspectS": {
+                "lorelevel": 4
+            },
+            "xtriggers":{
+                "influencer.success": "influencer.lesson.d"
+            }
+        },
+        {
+            "id": "influencer.lesson.e",
+            "label": "Influencer Lesson E",
+            "lifetime": 300,
+            "aspectS": {
+                "lorelevel": 5
+            },
+            "xtriggers":{
+                "influencer.success": "influencer.lesson.e"
+            }
+        },
+        {
+            "id": "influencer.lesson.f",
+            "label": "Influencer Lesson F",
+            "lifetime": 300,
+            "aspectS": {
+                "lorelevel": 6
+            },
+            "xtriggers":{
+                "influencer.success": "influencer.lesson.f"
+            }
+        },
+        {
+            "id": "influencer.lesson.g",
+            "label": "Influencer Lesson G",
+            "lifetime": 300,
+            "aspectS": {
+                "lorelevel": 7
+            },
+            "xtriggers":{
+                "influencer.success": "influencer.lesson.g"
+            }
         }
     ]
 }

@@ -2,6 +2,8 @@
     "recipes":[
         {
             "id": "make.video.fragment.router",
+            "label": "make.video.fragment.router",
+            "warmup": 60,
             "actionid": "surf",
             "craftable": false,
             "linked": [
@@ -290,7 +292,8 @@
         {
             "id": "make.video.fragmentheart",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentheart": 1
             },
@@ -300,7 +303,8 @@
         {
             "id": "make.video.fragmentheartb",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentheartb": 1
             },
@@ -310,7 +314,8 @@
         {
             "id": "make.video.fragmentheartc",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentheartc": 1
             },
@@ -320,7 +325,8 @@
         {
             "id": "make.video.fragmentheartd",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentheartd": 1
             },
@@ -330,7 +336,8 @@
         {
             "id": "make.video.fragmenthearte",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmenthearte": 1
             },
@@ -340,7 +347,8 @@
         {
             "id": "make.video.fragmentheartf",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentheartf": 1
             },
@@ -350,7 +358,8 @@
         {
             "id": "make.video.fragmentheartg",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentheartg": 1
             },
@@ -360,7 +369,8 @@
         {
             "id": "make.video.fragmentwinter",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentwinter": 1
             },
@@ -370,7 +380,8 @@
         {
             "id": "make.video.fragmentwinterb",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentwinterb": 1
             },
@@ -380,7 +391,8 @@
         {
             "id": "make.video.fragmentwinterc",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentwinterc": 1
             },
@@ -390,7 +402,8 @@
         {
             "id": "make.video.fragmentwinterd",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentwinterd": 1
             },
@@ -400,7 +413,8 @@
         {
             "id": "make.video.fragmentwintere",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentwintere": 1
             },
@@ -410,7 +424,8 @@
         {
             "id": "make.video.fragmentwinterf",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentwinterf": 1
             },
@@ -420,7 +435,8 @@
         {
             "id": "make.video.fragmentwinterg",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentwinterg": 1
             },
@@ -430,7 +446,8 @@
         {
             "id": "make.video.fragmentsecrethistories",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentsecrethistories": 1
             },
@@ -440,7 +457,8 @@
         {
             "id": "make.video.fragmentsecrethistoriesb",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentsecrethistoriesb": 1
             },
@@ -450,7 +468,8 @@
         {
             "id": "make.video.fragmentsecrethistoriesc",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentsecrethistoriesc": 1
             },
@@ -460,7 +479,8 @@
         {
             "id": "make.video.fragmentsecrethistoriesd",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentsecrethistoriesd": 1
             },
@@ -470,7 +490,8 @@
         {
             "id": "make.video.fragmentsecrethistoriese",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentsecrethistoriese": 1
             },
@@ -480,7 +501,8 @@
         {
             "id": "make.video.fragmentsecrethistoriesf",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentsecrethistoriesf": 1
             },
@@ -490,7 +512,8 @@
         {
             "id": "make.video.fragmentsecrethistoriesg",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentsecrethistoriesg": 1
             },
@@ -500,7 +523,8 @@
         {
             "id": "make.video.fragmentlantern",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentlantern": 1
             },
@@ -510,7 +534,8 @@
         {
             "id": "make.video.fragmentlanternb",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentlanternb": 1
             },
@@ -520,7 +545,8 @@
         {
             "id": "make.video.fragmentlanternc",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentlanternc": 1
             },
@@ -530,7 +556,8 @@
         {
             "id": "make.video.fragmentlanternd",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentlanternd": 1
             },
@@ -540,7 +567,8 @@
         {
             "id": "make.video.fragmentlanterne",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentlanterne": 1
             },
@@ -550,7 +578,8 @@
         {
             "id": "make.video.fragmentlanternf",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentlanternf": 1
             },
@@ -560,7 +589,8 @@
         {
             "id": "make.video.fragmentlanterng",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentlanterng": 1
             },
@@ -570,7 +600,8 @@
         {
             "id": "make.video.fragmentgrail",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentgrail": 1
             },
@@ -580,7 +611,8 @@
         {
             "id": "make.video.fragmentgrailb",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentgrailb": 1
             },
@@ -590,7 +622,8 @@
         {
             "id": "make.video.fragmentgrailc",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentgrailc": 1
             },
@@ -600,7 +633,8 @@
         {
             "id": "make.video.fragmentgraild",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentgraild": 1
             },
@@ -610,7 +644,8 @@
         {
             "id": "make.video.fragmentgraile",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentgraile": 1
             },
@@ -620,7 +655,8 @@
         {
             "id": "make.video.fragmentgrailf",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentgrailf": 1
             },
@@ -630,7 +666,8 @@
         {
             "id": "make.video.fragmentgrailg",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentgrailg": 1
             },
@@ -640,7 +677,8 @@
         {
             "id": "make.video.fragmentedge",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentedge": 1
             },
@@ -650,7 +688,8 @@
         {
             "id": "make.video.fragmentedgeb",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentedgeb": 1
             },
@@ -660,7 +699,8 @@
         {
             "id": "make.video.fragmentedgec",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentedgec": 1
             },
@@ -670,7 +710,8 @@
         {
             "id": "make.video.fragmentedged",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentedged": 1
             },
@@ -680,7 +721,8 @@
         {
             "id": "make.video.fragmentedgee",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentedgee": 1
             },
@@ -690,7 +732,8 @@
         {
             "id": "make.video.fragmentedgef",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentedgef": 1
             },
@@ -700,7 +743,8 @@
         {
             "id": "make.video.fragmentedgeg",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentedgeg": 1
             },
@@ -710,7 +754,8 @@
         {
             "id": "make.video.fragmentknock",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentknock": 1
             },
@@ -720,7 +765,8 @@
         {
             "id": "make.video.fragmentknockb",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentknockb": 1
             },
@@ -730,7 +776,8 @@
         {
             "id": "make.video.fragmentknockc",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentknockc": 1
             },
@@ -740,7 +787,8 @@
         {
             "id": "make.video.fragmentknockd",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentknockd": 1
             },
@@ -750,7 +798,8 @@
         {
             "id": "make.video.fragmentknocke",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentknocke": 1
             },
@@ -760,7 +809,8 @@
         {
             "id": "make.video.fragmentknockf",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentknockf": 1
             },
@@ -770,7 +820,8 @@
         {
             "id": "make.video.fragmentknockg",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentknockg": 1
             },
@@ -780,7 +831,8 @@
         {
             "id": "make.video.fragmentforge",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentforge": 1
             },
@@ -790,7 +842,8 @@
         {
             "id": "make.video.fragmentforgeb",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentforgeb": 1
             },
@@ -800,7 +853,8 @@
         {
             "id": "make.video.fragmentforgec",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentforgec": 1
             },
@@ -810,7 +864,8 @@
         {
             "id": "make.video.fragmentforged",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentforged": 1
             },
@@ -820,7 +875,8 @@
         {
             "id": "make.video.fragmentforgee",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentforgee": 1
             },
@@ -830,7 +886,8 @@
         {
             "id": "make.video.fragmentforgef",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentforgef": 1
             },
@@ -840,7 +897,8 @@
         {
             "id": "make.video.fragmentforgeg",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentforgeg": 1
             },
@@ -850,7 +908,8 @@
         {
             "id": "make.video.fragmentmoth",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentmoth": 1
             },
@@ -860,7 +919,8 @@
         {
             "id": "make.video.fragmentmothb",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentmothb": 1
             },
@@ -870,7 +930,8 @@
         {
             "id": "make.video.fragmentmothc",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentmothc": 1
             },
@@ -880,7 +941,8 @@
         {
             "id": "make.video.fragmentmothd",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentmothd": 1
             },
@@ -890,7 +952,8 @@
         {
             "id": "make.video.fragmentmothe",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentmothe": 1
             },
@@ -900,7 +963,8 @@
         {
             "id": "make.video.fragmentmothf",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentmothf": 1
             },
@@ -910,7 +974,8 @@
         {
             "id": "make.video.fragmentmothg",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmentmothg": 1
             },
@@ -920,7 +985,8 @@
         {
             "id": "make.video.fragmenthand",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmenthand": 1
             },
@@ -930,7 +996,8 @@
         {
             "id": "make.video.fragmenthandb",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmenthandb": 1
             },
@@ -940,7 +1007,8 @@
         {
             "id": "make.video.fragmenthandc",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmenthandc": 1
             },
@@ -950,7 +1018,8 @@
         {
             "id": "make.video.fragmenthandd",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmenthandd": 1
             },
@@ -960,7 +1029,8 @@
         {
             "id": "make.video.fragmenthande",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmenthande": 1
             },
@@ -970,7 +1040,8 @@
         {
             "id": "make.video.fragmenthandf",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmenthandf": 1
             },
@@ -980,7 +1051,8 @@
         {
             "id": "make.video.fragmenthandg",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Video Routing",
             "requirements": {
                 "fragmenthandg": 1
             },
@@ -990,7 +1062,8 @@
         {
             "id": "make.video.rank.a",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Testing lore quantity",
             "deprecated_requirements": {
                 "fragmenthand": 1
             },
@@ -1001,7 +1074,11 @@
             },
             "linked": [
                 {
-                    "id": "influencer.secondaryrouting",
+                    "id": "make.video.rank.a.test",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.toocomplicated",
                     "chance": 100
                 }
             ]
@@ -1009,7 +1086,8 @@
         {
             "id": "make.video.rank.b",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Testing lore quantity",
             "deprecated_requirements": {
                 "fragmenthandb": 1
             },
@@ -1020,7 +1098,11 @@
             },
             "linked": [
                 {
-                    "id": "influencer.secondaryrouting",
+                    "id": "make.video.rank.b.test",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.toocomplicated",
                     "chance": 100
                 }
             ]
@@ -1028,7 +1110,8 @@
         {
             "id": "make.video.rank.c",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Testing lore quantity",
             "deprecated_requirements": {
                 "fragmenthandc": 1
             },
@@ -1039,7 +1122,11 @@
             },
             "linked": [
                 {
-                    "id": "influencer.secondaryrouting",
+                    "id": "make.video.rank.c.test",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.toocomplicated",
                     "chance": 100
                 }
             ]
@@ -1047,7 +1134,8 @@
         {
             "id": "make.video.rank.d",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Testing lore quantity",
             "deprecated_requirements": {
                 "fragmenthandd": 1
             },
@@ -1055,12 +1143,23 @@
             "unlinked": { "id": "make.video.rank.d"},
             "effects":{
                 "influencer.marker.d": 1
-            }
+            },
+            "linked": [
+                {
+                    "id": "make.video.rank.d.test",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.toocomplicated",
+                    "chance": 100
+                }
+            ]
         },
         {
             "id": "make.video.rank.e",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Testing lore quantity",
             "deprecated_requirements": {
                 "fragmenthande": 1
             },
@@ -1071,7 +1170,11 @@
             },
             "linked": [
                 {
-                    "id": "influencer.secondaryrouting",
+                    "id": "make.video.rank.e.test",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.toocomplicated",
                     "chance": 100
                 }
             ]
@@ -1079,7 +1182,8 @@
         {
             "id": "make.video.rank.f",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Testing lore quantity",
             "deprecated_requirements": {
                 "fragmenthandf": 1
             },
@@ -1090,7 +1194,11 @@
             },
             "linked": [
                 {
-                    "id": "influencer.secondaryrouting",
+                    "id": "make.video.rank.f.test",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.toocomplicated",
                     "chance": 100
                 }
             ]
@@ -1098,7 +1206,8 @@
         {
             "id": "make.video.rank.g",
             "actionid": "surf",
-            "label": "Make a video",
+            "warmup": 60,
+            "label": "Testing lore quantity",
             "deprecated_requirements": {
                 "fragmenthandg": 1
             },
@@ -1109,7 +1218,123 @@
             },
             "linked": [
                 {
-                    "id": "influencer.secondaryrouting",
+                    "id": "make.video.rank.g.test",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.toocomplicated",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "make.video.rank.a.test",
+            "actionid": "surf",
+            "label": "Testing influencer level",
+            "warmup": 60,
+            "craftable": false,
+            "requirements": {
+                "influencerlevel": 1
+            },
+            "linked": [
+                {
+                    "id": "work.influencer.success",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "make.video.rank.b.test",
+            "actionid": "surf",
+            "label": "Testing influencer level",
+            "warmup": 60,
+            "craftable": false,
+            "requirements": {
+                "influencerlevel": 2
+            },
+            "linked": [
+                {
+                    "id": "work.influencer.success",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "make.video.rank.c.test",
+            "actionid": "surf",
+            "label": "Testing influencer level",
+            "warmup": 60,
+            "craftable": false,
+            "requirements": {
+                "influencerlevel": 3
+            },
+            "linked": [
+                {
+                    "id": "work.influencer.success",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "make.video.rank.d.test",
+            "actionid": "surf",
+            "label": "Testing influencer level",
+            "warmup": 60,
+            "craftable": false,
+            "requirements": {
+                "influencerlevel": 4
+            },
+            "linked": [
+                {
+                    "id": "work.influencer.success",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "make.video.rank.e.test",
+            "actionid": "surf",
+            "label": "Testing influencer level",
+            "warmup": 60,
+            "craftable": false,
+            "requirements": {
+                "influencerlevel": 5
+            },
+            "linked": [
+                {
+                    "id": "work.influencer.success",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "make.video.rank.f.test",
+            "actionid": "surf",
+            "label": "Testing influencer level",
+            "warmup": 60,
+            "craftable": false,
+            "requirements": {
+                "influencerlevel": 6
+            },
+            "linked": [
+                {
+                    "id": "work.influencer.success",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "make.video.rank.g.test",
+            "actionid": "surf",
+            "label": "Testing influencer level",
+            "warmup": 60,
+            "craftable": false,
+            "requirements": {
+                "influencerlevel": 7
+            },
+            "linked": [
+                {
+                    "id": "work.influencer.success",
                     "chance": 100
                 }
             ]

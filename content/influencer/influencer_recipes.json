@@ -22,7 +22,8 @@
             "actionid": "surf",
             "label": "Make a video",
             "requirements": {
-                "influencerjob": 1
+                "influencerjob": 1,
+                "lore": -1
             },
             "linked":[
                 {
@@ -72,6 +73,17 @@
                     "chance": 100
                 }
             ]
+        },
+        {
+            "id": "work.influencer.toocomplicated",
+            "actionid": "surf",
+            "label": "You videotape yourself lecturing at a chalk board",
+            "warmup": 60,
+            "startdescription": "I stand in front of the chalkboard, my mind brimming with complex esoteric theories. The room is quiet, save for the soft chalk scratches and my steady voice, echoing in the hollow space. It's time to delve deep into the arcane.",
+            "description":  "I glance at the view count on my video - five. The complexity of the subject matter has deterred the casual viewer. Despite the underwhelming response, the richness of the knowledge I shared cannot be undermined. Perhaps it was too ambitious for the uninitiated.",
+            "aspects":{
+                "fatiguing": 1
+            }
         },
         {
             "id": "work.influencer.success",
@@ -451,6 +463,48 @@
             "craftable": false
         },
         {
+            "id": "work.influencer.health.lore",
+            "actionid": "surf",
+            "label": "Prepare a sermon on a secret doctrine",
+            "startdescription": "I will speak to their souls, and if I speak with precision, their souls may answer me. [Using a suitable doctrine with Reasoned preaching is more likely to create virality.]",
+            "requirements": {
+                "influencerjob": 1,
+                "reason": 1,
+                "lore": 1
+            },
+            "linked": [
+                {
+                    "id": "preach.knock",
+                    "challenges": {
+                        "knock": "base"
+                    }
+                },
+                {
+                    "id": "preach.secrethistories",
+                    "challenges": {
+                        "secrethistories": "base"
+                    }
+                },
+                {
+                    "id": "preach.winter",
+                    "challenges": {
+                        "winter": "base"
+                    }
+                },
+                {
+                    "id": "preach.lantern",
+                    "challenges": {
+                        "lantern": "base"
+                    }
+                },
+                {
+                    "id": "work.influencer.nolorematch"
+                }
+            ],
+            "warmup": 60,
+            "craftable": false
+        },
+        {
             "id": "work.influencer.nolorematch",
             "actionid": "surf",
             "label": "A Subdued Ceremony",
@@ -476,7 +530,10 @@
                     },
                     "additional": true
                 }
-            ]
+            ],
+            "aspects": {
+                "influencer.success": 1
+            }
         },
         {
             "id": "preach.forge",
@@ -495,7 +552,10 @@
                     },
                     "additional": true
                 }
-            ]
+            ],
+            "aspects": {
+                "influencer.success": 1
+            }
         },
         {
             "id": "preach.grail",
@@ -514,7 +574,10 @@
                     },
                     "additional": true
                 }
-            ]
+            ],
+            "aspects": {
+                "influencer.success": 1
+            }
         },
         {
             "id": "preach.heart",
@@ -533,7 +596,10 @@
                     },
                     "additional": true
                 }
-            ]
+            ],
+            "aspects": {
+                "influencer.success": 1
+            }
         },
         {
             "id": "preach.knock",
@@ -552,7 +618,10 @@
                     },
                     "additional": true
                 }
-            ]
+            ],
+            "aspects": {
+                "influencer.success": 1
+            }
         },
         {
             "id": "preach.lantern",
@@ -571,7 +640,10 @@
                     },
                     "additional": true
                 }
-            ]
+            ],
+            "aspects": {
+                "influencer.success": 1
+            }
         },
         {
             "id": "preach.moth",
@@ -590,7 +662,10 @@
                     },
                     "additional": true
                 }
-            ]
+            ],
+            "aspects": {
+                "influencer.success": 1
+            }
         },
         {
             "id": "preach.secrethistories",
@@ -609,7 +684,10 @@
                     },
                     "additional": true
                 }
-            ]
+            ],
+            "aspects": {
+                "influencer.success": 1
+            }
         },
         {
             "id": "preach.winter",
@@ -628,7 +706,32 @@
                     },
                     "additional": true
                 }
-            ]
+            ],
+            "aspects": {
+                "influencer.success": 1
+            }
+        },
+        {
+            "id": "preach.hand",
+            "actionid": "surf",
+            "label": "'Placeholder description.'",
+            "startdescription": "'Placeholder description.' [The deeper the Lore, the greater the chance of Exultation.]",
+            "effects": {
+                "funds": 1,
+                "virality": 1
+            },
+            "alt": [
+                {
+                    "id": "influencer.repevent",
+                    "challenges": {
+                        "hand": "base"
+                    },
+                    "additional": true
+                }
+            ],
+            "aspects": {
+                "influencer.success": 1
+            }
         },
         {
             "id": "influencer.repevent",

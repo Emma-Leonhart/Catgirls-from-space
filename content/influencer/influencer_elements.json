@@ -2,6 +2,7 @@
     "elements":[
         {
             "id": "influencerjoba",
+            "icon": "influencerjob",
             "aspects": {
                 "influencerjob": 1,
                 "influencerlevel": 1
@@ -32,6 +33,7 @@
         },
         {
             "id": "influencerjobb",
+            "icon": "influencerjob",
             "aspects": {
                 "influencerjob": 1,
                 "influencerlevel": 2
@@ -62,6 +64,7 @@
         },
         {
             "id": "influencerjobc",
+            "icon": "influencerjob",
             "aspects": {
                 "influencerjob": 1,
                 "influencerlevel": 3
@@ -92,6 +95,7 @@
         },
         {
             "id": "influencerjobd",
+            "icon": "influencerjob",
             "aspects": {
                 "influencerjob": 1,
                 "influencerlevel": 4
@@ -122,6 +126,7 @@
         },
         {
             "id": "influencerjobe",
+            "icon": "influencerjob",
             "aspects": {
                 "influencerjob": 1,
                 "influencerlevel": 5
@@ -152,6 +157,7 @@
         },
         {
             "id": "influencerjobf",
+            "icon": "influencerjob",
             "aspects": {
                 "influencerjob": 1,
                 "influencerlevel": 6
@@ -182,6 +188,7 @@
         },
         {
             "id": "influencerjobg",
+            "icon": "influencerjob",
             "aspects": {
                 "influencerjob": 1,
                 "influencerlevel": 7
@@ -222,6 +229,12 @@
         {
             "id": "influencerjob",
             "label": "influencer job",
+            "description": "I am an influencer",
+            "isAspect": true
+        },
+        {
+            "id": "influencerlevel",
+            "label": "Skill as a youtuber",
             "description": "I am an influencer",
             "isAspect": true
         }
