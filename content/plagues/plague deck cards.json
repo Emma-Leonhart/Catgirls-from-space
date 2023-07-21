@@ -1,0 +1,40 @@
+{
+    "elements":[
+        {
+            "id": "alienation_start",
+            "label": "Alienation"
+        },
+        {
+            "id": "angst_start",
+            "label": "Angst"
+        },
+        {
+            "id": "absurdity_start",
+            "label": "Absurdity"
+        },
+        {
+            "id": "forgetting_start",
+            "label": "Forgetting"
+        },
+        {
+            "id": "spiralling_start",
+            "label": "Spiralling"
+        },
+        {
+            "id": "drowning_start",
+            "label": "Drowning"
+        },
+        {
+            "id": "locking_start",
+            "label": "Locking"
+        },
+        {
+            "id": "ego_start",
+            "label": "Ego"
+        },
+        {
+            "id": "limitation_start",
+            "label": "Limitation"
+        }
+    ]
+}

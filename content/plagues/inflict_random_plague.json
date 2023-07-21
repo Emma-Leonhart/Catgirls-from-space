@@ -1,0 +1,141 @@
+{
+    "recipes":[
+        {
+            "id": "inflict_plague",
+            "label": "A plague is inflicted",
+            "actionid": "inflict_plague_verb",
+            "plagues": {
+                "plagues": 1
+            },
+            "warmup": 20,
+            "linked":[
+                {
+                    "id": "inflict_plague_2"
+                }
+            ]
+        },
+        {
+            "id": "inflict_plague_2",
+            "actionid": "inflict_plague_verb",
+            "linked":[
+                {
+                    "id": "inflict_alienation",
+                    "chance": 100,
+                    "requirements":{
+                        "alienation_start": 1,
+                    },
+                    "alt":[
+                        {
+                            "id": "alienation",
+                            "chance": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "inflict_angst",
+                    "chance": 100,
+                    "requirements": {
+                        "angst_start": 1
+                    },
+                    "alt": [
+                        {
+                            "id": "angst",
+                            "chance": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "inflict_absurdity",
+                    "chance": 100,
+                    "requirements": {
+                        "absurdity_start": 1
+                    },
+                    "alt": [
+                        {
+                            "id": "absurdity",
+                            "chance": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "inflict_forgetting",
+                    "chance": 100,
+                    "requirements": {
+                        "forgetting_start": 1
+                    },
+                    "alt": [
+                        {
+                            "id": "forgetting",
+                            "chance": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "inflict_spiralling",
+                    "chance": 100,
+                    "requirements": {
+                        "spiralling_start": 1
+                    },
+                    "alt": [
+                        {
+                            "id": "spiralling",
+                            "chance": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "inflict_drowning",
+                    "chance": 100,
+                    "requirements": {
+                        "drowning_start": 1
+                    },
+                    "alt": [
+                        {
+                            "id": "drowning",
+                            "chance": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "inflict_locking",
+                    "chance": 100,
+                    "requirements": {
+                        "locking_start": 1
+                    },
+                    "alt": [
+                        {
+                            "id": "locking",
+                            "chance": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "inflict_ego",
+                    "chance": 100,
+                    "requirements": {
+                        "ego_start": 1
+                    },
+                    "alt": [
+                        {
+                            "id": "ego",
+                            "chance": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "inflict_limitation",
+                    "chance": 100,
+                    "requirements": {
+                        "limitation_start": 1
+                    },
+                    "alt": [
+                        {
+                            "id": "limitation",
+                            "chance": 100
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
