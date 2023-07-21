@@ -1,0 +1,322 @@
+{
+    "recipes":[
+        {
+            "id": "alienation",
+            "label": "Alienation lv 1",
+            "actionid": "alienation_plague",
+            "alt": [
+                {
+                    "id": "alienation.resolve.early",
+                    "chance": 100
+                },
+                {
+                    "id": "alienation.2",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely",
+            "slots": [
+				{
+					"id": "heart",
+					"label": "heart influence",
+					"description": "I need protection",
+					"required": {
+						"heart": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "alienation.2",
+            "label": "Alienation lv 2",
+            "actionid": "alienation_plague",
+            "alt": [
+                {
+                    "id": "alienation.resolve",
+                    "challenges": {
+                        "heart": "base"
+                    }
+                },
+                {
+                    "id": "alienation.3",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely. [Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "heart",
+					"label": "heart influence",
+					"description": "I need protection",
+					"required": {
+						"heart": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "alienation.3",
+            "label": "Alienation lv 3",
+            "actionid": "alienation_plague",
+            "alt": [
+                {
+                    "id": "alienation.resolve",
+                    "challenges": {
+                        "heart": "base"
+                    }
+                },
+                {
+                    "id": "alienation.4",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely",
+            "slots": [
+				{
+					"id": "heart",
+					"label": "heart influence",
+					"description": "I need protection",
+					"required": {
+						"heart": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "alienation.4",
+            "label": "Alienation lv 4",
+            "actionid": "alienation_plague",
+            "alt": [
+                {
+                    "id": "alienation.resolve",
+                    "challenges": {
+                        "heart": "base"
+                    }
+                },
+                {
+                    "id": "alienation.5",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely",
+            "slots": [
+				{
+					"id": "heart",
+					"label": "heart influence",
+					"description": "I need protection",
+					"required": {
+						"heart": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "alienation.5",
+            "label": "Alienation lv 5",
+            "actionid": "alienation_plague",
+            "alt": [
+                {
+                    "id": "alienation.resolve",
+                    "challenges": {
+                        "heart": "advanced"
+                    }
+                },
+                {
+                    "id": "alienation.6",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely",
+            "slots": [
+				{
+					"id": "heart",
+					"label": "heart influence",
+					"description": "I need protection",
+					"required": {
+						"heart": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "alienation.6",
+            "label": "Alienation lv 6",
+            "actionid": "alienation_plague",
+            "alt": [
+                {
+                    "id": "alienation.resolve",
+                    "challenges": {
+                        "heart": "advanced"
+                    }
+                },
+                {
+                    "id": "alienation.7",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely",
+            "slots": [
+				{
+					"id": "heart",
+					"label": "heart influence",
+					"description": "I need protection",
+					"required": {
+						"heart": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "alienation.7",
+            "label": "Alienation lv 7",
+            "actionid": "alienation_plague",
+            "alt": [
+                {
+                    "id": "alienation.resolve",
+                    "challenges": {
+                        "heart": "advanced"
+                    }
+                },
+                {
+                    "id": "alienation.8",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely",
+            "slots": [
+				{
+					"id": "heart",
+					"label": "heart influence",
+					"description": "I need protection",
+					"required": {
+						"heart": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "alienation.8",
+            "label": "Alienation lv 8",
+            "actionid": "alienation_plague",
+            "alt": [
+                {
+                    "id": "alienation.resolve",
+                    "challenges": {
+                        "heart": "advanced"
+                    }
+                },
+                {
+                    "id": "alienation.9",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely",
+            "slots": [
+				{
+					"id": "heart",
+					"label": "heart influence",
+					"description": "I need protection",
+					"required": {
+						"heart": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "alienation.9",
+            "label": "Alienation lv 9",
+            "actionid": "alienation_plague",
+            "alt": [
+                {
+                    "id": "alienation.resolve",
+                    "challenges": {
+                        "heart": "advanced"
+                    }
+                },
+                {
+                    "id": "alienation.10",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely",
+            "slots": [
+				{
+					"id": "heart",
+					"label": "heart influence",
+					"description": "I need protection",
+					"required": {
+						"heart": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "alienation.10",
+            "label": "Alienation lv 10",
+            "actionid": "alienation_plague",
+            "alt": [
+                {
+                    "id": "alienation.resolve",
+                    "challenges": {
+                        "heart": "advanced"
+                    }
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely",
+            "ending": "alienation",
+            "slots": [
+				{
+					"id": "heart",
+					"label": "heart influence",
+					"description": "I need protection",
+					"required": {
+						"heart": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "alienation.resolve.early",
+            "label": "Alienation resolved",
+            "requirements": {
+                "heart": 2
+            },
+            "linked":[
+                {
+                    "id": "alienation.resolve",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "alienation.resolve",
+            "label": "Alienation resolved",
+            "startdescription": "PLACEHOLDER",
+            "description": "PLACEHOLDER",
+            "effects":{
+                "fragmentheart": 1,
+                "influencehearte": 1
+            }
+        }
+    ]
+}

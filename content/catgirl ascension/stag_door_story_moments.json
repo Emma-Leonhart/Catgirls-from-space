@@ -237,6 +237,10 @@
             {
                 "id": "ascend_cats",
                 "chance": 100
+            },
+            {
+                "id": "ascend_youtube",
+                "chance": 100
             }
         ]
     },

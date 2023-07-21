@@ -1,0 +1,322 @@
+{
+    "recipes":[
+        {
+            "id": "spiralling",
+            "label": "spiralling lv 1",
+            "actionid": "spiralling_plague",
+            "alt": [
+                {
+                    "id": "spiralling.resolve.early",
+                    "chance": 100
+                },
+                {
+                    "id": "spiralling.2",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "grail",
+					"label": "grail influence",
+					"description": "I need protection",
+					"required": {
+						"grail": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "spiralling.2",
+            "label": "spiralling lv 2",
+            "actionid": "spiralling_plague",
+            "alt": [
+                {
+                    "id": "spiralling.resolve",
+                    "challenges": {
+                        "grail": "base"
+                    }
+                },
+                {
+                    "id": "spiralling.3",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely. [Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "grail",
+					"label": "grail influence",
+					"description": "I need protection",
+					"required": {
+						"grail": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "spiralling.3",
+            "label": "spiralling lv 3",
+            "actionid": "spiralling_plague",
+            "alt": [
+                {
+                    "id": "spiralling.resolve",
+                    "challenges": {
+                        "grail": "base"
+                    }
+                },
+                {
+                    "id": "spiralling.4",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "grail",
+					"label": "grail influence",
+					"description": "I need protection",
+					"required": {
+						"grail": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "spiralling.4",
+            "label": "spiralling lv 4",
+            "actionid": "spiralling_plague",
+            "alt": [
+                {
+                    "id": "spiralling.resolve",
+                    "challenges": {
+                        "grail": "base"
+                    }
+                },
+                {
+                    "id": "spiralling.5",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "grail",
+					"label": "grail influence",
+					"description": "I need protection",
+					"required": {
+						"grail": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "spiralling.5",
+            "label": "spiralling lv 5",
+            "actionid": "spiralling_plague",
+            "alt": [
+                {
+                    "id": "spiralling.resolve",
+                    "challenges": {
+                        "grail": "advanced"
+                    }
+                },
+                {
+                    "id": "spiralling.6",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "grail",
+					"label": "grail influence",
+					"description": "I need protection",
+					"required": {
+						"grail": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "spiralling.6",
+            "label": "spiralling lv 6",
+            "actionid": "spiralling_plague",
+            "alt": [
+                {
+                    "id": "spiralling.resolve",
+                    "challenges": {
+                        "grail": "advanced"
+                    }
+                },
+                {
+                    "id": "spiralling.7",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "grail",
+					"label": "grail influence",
+					"description": "I need protection",
+					"required": {
+						"grail": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "spiralling.7",
+            "label": "spiralling lv 7",
+            "actionid": "spiralling_plague",
+            "alt": [
+                {
+                    "id": "spiralling.resolve",
+                    "challenges": {
+                        "grail": "advanced"
+                    }
+                },
+                {
+                    "id": "spiralling.8",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "grail",
+					"label": "grail influence",
+					"description": "I need protection",
+					"required": {
+						"grail": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "spiralling.8",
+            "label": "spiralling lv 8",
+            "actionid": "spiralling_plague",
+            "alt": [
+                {
+                    "id": "spiralling.resolve",
+                    "challenges": {
+                        "grail": "advanced"
+                    }
+                },
+                {
+                    "id": "spiralling.9",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "grail",
+					"label": "grail influence",
+					"description": "I need protection",
+					"required": {
+						"grail": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "spiralling.9",
+            "label": "spiralling lv 9",
+            "actionid": "spiralling_plague",
+            "alt": [
+                {
+                    "id": "spiralling.resolve",
+                    "challenges": {
+                        "grail": "advanced"
+                    }
+                },
+                {
+                    "id": "spiralling.10",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "grail",
+					"label": "grail influence",
+					"description": "I need protection",
+					"required": {
+						"grail": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "spiralling.10",
+            "label": "spiralling lv 10",
+            "actionid": "spiralling_plague",
+            "alt": [
+                {
+                    "id": "spiralling.resolve",
+                    "challenges": {
+                        "grail": "advanced"
+                    }
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "ending": "spiralling",
+            "slots": [
+				{
+					"id": "grail",
+					"label": "grail influence",
+					"description": "I need protection",
+					"required": {
+						"grail": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "spiralling.resolve.early",
+            "label": "spiralling resolved",
+            "requirements": {
+                "grail": 2
+            },
+            "linked":[
+                {
+                    "id": "spiralling.resolve",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "spiralling.resolve",
+            "label": "spiralling resolved",
+            "startdescription": "PLACEHOLDER",
+            "description": "PLACEHOLDER",
+            "effects":{
+                "fragmentgrail": 1,
+                "influencegraile": 1
+            }
+        }
+    ]
+}

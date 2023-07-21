@@ -1,0 +1,21 @@
+{
+    "decks":[
+        {
+            "id": "plagues",
+            "label": "The Congregation's Passions",
+            "description": "What will come of this?",
+            "spec": [
+                "alienation_start",
+                "angst_start",
+                "absurdity_start",
+                "forgetting_start",
+                "spiralling_start",
+                "drowning_start",
+                "locking_start",
+                "ego_start",
+                "limitation_start"
+            ],
+            "resetonexhaustion": true
+        }
+    ]
+}

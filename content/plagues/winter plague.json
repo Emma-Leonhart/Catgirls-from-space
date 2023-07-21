@@ -1,0 +1,322 @@
+{
+    "recipes":[
+        {
+            "id": "angst",
+            "label": "Angst lv 1",
+            "actionid": "angst_plague",
+            "alt": [
+                {
+                    "id": "angst.resolve.early",
+                    "chance": 100
+                },
+                {
+                    "id": "angst.2",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "winter",
+					"label": "winter influence",
+					"description": "I need protection",
+					"required": {
+						"winter": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "angst.2",
+            "label": "Angst lv 2",
+            "actionid": "angst_plague",
+            "alt": [
+                {
+                    "id": "angst.resolve",
+                    "challenges": {
+                        "winter": "base"
+                    }
+                },
+                {
+                    "id": "angst.3",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely. [Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "winter",
+					"label": "winter influence",
+					"description": "I need protection",
+					"required": {
+						"winter": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "angst.3",
+            "label": "Angst lv 3",
+            "actionid": "angst_plague",
+            "alt": [
+                {
+                    "id": "angst.resolve",
+                    "challenges": {
+                        "winter": "base"
+                    }
+                },
+                {
+                    "id": "angst.4",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "winter",
+					"label": "winter influence",
+					"description": "I need protection",
+					"required": {
+						"winter": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "angst.4",
+            "label": "Angst lv 4",
+            "actionid": "angst_plague",
+            "alt": [
+                {
+                    "id": "angst.resolve",
+                    "challenges": {
+                        "winter": "base"
+                    }
+                },
+                {
+                    "id": "angst.5",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "winter",
+					"label": "winter influence",
+					"description": "I need protection",
+					"required": {
+						"winter": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "angst.5",
+            "label": "Angst lv 5",
+            "actionid": "angst_plague",
+            "alt": [
+                {
+                    "id": "angst.resolve",
+                    "challenges": {
+                        "winter": "advanced"
+                    }
+                },
+                {
+                    "id": "angst.6",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "winter",
+					"label": "winter influence",
+					"description": "I need protection",
+					"required": {
+						"winter": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "angst.6",
+            "label": "Angst lv 6",
+            "actionid": "angst_plague",
+            "alt": [
+                {
+                    "id": "angst.resolve",
+                    "challenges": {
+                        "winter": "advanced"
+                    }
+                },
+                {
+                    "id": "angst.7",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "winter",
+					"label": "winter influence",
+					"description": "I need protection",
+					"required": {
+						"winter": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "angst.7",
+            "label": "Angst lv 7",
+            "actionid": "angst_plague",
+            "alt": [
+                {
+                    "id": "angst.resolve",
+                    "challenges": {
+                        "winter": "advanced"
+                    }
+                },
+                {
+                    "id": "angst.8",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "winter",
+					"label": "winter influence",
+					"description": "I need protection",
+					"required": {
+						"winter": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "angst.8",
+            "label": "Angst lv 8",
+            "actionid": "angst_plague",
+            "alt": [
+                {
+                    "id": "angst.resolve",
+                    "challenges": {
+                        "winter": "advanced"
+                    }
+                },
+                {
+                    "id": "angst.9",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "winter",
+					"label": "winter influence",
+					"description": "I need protection",
+					"required": {
+						"winter": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "angst.9",
+            "label": "Angst lv 9",
+            "actionid": "angst_plague",
+            "alt": [
+                {
+                    "id": "angst.resolve",
+                    "challenges": {
+                        "winter": "advanced"
+                    }
+                },
+                {
+                    "id": "angst.10",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "winter",
+					"label": "winter influence",
+					"description": "I need protection",
+					"required": {
+						"winter": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "angst.10",
+            "label": "Angst lv 10",
+            "actionid": "angst_plague",
+            "alt": [
+                {
+                    "id": "angst.resolve",
+                    "challenges": {
+                        "winter": "advanced"
+                    }
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "ending": "angst",
+            "slots": [
+				{
+					"id": "winter",
+					"label": "winter influence",
+					"description": "I need protection",
+					"required": {
+						"winter": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "angst.resolve.early",
+            "label": "Angst resolved",
+            "requirements": {
+                "winter": 2
+            },
+            "linked":[
+                {
+                    "id": "angst.resolve",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "angst.resolve",
+            "label": "Angst resolved",
+            "startdescription": "PLACEHOLDER",
+            "description": "PLACEHOLDER",
+            "effects":{
+                "fragmentwinter": 1,
+                "influencewintere": 1
+            }
+        }
+    ]
+}

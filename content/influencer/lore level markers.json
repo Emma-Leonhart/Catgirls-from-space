@@ -75,7 +75,7 @@
                 "lorelevel": 7
             },
             "xtriggers":{
-                "influencer.success": "influencer.lesson.g"
+                "influencer.success.nope": "influencer.lesson.g"
             }
         },
         {
@@ -84,11 +84,16 @@
             "isAspect": true
         },
         {
+            "id": "influencerlesson",
+            "label": "Influencer Lesson",
+            "isAspect": true
+        },
+        {
             "id": "influencer.lesson.a",
             "label": "Influencer Lesson A",
             "lifetime": 300,
             "aspectS": {
-                "lorelevel": 1
+                "influencerlesson": 1
             },
             "xtriggers":{
                 "influencer.success": "influencer.lesson.a"
@@ -99,7 +104,7 @@
             "label": "Influencer Lesson B",
             "lifetime": 300,
             "aspectS": {
-                "lorelevel": 2
+                "influencerlesson": 2
             },
             "xtriggers":{
                 "influencer.success": "influencer.lesson.b"
@@ -110,7 +115,7 @@
             "label": "Influencer Lesson C",
             "lifetime": 300,
             "aspectS": {
-                "lorelevel": 3
+                "influencerlesson": 3
             },
             "xtriggers":{
                 "influencer.success": "influencer.lesson.c"
@@ -121,7 +126,7 @@
             "label": "Influencer Lesson D",
             "lifetime": 300,
             "aspectS": {
-                "lorelevel": 4
+                "influencerlesson": 4
             },
             "xtriggers":{
                 "influencer.success": "influencer.lesson.d"
@@ -132,7 +137,7 @@
             "label": "Influencer Lesson E",
             "lifetime": 300,
             "aspectS": {
-                "lorelevel": 5
+                "influencerlesson": 5
             },
             "xtriggers":{
                 "influencer.success": "influencer.lesson.e"
@@ -143,7 +148,7 @@
             "label": "Influencer Lesson F",
             "lifetime": 300,
             "aspectS": {
-                "lorelevel": 6
+                "influencerlesson": 6
             },
             "xtriggers":{
                 "influencer.success": "influencer.lesson.f"
@@ -154,7 +159,7 @@
             "label": "Influencer Lesson G",
             "lifetime": 300,
             "aspectS": {
-                "lorelevel": 7
+                "influencerlesson": 7
             },
             "xtriggers":{
                 "influencer.success": "influencer.lesson.g"

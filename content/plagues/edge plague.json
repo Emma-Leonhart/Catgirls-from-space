@@ -1,0 +1,322 @@
+{
+    "recipes":[
+        {
+            "id": "drowning",
+            "label": "drowning lv 1",
+            "actionid": "drowning_plague",
+            "alt": [
+                {
+                    "id": "drowning.resolve.early",
+                    "chance": 100
+                },
+                {
+                    "id": "drowning.2",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "edge",
+					"label": "edge influence",
+					"description": "I need protection",
+					"required": {
+						"edge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "drowning.2",
+            "label": "drowning lv 2",
+            "actionid": "drowning_plague",
+            "alt": [
+                {
+                    "id": "drowning.resolve",
+                    "challenges": {
+                        "edge": "base"
+                    }
+                },
+                {
+                    "id": "drowning.3",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely. [Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "edge",
+					"label": "edge influence",
+					"description": "I need protection",
+					"required": {
+						"edge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "drowning.3",
+            "label": "drowning lv 3",
+            "actionid": "drowning_plague",
+            "alt": [
+                {
+                    "id": "drowning.resolve",
+                    "challenges": {
+                        "edge": "base"
+                    }
+                },
+                {
+                    "id": "drowning.4",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "edge",
+					"label": "edge influence",
+					"description": "I need protection",
+					"required": {
+						"edge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "drowning.4",
+            "label": "drowning lv 4",
+            "actionid": "drowning_plague",
+            "alt": [
+                {
+                    "id": "drowning.resolve",
+                    "challenges": {
+                        "edge": "base"
+                    }
+                },
+                {
+                    "id": "drowning.5",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "edge",
+					"label": "edge influence",
+					"description": "I need protection",
+					"required": {
+						"edge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "drowning.5",
+            "label": "drowning lv 5",
+            "actionid": "drowning_plague",
+            "alt": [
+                {
+                    "id": "drowning.resolve",
+                    "challenges": {
+                        "edge": "advanced"
+                    }
+                },
+                {
+                    "id": "drowning.6",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "edge",
+					"label": "edge influence",
+					"description": "I need protection",
+					"required": {
+						"edge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "drowning.6",
+            "label": "drowning lv 6",
+            "actionid": "drowning_plague",
+            "alt": [
+                {
+                    "id": "drowning.resolve",
+                    "challenges": {
+                        "edge": "advanced"
+                    }
+                },
+                {
+                    "id": "drowning.7",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "edge",
+					"label": "edge influence",
+					"description": "I need protection",
+					"required": {
+						"edge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "drowning.7",
+            "label": "drowning lv 7",
+            "actionid": "drowning_plague",
+            "alt": [
+                {
+                    "id": "drowning.resolve",
+                    "challenges": {
+                        "edge": "advanced"
+                    }
+                },
+                {
+                    "id": "drowning.8",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "edge",
+					"label": "edge influence",
+					"description": "I need protection",
+					"required": {
+						"edge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "drowning.8",
+            "label": "drowning lv 8",
+            "actionid": "drowning_plague",
+            "alt": [
+                {
+                    "id": "drowning.resolve",
+                    "challenges": {
+                        "edge": "advanced"
+                    }
+                },
+                {
+                    "id": "drowning.9",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "edge",
+					"label": "edge influence",
+					"description": "I need protection",
+					"required": {
+						"edge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "drowning.9",
+            "label": "drowning lv 9",
+            "actionid": "drowning_plague",
+            "alt": [
+                {
+                    "id": "drowning.resolve",
+                    "challenges": {
+                        "edge": "advanced"
+                    }
+                },
+                {
+                    "id": "drowning.10",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "edge",
+					"label": "edge influence",
+					"description": "I need protection",
+					"required": {
+						"edge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "drowning.10",
+            "label": "drowning lv 10",
+            "actionid": "drowning_plague",
+            "alt": [
+                {
+                    "id": "drowning.resolve",
+                    "challenges": {
+                        "edge": "advanced"
+                    }
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "ending": "drowning",
+            "slots": [
+				{
+					"id": "edge",
+					"label": "edge influence",
+					"description": "I need protection",
+					"required": {
+						"edge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "drowning.resolve.early",
+            "label": "drowning resolved",
+            "requirements": {
+                "edge": 2
+            },
+            "linked":[
+                {
+                    "id": "drowning.resolve",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "drowning.resolve",
+            "label": "drowning resolved",
+            "startdescription": "PLACEHOLDER",
+            "description": "PLACEHOLDER",
+            "effects":{
+                "fragmentedge": 1,
+                "influenceedgee": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,322 @@
+{
+    "recipes":[
+        {
+            "id": "ego",
+            "label": "ego lv 1",
+            "actionid": "ego_plague",
+            "alt": [
+                {
+                    "id": "ego.resolve.early",
+                    "chance": 100
+                },
+                {
+                    "id": "ego.2",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "forge",
+					"label": "forge influence",
+					"description": "I need protection",
+					"required": {
+						"forge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "ego.2",
+            "label": "ego lv 2",
+            "actionid": "ego_plague",
+            "alt": [
+                {
+                    "id": "ego.resolve",
+                    "challenges": {
+                        "forge": "base"
+                    }
+                },
+                {
+                    "id": "ego.3",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely. [Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "forge",
+					"label": "forge influence",
+					"description": "I need protection",
+					"required": {
+						"forge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "ego.3",
+            "label": "ego lv 3",
+            "actionid": "ego_plague",
+            "alt": [
+                {
+                    "id": "ego.resolve",
+                    "challenges": {
+                        "forge": "base"
+                    }
+                },
+                {
+                    "id": "ego.4",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "forge",
+					"label": "forge influence",
+					"description": "I need protection",
+					"required": {
+						"forge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "ego.4",
+            "label": "ego lv 4",
+            "actionid": "ego_plague",
+            "alt": [
+                {
+                    "id": "ego.resolve",
+                    "challenges": {
+                        "forge": "base"
+                    }
+                },
+                {
+                    "id": "ego.5",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "forge",
+					"label": "forge influence",
+					"description": "I need protection",
+					"required": {
+						"forge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "ego.5",
+            "label": "ego lv 5",
+            "actionid": "ego_plague",
+            "alt": [
+                {
+                    "id": "ego.resolve",
+                    "challenges": {
+                        "forge": "advanced"
+                    }
+                },
+                {
+                    "id": "ego.6",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "forge",
+					"label": "forge influence",
+					"description": "I need protection",
+					"required": {
+						"forge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "ego.6",
+            "label": "ego lv 6",
+            "actionid": "ego_plague",
+            "alt": [
+                {
+                    "id": "ego.resolve",
+                    "challenges": {
+                        "forge": "advanced"
+                    }
+                },
+                {
+                    "id": "ego.7",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "forge",
+					"label": "forge influence",
+					"description": "I need protection",
+					"required": {
+						"forge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "ego.7",
+            "label": "ego lv 7",
+            "actionid": "ego_plague",
+            "alt": [
+                {
+                    "id": "ego.resolve",
+                    "challenges": {
+                        "forge": "advanced"
+                    }
+                },
+                {
+                    "id": "ego.8",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "forge",
+					"label": "forge influence",
+					"description": "I need protection",
+					"required": {
+						"forge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "ego.8",
+            "label": "ego lv 8",
+            "actionid": "ego_plague",
+            "alt": [
+                {
+                    "id": "ego.resolve",
+                    "challenges": {
+                        "forge": "advanced"
+                    }
+                },
+                {
+                    "id": "ego.9",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "forge",
+					"label": "forge influence",
+					"description": "I need protection",
+					"required": {
+						"forge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "ego.9",
+            "label": "ego lv 9",
+            "actionid": "ego_plague",
+            "alt": [
+                {
+                    "id": "ego.resolve",
+                    "challenges": {
+                        "forge": "advanced"
+                    }
+                },
+                {
+                    "id": "ego.10",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "forge",
+					"label": "forge influence",
+					"description": "I need protection",
+					"required": {
+						"forge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "ego.10",
+            "label": "ego lv 10",
+            "actionid": "ego_plague",
+            "alt": [
+                {
+                    "id": "ego.resolve",
+                    "challenges": {
+                        "forge": "advanced"
+                    }
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "ending": "ego",
+            "slots": [
+				{
+					"id": "forge",
+					"label": "forge influence",
+					"description": "I need protection",
+					"required": {
+						"forge": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "ego.resolve.early",
+            "label": "ego resolved",
+            "requirements": {
+                "forge": 2
+            },
+            "linked":[
+                {
+                    "id": "ego.resolve",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "ego.resolve",
+            "label": "ego resolved",
+            "startdescription": "PLACEHOLDER",
+            "description": "PLACEHOLDER",
+            "effects":{
+                "fragmentforge": 1,
+                "influenceforgee": 1
+            }
+        }
+    ]
+}

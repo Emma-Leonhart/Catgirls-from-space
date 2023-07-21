@@ -94,7 +94,8 @@
             "slot$dictedit": {
                 "required$add": {
                     "funds": 1,
-                    "lifespan.stolen": 1
+                    "lifespan.stolen": 1,
+                    "influencerjob": 1
                 }
             }
         },

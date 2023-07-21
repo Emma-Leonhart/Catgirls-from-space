@@ -1,0 +1,322 @@
+{
+    "recipes":[
+        {
+            "id": "forgetting",
+            "label": "forgetting lv 1",
+            "actionid": "forgetting_plague",
+            "alt": [
+                {
+                    "id": "forgetting.resolve.early",
+                    "chance": 100
+                },
+                {
+                    "id": "forgetting.2",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "lantern",
+					"label": "lantern influence",
+					"description": "I need protection",
+					"required": {
+						"lantern": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "forgetting.2",
+            "label": "forgetting lv 2",
+            "actionid": "forgetting_plague",
+            "alt": [
+                {
+                    "id": "forgetting.resolve",
+                    "challenges": {
+                        "lantern": "base"
+                    }
+                },
+                {
+                    "id": "forgetting.3",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely. [Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "lantern",
+					"label": "lantern influence",
+					"description": "I need protection",
+					"required": {
+						"lantern": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "forgetting.3",
+            "label": "forgetting lv 3",
+            "actionid": "forgetting_plague",
+            "alt": [
+                {
+                    "id": "forgetting.resolve",
+                    "challenges": {
+                        "lantern": "base"
+                    }
+                },
+                {
+                    "id": "forgetting.4",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "lantern",
+					"label": "lantern influence",
+					"description": "I need protection",
+					"required": {
+						"lantern": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "forgetting.4",
+            "label": "forgetting lv 4",
+            "actionid": "forgetting_plague",
+            "alt": [
+                {
+                    "id": "forgetting.resolve",
+                    "challenges": {
+                        "lantern": "base"
+                    }
+                },
+                {
+                    "id": "forgetting.5",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "lantern",
+					"label": "lantern influence",
+					"description": "I need protection",
+					"required": {
+						"lantern": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "forgetting.5",
+            "label": "forgetting lv 5",
+            "actionid": "forgetting_plague",
+            "alt": [
+                {
+                    "id": "forgetting.resolve",
+                    "challenges": {
+                        "lantern": "advanced"
+                    }
+                },
+                {
+                    "id": "forgetting.6",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "lantern",
+					"label": "lantern influence",
+					"description": "I need protection",
+					"required": {
+						"lantern": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "forgetting.6",
+            "label": "forgetting lv 6",
+            "actionid": "forgetting_plague",
+            "alt": [
+                {
+                    "id": "forgetting.resolve",
+                    "challenges": {
+                        "lantern": "advanced"
+                    }
+                },
+                {
+                    "id": "forgetting.7",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "lantern",
+					"label": "lantern influence",
+					"description": "I need protection",
+					"required": {
+						"lantern": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "forgetting.7",
+            "label": "forgetting lv 7",
+            "actionid": "forgetting_plague",
+            "alt": [
+                {
+                    "id": "forgetting.resolve",
+                    "challenges": {
+                        "lantern": "advanced"
+                    }
+                },
+                {
+                    "id": "forgetting.8",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "lantern",
+					"label": "lantern influence",
+					"description": "I need protection",
+					"required": {
+						"lantern": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "forgetting.8",
+            "label": "forgetting lv 8",
+            "actionid": "forgetting_plague",
+            "alt": [
+                {
+                    "id": "forgetting.resolve",
+                    "challenges": {
+                        "lantern": "advanced"
+                    }
+                },
+                {
+                    "id": "forgetting.9",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "lantern",
+					"label": "lantern influence",
+					"description": "I need protection",
+					"required": {
+						"lantern": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "forgetting.9",
+            "label": "forgetting lv 9",
+            "actionid": "forgetting_plague",
+            "alt": [
+                {
+                    "id": "forgetting.resolve",
+                    "challenges": {
+                        "lantern": "advanced"
+                    }
+                },
+                {
+                    "id": "forgetting.10",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "lantern",
+					"label": "lantern influence",
+					"description": "I need protection",
+					"required": {
+						"lantern": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "forgetting.10",
+            "label": "forgetting lv 10",
+            "actionid": "forgetting_plague",
+            "alt": [
+                {
+                    "id": "forgetting.resolve",
+                    "challenges": {
+                        "lantern": "advanced"
+                    }
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "ending": "forgetting",
+            "slots": [
+				{
+					"id": "lantern",
+					"label": "lantern influence",
+					"description": "I need protection",
+					"required": {
+						"lantern": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "forgetting.resolve.early",
+            "label": "forgetting resolved",
+            "requirements": {
+                "lantern": 2
+            },
+            "linked":[
+                {
+                    "id": "forgetting.resolve",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "forgetting.resolve",
+            "label": "forgetting resolved",
+            "startdescription": "PLACEHOLDER",
+            "description": "PLACEHOLDER",
+            "effects":{
+                "fragmentlantern": 1,
+                "influencelanterne": 1
+            }
+        }
+    ]
+}

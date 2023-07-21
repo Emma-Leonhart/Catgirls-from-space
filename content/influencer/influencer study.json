@@ -1,0 +1,100 @@
+{
+    "recipes":[
+        {
+            "id": "study_influencer_a",
+            "actionid": "study",
+            "label": "PLACEHOLDER",
+            "description": "PLACEHOLDER",
+            "startdescription": "PLACEHOLDER",
+            "requirements":{
+                "influencerjoba": 1,
+                "influencerlesson": 1
+            },
+            "warmup": 60,
+            "aspects":{
+                "influenceradvance": 1
+            },
+            "craftable": true
+        },
+        {
+            "id": "study_influencer_b",
+            "actionid": "study",
+            "label": "PLACEHOLDER",
+            "description": "PLACEHOLDER",
+            "startdescription": "PLACEHOLDER",
+            "requirements":{
+                "influencerjobb": 1,
+                "influencerlesson": 2
+            },
+            "warmup": 60,
+            "aspects":{
+                "influenceradvance": 1
+            },
+            "craftable": true
+        },
+        {
+            "id": "study_influencer_c",
+            "actionid": "study",
+            "label": "PLACEHOLDER",
+            "description": "PLACEHOLDER",
+            "startdescription": "PLACEHOLDER",
+            "requirements":{
+                "influencerjobc": 1,
+                "influencerlesson": 3
+            },
+            "warmup": 60,
+            "aspects":{
+                "influenceradvance": 1
+            },
+            "craftable": true
+        },
+        {
+            "id": "study_influencer_d",
+            "actionid": "study",
+            "label": "PLACEHOLDER",
+            "description": "PLACEHOLDER",
+            "startdescription": "PLACEHOLDER",
+            "requirements":{
+                "influencerjobd": 1,
+                "influencerlesson": 4
+            },
+            "warmup": 60,
+            "aspects":{
+                "influenceradvance": 1
+            },
+            "craftable": true
+        },
+        {
+            "id": "study_influencer_e",
+            "actionid": "study",
+            "label": "PLACEHOLDER",
+            "description": "PLACEHOLDER",
+            "startdescription": "PLACEHOLDER",
+            "requirements":{
+                "influencerjobe": 1,
+                "influencerlesson": 5
+            },
+            "warmup": 60,
+            "aspects":{
+                "influenceradvance": 1
+            },
+            "craftable": true
+        },
+        {
+            "id": "study_influencer_f",
+            "actionid": "study",
+            "label": "PLACEHOLDER",
+            "description": "PLACEHOLDER",
+            "startdescription": "PLACEHOLDER",
+            "requirements":{
+                "influencerjobf": 1,
+                "influencerlesson": 6
+            },
+            "warmup": 60,
+            "aspects":{
+                "influenceradvance": 1
+            },
+            "craftable": true
+        }
+    ]
+}

@@ -1,0 +1,322 @@
+{
+    "recipes":[
+        {
+            "id": "limitation",
+            "label": "limitation lv 1",
+            "actionid": "limitation_plague",
+            "alt": [
+                {
+                    "id": "limitation.resolve.early",
+                    "chance": 100
+                },
+                {
+                    "id": "limitation.2",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "moth",
+					"label": "moth influence",
+					"description": "I need protection",
+					"required": {
+						"moth": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "limitation.2",
+            "label": "limitation lv 2",
+            "actionid": "limitation_plague",
+            "alt": [
+                {
+                    "id": "limitation.resolve",
+                    "challenges": {
+                        "moth": "base"
+                    }
+                },
+                {
+                    "id": "limitation.3",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely. [Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "moth",
+					"label": "moth influence",
+					"description": "I need protection",
+					"required": {
+						"moth": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "limitation.3",
+            "label": "limitation lv 3",
+            "actionid": "limitation_plague",
+            "alt": [
+                {
+                    "id": "limitation.resolve",
+                    "challenges": {
+                        "moth": "base"
+                    }
+                },
+                {
+                    "id": "limitation.4",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "moth",
+					"label": "moth influence",
+					"description": "I need protection",
+					"required": {
+						"moth": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "limitation.4",
+            "label": "limitation lv 4",
+            "actionid": "limitation_plague",
+            "alt": [
+                {
+                    "id": "limitation.resolve",
+                    "challenges": {
+                        "moth": "base"
+                    }
+                },
+                {
+                    "id": "limitation.5",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "moth",
+					"label": "moth influence",
+					"description": "I need protection",
+					"required": {
+						"moth": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "limitation.5",
+            "label": "limitation lv 5",
+            "actionid": "limitation_plague",
+            "alt": [
+                {
+                    "id": "limitation.resolve",
+                    "challenges": {
+                        "moth": "advanced"
+                    }
+                },
+                {
+                    "id": "limitation.6",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "moth",
+					"label": "moth influence",
+					"description": "I need protection",
+					"required": {
+						"moth": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "limitation.6",
+            "label": "limitation lv 6",
+            "actionid": "limitation_plague",
+            "alt": [
+                {
+                    "id": "limitation.resolve",
+                    "challenges": {
+                        "moth": "advanced"
+                    }
+                },
+                {
+                    "id": "limitation.7",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "moth",
+					"label": "moth influence",
+					"description": "I need protection",
+					"required": {
+						"moth": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "limitation.7",
+            "label": "limitation lv 7",
+            "actionid": "limitation_plague",
+            "alt": [
+                {
+                    "id": "limitation.resolve",
+                    "challenges": {
+                        "moth": "advanced"
+                    }
+                },
+                {
+                    "id": "limitation.8",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "moth",
+					"label": "moth influence",
+					"description": "I need protection",
+					"required": {
+						"moth": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "limitation.8",
+            "label": "limitation lv 8",
+            "actionid": "limitation_plague",
+            "alt": [
+                {
+                    "id": "limitation.resolve",
+                    "challenges": {
+                        "moth": "advanced"
+                    }
+                },
+                {
+                    "id": "limitation.9",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "moth",
+					"label": "moth influence",
+					"description": "I need protection",
+					"required": {
+						"moth": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "limitation.9",
+            "label": "limitation lv 9",
+            "actionid": "limitation_plague",
+            "alt": [
+                {
+                    "id": "limitation.resolve",
+                    "challenges": {
+                        "moth": "advanced"
+                    }
+                },
+                {
+                    "id": "limitation.10",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "moth",
+					"label": "moth influence",
+					"description": "I need protection",
+					"required": {
+						"moth": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "limitation.10",
+            "label": "limitation lv 10",
+            "actionid": "limitation_plague",
+            "alt": [
+                {
+                    "id": "limitation.resolve",
+                    "challenges": {
+                        "moth": "advanced"
+                    }
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "ending": "limitation",
+            "slots": [
+				{
+					"id": "moth",
+					"label": "moth influence",
+					"description": "I need protection",
+					"required": {
+						"moth": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "limitation.resolve.early",
+            "label": "limitation resolved",
+            "requirements": {
+                "moth": 2
+            },
+            "linked":[
+                {
+                    "id": "limitation.resolve",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "limitation.resolve",
+            "label": "limitation resolved",
+            "startdescription": "PLACEHOLDER",
+            "description": "PLACEHOLDER",
+            "effects":{
+                "fragmentmoth": 1,
+                "influencemothe": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,322 @@
+{
+    "recipes":[
+        {
+            "id": "locking",
+            "label": "locking lv 1",
+            "actionid": "locking_plague",
+            "alt": [
+                {
+                    "id": "locking.resolve.early",
+                    "chance": 100
+                },
+                {
+                    "id": "locking.2",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "knock",
+					"label": "knock influence",
+					"description": "I need protection",
+					"required": {
+						"knock": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "locking.2",
+            "label": "locking lv 2",
+            "actionid": "locking_plague",
+            "alt": [
+                {
+                    "id": "locking.resolve",
+                    "challenges": {
+                        "knock": "base"
+                    }
+                },
+                {
+                    "id": "locking.3",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "I'm starting to feel lonely. [Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "knock",
+					"label": "knock influence",
+					"description": "I need protection",
+					"required": {
+						"knock": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "locking.3",
+            "label": "locking lv 3",
+            "actionid": "locking_plague",
+            "alt": [
+                {
+                    "id": "locking.resolve",
+                    "challenges": {
+                        "knock": "base"
+                    }
+                },
+                {
+                    "id": "locking.4",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "knock",
+					"label": "knock influence",
+					"description": "I need protection",
+					"required": {
+						"knock": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "locking.4",
+            "label": "locking lv 4",
+            "actionid": "locking_plague",
+            "alt": [
+                {
+                    "id": "locking.resolve",
+                    "challenges": {
+                        "knock": "base"
+                    }
+                },
+                {
+                    "id": "locking.5",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "knock",
+					"label": "knock influence",
+					"description": "I need protection",
+					"required": {
+						"knock": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "locking.5",
+            "label": "locking lv 5",
+            "actionid": "locking_plague",
+            "alt": [
+                {
+                    "id": "locking.resolve",
+                    "challenges": {
+                        "knock": "advanced"
+                    }
+                },
+                {
+                    "id": "locking.6",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "knock",
+					"label": "knock influence",
+					"description": "I need protection",
+					"required": {
+						"knock": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "locking.6",
+            "label": "locking lv 6",
+            "actionid": "locking_plague",
+            "alt": [
+                {
+                    "id": "locking.resolve",
+                    "challenges": {
+                        "knock": "advanced"
+                    }
+                },
+                {
+                    "id": "locking.7",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "knock",
+					"label": "knock influence",
+					"description": "I need protection",
+					"required": {
+						"knock": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "locking.7",
+            "label": "locking lv 7",
+            "actionid": "locking_plague",
+            "alt": [
+                {
+                    "id": "locking.resolve",
+                    "challenges": {
+                        "knock": "advanced"
+                    }
+                },
+                {
+                    "id": "locking.8",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "knock",
+					"label": "knock influence",
+					"description": "I need protection",
+					"required": {
+						"knock": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "locking.8",
+            "label": "locking lv 8",
+            "actionid": "locking_plague",
+            "alt": [
+                {
+                    "id": "locking.resolve",
+                    "challenges": {
+                        "knock": "advanced"
+                    }
+                },
+                {
+                    "id": "locking.9",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "knock",
+					"label": "knock influence",
+					"description": "I need protection",
+					"required": {
+						"knock": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "locking.9",
+            "label": "locking lv 9",
+            "actionid": "locking_plague",
+            "alt": [
+                {
+                    "id": "locking.resolve",
+                    "challenges": {
+                        "knock": "advanced"
+                    }
+                },
+                {
+                    "id": "locking.10",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "slots": [
+				{
+					"id": "knock",
+					"label": "knock influence",
+					"description": "I need protection",
+					"required": {
+						"knock": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "locking.10",
+            "label": "locking lv 10",
+            "actionid": "locking_plague",
+            "alt": [
+                {
+                    "id": "locking.resolve",
+                    "challenges": {
+                        "knock": "advanced"
+                    }
+                }
+            ],
+            "warmup": 60,
+            "startdescription": "[Warning if you get to level 10 you will die]",
+            "ending": "locking",
+            "slots": [
+				{
+					"id": "knock",
+					"label": "knock influence",
+					"description": "I need protection",
+					"required": {
+						"knock": 1
+					},
+					"greedy": false
+				}
+			]
+        },
+        {
+            "id": "locking.resolve.early",
+            "label": "locking resolved",
+            "requirements": {
+                "knock": 2
+            },
+            "linked":[
+                {
+                    "id": "locking.resolve",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "locking.resolve",
+            "label": "locking resolved",
+            "startdescription": "PLACEHOLDER",
+            "description": "PLACEHOLDER",
+            "effects":{
+                "fragmentknock": 1,
+                "influenceknocke": 1
+            }
+        }
+    ]
+}

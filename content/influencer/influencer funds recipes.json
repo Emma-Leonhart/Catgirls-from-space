@@ -1,0 +1,105 @@
+{
+    "recipes":[
+        {
+            "id": "work.influencer.funds.virality.lore",
+            "actionid": "surf",
+            "label": "Prepare a sermon on a secret doctrine, to give to a fervent congregation",
+            "startdescription": "The congregation is already in a state of excitement. Any secret knowledge will almost certainly drive them to exultation.",
+            "description": "At last their virality is spent.  What have they made of this night? [virality and Lore together will almost always cause Exultation, but will use up the virality.]",
+            "requirements": {
+                "influencerjob": 1,
+                "funds": 1,
+                "lore": 1,
+                "virality": 1
+            },
+            "effects": {
+                "funds": 1,
+                "virality": -1
+            },
+            "alt": [
+                {
+                    "id": "influencer.repevent",
+                    "chance": 90,
+                    "additional": true
+                }
+            ],
+            "warmup": 15,
+            "craftable": false,
+            "aspects": {
+                "influencer.success": 1
+            }
+        },
+        {
+            "id": "work.influencer.funds.virality",
+            "actionid": "surf",
+            "label": "Carefully prepare a sermon for a fervent congregation",
+            "startdescription": "The congregation is already in a state of excitement. Any secret knowledge will likely drive them to exultation.",
+            "description": "At last their virality is spent.  What have they made of this night? [virality will usually cause Exultation, but will use up the virality.]",
+            "requirements": {
+                "influencerjob": 1,
+                "funds": 1,
+                "virality": 1
+            },
+            "effects": {
+                "funds": 1,
+                "virality": -1
+            },
+            "alt": [
+                {
+                    "id": "influencer.repevent",
+                    "chance": 70,
+                    "additional": true
+                }
+            ],
+            "warmup": 15,
+            "craftable": false
+        },
+        {
+            "id": "work.influencer.funds.lore",
+            "actionid": "surf",
+            "label": "Prepare a sermon on a secret doctrine",
+            "startdescription": "I will speak to their souls, and if I speak with precision, their souls may answer me. [Using a suitable doctrine with Health preaching is more likely to create virality.]",
+            "requirements": {
+                "influencerjob": 1,
+                "funds": 1,
+                "lore": 1
+            },
+            "linked": [
+                {
+                    "id": "preach.hand",
+                    "challenges": {
+                        "hand": "base"
+                    }
+                },
+                {
+                    "id": "work.influencer.nolorematch"
+                }
+            ],
+            "warmup": 15,
+            "craftable": false
+        },
+        {
+            "id": "work.influencer.funds",
+            "actionid": "surf",
+            "label": "Produce a Video",
+"startdescription": "I will prepare my script with attention to detail.",
+"description": "My audience is engaged. In this video, I have not revealed any secret theories.",
+            "requirements": {
+                "influencerjob": 1,
+                "funds": 1
+            },
+            "effects": {
+                "funds": 1
+            },
+            "alt": [
+                {
+                    "id": "influencer.repevent",
+                    "chance": 10,
+                    "additional": true
+                }
+            ],
+            "warmup": 15,
+            "craftable": false
+        }
+    ]
+}

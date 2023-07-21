@@ -23,6 +23,13 @@
                         "ability": 1
                     },
                     "actionid": "surf"
+                },
+                {
+                    "id": "lesson",
+                    "label": "Lesson",
+                    "required":{
+                        "influencerlesson": 1
+                    }
                 }
             ],
             "label": "My Online Brand",
@@ -54,6 +61,13 @@
                         "ability": 1
                     },
                     "actionid": "surf"
+                },
+                {
+                    "id": "lesson",
+                    "label": "Lesson",
+                    "required":{
+                        "influencerlesson": 1
+                    }
                 }
             ],
             "label": "My Online Brand",
@@ -85,6 +99,13 @@
                         "ability": 1
                     },
                     "actionid": "surf"
+                },
+                {
+                    "id": "lesson",
+                    "label": "Lesson",
+                    "required":{
+                        "influencerlesson": 1
+                    }
                 }
             ],
             "label": "My Online Brand",
@@ -116,6 +137,13 @@
                         "ability": 1
                     },
                     "actionid": "surf"
+                },
+                {
+                    "id": "lesson",
+                    "label": "Lesson",
+                    "required":{
+                        "influencerlesson": 1
+                    }
                 }
             ],
             "label": "My Online Brand",
@@ -147,6 +175,13 @@
                         "ability": 1
                     },
                     "actionid": "surf"
+                },
+                {
+                    "id": "lesson",
+                    "label": "Lesson",
+                    "required":{
+                        "influencerlesson": 1
+                    }
                 }
             ],
             "label": "My Online Brand",
@@ -178,6 +213,13 @@
                         "ability": 1
                     },
                     "actionid": "surf"
+                },
+                {
+                    "id": "lesson",
+                    "label": "Lesson",
+                    "required":{
+                        "influencerlesson": 1
+                    }
                 }
             ],
             "label": "My Online Brand",

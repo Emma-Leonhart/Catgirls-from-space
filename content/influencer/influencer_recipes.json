@@ -10,12 +10,34 @@
                 "lore": 1
             },
             "effects": {
-                "influencerjob": 1
+                "influencerjoba": 1
             },
             "$priority": 500,
             "craftable": true,
-            "warmup": 60,
+            "warmup": 15,
             "maxexecutions": 1
+        },
+        {
+            "id": "influencer.ascension.lesson",
+            "actionid": "surf",
+            "label": "Make a video on a doctrine",
+            "requirements": {
+                "influencerjobg": 1,
+                "lore": 1
+            },
+            "effects": {
+                "ascensionlesson_youtube": 1
+            },
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "make.video.fragment.router",
+                    "chance": 100
+                }
+            ],
+            "warmup": 15,
+            "maxexecutions": 1,
+            "$priority": 500
         },
         {
             "id": "make.video.nolore",
@@ -27,7 +49,7 @@
             },
             "linked":[
                 {
-                    "id": "influencer.secondaryrouting",
+                    "id": "work.influencer.success",
                     "chance": 100
                 }
             ],
@@ -78,7 +100,7 @@
             "id": "work.influencer.toocomplicated",
             "actionid": "surf",
             "label": "You videotape yourself lecturing at a chalk board",
-            "warmup": 60,
+            "warmup": 15,
             "startdescription": "I stand in front of the chalkboard, my mind brimming with complex esoteric theories. The room is quiet, save for the soft chalk scratches and my steady voice, echoing in the hollow space. It's time to delve deep into the arcane.",
             "description":  "I glance at the view count on my video - five. The complexity of the subject matter has deterred the casual viewer. Despite the underwhelming response, the richness of the knowledge I shared cannot be undermined. Perhaps it was too ambitious for the uninitiated.",
             "aspects":{
@@ -89,7 +111,19 @@
             "id": "work.influencer.success",
             "actionid": "surf",
             "label": "Influencer Base Router",
-            "warmup": 60,
+            "warmup": 15,
+            "slots": [
+				{
+					"id": "fervor",
+					"label": "virality?",
+					"description": "I need more",
+					"required": {
+						"virality": 1
+					},
+					"greedy": true
+				}
+			],
+            "craftable": false,
             "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
             "linked":[
                 {
@@ -98,6 +132,14 @@
                 },
                 {
                     "id": "work.influencer.reason.router",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.health.router",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.funds.router",
                     "chance": 100
                 },
                 {
@@ -107,22 +149,57 @@
             ]
         },
         {
-            "id": "work.influencer.success",
+            "id": "work.influencer.funds.router",
             "actionid": "surf",
-            "label": "Influencer Base Router",
-            "warmup": 60,
+            "label": "Influencer Funds Router",
+            "warmup": 15,
+            "requirements": {
+                "funds": 1
+            },
             "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
             "linked":[
                 {
-                    "id": "work.influencer.passion.router",
+                    "id": "work.influencer.funds.virality.lore",
                     "chance": 100
                 },
                 {
-                    "id": "work.influencer.reason.router",
+                    "id": "work.influencer.funds.virality",
                     "chance": 100
                 },
                 {
-                    "id": "work.influencer.noskill.router",
+                    "id": "work.influencer.funds.lore",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.funds",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "work.influencer.health.router",
+            "actionid": "surf",
+            "label": "Influencer Health Router",
+            "warmup": 15,
+            "requirements": {
+                "passion": 1
+            },
+            "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
+            "linked":[
+                {
+                    "id": "work.influencer.health.virality.lore",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.health.virality",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.health.lore",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.health",
                     "chance": 100
                 }
             ]
@@ -131,7 +208,7 @@
             "id": "work.influencer.passion.router",
             "actionid": "surf",
             "label": "Influencer Passion Router",
-            "warmup": 60,
+            "warmup": 15,
             "requirements": {
                 "passion": 1
             },
@@ -159,7 +236,7 @@
             "id": "work.influencer.reason.router",
             "actionid": "surf",
             "label": "Influencer Reason Router",
-            "warmup": 60,
+            "warmup": 15,
             "requirements": {
                 "reason": 1
             },
@@ -187,7 +264,7 @@
             "id": "work.influencer.noskill.router",
             "actionid": "surf",
             "label": "Influencer Noskill Router",
-            "warmup": 60,
+            "warmup": 15,
             "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
             "linked":[
                 {
@@ -294,7 +371,10 @@
                 }
             ],
             "warmup": 50,
-            "craftable": false
+            "craftable": false,
+            "aspects": {
+                "influencer.success": 1
+            }
         },
         {
             "id": "work.influencer.reason.virality.lore",
@@ -319,8 +399,11 @@
                     "additional": true
                 }
             ],
-            "warmup": 60,
-            "craftable": false
+            "warmup": 15,
+            "craftable": false,
+            "aspects": {
+                "influencer.success": 1
+            }
         },
         {
             "id": "work.influencer.passion.virality",
@@ -369,7 +452,7 @@
                     "additional": true
                 }
             ],
-            "warmup": 60,
+            "warmup": 15,
             "craftable": false
         },
         {
@@ -384,27 +467,15 @@
             },
             "linked": [
                 {
-                    "id": "preach.edge",
-                    "challenges": {
-                        "edge": "base"
-                    }
-                },
-                {
                     "id": "preach.forge",
                     "challenges": {
                         "forge": "base"
                     }
                 },
                 {
-                    "id": "preach.grail",
+                    "id": "preach.knock",
                     "challenges": {
-                        "grail": "base"
-                    }
-                },
-                {
-                    "id": "preach.heart",
-                    "challenges": {
-                        "heart": "base"
+                        "knock": "base"
                     }
                 },
                 {
@@ -432,21 +503,15 @@
             },
             "linked": [
                 {
-                    "id": "preach.knock",
+                    "id": "preach.edge",
                     "challenges": {
-                        "knock": "base"
+                        "edge": "base"
                     }
                 },
                 {
-                    "id": "preach.secrethistories",
+                    "id": "preach.grail",
                     "challenges": {
-                        "secrethistories": "base"
-                    }
-                },
-                {
-                    "id": "preach.winter",
-                    "challenges": {
-                        "winter": "base"
+                        "grail": "base"
                     }
                 },
                 {
@@ -459,49 +524,7 @@
                     "id": "work.influencer.nolorematch"
                 }
             ],
-            "warmup": 60,
-            "craftable": false
-        },
-        {
-            "id": "work.influencer.health.lore",
-            "actionid": "surf",
-            "label": "Prepare a sermon on a secret doctrine",
-            "startdescription": "I will speak to their souls, and if I speak with precision, their souls may answer me. [Using a suitable doctrine with Reasoned preaching is more likely to create virality.]",
-            "requirements": {
-                "influencerjob": 1,
-                "reason": 1,
-                "lore": 1
-            },
-            "linked": [
-                {
-                    "id": "preach.knock",
-                    "challenges": {
-                        "knock": "base"
-                    }
-                },
-                {
-                    "id": "preach.secrethistories",
-                    "challenges": {
-                        "secrethistories": "base"
-                    }
-                },
-                {
-                    "id": "preach.winter",
-                    "challenges": {
-                        "winter": "base"
-                    }
-                },
-                {
-                    "id": "preach.lantern",
-                    "challenges": {
-                        "lantern": "base"
-                    }
-                },
-                {
-                    "id": "work.influencer.nolorematch"
-                }
-            ],
-            "warmup": 60,
+            "warmup": 15,
             "craftable": false
         },
         {
@@ -530,10 +553,7 @@
                     },
                     "additional": true
                 }
-            ],
-            "aspects": {
-                "influencer.success": 1
-            }
+            ]
         },
         {
             "id": "preach.forge",
@@ -552,10 +572,7 @@
                     },
                     "additional": true
                 }
-            ],
-            "aspects": {
-                "influencer.success": 1
-            }
+            ]
         },
         {
             "id": "preach.grail",
@@ -574,10 +591,7 @@
                     },
                     "additional": true
                 }
-            ],
-            "aspects": {
-                "influencer.success": 1
-            }
+            ]
         },
         {
             "id": "preach.heart",
@@ -596,10 +610,7 @@
                     },
                     "additional": true
                 }
-            ],
-            "aspects": {
-                "influencer.success": 1
-            }
+            ]
         },
         {
             "id": "preach.knock",
@@ -618,10 +629,7 @@
                     },
                     "additional": true
                 }
-            ],
-            "aspects": {
-                "influencer.success": 1
-            }
+            ]
         },
         {
             "id": "preach.lantern",
@@ -640,10 +648,7 @@
                     },
                     "additional": true
                 }
-            ],
-            "aspects": {
-                "influencer.success": 1
-            }
+            ]
         },
         {
             "id": "preach.moth",
@@ -662,10 +667,7 @@
                     },
                     "additional": true
                 }
-            ],
-            "aspects": {
-                "influencer.success": 1
-            }
+            ]
         },
         {
             "id": "preach.secrethistories",
@@ -684,10 +686,7 @@
                     },
                     "additional": true
                 }
-            ],
-            "aspects": {
-                "influencer.success": 1
-            }
+            ]
         },
         {
             "id": "preach.winter",
@@ -706,10 +705,7 @@
                     },
                     "additional": true
                 }
-            ],
-            "aspects": {
-                "influencer.success": 1
-            }
+            ]
         },
         {
             "id": "preach.hand",
@@ -728,10 +724,7 @@
                     },
                     "additional": true
                 }
-            ],
-            "aspects": {
-                "influencer.success": 1
-            }
+            ]
         },
         {
             "id": "influencer.repevent",
@@ -952,7 +945,7 @@
                     "additional": true
                 }
             ],
-            "warmup": 60,
+            "warmup": 15,
             "craftable": false
         },
         {
