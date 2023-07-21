@@ -2,9 +2,6 @@
     "elements":[
         {
             "id": "influencerjob",
-            "aspects": {
-                "job": 1
-            }, 
             "slots": [
                 {
                     "id": "doctrine",

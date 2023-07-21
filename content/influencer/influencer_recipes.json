@@ -68,7 +68,122 @@
             "warmup": 15,
             "linked":[
                 {
-                    "id": "work.influencer.legacy",
+                    "id": "work.influencer.success",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "work.influencer.success",
+            "actionid": "surf",
+            "label": "Influencer Base Router",
+            "warmup": 60,
+            "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
+            "linked":[
+                {
+                    "id": "work.influencer.passion.router",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.reason.router",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.noskill.router",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "work.influencer.success",
+            "actionid": "surf",
+            "label": "Influencer Base Router",
+            "warmup": 60,
+            "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
+            "linked":[
+                {
+                    "id": "work.influencer.passion.router",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.reason.router",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.noskill.router",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "work.influencer.passion.router",
+            "actionid": "surf",
+            "label": "Influencer Passion Router",
+            "warmup": 60,
+            "requirements": {
+                "passion": 1
+            },
+            "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
+            "linked":[
+                {
+                    "id": "work.influencer.passion.virality.lore",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.passion.virality",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.passion.lore",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.passion",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "work.influencer.reason.router",
+            "actionid": "surf",
+            "label": "Influencer Reason Router",
+            "warmup": 60,
+            "requirements": {
+                "reason": 1
+            },
+            "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
+            "linked":[
+                {
+                    "id": "work.influencer.reason.virality.lore",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.reason.virality",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.reason.lore",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.reason",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "work.influencer.noskill.router",
+            "actionid": "surf",
+            "label": "Influencer Noskill Router",
+            "warmup": 60,
+            "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
+            "linked":[
+                {
+                    "id": "work.influencer.virality",
+                    "chance": 100
+                },
+                {
+                    "id": "work.influencer.nothing",
                     "chance": 100
                 }
             ]
