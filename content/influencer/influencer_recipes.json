@@ -640,7 +640,7 @@
                 {
                     "id": "society",
                     "label": "Inner Circle",
-                    "description": "I could introduce the most enthusiastic worshippers to an inner circle...",
+                    "description": "I could introduce the most enthusiastic fans to an inner circle...",
                     "required": {
                         "society": 1
                     }
@@ -671,7 +671,7 @@
                         "influencer.repevent": 1
                     },
                     "label": "Inspiration",
-                    "description": "A worshipper has dreamt of St Agnes of the Division! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
+                    "description": "A fan has dreamt of St Agnes of the Division! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
                     "effects": {
                         "funds": 2,
                         "devotee_edge": 1
@@ -686,7 +686,7 @@
                         "influencer.repevent": 1
                     },
                     "label": "Inspiration",
-                    "description": "A worshipper has dreamt of St Agnes of the Fires! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
+                    "description": "A fan has dreamt of St Agnes of the Fires! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
                     "effects": {
                         "funds": 2,
                         "devotee_forge": 1
@@ -701,7 +701,7 @@
                         "influencer.repevent": 1
                     },
                     "label": "Inspiration",
-                    "description": "A worshipper has dreamt of St Agnes the Red! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
+                    "description": "A fan has dreamt of St Agnes the Red! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
                     "effects": {
                         "funds": 2,
                         "devotee_grail": 1
@@ -716,7 +716,7 @@
                         "influencer.repevent": 1
                     },
                     "label": "Inspiration",
-                    "description": "A worshipper has dreamt of St Agnes of the Drum! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
+                    "description": "A fan has dreamt of St Agnes of the Drum! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
                     "effects": {
                         "funds": 2,
                         "devotee_heart": 1
@@ -731,7 +731,7 @@
                         "influencer.repevent": 1
                     },
                     "label": "Inspiration",
-                    "description": "A worshipper has dreamt of St Agnes of the Threshold! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
+                    "description": "A fan has dreamt of St Agnes of the Threshold! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
                     "effects": {
                         "funds": 2,
                         "devotee_knock": 1
@@ -746,7 +746,7 @@
                         "influencer.repevent": 1
                     },
                     "label": "Inspiration",
-                    "description": "A worshipper has dreamt of St Agnes of the Candle! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
+                    "description": "A fan has dreamt of St Agnes of the Candle! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
                     "effects": {
                         "funds": 2,
                         "devotee_lantern": 1
@@ -761,7 +761,7 @@
                         "influencer.repevent": 1
                     },
                     "label": "Inspiration",
-                    "description": "A worshipper has dreamt of St Agnes of the Shears! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
+                    "description": "A fan has dreamt of St Agnes of the Shears! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
                     "effects": {
                         "funds": 2,
                         "devotee_moth": 1
@@ -776,7 +776,7 @@
                         "influencer.repevent": 1
                     },
                     "label": "Inspiration",
-                    "description": "A worshipper has come who will not speak of their dreams; but, indeed, they need not! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
+                    "description": "A fan has come who will not speak of their dreams; but, indeed, they need not! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
                     "effects": {
                         "funds": 2,
                         "devotee_winter": 1
@@ -791,7 +791,7 @@
                         "influencer.repevent": 1
                     },
                     "label": "Inspiration",
-                    "description": "A worshipper has come who will not speak of their dreams; but, indeed, they need not! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
+                    "description": "A fan has come who will not speak of their dreams; but, indeed, they need not! Meanwhile, @#reputation|our devotion has drawn comment...\n#funds|the rest of the congregation has donated generously, and they haven't limited those donations to the collection plate.@",
                     "effects": {
                         "funds": 2,
                         "devotee_winter": 1
