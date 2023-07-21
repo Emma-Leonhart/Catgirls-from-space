@@ -1106,11 +1106,11 @@
                 "influencerjob": 1,
                 "ability": 1,
                 "lore": 1,
-                "fervour": 1
+                "virality": 1
             },
             "effects": {
                 "funds": 1,
-                "fervour": -1
+                "virality": -1
             },
             "warmup": 60,
             "craftable": true,

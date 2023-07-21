@@ -26,6 +26,18 @@
             "label": "My Online Brand",
             "description": "I can build a larger following online.",
             "unique": "true"
+        },
+        {
+            "id": "virality",
+            "label": "virality",
+            "aspects": {
+                "influence": 1,
+                "heart": 2
+            },
+            "icon": "fervour",
+            "description": "My congregation's passions run strong, if not deep. [Keep your congregation satisfied. virality, if unused, will decay to Dread.]",
+            "lifetime": 180,
+            "decayTo": "dread"
         }
     ]
 }
