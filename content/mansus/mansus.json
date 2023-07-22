@@ -209,23 +209,26 @@ resetonexhaustion:true
 		"resetonexhaustion":true,
 		"comment": "This entry corresponds to the Peacock Door region in the Mansus. The aspects associated with this region are Lambda (Grail) and Lambda (Lantern)."
 	},
-	
-{id: "mansus_peacockdoor2",
-	spec:
-		["influencewinterg",
-		"influencewinterg",
-		"fragmentsecrethistoriesf",
-		"dread",
-		"influenceedgeg"
-		],
-				drawmessages:{
-					influenceedgeg:"Winding my way through the intricate mazes of the Worm Museum, I find a sharp influence of Edge. This influence is a honed blade, a symbol of overcoming and survival. It reminds me of the battles fought and victories won, of the spirit of resilience that enables us to face life's adversities head-on.",
-					influencewinterg:"Last night I visited the Worm Museum, which is both within the Mansus (for security) and without (for safety). The Hours have charged the Colonel with its defence, and even the Lionsmith does not challenge him here. Winter is the chiefest aspect of this place. The Worms thrive where things end, but they can also be ended, and they must, if the Mansus is to endure. This morning, the chilly certainty of the Colonel's hand still lies on my shoulder.",
-		fragmentsecrethistoriesf:"Size in the Mansus is negotiable, and so last night in the Worm Museum I saw one of the Worms who took Vienna, caged next to a Worm taken from the soul of a child. In dreams they are more visible than waking, smooth and dark as jewels. The walls bear stories of the First and Second Worm Wars. The Third is too recent to have passed into the Histories.",
-		dread:"I dreamt last night of the Worm Museum. The Hours have set wards about it and warnings before it, but they have left it open to mortal adepts who can prove themselves by reaching it. Perhaps they hope to inspire revulsion against the things that bred in the corpse of the Sun. Those things are here still, always dying, never dead. They came from Nowhere, the warnings say, and if they complete their work, the Mansus will be Nowhere, one day."},
-		
-resetonexhaustion:true
+	{
+		"id": "mansus_peacockdoor2",
+		"spec":
+			["influencewinterg",
+			"influencewinterg",
+			"fragmentsecrethistoriesf",
+			"dread",
+			"influenceedgeg",
+			"year.stolen"],
+		"drawmessages":{
+			"influenceedgeg":"Winding my way through the intricate mazes of the Worm Museum, I find a sharp influence of Edge. This influence is a honed blade, a symbol of overcoming and survival. It reminds me of the battles fought and victories won, of the spirit of resilience that enables us to face life's adversities head-on.",
+			"influencewinterg":"Last night I visited the Worm Museum, which is both within the Mansus (for security) and without (for safety). The Hours have charged the Colonel with its defence, and even the Lionsmith does not challenge him here. Winter is the chiefest aspect of this place. The Worms thrive where things end, but they can also be ended, and they must, if the Mansus is to endure. This morning, the chilly certainty of the Colonel's hand still lies on my shoulder.",
+			"fragmentsecrethistoriesf":"Size in the Mansus is negotiable, and so last night in the Worm Museum I saw one of the Worms who took Vienna, caged next to a Worm taken from the soul of a child. In dreams they are more visible than waking, smooth and dark as jewels. The walls bear stories of the First and Second Worm Wars. The Third is too recent to have passed into the Histories.",
+			"dread":"I dreamt last night of the Worm Museum. The Hours have set wards about it and warnings before it, but they have left it open to mortal adepts who can prove themselves by reaching it. Perhaps they hope to inspire revulsion against the things that bred in the corpse of the Sun. Those things are here still, always dying, never dead. They came from Nowhere, the warnings say, and if they complete their work, the Mansus will be Nowhere, one day.",
+			"year.stolen":"In the foreboding shadows of the Worm Museum, a stolen year takes form. This year speaks of persistence against the bitter chill of Winter and the relentless battles of Edge. A year where survival and resilience were honed, echoing the relentless struggle of existence against ending. Yet, as dire as the struggle may be, there is a whisper of strength, a promise of endurance. This stolen year is a testament to the perseverance of life in the face of oblivion."
+		},
+		"resetonexhaustion":true,
+		"comment": "This entry corresponds to the Worm Museum region in the Mansus. The aspects associated with this region are Sigma (Winter) and Theta (Edge)."
 	},
+	
 	{id: "mansus_spiderdoor2",
 		spec:
 			["influenceknockg",
