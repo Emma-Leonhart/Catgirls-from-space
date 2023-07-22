@@ -252,21 +252,26 @@ resetonexhaustion:true
 		"comment": "This entry corresponds to the Concursum region in the Mansus. The aspects associated with this region are Delta (Knock), Pi (Lantern), and Omicron (Moth)."
 	},
 	
-				{id: "mansus_spiderdoor1",
-	spec:
-	["influenceforgeg",
-	"influenceforgeg",
-		"fragmentsecrethistoriese",
-		"ingredientforgef",
-		"influencelanterne"],
-			drawmessages:{influenceforgeg:"Last night in the Mansus I visited the Malleary, from whose engines and avenues one does not emerge unchanged. I watched the processes of sunset and I entered the amber joy and the white joy and the blue joy and I was subjected to the enlightenments of calcination and the Forge of Days touched me with her burnished fingers and I rise from my bed with the utter knowledge that all nights, all nights, all nights must end.",
-		fragmentsecrethistoriese:"Last night in the Mansus I visited the Malleary, from whose hammers and crucibles one does not emerge unchanged, and for nine beats my heart ceased while it entered the fires of the Forge, and the passions of the Forge entered into it. I woke with the dawn, and its poor divided colours inspire memories of the Forge's passion for the Sun, of the Vagabond's curse, of the Grail's deep longing... so many half-memories.",
-		ingredientforgef:"Last night in the Mansus I visited the Malleary, from whose fires one does not emerge unchanged. The Forge's light fell upon me and my heart boiled and when I woke my blood burnt within me so that I had to shed it in a cup before it overwhelmed me
-and lo, ten drops of it were not blood, exactly, unless it be the Blood of the Sun. Perhaps I found the cup and the blood is not mine. The Forge sears memory.",
-		influencelanterne:"Last night in the Mansus I visited the Malleary, from whose impulses and rotations one does not emerge unchanged. There are many radiances there, from the fires and the Forge and her Names and her instruments, but one radiance lingers behind them all like a fading music: the last light of the Sun-in-Splendour, shed in the moments of his Division, here where the Forge is strongest. Now that I have awoken, I see that radiance still. "},
-		
-resetonexhaustion:true
+	{
+		"id": "mansus_spiderdoor1",
+		"spec":
+			["influenceforgeg",
+			"influenceforgeg",
+			"fragmentsecrethistoriese",
+			"ingredientforgef",
+			"influencelanterne",
+			"year.stolen"],
+		"drawmessages":{
+			"influenceforgeg":"Last night in the Mansus I visited the Malleary, from whose engines and avenues one does not emerge unchanged. I watched the processes of sunset and I entered the amber joy and the white joy and the blue joy and I was subjected to the enlightenments of calcination and the Forge of Days touched me with her burnished fingers and I rise from my bed with the utter knowledge that all nights, all nights, all nights must end.",
+			"fragmentsecrethistoriese":"Last night in the Mansus I visited the Malleary, from whose hammers and crucibles one does not emerge unchanged, and for nine beats my heart ceased while it entered the fires of the Forge, and the passions of the Forge entered into it. I woke with the dawn, and its poor divided colours inspire memories of the Forge's passion for the Sun, of the Vagabond's curse, of the Grail's deep longing... so many half-memories.",
+			"ingredientforgef":"Last night in the Mansus I visited the Malleary, from whose fires one does not emerge unchanged. The Forge's light fell upon me and my heart boiled and when I woke my blood burnt within me so that I had to shed it in a cup before it overwhelmed me and lo, ten drops of it were not blood, exactly, unless it be the Blood of the Sun. Perhaps I found the cup and the blood is not mine. The Forge sears memory.",
+			"influencelanterne":"Last night in the Mansus I visited the Malleary, from whose impulses and rotations one does not emerge unchanged. There are many radiances there, from the fires and the Forge and her Names and her instruments, but one radiance lingers behind them all like a fading music: the last light of the Sun-in-Splendour, shed in the moments of his Division, here where the Forge is strongest. Now that I have awoken, I see that radiance still.",
+			"year.stolen":"In the transforming fires of the Malleary, I glean a year of change and creation. It is a year of radiant glory, a dance of hammer and anvil, a symphony of forces moulding the essence of existence. This stolen year whispers of the Forge's ceaseless shaping, of endless cycles of destruction and creation, and of the Lantern's enlightenment piercing the veil of time."
+		},
+		"resetonexhaustion":true,
+		"comment": "This entry corresponds to the Malleary region in the Mansus. The aspects associated with this region are Sigma (Forge) and OL."
 	},
+	
 	
 	
 	{id: "mansus_spiderdoor",
