@@ -4,7 +4,7 @@
             "id": "angst",
             "label": "Angst lv 1",
             "actionid": "angst_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "angst.resolve.early",
                     "chance": 100
@@ -32,7 +32,7 @@
             "id": "angst.2",
             "label": "Angst lv 2",
             "actionid": "angst_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "angst.resolve",
                     "challenges": {
@@ -62,7 +62,7 @@
             "id": "angst.3",
             "label": "Angst lv 3",
             "actionid": "angst_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "angst.resolve",
                     "challenges": {
@@ -92,7 +92,7 @@
             "id": "angst.4",
             "label": "Angst lv 4",
             "actionid": "angst_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "angst.resolve",
                     "challenges": {
@@ -122,7 +122,7 @@
             "id": "angst.5",
             "label": "Angst lv 5",
             "actionid": "angst_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "angst.resolve",
                     "challenges": {
@@ -152,7 +152,7 @@
             "id": "angst.6",
             "label": "Angst lv 6",
             "actionid": "angst_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "angst.resolve",
                     "challenges": {
@@ -182,7 +182,7 @@
             "id": "angst.7",
             "label": "Angst lv 7",
             "actionid": "angst_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "angst.resolve",
                     "challenges": {
@@ -212,7 +212,7 @@
             "id": "angst.8",
             "label": "Angst lv 8",
             "actionid": "angst_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "angst.resolve",
                     "challenges": {
@@ -242,7 +242,7 @@
             "id": "angst.9",
             "label": "Angst lv 9",
             "actionid": "angst_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "angst.resolve",
                     "challenges": {
@@ -272,7 +272,7 @@
             "id": "angst.10",
             "label": "Angst lv 10",
             "actionid": "angst_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "angst.resolve",
                     "challenges": {

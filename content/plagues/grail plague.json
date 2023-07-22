@@ -4,7 +4,7 @@
             "id": "spiralling",
             "label": "spiralling lv 1",
             "actionid": "spiralling_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "spiralling.resolve.early",
                     "chance": 100
@@ -32,7 +32,7 @@
             "id": "spiralling.2",
             "label": "spiralling lv 2",
             "actionid": "spiralling_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "spiralling.resolve",
                     "challenges": {
@@ -62,7 +62,7 @@
             "id": "spiralling.3",
             "label": "spiralling lv 3",
             "actionid": "spiralling_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "spiralling.resolve",
                     "challenges": {
@@ -92,7 +92,7 @@
             "id": "spiralling.4",
             "label": "spiralling lv 4",
             "actionid": "spiralling_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "spiralling.resolve",
                     "challenges": {
@@ -122,7 +122,7 @@
             "id": "spiralling.5",
             "label": "spiralling lv 5",
             "actionid": "spiralling_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "spiralling.resolve",
                     "challenges": {
@@ -152,7 +152,7 @@
             "id": "spiralling.6",
             "label": "spiralling lv 6",
             "actionid": "spiralling_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "spiralling.resolve",
                     "challenges": {
@@ -182,7 +182,7 @@
             "id": "spiralling.7",
             "label": "spiralling lv 7",
             "actionid": "spiralling_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "spiralling.resolve",
                     "challenges": {
@@ -212,7 +212,7 @@
             "id": "spiralling.8",
             "label": "spiralling lv 8",
             "actionid": "spiralling_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "spiralling.resolve",
                     "challenges": {
@@ -242,7 +242,7 @@
             "id": "spiralling.9",
             "label": "spiralling lv 9",
             "actionid": "spiralling_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "spiralling.resolve",
                     "challenges": {
@@ -272,7 +272,7 @@
             "id": "spiralling.10",
             "label": "spiralling lv 10",
             "actionid": "spiralling_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "spiralling.resolve",
                     "challenges": {

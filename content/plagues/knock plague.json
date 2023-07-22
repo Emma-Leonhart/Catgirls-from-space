@@ -4,7 +4,7 @@
             "id": "locking",
             "label": "locking lv 1",
             "actionid": "locking_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "locking.resolve.early",
                     "chance": 100
@@ -32,7 +32,7 @@
             "id": "locking.2",
             "label": "locking lv 2",
             "actionid": "locking_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "locking.resolve",
                     "challenges": {
@@ -62,7 +62,7 @@
             "id": "locking.3",
             "label": "locking lv 3",
             "actionid": "locking_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "locking.resolve",
                     "challenges": {
@@ -92,7 +92,7 @@
             "id": "locking.4",
             "label": "locking lv 4",
             "actionid": "locking_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "locking.resolve",
                     "challenges": {
@@ -122,7 +122,7 @@
             "id": "locking.5",
             "label": "locking lv 5",
             "actionid": "locking_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "locking.resolve",
                     "challenges": {
@@ -152,7 +152,7 @@
             "id": "locking.6",
             "label": "locking lv 6",
             "actionid": "locking_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "locking.resolve",
                     "challenges": {
@@ -182,7 +182,7 @@
             "id": "locking.7",
             "label": "locking lv 7",
             "actionid": "locking_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "locking.resolve",
                     "challenges": {
@@ -212,7 +212,7 @@
             "id": "locking.8",
             "label": "locking lv 8",
             "actionid": "locking_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "locking.resolve",
                     "challenges": {
@@ -242,7 +242,7 @@
             "id": "locking.9",
             "label": "locking lv 9",
             "actionid": "locking_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "locking.resolve",
                     "challenges": {
@@ -272,7 +272,7 @@
             "id": "locking.10",
             "label": "locking lv 10",
             "actionid": "locking_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "locking.resolve",
                     "challenges": {

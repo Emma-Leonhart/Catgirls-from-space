@@ -4,7 +4,7 @@
             "id": "forgetting",
             "label": "forgetting lv 1",
             "actionid": "forgetting_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "forgetting.resolve.early",
                     "chance": 100
@@ -32,7 +32,7 @@
             "id": "forgetting.2",
             "label": "forgetting lv 2",
             "actionid": "forgetting_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "forgetting.resolve",
                     "challenges": {
@@ -62,7 +62,7 @@
             "id": "forgetting.3",
             "label": "forgetting lv 3",
             "actionid": "forgetting_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "forgetting.resolve",
                     "challenges": {
@@ -92,7 +92,7 @@
             "id": "forgetting.4",
             "label": "forgetting lv 4",
             "actionid": "forgetting_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "forgetting.resolve",
                     "challenges": {
@@ -122,7 +122,7 @@
             "id": "forgetting.5",
             "label": "forgetting lv 5",
             "actionid": "forgetting_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "forgetting.resolve",
                     "challenges": {
@@ -152,7 +152,7 @@
             "id": "forgetting.6",
             "label": "forgetting lv 6",
             "actionid": "forgetting_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "forgetting.resolve",
                     "challenges": {
@@ -182,7 +182,7 @@
             "id": "forgetting.7",
             "label": "forgetting lv 7",
             "actionid": "forgetting_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "forgetting.resolve",
                     "challenges": {
@@ -212,7 +212,7 @@
             "id": "forgetting.8",
             "label": "forgetting lv 8",
             "actionid": "forgetting_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "forgetting.resolve",
                     "challenges": {
@@ -242,7 +242,7 @@
             "id": "forgetting.9",
             "label": "forgetting lv 9",
             "actionid": "forgetting_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "forgetting.resolve",
                     "challenges": {
@@ -272,7 +272,7 @@
             "id": "forgetting.10",
             "label": "forgetting lv 10",
             "actionid": "forgetting_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "forgetting.resolve",
                     "challenges": {

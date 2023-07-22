@@ -4,7 +4,7 @@
             "id": "drowning",
             "label": "drowning lv 1",
             "actionid": "drowning_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "drowning.resolve.early",
                     "chance": 100
@@ -32,7 +32,7 @@
             "id": "drowning.2",
             "label": "drowning lv 2",
             "actionid": "drowning_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "drowning.resolve",
                     "challenges": {
@@ -62,7 +62,7 @@
             "id": "drowning.3",
             "label": "drowning lv 3",
             "actionid": "drowning_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "drowning.resolve",
                     "challenges": {
@@ -92,7 +92,7 @@
             "id": "drowning.4",
             "label": "drowning lv 4",
             "actionid": "drowning_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "drowning.resolve",
                     "challenges": {
@@ -122,7 +122,7 @@
             "id": "drowning.5",
             "label": "drowning lv 5",
             "actionid": "drowning_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "drowning.resolve",
                     "challenges": {
@@ -152,7 +152,7 @@
             "id": "drowning.6",
             "label": "drowning lv 6",
             "actionid": "drowning_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "drowning.resolve",
                     "challenges": {
@@ -182,7 +182,7 @@
             "id": "drowning.7",
             "label": "drowning lv 7",
             "actionid": "drowning_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "drowning.resolve",
                     "challenges": {
@@ -212,7 +212,7 @@
             "id": "drowning.8",
             "label": "drowning lv 8",
             "actionid": "drowning_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "drowning.resolve",
                     "challenges": {
@@ -242,7 +242,7 @@
             "id": "drowning.9",
             "label": "drowning lv 9",
             "actionid": "drowning_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "drowning.resolve",
                     "challenges": {
@@ -272,7 +272,7 @@
             "id": "drowning.10",
             "label": "drowning lv 10",
             "actionid": "drowning_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "drowning.resolve",
                     "challenges": {

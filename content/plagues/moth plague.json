@@ -4,7 +4,7 @@
             "id": "limitation",
             "label": "limitation lv 1",
             "actionid": "limitation_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "limitation.resolve.early",
                     "chance": 100
@@ -32,7 +32,7 @@
             "id": "limitation.2",
             "label": "limitation lv 2",
             "actionid": "limitation_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "limitation.resolve",
                     "challenges": {
@@ -62,7 +62,7 @@
             "id": "limitation.3",
             "label": "limitation lv 3",
             "actionid": "limitation_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "limitation.resolve",
                     "challenges": {
@@ -92,7 +92,7 @@
             "id": "limitation.4",
             "label": "limitation lv 4",
             "actionid": "limitation_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "limitation.resolve",
                     "challenges": {
@@ -122,7 +122,7 @@
             "id": "limitation.5",
             "label": "limitation lv 5",
             "actionid": "limitation_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "limitation.resolve",
                     "challenges": {
@@ -152,7 +152,7 @@
             "id": "limitation.6",
             "label": "limitation lv 6",
             "actionid": "limitation_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "limitation.resolve",
                     "challenges": {
@@ -182,7 +182,7 @@
             "id": "limitation.7",
             "label": "limitation lv 7",
             "actionid": "limitation_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "limitation.resolve",
                     "challenges": {
@@ -212,7 +212,7 @@
             "id": "limitation.8",
             "label": "limitation lv 8",
             "actionid": "limitation_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "limitation.resolve",
                     "challenges": {
@@ -242,7 +242,7 @@
             "id": "limitation.9",
             "label": "limitation lv 9",
             "actionid": "limitation_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "limitation.resolve",
                     "challenges": {
@@ -272,7 +272,7 @@
             "id": "limitation.10",
             "label": "limitation lv 10",
             "actionid": "limitation_plague",
-            "alt": [
+            "linked": [
                 {
                     "id": "limitation.resolve",
                     "challenges": {
