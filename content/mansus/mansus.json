@@ -156,7 +156,8 @@
 				"fragmentsecrethistoriesc":"Last night, Ghirbi was talkative. He spoke in his siege-engine voice of the histories he'd overheard in the waking world. I listened, until his stories tailed off again into weeping.",
 				"influenceforgec":"Ghirbi was weeping again. I scooped up his molten tears in my cupped palm. In the dream, my skin peeled and blistered, but only in the dream.",
 				"year.stolen":"As I wander the halls of The Pride, a peculiar sensation engulfs me. Amidst the vibrant murmurings of unity and the resonant echoes of connection, I stumble upon an anomaly. A year seems to have seeped into the very fabric of this place. A year imbued with shared laughter, shared tears, and profound unity. A year that once belonged to the flow of time, now firmly anchored in the heart of The Pride."},
-		"resetonexhaustion":true
+		"resetonexhaustion":true,
+		"comment": "Stag Door - Heart - AA"
 	},
 	
 	{
@@ -174,7 +175,8 @@
 				"influencegrailc":"The Ascent of Knives is called the Sharp Stair, and the Mother of Mirrors, and the Feast of the Grail. If one is to look beneath the stair, as I did last night in my dreams, one understands that last name. It draws a tithe of blood from the feet of those who ascend. Empousai - some shaped like men, many shaped like women - wait beneath the glass of the stairs to satisfy their hunger. I did not approach; I made no sound; I only observed.",
 				"influencewintere":"I visited the Ascent of Knives last night, that harshest of roads through the House. It has been sacred to the Meniscate and the Sun-in-Rags since the Intercalate, when the true Sun was divided. When I woke, my room was freezing. The chill of it had cracked the window-glass.",
 				"year.stolen":"I traverse the chill winds and biting paths of the Ascent of Knives, a strange sense of timelessness pervades the air. Amidst the cutting iciness, a unique year seems to be embedded into the very glass of the stair. A year marked by silence, ending, and profound introspection. A year that was once a part of time's relentless march, now frozen in the bitter tranquility of the Ascent of Knives."},
-		"resetonexhaustion":true
+		"resetonexhaustion":true,
+		"comment": "Ascent of Knives - Winter - AL"
 	},
 	
 	{
@@ -192,7 +194,8 @@
 			"fragmentsecrethistoriesd":"There is a great chamber in the Mansus through which a Painted River flows. The Vagabond, it is claimed, painted it from memory in the years before she left the House. Certainly there are histories concealed in its design. I traced them with my hand last night. There were fragments of aquamarine paint beneath my nails, flecks of gold leaf, when I was done.",
 			"eruditionplus":"The Painted River runs from a great chamber near the White Door, far through the Mansus, to its far edge where it enters a painted delta of far cloud. I voyaged half its length last night with a stern-faced captain beneath a rust-red sail. As the clouds rose before us, the sailors raised a yearning shanty, and close-hauled the sails to best use the painted wind. And all the while the captain and I discoursed on the secrets of the House of the Sun....",
 			"year.stolen":"Drifting along the Painted River, I encounter a strange anomaly. A year seems to have immersed itself into the river's vibrant strokes, becoming a part of its radiant tableau. It's a year filled with veiled revelations and half-whispered secrets, a year that has strayed from the linearity of time and found refuge in the swirling currents of the Painted River."},
-		"resetonexhaustion":true
+		"resetonexhaustion":true,
+		"comment": "Painted River - Secret Histories - AO"
 	},
 	{
 		"id": "mansus_peacockdoor1",
@@ -213,7 +216,8 @@
 			"favour":"Each of the stained glass windows of the Red Church is devoted to a distinct appetite, and the scenes they show are from life. Last night, in one of the uglier windows, I saw the appetites a certain public figure satisfied in private. I know he won't want this information made public. Perhaps he'll show me some consideration.",
 			"fascination":"Last night I visited the Red Church, where the Grail conducts its feasts. The light through the stained glass windows was all the spectra of red and the Names of the Grail laboured to birth a new desire which had until today no name at all. I am sticky with the memory of it, and this morning everything I see is tinted ruby.",
 			"year.stolen":"Within the vivid red confines of the Red Church, I feel a sudden shift in the rhythm of time. An entire year has insinuated itself into the crimson shades of this place. A year laden with insatiable appetites, desires taking shape, and the ecstatic pursuit of fulfilment. It's a year that has slipped from the calendar's grid, preferring to dwell amidst the Grail's indulgent feasts."},
-		"resetonexhaustion":true
+		"resetonexhaustion":true,
+		"Comment": "Red Church - Lantern - LA"
 	},
 	{
 		"id": "mansus_peacockdoor",
@@ -233,7 +237,7 @@
 			"fascination": "Beneath the gaze of the Peacock's Door, the world as I know it dissolves. Every detail, from the smallest grain to the grandest marvel, reveals a profound beauty, a symphony of interconnected magnificence. I stand at the threshold of the Red Church and the Worm Museum, as if poised on the edge of a dream. I witness the grandeur of existence from an overseer's vantage, and feel a rush of euphoria, a deep longing. The allure is overwhelming, resonating with an unnameable force that pulses through the Lambda Lambda Grail. I am left yearning for more, a potent fascination kindling within me.",
 			"year.stolen":"Within the vibrant colors of the Peacock Door, a stolen year unveils itself. It's a year of passionate desires and enlightened knowledge, of unquenchable thirst for understanding and the radiant power of illumination. This year, dislodged from the confines of conventional time, chooses instead to bask in the allure of the Grail and the enlightening beacon of the Lantern."},
 		"resetonexhaustion":true,
-		"comment": "This entry corresponds to the Peacock Door region in the Mansus. The aspects associated with this region are Lambda (Grail) and Lambda (Lantern)."
+		"comment": "Peacock Door - Grail - LL."
 	},
 	{
 		"id": "mansus_peacockdoor2",
@@ -252,7 +256,7 @@
 			"year.stolen":"In the foreboding shadows of the Worm Museum, a stolen year takes form. This year speaks of persistence against the bitter chill of Winter and the relentless battles of Edge. A year where survival and resilience were honed, echoing the relentless struggle of existence against ending. Yet, as dire as the struggle may be, there is a whisper of strength, a promise of endurance. This stolen year is a testament to the perseverance of life in the face of oblivion."
 		},
 		"resetonexhaustion":true,
-		"comment": "This entry corresponds to the Worm Museum region in the Mansus. The aspects associated with this region are Sigma (Winter) and Theta (Edge)."
+		"comment": "Worm Museum - Edge - LO."
 	},
 	{
 		"id": "mansus_spiderdoor2",
@@ -275,7 +279,7 @@
 			"year.stolen":"In the manifold paths of the Concursum, a stolen year takes form. It is a year of choices unchosen and pathways untread, a year of reflections distorted in the mirrors of time. The year speaks of Winter's cold stillness, the moth's unerring change, and the lantern's piercing revelation. As I recall this year, I am reminded of the knock at the door, a promise of changes to come."
 		},
 		"resetonexhaustion":true,
-		"comment": "This entry corresponds to the Concursum region in the Mansus. The aspects associated with this region are Delta (Knock), Pi (Lantern), and Omicron (Moth)."
+		"comment": "Concursum - Knock - OA."
 	},
 	
 	{
@@ -295,7 +299,7 @@
 			"year.stolen":"In the transforming fires of the Malleary, I glean a year of change and creation. It is a year of radiant glory, a dance of hammer and anvil, a symphony of forces moulding the essence of existence. This stolen year whispers of the Forge's ceaseless shaping, of endless cycles of destruction and creation, and of the Lantern's enlightenment piercing the veil of time."
 		},
 		"resetonexhaustion":true,
-		"comment": "This entry corresponds to the Malleary region in the Mansus. The aspects associated with this region are Sigma (Forge) and OL."
+		"comment": "Malleary - Forge - OL."
 	},
 	
 	
@@ -317,7 +321,8 @@
 			"favour":"Last night behind the Spider's Door, I found an agent of order who had strayed into an unwise dream. The things that walk the Silken Sands, that greyness in which the Door is set, have an especial taste for policemen. He screamed until I freed him, but I did not free him until he had told me something useful...",
 			"year.stolen":"In the sprawling passages of the Spider's Door, a stolen year lingers. It is a year of mystery and veiled truths, wrapped in gossamer-thin webs of time. As I grasp it, it whispers tales of hidden desires, secret appetites, and hearts entangled in the deceptive silk of fate."
 		},
-		"resetonexhaustion":true
+		"resetonexhaustion":true,
+		"comment": "Spider Door - Moth - OO"
 	}
 	
 	
