@@ -115,7 +115,8 @@
                     "space": 1,
                     "location": 1,
                     "ghoul.hunger": 1,
-                    "rumour": 1
+                    "rumour": 1,
+                    "memory": 1
                 },
                 "forbidden": {
                     "hireling": 1,

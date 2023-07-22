@@ -22,6 +22,10 @@
         },
         {
             "id": "waystagbefore_1",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
             "label": "Stag Door's Riddle",
             "description": "'What may be lost?' Answer this riddle to pass the Stag Door, and be accounted a Know.",
             "aspects": {
@@ -32,6 +36,10 @@
         },
         {
             "id": "waystagbefore_2",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
             "label": "Stag Door's Riddle",
             "description": "'Where is mercy found?' Answer this riddle to pass the Stag Door, and be accounted a Know.",
             "aspects": {
@@ -42,6 +50,10 @@
         },
         {
             "id": "waystagbefore_3",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
             "label": "Stag Door's Riddle",
             "description": "'What are the words that make sacrifice sweet?' Answer this riddle to pass the Stag Door, and be accounted a Know.",
             "aspects": {
@@ -52,6 +64,10 @@
         },
         {
             "id": "waystagbefore_4",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
             "label": "Stag Door's Riddle",
             "description": "'What must open, before this Way opens?' Answer this riddle to pass the Stag Door, and be accounted a Know.",
             "aspects": {
@@ -62,6 +78,10 @@
         },
         {
             "id": "waystagbefore_5",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
             "label": "Stag Door's Riddle",
             "description": "'Where is the queen who was not born?' Answer this riddle to pass the Stag Door, and be accounted a Know.",
             "aspects": {
@@ -72,6 +92,10 @@
         },
         {
             "id": "waystagbefore_heart",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
             "label": "Stag Door's Riddle",
             "description": "An echo of a rhythm that could stir the untouched heart. What anthem could stand up to such a challenge?",
             "fragment_label": "The Pride's Anthem",
@@ -82,6 +106,10 @@
         },
         {
             "id": "waystagbefore_winter",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
             "label": "Stag Door's Riddle",
             "description": "A quiet energy cloaks the path, a shadow of a fading light. Could it be a reflection of a sun setting into tranquility?",
             "fragment_label": "Meditation on the Fading Sun",
@@ -92,6 +120,10 @@
         },
         {
             "id": "waystagbefore_secret",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
             "label": "Stag Door's Riddle",
             "description": "An illusion shrouds the path ahead. Is it a trick of the light, or perhaps the start of an odyssey of a different kind?",
             "fragment_label": "An Optical Odyssey",
@@ -102,6 +134,10 @@
         },
         {
             "id": "waystagbefore_lantern",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
             "label": "Stag Door's Riddle",
             "description": "Flickering light dances around the path, hinting at a luminary's wisdom. Does true understanding truly dwell in the crevices of shadow?",
             "fragment_label": "A Luminary's Chant",
@@ -112,6 +148,10 @@
         },
         {
             "id": "waystagbefore_grail",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
             "label": "Stag Door's Riddle",
             "description": "A beguiling allure entices the path, whispering of an intoxicating dance. What rite could possibly unlock the carousel of existence?",
             "fragment_label": "Rite of Revelry",
@@ -122,6 +162,10 @@
         },
         {
             "id": "waystagbefore_knock",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
             "label": "Stag Door's Riddle",
             "description": "A transformative energy pulses around the path. Is there a necessary shedding to be done, like a serpent casting off its old skin?",
             "fragment_label": "The Serpent's Shed",
@@ -132,6 +176,10 @@
         },
         {
             "id": "waystagbefore_forge",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
             "label": "Stag Door's Riddle",
             "description": "The path radiates an energy of change. Are words of chant required to adapt and resonate with this transformation?",
             "fragment_label": "The Chant of Change",
@@ -142,6 +190,10 @@
         },
         {
             "id": "waystagbefore_moth",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
             "label": "Stag Door's Riddle",
             "description": "The path flutters with an uncanny energy. Could an unraveling parable unlock its mystery?",
             "fragment_label": "Roleplayer's Parable",
