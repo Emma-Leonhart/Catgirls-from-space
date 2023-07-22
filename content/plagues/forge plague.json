@@ -1,8 +1,8 @@
 {
-    "recipes":[
+    "plague": [
         {
             "id": "ego",
-            "label": "ego lv 1",
+            "label": "Ego Level 1",
             "actionid": "ego_plague",
             "linked": [
                 {
@@ -15,22 +15,22 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "You start to feel a creeping sense of fear and uncertainty. It feels like your identity is being threatened by change and you don't know how to handle it. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "forge",
-					"label": "forge influence",
-					"description": "I need protection",
-					"required": {
-						"forge": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "forge",
+                    "label": "Forge Influence",
+                    "description": "Forge Influence can be used to protect yourself and start to combat the ego plague.",
+                    "required": {
+                        "forge": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "ego.2",
-            "label": "ego lv 2",
+            "label": "Ego Level 2",
             "actionid": "ego_plague",
             "linked": [
                 {
@@ -45,22 +45,22 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "I'm starting to feel lonely. [Warning if you get to level 10 you will die]",
+            "startdescription": "Your fear starts to grow into loneliness. You're starting to feel isolated because of your rigid self-concept. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "forge",
-					"label": "forge influence",
-					"description": "I need protection",
-					"required": {
-						"forge": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "forge",
+                    "label": "Forge Influence",
+                    "description": "Forge Influence can be used to protect yourself and continue to combat the ego plague.",
+                    "required": {
+                        "forge": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "ego.3",
-            "label": "ego lv 3",
+            "label": "Ego Level 3",
             "actionid": "ego_plague",
             "linked": [
                 {
@@ -75,22 +75,22 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "The sense of isolation deepens. You're scared of changing your identity, even if the change is good for you. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "forge",
-					"label": "forge influence",
-					"description": "I need protection",
-					"required": {
-						"forge": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "forge",
+                    "label": "Forge Influence",
+                    "description": "Forge Influence can be used to protect yourself and challenge your rigid beliefs and behaviors.",
+                    "required": {
+                        "forge": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "ego.4",
-            "label": "ego lv 4",
+            "label": "Ego Level 4",
             "actionid": "ego_plague",
             "linked": [
                 {
@@ -105,28 +105,28 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "Your ego makes you reject others' perspectives. You believe only your own perspective is valid. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "forge",
-					"label": "forge influence",
-					"description": "I need protection",
-					"required": {
-						"forge": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "forge",
+                    "label": "Forge Influence",
+                    "description": "Forge Influence can be used to challenge your one-sided views and open your mind to other perspectives.",
+                    "required": {
+                        "forge": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "ego.5",
-            "label": "ego lv 5",
+            "label": "Ego Level 5",
             "actionid": "ego_plague",
             "linked": [
                 {
                     "id": "ego.resolve",
                     "challenges": {
-                        "forge": "advanced"
+                        "forge": "base"
                     }
                 },
                 {
@@ -135,28 +135,28 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "Your ego makes you believe you're always right. You have difficulty accepting criticism or recognizing your own faults. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "forge",
-					"label": "forge influence",
-					"description": "I need protection",
-					"required": {
-						"forge": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "forge",
+                    "label": "Forge Influence",
+                    "description": "Forge Influence can be used to challenge your self-righteousness and learn to accept criticism constructively.",
+                    "required": {
+                        "forge": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "ego.6",
-            "label": "ego lv 6",
+            "label": "Ego Level 6",
             "actionid": "ego_plague",
             "linked": [
                 {
                     "id": "ego.resolve",
                     "challenges": {
-                        "forge": "advanced"
+                        "forge": "base"
                     }
                 },
                 {
@@ -165,28 +165,28 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "Your ego makes you unable to admit your mistakes. You blame others for your failures instead of taking responsibility. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "forge",
-					"label": "forge influence",
-					"description": "I need protection",
-					"required": {
-						"forge": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "forge",
+                    "label": "Forge Influence",
+                    "description": "Forge Influence can be used to combat your ego's denial and blame, helping you to take responsibility for your actions.",
+                    "required": {
+                        "forge": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "ego.7",
-            "label": "ego lv 7",
+            "label": "Ego Level 7",
             "actionid": "ego_plague",
             "linked": [
                 {
                     "id": "ego.resolve",
                     "challenges": {
-                        "forge": "advanced"
+                        "forge": "intermediate"
                     }
                 },
                 {
@@ -195,22 +195,22 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "Your ego makes you prioritize your own needs over others'. You struggle to empathize and connect with other people. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "forge",
-					"label": "forge influence",
-					"description": "I need protection",
-					"required": {
-						"forge": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "forge",
+                    "label": "Forge Influence",
+                    "description": "Forge Influence can be used to break through your self-centeredness, fostering empathy and connection with others.",
+                    "required": {
+                        "forge": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "ego.8",
-            "label": "ego lv 8",
+            "label": "Ego Level 8",
             "actionid": "ego_plague",
             "linked": [
                 {
@@ -225,22 +225,22 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "Your ego makes you feel superior to others. You lack humility and find it difficult to relate to others on equal terms. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "forge",
-					"label": "forge influence",
-					"description": "I need protection",
-					"required": {
-						"forge": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "forge",
+                    "label": "Forge Influence",
+                    "description": "Forge Influence can be used to combat your feelings of superiority, promoting humility and equality.",
+                    "required": {
+                        "forge": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "ego.9",
-            "label": "ego lv 9",
+            "label": "Ego Level 9",
             "actionid": "ego_plague",
             "linked": [
                 {
@@ -255,22 +255,22 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "Your ego makes you defensive and resistant to change. You find it hard to learn and grow. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "forge",
-					"label": "forge influence",
-					"description": "I need protection",
-					"required": {
-						"forge": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "forge",
+                    "label": "Forge Influence",
+                    "description": "Forge Influence can be used to break down your defenses and embrace change and growth.",
+                    "required": {
+                        "forge": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "ego.10",
-            "label": "ego lv 10",
+            "label": "Ego Level 10",
             "actionid": "ego_plague",
             "linked": [
                 {
@@ -281,42 +281,24 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
-            "ending": "ego",
+            "startdescription": "Your ego is overwhelming. You're completely trapped in your self-concept and unable to adapt to new situations or challenges. [You've reached level 10 - any further and you will die]",
             "slots": [
-				{
-					"id": "forge",
-					"label": "forge influence",
-					"description": "I need protection",
-					"required": {
-						"forge": 1
-					},
-					"greedy": false
-				}
-			]
-        },
-        {
-            "id": "ego.resolve.early",
-            "label": "ego resolved",
-            "requirements": {
-                "forge": 2
-            },
-            "linked":[
                 {
-                    "id": "ego.resolve",
-                    "chance": 100
+                    "id": "forge",
+                    "label": "Forge Influence",
+                    "description": "Forge Influence can be used to protect yourself and finally overcome the ego plague.",
+                    "required": {
+                        "forge": 1
+                    },
+                    "greedy": false
                 }
             ]
         },
         {
             "id": "ego.resolve",
-            "label": "ego resolved",
-            "startdescription": "PLACEHOLDER",
-            "description": "PLACEHOLDER",
-            "effects":{
-                "fragmentforge": 1,
-                "influenceforgee": 1
-            }
+            "label": "Ego Resolved",
+            "startdescription": "You've begun the difficult process of ego death, focusing on objective ways to improve and grow.",
+            "description": "You've successfully overcome the ego plague, breaking free from the trap of your rigid self-concept. You now can adapt to change and challenges, empathize with others, and maintain a humble and equal approach towards others. Your ego is no longer in control."
         }
     ]
 }

@@ -2,7 +2,7 @@
     "recipes":[
         {
             "id": "drowning",
-            "label": "drowning lv 1",
+            "label": "Drowning LV 1",
             "actionid": "drowning_plague",
             "linked": [
                 {
@@ -15,7 +15,7 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "The waters of wantonness are creeping in, threatening to overwhelm my rationality. [Warning if you get to level 10 you will die]",
             "slots": [
 				{
 					"id": "edge",
@@ -30,7 +30,7 @@
         },
         {
             "id": "drowning.2",
-            "label": "drowning lv 2",
+            "label": "Drowning LV 2",
             "actionid": "drowning_plague",
             "linked": [
                 {
@@ -45,12 +45,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "I'm starting to feel lonely. [Warning if you get to level 10 you will die]",
+            "startdescription": "I'm trapped in analysis paralysis, my actions stalled by excessive overthinking. [Warning if you get to level 10 you will die]",
             "slots": [
 				{
 					"id": "edge",
 					"label": "edge influence",
-					"description": "I need protection",
+					"description": "I need to break free",
 					"required": {
 						"edge": 1
 					},
@@ -60,7 +60,7 @@
         },
         {
             "id": "drowning.3",
-            "label": "drowning lv 3",
+            "label": "Drowning LV 3",
             "actionid": "drowning_plague",
             "linked": [
                 {
@@ -75,12 +75,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "Both wantonness and analysis paralysis are pulling me under. I need to find my flow. [Warning if you get to level 10 you will die]",
             "slots": [
 				{
 					"id": "edge",
 					"label": "edge influence",
-					"description": "I need protection",
+					"description": "I need to regain control",
 					"required": {
 						"edge": 1
 					},
@@ -90,7 +90,7 @@
         },
         {
             "id": "drowning.4",
-            "label": "drowning lv 4",
+            "label": "Drowning LV 4",
             "actionid": "drowning_plague",
             "linked": [
                 {
@@ -105,12 +105,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "The flood of information and choices is stifling my ability to act effectively. [Warning if you get to level 10 you will die]",
             "slots": [
 				{
 					"id": "edge",
 					"label": "edge influence",
-					"description": "I need protection",
+					"description": "I need to focus and harmonize my actions",
 					"required": {
 						"edge": 1
 					},
@@ -120,7 +120,7 @@
         },
         {
             "id": "drowning.5",
-            "label": "drowning lv 5",
+            "label": "Drowning LV 5",
             "actionid": "drowning_plague",
             "linked": [
                 {
@@ -135,12 +135,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "I feel like I'm sinking deeper, unable to keep my head above the waters of life. [Warning if you get to level 10 you will die]",
             "slots": [
 				{
 					"id": "edge",
 					"label": "edge influence",
-					"description": "I need protection",
+					"description": "I need to strive for balance",
 					"required": {
 						"edge": 1
 					},
@@ -150,7 +150,7 @@
         },
         {
             "id": "drowning.6",
-            "label": "drowning lv 6",
+            "label": "Drowning LV 6",
             "actionid": "drowning_plague",
             "linked": [
                 {
@@ -165,12 +165,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "I'm lost at sea, aimlessly adrift. The flow state feels just out of reach. [Warning if you get to level 10 you will die]",
             "slots": [
 				{
 					"id": "edge",
 					"label": "edge influence",
-					"description": "I need protection",
+					"description": "I need to strive for self-mastery",
 					"required": {
 						"edge": 1
 					},
@@ -180,7 +180,7 @@
         },
         {
             "id": "drowning.7",
-            "label": "drowning lv 7",
+            "label": "Drowning LV 7",
             "actionid": "drowning_plague",
             "linked": [
                 {
@@ -195,12 +195,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "My instincts and my rationality are at odds, pushing and pulling me beneath the surface. [Warning if you get to level 10 you will die]",
             "slots": [
 				{
 					"id": "edge",
 					"label": "edge influence",
-					"description": "I need protection",
+					"description": "I need to reconcile my instincts and my rationality",
 					"required": {
 						"edge": 1
 					},
@@ -210,7 +210,7 @@
         },
         {
             "id": "drowning.8",
-            "label": "drowning lv 8",
+            "label": "Drowning LV 8",
             "actionid": "drowning_plague",
             "linked": [
                 {
@@ -225,12 +225,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "The waters of life are turbulent, and I am caught in the undertow. [Warning if you get to level 10 you will die]",
             "slots": [
 				{
 					"id": "edge",
 					"label": "edge influence",
-					"description": "I need protection",
+					"description": "I need to navigate the turbulence",
 					"required": {
 						"edge": 1
 					},
@@ -240,13 +240,13 @@
         },
         {
             "id": "drowning.9",
-            "label": "drowning lv 9",
+            "label": "Drowning LV 9",
             "actionid": "drowning_plague",
             "linked": [
                 {
                     "id": "drowning.resolve",
                     "challenges": {
-                        "edge": "advanced"
+                        "edge": "expert"
                     }
                 },
                 {
@@ -255,12 +255,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "I am so close to reaching the surface, but the current is strong. [Warning if you get to level 10 you will die]",
             "slots": [
 				{
 					"id": "edge",
 					"label": "edge influence",
-					"description": "I need protection",
+					"description": "I need to push through the current",
 					"required": {
 						"edge": 1
 					},
@@ -270,24 +270,16 @@
         },
         {
             "id": "drowning.10",
-            "label": "drowning lv 10",
+            "label": "Drowning LV 10",
             "actionid": "drowning_plague",
-            "linked": [
-                {
-                    "id": "drowning.resolve",
-                    "challenges": {
-                        "edge": "advanced"
-                    }
-                }
-            ],
+            "linked": [],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
-            "ending": "drowning",
+            "startdescription": "The sea claims me. I am overwhelmed and unable to navigate. [Warning this is your last chance to survive]",
             "slots": [
 				{
 					"id": "edge",
 					"label": "edge influence",
-					"description": "I need protection",
+					"description": "I need to pull myself back from the brink",
 					"required": {
 						"edge": 1
 					},
@@ -306,13 +298,15 @@
                     "id": "drowning.resolve",
                     "chance": 100
                 }
-            ]
+            ],
+            "startdescription": "I feel the pull of the current lessen, the wave of confusion starts to subside. The balance between my instincts and rationality begins to restore.",
+            "description": "A breath of fresh air fills my lungs as I resurface from the overwhelming waves of wantonness and analysis paralysis. The waters of life seem more navigable now."
         },
         {
             "id": "drowning.resolve",
             "label": "drowning resolved",
-            "startdescription": "PLACEHOLDER",
-            "description": "PLACEHOLDER",
+            "startdescription": "With a final push, I break through the surface. The sweet taste of air floods my senses, and I see the horizon with a clarity I've not known before.",
+            "description": "I have fought against the current and emerged victorious. The balance between instinct and analysis, wantonness and paralysis, has been restored. The flow state is within my grasp. I have navigated the tumultuous waters and have been rewarded with renewed strength and insight.",
             "effects":{
                 "fragmentedge": 1,
                 "influenceedgee": 1
