@@ -96,24 +96,28 @@ resetonexhaustion:true
 		
 	resetonexhaustion:true
 	},
-	{id: "mansus_whitedoor2",
-	spec:
-	["influencelanternc",
-	"glimmering",
-	"influenceheartc",
-	"fragmentsecrethistoriesc",
-	"connection_holy",
-	"connection_radical"],
-	drawmessages:{influencelanternc:"'The Mansus,' the Enlightened Wanderer once said, 'holds treasures beyond our grasp, but none more mesmerizing than the Orchard of Lights.' In my dream, I wandered the Orchard, its radiant fruit and peaceful mists a testament to the old Sun's glory.",
-	glimmering:"Once, the Sun-in-Splendour walked the Orchard, filling it with his radiant brilliance. Now, his remnants wander the place, their silent footfalls a memory of his reign. Their distant presence is a gift of insight.",
-	influenceheartc:"The Immortal Empress allows sleepers to stroll in the Orchard of Lights, where peace reigns supreme. Last night, I was among the privileged, and I woke up carrying a shard of its tranquility in my heart.",
-	fragmentsecrethistoriesc:"In the Orchard of Lights, every fruit is a secret, every bite an epiphany. The stories of the Mansus are etched in the bark of its luminous trees, and last night, I read a tale that still rings in my ears.",
-	connection_holy:"In the heart of the Orchard of Lights, beneath a tree that radiates pure light, the Holy Seer shares wisdom that stirs the soul. His words resonate with truth, infusing the tranquil surroundings with a profound spirituality.",
-	connection_radical:"Deep in the Orchard of Lights, a Radical Dreamer, a visionary, stirs up the serenity with fervor and fire. His passionate discourses spark a desire for change, even in this place of unchanging beauty, illuminating the radical potential that dreams can hold.",
+	{
+		"id": "mansus_whitedoor2",
+		"spec": [
+			"influencelanternc",
+			"glimmering",
+			"influenceheartc",
+			"fragmentsecrethistoriesc",
+			"connection_holy",
+			"connection_radical"
+		],
+		"drawmessages": {
+			"influencelanternc": "'The Mansus,' the Enlightened Wanderer once said, 'holds treasures beyond our grasp, but none more mesmerizing than the Orchard of Lights.' In my dream, I wandered the Orchard, its radiant fruit and peaceful mists a testament to the old Sun's glory.",
+			"glimmering": "Once, the Sun-in-Splendour walked the Orchard, filling it with his radiant brilliance. Now, his remnants wander the place, their silent footfalls a memory of his reign. Their distant presence is a gift of insight.",
+			"influenceheartc": "The Immortal Empress allows sleepers to stroll in the Orchard of Lights, where peace reigns supreme. Last night, I was among the privileged, and I woke up carrying a shard of its tranquility in my heart.",
+			"fragmentsecrethistoriesc": "In the Orchard of Lights, every fruit is a secret, every bite an epiphany. The stories of the Mansus are etched in the bark of its luminous trees, and last night, I read a tale that still rings in my ears.",
+			"connection_holy": "In the heart of the Orchard of Lights, beneath a tree that radiates pure light, the Holy Seer shares wisdom that stirs the soul. His words resonate with truth, infusing the tranquil surroundings with a profound spirituality.",
+			"connection_radical": "Deep in the Orchard of Lights, a Radical Dreamer, a visionary, stirs up the serenity with fervor and fire. His passionate discourses spark a desire for change, even in this place of unchanging beauty, illuminating the radical potential that dreams can hold.",
+		},
+		"resetonexhaustion": true,
+		"comment": "Orchard of Light, location accessible by the white door" 
 	},
 	
-	resetonexhaustion:true
-	},
 
 	{
 		"id": "mansus_stagdoor",
