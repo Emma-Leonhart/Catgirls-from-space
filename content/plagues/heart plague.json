@@ -3,14 +3,14 @@
         {
             "id": "alienation",
             "label": "Alienation lv 1",
-            "actionid": "alienation_plague",
+            "actionid": "alienation.plague",
             "linked": [
                 {
-                    "id": "alienation_resolve.early",
+                    "id": "alienation.resolve.early",
                     "chance": 100
                 },
                 {
-                    "id": "alienation_2",
+                    "id": "alienation.2",
                     "chance": 100
                 }
             ],
@@ -29,18 +29,18 @@
 			]
         },
         {
-            "id": "alienation_2",
+            "id": "alienation.2",
             "label": "Alienation lv 2",
-            "actionid": "alienation_plague",
+            "actionid": "alienation.plague",
             "linked": [
                 {
-                    "id": "alienation_resolve",
+                    "id": "alienation.resolve",
                     "challenges": {
                         "heart": "base"
                     }
                 },
                 {
-                    "id": "alienation_3",
+                    "id": "alienation.3",
                     "chance": 100
                 }
             ],
@@ -59,18 +59,18 @@
 			]
         },
         {
-            "id": "alienation_3",
+            "id": "alienation.3",
             "label": "Alienation lv 3",
-            "actionid": "alienation_plague",
+            "actionid": "alienation.plague",
             "linked": [
                 {
-                    "id": "alienation_resolve",
+                    "id": "alienation.resolve",
                     "challenges": {
                         "heart": "base"
                     }
                 },
                 {
-                    "id": "alienation_4",
+                    "id": "alienation.4",
                     "chance": 100
                 }
             ],
@@ -89,18 +89,18 @@
 			]
         },
         {
-            "id": "alienation_4",
+            "id": "alienation.4",
             "label": "Alienation lv 4",
-            "actionid": "alienation_plague",
+            "actionid": "alienation.plague",
             "linked": [
                 {
-                    "id": "alienation_resolve",
+                    "id": "alienation.resolve",
                     "challenges": {
                         "heart": "base"
                     }
                 },
                 {
-                    "id": "alienation_5",
+                    "id": "alienation.5",
                     "chance": 100
                 }
             ],
@@ -119,18 +119,18 @@
 			]
         },
         {
-            "id": "alienation_5",
+            "id": "alienation.5",
             "label": "Alienation lv 5",
-            "actionid": "alienation_plague",
+            "actionid": "alienation.plague",
             "linked": [
                 {
-                    "id": "alienation_resolve",
+                    "id": "alienation.resolve",
                     "challenges": {
                         "heart": "advanced"
                     }
                 },
                 {
-                    "id": "alienation_6",
+                    "id": "alienation.6",
                     "chance": 100
                 }
             ],
@@ -149,18 +149,18 @@
 			]
         },
         {
-            "id": "alienation_6",
+            "id": "alienation.6",
             "label": "Alienation lv 6",
-            "actionid": "alienation_plague",
+            "actionid": "alienation.plague",
             "linked": [
                 {
-                    "id": "alienation_resolve",
+                    "id": "alienation.resolve",
                     "challenges": {
                         "heart": "advanced"
                     }
                 },
                 {
-                    "id": "alienation_7",
+                    "id": "alienation.7",
                     "chance": 100
                 }
             ],
@@ -179,18 +179,18 @@
 			]
         },
         {
-            "id": "alienation_7",
+            "id": "alienation.7",
             "label": "Alienation lv 7",
-            "actionid": "alienation_plague",
+            "actionid": "alienation.plague",
             "linked": [
                 {
-                    "id": "alienation_resolve",
+                    "id": "alienation.resolve",
                     "challenges": {
                         "heart": "advanced"
                     }
                 },
                 {
-                    "id": "alienation_8",
+                    "id": "alienation.8",
                     "chance": 100
                 }
             ],
@@ -209,18 +209,18 @@
 			]
         },
         {
-            "id": "alienation_8",
+            "id": "alienation.8",
             "label": "Alienation lv 8",
-            "actionid": "alienation_plague",
+            "actionid": "alienation.plague",
             "linked": [
                 {
-                    "id": "alienation_resolve",
+                    "id": "alienation.resolve",
                     "challenges": {
                         "heart": "advanced"
                     }
                 },
                 {
-                    "id": "alienation_9",
+                    "id": "alienation.9",
                     "chance": 100
                 }
             ],
@@ -239,18 +239,18 @@
 			]
         },
         {
-            "id": "alienation_9",
+            "id": "alienation.9",
             "label": "Alienation lv 9",
-            "actionid": "alienation_plague",
+            "actionid": "alienation.plague",
             "linked": [
                 {
-                    "id": "alienation_resolve",
+                    "id": "alienation.resolve",
                     "challenges": {
                         "heart": "advanced"
                     }
                 },
                 {
-                    "id": "alienation_10",
+                    "id": "alienation.10",
                     "chance": 100
                 }
             ],
@@ -269,12 +269,12 @@
 			]
         },
         {
-            "id": "alienation_10",
+            "id": "alienation.10",
             "label": "Alienation lv 10",
-            "actionid": "alienation_plague",
+            "actionid": "alienation.plague",
             "linked": [
                 {
-                    "id": "alienation_resolve",
+                    "id": "alienation.resolve",
                     "challenges": {
                         "heart": "advanced"
                     }
@@ -296,20 +296,20 @@
 			]
         },
         {
-            "id": "alienation_resolve.early",
+            "id": "alienation.resolve.early",
             "label": "Alienation resolved",
             "requirements": {
                 "heart": 2
             },
             "linked":[
                 {
-                    "id": "alienation_resolve",
+                    "id": "alienation.resolve",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "alienation_resolve",
+            "id": "alienation.resolve",
             "label": "Alienation resolved",
             "startdescription": "PLACEHOLDER",
             "description": "PLACEHOLDER",

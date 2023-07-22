@@ -41,6 +41,16 @@
                     "additional": true
                 },
                 {
+                    "id": "rival_season",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "plague_season",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
                     "id": "ambition",
                     "chance": 100,
                     "additional": true
@@ -437,6 +447,31 @@
                     "chance": 100
                 }
             ]
+        },
+        {
+            "id": "rival_season",
+            "chance": 100,
+            "additional": true,
+            "actionid": "newrival",
+            "warmup": 10,
+            "requirements": {
+                "seasonrivals": 1
+            }
+        },
+        {
+            "id": "plague_season",
+            "chance": 100,
+            "additional": true,
+            "actionid": "inflict_plague_verb",
+            "linked": [
+                {
+                    "id": "inflict_plague",
+                    "chance": 30
+                }
+            ],
+            "requirements": {
+                "seasonplagues": 1
+            }
         },
         {
             "id": "visionsrisklink",
@@ -862,6 +897,16 @@
                 },
                 {
                     "id": "exile_suspicion",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "rival_season",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "plague_season",
                     "chance": 100,
                     "additional": true
                 },

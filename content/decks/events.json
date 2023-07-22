@@ -15,7 +15,10 @@
                 "seasonambitions",
                 "seasonambitions",
                 "seasonsilence",
-                "seasonardours"
+                "seasonardours",
+                "seasonplagues",
+                "seasonplagues",
+                "seasonrivals"
             ],
             "defaultcard": "contentment",
             "resetonexhaustion": true

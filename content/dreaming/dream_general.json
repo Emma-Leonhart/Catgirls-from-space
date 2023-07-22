@@ -285,6 +285,44 @@
             "burnimage": "lanterndedication"
         },
         {
+            "id": "dreamfunds",
+            "label": "Purchase a Tincture of Opium",
+            "actionid": "dream",
+            "requirements": {
+                "funds": 1
+            },
+            "effects": {
+                "contentment": 1,
+                "funds": -1
+            },
+            "startdescription": "In times of especial crisis, I might visit a discreet pharmacist, to purchase a tincture of opium and make my dreams sweet. But only in times of especial crisis. [This is an expensive and risky way to gain Contentment. It might provoke sickness or despair, or addiction.]",
+            "description": "Oh, that deep peace. But I should not do this again.",
+            "warmup": 30,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "grailinduction",
+                    "chance": 30,
+                    "additional": true
+                },
+                {
+                    "id": "despairrisk",
+                    "chance": 10,
+                    "additional": true
+                },
+                {
+                    "id": "presickness",
+                    "chance": 10,
+                    "additional": true
+                },
+                {
+                    "id": "spiralling",
+                    "chance": 10,
+                    "additional": true
+                }
+            ]
+        },
+        {
             "id": "dream_router",
             "label": "The Crowds of Sleep",
             "actionid": "dream",
