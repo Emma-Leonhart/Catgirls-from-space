@@ -117,10 +117,13 @@ resetonexhaustion:true
 
 				{id: "mansus_stagdoor",
 	spec:
-		["influenceknocke",
+		["influenceheartg",
+			"influenceknocke",
 		"fragmentsecrethistoriesc",
 		"influenceforgec"],
-		drawmessages:{influenceknocke:"In sleep, I ran my fingers along the ridged edges of the Stag Door's scars. 'Our company it was that shattered it,' Ghirbi says suddenly. 'Before the Gods-who-were-flesh, the Mansus was forbidden to mortals. We were the first Know.' He begins again to weep his molten tears. 'I wish that we had not. I wish I had died in the world....' I have forgotten what else he said. But I remember the shape of the fissures in the Stag Door, and for all of today, doors will fear my touch.",
+		drawmessages:{
+			influenceheartg:"Exploring the vibrancy of the Stag Door region, I stumble upon a beating, radiant influence of Heart. The hum of vitality and emotion reverberates through me. This influence is a lively symphony, a reminder of the powerful human connection, of the inherent worth in every individual, of the love and empathy that tie us all together.",
+			influenceknocke:"In sleep, I ran my fingers along the ridged edges of the Stag Door's scars. 'Our company it was that shattered it,' Ghirbi says suddenly. 'Before the Gods-who-were-flesh, the Mansus was forbidden to mortals. We were the first Know.' He begins again to weep his molten tears. 'I wish that we had not. I wish I had died in the world....' I have forgotten what else he said. But I remember the shape of the fissures in the Stag Door, and for all of today, doors will fear my touch.",
 		fragmentsecrethistoriesc:"Last night, Ghirbi was talkative. He spoke in his siege-engine voice of the histories he'd overheard in the waking world. I listened, until his stories tailed off again into weeping.",
 		influenceforgec:"Ghirbi was weeping again. I scooped up his molten tears in my cupped palm. In the dream, my skin peeled and blistered, but only in the dream."},
 		
@@ -129,9 +132,12 @@ resetonexhaustion:true
 				{id: "mansus_stagdoor1",
 	spec:
 	["influenceedgee",
+	"influencewinterg",
 	"influencegrailc",
 	"influencewintere"],
-			drawmessages:{influenceedgee:"Of the place my dreams took me last night, this has been written: 'The ascent is glass. The walls are knives. Each step is blood.' I did not climb far. The pain was too great. When I woke, that pain remained with me - a pain I could employ to occult purposes, if I hurry.",
+			drawmessages:{
+				influencewinterg:"As I traverse the sharp and biting path of the Ascent of Knives, I encounter a profound influence of Winter. Its bone-chilling stillness engulfs me. Like a silent, falling snow, it blankets all in a profound sense of peace and ending. The influence is a whispered eulogy, a solemn nod to the inevitable end and the beauty that lies within it.",
+				influenceedgee:"Of the place my dreams took me last night, this has been written: 'The ascent is glass. The walls are knives. Each step is blood.' I did not climb far. The pain was too great. When I woke, that pain remained with me - a pain I could employ to occult purposes, if I hurry.",
 	influencegrailc:"The Ascent of Knives is called the Sharp Stair, and the Mother of Mirrors, and the Feast of the Grail. If one is to look beneath the stair, as I did last night in my dreams, one understands that last name. It draws a tithe of blood from the feet of those who ascend. Empousai - some shaped like men, many shaped like women - wait beneath the glass of the stairs to satisfy their hunger. I did not approach; I made no sound; I only observed.",
 	influencewintere:"I visited the Ascent of Knives last night, that harshest of roads through the House. It has been sacred to the Meniscate and the Sun-in-Rags since the Intercalate, when the true Sun was divided. When I woke, my room was freezing. The chill of it had cracked the window-glass."},
 		
@@ -139,10 +145,13 @@ resetonexhaustion:true
 	},
 {id: "mansus_stagdoor2",
 	spec:
-		["fascination",
+		["influencesecretg",
+			"fascination",
 		"fragmentsecrethistoriesd",
 		"eruditionplus"],
-	drawmessages:{fascination:"I dreamt of the Mansus behind the White Door, of the great space above the Orchard, the space that overlooks the Bounds, the space where the Vagabond once painted her River. Painted ships passed upon the Painted River. I met the painted eyes of a painted captain. She saluted, and the motion was like the layered movement of clouds. The sail of the ship was amber and the captain's eyes the green of new barley and the river, aquamarine. Now that I'm awake, I see those colours still.",
+	drawmessages:{
+		influencesecretg:"Venturing along the swirling currents of the Painted River, I unearth a powerful influence of Secret Histories. The influence is like a hidden parchment, filled with encoded wisdom and ancient lore, waiting to be deciphered. It reminds me of the myriad stories concealed beneath the surface of our existence, of the veiled truths yet to be discovered.",
+		fascination:"I dreamt of the Mansus behind the White Door, of the great space above the Orchard, the space that overlooks the Bounds, the space where the Vagabond once painted her River. Painted ships passed upon the Painted River. I met the painted eyes of a painted captain. She saluted, and the motion was like the layered movement of clouds. The sail of the ship was amber and the captain's eyes the green of new barley and the river, aquamarine. Now that I'm awake, I see those colours still.",
 				fragmentsecrethistoriesd:"There is a great chamber in the Mansus through which a Painted River flows. The Vagabond, it is claimed, painted it from memory in the years before she left the House. Certainly there are histories concealed in its design. I traced them with my hand last night. There were fragments of aquamarine paint beneath my nails, flecks of gold leaf, when I was done.",
 				eruditionplus:"The Painted River runs from a great chamber near the White Door, far through the Mansus, to its far edge where it enters a painted delta of far cloud. I voyaged half its length last night with a stern-faced captain beneath a rust-red sail. As the clouds rose before us, the sailors raised a yearning shanty, and close-hauled the sails to best use the painted wind. And all the while the captain and I discoursed on the secrets of the House of the Sun...."},
 		
@@ -154,8 +163,12 @@ resetonexhaustion:true
 		["influencegraile",
 		"influencehearte",
 		"fragmentsecrethistoriesd",
-		"favour"],
-				drawmessages:{influencegraile:"The THIRST of the Spider's Door is second only to that of the Grail, or perhaps it's even the same thing. I passed it last night, but I penetrated no further into the Mansus. I spent an hour last night in a dream of its gullet, and this morning I am afire with avid appetites.",
+		"favour",
+		"influencemothg"
+	],
+				drawmessages:{
+					influencemothg:"While traversing the labyrinthine pathways of the Chamber of Ways, I uncover a fluttering influence of Moth. The influence is an enigma, a promise of secrets and dreams yet to unfold. It speaks to the transformative power of change and the enticing allure of the elusive, inviting me to step into the shadows and discover the unknown.",
+					influencegraile:"The THIRST of the Spider's Door is second only to that of the Grail, or perhaps it's even the same thing. I passed it last night, but I penetrated no further into the Mansus. I spent an hour last night in a dream of its gullet, and this morning I am afire with avid appetites.",
 				influencehearte:"Last night I roamed the clustered organs of the Spider's Door. I found a node of particular vitality - all that remains of someone brave, or someone betrayed. While the THIRST of the Spider's Door was yet quiet, I brought it home in a fold of my soul.",
 		fragmentsecrethistoriesd:"The War of the Roads extended into the Mansus. In the corridors behind the Spider's Door, the mason-witch who styled himself Hubris Glamore has chronicled its skirmishes, in miles of lines of obsessive, branching memorial-script in the Mansus' dream-stone. Last night I traced it, reading of the campaigns of the Children of the Leashed Flame, the valiant defence of the Knot Sisterhood, the alliance with the Vagabond, the furious quarrels of the Grail and the Forge...",
 		favour:"Last night behind the Spider's Door, I found an agent of order who had strayed into an unwise dream. The things that walk the Silken Sands, that greyness in which the Door is set, have an especial taste for policemen. He screamed until I freed him, but I did not free him until he had told me something useful..."},
@@ -195,11 +208,14 @@ resetonexhaustion:true
 	},
 							{id: "mansus_peacockdoor",
 	spec:
-		["scholarvak",
+		["influencegrailg",
+			"scholarvak",
 		"fragmentsecrethistoriese",
 		"influencelanterng",
 		"fascination"],
-				drawmessages:{scholarvak:"Last night I opened the Peacock Door, and afterwards it spoke to me. 'I am Vak,' it boasted, 'both the tongue and the Goddess. I am the only entrance into secret light. I was worshipped before you upright apes, and I will be still when all of you are ugly ash. Listen, and I will prove it.' I woke with my mouth full of words. ",
+				drawmessages:{
+					influencegrailg:"Amidst the mesmerizing colors of the Peacock Door region, I find an alluring influence of Grail. The influence saturates the air with desire, pulsating with a lust for life that's as refreshing as it's intoxicating. It speaks of physical experiences, of the beauty of the senses, of the pleasure derived from fully immersing oneself in life's diverse banquet.",
+					scholarvak:"Last night I opened the Peacock Door, and afterwards it spoke to me. 'I am Vak,' it boasted, 'both the tongue and the Goddess. I am the only entrance into secret light. I was worshipped before you upright apes, and I will be still when all of you are ugly ash. Listen, and I will prove it.' I woke with my mouth full of words. ",
 		fragmentsecrethistoriese:"Last night I opened the Peacock Door, and beyond it in the bright spaces of the House I met a pilgrim-adept. 'I am almost ready,' they said, 'to pass to the summit of the House, to prepare for the final ascent. Perhaps you'll join me. I will need allies, to fight for my place. Here is a story to help you rise.'",
 		influencelanterng:"Last night I satisfied the Peacock Door, and my action drew the attention of a certain Hour. In the golden spaces of the Mansus beyond I heard the Flowermaker's promise, and his promise is this: he cannot harm me, and he cannot find me, but if I will only come to him he will satisfy my desire as I satisfied the Peacock Door's. In earnest of this promise, my eyes have been opened, and this morning I see glory.",
 	fascination: "Beneath the gaze of the Peacock's Door, the world as I know it dissolves. Every detail, from the smallest grain to the grandest marvel, reveals a profound beauty, a symphony of interconnected magnificence. I stand at the threshold of the Red Church and the Worm Museum, as if poised on the edge of a dream. I witness the grandeur of existence from an overseer's vantage, and feel a rush of euphoria, a deep longing. The allure is overwhelming, resonating with an unnameable force that pulses through the Lambda Lambda Grail. I am left yearning for more, a potent fascination kindling within me.",
@@ -209,12 +225,15 @@ resetonexhaustion:true
 	},
 				{id: "mansus_peacockdoor1",
 	spec:
-	["influencegrailg",
+	["influenceedgeg",
+		"influencegrailg",
 	"ingredientgraild",
 	"fragmentsecrethistoriesf",
 	"favour",
 	"fascination"],
-			drawmessages:{influencegrailg:"When one dreams of the Red Church, one hears the voices of the Grail's Names, the Thirstlies and the Ivories and the Lovelies and the rest. 'Not all the empousai are women,' they might be heard to say. 'The hungers of women run no deeper than the hungers of men. But a mother is never far from her child at its birth, and that is not always true of a father. Come closer, and we will show you what we mean.'",
+			drawmessages:{
+				influentelanterng:"Inside the ethereal glow of the Red Church, I discover a bright influence of Lantern. The influence is a radiant beacon, piercing the murkiness of ignorance with its illuminating glow. It's a call to enlightenment, a beckoning towards understanding and wisdom, and a testament to the power of knowledge.",
+				influencegrailg:"When one dreams of the Red Church, one hears the voices of the Grail's Names, the Thirstlies and the Ivories and the Lovelies and the rest. 'Not all the empousai are women,' they might be heard to say. 'The hungers of women run no deeper than the hungers of men. But a mother is never far from her child at its birth, and that is not always true of a father. Come closer, and we will show you what we mean.'",
 	ingredientgraild:"When I visited the Red Church last night, they told me, between their clawings and their caresses, that the Flowermaker had visited but lately, with his Nectar and his promise. I woke twined in sodden sheets, with the Amaranthine Nectar brimming in my hand. I captured what I could of it - only a few drops, but it will be enough.",
 	fragmentsecrethistoriesf:"I saw the Red Church again last night, with its pews of bone, the stained glass in shades of ruby, the golden altar that beats like a heart. That night the Names of the Grail gathered to speak of those Long who've sworn off the pleasures of the bedchamber - save between man and man, or woman and woman. 'They still pay the tribute of delight,' an Ivory said. 'They do not bear fruit,' a Lovely said. 'If Forge and Sun had only joined -' a Thirstly lamented. Then they fell to gossiping of the Long of the House of Lethe, and their deeds in the desert. I remember it still.",
 	favour:"Each of the stained glass windows of the Red Church is devoted to a distinct appetite, and the scenes they show are from life. Last night, in one of the uglier windows, I saw the appetites a certain public figure satisfied in private. I know he won't want this information made public. Perhaps he'll show me some consideration.",
@@ -227,8 +246,11 @@ resetonexhaustion:true
 		["influencewinterg",
 		"fragmentsecrethistoriesf",
 		"dread",
+		"influenceedgeg"
 		],
-				drawmessages:{influencewinterg:"Last night I visited the Worm Museum, which is both within the Mansus (for security) and without (for safety). The Hours have charged the Colonel with its defence, and even the Lionsmith does not challenge him here. Winter is the chiefest aspect of this place. The Worms thrive where things end, but they can also be ended, and they must, if the Mansus is to endure. This morning, the chilly certainty of the Colonel's hand still lies on my shoulder.",
+				drawmessages:{
+					influenceedgeg:"Winding my way through the intricate mazes of the Worm Museum, I find a sharp influence of Edge. This influence is a honed blade, a symbol of overcoming and survival. It reminds me of the battles fought and victories won, of the spirit of resilience that enables us to face life's adversities head-on.",
+					influencewinterg:"Last night I visited the Worm Museum, which is both within the Mansus (for security) and without (for safety). The Hours have charged the Colonel with its defence, and even the Lionsmith does not challenge him here. Winter is the chiefest aspect of this place. The Worms thrive where things end, but they can also be ended, and they must, if the Mansus is to endure. This morning, the chilly certainty of the Colonel's hand still lies on my shoulder.",
 		fragmentsecrethistoriesf:"Size in the Mansus is negotiable, and so last night in the Worm Museum I saw one of the Worms who took Vienna, caged next to a Worm taken from the soul of a child. In dreams they are more visible than waking, smooth and dark as jewels. The walls bear stories of the First and Second Worm Wars. The Third is too recent to have passed into the Histories.",
 		dread:"I dreamt last night of the Worm Museum. The Hours have set wards about it and warnings before it, but they have left it open to mortal adepts who can prove themselves by reaching it. Perhaps they hope to inspire revulsion against the things that bred in the corpse of the Sun. Those things are here still, always dying, never dead. They came from Nowhere, the warnings say, and if they complete their work, the Mansus will be Nowhere, one day."},
 		
