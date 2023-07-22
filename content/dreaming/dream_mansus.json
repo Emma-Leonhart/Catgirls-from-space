@@ -816,20 +816,20 @@
         {
           "id": "dreamnotquitereachpeacocklantern",
           "chance": 100
-      },
-      {
+        },
+        {
           "id": "dreamreachpeacockgrail",
           "chance": 100
-    },
-    {
+        },
+        {
           "id": "dreamnotquitereachpeacockgrail",
           "chance": 100
-    },
-    {
+        },
+        {
           "id": "dreamreachpeacockedge",
           "chance": 100
-    },
-    {
+        },
+        {
           "id": "dreamnotquitereachpeacockedge",
           "chance": 100
     },
