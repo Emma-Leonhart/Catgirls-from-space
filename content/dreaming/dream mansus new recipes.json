@@ -2,19 +2,91 @@
     "recipes":[
         {
             "id": "dreamreachspiderforge",
-            "chance": 100
-      },
-      {
+            "label": "Approaching The Spider's Door with Forge's Power",
+            "actionid": "dream",
+            "requirements": {
+              "lore": 1,
+              "forge": 8
+            },
+            "startdescription": "In dreams, the Silken Sands shimmer with unbearable heat. I know the words that can channel this force, so the Sands will grant me passage - ",
+            "description": "The Sands glow and flow like molten glass, revealing beneath the ancient anvil of creation. Ahead, the Door pulses with an incandescent rhythm, the tempo of the smith's hammer.",
+            "alt": [
+              {
+                "id": "poison.long.way.trap",
+                "additional": true
+              }
+            ],
+            "effects": {
+              "wayspider": 1
+            }
+          },
+          {
             "id": "dreamnotquitereachspiderforge",
-            "chance": 100
-      },
-      {
+            "label": "The Glowing Sands: Not Enough!",
+            "actionid": "dream",
+            "requirements": {
+              "lore": 1,
+              "forge": 1
+            },
+            "startdescription": "In dreams, the Silken Sands glow with intense heat. I know the words that control this power - ",
+            "description": "The Sands burn and blister my feet. The heat drains my vitality... I must gain more knowledge to endure this trial. For now, I recede into safer dreams.",
+            "alt": [
+              {
+                "id": "poison.long.way.trap",
+                "additional": true
+              }
+            ],
+            "linked": [
+              {
+                "id": "dream_router",
+                "chance": 100
+              }
+            ],
+            "warmup": 10
+          },
+          {
             "id": "dreamreachspidermoth",
-            "chance": 100
-      },
-      {
+            "label": "Approaching The Spider's Door with Moth's Flight",
+            "actionid": "dream",
+            "requirements": {
+              "lore": 1,
+              "moth": 8
+            },
+            "startdescription": "In dreams, the Silken Sands shimmer with a restless dance. I know the words that mirror this fluttering, so the Sands will let me pass - ",
+            "description": "The Sands scatter to reveal the cocoon of transformation. Ahead, the Door trembles with soft vibrations, a song that can be felt, but not heard.",
+            "alt": [
+              {
+                "id": "poison.long.way.trap",
+                "additional": true
+              }
+            ],
+            "effects": {
+              "wayspider": 1
+            }
+          },
+          {
             "id": "dreamnotquitereachspidermoth",
-            "chance": 100
-      }
+            "label": "The Dancing Sands: Not Enough!",
+            "actionid": "dream",
+            "requirements": {
+              "lore": 1,
+              "moth": 1
+            },
+            "startdescription": "In dreams, the Silken Sands are the dance floor of whispers. I know the words that summon this dance - ",
+            "description": "The Sands shift and move under my feet, refusing to provide solid ground... I need more wisdom to join their dance. I retreat to other dreams for now.",
+            "alt": [
+              {
+                "id": "poison.long.way.trap",
+                "additional": true
+              }
+            ],
+            "linked": [
+              {
+                "id": "dream_router",
+                "chance": 100
+              }
+            ],
+            "warmup": 10
+          }
     ]
 }
