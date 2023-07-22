@@ -26,3 +26,7 @@ Implement capers from the beginning on all legacies
 Implement travel and relinquish from the beginning on all legacies
 
 Overhaul the exile legacy start
+* Should start more like an apostle legacy
+
+Make a decision on whether to ban dlc legacies in this mod
+* Exception obviously being exile
