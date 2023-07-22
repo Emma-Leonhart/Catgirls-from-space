@@ -425,7 +425,7 @@
     },
     {
       "id": "dreamusewhiteway",
-      "label": "The Way to the White Door",
+      "label": "The Way to the Enchanted Forest",
       "actionid": "dream",
       "requirements": {
         "waywhite": 1
@@ -437,12 +437,12 @@
           "description": "Invest Health to pass the White Door - or follow desire to the Stag Door, the door of the Know.",
           "required": {
             "desire": 1,
-            "health": 1
+            "ability": 1
           }
         }
       ],
-      "startdescription": "In my dreams, I know the path to the White Door, through the Bounds. But that path is thronged with the Dead who pass that way. I will need Health to resist their chill.",
-      "description": "The narrow path is crowded with slow shapes - the air shivers with their sighs. My blood is thicked with cold. I must turn back. Now I drift into other dreams.",
+      "startdescription": "In my dreams, I can hear the soft, inviting purr of the Enchanted Forest, beyond the Bounds. But the path is woven with playful illusions, and its joyous energy can be overwhelming. I will need Passion to dance through its whimsy.",
+      "description": "The path winds with enchanted allure, populated by spectral cats with gleaming eyes. Their silent purrs reverberate in my soul. The vibrant energy of this place thrums through me. But the relentless joy can be overpowering, and I must retreat. I find myself in other dreams.",
       "linked": [
         {
           "id": "dream_router",
@@ -475,14 +475,15 @@
     },
     {
       "id": "dreamenterwhite",
-      "label": "Entering the White Door",
+      "label": "Entering the Enchanted Forest",
       "actionid": "dream",
       "craftable": false,
       "requirements": {
         "waywhite": 1,
-        "ability": 1
+        "ability": 1,
+        "funds": -1
       },
-      "startdescription": "Now I can approach the White Door through the Bounds. Now I can press my fingers to it, feel its chill, watch it swing open. As it opens, my mouth closes, tightens, heals over like a lost deformity. Around and about me is the cobalt light of the Mansus...",
+      "startdescription": "Now I can approach the Enchanted Forest through the Bounds. Now I can set my hands upon the gentle bark of its entrance, feel its life, watch it bloom open. As it opens, my worries melt away, dissolved like fleeting shadows. Around and about me is the verdant light of the Mansus...",
       "description": ".",
       "portaleffect": "whitedoor",
       "alt": [

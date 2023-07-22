@@ -811,7 +811,7 @@
             "startdescription": "This will buy their loyalty, for now.",
             "effects": {
                 "funds": -1,
-                "connection.underworld": -1,
+                "connection_underworld": -1,
                 "year.stolen": -1,
                 "op.hireling": -1
             }
@@ -820,12 +820,12 @@
             "id": "explorepaycriminal.connection",
             "label": "A Hireling",
             "requirements": {
-                "connection.underworld": 1
+                "connection_underworld": 1
             },
             "actionid": "work",
             "startdescription": "This will buy their loyalty, for now.",
             "effects": {
-                "connection.underworld": -1,
+                "connection_underworld": -1,
                 "op.hireling": -1
             }
         },

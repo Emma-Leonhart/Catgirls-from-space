@@ -45,7 +45,7 @@
                     "id": "connection",
                     "label": "Connection",
                     "required": {
-                        "connection.underworld": 1
+                        "connection_underworld": 1
                     },
                     "consumes": true
                 }

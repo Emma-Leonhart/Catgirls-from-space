@@ -399,7 +399,7 @@
                     "description": "Spend a Connection: Radicals, Underworld, Official or Ruler. Otherwise, they'll destroy a random Asset.",
                     "required": {
                         "connection_ruler": 1,
-                        "connection.underworld": 1,
+                        "connection_underworld": 1,
                         "connection.radicals": 1,
                         "connection_official": 1,
                         "decade.stolen": 1
@@ -467,7 +467,7 @@
             ],
             "requirements": {
                 "connection_ruler": -1,
-                "connection.underworld": -1,
+                "connection_underworld": -1,
                 "connection.radicals": -1
             },
             "warmup": 10,
@@ -639,7 +639,7 @@
                     "description": "Spend a Connection: Radicals, Underworld, Official or Ruler. Otherwise, they'll destroy a random Asset.",
                     "required": {
                         "connection_ruler": 1,
-                        "connection.underworld": 1,
+                        "connection_underworld": 1,
                         "connection.radicals": 1,
                         "connection_official": 1,
                         "decade.stolen": 1
@@ -715,7 +715,7 @@
             ],
             "requirements": {
                 "connection_ruler": -1,
-                "connection.underworld": -1,
+                "connection_underworld": -1,
                 "connection.radicals": -1
             },
             "warmup": 10,

@@ -157,7 +157,7 @@
             "startdescription": "One at a time is enough.",
             "description": "The presses are almost ready.",
             "requirements": {
-                "connection.underworld": 1,
+                "connection_underworld": 1,
                 "forge": 6,
                 "space": 1
             },
@@ -174,7 +174,7 @@
             "startdescription": "One at a time is enough.",
             "description": "Everything is ready.",
             "requirements": {
-                "connection.underworld": 1,
+                "connection_underworld": 1,
                 "op.sea": 1,
                 "space": 1
             },
@@ -190,7 +190,7 @@
             "label": "Compete in Even More Illegal Fights?",
             "startdescription": "Seriously, though.",
             "requirements": {
-                "connection.underworld": 1,
+                "connection_underworld": 1,
                 "year.stolen": 1
             },
             "extantreqs": {
@@ -550,7 +550,7 @@
             "startdescription": "As long as I have the connections and the resources, I can... make money. [A reasonably safe way to generate funds. Forge aspect cards are often useful when running a Counterfeiting Operation.]",
             "description": "The presses are almost ready.",
             "requirements": {
-                "connection.underworld": 1,
+                "connection_underworld": 1,
                 "forge": 6,
                 "space": 1
             },
@@ -565,7 +565,7 @@
                     "expulsion": {
                         "limit": 4,
                         "filter": {
-                            "op.connection.underworld": 1,
+                            "op.connection_underworld": 1,
                             "space": 1,
                             "forge": 6
                         }
@@ -581,7 +581,7 @@
             "startdescription": "Everything's valuable somewhere. [A reasonably safe way to generate funds. Smuggling operations are generally Subtle, but pay well anyway. Moth aspect cards are often useful when running a  Smuggling Operation.]",
             "description": "Everything is ready.",
             "requirements": {
-                "connection.underworld": 1,
+                "connection_underworld": 1,
                 "op.sea": 1,
                 "space": 1
             },
@@ -599,7 +599,7 @@
                     "expulsion": {
                         "limit": 3,
                         "filter": {
-                            "op.connection.underworld": 1,
+                            "op.connection_underworld": 1,
                             "space": 1,
                             "op.sea": 1
                         }
@@ -614,7 +614,7 @@
             "label": "Compete in Illegal Fights",
             "startdescription": "Nasty. But as long as I keep some years on hand, I shouldn't suffer too much permanent damage. [Any failed challenges will result in a Wound, which you won't be able to heal until the Operation is complete. Edge aspect cards are often useful when competing in Illegal Fights.]",
             "requirements": {
-                "connection.underworld": 1,
+                "connection_underworld": 1,
                 "year.stolen": 1
             },
             "extantreqs": {
@@ -634,7 +634,7 @@
                     "expulsion": {
                         "limit": 3,
                         "filter": {
-                            "op.connection.underworld": 1,
+                            "op.connection_underworld": 1,
                             "space": 1
                         }
                     }
@@ -647,7 +647,7 @@
             "actionid": "work",
             "label": "Use Underworld Connections?",
             "requirements": {
-                "connection.underworld": 1
+                "connection_underworld": 1
             },
             "startdescription": "[Add Forge 6 and Space to begin a counterfeiting operation, a Seaport Opportunity and Space to begin a smuggling operation, or a Stolen Year to compete in illegal fights.]",
             "craftable": false,

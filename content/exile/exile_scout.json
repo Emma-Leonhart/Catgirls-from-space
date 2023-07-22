@@ -122,7 +122,7 @@
             "internaldeck": {
                 "spec": [
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.medical",
                     "op.office",
                     "op.warehouse",
@@ -165,7 +165,7 @@
                 "spec": [
                     "op.curio.lantern1",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.import",
                     "op.office",
                     "op.warehouse",
@@ -215,7 +215,7 @@
                 "spec": [
                     "op.curio.forge",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.import",
                     "op.office",
                     "op.warehouse",
@@ -263,7 +263,7 @@
             "internaldeck": {
                 "spec": [
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.import",
                     "op.office",
                     "op.warehouse",
@@ -310,7 +310,7 @@
                     "op.curio.grail",
                     "op.rarity.heart",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.medical",
                     "op.office",
                     "op.warehouse",
@@ -351,7 +351,7 @@
                 "spec": [
                     "op.curio.forge",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.medical",
                     "op.office",
                     "op.warehouse",
@@ -395,14 +395,14 @@
                 "spec": [
                     "op.curio.grail",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.medical",
                     "op.office",
                     "op.warehouse",
                     "op.townhouse",
                     "op.villa",
                     "op.medusa",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.night",
                     "op.dawn",
                     "op.weapon.a",
@@ -439,7 +439,7 @@
                 "spec": [
                     "op.curio.heart",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.import",
                     "op.office",
                     "op.warehouse",
@@ -487,7 +487,7 @@
                     "op.weapon.b",
                     "op.rarity.winter",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.medical",
                     "op.office",
                     "op.warehouse",
@@ -531,7 +531,7 @@
                 "spec": [
                     "op.curio.heart",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.medical",
                     "op.office",
                     "op.warehouse",
@@ -578,7 +578,7 @@
                 "spec": [
                     "op.curio.lantern1",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.import",
                     "op.office",
                     "op.warehouse",
@@ -627,7 +627,7 @@
                 "spec": [
                     "op.curio.forge",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.medical",
                     "op.office",
                     "op.warehouse",
@@ -674,7 +674,7 @@
                 "spec": [
                     "op.curio.knock",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.connection.radicals",
                     "op.licence.medical",
                     "op.office",
@@ -719,7 +719,7 @@
                 "spec": [
                     "op.curio.lantern2",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.medical",
                     "op.office",
                     "op.warehouse",
@@ -762,7 +762,7 @@
             "internaldeck": {
                 "spec": [
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.weapon.b",
                     "op.licence.medical",
                     "op.office",
@@ -806,7 +806,7 @@
                 "spec": [
                     "op.curio.lantern2",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.import",
                     "op.office",
                     "op.warehouse",
@@ -849,7 +849,7 @@
                 "spec": [
                     "op.curio.lantern3",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.medical",
                     "op.office",
                     "op.warehouse",
@@ -898,7 +898,7 @@
                 "spec": [
                     "op.curio.forge",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.medical",
                     "op.office",
                     "op.warehouse",
@@ -945,7 +945,7 @@
             "internaldeck": {
                 "spec": [
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.connection.radicals",
                     "op.licence.medical",
                     "op.office",
@@ -989,7 +989,7 @@
                 "spec": [
                     "op.curio.forge",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.connection.radicals",
                     "op.licence.medical",
                     "op.office",
@@ -1031,7 +1031,7 @@
             "internaldeck": {
                 "spec": [
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.weapon.b",
                     "op.rarity.grail",
                     "op.licence.medical",
@@ -1077,7 +1077,7 @@
                 "spec": [
                     "op.curio.knock",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.medical",
                     "op.office",
                     "op.warehouse",
@@ -1120,7 +1120,7 @@
             "internaldeck": {
                 "spec": [
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.weapon.b",
                     "op.rarity.moth",
                     "op.licence.import",
@@ -1167,7 +1167,7 @@
                 "spec": [
                     "op.curio.lantern1",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.connection.radicals",
                     "op.licence.medical",
                     "op.office",
@@ -1212,7 +1212,7 @@
                 "spec": [
                     "op.curio.moth",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.medical",
                     "op.office",
                     "op.warehouse",
@@ -1255,7 +1255,7 @@
             "internaldeck": {
                 "spec": [
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.weapon.b",
                     "op.rarity.knock",
                     "op.licence.medical",
@@ -1299,7 +1299,7 @@
                 "spec": [
                     "op.curio.heart",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.medical",
                     "op.office",
                     "op.warehouse",
@@ -1341,7 +1341,7 @@
                 "spec": [
                     "op.curio.lantern2",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.connection.radicals",
                     "op.licence.medical",
                     "op.office",
@@ -1383,7 +1383,7 @@
             "internaldeck": {
                 "spec": [
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.medical",
                     "op.office",
                     "op.warehouse",
@@ -1427,7 +1427,7 @@
                 "spec": [
                     "op.curio.lantern3",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.import",
                     "op.office",
                     "op.warehouse",
@@ -1474,7 +1474,7 @@
                 "spec": [
                     "op.curio.forge",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.import",
                     "op.office",
                     "op.warehouse",
@@ -1518,7 +1518,7 @@
                 "spec": [
                     "op.curio.knock",
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.licence.medical",
                     "op.office",
                     "op.warehouse",
@@ -1562,7 +1562,7 @@
             "internaldeck": {
                 "spec": [
                     "op.connection_official",
-                    "op.connection.underworld",
+                    "op.connection_underworld",
                     "op.weapon.b",
                     "op.rarity.forge",
                     "op.licence.medical",

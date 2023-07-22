@@ -4689,7 +4689,8 @@
             "lifetime": 300
         },
         {
-            "id": "op.connection.underworld",
+            "id": "op.connection_underworld",
+            "icon": "op.connection.underworld",
             "label": "Opportunity: an Underworld Connection?",
             "aspects": {
                 "op": 1,
@@ -4697,8 +4698,8 @@
             },
             "description": "I've been around, and when you get around, you get to know a certain kind of professional. That's just how it is.",
             "xtriggers": {
-                "purchase": "connection.underworld",
-                "renewal.exile": "op.connection.underworld"
+                "purchase": "connection_underworld",
+                "renewal.exile": "op.connection_underworld"
             },
             "slots": [
                 {
@@ -5119,7 +5120,7 @@
             ],
             "xtriggers": {
                 "fatiguing": "op.connection_official",
-                "provoking": "connection.underworld"
+                "provoking": "connection_underworld"
             }
         },
         {
@@ -5233,7 +5234,8 @@
             }
         },
         {
-            "id": "connection.underworld",
+            "id": "connection_underworld",
+            "icon": "connection.underworld",
             "label": "Connection: Underworld",
             "aspects": {
                 "connection": 1,
@@ -5265,7 +5267,7 @@
             ],
             "description": "A mutually beneficial arrangement with relevant professionals.",
             "xtriggers": {
-                "fatiguing": "op.connection.underworld",
+                "fatiguing": "op.connection_underworld",
                 "provoking": "connection_official"
             }
         },
@@ -7624,7 +7626,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection.underworld",
+                        "id": "connection_underworld",
                         "morpheffect": "spawn"
                     },
                     {
@@ -7757,7 +7759,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection.underworld",
+                        "id": "connection_underworld",
                         "morpheffect": "spawn"
                     },
                     {
@@ -7832,7 +7834,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection.underworld",
+                        "id": "connection_underworld",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8027,7 +8029,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection.underworld",
+                        "id": "connection_underworld",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8060,7 +8062,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection.underworld",
+                        "id": "connection_underworld",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8214,7 +8216,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection.underworld",
+                        "id": "connection_underworld",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8246,7 +8248,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection.underworld",
+                        "id": "connection_underworld",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8278,7 +8280,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection.underworld",
+                        "id": "connection_underworld",
                         "morpheffect": "spawn"
                     },
                     {
