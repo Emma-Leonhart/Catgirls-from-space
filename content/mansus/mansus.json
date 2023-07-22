@@ -168,44 +168,48 @@ resetonexhaustion:true
 			"year.stolen":"Drifting along the Painted River, I encounter a strange anomaly. A year seems to have immersed itself into the river's vibrant strokes, becoming a part of its radiant tableau. It's a year filled with veiled revelations and half-whispered secrets, a year that has strayed from the linearity of time and found refuge in the swirling currents of the Painted River."},
 		"resetonexhaustion":true
 	},
-	
-	{id: "mansus_peacockdoor1",
-spec:
-["influenceedgeg",
-"influenceedgeg",
-"influencegrailg",
-"ingredientgraild",
-"fragmentsecrethistoriesf",
-"favour",
-"fascination"],
-drawmessages:{
-	influentelanterng:"Inside the ethereal glow of the Red Church, I discover a bright influence of Lantern. The influence is a radiant beacon, piercing the murkiness of ignorance with its illuminating glow. It's a call to enlightenment, a beckoning towards understanding and wisdom, and a testament to the power of knowledge.",
-	influencegrailg:"When one dreams of the Red Church, one hears the voices of the Grail's Names, the Thirstlies and the Ivories and the Lovelies and the rest. 'Not all the empousai are women,' they might be heard to say. 'The hungers of women run no deeper than the hungers of men. But a mother is never far from her child at its birth, and that is not always true of a father. Come closer, and we will show you what we mean.'",
-ingredientgraild:"When I visited the Red Church last night, they told me, between their clawings and their caresses, that the Flowermaker had visited but lately, with his Nectar and his promise. I woke twined in sodden sheets, with the Amaranthine Nectar brimming in my hand. I captured what I could of it - only a few drops, but it will be enough.",
-fragmentsecrethistoriesf:"I saw the Red Church again last night, with its pews of bone, the stained glass in shades of ruby, the golden altar that beats like a heart. That night the Names of the Grail gathered to speak of those Long who've sworn off the pleasures of the bedchamber - save between man and man, or woman and woman. 'They still pay the tribute of delight,' an Ivory said. 'They do not bear fruit,' a Lovely said. 'If Forge and Sun had only joined -' a Thirstly lamented. Then they fell to gossiping of the Long of the House of Lethe, and their deeds in the desert. I remember it still.",
-favour:"Each of the stained glass windows of the Red Church is devoted to a distinct appetite, and the scenes they show are from life. Last night, in one of the uglier windows, I saw the appetites a certain public figure satisfied in private. I know he won't want this information made public. Perhaps he'll show me some consideration.",
-fascination:"Last night I visited the Red Church, where the Grail conducts its feasts. The light through the stained glass windows was all the spectra of red and the Names of the Grail laboured to birth a new desire which had until today no name at all. I am sticky with the memory of it, and this morning everything I see is tinted ruby."},
-
-resetonexhaustion:true
-},
-							{id: "mansus_peacockdoor",
-	spec:
-		["influencegrailg",
-		"influencegrailg",
+	{
+		"id": "mansus_peacockdoor1",
+		"spec":
+			["influenceedgeg",
+			"influenceedgeg",
+			"influencegrailg",
+			"ingredientgraild",
+			"fragmentsecrethistoriesf",
+			"favour",
+			"fascination",
+			"year.stolen"],
+		"drawmessages":{
+			"influentelanterng":"Inside the ethereal glow of the Red Church, I discover a bright influence of Lantern. The influence is a radiant beacon, piercing the murkiness of ignorance with its illuminating glow. It's a call to enlightenment, a beckoning towards understanding and wisdom, and a testament to the power of knowledge.",
+			"influencegrailg":"When one dreams of the Red Church, one hears the voices of the Grail's Names, the Thirstlies and the Ivories and the Lovelies and the rest. 'Not all the empousai are women,' they might be heard to say. 'The hungers of women run no deeper than the hungers of men. But a mother is never far from her child at its birth, and that is not always true of a father. Come closer, and we will show you what we mean.'",
+			"ingredientgraild":"When I visited the Red Church last night, they told me, between their clawings and their caresses, that the Flowermaker had visited but lately, with his Nectar and his promise. I woke twined in sodden sheets, with the Amaranthine Nectar brimming in my hand. I captured what I could of it - only a few drops, but it will be enough.",
+			"fragmentsecrethistoriesf":"I saw the Red Church again last night, with its pews of bone, the stained glass in shades of ruby, the golden altar that beats like a heart. That night the Names of the Grail gathered to speak of those Long who've sworn off the pleasures of the bedchamber - save between man and man, or woman and woman. 'They still pay the tribute of delight,' an Ivory said. 'They do not bear fruit,' a Lovely said. 'If Forge and Sun had only joined -' a Thirstly lamented. Then they fell to gossiping of the Long of the House of Lethe, and their deeds in the desert. I remember it still.",
+			"favour":"Each of the stained glass windows of the Red Church is devoted to a distinct appetite, and the scenes they show are from life. Last night, in one of the uglier windows, I saw the appetites a certain public figure satisfied in private. I know he won't want this information made public. Perhaps he'll show me some consideration.",
+			"fascination":"Last night I visited the Red Church, where the Grail conducts its feasts. The light through the stained glass windows was all the spectra of red and the Names of the Grail laboured to birth a new desire which had until today no name at all. I am sticky with the memory of it, and this morning everything I see is tinted ruby.",
+			"year.stolen":"Within the vivid red confines of the Red Church, I feel a sudden shift in the rhythm of time. An entire year has insinuated itself into the crimson shades of this place. A year laden with insatiable appetites, desires taking shape, and the ecstatic pursuit of fulfilment. It's a year that has slipped from the calendar's grid, preferring to dwell amidst the Grail's indulgent feasts."},
+		"resetonexhaustion":true
+	},
+	{
+		"id": "mansus_peacockdoor",
+		"spec":
+			["influencegrailg",
+			"influencegrailg",
 			"scholarvak",
-		"fragmentsecrethistoriese",
-		"influencelanterng",
-		"fascination"],
-				drawmessages:{
-					influencegrailg:"Amidst the mesmerizing colors of the Peacock Door region, I find an alluring influence of Grail. The influence saturates the air with desire, pulsating with a lust for life that's as refreshing as it's intoxicating. It speaks of physical experiences, of the beauty of the senses, of the pleasure derived from fully immersing oneself in life's diverse banquet.",
-					scholarvak:"Last night I opened the Peacock Door, and afterwards it spoke to me. 'I am Vak,' it boasted, 'both the tongue and the Goddess. I am the only entrance into secret light. I was worshipped before you upright apes, and I will be still when all of you are ugly ash. Listen, and I will prove it.' I woke with my mouth full of words. ",
-		fragmentsecrethistoriese:"Last night I opened the Peacock Door, and beyond it in the bright spaces of the House I met a pilgrim-adept. 'I am almost ready,' they said, 'to pass to the summit of the House, to prepare for the final ascent. Perhaps you'll join me. I will need allies, to fight for my place. Here is a story to help you rise.'",
-		influencelanterng:"Last night I satisfied the Peacock Door, and my action drew the attention of a certain Hour. In the golden spaces of the Mansus beyond I heard the Flowermaker's promise, and his promise is this: he cannot harm me, and he cannot find me, but if I will only come to him he will satisfy my desire as I satisfied the Peacock Door's. In earnest of this promise, my eyes have been opened, and this morning I see glory.",
-	fascination: "Beneath the gaze of the Peacock's Door, the world as I know it dissolves. Every detail, from the smallest grain to the grandest marvel, reveals a profound beauty, a symphony of interconnected magnificence. I stand at the threshold of the Red Church and the Worm Museum, as if poised on the edge of a dream. I witness the grandeur of existence from an overseer's vantage, and feel a rush of euphoria, a deep longing. The allure is overwhelming, resonating with an unnameable force that pulses through the Lambda Lambda Grail. I am left yearning for more, a potent fascination kindling within me.",
+			"fragmentsecrethistoriese",
+			"influencelanterng",
+			"fascination",
+			"year.stolen"],
+		"drawmessages":{
+			"influencegrailg":"Amidst the mesmerizing colors of the Peacock Door region, I find an alluring influence of Grail. The influence saturates the air with desire, pulsating with a lust for life that's as refreshing as it's intoxicating. It speaks of physical experiences, of the beauty of the senses, of the pleasure derived from fully immersing oneself in life's diverse banquet.",
+			"scholarvak":"Last night I opened the Peacock Door, and afterwards it spoke to me. 'I am Vak,' it boasted, 'both the tongue and the Goddess. I am the only entrance into secret light. I was worshipped before you upright apes, and I will be still when all of you are ugly ash. Listen, and I will prove it.' I woke with my mouth full of words.",
+			"fragmentsecrethistoriese":"Last night I opened the Peacock Door, and beyond it in the bright spaces of the House I met a pilgrim-adept. 'I am almost ready,' they said, 'to pass to the summit of the House, to prepare for the final ascent. Perhaps you'll join me. I will need allies, to fight for my place. Here is a story to help you rise.'",
+			"influencelanterng":"Last night I satisfied the Peacock Door, and my action drew the attention of a certain Hour. In the golden spaces of the Mansus beyond I heard the Flowermaker's promise, and his promise is this: he cannot harm me, and he cannot find me, but if I will only come to him he will satisfy my desire as I satisfied the Peacock Door's. In earnest of this promise, my eyes have been opened, and this morning I see glory.",
+			"fascination": "Beneath the gaze of the Peacock's Door, the world as I know it dissolves. Every detail, from the smallest grain to the grandest marvel, reveals a profound beauty, a symphony of interconnected magnificence. I stand at the threshold of the Red Church and the Worm Museum, as if poised on the edge of a dream. I witness the grandeur of existence from an overseer's vantage, and feel a rush of euphoria, a deep longing. The allure is overwhelming, resonating with an unnameable force that pulses through the Lambda Lambda Grail. I am left yearning for more, a potent fascination kindling within me.",
+			"year.stolen":"Within the vibrant colors of the Peacock Door, a stolen year unveils itself. It's a year of passionate desires and enlightened knowledge, of unquenchable thirst for understanding and the radiant power of illumination. This year, dislodged from the confines of conventional time, chooses instead to bask in the allure of the Grail and the enlightening beacon of the Lantern."},
+		"resetonexhaustion":true,
+		"comment": "This entry corresponds to the Peacock Door region in the Mansus. The aspects associated with this region are Lambda (Grail) and Lambda (Lantern)."
 	},
-		
-resetonexhaustion:true
-	},
+	
 {id: "mansus_peacockdoor2",
 	spec:
 		["influencewinterg",
