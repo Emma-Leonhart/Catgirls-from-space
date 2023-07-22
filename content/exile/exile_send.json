@@ -555,7 +555,7 @@
             },
             "effects": {
                 "connection_official": 1,
-                "connection.holy": 1,
+                "connection_holy": 1,
                 "connection_radicals": 1,
                 "ligeian": -1
             }

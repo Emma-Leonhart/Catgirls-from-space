@@ -4639,7 +4639,8 @@
             "lifetime": 300
         },
         {
-            "id": "op.connection.holy",
+            "id": "op.connection_holy",
+            "icon": "op.connection.holy",
             "label": "Opportunity: a Connection with a Holy Man?",
             "aspects": {
                 "op": 1,
@@ -4647,8 +4648,8 @@
             },
             "description": "Charity brings clarity.",
             "xtriggers": {
-                "purchase": "connection.holy",
-                "renewal.exile": "op.connection.holy"
+                "purchase": "connection_holy",
+                "renewal.exile": "op.connection_holy"
             },
             "slots": [
                 {
@@ -5153,7 +5154,8 @@
             }
         },
         {
-            "id": "connection.holy",
+            "id": "connection_holy",
+            "icon": "connection.holy",
             "label": "Connection: Holy Man",
             "aspects": {
                 "connection": 1,
@@ -5182,7 +5184,7 @@
             ],
             "description": "A mutually beneficial arrangement with a learned holy man.",
             "xtriggers": {
-                "fatiguing": "op.connection.holy",
+                "fatiguing": "op.connection_holy",
                 "provoking": "connection_radicals"
             }
         },
@@ -8097,7 +8099,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection.holy",
+                        "id": "connection_holy",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8358,7 +8360,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection.holy",
+                        "id": "connection_holy",
                         "morpheffect": "spawn"
                     },
                     {

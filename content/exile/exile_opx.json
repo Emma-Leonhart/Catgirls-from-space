@@ -52,7 +52,7 @@
             "label": "Run another Faith-Healing Cult?",
             "startdescription": "One at a time is enough.",
             "requirements": {
-                "connection.holy": 1,
+                "connection_holy": 1,
                 "space": 1,
                 "year.stolen": 1
             },
@@ -343,7 +343,7 @@
             "startdescription": "I can bring genuine healing miracles to a congregation. [A reasonably safe way to convert stolen lifespan into funds. Moth aspect cards are often useful when running a Cult.]",
             "description": "The congregation is assembling.",
             "requirements": {
-                "connection.holy": 1,
+                "connection_holy": 1,
                 "space": 1,
                 "year.stolen": 1
             },
@@ -365,7 +365,7 @@
                         "limit": 4,
                         "filter": {
                             "space": 1,
-                            "op.connection.holy": 1
+                            "op.connection_holy": 1
                         }
                     }
                 }

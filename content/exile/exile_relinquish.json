@@ -465,7 +465,7 @@
             "id": "relinquish.provoke",
             "actionid": "relinquish",
             "label": "Provoke my Connections",
-            "startdescription": "I'm not the only one with enemies. If I arrange a public rift with this contact, I might gain @#connection_official|Underworld Connections\n#connection.holy|Radical Connections\n#connection_radicals|Official Connections\n#connection_ruler|Radical Connections\n#connection_underworld|Official Connections@ instead. Or I might just annoy my current contacts. [This will usually work, but sometimes fail and leave you with no Connections and a Trace.]",
+            "startdescription": "I'm not the only one with enemies. If I arrange a public rift with this contact, I might gain @#connection_official|Underworld Connections\n#connection_holy|Radical Connections\n#connection_radicals|Official Connections\n#connection_ruler|Radical Connections\n#connection_underworld|Official Connections@ instead. Or I might just annoy my current contacts. [This will usually work, but sometimes fail and leave you with no Connections and a Trace.]",
             "requirements": {
                 "connection": 1,
                 "trace": -1
