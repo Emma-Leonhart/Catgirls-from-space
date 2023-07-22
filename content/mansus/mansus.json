@@ -228,25 +228,30 @@ resetonexhaustion:true
 		"resetonexhaustion":true,
 		"comment": "This entry corresponds to the Worm Museum region in the Mansus. The aspects associated with this region are Sigma (Winter) and Theta (Edge)."
 	},
-	
-	{id: "mansus_spiderdoor2",
-		spec:
+	{
+		"id": "mansus_spiderdoor2",
+		"spec":
 			["influenceknockg",
 			"influenceknockg",
-		"influencelanterne",
-		"influencewintere",
-		"influencemothe",
-		"fragmentsecrethistoriesc",
-		"fascination"],
-					drawmessages:{influenceknockg:"Last night I came to the Concursum, the crossroads of the Mansus, which has been called the Chamber of Ways. From here the Hours may pass to any place in the Mansus. Here the Horned-Axe spoke to me in her voice that is older than any living thing, and she said: there is a Door that will open for a little while. This is its time, and here is another division.",
-		influencelanterne:"Last night I came to the Concursum, the core of the Mansus, which has been called the Chamber of Revelations, whose mirrors are endless and whose paths all-encompassing. From here the Hours can see all that transpires in the Mansus. I saw the Watchman's light in the blue distance of the place, like a sun beneath the sea.",
-		influencemothe:"Last night I came to the Concursum, the Mansus-heart, which has been called the Chamber of Choices, where every path one does not take is a stillborn future. In the sea-sky blue of the Chamber's Light I saw the Sister-and-Witch pass, their four hands weaving two paths to one. I woke with my passions contorted to a knot. There's something I must do; there's always something I must do.",
-		influencewintere:"Last night I came to the Concursum, the place at which all the Mansus corridors end, which has been called the Chamber of Conclusions. Here the Hours meet in striving or execution or resignation. In the evening sapphire of the Chamber's light I saw the Sun-in-Rags pass with his shattered crown and his silent retinue, and this morning I woke shivering.",
-		fragmentsecrethistoriesc:"Last night I came to the Concursum, the Mansus-meridian, which has been called the Chamber of Histories. I spoke there with an adept long dead. She told me of her flight through the House, these dozen decades and more, of the ways in which the dead survive outside the Hours and recall the unsanctioned histories, and this morning I recall the ending of one of her stories.",
-		fascination:"Last night I came to the Concursum, the space at the centre of the Mansus, which has been called the Chamber of Mirrors. From here the Hours may pass to any place in the Mansus. I saw the Meniscate rise in the cobalt glory of the Chamber's light, dancer-lithe, moon-bright, and she reflected my face in her own and this morning that is all I can see."},
-			
-	resetonexhaustion:true
+			"influencelanterne",
+			"influencewintere",
+			"influencemothe",
+			"fragmentsecrethistoriesc",
+			"fascination",
+			"year.stolen"],
+		"drawmessages":{
+			"influenceknockg":"Last night I came to the Concursum, the crossroads of the Mansus, which has been called the Chamber of Ways. From here the Hours may pass to any place in the Mansus. Here the Horned-Axe spoke to me in her voice that is older than any living thing, and she said: there is a Door that will open for a little while. This is its time, and here is another division.",
+			"influencelanterne":"Last night I came to the Concursum, the core of the Mansus, which has been called the Chamber of Revelations, whose mirrors are endless and whose paths all-encompassing. From here the Hours can see all that transpires in the Mansus. I saw the Watchman's light in the blue distance of the place, like a sun beneath the sea.",
+			"influencemothe":"Last night I came to the Concursum, the Mansus-heart, which has been called the Chamber of Choices, where every path one does not take is a stillborn future. In the sea-sky blue of the Chamber's Light I saw the Sister-and-Witch pass, their four hands weaving two paths to one. I woke with my passions contorted to a knot. There's something I must do; there's always something I must do.",
+			"influencewintere":"Last night I came to the Concursum, the place at which all the Mansus corridors end, which has been called the Chamber of Conclusions. Here the Hours meet in striving or execution or resignation. In the evening sapphire of the Chamber's light I saw the Sun-in-Rags pass with his shattered crown and his silent retinue, and this morning I woke shivering.",
+			"fragmentsecrethistoriesc":"Last night I came to the Concursum, the Mansus-meridian, which has been called the Chamber of Histories. I spoke there with an adept long dead. She told me of her flight through the House, these dozen decades and more, of the ways in which the dead survive outside the Hours and recall the unsanctioned histories, and this morning I recall the ending of one of her stories.",
+			"fascination":"Last night I came to the Concursum, the space at the centre of the Mansus, which has been called the Chamber of Mirrors. From here the Hours may pass to any place in the Mansus. I saw the Meniscate rise in the cobalt glory of the Chamber's light, dancer-lithe, moon-bright, and she reflected my face in her own and this morning that is all I can see.",
+			"year.stolen":"In the manifold paths of the Concursum, a stolen year takes form. It is a year of choices unchosen and pathways untread, a year of reflections distorted in the mirrors of time. The year speaks of Winter's cold stillness, the moth's unerring change, and the lantern's piercing revelation. As I recall this year, I am reminded of the knock at the door, a promise of changes to come."
 		},
+		"resetonexhaustion":true,
+		"comment": "This entry corresponds to the Concursum region in the Mansus. The aspects associated with this region are Delta (Knock), Pi (Lantern), and Omicron (Moth)."
+	},
+	
 				{id: "mansus_spiderdoor1",
 	spec:
 	["influenceforgeg",
