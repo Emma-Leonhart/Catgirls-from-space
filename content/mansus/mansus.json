@@ -118,6 +118,7 @@ resetonexhaustion:true
 				{id: "mansus_stagdoor",
 	spec:
 		["influenceheartg",
+		"influenceheartg",
 			"influenceknocke",
 		"fragmentsecrethistoriesc",
 		"influenceforgec"],
@@ -131,7 +132,8 @@ resetonexhaustion:true
 	},
 				{id: "mansus_stagdoor1",
 	spec:
-	["influenceedgee",
+	["influencewinterg",
+		"influenceedgee",
 	"influencewinterg",
 	"influencegrailc",
 	"influencewintere"],
@@ -146,6 +148,7 @@ resetonexhaustion:true
 {id: "mansus_stagdoor2",
 	spec:
 		["influencesecretg",
+		"influencesecretg",
 			"fascination",
 		"fragmentsecrethistoriesd",
 		"eruditionplus"],
@@ -161,6 +164,7 @@ resetonexhaustion:true
 					{id: "mansus_spiderdoor",
 	spec:
 		["influencegraile",
+		"influencegraile",
 		"influencehearte",
 		"fragmentsecrethistoriesd",
 		"favour",
@@ -178,6 +182,7 @@ resetonexhaustion:true
 				{id: "mansus_spiderdoor1",
 	spec:
 	["influenceforgeg",
+	"influenceforgeg",
 		"fragmentsecrethistoriese",
 		"ingredientforgef",
 		"influencelanterne"],
@@ -192,6 +197,7 @@ resetonexhaustion:true
 {id: "mansus_spiderdoor2",
 	spec:
 		["influenceknockg",
+		"influenceknockg",
 	"influencelanterne",
 	"influencewintere",
 	"influencemothe",
@@ -209,6 +215,7 @@ resetonexhaustion:true
 							{id: "mansus_peacockdoor",
 	spec:
 		["influencegrailg",
+		"influencegrailg",
 			"scholarvak",
 		"fragmentsecrethistoriese",
 		"influencelanterng",
@@ -226,6 +233,7 @@ resetonexhaustion:true
 				{id: "mansus_peacockdoor1",
 	spec:
 	["influenceedgeg",
+	"influenceedgeg",
 		"influencegrailg",
 	"ingredientgraild",
 	"fragmentsecrethistoriesf",
@@ -244,6 +252,7 @@ resetonexhaustion:true
 {id: "mansus_peacockdoor2",
 	spec:
 		["influencewinterg",
+		"influencewinterg",
 		"fragmentsecrethistoriesf",
 		"dread",
 		"influenceedgeg"
