@@ -4551,8 +4551,8 @@
                     "id": "connection",
                     "label": "Connection",
                     "required": {
-                        "connection.official": 1,
-                        "connection.ruler": 1
+                        "connection_official": 1,
+                        "connection_ruler": 1
                     },
                     "consumes": true
                 }
@@ -4577,8 +4577,8 @@
                     "id": "connection",
                     "label": "Connection",
                     "required": {
-                        "connection.official": 1,
-                        "connection.ruler": 1
+                        "connection_official": 1,
+                        "connection_ruler": 1
                     },
                     "consumes": true
                 }
@@ -4586,7 +4586,9 @@
             "lifetime": 300
         },
         {
-            "id": "op.connection.official",
+            "id": "op.connection_official",
+            "icon": "op.connection.official",
+            "comments": "was connection.official but mansus breaks when you have a dot in names",
             "label": "Opportunity: An Official Connection?",
             "aspects": {
                 "op": 1,
@@ -4594,8 +4596,8 @@
             },
             "description": "I could always use more friends.",
             "xtriggers": {
-                "purchase": "connection.official",
-                "renewal.exile": "op.connection.official"
+                "purchase": "connection_official",
+                "renewal.exile": "op.connection_official"
             },
             "slots": [
                 {
@@ -4611,7 +4613,8 @@
             "lifetime": 300
         },
         {
-            "id": "op.connection.ruler",
+            "id": "op.connection_ruler",
+            "icon": "op.connection.ruler",
             "label": "Opportunity: a Connection with a Ruler?",
             "aspects": {
                 "op": 1,
@@ -4619,8 +4622,8 @@
             },
             "description": "A chance to get acquainted with someone of real importance.",
             "xtriggers": {
-                "purchase": "connection.ruler",
-                "renewal.exile": "op.connection.ruler"
+                "purchase": "connection_ruler",
+                "renewal.exile": "op.connection_ruler"
             },
             "slots": [
                 {
@@ -5092,7 +5095,9 @@
             ]
         },
         {
-            "id": "connection.official",
+            "id": "connection_official",
+            "icon": "connection.official",
+            "comments": "was connection.official, but mansus breaks if you have it that way so switching spelling",
             "label": "Official Connection",
             "aspects": {
                 "connection": 1,
@@ -5113,12 +5118,13 @@
                 }
             ],
             "xtriggers": {
-                "fatiguing": "op.connection.official",
+                "fatiguing": "op.connection_official",
                 "provoking": "connection.underworld"
             }
         },
         {
-            "id": "connection.ruler",
+            "id": "connection_ruler",
+            "icon": "connection.ruler",
             "label": "Connection: Ruler",
             "aspects": {
                 "connection": 1,
@@ -5140,7 +5146,7 @@
             ],
             "description": "A mutually beneficial arrangement with someone of real power.",
             "xtriggers": {
-                "fatiguing": "op.connection.ruler",
+                "fatiguing": "op.connection_ruler",
                 "provoking": "connection.radicals"
             }
         },
@@ -5223,7 +5229,7 @@
             "description": "A mutually beneficial arrangement with revolutionaries or other enthusiasts.",
             "xtriggers": {
                 "fatiguing": "op.connection.radicals",
-                "provoking": "connection.official"
+                "provoking": "connection_official"
             }
         },
         {
@@ -5260,7 +5266,7 @@
             "description": "A mutually beneficial arrangement with relevant professionals.",
             "xtriggers": {
                 "fatiguing": "op.connection.underworld",
-                "provoking": "connection.official"
+                "provoking": "connection_official"
             }
         },
         {
@@ -7650,7 +7656,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection.official",
+                        "id": "connection_official",
                         "morpheffect": "spawn"
                     },
                     {
@@ -7715,7 +7721,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection.official",
+                        "id": "connection_official",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8467,7 +8473,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "op.connection.official",
+                        "id": "op.connection_official",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8532,7 +8538,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "op.connection.ruler",
+                        "id": "op.connection_ruler",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8604,7 +8610,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "op.connection.ruler",
+                        "id": "op.connection_ruler",
                         "morpheffect": "spawn"
                     },
                     {

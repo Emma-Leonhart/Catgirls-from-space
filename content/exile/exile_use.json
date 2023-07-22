@@ -857,10 +857,10 @@
                 "purchase": 1
             },
             "extantreqs": {
-                "connection.ruler": 1
+                "connection_ruler": 1
             },
             "purge": {
-                "connection.ruler": 1
+                "connection_ruler": 1
             },
             "warmup": 10,
             "craftable": true
@@ -872,7 +872,7 @@
             "startdescription": "Here's someone who will only accept payment in the currency of the Cindered Tally. But I have radical friends who won't like it. [This will sabotage your Radicals connection.]",
             "description": "And done.",
             "requirements": {
-                "op.connection.ruler": 1,
+                "op.connection_ruler": 1,
                 "price.lifespan.stolen": 1,
                 "lifespan.stolen": "price.lifespan.stolen"
             },
@@ -1238,13 +1238,13 @@
             }
         },
         {
-            "id": "use.connection.official",
+            "id": "use.connection_official",
             "actionid": "work",
             "label": "Possibilities",
             "startdescription": "I can ask my contact to look out for opportunities. They'll need their expenses covered, of course. [This will create an Opportunity to purchase either a Medical License or an Import License.]",
             "description": "This could help.",
             "requirements": {
-                "connection.official": 1,
+                "connection_official": 1,
                 "worth": 1
             },
             "internaldeck": {

@@ -18,8 +18,8 @@
                     "id": "connection",
                     "label": "Connection",
                     "required": {
-                        "connection.official": 1,
-                        "connection.ruler": 1
+                        "connection_official": 1,
+                        "connection_ruler": 1
                     },
                     "consumes": true
                 }

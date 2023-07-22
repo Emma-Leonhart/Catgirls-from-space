@@ -243,7 +243,7 @@
             "label": "Pester the Ruler for Further Patronage?",
             "startdescription": "Perhaps not.",
             "requirements": {
-                "connection.ruler": 1,
+                "connection_ruler": 1,
                 "year.stolen": 1
             },
             "extantreqs": {
@@ -792,7 +792,7 @@
             "label": "Accept Patronage",
             "startdescription": "There's nothing a ruler wants more than more life, and there's no-one who pays better. I'll need to make sure my patron doesn't understand my methods, though, or they might get ideas. [A reasonably safe way to convert stolen lifespan into funds.]",
             "requirements": {
-                "connection.ruler": 1,
+                "connection_ruler": 1,
                 "year.stolen": 1
             },
             "extantreqs": {
@@ -812,7 +812,7 @@
                     "expulsion": {
                         "limit": 3,
                         "filter": {
-                            "op.connection.ruler": 1
+                            "op.connection_ruler": 1
                         }
                     }
                 }
@@ -1806,8 +1806,8 @@
             "purge": {
                 "trace": 100,
                 "op": 100,
-                "connection.ruler": 100,
-                "connection.official": 100
+                "connection_ruler": 100,
+                "connection_official": 100
             },
             "warmup": 30,
             "requirements": {
@@ -1839,7 +1839,7 @@
                 "opx.betrayal.complete": 1
             },
             "effects": {
-                "connection.ruler": 1,
+                "connection_ruler": 1,
                 "op.connection.radicals": -1
             },
             "purge": {

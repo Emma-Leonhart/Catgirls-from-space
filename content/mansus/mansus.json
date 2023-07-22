@@ -23,29 +23,28 @@ comments: "but this should only be drawn from once."
 		["influencehandc",
 		"dread",
 		"rage",
-	"connection.official"],
+	"connection_official"],
 		drawmessages:{influencehandc:"'In the shadows of our collective journey, I found myself ensnared in a dark forest of invisible threads. It is challenging to articulate how deep, silent, and omnipresent that forest was...' My memory falters when I try to recall last night, amidst the darkened depths of the forest, where spectral hands brushed against my own. Yet this dawn, my mind hums with fragments: PECUNIA SI UTI SCIS ANCILLA EST SI NESCIS DOMINA'",
 		dread:"Under the oppressive canopy of our collective fear, I lost my way in a forest so silent it screamed. To convey the depth of that silence, the weight of the unseen terror it concealed, is a task that threatens to break my resolve. The chilling memory of last night within the forest's unlit labyrinth, where phantom whispers of the cannibalistic inhabitants clawed at my sanity, lingers like a specter. The rustling, the dreadful anticipation, the presence of a menace hidden in the shadows. This morning, my mind is an echo chamber of horror. Whispers of the unseen, terror of the forest-dwellers, dread of being the hunted prey in the dark forest.",
 		rage:"'In the belly of the dark forest, I bore witness to an unspeakable act that shook the very core of my being. Hidden among the gnarled trees and thick undergrowth, primal violence unveiled its grotesque face. A woman, a victim, was violated by heartless savages, their grunts echoing in the haunting silence, their eyes reflecting the sinister glee of the act. The helplessness, the anger, the indignation. The revolting picture is etched deep within my consciousness, igniting a blaze of rage that refuses to die. Every time I close my eyes, I see her pain, hear her screams, and feel the beast of wrath clawing inside me, thirsting for justice.",
+		connection_official:"As I journeyed deeper into the inky shadows, a figure emerged, bearing the unmistakable aura of authority. In the midst of the encompassing gloom, our eyes met... Last night, within the confines of the Dark Forest, I believe I encountered the spirit of a lawman, a chief perhaps, lost and wandering. The precise content of our conversation is lost to the twilight, a muffled echo amidst the tree trunks. Yet, an unspoken bond was formed in the silence. I am confident that we will recognize each other in the realm of the waking, connected by our shared nocturnal encounter"
 		},
 resetonexhaustion:true
 	},
 		
-				{id: "mansus_wood1",
+	{id: "mansus_wood1",
 	spec:
-		["influencegrail",
-		"vitality",
-		"fragmentsecrethistoriesb",
-		"rumour"],
-				drawmessages:{influencegrail:"The Well in the Wood is never dry, but it is never clear. One night it might heave with crawling roots; on another, it will pulse with bright moss. On nights of the full moon its waters are choked with the fat dappled bodies of moths. Last night, I saw it brimming with dark and viscous blood. Gelatinous shreds drifted on its surface; clots of Grail-matter.",
-		vitality:"The Well in the Wood is sacred to the Grail, the Hour that hungers, and to the Velvet, the Hour that guards secrets... tonight as I approached, it heaved with the Velvet's moss, struggling waves of deep and vibrant green, pulsing again and again from its throat. It surged around my calves, rose to my thighs, and this morning I still feel the Velvet's breath, strong within me.",
-		fragmentsecrethistoriesb:"The Velvet is strong at the Well in the Wood, and the Velvet is the Hour that keeps secrets; but now and then she lets a little secret fall, like a crumb at a feast. Last night I found a moss-clad rock written all around with the secrets of another history. I might give thanks to the Velvet, but it will be wiser not to draw her attention.",
-		rumour:"So many things rise from the Well in the Wood. Last night it was aswarm with wormy roots. The trees clustered and whispered. Perhaps they were welcoming the influx. I found a sleeping soul ensnared in the roots, and I helped them struggle free. When they wake, they will recall my face, as I do theirs."},
-		
-resetonexhaustion:true
-
-	},
-	
+		["influencehandc",
+		"capitalisticnessplus",
+		"fragmenthandc",
+		"connection_ruler"],
+				drawmessages:{influencehandc:"In the heart of the Endless Exchange, amidst the ceaseless ebb and flow of commerce, I chanced upon a token of real significance. It seemed to pulse in my hands, resonating with the relentless rhythm of the market. The energies of countless transactions, a pulsating drive for accumulation, infused this talisman of human desire. As I awoke, I carried with me the very essence of exchange, a tangible manifestation of the market's relentless heartbeat.",
+				capitalisticnessplus:"As I navigated through the Endless Exchange, I was surrounded by the frenzied dance of acquisition and transaction. Coins suspended from invisible strings, glinting enticingly, led the way for the mass of restless pursuers. Their eyes bore the desperation of a thirst unquenchable, their hands reaching out in ceaseless chase. But amidst this perpetual tumult, something else caught my eye - a symbol of value unlike the rest, a luminescent cryptocurrency that pulsed with an untamed energy. Unnoticed by the frantic multitude, it beckoned me down a path less traversed. Its glow led me through the maze of trade, promising a different understanding of value, a different rhythm of exchange. As I awoke, the luminous path remained etched into my memory, an imprint of my journey through the relentless marketplace.",
+				fragmenthandc:"The ceaseless chime of coin against coin reverberates throughout the Endless Exchange. Amidst the clamor of transactions and the frantic pursuit of riches, the Invisible Hand occasionally drops a nugget of insight, an accidental spillage in the fervor of commerce. As I navigated the tumultuous market last night, I found a unique token, the Gilded Paradox. Its surface was etched with intricate riddles, the lore of a forgotten trade, the secret lessons of the market. It bore the weight of an enigma that promised a wealth of understanding, far more valuable than any currency. It is said that the Invisible Hand guards secrets well, but in this moment, it had let slip a treasure. Yet, it's best not to draw the Hand's attention; after all, the market is ever-watchful.",
+				connection_ruler:"The Endless Exchange is an arena of continuous transactions, a bustling marketplace with the clink of coins serving as its heartbeat. Amid the sea of figures, each with their own thirst for material gain, there are the select few who have risen to master the game. During a visit to the Exchange, I stumbled upon one such individual - a prosperous capitalist, draped in the aura of the Invisible Hand's favor. They were momentarily lost in the torrent of trade, ensnared by a problematic negotiation. With discretion and care, I helped them regain their footing. As they departed with a newfound appreciation, I knew our paths would cross again in the world of wakefulness. In the endless pursuit of wealth, it seems allies can be found in unexpected places."
+			},
+			resetonexhaustion:true
+		},
 				{id: "mansus_wood2",
 	spec:
 		["influenceknock",
