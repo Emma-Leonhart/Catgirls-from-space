@@ -1,5 +1,5 @@
 {
-    "recipes":[
+    "recipes": [
         {
             "id": "spiralling",
             "label": "spiralling lv 1",
@@ -15,18 +15,18 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "I feel a slight obsession brewing. A focus on something that may not be that important, yet I can't seem to look away. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "grail",
-					"label": "grail influence",
-					"description": "I need protection",
-					"required": {
-						"grail": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "grail",
+                    "label": "grail influence",
+                    "description": "I need protection",
+                    "required": {
+                        "grail": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "spiralling.2",
@@ -45,18 +45,18 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "I'm starting to feel lonely. [Warning if you get to level 10 you will die]",
+            "startdescription": "My thoughts begin to revolve around this one thing, like planets around a star. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "grail",
-					"label": "grail influence",
-					"description": "I need protection",
-					"required": {
-						"grail": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "grail",
+                    "label": "grail influence",
+                    "description": "I need protection",
+                    "required": {
+                        "grail": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "spiralling.3",
@@ -75,18 +75,18 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "This obsession is starting to consume my life. I need to break free but don't know how. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "grail",
-					"label": "grail influence",
-					"description": "I need protection",
-					"required": {
-						"grail": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "grail",
+                    "label": "grail influence",
+                    "description": "I need protection",
+                    "required": {
+                        "grail": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "spiralling.4",
@@ -105,18 +105,18 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "I can't get this obsession out of my mind. It's all I think about, every waking moment. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "grail",
-					"label": "grail influence",
-					"description": "I need protection",
-					"required": {
-						"grail": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "grail",
+                    "label": "grail influence",
+                    "description": "I need protection",
+                    "required": {
+                        "grail": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "spiralling.5",
@@ -135,18 +135,18 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "I've lost control. This thing, it's taken over my life. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "grail",
-					"label": "grail influence",
-					"description": "I need protection",
-					"required": {
-						"grail": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "grail",
+                    "label": "grail influence",
+                    "description": "I need protection",
+                    "required": {
+                        "grail": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "spiralling.6",
@@ -165,18 +165,18 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "I can't find the strength to fight this obsession anymore. I'm losing myself in it. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "grail",
-					"label": "grail influence",
-					"description": "I need protection",
-					"required": {
-						"grail": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "grail",
+                    "label": "grail influence",
+                    "description": "I need protection",
+                    "required": {
+                        "grail": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "spiralling.7",
@@ -190,23 +190,23 @@
                     }
                 },
                 {
-                    "id": "spiralling.8",
+                    "id": "spiralling.7",
                     "chance": 100
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "The obsession is now a part of me. I can't distinguish where it ends and where I begin. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "grail",
-					"label": "grail influence",
-					"description": "I need protection",
-					"required": {
-						"grail": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "grail",
+                    "label": "grail influence",
+                    "description": "I need protection",
+                    "required": {
+                        "grail": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "spiralling.8",
@@ -225,18 +225,18 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "I'm trapped. This obsession has consumed me and left nothing of my former self. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "grail",
-					"label": "grail influence",
-					"description": "I need protection",
-					"required": {
-						"grail": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "grail",
+                    "label": "grail influence",
+                    "description": "I need protection",
+                    "required": {
+                        "grail": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "spiralling.9",
@@ -255,18 +255,18 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
+            "startdescription": "I'm on the brink of oblivion. This obsession is about to end me. [Warning if you get to level 10 you will die]",
             "slots": [
-				{
-					"id": "grail",
-					"label": "grail influence",
-					"description": "I need protection",
-					"required": {
-						"grail": 1
-					},
-					"greedy": false
-				}
-			]
+                {
+                    "id": "grail",
+                    "label": "grail influence",
+                    "description": "I need protection",
+                    "required": {
+                        "grail": 1
+                    },
+                    "greedy": false
+                }
+            ]
         },
         {
             "id": "spiralling.10",
@@ -278,45 +278,25 @@
                     "challenges": {
                         "grail": "advanced"
                     }
+                },
+                {
+                    "id": "gameover",
+                    "chance": 100
                 }
             ],
             "warmup": 60,
-            "startdescription": "[Warning if you get to level 10 you will die]",
-            "ending": "spiralling",
+            "startdescription": "The obsession has consumed me entirely. There's nothing left to save. [This is the end. You are dying]",
             "slots": [
-				{
-					"id": "grail",
-					"label": "grail influence",
-					"description": "I need protection",
-					"required": {
-						"grail": 1
-					},
-					"greedy": false
-				}
-			]
-        },
-        {
-            "id": "spiralling.resolve.early",
-            "label": "spiralling resolved",
-            "requirements": {
-                "grail": 2
-            },
-            "linked":[
                 {
-                    "id": "spiralling.resolve",
-                    "chance": 100
+                    "id": "grail",
+                    "label": "grail influence",
+                    "description": "I need protection",
+                    "required": {
+                        "grail": 1
+                    },
+                    "greedy": false
                 }
             ]
-        },
-        {
-            "id": "spiralling.resolve",
-            "label": "spiralling resolved",
-            "startdescription": "PLACEHOLDER",
-            "description": "PLACEHOLDER",
-            "effects":{
-                "fragmentgrail": 1,
-                "influencegraile": 1
-            }
         }
     ]
 }
