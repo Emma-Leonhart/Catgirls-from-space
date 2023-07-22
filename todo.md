@@ -30,3 +30,6 @@ Overhaul the exile legacy start
 
 Make a decision on whether to ban dlc legacies in this mod
 * Exception obviously being exile
+
+Implement generic secret histories followers and secret histories cult work
+* Might make it related to capersN

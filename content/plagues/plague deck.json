@@ -1,9 +1,9 @@
 {
-    "decks":[
+    "decks": [
         {
-            "id": "plagues",
-            "label": "The Congregation's Passions",
-            "description": "What will come of this?",
+            "id": "plagues_deck",
+            "label": "Plagues",
+            "description": "A list of existential plagues burdening the character.",
             "spec": [
                 "alienation_start",
                 "angst_start",
@@ -15,6 +15,7 @@
                 "ego_start",
                 "limitation_start"
             ],
+            "defaultcard": "spiralling_start",
             "resetonexhaustion": true
         }
     ]

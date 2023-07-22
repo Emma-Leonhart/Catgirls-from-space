@@ -2,39 +2,49 @@
     "elements":[
         {
             "id": "alienation_start",
-            "label": "Alienation"
+            "label": "Alienation",
+       "lifetime": 2
         },
         {
             "id": "angst_start",
-            "label": "Angst"
+            "label": "Angst",
+       "lifetime": 2
         },
         {
             "id": "absurdity_start",
-            "label": "Absurdity"
+            "label": "Absurdity",
+       "lifetime": 2
         },
         {
             "id": "forgetting_start",
-            "label": "Forgetting"
+            "label": "Forgetting",
+       "lifetime": 2
         },
         {
             "id": "spiralling_start",
-            "label": "Spiralling"
+            "label": "Spiralling",
+       "lifetime": 2
         },
         {
             "id": "drowning_start",
-            "label": "Drowning"
+            "label": "Drowning",
+       "lifetime": 2
         },
         {
             "id": "locking_start",
-            "label": "Locking"
+            "label": "Locking",
+       "lifetime": 2
         },
         {
             "id": "ego_start",
-            "label": "Ego"
+            "label": "Ego",
+       "lifetime": 2
         },
         {
             "id": "limitation_start",
-            "label": "Limitation"
+            "label": "Limitation",
+            "lifetime": 2
         }
     ]
 }
+

@@ -1,0 +1,78 @@
+{
+    "endings": [
+        {
+            "id": "alienation",
+            "image": "chiascends",
+            "label": "Suffocating Isolation",
+            "description": "Your world becomes a lone island, cut off from the shared narratives of existence. As the last echo of human connection fades, you drift into a void, lost to yourself and reality.",
+            "flavour": "Grand",
+            "anim": "DramaticLightEvil"
+        },
+        {
+            "id": "angst",
+            "image": "notorious",
+            "label": "Anguish Unending",
+            "description": "An icy dread seeps into your being, gnawing at your sanity. The walls of your identity crumble, replaced by an all-encompassing terror. Alone in the heart of the abyss, your reality unravels.",
+            "flavour": "Grand",
+            "anim": "DramaticLightEvil",
+            "achievement": "A_ENDING_ANGST"
+        },
+        {
+            "id": "absurdity",
+            "image": "paradox",
+            "label": "Nihilistic Delirium",
+            "description": "Reason and sense desert you as you plunge into a carnival of the irrational. Your desperate attempts to comprehend your existence only deepen your despair. Laughter echoes in the void, mocking your faded reality.",
+            "flavour": "Grand",
+            "anim": "DramaticLightEvil"
+        },
+        {
+            "id": "forgetting",
+            "image": "amnesia",
+            "label": "Lost in Oblivion",
+            "description": "Your past becomes a foggy labyrinth, your identity, a haunting echo. Trapped in a reality built from false symbols and shallow victories, your essence flickers and dims, swallowed by forgetfulness.",
+            "flavour": "Grand",
+            "anim": "DramaticLightEvil"
+        },
+        {
+            "id": "spiralling",
+            "image": "vortex",
+            "label": "Ouroboros Despair",
+            "description": "Obsessions twirl around your existence, pulling you into a gyre of despair. Inescapable fixations consume your reality, spiralling into a black hole where all light and hope are devoured.",
+            "flavour": "Grand",
+            "anim": "DramaticLightEvil",
+            "achievement": "A_ENDING_SPIRALLING"
+        },
+        {
+            "id": "drowning",
+            "image": "ocean",
+            "label": "Baptism of Desolation",
+            "description": "You're lost in a sea of endless possibilities, each wave dragging you further into the murky depths of indecision. Your ability to navigate reality erodes, leaving you adrift in a suffocating, formless dread.",
+            "flavour": "Grand",
+            "anim": "DramaticLightEvil"
+        },
+        {
+            "id": "locking",
+            "image": "trap",
+            "label": "Locking Vise of Paranoia",
+            "description": "You're ensnared in a trap of foreign concepts that clash with your true self. Rigid ideologies form invisible chains, squeezing the life from your reality. Freedom becomes an illusion, fading into a dull gray existence.",
+            "flavour": "Grand",
+            "anim": "DramaticLightEvil"
+        },
+        {
+            "id": "ego",
+            "image": "mirror",
+            "label": "Ego's Prison",
+            "description": "Your identity hardens into an unbreakable shell, trapping you within a narrow definition of self. Fear of change keeps you locked in stagnation, eroding your reality to a shallow reflection in the mirror of ego.",
+            "flavour": "Grand",
+            "anim": "DramaticLightEvil"
+        },
+        {
+            "id": "limitation",
+            "image": "barrier",
+            "label": "Empathy's Labyrinth",
+            "description": "Your ability to understand others slowly crumbles, leaving you wandering in a maze of your own perspective. Your reality contracts, each day bringing greater isolation, until you're a stranger to yourself and the world.",
+            "flavour": "Grand",
+            "anim": "DramaticLightEvil"
+        }
+    ]
+}
