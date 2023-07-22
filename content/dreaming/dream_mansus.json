@@ -1059,7 +1059,15 @@
           "chance": 100
         },
         {
-          "id": "dreamreachpeacockknock",
+          "id": "dreamnotquitereachpeacocklantern",
+          "chance": 100
+        },
+        {
+          "id": "dreamreachpeacockgrail",
+          "chance": 100
+        },
+        {
+          "id": "dreamnotquitereachpeacockgrail",
           "chance": 100
         },
         {
@@ -1067,17 +1075,33 @@
           "chance": 100
         },
         {
-          "id": "dreamnotquitereachpeacocklantern",
-          "chance": 100
-        },
-        {
-          "id": "dreamnotquitereachpeacockknock",
-          "chance": 100
-        },
-        {
           "id": "dreamnotquitereachpeacockedge",
           "chance": 100
-        }
+    },
+    {
+          "id": "dreamreachspiderknock",
+          "chance": 100
+    },
+    {
+          "id": "dreamnotquitereachspiderknock",
+          "chance": 100
+    },
+    {
+          "id": "dreamreachspiderforge",
+          "chance": 100
+    },
+    {
+          "id": "dreamnotquitereachspiderforge",
+          "chance": 100
+    },
+    {
+          "id": "dreamreachspidermoth",
+          "chance": 100
+    },
+    {
+          "id": "dreamnotquitereachspidermoth",
+          "chance": 100
+    }
       ],
       "warmup": 60
     },
@@ -1262,6 +1286,55 @@
           "id": "poison.long.way.trap",
           "additional": true
         },
+        
+        {
+          "id": "dreamreachpeacocklantern",
+          "chance": 100
+        },
+        {
+          "id": "dreamnotquitereachpeacocklantern",
+          "chance": 100
+        },
+        {
+          "id": "dreamreachpeacockgrail",
+          "chance": 100
+        },
+        {
+          "id": "dreamnotquitereachpeacockgrail",
+          "chance": 100
+        },
+        {
+          "id": "dreamreachpeacockedge",
+          "chance": 100
+        },
+        {
+          "id": "dreamnotquitereachpeacockedge",
+          "chance": 100
+    },
+    {
+          "id": "dreamreachspiderknock",
+          "chance": 100
+    },
+    {
+          "id": "dreamnotquitereachspiderknock",
+          "chance": 100
+    },
+    {
+          "id": "dreamreachspiderforge",
+          "chance": 100
+    },
+    {
+          "id": "dreamnotquitereachspiderforge",
+          "chance": 100
+    },
+    {
+          "id": "dreamreachspidermoth",
+          "chance": 100
+    },
+    {
+          "id": "dreamnotquitereachspidermoth",
+          "chance": 100
+    },
         {
           "id": "apostlelantern.createpillar2",
           "chance": 100

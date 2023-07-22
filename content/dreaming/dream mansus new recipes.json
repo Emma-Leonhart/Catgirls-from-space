@@ -1,0 +1,20 @@
+{
+    "recipes":[
+        {
+            "id": "dreamreachspiderforge",
+            "chance": 100
+      },
+      {
+            "id": "dreamnotquitereachspiderforge",
+            "chance": 100
+      },
+      {
+            "id": "dreamreachspidermoth",
+            "chance": 100
+      },
+      {
+            "id": "dreamnotquitereachspidermoth",
+            "chance": 100
+      }
+    ]
+}
