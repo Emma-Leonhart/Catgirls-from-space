@@ -1,22 +1,22 @@
 {"decks":
     [
-		{id: "stagriddles",
-	spec:
-	[
-		"waystagbefore_heart",
-		"waystagbefore_winter",
-		"waystagbefore_secret",
-		"waystagbefore_lantern",
-		"waystagbefore_grail",
-		"waystagbefore_knock",
-		"waystagbefore_forge",
-		"waystagbefore_moth"
-	],
-defaultcard: "fleeting",
-resetonexhaustion:false,
-comments: "but this should only be drawn from once."
-	},
-	
+		{
+			"id": "stagriddles",
+			"spec": [
+				"waystagbefore_heart",
+				"waystagbefore_winter",
+				"waystagbefore_secret",
+				"waystagbefore_lantern",
+				"waystagbefore_grail",
+				"waystagbefore_knock",
+				"waystagbefore_forge",
+				"waystagbefore_moth"
+			],
+			"defaultcard": "fleeting",
+			"resetonexhaustion": false,
+			"comment": "The riddles of the Stag Door, which should only be drawn from once."
+		},
+		
 	
 	{
 		"id": "mansus_wood",
