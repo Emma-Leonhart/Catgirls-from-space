@@ -11,19 +11,19 @@
             "description": ".",
             "linked": [
                 {
+                    "id": "dreamasabovesobelow",
+                    "chance": 10
+                },
+                {
                     "id": "dreamabove",
-                    "chance": 45
+                    "chance": 50
                 },
                 {
                     "id": "dreambelow",
-                    "chance": 80
-                },
-                {
-                    "id": "dreamasabovesobelow",
-                    "chance": 100
+                    "chance": 50
                 }
             ],
-            "warmup": 60,
+            "warmup": 30,
             "craftable": true
         },
         {
@@ -59,7 +59,62 @@
                 "lensing": -1
             },
             "warmup": 30,
-            "comment": "may want to make this enter you into the Mansus"
+            "comment": "may want to make this enter you into the Mansus",
+            "linked": [
+                {
+                    "id": "dreamlensingdark",
+                    "chance": 50
+                },
+                {
+                    "id": "dreamlensinglight",
+                    "chance": 50
+                }
+            ]
+        },
+        
+    {
+        "id": "dreamlensingdark",
+        "label": "Entering the Dark Forest",
+        "actionid": "dream",
+        "craftable": false,
+        "startdescription": "Now I traverse through the foreboding undergrowth of gnarled, darkened trees. The moon retreats behind twisted branches, yet her spectral touch lingers within my hair. I stagger over the coiled roots, the temptation to yield to all fours intensifies to evade the suffocating foliage. In the fathomless depths of the night, spectral wings flutter ominously.",
+        "description": ".",
+        "alt": [
+          {
+            "id": "poison.long.way.trap",
+            "additional": true
+          }
+        ],
+               "portaleffect": "wood",
+        "warmup": 0,
+        "aspects": {
+          "fatiguing": 1
+        },
+        "effects":{
+            "waywood": 1
         }
+      },
+      {
+        "id": "dreamlensinglight",
+        "label": "Entering the White Door",
+        "actionid": "dream",
+        "craftable": false,
+        "startdescription": "Now I can approach the White Door through the Bounds. Now I can press my fingers to it, feel its chill, watch it swing open. As it opens, my mouth closes, tightens, heals over like a lost deformity. Around and about me is the cobalt light of the Mansus...",
+        "description": ".",
+        "portaleffect": "whitedoor",
+        "alt": [
+          {
+            "id": "poison.long.way.trap",
+            "additional": true
+          }
+        ],
+        "warmup": 0,
+        "aspects": {
+          "fatiguing": 1
+        },
+        "effects":{
+            "waywhite": 1
+        }
+      }
     ]
 }
