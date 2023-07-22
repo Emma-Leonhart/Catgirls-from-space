@@ -3,7 +3,7 @@
         {
             "id": "waywood",
             "label": "Way: Dark Forest",
-            "description": "I've learnt the path to the Wood, the tangled darkness that grows around the walls of the Mansus (though the Mansus has no walls). I can Dream with this to return to the Wood.",
+            "description": "I have found the path through the Dark Forest, a realm of perpetual night and lurking dread, reflective of a civilization's silent and watchful enemies. The forest conceals the Mansus (though the Mansus has no definite form). I can Dream with this to traverse the somber shadows of the Dark Forest.",
             "aspects": {
                 "way": 1
             },
@@ -13,7 +13,7 @@
         {
             "id": "waywhite",
             "label": "Way: Enchanted Forest",
-            "description": "In my dreams, I've passed the White Door, which has been called the Bone Door and the Gate of Ivory. My voice remains outside the House each time I enter.",
+            "description": "In my dreams, I have stepped through the threshold of the Enchanted Forest, a realm of eternal verdancy, magic, and tranquillity. Here, possibility blooms like flowers on every branch, reflecting a hopeful future free of despair. I can Dream with this to stroll through the vibrant hues of the Enchanted Forest.",
             "aspects": {
                 "way": 1
             },

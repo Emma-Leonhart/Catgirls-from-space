@@ -14,7 +14,8 @@
                 "description": "If I engage in an occult practice before I sleep, I might find the way to deeper dream.",
                 "required": {
                   "lore": 1,
-                  "waywhite": 1
+                  "waywhite": 1,
+                  "waywood": 1
                 }
               }
             ],
@@ -54,10 +55,7 @@
             ],
             "warmup": 60,
             "craftable": true,
-            "burnimage": "moon",
-            "aspects": {
-              "fatiguing": 1
-            }
+            "burnimage": "moon"
           },
           {
             "id": "dreamreason",
@@ -73,7 +71,8 @@
                 "description": "If I engage in an occult practice before I sleep, I might find the way to deeper dream.",
                 "required": {
                   "lore": 1,
-                  "waywhite": 1
+                  "waywhite": 1,
+                  "waywood": 1
                 }
               }
             ],
@@ -113,10 +112,7 @@
             ],
             "warmup": 60,
             "craftable": true,
-            "burnimage": "moon",
-            "aspects": {
-              "fatiguing": 1
-            }
+            "burnimage": "moon"
         },
         {
           "id": "dreamreachdarkhand",
@@ -484,7 +480,7 @@
       "craftable": false,
       "requirements": {
         "waywhite": 1,
-        "health": 1
+        "ability": 1
       },
       "startdescription": "Now I can approach the White Door through the Bounds. Now I can press my fingers to it, feel its chill, watch it swing open. As it opens, my mouth closes, tightens, heals over like a lost deformity. Around and about me is the cobalt light of the Mansus...",
       "description": ".",

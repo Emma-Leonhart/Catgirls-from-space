@@ -321,7 +321,10 @@
                     "chance": 100
                 }
             ],
-            "warmup": 10
+            "warmup": 10,
+            "aspects": {
+                "fatiguing": 1
+            }
         },
         {
             "id": "dream_get_lensing",

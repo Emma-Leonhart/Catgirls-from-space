@@ -53,7 +53,8 @@
             "lifetime": 300
         },
         {
-            "id": "op.cats",
+            "id": "op_cats",
+            "icon": "op.cats",
             "label": "Cats",
             "aspects": {
                 "op": 1,
@@ -63,7 +64,7 @@
             },
             "description": "Good aliens here to help fight the evil aliens.",
             "xtriggers": {
-                "renewal.exile": "op.cats",
+                "renewal.exile": "op_cats",
                 "fatiguing": "husk"
             },
             "lifetime": 300
