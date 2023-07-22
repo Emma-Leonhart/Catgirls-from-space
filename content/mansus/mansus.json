@@ -151,21 +151,24 @@ resetonexhaustion:true
 		"resetonexhaustion":true
 	},
 	
-{id: "mansus_stagdoor2",
-	spec:
-		["influencesecretg",
-		"influencesecretg",
+	{
+		"id": "mansus_stagdoor2",
+		"spec":
+			["influencesecretg",
+			"influencesecretg",
 			"fascination",
-		"fragmentsecrethistoriesd",
-		"eruditionplus"],
-	drawmessages:{
-		influencesecretg:"Venturing along the swirling currents of the Painted River, I unearth a powerful influence of Secret Histories. The influence is like a hidden parchment, filled with encoded wisdom and ancient lore, waiting to be deciphered. It reminds me of the myriad stories concealed beneath the surface of our existence, of the veiled truths yet to be discovered.",
-		fascination:"I dreamt of the Mansus behind the White Door, of the great space above the Orchard, the space that overlooks the Bounds, the space where the Vagabond once painted her River. Painted ships passed upon the Painted River. I met the painted eyes of a painted captain. She saluted, and the motion was like the layered movement of clouds. The sail of the ship was amber and the captain's eyes the green of new barley and the river, aquamarine. Now that I'm awake, I see those colours still.",
-				fragmentsecrethistoriesd:"There is a great chamber in the Mansus through which a Painted River flows. The Vagabond, it is claimed, painted it from memory in the years before she left the House. Certainly there are histories concealed in its design. I traced them with my hand last night. There were fragments of aquamarine paint beneath my nails, flecks of gold leaf, when I was done.",
-				eruditionplus:"The Painted River runs from a great chamber near the White Door, far through the Mansus, to its far edge where it enters a painted delta of far cloud. I voyaged half its length last night with a stern-faced captain beneath a rust-red sail. As the clouds rose before us, the sailors raised a yearning shanty, and close-hauled the sails to best use the painted wind. And all the while the captain and I discoursed on the secrets of the House of the Sun...."},
-		
-resetonexhaustion:true
+			"fragmentsecrethistoriesd",
+			"eruditionplus",
+			"year.stolen"],
+		"drawmessages":{
+			"influencesecretg":"Venturing along the swirling currents of the Painted River, I unearth a powerful influence of Secret Histories. The influence is like a hidden parchment, filled with encoded wisdom and ancient lore, waiting to be deciphered. It reminds me of the myriad stories concealed beneath the surface of our existence, of the veiled truths yet to be discovered.",
+			"fascination":"I dreamt of the Mansus behind the White Door, of the great space above the Orchard, the space that overlooks the Bounds, the space where the Vagabond once painted her River. Painted ships passed upon the Painted River. I met the painted eyes of a painted captain. She saluted, and the motion was like the layered movement of clouds. The sail of the ship was amber and the captain's eyes the green of new barley and the river, aquamarine. Now that I'm awake, I see those colours still.",
+			"fragmentsecrethistoriesd":"There is a great chamber in the Mansus through which a Painted River flows. The Vagabond, it is claimed, painted it from memory in the years before she left the House. Certainly there are histories concealed in its design. I traced them with my hand last night. There were fragments of aquamarine paint beneath my nails, flecks of gold leaf, when I was done.",
+			"eruditionplus":"The Painted River runs from a great chamber near the White Door, far through the Mansus, to its far edge where it enters a painted delta of far cloud. I voyaged half its length last night with a stern-faced captain beneath a rust-red sail. As the clouds rose before us, the sailors raised a yearning shanty, and close-hauled the sails to best use the painted wind. And all the while the captain and I discoursed on the secrets of the House of the Sun....",
+			"year.stolen":"Drifting along the Painted River, I encounter a strange anomaly. A year seems to have immersed itself into the river's vibrant strokes, becoming a part of its radiant tableau. It's a year filled with veiled revelations and half-whispered secrets, a year that has strayed from the linearity of time and found refuge in the swirling currents of the Painted River."},
+		"resetonexhaustion":true
 	},
+	
 	{id: "mansus_peacockdoor1",
 spec:
 ["influenceedgeg",
