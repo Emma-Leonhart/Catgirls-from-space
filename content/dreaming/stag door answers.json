@@ -1,0 +1,220 @@
+{
+    "recipes":[
+        {
+            "id": "dream_answerstagriddle_heart",
+            "label": "Echo of a Heartfelt Anthem",
+            "actionid": "dream",
+            "requirements": {
+                "waystagbefore_heart": 1,
+                "fragmentheartc": 1
+            },
+            "startdescription": "'An anthem that tugs at the heartstrings... Here is my rendition...'",
+            "description": "The Stag Door shudders open. A rhythm reminiscent of a fervent heart thunders through the gaping portal. Ghirbi, the Stag's Head, emits a harmonious hum, and its brass tears crystallize into resonating hearts. I am invited within!",
+            "effects": {
+                "riddle": -1,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dreamenterstag",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dream_answerstagriddle_winter",
+            "label": "Serene Sunset Meditation",
+            "actionid": "dream",
+            "requirements": {
+                "waystagbefore_winter": 1,
+                "fragmentwinterc": 1
+            },
+            "startdescription": "'To honor the fading sun, we must meditate in its twilight...'",
+            "description": "The Stag Door creaks open. The fading light of a sun setting into tranquility bathes the corridor within. Ghirbi's sigh is a frosty whisper, its tears crystallizing into icicles. I step forward into the peace of the winter evening.",
+            "effects": {
+                "riddle": -1,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dreamenterstag",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dream_answerstagriddle_secret",
+            "label": "Journey through Optical Illusions",
+            "actionid": "dream",
+            "requirements": {
+                "waystagbefore_secret": 1,
+                "fragmentsecrethistoriesc": 1
+            },
+            "startdescription": "'The path ahead is but an optical illusion, a distorted echo of truth...'",
+            "description": "The Stag Door swings open. An array of deceptive lights flickers in the chamber beyond, painting a distorted reality. Ghirbi murmurs a cryptic verse, its brass tears refracting into fragmented histories. I step into the kaleidoscope of deception.",
+            "effects": {
+                "riddle": -1,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dreamenterstag",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dream_answerstagriddle_lantern",
+            "label": "Luminary's Path of Shadows",
+            "actionid": "dream",
+            "requirements": {
+                "waystagbefore_lantern": 1,
+                "fragmentlanternc": 1
+            },
+            "startdescription": "'Within the shadowy crevices, a luminary's wisdom blooms...'",
+            "description": "The Stag Door radiates open. Light dances within the chamber, casting a shadowy tapestry of wisdom. Ghirbi whispers an ancient mantra, and molten brass tears illumine the path of enlightenment. I am ready to step into the crevices of knowledge.",
+            "effects": {
+                "riddle": -1,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dreamenterstag",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dream_answerstagriddle_grail",
+            "label": "Carousel of Existential Revelry",
+            "actionid": "dream",
+            "requirements": {
+                "waystagbefore_grail": 1,
+                "fragmentgrailc": 1
+            },
+            "startdescription": "'To unlock the carousel of existence, one must perform the rite of revelry...'",
+            "description": "The Stag Door unfurls. The tantalizing dance of life and existence swirls within the room beyond. Ghirbi hums a euphoric tune, its tears shimmering with captivating allure. I am beckoned to join the eternal revelry.",
+            "effects": {
+                "riddle": -1,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dreamenterstag",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dream_answerstagriddle_edge",
+            "label": "The Resilient Vanguard",
+            "actionid": "dream",
+            "requirements": {
+                "waystagbefore_edge": 1,
+                "fragmentedgec": 1
+            },
+            "startdescription": "'In the crucible of adversity, one becomes the resilient vanguard of their destiny...'",
+            "description": "The Stag Door, guardian of mystery, opens with a resonant hum. A corridor bathed in a light sharp as a blade extends into the beyond. Ghirbi, the Head, weeps molten brass tears, each sizzling droplet reflecting a thousand possibilities of victory and defeat. I step forward, ready to carve my path with the edge of relentless determination.",
+            "effects": {
+                "riddle": -1,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dreamenterstag",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dream_answerstagriddle_knock",
+            "label": "Ritual of Serpent's Shed",
+            "actionid": "dream",
+            "requirements": {
+                "waystagbefore_knock": 1,
+                "fragmentknockc": 1
+            },
+            "startdescription": "'Like the serpent shedding its skin, let us discard our past limitations...'",
+            "description": "The Stag Door slithers open. The energy of metamorphosis pulses from the space within. Ghirbi hisses a transformative hymn, its tears molding into sloughed serpent skins. I step into the rhythm of constant change.",
+            "effects": {
+                "riddle": -1,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dreamenterstag",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dream_answerstagriddle_forge",
+            "label": "Resonance of Chant of Change",
+            "actionid": "dream",
+            "requirements": {
+                "waystagbefore_forge": 1,
+                "fragmentforgec": 1
+            },
+            "startdescription": "'To resonate with the forge of transformation, let us recite the Chant of Change...'",
+            "description": "The Stag Door rumbles open. The searing energy of the forge surges from the chamber beyond. Ghirbi chants a thunderous hymn, its tears splattering into molten embers. I brace myself to step into the furnace of transformation.",
+            "effects": {
+                "riddle": -1,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dreamenterstag",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dream_answerstagriddle_moth",
+            "label": "Parable of the Roleplayer's Dilemma",
+            "actionid": "dream",
+            "requirements": {
+                "waystagbefore_moth": 1,
+                "fragmentmothc": 1
+            },
+            "startdescription": "'Every roleplayer's heart flutters with the question, 'What could we become?' Here is my interpretation...'",
+            "description": "The Stag Door flutters open. The chamber within brims with the elusive energy of a roleplayer's dilemma. Ghirbi whispers a confounding parable, its brass tears morphing into fluttering moths. I am ready to face the uncertainty of becoming.",
+            "effects": {
+                "riddle": -1,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dreamenterstag",
+                    "chance": 100
+                }
+            ]
+        }
+    ]
+}

@@ -639,6 +639,42 @@
           "chance": 100
         },
         {
+          "id": "dream_answerstagriddle_heart",
+          "chance": 100
+      },
+      {
+          "id": "dream_answerstagriddle_winter",
+          "chance": 100
+      },
+      {
+          "id": "dream_answerstagriddle_secret",
+          "chance": 100
+      },
+      {
+          "id": "dream_answerstagriddle_lantern",
+          "chance": 100
+      },
+      {
+          "id": "dream_answerstagriddle_grail",
+          "chance": 100
+      },
+      {
+          "id": "dream_answerstagriddle_edge",
+          "chance": 100
+      },
+      {
+          "id": "dream_answerstagriddle_knock",
+          "chance": 100
+      },
+      {
+          "id": "dream_answerstagriddle_forge",
+          "chance": 100
+      },
+      {
+          "id": "dream_answerstagriddle_moth",
+          "chance": 100
+      },
+        {
           "id": "dream_wronganswerstagriddle",
           "chance": 100
         }

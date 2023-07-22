@@ -161,6 +161,20 @@
             "unique": true
         },
         {
+            "id": "waystagbefore_edge",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
+            "label": "Stag Door's Riddle",
+            "description": "The path pulsates with the rhythm of existence. How does one attune to the eternal ebb and flow of energy around us?",
+            "fragment_label": "Ritual of the Flowing Current",
+            "fragment_description": "A series of mystic exercises aligning one's being with the rhythm of existence, attuning to the eternal ebb and flow of energy around us.",
+            "fragment": "fragmentedgec",
+            "icon": "waystagbefore_5",
+            "unique": true
+        },
+        {
             "id": "waystagbefore_knock",
             "aspects": {
                 "riddle": 1,
