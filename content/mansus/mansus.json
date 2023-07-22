@@ -115,21 +115,24 @@ resetonexhaustion:true
 	resetonexhaustion:true
 	},
 
-				{id: "mansus_stagdoor",
-	spec:
-		["influenceheartg",
-		"influenceheartg",
-			"influenceknocke",
-		"fragmentsecrethistoriesc",
-		"influenceforgec"],
-		drawmessages:{
-			influenceheartg:"Exploring the vibrancy of the Stag Door region, I stumble upon a beating, radiant influence of Heart. The hum of vitality and emotion reverberates through me. This influence is a lively symphony, a reminder of the powerful human connection, of the inherent worth in every individual, of the love and empathy that tie us all together.",
-			influenceknocke:"In sleep, I ran my fingers along the ridged edges of the Stag Door's scars. 'Our company it was that shattered it,' Ghirbi says suddenly. 'Before the Gods-who-were-flesh, the Mansus was forbidden to mortals. We were the first Know.' He begins again to weep his molten tears. 'I wish that we had not. I wish I had died in the world....' I have forgotten what else he said. But I remember the shape of the fissures in the Stag Door, and for all of today, doors will fear my touch.",
-		fragmentsecrethistoriesc:"Last night, Ghirbi was talkative. He spoke in his siege-engine voice of the histories he'd overheard in the waking world. I listened, until his stories tailed off again into weeping.",
-		influenceforgec:"Ghirbi was weeping again. I scooped up his molten tears in my cupped palm. In the dream, my skin peeled and blistered, but only in the dream."},
-		
-resetonexhaustion:true
+	{
+		"id": "mansus_stagdoor",
+		"spec":
+			["influenceheartg",
+			"influenceheartg",
+				"influenceknocke",
+			"fragmentsecrethistoriesc",
+			"influenceforgec",
+			"year.stolen"],
+			"drawmessages":{
+				"influenceheartg":"Exploring the vibrancy of the Stag Door region, I stumble upon a beating, radiant influence of Heart. The hum of vitality and emotion reverberates through me. This influence is a lively symphony, a reminder of the powerful human connection, of the inherent worth in every individual, of the love and empathy that tie us all together.",
+				"influenceknocke":"In sleep, I ran my fingers along the ridged edges of the Stag Door's scars. 'Our company it was that shattered it,' Ghirbi says suddenly. 'Before the Gods-who-were-flesh, the Mansus was forbidden to mortals. We were the first Know.' He begins again to weep his molten tears. 'I wish that we had not. I wish I had died in the world....' I have forgotten what else he said. But I remember the shape of the fissures in the Stag Door, and for all of today, doors will fear my touch.",
+				"fragmentsecrethistoriesc":"Last night, Ghirbi was talkative. He spoke in his siege-engine voice of the histories he'd overheard in the waking world. I listened, until his stories tailed off again into weeping.",
+				"influenceforgec":"Ghirbi was weeping again. I scooped up his molten tears in my cupped palm. In the dream, my skin peeled and blistered, but only in the dream.",
+				"year.stolen":"As I wander the halls of The Pride, a peculiar sensation engulfs me. Amidst the vibrant murmurings of unity and the resonant echoes of connection, I stumble upon an anomaly. A year seems to have seeped into the very fabric of this place. A year imbued with shared laughter, shared tears, and profound unity. A year that once belonged to the flow of time, now firmly anchored in the heart of The Pride."},
+		"resetonexhaustion":true
 	},
+	
 				{id: "mansus_stagdoor1",
 	spec:
 	["influencewinterg",
