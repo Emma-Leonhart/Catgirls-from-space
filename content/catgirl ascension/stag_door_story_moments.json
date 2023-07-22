@@ -100,7 +100,25 @@
         "actionid": "dream",
         "requirements":{
             "capitalmarks": 1
-        }
+        },
+        "label": "Contact from a higher being",
+        "startdescription": "I see your intentions. I will show you something that I hope may change your mind",
+        "warmup": 120,
+        "effects":{
+            "waywood": 1
+        },
+        "portaleffect": "wood",
+        "linked":[
+            {
+                "id": "catgirl_capitalism_ultimatum",
+                "chance": 100
+            }
+        ]
+    },
+    {
+        "id": "catgirl_capitalism_ultimatum",
+        "label": "Contact from a higher being",
+        "description": "If you use your temptation with the stag way you will bring this on the world. If you wish to avoid this fate go back to the enchanted forest and explore it with your temptation as you did to find the stag door."
     },
     {
         "id": "catgirl_detects_alzo",

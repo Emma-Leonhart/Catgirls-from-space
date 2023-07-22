@@ -16,6 +16,13 @@
             "flavour": "Melancholy",
             "anim": "DramaticLightEvil",
             "achievement": "A_ENDING_ARREST"
+        },
+        {
+            "id": "world_revolution",
+            "label": "The Hand has been defeated",
+            "description": "Now humanity can chart its own path free of the hand. [More work will be done on variations of endings such as cryonics and ninefold vaccine in the future]",
+            "flavour": "Grand",
+            "anim": "DramaticLight"
         }
     ]
 }

@@ -51,6 +51,34 @@
             "$priority": 500
         },
         {
+            "id": "catgirl_great_work",
+            "label": "World Revolution?",
+            "actionid": "work",
+            "startdescription": "To start a world revolution, work with your catgirl ascension, with seven ascension marks, in a city with an active revolt.",
+            "craftable": true,
+            "$priority": 500,
+            "requirements":{
+                "catgirl_dedication_3": 1
+            },
+            "hintonly": true
+        },
+        {
+            "id": "catgirl_world_revolution",
+            "label": "World Revolution?",
+            "actionid": "work",
+            "startdescription": "To start a world revolution, work with your catgirl ascension, with seven ascension marks, in a city with an active revolt.",
+            "craftable": true,
+            "$priority": 700,
+            "requirements":{
+                "catgirl_dedication_3": 1,
+                "nekomarks": 7
+            },
+            "extantreqs":{
+                "turmoil": 1
+            },
+            "ending": "world_revolution"
+        },
+        {
             "id": "dreamascensioncapitala",
             "label": "Meditate on the pursuit of money",
             "actionid": "dream",

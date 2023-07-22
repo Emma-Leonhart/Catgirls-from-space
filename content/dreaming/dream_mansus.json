@@ -464,6 +464,10 @@
           "chance": 100
         },
         {
+          "id": "dreamstag_capital_to_catgirl",
+          "chance": 100
+        },
+        {
           "id": "dreamreachstagsubsequent",
           "chance": 100
         }
@@ -471,6 +475,28 @@
       "warmup": 60,
       "aspects": {
         "fatiguing": 1
+      }
+    },
+    {
+      "id": "dreamstag_capital_to_catgirl",
+      "label": "Dedicate myself to cats",
+      "actionid": "dream",
+      "requirements": {
+        "waywhite": 1,
+        "desire": 1
+      },
+      "startdescription": "I will rededicate myself to the cats of the enchanted forest. Reject capitalism.",
+      "description": "I have finished my rededication. Now I'm ready to save the world",
+      "alt": [
+        {
+          "id": "poison.long.way.trap",
+          "additional": true
+        }
+      ],
+      "warmup": 10,
+      "aspects": {
+        "fatiguing": 1,
+        "catgirlize": 1
       }
     },
     {
