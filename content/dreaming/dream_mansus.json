@@ -537,6 +537,10 @@
       },
       "linked":[
         {
+          "id": "dreamreachstag_capitalism",
+          "chance": 100
+        },
+        {
           "id": "dreamreachstag_success",
           "chance": 100
         },
@@ -545,6 +549,53 @@
           "chance": 100
         }
       ]
+    },
+    {
+      "id": "dreamreachstag_capitalism",
+      "label": "Second Thoughts",
+      "requirements": {
+        "waywhite": 1,
+        "capitalmarks": 1
+      },
+      "warmup": 90,
+      "actionid": "dream",
+      "slots": [
+        {
+          "id": "Passion",
+          "label": "passion",
+          "required": {
+            "passion": 1
+          }
+        }
+      ],
+      "startdescription": "As I ascend I question my dedication. Should I really dedicate myself to capital when kitties are so cute? [give your passion to change your dedication]",
+      "linked":[
+        {
+          "id": "changededication_capital_to_catgirl",
+          "chance": 100
+        },
+        {
+          "id": "dreamreachstag_success",
+          "chance": 100
+        },
+        {
+          "id": "dreamreachstag_not_dedicated",
+          "chance": 100
+        }
+      ]
+    },
+    {
+      "id": "changededication_capital_to_catgirl",
+      "label": "Rededication",
+      "requirements": {
+        "waywhite": 1,
+        "capitalmarks": 1,
+        "passion": 1
+      },
+      "aspects":{
+        "catgirlize": 1
+      },
+      "description": "I have decided my priorities. I will promote cuteness and cats over capital"
     },
     {
       "id": "dreamreachstag_not_dedicated",

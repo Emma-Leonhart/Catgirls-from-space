@@ -8,7 +8,10 @@
                 "capitalmarks": 1
             },
             "description": "I could achieve experiences of an intensity few could imagine. [This card will allow you to win a Capital victory,  if you upgrade it far enough. Dreaming about it might advance or change it.]",
-            "uniquenessgroup": "uqdesire"
+            "uniquenessgroup": "uqdesire",
+            "xtriggers":{
+                "catgirlize": "catgirl_dedication_1"
+            }
         },
         {
             "id": "ascensioncapitalb",
@@ -38,7 +41,10 @@
                     "description": "I will require sufficient of the surging intensities of the Hand."
                 }
             ],
-            "uniquenessgroup": "uqdesire"
+            "uniquenessgroup": "uqdesire",
+            "xtriggers":{
+                "catgirlize": "catgirl_dedication_2"
+            }
         },
         {
             "id": "ascensioncapitalc",
