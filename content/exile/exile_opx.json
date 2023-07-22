@@ -205,7 +205,7 @@
             "label": "Betray another Uprising?",
             "startdescription": "One at a time is enough.",
             "requirements": {
-                "connection.radicals": 1,
+                "connection_radicals": 1,
                 "winter": 2,
                 "domicile": 1,
                 "location": 1,
@@ -224,7 +224,7 @@
             "startdescription": "One at a time is enough.",
             "comments": "Assumes Radicals add Forge 6",
             "requirements": {
-                "connection.radicals": 1,
+                "connection_radicals": 1,
                 "forge": 8,
                 "domicile": 1,
                 "location": 1,
@@ -658,7 +658,7 @@
             "actionid": "work",
             "label": "Use Connections with Radicals?",
             "requirements": {
-                "connection.radicals": 1
+                "connection_radicals": 1
             },
             "startdescription": "[Use Forge to assist an Uprising, or Winter to betray it. This is only possible in Troubled cities.]",
             "craftable": false,
@@ -670,7 +670,7 @@
             "label": "Foment Chaos for the Wolf Divided",
             "startdescription": "'Caput gerat lupinum.' Well, why not, then? What do I owe to anyone, after all? [This will cause suffering and destruction. There will be an opportunity for profit; and it'll be harder for the reckoners to pick up your trail.]",
             "requirements": {
-                "connection.radicals": 1,
+                "connection_radicals": 1,
                 "op.wolf": 1,
                 "domicile": 1,
                 "location": 1,
@@ -694,7 +694,7 @@
                         "limit": 5,
                         "filter": {
                             "space": 1,
-                            "op.connection.radicals": 1,
+                            "op.connection_radicals": 1,
                             "domicile": 1,
                 "location": 1,
                             "temptation.defiance": 1,
@@ -711,7 +711,7 @@
             "label": "Betray an Uprising",
             "startdescription": "This has been a century for revolutions, and it's hardly begun. I'll be saving lives [There will be an opportunity for profit, and you'll win favour with the local authorities. The Colonel likes the status quo.]",
             "requirements": {
-                "connection.radicals": 1,
+                "connection_radicals": 1,
                 "winter": 2,
                 "domicile": 1,
                 "location": 1,
@@ -735,7 +735,7 @@
                         "limit": 5,
                         "filter": {
                             "space": 1,
-                            "op.connection.radicals": 1,
+                            "op.connection_radicals": 1,
                             "domicile": 1,
                 "location": 1,
                             "temptation.defiance": 1
@@ -752,7 +752,7 @@
             "startdescription": "It'll be messy, but it might even make the world a better place, eventually. [There will be an opportunity for profit; and it'll be harder for the reckoners to pick up your trail. The Lionsmith likes rebellions.]",
             "comments": "Assumes Radicals add Forge 6",
             "requirements": {
-                "connection.radicals": 1,
+                "connection_radicals": 1,
                 "forge": 8,
                 "domicile": 1,
                 "location": 1,
@@ -776,7 +776,7 @@
                         "limit": 5,
                         "filter": {
                             "space": 1,
-                            "op.connection.radicals": 1,
+                            "op.connection_radicals": 1,
                             "domicile": 1,
                             "location": 1,
                             "catgirl_dedication_3": 1
@@ -1840,10 +1840,10 @@
             },
             "effects": {
                 "connection_ruler": 1,
-                "op.connection.radicals": -1
+                "op.connection_radicals": -1
             },
             "purge": {
-                "connection.radicals": 100
+                "connection_radicals": 100
             },
             "warmup": 30,
             "linked": [

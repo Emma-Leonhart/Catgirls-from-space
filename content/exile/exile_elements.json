@@ -4664,7 +4664,8 @@
             "lifetime": 300
         },
         {
-            "id": "op.connection.radicals",
+            "id": "op.connection_radicals",
+            "icon": "op.connection.radicals",
             "label": "Opportunity: a Connection with Radicals?",
             "aspects": {
                 "op": 1,
@@ -4672,8 +4673,8 @@
             },
             "description": "This might have consequences. But I'm probably not planning to stick around.",
             "xtriggers": {
-                "purchase": "connection.radicals",
-                "renewal.exile": "op.connection.radicals"
+                "purchase": "connection_radicals",
+                "renewal.exile": "op.connection_radicals"
             },
             "slots": [
                 {
@@ -5148,7 +5149,7 @@
             "description": "A mutually beneficial arrangement with someone of real power.",
             "xtriggers": {
                 "fatiguing": "op.connection_ruler",
-                "provoking": "connection.radicals"
+                "provoking": "connection_radicals"
             }
         },
         {
@@ -5182,12 +5183,13 @@
             "description": "A mutually beneficial arrangement with a learned holy man.",
             "xtriggers": {
                 "fatiguing": "op.connection.holy",
-                "provoking": "connection.radicals"
+                "provoking": "connection_radicals"
             }
         },
         {
-            "id": "connection.radicals",
+            "id": "connection_radicals",
             "label": "Connection: Radicals",
+            "icon": "connection.radicals",
             "aspects": {
                 "connection": 1,
                 "asset": 1,
@@ -5229,7 +5231,7 @@
             ],
             "description": "A mutually beneficial arrangement with revolutionaries or other enthusiasts.",
             "xtriggers": {
-                "fatiguing": "op.connection.radicals",
+                "fatiguing": "op.connection_radicals",
                 "provoking": "connection_official"
             }
         },
@@ -7899,7 +7901,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection.radicals",
+                        "id": "connection_radicals",
                         "morpheffect": "spawn"
                     },
                     {

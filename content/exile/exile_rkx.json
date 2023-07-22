@@ -400,7 +400,7 @@
                     "required": {
                         "connection_ruler": 1,
                         "connection_underworld": 1,
-                        "connection.radicals": 1,
+                        "connection_radicals": 1,
                         "connection_official": 1,
                         "decade.stolen": 1
                     }
@@ -468,7 +468,7 @@
             "requirements": {
                 "connection_ruler": -1,
                 "connection_underworld": -1,
-                "connection.radicals": -1
+                "connection_radicals": -1
             },
             "warmup": 10,
             "effects": {
@@ -640,7 +640,7 @@
                     "required": {
                         "connection_ruler": 1,
                         "connection_underworld": 1,
-                        "connection.radicals": 1,
+                        "connection_radicals": 1,
                         "connection_official": 1,
                         "decade.stolen": 1
                     }
@@ -716,7 +716,7 @@
             "requirements": {
                 "connection_ruler": -1,
                 "connection_underworld": -1,
-                "connection.radicals": -1
+                "connection_radicals": -1
             },
             "warmup": 10,
             "effects": {
