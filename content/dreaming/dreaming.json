@@ -115,6 +115,24 @@
         "effects":{
             "waywhite": 1
         }
-      }
+      },
+      {
+        "id": "dream_vision_of_doom",
+        "label": "Dwell on my visions of doom",
+        "actionid": "dream",
+        "requirements": {
+            "vision_of_doom": 1
+        },
+        "effects": {
+            "vision_of_doom": -1,
+            "dread": 1,
+            "fascination": 1,
+            "capitalisticness": 1
+        },
+        "startdescription": "An understanding neither dare speak aloud? A quarrel, and its aftermath?",
+        "description": "This might permit me to hesitate.",
+        "craftable": true,
+        "warmup": 10
+    }
     ]
 }

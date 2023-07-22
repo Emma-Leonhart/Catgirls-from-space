@@ -176,6 +176,18 @@
                 "way": 1
             },
             "unique": true
+        },
+        {
+            "id": "vision_of_doom",
+            "icon": "memorybittersweet",
+            "label": "Memory of planets",
+            "description": "I could recall entire civilizations razed to the ground.",
+            "aspects": {
+                "way": 1,
+                "memory": 1
+            },
+            "lifetime": 300,
+            "decayTo": "fascination"
         }
     ]
 }
