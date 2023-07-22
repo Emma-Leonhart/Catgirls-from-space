@@ -1,7 +1,8 @@
 {
     "elements":[
         {
-            "id": "op.licence.cop",
+            "id": "op_licence_cop",
+            "icon": "op.licence.cop",
             "label": "Opportunity: Become Detective?",
             "aspects": {
                 "op": 1,
@@ -10,7 +11,7 @@
             "description": "I could take this opportunity to qualify, extremely rapidly, as a cop.",
             "xtriggers": {
                 "negotiation": "licence.cop",
-                "renewal.exile": "op.licence.cop"
+                "renewal.exile": "op_licence_cop"
             },
             "slots": [
                 {
@@ -36,7 +37,7 @@
             "description": "I could take this opportunity to qualify, extremely rapidly, as a dancer.",
             "xtriggers": {
                 "negotiation": "intro_legacydancerjob",
-                "renewal.exile": "op.licence.cop"
+                "renewal.exile": "op_licence_cop"
             },
             "slots": [
                 {
