@@ -18,19 +18,24 @@ comments: "but this should only be drawn from once."
 	},
 	
 	
-			{id: "mansus_wood",
-	spec:
-		["influencehandc",
-		"dread",
-		"rage",
-	"connection_official"],
-		drawmessages:{influencehandc:"'In the shadows of our collective journey, I found myself ensnared in a dark forest of invisible threads. It is challenging to articulate how deep, silent, and omnipresent that forest was...' My memory falters when I try to recall last night, amidst the darkened depths of the forest, where spectral hands brushed against my own. Yet this dawn, my mind hums with fragments: PECUNIA SI UTI SCIS ANCILLA EST SI NESCIS DOMINA'",
-		dread:"Under the oppressive canopy of our collective fear, I lost my way in a forest so silent it screamed. To convey the depth of that silence, the weight of the unseen terror it concealed, is a task that threatens to break my resolve. The chilling memory of last night within the forest's unlit labyrinth, where phantom whispers of the cannibalistic inhabitants clawed at my sanity, lingers like a specter. The rustling, the dreadful anticipation, the presence of a menace hidden in the shadows. This morning, my mind is an echo chamber of horror. Whispers of the unseen, terror of the forest-dwellers, dread of being the hunted prey in the dark forest.",
-		rage:"'In the belly of the dark forest, I bore witness to an unspeakable act that shook the very core of my being. Hidden among the gnarled trees and thick undergrowth, primal violence unveiled its grotesque face. A woman, a victim, was violated by heartless savages, their grunts echoing in the haunting silence, their eyes reflecting the sinister glee of the act. The helplessness, the anger, the indignation. The revolting picture is etched deep within my consciousness, igniting a blaze of rage that refuses to die. Every time I close my eyes, I see her pain, hear her screams, and feel the beast of wrath clawing inside me, thirsting for justice.",
-		connection_official:"As I journeyed deeper into the inky shadows, a figure emerged, bearing the unmistakable aura of authority. In the midst of the encompassing gloom, our eyes met... Last night, within the confines of the Dark Forest, I believe I encountered the spirit of a lawman, a chief perhaps, lost and wandering. The precise content of our conversation is lost to the twilight, a muffled echo amidst the tree trunks. Yet, an unspoken bond was formed in the silence. I am confident that we will recognize each other in the realm of the waking, connected by our shared nocturnal encounter"
+	{
+		"id": "mansus_wood",
+		"spec": [
+			"influencehandc",
+			"dread",
+			"rage",
+			"connection_official"
+		],
+		"drawmessages": {
+			"influencehandc": "In the shadows of our collective journey, I found myself ensnared in a dark forest of invisible threads. It is challenging to articulate how deep, silent, and omnipresent that forest was... My memory falters when I try to recall last night, amidst the darkened depths of the forest, where spectral hands brushed against my own. Yet this dawn, my mind hums with fragments: PECUNIA SI UTI SCIS ANCILLA EST SI NESCIS DOMINA.",
+			"dread": "Under the oppressive canopy of our collective fear, I lost my way in a forest so silent it screamed. To convey the depth of that silence, the weight of the unseen terror it concealed, is a task that threatens to break my resolve. The chilling memory of last night within the forest's unlit labyrinth, where phantom whispers of the cannibalistic inhabitants clawed at my sanity, lingers like a specter. The rustling, the dreadful anticipation, the presence of a menace hidden in the shadows. This morning, my mind is an echo chamber of horror. Whispers of the unseen, terror of the forest-dwellers, dread of being the hunted prey in the dark forest.",
+			"rage": "In the belly of the dark forest, I bore witness to an unspeakable act that shook the very core of my being. Hidden among the gnarled trees and thick undergrowth, primal violence unveiled its grotesque face. A woman, a victim, was violated by heartless savages, their grunts echoing in the haunting silence, their eyes reflecting the sinister glee of the act. The helplessness, the anger, the indignation. The revolting picture is etched deep within my consciousness, igniting a blaze of rage that refuses to die. Every time I close my eyes, I see her pain, hear her screams, and feel the beast of wrath clawing inside me, thirsting for justice.",
+			"connection_official": "As I journeyed deeper into the inky shadows, a figure emerged, bearing the unmistakable aura of authority. In the midst of the encompassing gloom, our eyes met... Last night, within the confines of the Dark Forest, I believe I encountered the spirit of a lawman, a chief perhaps, lost and wandering. The precise content of our conversation is lost to the twilight, a muffled echo amidst the tree trunks. Yet, an unspoken bond was formed in the silence. I am confident that we will recognize each other in the realm of the waking, connected by our shared nocturnal encounter."
 		},
-resetonexhaustion:true
+		"resetonexhaustion": true,
+		"comment": "The Dark Forest, a location accessible via the Mansus"
 	},
+	
 		
 	{
 		"id": "mansus_wood1",
