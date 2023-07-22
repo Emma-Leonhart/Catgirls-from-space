@@ -75,27 +75,30 @@ resetonexhaustion:true
 resetonexhaustion:true
 	},
 
-	{id: "mansus_whitedoor1",
-	spec:
-		["influenceknockc",
-		"fragmentsecrethistoriesc",
-		"glimmering",
-		"erudition",
-		"fascination",
-		"obscurity",
-		"connection_underworld"
+	{
+		"id": "mansus_whitedoor1",
+		"spec": [
+			"influenceknockc",
+			"fragmentsecrethistoriesc",
+			"glimmering",
+			"erudition",
+			"fascination",
+			"obscurity",
+			"connection_underworld"
 		],
-				drawmessages:{influenceknockc:"Last night, within the Great Pavilion, a mysterious guide offered me a horn cup of dream-wine. 'The wine is imaginary,' she explained, 'but the cup is not. To navigate the Mansus, one must understand the distinction. Perhaps one day we'll journey together. Until then, let me share a secret -' and her breath stirred the silence.",
-				fragmentsecrethistoriesc:"Last night I visited the abode of the Enlightened Wanderer. My host, shrouded in an enigmatic air, offered me hidden truths. 'I bear the wisdom of countless lifetimes. Remember my teachings as you embark on your journey, and may they guide your path through the Mansus.'",
-				glimmering:"I remember my dream vividly. The Pavilion, set against the infinite expanse of the Bounds, and its mistress, welcoming me with open arms. 'Many have come and gone,' she confessed, 'but the longing for companionship never fades. Here is a memento of our encounter.'",
-				erudition:"In last night's dream, I found myself in the Pavilion, where the mysterious guide posed a riddle without a question. 'How do we speak without voice? I did not enter through the ordinary gate. I made my own. Remember my words, for they carry the weight of the Mansus.'",
-				fascination:"In the enveloping blue of the Pavilion, I watched two phantom figures contend with swords of light. 'These specters were here long before me, remnants of the Mansus' ancient occupants. Their dance is entrancing, isn't it?'",
-				obscurity:"Within the Pavilion, I met the Keeper of Shadows. With a knowing look, he unveiled the Mansus' hidden corners. 'Shadows can be friends or foes. Learn their secrets, and they might aid you against the hunters in your pursuit.'",
-				connection_underworld:"Inside the Pavilion, I met the Patron of the Forgotten, a figure wrapped in dark intrigue. He held power and secrets in equal measure, hinting at a world unseen by many. 'The Mansus is more than meets the eye. Remember this and find your way in the dark.'"
-			},
-		
-	resetonexhaustion:true
+		"drawmessages": {
+			"influenceknockc": "Last night, within the Great Pavilion, a mysterious guide offered me a horn cup of dream-wine. 'The wine is imaginary,' she explained, 'but the cup is not. To navigate the Mansus, one must understand the distinction. Perhaps one day we'll journey together. Until then, let me share a secret -' and her breath stirred the silence.",
+			"fragmentsecrethistoriesc": "Last night I visited the abode of the Enlightened Wanderer. My host, shrouded in an enigmatic air, offered me hidden truths. 'I bear the wisdom of countless lifetimes. Remember my teachings as you embark on your journey, and may they guide your path through the Mansus.'",
+			"glimmering": "I remember my dream vividly. The Pavilion, set against the infinite expanse of the Bounds, and its mistress, welcoming me with open arms. 'Many have come and gone,' she confessed, 'but the longing for companionship never fades. Here is a memento of our encounter.'",
+			"erudition": "In last night's dream, I found myself in the Pavilion, where the mysterious guide posed a riddle without a question. 'How do we speak without voice? I did not enter through the ordinary gate. I made my own. Remember my words, for they carry the weight of the Mansus.'",
+			"fascination": "In the enveloping blue of the Pavilion, I watched two phantom figures contend with swords of light. 'These specters were here long before me, remnants of the Mansus' ancient occupants. Their dance is entrancing, isn't it?'",
+			"obscurity": "Within the Pavilion, I met the Keeper of Shadows. With a knowing look, he unveiled the Mansus' hidden corners. 'Shadows can be friends or foes. Learn their secrets, and they might aid you against the hunters in your pursuit.'",
+			"connection_underworld": "Inside the Pavilion, I met the Patron of the Forgotten, a figure wrapped in dark intrigue. He held power and secrets in equal measure, hinting at a world unseen by many. 'The Mansus is more than meets the eye. Remember this and find your way in the dark.'"
+		},
+		"resetonexhaustion": true,
+		"comment": "The Great Pavilion, a location accessible via the White Door, formerly the Lodge"
 	},
+	
 	{
 		"id": "mansus_whitedoor2",
 		"spec": [
@@ -115,7 +118,7 @@ resetonexhaustion:true
 			"connection_radical": "Deep in the Orchard of Lights, a Radical Dreamer, a visionary, stirs up the serenity with fervor and fire. His passionate discourses spark a desire for change, even in this place of unchanging beauty, illuminating the radical potential that dreams can hold.",
 		},
 		"resetonexhaustion": true,
-		"comment": "Orchard of Light, location accessible by the white door" 
+		"comment": "Orchard of Light, location accessible by the white door/enchanted forest" 
 	},
 	
 
