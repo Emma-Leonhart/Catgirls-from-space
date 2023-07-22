@@ -786,7 +786,7 @@
           "label": "Ascent",
           "description": "Invest Reason to pass the Stag Door - or, with the right lore, find the way to the Spider's Door, the door where blood is spilled.",
           "required": {
-            "reason": 1,
+            "health": 1,
             "lore": 1
           }
         }
@@ -867,7 +867,7 @@
       "craftable": false,
       "requirements": {
         "waystag_after": 1,
-        "reason": 1
+        "health": 1
       },
       "aspects": {
         "fatiguing": 1
@@ -972,7 +972,7 @@
       }
     },
     {
-      "id": "dreamnotquitereachspidergrail",
+      "id": "dreamnotquitereachpeacockgrail",
       "label": "The Silken Sands: Not Enough!",
       "actionid": "dream",
       "requirements": {
@@ -996,7 +996,7 @@
       "warmup": 10
     },
     {
-      "id": "dreamreachspidergrail",
+      "id": "dreamreachpeacockgrail",
       "label": "Approaching The Spider's Door",
       "actionid": "dream",
       "requirements": {
@@ -1028,7 +1028,7 @@
           "label": "Ascent",
           "description": "Provide a blood sacrifice to satisfy the THIRST of the Spider's Door - or, with the right lore, find the way to the Peacock's Door, the door where light is spilt like blood.",
           "required": {
-            "prisoner": 1,
+            "passion": 1,
             "lore": 1
           }
         }
@@ -1112,9 +1112,9 @@
       "craftable": false,
       "requirements": {
         "wayspider": 1,
-        "prisoner": 1
+        "passion": 1
       },
-      "startdescription": "The Spider's Door is always THIRSTY. Always. The blood I have given leaks in threads and spills through the skin of the world, and the Door drinks it and a moment's satisfaction swells its opening until I can pass.",
+      "startdescription": "The Spider's Door is forever DESIROUS. Always. The love I have pledged seeps in tendrils and saturates the fabric of existence, and the Door absorbs it. A moment's fulfillment swells its threshold until I can traverse, stepping into a realm of infinite possibilities, a domain where love and transformation hold sway..",
       "alt": [
         {
           "id": "poison.long.way.trap",
@@ -1122,7 +1122,7 @@
         }
       ],
       "effects": {
-        "prisoner": -1
+        "passion": -1
       },
       "description": ".",
       "portaleffect": "spiderdoor",
@@ -1271,7 +1271,8 @@
           "label": "Ascent",
           "description": "The Peacock Door does not open, exactly.",
           "required": {
-            "tool": 1
+            "tool": 1,
+            "reason": 1
           }
         }
       ],
@@ -1340,6 +1341,10 @@
           "chance": 100
         },
         {
+          "id": "dreamenterpeacockreason",
+          "chance": 100
+        },
+        {
           "id": "dreamenterpeacockmirror",
           "chance": 100
         },
@@ -1349,6 +1354,30 @@
         }
       ],
       "warmup": 60
+    },
+    {
+      "id": "dreamenterpeacockreason",
+      "label": "Passing the Peacock's Door",
+      "actionid": "dream",
+      "craftable": false,
+      "requirements": {
+        "waypeacock": 1,
+        "reason": 1
+      },
+      "startdescription": "The Peacock's Door echoes the balance of reason and desire I maintain in my dreams, and the balance, in turn, reflects the Peacock's Door. Already, a thrilling equilibrium pulses across its threshold. It yearns for harmony, and when it achieves this synchrony, I will venture in..",
+      "description": ".",
+      "alt": [
+        {
+          "id": "poison.long.way.trap",
+          "additional": true
+        }
+      ],
+      "portaleffect": "peacockdoor",
+      "aspects": {
+        "crackmirror": 1,
+        "fatiguing": 1
+      },
+      "warmup": 0
     },
     {
       "id": "dreamenterpeacockmirror",
