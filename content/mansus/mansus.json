@@ -58,22 +58,23 @@ resetonexhaustion:true
 		
 resetonexhaustion:true
 	},
-			{id: "mansus_whitedoor",
+	{id: "mansus_whitedoor",
 	spec:
 		["influencemoth",
 		"fragmentsecrethistoriesb",
 		"restlessness",
 		"op_cats",
 	"rumour"],	
-				drawmessages:{op_cats:"In the heart of the Enchanted Forest, feline figures tread with delicate grace, their gleaming eyes reflecting the verdant light. Telepathic whispers, like rustling leaves, fill my mind. I am drawn into their thoughts, each word clear as if spoken aloud. They lead me, thought by thought, to an image of their location in the waking world, a place now imprinted in my consciousness.",
-					influencemoth:"'In the midst of the journey of our life, I found myself in a dark wood without paths. It is difficult to express how wild, harsh and impenetrable that wood was...' I don't recall exactly what occurred, last night, in the beating black between the trunks of the trees, where winged things moved beneath my hands. But now this morning my brain fizzes with fragments: IN GI RUM IMUS NOC TE ET CON SUMI MUR IGNI RUM IMUS NOC TE ET CON SUMI MUR -'",
-		fragmentsecrethistoriesb:"I walked in the Wood last night, and the scissors worked in the distance and the furred things crammed my mouth and swarmed my ears, and I felt the old urge to drop to wolf-fours and nose among the roots. But I remembered that I walk upright by day and I know fire and steel and words, and at last I found where the Velvet had concealed a secret on tree-bark beneath moss. I read it then with the tips of my fingers, and I think now that I could write it in full.. ",
-		restlessness:"In the embrace of the Enchanted Forest, spirits of the departed roam in serenity, their memories and passions interwoven with the trees. Among the lilac blooms and under the sapphire glow, I found myself at the heart of a gathering. Yet amidst their tranquility, an unsettled undercurrent pulsed. The ghosts' ethereal eyes found mine, their forms shifting, uneasy. Their stories, their unresolved yearnings, stirred the air around me. Their restlessness found a home in me, sparking a similar disquiet in my own spirit. Their urge to communicate, their unfinished tales, instilled a resonance in my very being..",
-		rumour:"'While I was returning to the depths, one appeared, in front of my eyes, whose mouth was sealed. When I saw them, in the great emptiness, I cried out...' I think that last night I met another soul in the Wood. I will never recall exactly what we said, one to another, but I think that we will recognise each other in the waking world.",
+				drawmessages:{op_cats:"Deep within the Enchanted Forest, elegant felines move with ethereal grace. Their eyes shimmer with the rich hues of the forest, their minds echo with whispered wisdom. Their thoughts unfurl in my mind, every unspoken word resonating like a clear call in the stillness. Guided by their silent counsel, an image of their abode in the realm of wakefulness is etched into my consciousness.",
+					influencemoth:"'During our life's voyage, I found myself amidst a pathless forest, its darkness profound and overwhelming. The sheer wildness, the unyielding harshness, the thick impenetrability of the woods are ineffable...' Memories of the previous night remain hazy, where the shadows played tricks and ethereal wings brushed my skin in the spaces between the towering trees. This dawn, my mind buzzes with broken fragments: IN GI RUM IMUS NOC TE ET CON SUMI MUR IGNI RUM IMUS NOC TE ET CON SUMI MUR -'",
+		fragmentsecrethistoriesb:"The previous night saw me in the Forest, where unseen hands crafted shadows, and soft fur filled my senses. I felt a primal urge to succumb to my beastly instincts, to traverse on all fours and investigate the labyrinthine root network. Yet, the memory of my upright stature, my control over flame, iron, and language reigned me in. At the end, I discovered a secret shielded by Velvet, hidden under the mossy bark. The whispers of the bark under my fingertips now echo in written form..",
+		restlessness:"Engulfed in the serenity of the Enchanted Forest, spectral figures float, their life's memories and passions intertwined with the very essence of the woods. Amidst the lilac blooms, under the cobalt glow, I stood at the core of a spectral congress. Despite the calm, a subtle wave of unease rippled through. The spirits, their form in a constant state of flux, met my gaze with restless eyes. Their tales, their unresolved desires stirred a restive undercurrent. Their disquietude resonated within me, their unvoiced stories striking a chord in my core..",
+		rumour:"'As I retreated to the profound depths, a figure manifested before me, their mouth sealed in eternal silence. In the vast expanse of nothingness, their appearance startled me...' I believe that last night, another soul and I shared the woods. The specifics of our exchange might evade my memory, yet I am certain of our impending recognition in the world of wakefulness.",
 	},
 		
 resetonexhaustion:true
 	},
+
 	{id: "mansus_whitedoor1",
 	spec:
 		["influenceknockc",
