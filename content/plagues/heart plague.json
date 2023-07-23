@@ -1,8 +1,8 @@
 {
-    "recipes":[
+    "recipes": [
         {
             "id": "alienation",
-            "label": "Alienation lv 1",
+            "label": "Initial Phase of Alienation",
             "actionid": "alienation.plague",
             "linked": [
                 {
@@ -15,12 +15,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "I'm starting to feel lonely",
+            "startdescription": "You start to feel a growing sense of loneliness.",
             "slots": [
 				{
 					"id": "heart",
-					"label": "heart influence",
-					"description": "I need protection",
+					"label": "Strength of Pride",
+					"description": "Pride in oneself is needed as a buffer.",
 					"required": {
 						"heart": 1
 					},
@@ -30,7 +30,7 @@
         },
         {
             "id": "alienation.2",
-            "label": "Alienation lv 2",
+            "label": "Second Stage of Alienation",
             "actionid": "alienation.plague",
             "linked": [
                 {
@@ -45,12 +45,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "I'm starting to feel lonely. [Warning if you get to level 10 you will die]",
+            "startdescription": "You're adrift in a sea of faces, yet you feel all alone. Beware, at the tenth level, this isolation will be deadly.",
             "slots": [
 				{
 					"id": "heart",
-					"label": "heart influence",
-					"description": "I need protection",
+					"label": "Strength of Pride",
+					"description": "Pride in oneself is needed as a buffer.",
 					"required": {
 						"heart": 1
 					},
@@ -60,7 +60,7 @@
         },
         {
             "id": "alienation.3",
-            "label": "Alienation lv 3",
+            "label": "Third Stage of Alienation",
             "actionid": "alienation.plague",
             "linked": [
                 {
@@ -75,12 +75,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "I'm starting to feel lonely",
+            "startdescription": "You feel utterly detached, an outsider in your own life.",
             "slots": [
 				{
 					"id": "heart",
-					"label": "heart influence",
-					"description": "I need protection",
+					"label": "Strength of Pride",
+					"description": "Pride in oneself is needed as a buffer.",
 					"required": {
 						"heart": 1
 					},
@@ -90,7 +90,7 @@
         },
         {
             "id": "alienation.4",
-            "label": "Alienation lv 4",
+            "label": "Fourth Stage of Alienation",
             "actionid": "alienation.plague",
             "linked": [
                 {
@@ -105,12 +105,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "I'm starting to feel lonely",
+            "startdescription": "People and places around you seem like faint echoes, as though seen from a great distance.",
             "slots": [
 				{
 					"id": "heart",
-					"label": "heart influence",
-					"description": "I need protection",
+					"label": "Strength of Pride",
+					"description": "Pride in oneself is needed as a buffer.",
 					"required": {
 						"heart": 1
 					},
@@ -120,7 +120,7 @@
         },
         {
             "id": "alienation.5",
-            "label": "Alienation lv 5",
+            "label": "Fifth Stage of Alienation",
             "actionid": "alienation.plague",
             "linked": [
                 {
@@ -135,12 +135,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "I'm starting to feel lonely",
+            "startdescription": "The world around you is like a dream you can't partake in, everything seems unreal and distant.",
             "slots": [
 				{
 					"id": "heart",
-					"label": "heart influence",
-					"description": "I need protection",
+					"label": "Strength of Pride",
+					"description": "Pride in oneself is needed as a buffer.",
 					"required": {
 						"heart": 1
 					},
@@ -150,7 +150,7 @@
         },
         {
             "id": "alienation.6",
-            "label": "Alienation lv 6",
+            "label": "Sixth Stage of Alienation",
             "actionid": "alienation.plague",
             "linked": [
                 {
@@ -165,12 +165,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "I'm starting to feel lonely",
+            "startdescription": "You're lost in the wilderness of your own mind, the rest of humanity a distant shore.",
             "slots": [
 				{
 					"id": "heart",
-					"label": "heart influence",
-					"description": "I need protection",
+					"label": "Strength of Pride",
+					"description": "Pride in oneself is needed as a buffer.",
 					"required": {
 						"heart": 1
 					},
@@ -180,7 +180,7 @@
         },
         {
             "id": "alienation.7",
-            "label": "Alienation lv 7",
+            "label": "Seventh Stage of Alienation",
             "actionid": "alienation.plague",
             "linked": [
                 {
@@ -195,12 +195,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "I'm starting to feel lonely",
+            "startdescription": "You're a ghost, haunting the fringes of reality, unseen and untouched by humanity.",
             "slots": [
 				{
 					"id": "heart",
-					"label": "heart influence",
-					"description": "I need protection",
+					"label": "Strength of Pride",
+					"description": "Pride in oneself is needed as a buffer.",
 					"required": {
 						"heart": 1
 					},
@@ -210,7 +210,7 @@
         },
         {
             "id": "alienation.8",
-            "label": "Alienation lv 8",
+            "label": "Eighth Stage of Alienation",
             "actionid": "alienation.plague",
             "linked": [
                 {
@@ -225,12 +225,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "I'm starting to feel lonely",
+            "startdescription": "The gulf between you and the rest of humanity seems an insurmountable abyss.",
             "slots": [
 				{
 					"id": "heart",
-					"label": "heart influence",
-					"description": "I need protection",
+					"label": "Strength of Pride",
+					"description": "Pride in oneself is needed as a buffer.",
 					"required": {
 						"heart": 1
 					},
@@ -240,7 +240,7 @@
         },
         {
             "id": "alienation.9",
-            "label": "Alienation lv 9",
+            "label": "Ninth Stage of Alienation",
             "actionid": "alienation.plague",
             "linked": [
                 {
@@ -255,12 +255,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "I'm starting to feel lonely",
+            "startdescription": "Your soul feels like an echo bouncing in an infinite abyss. Human contact is a forgotten concept.",
             "slots": [
 				{
 					"id": "heart",
-					"label": "heart influence",
-					"description": "I need protection",
+					"label": "Strength of Pride",
+					"description": "Pride in oneself is needed as a buffer.",
 					"required": {
 						"heart": 1
 					},
@@ -270,7 +270,7 @@
         },
         {
             "id": "alienation.10",
-            "label": "Alienation lv 10",
+            "label": "Final Stage of Alienation",
             "actionid": "alienation.plague",
             "linked": [
                 {
@@ -281,13 +281,12 @@
                 }
             ],
             "warmup": 60,
-            "startdescription": "I'm starting to feel lonely",
-            "ending": "alienation",
+            "startdescription": "You have become a phantom among the living, entirely cut off from the human experience.",
             "slots": [
 				{
 					"id": "heart",
-					"label": "heart influence",
-					"description": "I need protection",
+					"label": "Strength of Pride",
+					"description": "Pride in oneself is needed as a buffer.",
 					"required": {
 						"heart": 1
 					},
