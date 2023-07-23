@@ -285,7 +285,8 @@
 					},
 					"greedy": false
 				}
-			]
+			],
+            "ending": "drowning"
         },
         {
             "id": "drowning.resolve.early",

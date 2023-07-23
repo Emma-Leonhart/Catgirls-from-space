@@ -15,6 +15,59 @@
             ]
         },
         {
+            "id": "inflict_all_plagues",
+            "label": "You are tripping off the path",
+            "actionid": "inflict_plague_verb",
+            "warmup": 60,
+            "alt": [
+                {
+                    "id": "alienation",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "angst",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "absurdity",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "forgetting",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "spiralling",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "drowning",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "locking",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "ego",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "limitation",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
             "id": "inflict_plague_2",
             "actionid": "inflict_plague_verb",
             "linked":[

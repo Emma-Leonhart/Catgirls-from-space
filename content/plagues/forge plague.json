@@ -280,6 +280,7 @@
                     }
                 }
             ],
+            "ending": "ego",
             "warmup": 60,
             "startdescription": "Your ego is overwhelming. You're completely trapped in your self-concept and unable to adapt to new situations or challenges. [You've reached level 10 - any further and you will die]",
             "slots": [
@@ -295,10 +296,29 @@
             ]
         },
         {
+            "id": "ego.resolve.early",
+            "label": "ego resolved",
+            "requirements": {
+                "forge": 2
+            },
+            "linked":[
+                {
+                    "id": "ego.resolve",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "I feel the pull of the current lessen, the wave of confusion starts to subside. The balance between my instincts and rationality begins to restore.",
+            "description": "A breath of fresh air fills my lungs as I resurface from the overwhelming waves of wantonness and analysis paralysis. The waters of life seem more navigable now."
+        },
+        {
             "id": "ego.resolve",
             "label": "Ego Resolved",
             "startdescription": "You've begun the difficult process of ego death, focusing on objective ways to improve and grow.",
-            "description": "You've successfully overcome the ego plague, breaking free from the trap of your rigid self-concept. You now can adapt to change and challenges, empathize with others, and maintain a humble and equal approach towards others. Your ego is no longer in control."
+            "description": "You've successfully overcome the ego plague, breaking free from the trap of your rigid self-concept. You now can adapt to change and challenges, empathize with others, and maintain a humble and equal approach towards others. Your ego is no longer in control.",
+            "effects":{
+                "fragmentforge": 1,
+                "influenceforgee": 1
+            }
         }
     ]
 }

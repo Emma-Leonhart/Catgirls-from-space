@@ -265,7 +265,7 @@
                         "grail": 1
                     },
                     "greedy": false
-                }
+                } 
             ]
         },
         {
@@ -296,7 +296,33 @@
                     },
                     "greedy": false
                 }
-            ]
+            ],
+            "ending": "spiralling"
+        },
+        {
+            "id": "spiralling.resolve.early",
+            "label": "spiralling resolved",
+            "requirements": {
+                "forge": 2
+            },
+            "linked":[
+                {
+                    "id": "spiralling.resolve",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "I feel the pull of the current lessen, the wave of confusion starts to subside. The balance between my instincts and rationality begins to restore.",
+            "description": "A breath of fresh air fills my lungs as I resurface from the overwhelming waves of wantonness and analysis paralysis. The waters of life seem more navigable now."
+        },
+        {
+            "id": "spiralling.resolve",
+            "label": "Ego Resolved",
+            "startdescription": "You've begun the difficult process of ego death, focusing on objective ways to improve and grow.",
+            "description": "You've successfully overcome the ego plague, breaking free from the trap of your rigid self-concept. You now can adapt to change and challenges, empathize with others, and maintain a humble and equal approach towards others. Your ego is no longer in control.",
+            "effects":{
+                "fragmentgrail": 1,
+                "influencegraile": 1
+            }
         }
     ]
 }

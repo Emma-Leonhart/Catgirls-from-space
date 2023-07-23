@@ -292,13 +292,14 @@
 					},
 					"greedy": false
 				}
-			]
+			],
+            "ending": "alienation"
         },
         {
             "id": "alienation.resolve.early",
             "label": "Alienation resolved",
             "requirements": {
-                "heart": 2
+                "heart": 2 
             },
             "linked":[
                 {

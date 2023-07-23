@@ -1,0 +1,31 @@
+{
+    "recipes":
+    [
+        {"id": "berserker_assault",
+        "effects":{
+            "long.lesson.connections": 10,
+            "long.lesson.dreamwork": 10,
+            "long.lesson.might": 10,
+            "welland_unknown": 1
+        },
+        "linked": [
+                {
+                    "id": "long.refinestrategy.dreams.learndreams.followup",
+                    "chance": 70
+                },
+                {
+                    "id": "long.intrigue.confrontation",
+                    "chance": 50
+                },
+                {
+                    "id": "long.dreams.confrontation",
+                    "chance": 100
+                },
+                {
+                    "id": "long.assault.confrontation",
+                    "chance": 100
+                },
+            ]
+        }
+    ]
+}

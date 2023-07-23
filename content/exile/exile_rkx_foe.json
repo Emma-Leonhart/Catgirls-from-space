@@ -16,10 +16,6 @@
                 {
                     "id": "rkx.spawn.escort",
                     "additional": true
-                },
-                {
-                    "id": "catgirl_spawn_long",
-                    "additional": true
                 }
             ],
             "linked": [
