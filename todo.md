@@ -4,10 +4,6 @@ Get mansus image replaced with dll modding
 
 make a default lever entry for cryonics so you can play cryonics legacy without issues that way
 
-Implement plagues
-* need to be balanced to be a long term thing but insidious
-* using opium will lead to addiction
-
 Update final boss ai
 * currently he just operates as the generic foe
 * I want him to do clever long stuff
@@ -18,6 +14,7 @@ Update final boss ai
 
 Fix balance of late game
 * 99 years is a lot when they are renewable, thinking 33 instead
+** Implemented
 
 Remove unnecessary bloat, particularly when in game code is replicated for minimal reason.
 
@@ -25,11 +22,8 @@ Implement capers from the beginning on all legacies
 
 Implement travel and relinquish from the beginning on all legacies
 
-Overhaul the exile legacy start
-* Should start more like an apostle legacy
-
 Make a decision on whether to ban dlc legacies in this mod
 * Exception obviously being exile
 
 Implement generic secret histories followers and secret histories cult work
-* Might make it related to capersN
+* Might make it related to capers
