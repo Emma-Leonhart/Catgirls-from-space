@@ -143,35 +143,6 @@
             ]
         },
         {
-            "id": "long.selectstrategy",
-            "actionid": "long",
-            "label": "A Decision",
-            "startdescription": "Our immortal enemy has decided on a course of action.",
-            "requirements": {},
-            "deckeffects": {
-                "long.strategies": 1
-            },
-            "warmup": 5,
-            "craftable": false,
-            "alt": [
-                {
-                    "id": "long.preparestrategy.preference.assault"
-                },
-                {
-                    "id": "long.preparestrategy.preference.intrigue"
-                },
-                {
-                    "id": "long.preparestrategy.preference.dreamwork"
-                }
-            ],
-            "linked": [
-                {
-                    "id": "long.preparestrategy",
-                    "chance": 100
-                }
-            ]
-        },
-        {
             "id": "long.preparestrategy.preference.assault",
             "label": "A Decision",
             "actionid": "long",

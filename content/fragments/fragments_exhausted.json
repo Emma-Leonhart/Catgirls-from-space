@@ -1000,7 +1000,8 @@
         "description": "The invisible hand, in its inscrutable wisdom, has ceased its guidance for now. It needs time to recover its strength. Its touch will bring prosperity again, its movement will ensure growth. Patience is needed.",
         "decayTo": "fragmenthand",
         "lifetime": 300,
-        "resaturate": true
+        "resaturate": true,
+        "icon": "fragmenthand"
     },
     {
         "id": "fragmenthandb.exhausted",
@@ -1012,7 +1013,8 @@
         "description": "The whispers of the invisible hand have fallen silent. The halls of commerce are quiet, the secrets concealed. Patience is required. The whisper will return, the fortunes will be nudged again.",
         "decayTo": "fragmenthandb",
         "lifetime": 260,
-        "resaturate": true
+        "resaturate": true,
+        "icon": "fragmenthandb"
     },
     {
         "id": "fragmenthandc.exhausted",
@@ -1024,7 +1026,8 @@
         "description": "The invisible hand's touch has turned leaden, the riches it bestowed have been spent. Its enigmatic riddle waits for an answer, the key lies hidden. Time will restore its golden touch.",
         "decayTo": "fragmenthandc",
         "lifetime": 220,
-        "resaturate": true
+        "resaturate": true,
+        "icon": "fragmenthandc"
     },
     {
         "id": "fragmenthandd.exhausted",
@@ -1036,7 +1039,8 @@
         "description": "The relentless activity of the Berserker Probes has ceased, the warnings have been heeded. Their unseen manipulations are at a halt. The warnings will return, the probes will continue their labor.",
         "decayTo": "fragmenthandd",
         "lifetime": 180,
-        "resaturate": true
+        "resaturate": true,
+        "icon": "fragmenthandd"
     },
     {
         "id": "fragmenthande.exhausted",
@@ -1048,7 +1052,8 @@
         "description": "The cosmic puppet show has reached its intermission. The alien entity pulls back its strings, giving its puppets a rest. But the show will go on, the testament will continue to unfold.",
         "decayTo": "fragmenthande",
         "lifetime": 140,
-        "resaturate": true
+        "resaturate": true,
+        "icon": "fragmenthande"
     },
     {
         "id": "fragmenthandf.exhausted",
@@ -1060,7 +1065,8 @@
         "description": "The harvester of worlds has withdrawn its gaze. The Hand rests, its dark revelation dimmed for a while. But the gaze will return, the revelation will manifest again.",
         "decayTo": "fragmenthandf",
         "lifetime": 100,
-        "resaturate": true
+        "resaturate": true,
+        "icon": "fragmenthandf"
     },
     {
         "id": "fragmenthandg.exhausted",
@@ -1073,7 +1079,8 @@
         "decayTo": "fragmenthandg",
         "lifetime": 60,
         "resaturate": true,
-        "unique": true
+        "unique": true,
+        "icon": "fragmenthandg"
     }
     
     ]

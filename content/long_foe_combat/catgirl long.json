@@ -13,13 +13,13 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "long.cycle",
+                    "id": "cat.cycle",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "long.cycle",
+            "id": "cat.cycle",
             "label": "Someone is Watching",
             "actionid": "long",
             "effects": {
@@ -46,15 +46,15 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "long.upgrade.might",
+                    "id": "cat.upgrade.might",
                     "chance": 100
                 },
                 {
-                    "id": "long.upgrade.connections",
+                    "id": "cat.upgrade.connections",
                     "chance": 100
                 },
                 {
-                    "id": "long.upgrade.dreamwork",
+                    "id": "cat.upgrade.dreamwork",
                     "chance": 100
                 },
                 {
@@ -71,7 +71,37 @@
             ],
             "linked": [
                 {
-                    "id": "long.selectstrategy",
+                    "id": "cat.selectstrategy",
+                    "chance": 100
+                }
+            ]
+        },
+        
+        {
+            "id": "cat.selectstrategy",
+            "actionid": "long",
+            "label": "A Decision",
+            "startdescription": "Our immortal enemy has decided on a course of action.",
+            "requirements": {},
+            "deckeffects": {
+                "cat.strategies": 1
+            },
+            "warmup": 5,
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "cat.preparestrategy.preference.assault"
+                },
+                {
+                    "id": "cat.preparestrategy.preference.intrigue"
+                },
+                {
+                    "id": "cat.preparestrategy.preference.dreamwork"
+                }
+            ],
+            "linked": [
+                {
+                    "id": "cat.preparestrategy",
                     "chance": 100
                 }
             ]
