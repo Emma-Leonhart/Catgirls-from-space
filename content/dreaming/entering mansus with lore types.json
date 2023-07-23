@@ -1,42 +1,59 @@
 {
     "recipes":[
         {
-            "id": "dreamreachwoodmoth",
-            "label": "The Thyrsine Way",
+            "id": "dreamreachwoodheart",
+            "label": "The Heartfelt Way",
             "actionid": "dream",
             "requirements": {
-              "lore": 1,
-              "moth": 3
+                "lore": 1,
+                "heart": 2
             },
-            "comments": "requirement 3, not 2, because there's already moth in the mix.",
-            "startdescription": "I could cut a lock of hair before I sleep, to honour a power of the Wood.",
-            "description": "The road ducks into the trees. Pale wings move deep in the wood. I am stumbling over roots, now. It is tempting to drop to all fours, to avoid the low branches. The moon passes behind the black leaves, though her fingers remain in my hair. I will not forget the way to this place.",
+            "startdescription": "I could let my heart guide me in sleep, throbbing with the rhythm of life and the pulse of the earth.",
+            "description": "In my dream, I wander in rhythm with the beating heart of the wood. The pulsing shadows lead me deeper and deeper. The rhythm is now a part of me. My heartbeat will echo the way back to this place.",
             "effects": {
-              "waywhite": 1,
-              "influencemoth": 1
+                "waywhite": 1,
+                "influencemoth": 1
             },
             "aspects": {
-              "fatiguing": 1
+                "fatiguing": 1
             }
-          },
-          {
-            "id": "dreamreachwoodknock",
-            "label": "The Serpent's Way",
+        },
+        {
+            "id": "dreamreachwoodwinter",
+            "label": "The Long Night's Way",
             "actionid": "dream",
             "requirements": {
-              "lore": 1,
-              "knock": 2
+                "lore": 1,
+                "winter": 2
             },
-            "startdescription": "Locksmiths often have the Dream after the sole of the foot is wounded - especially if it has been snake-bitten. I could try that.",
-            "description": "I limp along the road, and so it is that I see the serpent in the ditch. I follow it across the waste places and into the root-maze. Is it hair that brushes my face, or hanging moss? I bend low, to stay close to the earth, like my guide. I will not forget the way to this place.",
+            "startdescription": "I could sleep under the open sky, exposed to the cold kiss of the winter night.",
+            "description": "In the dream, a winter forest unfolds before me, untouched and serene. I trace the icy paths until I stand amidst the silence, surrounded by frosted darkness. The frost will guide me back to this place.",
             "effects": {
-              "waywhite": 1,
-              "influencemoth": 1
+                "waywhite": 1,
+                "influencemoth": 1
             },
             "aspects": {
-              "fatiguing": 1
+                "fatiguing": 1
             }
-          },
+        },
+      {
+        "id": "dreamreachwoodhistories",
+        "label": "The Cartographer's Way",
+        "actionid": "dream",
+        "requirements": {
+        "lore": 1,
+        "secrethistories": 2
+        },
+        "startdescription": "I could arrange a map of forgotten places beside my bed before I sleep, letting the echoes of ancient locations seep into my dreams.",
+        "description": "The roads on the map come alive, pulling me into their lines and symbols. I traverse ancient cities, scale forgotten mountains, and wade through rivers long dried up. At last, I reach a thick forest that swallows the light. The scent of the ageless trees overwhelms me, a fragrance of long-lost times. When I open my eyes, I am amidst the black trunks and rustling leaves. I now know the way back to this place.",
+        "effects": {
+        "waywhite": 1,
+        "influencemoth": 1
+        },
+        "aspects": {
+        "fatiguing": 1
+        }
+        },
           {
             "id": "dreamreachwoodlantern",
             "label": "The Bleached Way",
@@ -55,24 +72,96 @@
               "fatiguing": 1
             }
           },
-          
-      {
-        "id": "dreamreachwoodhistories",
-        "label": "The Cartographer's Way",
-        "actionid": "dream",
-        "requirements": {
-        "lore": 1,
-        "secrethistories": 2
+          {
+            "id": "dreamreachwoodgrail",
+            "label": "The Tempted Way",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "grail": 2
+            },
+            "startdescription": "I could indulge my desires before sleep, setting my dreams on a path of longing and fulfillment.",
+            "description": "In my dream, I am drawn into the woods by an insatiable hunger. Following a trail of luscious fruits, I move deeper into the darkness. The desire guides me. My longing will pull me back to this place.",
+            "effects": {
+                "waywhite": 1,
+                "influencemoth": 1
+            },
+            "aspects": {
+                "fatiguing": 1
+            }
         },
-        "startdescription": "I could arrange a map of forgotten places beside my bed before I sleep, letting the echoes of ancient locations seep into my dreams.",
-        "description": "The roads on the map come alive, pulling me into their lines and symbols. I traverse ancient cities, scale forgotten mountains, and wade through rivers long dried up. At last, I reach a thick forest that swallows the light. The scent of the ageless trees overwhelms me, a fragrance of long-lost times. When I open my eyes, I am amidst the black trunks and rustling leaves. I now know the way back to this place.",
-        "effects": {
-        "waywhite": 1,
-        "influencemoth": 1
+        {
+            "id": "dreamreachwoodedge",
+            "label": "The Warrior's Way",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "edge": 2
+            },
+            "startdescription": "I could place a sharp weapon by my bedside, inviting the dreams of conflict and resolution.",
+            "description": "In the dream, I battle formless foes amidst the shadowy woods. Every cut I deliver opens new paths in the undergrowth. The battle leads me deep into the forest heart, where darkness is absolute. My sword will find the way back to this place.",
+            "effects": {
+                "waywhite": 1,
+                "influencemoth": 1
+            },
+            "aspects": {
+                "fatiguing": 1
+            }
         },
-        "aspects": {
-        "fatiguing": 1
-        }
-        }
+        {
+            "id": "dreamreachwoodknock",
+            "label": "The Serpent's Way",
+            "actionid": "dream",
+            "requirements": {
+              "lore": 1,
+              "knock": 2
+            },
+            "startdescription": "Locksmiths often have the Dream after the sole of the foot is wounded - especially if it has been snake-bitten. I could try that.",
+            "description": "I limp along the road, and so it is that I see the serpent in the ditch. I follow it across the waste places and into the root-maze. Is it hair that brushes my face, or hanging moss? I bend low, to stay close to the earth, like my guide. I will not forget the way to this place.",
+            "effects": {
+              "waywhite": 1,
+              "influencemoth": 1
+            },
+            "aspects": {
+              "fatiguing": 1
+            }
+          },
+          {
+              "id": "dreamreachwoodforge",
+              "label": "The Blacksmith's Way",
+              "actionid": "dream",
+              "requirements": {
+                  "lore": 1,
+                  "forge": 2
+              },
+              "startdescription": "I could sleep near the dying embers of a fire, its red glow lulling me into dreams of creation and transformation.",
+              "description": "The dream takes me to a woodland forge, where fire has scorched the ground to black. I follow the trail of soot deep into the woods, the warm ashes crunching underfoot. Even here, amidst the darkness, I feel the heat of creation. My forge will illuminate the way back to this place.",
+              "effects": {
+                  "waywhite": 1,
+                  "influencemoth": 1
+              },
+              "aspects": {
+                  "fatiguing": 1
+              }
+          },
+        {
+            "id": "dreamreachwoodmoth",
+            "label": "The Thyrsine Way",
+            "actionid": "dream",
+            "requirements": {
+              "lore": 1,
+              "moth": 3
+            },
+            "comments": "requirement 3, not 2, because there's already moth in the mix.",
+            "startdescription": "I could cut a lock of hair before I sleep, to honour a power of the Wood.",
+            "description": "The road ducks into the trees. Pale wings move deep in the wood. I am stumbling over roots, now. It is tempting to drop to all fours, to avoid the low branches. The moon passes behind the black leaves, though her fingers remain in my hair. I will not forget the way to this place.",
+            "effects": {
+              "waywhite": 1,
+              "influencemoth": 1
+            },
+            "aspects": {
+              "fatiguing": 1
+            }
+          },
     ]
 }
