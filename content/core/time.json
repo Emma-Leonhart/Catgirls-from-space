@@ -462,16 +462,30 @@
             "id": "plague_season",
             "chance": 100,
             "additional": true,
+            "warmup": 30,
             "label": "You are tripping off the path",
             "actionid": "inflict_plague_verb",
             "linked": [
                 {
                     "id": "inflict_plague",
                     "chance": 30
+                },
+                {
+                    "id": "plague_mercy",
+                    "chance": 100
                 }
             ],
             "requirements": {
                 "seasonplagues": 1
+            }
+        },
+        {
+            "id": "plague_mercy",
+            "chance": 100,
+            "label": "Your nobility held",
+            "actionid": "inflict_plague_verb",
+            "effects":{
+                "contentment": 1
             }
         },
         {
