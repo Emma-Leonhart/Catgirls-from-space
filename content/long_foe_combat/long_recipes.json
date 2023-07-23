@@ -52,6 +52,64 @@
             ]
         },
         {
+            "id": "long.cycle",
+            "label": "Someone is Watching",
+            "actionid": "long",
+            "effects": {
+                "intention.assault": -9,
+                "intention.intrigue": -9,
+                "intention.dreams": -9,
+                "intention.downtime": -9,
+                "strategy.prep": -9,
+                "strategy.prep.delayed": -9
+            },
+            "startdescription": "The immortal in the shadows ponders their next move.",
+            "warmup": 60,
+            "slots": [
+                {
+                    "id": "longlesson",
+                    "label": "Lessons",
+                    "description": "As we provoke our enemy, and as they learn from us, their attacks will grow deadlier.",
+                    "required": {
+                        "long.lesson": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "long.upgrade.might",
+                    "chance": 100
+                },
+                {
+                    "id": "long.upgrade.connections",
+                    "chance": 100
+                },
+                {
+                    "id": "long.upgrade.dreamwork",
+                    "chance": 100
+                },
+                {
+                    "id": "expelspy",
+                    "chance": 100,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "follower": 1
+                        }
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.selectstrategy",
+                    "chance": 100
+                }
+            ]
+        },
+        {
             "id": "expelspy",
             "actionid": "expelspy",
             "label": "In from the Night",
@@ -143,6 +201,35 @@
             ]
         },
         {
+            "id": "long.selectstrategy",
+            "actionid": "long",
+            "label": "A Decision",
+            "startdescription": "Our immortal enemy has decided on a course of action.",
+            "requirements": {},
+            "deckeffects": {
+                "long.strategies": 1
+            },
+            "warmup": 5,
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "long.preparestrategy.preference.assault"
+                },
+                {
+                    "id": "long.preparestrategy.preference.intrigue"
+                },
+                {
+                    "id": "long.preparestrategy.preference.dreamwork"
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.preparestrategy",
+                    "chance": 100
+                }
+            ]
+        },
+        {
             "id": "long.preparestrategy.preference.assault",
             "label": "A Decision",
             "actionid": "long",
@@ -187,6 +274,251 @@
                 "long.strategies.preference.dreamwork": 1
             },
             "linked": [
+                {
+                    "id": "long.preparestrategy",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.preparestrategy",
+            "actionid": "long",
+            "label": "Preparing an Action",
+            "startdescription": "Our immortal enemy is preparing their next action.\n\n[Add a follower strong in <sprite name=knock> <sprite name=lantern> to try to uncover the Long's strategy.\nAdd a follower strong in\n<sprite name=edge> <sprite name=forge> to try to delay Assaults,\n<sprite name=grail> <sprite name=heart> for Intrigues,\n<sprite name=moth> <sprite name=winter> for Starlight attacks.]",
+            "slots": [
+                {
+                    "id": "spy",
+                    "label": "Spy",
+                    "description": "Spies can learn of the Long's plans. If you know or guess the nature of those plans, the right spies can delay them.",
+                    "required": {
+                        "follower": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "expelallspies",
+                    "chance": 100,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 9,
+                        "filter": {
+                            "follower": 1
+                        }
+                    }
+                },
+                {
+                    "id": "expelallspies_beforeconfrontation.might",
+                    "chance": 100,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 9,
+                        "filter": {
+                            "follower": 1
+                        }
+                    }
+                },
+                {
+                    "id": "expelallspies_beforeconfrontation.connections",
+                    "chance": 100,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 9,
+                        "filter": {
+                            "follower": 1
+                        }
+                    }
+                },
+                {
+                    "id": "expelallspies_beforeconfrontation.dreamwork",
+                    "chance": 100,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 9,
+                        "filter": {
+                            "follower": 1
+                        }
+                    }
+                }
+            ],
+            "effects": {
+                "strategy.prep": 1
+            },
+            "warmup": 60,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "long.refinestrategy.dreams.learndreams.followup",
+                    "chance": 70
+                },
+                {
+                    "id": "long.assault.confrontation",
+                    "chance": 70
+                },
+                {
+                    "id": "long.intrigue.confrontation",
+                    "chance": 70
+                },
+                {
+                    "id": "long.dreams.confrontation",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.assault.assassination",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.assault.abduct.follower",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.assault.forge.greatwork",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.assault.setambush.expedition",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.assault.destroyhealth",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.assault.injurefollower",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.assault.injurehealth",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.assault.rob",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.assault.intimidate",
+                    "chance": 100
+                },
+                {
+                    "id": "long.refinestrategy.intrigue.scandal",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.intrigue.follower.seduce",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.intrigue.grail.greatwork",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.intrigue.poison.follower.resentment",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.intrigue.detective.assist",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.intrigue.adversary.assist",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.intrigue.poison.follower.notoriety",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.intrigue.fraud",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.intrigue.mystiquetonotoriety",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.intrigue.createmystique",
+                    "chance": 100
+                },
+                {
+                    "id": "long.refinestrategy.dreams.drysoul",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.dreams.fiftheye",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.dreams.poisonway",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.dreams.lantern.greatwork",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.dreams.poisonpassionwithdread",
+                    "chance": 30
+                },
+                {
+                    "id": "long.refinestrategy.dreams.poisonreasonwithfascination",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.dreams.createfascination.poisoned",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.dreams.dreadtofascination.poisoned",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.dreams.learndreams",
+                    "chance": 70
+                },
+                {
+                    "id": "long.refinestrategy.dreams.createfascination",
+                    "chance": 100
+                },
+                {
+                    "id": "long.refinestrategy.downtime.learn.winter",
+                    "chance": 90
+                },
+                {
+                    "id": "long.refinestrategy.downtime.learn",
+                    "chance": 50
+                },
+                {
+                    "id": "long.refinestrategy.downtime.rest",
+                    "chance": 100
+                },
+                {
+                    "id": "long.spyonstrategy.success",
+                    "challenges": {
+                        "knock": "base",
+                        "lantern": "base"
+                    }
+                },
+                {
+                    "id": "long.delayaction.success.assault",
+                    "challenges": {
+                        "edge": "base",
+                        "forge": "base"
+                    }
+                },
+                {
+                    "id": "long.delayaction.success.intrigue",
+                    "challenges": {
+                        "grail": "base",
+                        "heart": "base"
+                    }
+                },
+                {
+                    "id": "long.delayaction.success.dreams",
+                    "challenges": {
+                        "moth": "base",
+                        "winter": "base"
+                    }
+                },
                 {
                     "id": "long.preparestrategy",
                     "chance": 100
