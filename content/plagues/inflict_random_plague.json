@@ -28,7 +28,8 @@
                     "alt":[
                         {
                             "id": "alienation",
-                            "chance": 100
+                            "chance": 100,
+                            "additional": true
                         }
                     ]
                 },
@@ -42,7 +43,8 @@
                     "alt": [
                         {
                             "id": "angst",
-                            "chance": 100
+                            "chance": 100,
+                            "additional": true
                         }
                     ]
                 },
@@ -56,7 +58,8 @@
                     "alt": [
                         {
                             "id": "absurdity",
-                            "chance": 100
+                            "chance": 100,
+                            "additional": true
                         }
                     ]
                 },
@@ -70,7 +73,8 @@
                     "alt": [
                         {
                             "id": "forgetting",
-                            "chance": 100
+                            "chance": 100,
+                            "additional": true
                         }
                     ]
                 },
@@ -84,7 +88,8 @@
                     "alt": [
                         {
                             "id": "spiralling",
-                            "chance": 100
+                            "chance": 100,
+                            "additional": true
                         }
                     ]
                 },
@@ -98,7 +103,8 @@
                     "alt": [
                         {
                             "id": "drowning",
-                            "chance": 100
+                            "chance": 100,
+                            "additional": true
                         }
                     ]
                 },
@@ -112,7 +118,8 @@
                     "alt": [
                         {
                             "id": "locking",
-                            "chance": 100
+                            "chance": 100,
+                            "additional": true
                         }
                     ]
                 },
@@ -126,7 +133,8 @@
                     "alt": [
                         {
                             "id": "ego",
-                            "chance": 100
+                            "chance": 100,
+                            "additional": true
                         }
                     ]
                 },
@@ -140,7 +148,8 @@
                     "alt": [
                         {
                             "id": "limitation",
-                            "chance": 100
+                            "chance": 100,
+                            "additional": true
                         }
                     ]
                 }

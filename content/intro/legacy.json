@@ -123,8 +123,8 @@
             "image": "exile",
             "effects": {
                 "health": 2,
-                "waystag_after": 1,
-                "ticket.train": 1,
+                "waywood": 1,
+                "ticket.train": 1, 
                 "trace": 7
             },
             "fromending": "wintersacrifice",
@@ -148,7 +148,7 @@
             "image": "exile",
             "effects": {
                 "health": 2,
-                "waystag_after": 1,
+                "waywood": 1,
                 "ticket.train": 1,
                 "trace": 7
             },
@@ -172,7 +172,7 @@
             "image": "exile",
             "effects": {
                 "health": 2,
-                "waystag_after": 1,
+                "waywood": 1,
                 "ticket.train": 1,
                 "trace": 7
             },
@@ -196,7 +196,7 @@
             "image": "exile",
             "effects": {
                 "health": 2,
-                "waystag_after": 1,
+                "waywood": 1,
                 "ticket.train": 1,
                 "trace": 7
             },
@@ -220,7 +220,7 @@
             "image": "exile",
             "effects": {
                 "health": 2,
-                "waystag_after": 1,
+                "waywood": 1,
                 "ticket.train": 1,
                 "trace": 7
             },
@@ -244,7 +244,7 @@
             "image": "exile",
             "effects": {
                 "health": 2,
-                "waystag_after": 1,
+                "waywood": 1,
                 "ticket.train": 1,
                 "trace": 7
             },
@@ -268,7 +268,7 @@
             "image": "exile",
             "effects": {
                 "health": 2,
-                "waystag_after": 1,
+                "waywood": 1,
                 "ticket.train": 1,
                 "trace": 7
             },
@@ -292,7 +292,7 @@
             "image": "exile",
             "effects": {
                 "health": 2,
-                "waystag_after": 1,
+                "waywood": 1,
                 "ticket.train": 1,
                 "trace": 7
             },
@@ -316,7 +316,7 @@
             "image": "exile",
             "effects": {
                 "health": 2,
-                "waystag_after": 1,
+                "waywood": 1,
                 "ticket.train": 1,
                 "trace": 7
             },
@@ -340,7 +340,7 @@
             "image": "exile",
             "effects": {
                 "health": 2,
-                "waystag_after": 1,
+                "waywood": 1,
                 "ticket.train": 1,
                 "trace": 7
             },
@@ -364,7 +364,7 @@
             "image": "exile",
             "effects": {
                 "health": 2,
-                "waystag_after": 1,
+                "waywood": 1,
                 "ticket.train": 1,
                 "trace": 7
             },
@@ -388,7 +388,7 @@
             "image": "exile",
             "effects": {
                 "health": 2,
-                "waystag_after": 1,
+                "waywood": 1,
                 "ticket.train": 1,
                 "trace": 7
             },
