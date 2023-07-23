@@ -85,10 +85,6 @@
                     "chance": 100
                 },
                 {
-                    "id": "dreamascension_upgrade_sensation_1to2m",
-                    "chance": 50
-                },
-                {
                     "id": "dreamascension_switchto_capital",
                     "chance": 100
                 },
@@ -219,70 +215,6 @@
             },
             "startdescription": "Perhaps knowledge is the finer goal.",
             "description": "I have refocused my intentions. My predecessors understood the highest secrets, the searching secrets, the secrets that shone through bones like glass and skin like parchment. So shall I, though the knowledge might undo me."
-        },
-        {
-            "id": "dreamascension_upgrade_power_1to2",
-            "label": "Flame's Dedication",
-            "actionid": "dream",
-            "requirements": {
-                "lore": 1,
-                "forge": 1
-            },
-            "startdescription": "I will dedicate myself to the pursuit of power.",
-            "description": "I've whispered the words that the smith speaks to the iron, that the murderer speaks to their victims, that the fire speaks to its fuel. Only I know what I have done, but it has shaped my path now. [I have advanced a step towards a terrible ascension.]",
-            "effects": {
-                "ascensionpowera": -1,
-                "ascensionpowerb": 1
-            },
-            "burnimage": "forgededication"
-        },
-        {
-            "id": "dreamascension_upgrade_sensation_1to2m",
-            "label": "Blood's Dedication",
-            "actionid": "dream",
-            "requirements": {
-                "lore": 1,
-                "grail": 1
-            },
-            "startdescription": "I will dedicate myself to the pursuit of sensation.",
-            "description": "Some words are best heard. Some words are best tasted. That taste is on my tongue now, and I will never forget it. [I have advanced a step towards a terrible ascension.]",
-            "effects": {
-                "ascensionsensationa": -1,
-                "ascensionsensationbm": 1
-            },
-            "burnimage": "graildedication"
-        },
-        {
-            "id": "dreamascension_upgrade_sensation_1to2f",
-            "label": "Blood's Dedication",
-            "actionid": "dream",
-            "requirements": {
-                "lore": 1,
-                "grail": 1
-            },
-            "startdescription": "I will dedicate myself to the pursuit of sensation.",
-            "description": "Some words are best heard. Some words are best tasted. That taste is on my tongue now, and I will never forget it. [I have advanced a step towards a terrible ascension.]",
-            "effects": {
-                "ascensionsensationa": -1,
-                "ascensionsensationbf": 1
-            },
-            "burnimage": "graildedication"
-        },
-        {
-            "id": "dreamascension_upgrade_enlightenment_1to2",
-            "label": "Light's Dedication",
-            "actionid": "dream",
-            "requirements": {
-                "lore": 1,
-                "lantern": 1
-            },
-            "startdescription": "I will dedicate myself to the pursuit of knowledge.",
-            "description": "I have spoken the words: 'Each Hour has its colour, but colour exists only where there is light.' I will go where there is light, though it bleach me to glass. [I have advanced a step towards a terrible ascension.]",
-            "effects": {
-                "ascensionenlightenmenta": -1,
-                "ascensionenlightenmentb": 1
-            },
-            "burnimage": "lanterndedication"
         },
         {
             "id": "dreamfunds",
@@ -469,6 +401,21 @@
                 "influenceknockc": 1
             },
             "description": "I've levered up floor-boards, and wriggled down snugly. Now I am compressed beneath them like a hidden corpse. The air stinks of hot dust. My mouth is full of splinters. But this is the space below."
+        },
+        {
+            "id": "ascensionsensation_switchpolarity_ftom",
+            "label": "Preferences",
+            "actionid": "dream",
+            "requirements": {
+                "ascensionsensationbf": 1
+            },
+            "effects": {
+                "contentment": 1
+            },
+            "startdescription": "I've gone as far as I can in dream. I must perform the <b>Work</b>. But perhaps, when I consider my desires, it's not usually women that come to mind...",
+            "description": "Tastes alter, desires change, thoughts bend to other forms.",
+            "warmup": 3,
+            "craftable": false
         }
     ]
 }

@@ -7,6 +7,9 @@
             "requirements": {
                 "lore": 1
             },
+            "effects":{
+                
+            },
             "linked":[
                 {
                     "id": "dreamascension_upgrade_power_1to2_forge",
@@ -77,6 +80,9 @@
             "requirements": {
                 "lore": 1
             },
+            "effects":{
+                
+            },
             "linked":[
                 {
                     "id": "dreamascension_upgrade_sensation_1to2f_heart",
@@ -98,6 +104,9 @@
             "actionid": "dream",
             "requirements": {
                 "lore": 1
+            },
+            "effects":{
+
             },
             "linked":[
                 {
@@ -186,6 +195,9 @@
             "actionid": "dream",
             "requirements": {
                 "lore": 1
+            },
+            "effects":{
+                
             },
             "linked":[
                 {
@@ -293,6 +305,60 @@
             } 
         },
         {
+            "id": "ascensionenlightenment_upgradetoobsession_grail",
+            "label": "The Blinding Key",
+            "actionid": "work",
+            "requirements": {
+                "ascensionenlightenmentb": 1,
+                "waystag_after": 1,
+                "grail": 6
+            },
+            "effects": {
+                "ascensionenlightenmentb": -1,
+                "cult_catgirl": 1,
+                "year.stolen": 9,
+                "decade.stolen": 9,
+                "catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Key that will allow the Watchman's gaze to enter me. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of the Watchman are upon me. The First Mark is what I have said, and the Second is what I have done. If I inspect my body, I'll find the Third. My hungers have been refined, now.",
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "flammarion",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            } 
+        },
+        {
+            "id": "ascensionenlightenment_upgradetoobsession_edge",
+            "label": "The Blinding Key",
+            "actionid": "work",
+            "requirements": {
+                "ascensionenlightenmentb": 1,
+                "waystag_after": 1,
+                "edge": 6
+            },
+            "effects": {
+                "ascensionenlightenmentb": -1,
+                "cult_catgirl": 1,
+                "year.stolen": 9,
+                "decade.stolen": 9,
+                "catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Key that will allow the Watchman's gaze to enter me. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of the Watchman are upon me. The First Mark is what I have said, and the Second is what I have done. If I inspect my body, I'll find the Third. My hungers have been refined, now.",
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "flammarion",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            } 
+        },
+        {
             "id": "ascensionpower_upgradetoobsession_hint",
             "label": "Not Enough, Not Yet",
             "actionid": "work",
@@ -314,6 +380,60 @@
                 "ascensionpowerb": 1,
                 "waystag_after": 1,
                 "forge": 6
+            },
+            "effects": {
+                "ascensionpowerb": -1,
+                "cult_catgirl": 1,
+                "year.stolen": 9,
+                "decade.stolen": 9,
+                "catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Key that will allow the Forge of Days to enter me. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of the Forge are upon me. The First Mark is what I have said, and the Second is what I have done. If I inspect my body, I'll find the Third. I am aglow with new needs.",
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "flammarion",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            }
+        },
+        {
+            "id": "ascensionpower_upgradetoobsession_moth",
+            "label": "The Burning Key",
+            "actionid": "work",
+            "requirements": {
+                "ascensionpowerb": 1,
+                "waystag_after": 1,
+                "moth": 6
+            },
+            "effects": {
+                "ascensionpowerb": -1,
+                "cult_catgirl": 1,
+                "year.stolen": 9,
+                "decade.stolen": 9,
+                "catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Key that will allow the Forge of Days to enter me. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of the Forge are upon me. The First Mark is what I have said, and the Second is what I have done. If I inspect my body, I'll find the Third. I am aglow with new needs.",
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "flammarion",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            }
+        },
+        {
+            "id": "ascensionpower_upgradetoobsession_knock",
+            "label": "The Burning Key",
+            "actionid": "work",
+            "requirements": {
+                "ascensionpowerb": 1,
+                "waystag_after": 1,
+                "knock": 6
             },
             "effects": {
                 "ascensionpowerb": -1,
@@ -379,6 +499,62 @@
             "startdescription": "This rite is the Key that will allow the Red Grail to enter me. I will be changed forever.",
             "description": "The Rite is complete. The Marks of the Grail are upon me. The First Mark is what I have said, and the second is what I have done. If I inspect my body, I'll find the Third. I thrill with new appetites.",
             "warmup": 60,
+            "craftable": false,
+            "burnimage": "flammarion",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            }
+        },
+        {
+            "comments": "female is the only one that we use",
+            "id": "ascensionsensation_upgradetoobsessionf",
+            "label": "The Sighing Key",
+            "actionid": "work",
+            "requirements": {
+                "ascensionsensationbf": 1,
+                "waystag_after": 1,
+                "grail": 6
+            },
+            "effects": {
+                "ascensionsensationbf": -1,
+                "cult_catgirl": 1,
+                "year.stolen": 9,
+                "decade.stolen": 9,
+                "catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Key that will allow the Red Grail to enter me. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of the Grail are upon me. The First Mark is what I have said, and the Second is what I have done. If I inspect my body, I'll find the Third. I thrill with new appetites.",
+            "warmup": 60,
+            "craftable": false,
+            "burnimage": "flammarion",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            }
+        },
+        {
+            "comments": "female is the only one that we use",
+            "id": "ascensionsensation_upgradetoobsessionf_heart",
+            "label": "The Sighing Key",
+            "actionid": "work",
+            "requirements": {
+                "ascensionsensationbf": 1,
+                "waystag_after": 1,
+                "heart": 6
+            },
+            "effects": {
+                "ascensionsensationbf": -1,
+                "cult_catgirl": 1,
+                "year.stolen": 9,
+                "decade.stolen": 9,
+                "catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Key that will allow the Red Grail to enter me. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of the Grail are upon me. The First Mark is what I have said, and the Second is what I have done. If I inspect my body, I'll find the Third. I thrill with new appetites.",
+            "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion",
             "alt":{
@@ -388,14 +564,42 @@
             }
         },
         {
-            "comments": "male and female flavour; //TODO implement more elegantly",
-            "id": "ascensionsensation_upgradetoobsessionf",
+            "comments": "female is the only one that we use",
+            "id": "ascensionsensation_upgradetoobsessionf_winter",
             "label": "The Sighing Key",
             "actionid": "work",
             "requirements": {
                 "ascensionsensationbf": 1,
                 "waystag_after": 1,
-                "grail": 6
+                "winter": 6
+            },
+            "effects": {
+                "ascensionsensationbf": -1,
+                "cult_catgirl": 1,
+                "year.stolen": 9,
+                "decade.stolen": 9,
+                "catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Key that will allow the Red Grail to enter me. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of the Grail are upon me. The First Mark is what I have said, and the Second is what I have done. If I inspect my body, I'll find the Third. I thrill with new appetites.",
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "flammarion",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            }
+        },
+        {
+            "comments": "female is the only one that we use",
+            "id": "ascensionsensation_upgradetoobsessionf_secrethistories",
+            "label": "The Sighing Key",
+            "actionid": "work",
+            "requirements": {
+                "ascensionsensationbf": 1,
+                "waystag_after": 1,
+                "secrethistories": 6
             },
             "effects": {
                 "ascensionsensationbf": -1,

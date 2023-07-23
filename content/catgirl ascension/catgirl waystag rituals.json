@@ -1,0 +1,247 @@
+{
+    "recipes":[
+        {
+            "id": "ascension_catgirl_upgradetoobsession_heart",
+            "label": "The Beating Pulse",
+            "actionid": "work",
+            "requirements": {
+                "catgirl_dedication_2": 1,
+                "waystag_after": 1,
+                "heart": 6
+            },
+            "effects": {
+                "catgirl_dedication_2": -1,
+                "cult_catgirl": 1,
+                "year.stolen": 9,
+                "decade.stolen": 9,
+                "catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Pulse that will synchronize with my heart. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of the Heart are upon me. The First Mark is what I have felt, and the Second is what I have loved. If I inspect my body, I'll find the Third. My passions have been intensified, now.",
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "flammarion",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            } 
+        },
+        {
+            "id": "ascension_catgirl_upgradetoobsession_winter",
+            "label": "The Frost's Embrace",
+            "actionid": "work",
+            "requirements": {
+                "catgirl_dedication_2": 1,
+                "waystag_after": 1,
+                "winter": 6
+            },
+            "effects": {
+                "catgirl_dedication_2": -1,
+                "cult_catgirl": 1,
+                "year.stolen": 9,
+                "decade.stolen": 9,
+                "catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Embrace that will bring the Frost's touch to me. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of Winter are upon me. The First Mark is what I have endured, and the Second is what I have let go. If I inspect my body, I'll find the Third. My resilience has been hardened, now.",
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "flammarion",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            } 
+        },
+        {
+            "id": "ascension_catgirl_upgradetoobsession_secrethistories",
+            "label": "The Unveiled Narrative",
+            "actionid": "work",
+            "requirements": {
+                "catgirl_dedication_2": 1,
+                "waystag_after": 1,
+                "secrethistories": 6
+            },
+            "effects": {
+                "catgirl_dedication_2": -1,
+                "cult_catgirl": 1,
+                "year.stolen": 9,
+                "decade.stolen": 9,
+                "catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Narrative that will reveal the secrets of the world to me. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of Secret Histories are upon me. The First Mark is what I have discovered, and the Second is what I have unraveled. If I inspect my body, I'll find the Third. My understanding has been broadened, now.",
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "flammarion",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            } 
+        },
+        {
+            "id": "ascension_catgirl_upgradetoobsession_lantern",
+            "label": "The Illuminating Beacon",
+            "actionid": "work",
+            "requirements": {
+                "catgirl_dedication_2": 1,
+                "waystag_after": 1,
+                "lantern": 6
+            },
+            "effects": {
+                "catgirl_dedication_2": -1,
+                "cult_catgirl": 1,
+                "year.stolen": 9,
+                "decade.stolen": 9,
+                "catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Beacon that will illuminate the hidden truths. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of the Lantern are upon me. The First Mark is what I have learned, and the Second is what I have clarified. If I inspect my body, I'll find the Third. My insight has been sharpened, now.",
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "flammarion",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            } 
+        },
+        {
+            "id": "ascension_catgirl_upgradetoobsession_grail",
+            "label": "The Blinding Key",
+            "actionid": "work",
+            "requirements": {
+                "catgirl_dedication_2": 1,
+                "waystag_after": 1,
+                "grail": 6
+            },
+            "effects": {
+                "catgirl_dedication_2": -1,
+                "cult_catgirl": 1,
+                "year.stolen": 9,
+                "decade.stolen": 9,
+                "catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Key that will allow the Watchman's gaze to enter me. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of the Watchman are upon me. The First Mark is what I have said, and the Second is what I have done. If I inspect my body, I'll find the Third. My hungers have been refined, now.",
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "flammarion",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            } 
+        },
+        {
+            "id": "ascension_catgirl_upgradetoobsession_edge",
+            "label": "The Honed Blade",
+            "actionid": "work",
+            "requirements": {
+                "catgirl_dedication_2": 1,
+                "waystag_after": 1,
+                "edge": 6
+            },
+            "effects": {
+                "catgirl_dedication_2": -1,
+                "cult_catgirl": 1,
+                "year.stolen": 9,
+                "decade.stolen": 9,
+                "catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Blade that will carve my destiny. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of the Edge are upon me. The First Mark is what I have fought for, and the Second is what I have conquered. If I inspect my body, I'll find the Third. My determination has been honed, now.",
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "flammarion",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            } 
+        },
+        {
+            "id": "ascension_catgirl_upgradetoobsession_knock",
+            "label": "The Opening Knock",
+            "actionid": "work",
+            "requirements": {
+                "catgirl_dedication_2": 1,
+                "waystag_after": 1,
+                "knock": 6
+            },
+            "effects": {
+                "catgirl_dedication_2": -1,
+                "cult_catgirl": 1,
+                "year.stolen": 9,
+                "decade.stolen": 9,
+                "catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Knock that will open the unseen doors. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of the Knock are upon me. The First Mark is what I have sought, and the Second is what I have found. If I inspect my body, I'll find the Third. My curiosity has been piqued, now.",
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "flammarion",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            } 
+        },
+        {
+            "id": "ascension_catgirl_upgradetoobsession_forge",
+            "label": "The Eternal Forge",
+            "actionid": "work",
+            "requirements": {
+                "catgirl_dedication_2": 1,
+                "waystag_after": 1,
+                "forge": 6
+            },
+            "effects": {
+                "catgirl_dedication_2": -1,
+                "cult_catgirl": 1,
+                "year.stolen": 9,
+                "decade.stolen": 9,
+                "catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Forge that will shape my soul. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of the Forge are upon me. The First Mark is what I have created, and the Second is what I have transformed. If I inspect my body, I'll find the Third. My creativity has been kindled, now.",
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "flammarion",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            } 
+        },
+        {
+            "id": "ascension_catgirl_upgradetoobsession_moth",
+            "label": "The Whispering Moth",
+            "actionid": "work",
+            "requirements": {
+                "catgirl_dedication_2": 1,
+                "waystag_after": 1,
+                "moth": 6
+            },
+            "effects": {
+                "catgirl_dedication_2": -1,
+                "cult_catgirl": 1,
+                "year.stolen": 9,
+                "decade.stolen": 9,
+                "catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Moth that will guide me through the shadows. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of the Moth are upon me. The First Mark is what I have dared, and the Second is what I have embraced. If I inspect my body, I'll find the Third. My adaptability has been enhanced, now.",
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "flammarion",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            } 
+        }
+    ]
+}

@@ -11,9 +11,25 @@
         "description": "This used to be the address of Morland's, the book dealer, but I'll have to look elsewhere for knowledge, now."
         },
         {
-        "id": "locationauctionhouse",
-        "label": "Oriflamme's Auction House",
-        "description": "Oriflamme's specialises in curios, perfumes, taxidermy specimens, and rare texts. It operates from cramped new premises, now, since the destruction of the old by an unexplained fire. [You can buy or sell items at Oriflamme's.]"
+            "id": "locationauctionhouse",
+            "label": "Oriflamme's Auction House",
+            "aspects": {
+                "location": 1
+            },
+            "description": "Oriflamme's specialises in curios, perfumes, taxidermy specimens, and rare texts. It operates from cramped new premises, now, since the destruction of the old by an unexplained fire. [You can buy or sell items at Oriflamme's.]",
+            "slots": [
+                {
+                    "id": "Sell",
+                    "label": "Sell",
+                    "description": "Add an item here to auction it off.",
+                    "required": {
+                        "auctionable": 1,
+                        "funds": 1
+                    },
+                    "actionid": "explore"
+                }
+            ],
+            "unique": true
         },
         {
         "id": "locationcabaretclosed",

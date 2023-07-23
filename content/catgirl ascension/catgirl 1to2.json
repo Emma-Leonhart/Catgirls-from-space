@@ -1,0 +1,221 @@
+{
+    "recipes":[
+        {
+            "id": "dreamascensioncatgirla",
+            "label": "Meditate on my goal of hugging kittens",
+            "actionid": "dream",
+            "requirements": {
+                "catgirl_dedication_1": 1
+            },
+            "slots": [
+                {
+                    "id": "Reflection",
+                    "label": "Reflection",
+                    "required": {
+                        "lore": 1,
+                        "passion": 1,
+                        "health": 1,
+                        "priestjob": 1,
+                        "funds": 1
+                    },
+                    "description": "Dedicate myself with the lore of the principle I seek; or focus my efforts elsewhere."
+                }
+            ],
+            "startdescription": "Should I dedicate myself to my purpose? Or focus my efforts elsewhere?",
+            "description": "I have decided to remain as I am... for now.",
+            "alt": [
+                {
+                    "id": "dreamascension_upgrade_catgirl_1to2.heart",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_upgrade_catgirl_1to2.winter",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_upgrade_catgirl_1to2.secrethistories",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_upgrade_catgirl_1to2.lantern",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_upgrade_catgirl_1to2.grail",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_upgrade_catgirl_1to2.edge",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_upgrade_catgirl_1to2.knock",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_upgrade_catgirl_1to2.forge",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamascension_upgrade_catgirl_1to2.moth",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "dreamascension_upgrade_catgirl_1to2.heart",
+            "label": "Blood's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "heart": 1,
+                "catgirl_dedication_1": 1
+            },
+            "startdescription": "I will dedicate myself to the pursuit of sensation.",
+            "description": "Some words are best heard. Some words are best tasted. That taste is on my tongue now, and I will never forget it. [I have advanced a step towards a terrible ascension.]",
+            "effects": {
+                "catgirl_dedication_1": -1,
+                "catgirl_dedication_2": 1
+            },
+            "burnimage": "graildedication"
+        },
+        {
+            "id": "dreamascension_upgrade_catgirl_1to2.winter",
+            "label": "Winter's Solitude",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "winter": 1,
+                "catgirl_dedication_1": 1
+            },
+            "startdescription": "I will dedicate myself to the path of silence and reflection.",
+            "description": "Some wisdoms are best found in the hush of a winter's night, under the blanket of a serene snowfall. That tranquillity is within me now, and I will never shatter it. [I have advanced a step towards a tranquil ascension.]",
+            "effects": {
+                "catgirl_dedication_1": -1,
+                "catgirl_dedication_2": 1
+            },
+            "burnimage": "winterdedication"
+        },
+        {
+            "id": "dreamascension_upgrade_catgirl_1to2.secrethistories",
+            "label": "Histories' Narration",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "secrethistories": 1,
+                "catgirl_dedication_1": 1
+            },
+            "startdescription": "I will dedicate myself to the unraveling of ancient narratives.",
+            "description": "Some stories are best told in the hushed whispers of the past, inscribed in the annals of forgotten epochs. That knowledge is in my soul now, and I will never let it fade. [I have advanced a step towards an historical ascension.]",
+            "effects": {
+                "catgirl_dedication_1": -1,
+                "catgirl_dedication_2": 1
+            },
+            "burnimage": "historiesdedication"
+        },
+        {
+            "id": "dreamascension_upgrade_catgirl_1to2.lantern",
+            "label": "Lantern's Illumination",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "lantern": 1,
+                "catgirl_dedication_1": 1
+            },
+            "startdescription": "I will dedicate myself to the path of enlightenment.",
+            "description": "Some truths are best illuminated, burning away shadows of ignorance. That light is in my eyes now, and I will never blink. [I have advanced a step towards a radiant ascension.]",
+            "effects": {
+                "catgirl_dedication_1": -1,
+                "catgirl_dedication_2": 1
+            },
+            "burnimage": "lanterndedication"
+        },
+        {
+            "id": "dreamascension_upgrade_catgirl_1to2.grail",
+            "label": "Blood's Dedication",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "grail": 1,
+                "catgirl_dedication_1": 1
+            },
+            "startdescription": "I will dedicate myself to the pursuit of sensation.",
+            "description": "Some words are best heard. Some words are best tasted. That taste is on my tongue now, and I will never forget it. [I have advanced a step towards a terrible ascension.]",
+            "effects": {
+                "catgirl_dedication_1": -1,
+                "catgirl_dedication_2": 1
+            },
+            "burnimage": "graildedication"
+        },
+        {
+            "id": "dreamascension_upgrade_catgirl_1to2.edge",
+            "label": "Edge's Embrace",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "edge": 1,
+                "catgirl_dedication_1": 1
+            },
+            "startdescription": "I will dedicate myself to the path of confrontation.",
+            "description": "Some challenges are best met with claws bared, ready to strike. That fierceness is in my heart now, and I will never back down. [I have advanced a step towards a relentless ascension.]",
+            "effects": {
+                "catgirl_dedication_1": -1,
+                "catgirl_dedication_2": 1
+            },
+            "burnimage": "edgededication"
+        },
+        {
+            "id": "dreamascension_upgrade_catgirl_1to2.knock",
+            "label": "Knock's Invitation",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "knock": 1,
+                "catgirl_dedication_1": 1
+            },
+            "startdescription": "I will dedicate myself to the path of opening and awakening.",
+            "description": "Some doors are best opened, not by force, but by a simple knock. That knock resounds within me now, and I will never silence it. [I have advanced a step towards an awakening ascension.]",
+            "effects": {
+                "catgirl_dedication_1": -1,
+                "catgirl_dedication_2": 1
+            },
+            "burnimage": "knockdedication"
+        },
+        {
+            "id": "dreamascension_upgrade_catgirl_1to2.forge",
+            "label": "Forge's Resilience",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "forge": 1,
+                "catgirl_dedication_1": 1
+            },
+            "startdescription": "I will dedicate myself to the path of creation and transformation.",
+            "description": "Some things are best forged in the heat of a blazing fire, reshaped and made anew. That flame burns within me now, and I will never quench it. [I have advanced a step towards a transformative ascension.]",
+            "effects": {
+                "catgirl_dedication_1": -1,
+                "catgirl_dedication_2": 1
+            },
+            "burnimage": "forgededication"
+        },
+        {
+            "id": "dreamascension_upgrade_catgirl_1to2.moth",
+            "label": "Moth's Whispers",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "moth": 1,
+                "catgirl_dedication_1": 1
+            },
+            "startdescription": "I will dedicate myself to the pursuit of secrets.",
+            "description": "Some secrets are best discovered in the moonlight, whispered on nocturnal breezes. That whisper is in my ears now, and I will never forget it. [I have advanced a step towards a mysterious ascension.]",
+            "effects": {
+                "catgirl_dedication_1": -1,
+                "catgirl_dedication_2": 1
+            },
+            "burnimage": "mothdedication"
+        }
+    ]
+}

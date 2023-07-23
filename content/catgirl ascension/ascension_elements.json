@@ -392,15 +392,81 @@
         },
         {
             "id": "ascensionpowerb",
-            "label": "Dedication: Imagination"
+            "label": "Dedication: Imagination",
+            "slots": [
+                {
+                    "id": "Know",
+                    "label": "Know",
+                    "actionid": "work",
+                    "required": {
+                        "waystag_after": 1
+                    },
+                    "description": "Only a true adept, a Know, may take this step. The Know are those who have passed the Stag Door, in dreams."
+                },
+                {
+                    "id": "Power",
+                    "label": "Power",
+                    "actionid": "work",
+                    "required": {
+                        "forge": 1,
+                        "moth": 1,
+                        "knock": 1
+                    },
+                    "description": "I will require sufficient of the furious incandescence of the Forge."
+                }
+            ]
         },
         {
-            "id": "ascensionsensationb",
-            "label": "Dedication: Community"
+            "id": "ascensionsensationbf",
+            "label": "Dedication: Community",
+            "slots": [
+                {
+                    "id": "Know",
+                    "label": "Know",
+                    "actionid": "work",
+                    "required": {
+                        "waystag_after": 1
+                    },
+                    "description": "Only a true adept, a Know, may take this step. The Know are those who have passed the Stag Door, in dreams."
+                },
+                {
+                    "id": "Power",
+                    "label": "Power",
+                    "actionid": "work",
+                    "required": {
+                        "heart": 1,
+                        "winter": 1,
+                        "secrethistories": 1
+                    },
+                    "description": "I will require sufficient of the furious incandescence of the Forge."
+                }
+            ]
         },
         {
             "id": "ascensionenlightenmentb",
-            "label": "Dedication: Enlightenment"
+            "label": "Dedication: Enlightenment",
+            "slots": [
+                {
+                    "id": "Know",
+                    "label": "Know",
+                    "actionid": "work",
+                    "required": {
+                        "waystag_after": 1
+                    },
+                    "description": "Only a true adept, a Know, may take this step. The Know are those who have passed the Stag Door, in dreams."
+                },
+                {
+                    "id": "Power",
+                    "label": "Power",
+                    "actionid": "work",
+                    "required": {
+                        "grail": 1,
+                        "lantern": 1,
+                        "edge": 1
+                    },
+                    "description": "I will require sufficient of the furious incandescence of the Forge."
+                }
+            ]
         },
         {
             "id": "ascensionpowerc",

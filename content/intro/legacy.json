@@ -2,7 +2,7 @@
     "legacies": [
         {
             "id": "aspirant",
-            "label": "Catgirl Acolyte",
+            "label": "Conspiracy Theorist",
             "description": "You discover the secret world of catgirls beneath the surface.",
             "startdescription": "Another day of retail work",
             "startingVerbId": "work",

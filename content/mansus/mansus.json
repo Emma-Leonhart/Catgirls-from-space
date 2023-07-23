@@ -103,7 +103,7 @@
 			"erudition",
 			"fascination",
 			"obscurity",
-			"connection_underworld"
+			"connection_underworld" 
 		],
 		"drawmessages": {
 			"influenceknockc": "Last night, within the Great Pavilion, a mysterious guide offered me a horn cup of dream-wine. 'The wine is imaginary,' she explained, 'but the cup is not. To navigate the Mansus, one must understand the distinction. Perhaps one day we'll journey together. Until then, let me share a secret -' and her breath stirred the silence.",
@@ -146,9 +146,12 @@
 		"spec":
 			["influenceheartg",
 			"influenceheartg",
+			"influenceheartg",
+			"influenceheartg",
 				"influenceknocke",
 			"fragmentsecrethistoriesc",
 			"influenceforgec",
+			"year.stolen",
 			"year.stolen"],
 			"drawmessages":{
 				"influenceheartg":"Exploring the vibrancy of the Stag Door region, I stumble upon a beating, radiant influence of Heart. The hum of vitality and emotion reverberates through me. This influence is a lively symphony, a reminder of the powerful human connection, of the inherent worth in every individual, of the love and empathy that tie us all together.",
@@ -166,8 +169,11 @@
 			["influencewinterg",
 			"influenceedgee",
 			"influencewinterg",
+			"influenceedgee",
+			"influencewinterg",
 			"influencegrailc",
 			"influencewintere",
+			"year.stolen",
 			"year.stolen"],
 			"drawmessages":{
 				"influencewinterg":"As I traverse the sharp and biting path of the Ascent of Knives, I encounter a profound influence of Winter. Its bone-chilling stillness engulfs me. Like a silent, falling snow, it blankets all in a profound sense of peace and ending. The influence is a whispered eulogy, a solemn nod to the inevitable end and the beauty that lies within it.",
@@ -187,6 +193,9 @@
 			"fascination",
 			"fragmentsecrethistoriesd",
 			"eruditionplus",
+			"fragmentsecrethistoriesd",
+			"eruditionplus",
+			"year.stolen",
 			"year.stolen"],
 		"drawmessages":{
 			"influencesecretg":"Venturing along the swirling currents of the Painted River, I unearth a powerful influence of Secret Histories. The influence is like a hidden parchment, filled with encoded wisdom and ancient lore, waiting to be deciphered. It reminds me of the myriad stories concealed beneath the surface of our existence, of the veiled truths yet to be discovered.",
@@ -207,6 +216,7 @@
 			"fragmentsecrethistoriesf",
 			"favour",
 			"fascination",
+			"year.stolen",
 			"year.stolen"],
 		"drawmessages":{
 			"influentelanterng":"Inside the ethereal glow of the Red Church, I discover a bright influence of Lantern. The influence is a radiant beacon, piercing the murkiness of ignorance with its illuminating glow. It's a call to enlightenment, a beckoning towards understanding and wisdom, and a testament to the power of knowledge.",
@@ -224,10 +234,12 @@
 		"spec":
 			["influencegrailg",
 			"influencegrailg",
-			"scholarvak",
+			"influencegrailg",
+			"influencegrailg",
 			"fragmentsecrethistoriese",
 			"influencelanterng",
 			"fascination",
+			"year.stolen",
 			"year.stolen"],
 		"drawmessages":{
 			"influencegrailg":"Amidst the mesmerizing colors of the Peacock Door region, I find an alluring influence of Grail. The influence saturates the air with desire, pulsating with a lust for life that's as refreshing as it's intoxicating. It speaks of physical experiences, of the beauty of the senses, of the pleasure derived from fully immersing oneself in life's diverse banquet.",
@@ -247,6 +259,9 @@
 			"fragmentsecrethistoriesf",
 			"dread",
 			"influenceedgeg",
+			"influenceedgeg",
+			"influenceedgeg",
+			"year.stolen",
 			"year.stolen"],
 		"drawmessages":{
 			"influenceedgeg":"Winding my way through the intricate mazes of the Worm Museum, I find a sharp influence of Edge. This influence is a honed blade, a symbol of overcoming and survival. It reminds me of the battles fought and victories won, of the spirit of resilience that enables us to face life's adversities head-on.",
@@ -268,6 +283,7 @@
 			"influencemothe",
 			"fragmentsecrethistoriesc",
 			"fascination",
+			"year.stolen",
 			"year.stolen"],
 		"drawmessages":{
 			"influenceknockg":"Last night I came to the Concursum, the crossroads of the Mansus, which has been called the Chamber of Ways. From here the Hours may pass to any place in the Mansus. Here the Horned-Axe spoke to me in her voice that is older than any living thing, and she said: there is a Door that will open for a little while. This is its time, and here is another division.",
@@ -287,9 +303,12 @@
 		"spec":
 			["influenceforgeg",
 			"influenceforgeg",
+			"influenceforgeg",
 			"fragmentsecrethistoriese",
 			"ingredientforgef",
+			"ingredientforgef",
 			"influencelanterne",
+			"year.stolen",
 			"year.stolen"],
 		"drawmessages":{
 			"influenceforgeg":"Last night in the Mansus I visited the Malleary, from whose engines and avenues one does not emerge unchanged. I watched the processes of sunset and I entered the amber joy and the white joy and the blue joy and I was subjected to the enlightenments of calcination and the Forge of Days touched me with her burnished fingers and I rise from my bed with the utter knowledge that all nights, all nights, all nights must end.",
@@ -312,6 +331,8 @@
 			"fragmentsecrethistoriesd",
 			"favour",
 			"influencemothg",
+			"influencemothg",
+			"year.stolen",
 			"year.stolen"],
 		"drawmessages":{
 			"influencemothg":"While traversing the labyrinthine pathways of the Chamber of Ways, I uncover a fluttering influence of Moth. The influence is an enigma, a promise of secrets and dreams yet to unfold. It speaks to the transformative power of change and the enticing allure of the elusive, inviting me to step into the shadows and discover the unknown.",

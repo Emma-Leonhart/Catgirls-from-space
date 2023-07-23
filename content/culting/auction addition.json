@@ -1,0 +1,29 @@
+{
+    "recipes":[
+        
+        {
+            "id": "explorelocationauctionhouse",
+            "label": "Unthinkingly bid in a random auction",
+            "actionid": "explore",
+            "requirements": {
+                "locationauctionhouse": 1,
+                "auctionable": -1,
+                "funds": 1
+            },
+            "effects": {},
+            "deckeffects": {
+                "auctionedcommontomes": 1
+            },
+            "startdescription": "We perch on alarming Rietveld chairs in a windowless auction room with vividly burnt orange walls, waiting for the auctioneer to announce what he's offering. The reek of new paint makes the brain spin. [Hit Start to see what's on offer; or add an item you'd like to sell.]",
+            "description": ".",
+            "warmup": 5,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "auctionbuy",
+                    "chance": 100
+                }
+            ]
+        },
+    ]
+}
