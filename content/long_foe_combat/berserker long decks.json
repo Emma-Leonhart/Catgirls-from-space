@@ -1,0 +1,72 @@
+{
+    "decks": [
+        {
+            "id": "berserker.strategies",
+            "label": "An Enemy of the Work",
+            "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
+            "spec": [
+                "strategy.assault.concealed",
+                "strategy.intrigue.concealed",
+                "strategy.dreams.concealed",
+                "strategy.downtime.concealed"
+            ],
+            "defaultcard": "strategy.downtime",
+            "resetonexhaustion": true
+        },
+        {
+            "id": "long.strategies.preference.assault",
+            "label": "An Enemy of the Work",
+            "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
+            "spec": [
+                "strategy.assault.concealed",
+                "strategy.assault.concealed",
+                "strategy.intrigue.concealed",
+                "strategy.dreams.concealed",
+                "strategy.downtime.concealed"
+            ],
+            "defaultcard": "strategy.downtime",
+            "resetonexhaustion": true
+        },
+        {
+            "id": "long.strategies.preference.intrigue",
+            "label": "An Enemy of the Work",
+            "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
+            "spec": [
+                "strategy.assault.concealed",
+                "strategy.intrigue.concealed",
+                "strategy.intrigue.concealed",
+                "strategy.dreams.concealed",
+                "strategy.downtime.concealed"
+            ],
+            "defaultcard": "strategy.downtime",
+            "resetonexhaustion": true
+        },
+        {
+            "id": "long.strategies.preference.dreamwork",
+            "label": "An Enemy of the Work",
+            "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
+            "spec": [
+                "strategy.assault.concealed",
+                "strategy.intrigue.concealed",
+                "strategy.dreams.concealed",
+                "strategy.dreams.concealed",
+                "strategy.downtime.concealed"
+            ],
+            "defaultcard": "strategy.downtime",
+            "resetonexhaustion": true
+        },
+        {
+            "id": "berserker.strategies.deck",
+            "label": "An Enemy of the Work",
+            "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
+            "spec": [
+                "strategy.assault.concealed",
+                "strategy.intrigue.concealed",
+                "strategy.dreams.concealed",
+                "strategy.downtime.concealed"
+            ],
+            "defaultcard": "strategy.downtime",
+            "resetonexhaustion": true
+        }
+    ]
+}

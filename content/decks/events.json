@@ -343,7 +343,7 @@
             "defaultcard": "julian_unknown"
         },
         {
-            "id": "long.strategies",
+            "id": "berserker.strategies",
             "label": "An Enemy of the Work",
             "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
             "spec": [
