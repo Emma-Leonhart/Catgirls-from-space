@@ -427,7 +427,7 @@
                 "temptation.obscurity": 1
             },
             "extantreqs": {
-                "temptation.defiance": -1
+                "catgirl_dedication_3": -1
             },
             "hintonly": true,
             "craftable": false
@@ -440,7 +440,7 @@
             "comments": "This should trigger only if neither Consecration recipe does.",
             "requirements": {
                 "shrine.edge": 1,
-                "temptation.defiance": 1
+                "catgirl_dedication_3": 1
             },
             "hintonly": true,
             "craftable": false
@@ -875,7 +875,6 @@
             },
             "extantreqs": {
                 "catgirl_dedication_3": 1,
-                "defiance.consecration.colonel": 1,
                 "tranquillity": -1
             },
             "slots": [
@@ -890,15 +889,16 @@
             ],
             "mutations": [
                 {
-                    "filter": "temptation.defiance",
-                    "mutate": "defiancemarks",
+                    "filter": "catgirl_dedication_3",
+                    "mutate": "nekomarks",
                     "level": 1,
                     "additive": true
                 }
             ],
             "effects": {
                 "temptation.obscurity": -1,
-                "location": -1
+                "location": -1,
+                "ascensionlesson_abandon": 1
             },
             "warmup": 60,
             "craftable": true,
@@ -922,7 +922,6 @@
             },
             "extantreqs": {
                 "catgirl_dedication_3": 1,
-                "defiance.consecration.lionsmith": 1,
                 "tranquillity": -1
             },
             "slots": [
@@ -937,8 +936,8 @@
             ],
             "mutations": [
                 {
-                    "filter": "temptation.defiance",
-                    "mutate": "defiancemarks",
+                    "filter": "catgirl_dedication_3",
+                    "mutate": "nekomarks",
                     "level": 1,
                     "additive": true
                 }
@@ -946,7 +945,8 @@
             "effects": {
                 "temptation.obscurity": -1,
                 "location": -1,
-                "rage": 1
+                "rage": 1,
+                "ascensionlesson_abandon": 1
             },
             "warmup": 60,
             "craftable": true

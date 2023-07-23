@@ -9,7 +9,24 @@
             },
             "description": "Your service to the Catgirls is unwavering. Your dedication, acknowledged. You've made significant strides against the nefarious capitalist puppet masters. Your ascension beckons, your transformation begins. An aura of extraterrestrial energy surrounds you; it's becoming part of you. The promise of immortality is within reach, and you can feel your humanity blending with the Catgirl essence. You are no longer just an advocate for change. You are the change.",
             "uniquenessgroup": "uqdesire",
-            "icon": "Temptation.Catgirl"
+            "icon": "Temptation.Catgirl",
+            "slots": [
+                {
+                    "id": "contents",
+                    "label": "Contents",
+                    "description": "I could tell my Foe where I am. Or even send him a gift.",
+                    "required": {
+                        "domicile": 1,
+                "location": 1,
+                        "weapon": 1
+                    },
+                    "forbidden": {
+                        "domicile.wilderness": 1,
+                        "weapon.profane": 1
+                    },
+                    "actionid": "surf"
+                }
+            ]
         },
         {
 			"id": "catgirl_marks",

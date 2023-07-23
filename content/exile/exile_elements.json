@@ -5767,12 +5767,12 @@
             "id": "temptation.obscurity",
             "label": "Temptation: Escape",
             "aspects": {
-                "desire": 1,
-                "choice.merciful": 1
+                "choice.merciful": 1,
+                "desire": 1
             },
             "slots": [
                 {
-                    "actionid": "talk",
+                    "actionid": "work",
                     "id": "obscurity1",
                     "label": "Obscurity",
                     "required": {
@@ -5780,7 +5780,7 @@
                     }
                 },
                 {
-                    "actionid": "talk",
+                    "actionid": "work",
                     "id": "obscurity2",
                     "label": "Obscurity",
                     "required": {
@@ -5788,7 +5788,7 @@
                     }
                 },
                 {
-                    "actionid": "talk",
+                    "actionid": "work",
                     "id": "obscurity3",
                     "label": "Obscurity",
                     "required": {
@@ -5796,7 +5796,7 @@
                     }
                 },
                 {
-                    "actionid": "talk",
+                    "actionid": "work",
                     "id": "obscurity4",
                     "label": "Obscurity",
                     "required": {
@@ -5804,7 +5804,7 @@
                     }
                 },
                 {
-                    "actionid": "talk",
+                    "actionid": "work",
                     "id": "obscurity5",
                     "label": "Obscurity",
                     "required": {
@@ -5812,7 +5812,7 @@
                     }
                 },
                 {
-                    "actionid": "talk",
+                    "actionid": "work",
                     "id": "obscurity6",
                     "label": "Obscurity",
                     "required": {
@@ -5820,7 +5820,7 @@
                     }
                 },
                 {
-                    "actionid": "talk",
+                    "actionid": "work",
                     "id": "obscurity7",
                     "label": "Obscurity",
                     "required": {

@@ -269,8 +269,7 @@
                         "independent": 1,
                         "resentment": 3,
                         "mentor": 1,
-                        "nekomarks": 3,
-                        "temptation.obscurity": -1
+                        "nekomarks": 3
                     },
                     "greedy": true
                 }
@@ -369,6 +368,67 @@
                     "chance": 100
                 }
             ]
+        },
+        {
+            "id": "ascensionnotyet",
+            "label": "Mortal Frustrations",
+            "actionid": "craving",
+            "requirements": {
+                "enlightenmentmarks": -1,
+                "powermarks": -1,
+                "sensationmarks": -1
+            },
+            "slots": [
+                {
+                    "id": "Temptations",
+                    "label": "Temptations",
+                    "description": "The fire needs feeding",
+                    "required": {
+                        "desire": 1
+                    },
+                    "greedy": false
+                }
+            ],
+            "startdescription": "What hungers drive me?",
+            "effects": {
+                "restlessness": 1
+            },
+            "description": "As yet, I have only the needs and desires of any other mortal. But what stirs in me?",
+            "alt": [
+                {
+                    "id": "ascensionhintpower2",
+                    "chance": 100
+                },
+                {
+                    "id": "ascensionhintenlightenment2",
+                    "chance": 100
+                },
+                {
+                    "id": "ascensionhintsensation2m",
+                    "chance": 100
+                },
+                {
+                    "id": "ascensionhintsensation2f",
+                    "chance": 100
+                },
+                {
+                    "id": "ascensionhintpower1",
+                    "chance": 100
+                },
+                {
+                    "id": "ascensionhintenlightenment1",
+                    "chance": 100
+                },
+                {
+                    "id": "ascensionhintsensation1",
+                    "chance": 100
+                },
+                {
+                    "id": "legacydetectiveplotitem_tempt",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
         },
         {
             "id": "ascensioncravingcapital_endgame",

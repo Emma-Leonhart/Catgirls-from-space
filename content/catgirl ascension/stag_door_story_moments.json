@@ -246,6 +246,14 @@
                 "chance": 100
             },
             {
+                "id": "ascend_game",
+                "chance": 100
+            },
+            {
+                "id": "ascend_abandon",
+                "chance": 100
+            },
+            {
                 "id": "ascend_cryonics",
                 "chance": 100
             },
@@ -474,6 +482,36 @@
         }
     },
     {
+        "id": "ascend_abandon",
+        "label": "The Immortal catgirl wants more",
+        "startdescription": "The Immortal Catgirl wants more",
+        "description": "The Immortal Catgirl wants more",
+        "requirements": {"ascensionlesson_abandon": 1}, 
+        "warmup": 60,
+        "mutations": [
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "catgirl_determined",
+                "level": 1
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "nekomarks",
+                "level": 1,
+                "additive": true
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "desire",
+                "level": 1,
+                "additive": true
+            }
+        ],
+        "effects":{
+            "catgirl_lesson": -1
+        }
+    },
+    {
         "id": "catgirl_begin",
         "label": "Inspiration of the Lioness",
         "actionid": "work",
@@ -575,14 +613,13 @@
     },
     {
         "id": "catgirl_defiance.summons",
-        "actionid": "talk",
+        "actionid": "surf",
         "label": "Send a Defiant Summons",
-        "startdescription": "My writing on the envelope is crisp and firm. My hand does not shake. [This will destroy all Obscurity.]",
+        "startdescription": "Post your location. [This will destroy all Obscurity.]",
         "description": "My Foe will be here very soon. Perhaps he already is. [Your Defiance is fiercer now.]",
         "requirements": {
             "catgirl_dedication_3": 1,
             "domicile": 1,
-            "location": 1,
             "lure.foe": -1,
             "defiance.foesummoned": -1
         },

@@ -660,11 +660,11 @@
         },
         {
             "id": "send.defiance.lureexists.hint",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "A Defiant Summons: Already Sent",
             "startdescription": "My Foe already knows exactly where I am.",
             "requirements": {
-                "temptation.defiance": 1,
+                "catgirl_dedication_3": 1,
                 "lure.foe": 1,
                 "domicile": 1,
                 "location": 1
@@ -788,12 +788,12 @@
         },
         {
             "id": "send.defiance.summons",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send a Defiant Summons",
             "startdescription": "My writing on the envelope is crisp and firm. My hand does not shake. [This will destroy all Obscurity.]",
             "description": "My Foe will be here very soon. Perhaps he already is. [Your Defiance is fiercer now.]",
             "requirements": {
-                "temptation.defiance": 1,
+                "catgirl_dedication_3": 1,
                 "domicile": 1,
                 "location": 1,
                 "lure.foe": -1,
@@ -809,12 +809,12 @@
                     "level": 1
                 },
                 {
-                    "filter": "temptation.defiance",
+                    "filter": "catgirl_dedication_3",
                     "mutate": "defiance.foesummoned",
                     "level": 1
                 },
                 {
-                    "filter": "temptation.defiance",
+                    "filter": "catgirl_dedication_3",
                     "mutate": "defiancemarks",
                     "level": 1,
                     "additive": true
@@ -835,12 +835,12 @@
         },
         {
             "id": "send.defiance.summons.again",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send a Defiant Summons, Again",
             "startdescription": "Let him come. Let him try to take his due. [This will destroy all Obscurity.]",
             "description": "My Foe will be here very soon. Perhaps he already is.",
             "requirements": {
-                "temptation.defiance": 1,
+                "catgirl_dedication_3": 1,
                 "domicile": 1,
                 "location": 1,
                 "lure.foe": -1
@@ -870,7 +870,7 @@
         },
         {
             "id": "send.defiance.gift",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send a Defiant Gift",
             "startdescription": "I'm going to send my Foe a weapon of power. Because it'll <i>really</i> annoy them.",
             "description": "Perhaps he'll open the package himself. Perhaps he'll think it's a trap, and have someone else do it. Either way, it's hard not to laugh when I imagine his face. [Your Defiance is fiercer now.]",
@@ -901,7 +901,7 @@
         },
         {
             "id": "send.ahead.funds.hint",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Cash Ahead?",
             "startdescription": "I  might need to leave in a hurry. I can prepare the way by sending funds ahead to a possible destination. Of course, if I never go there, the funds will be lost.",
             "requirements": {
@@ -913,7 +913,7 @@
         },
         {
             "id": "send.ahead.funds",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Cash Ahead",
             "startdescription": "I  might need to leave in a hurry. I can prepare the way by sending funds ahead to a possible destination. Of course, if I never go there, the funds will be lost.",
             "description": "It's done. If I need to run, I might have a softer landing.",
@@ -937,7 +937,7 @@
         },
         {
             "id": "send.getsentahead.funds.hint",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Take Advantage of my Preparations?",
             "startdescription": "Once I arrive at this place, I can retrieve the funds I sent ahead.",
             "requirements": {
@@ -949,7 +949,7 @@
         },
         {
             "id": "send.getsentahead.funds",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Take Advantage of my Preparations",
             "startdescription": "I should retrieve the funds I sent ahead.",
             "requirements": {
@@ -967,7 +967,7 @@
         },
         {
             "id": "send.getsentahead.funds.loop",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Done!",
             "startdescription": "I've sent funds ahead. I can retrieve it once I arrive.",
             "requirements": {
@@ -1573,7 +1573,7 @@
         },
         {
             "id": "send.investigate.aachen",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Aachen",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -1582,7 +1582,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.aachen": 1
             },
             "internaldeck": {
@@ -1610,10 +1610,10 @@
                 "minortracerisk": 1
             },
             "craftable": true,
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Alexandria",
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.alexandria": 1
             },
             "internaldeck": {
@@ -1635,7 +1635,7 @@
         },
         {
             "id": "send.investigate.algiers",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Algiers",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -1644,7 +1644,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.algiers": 1
             },
             "internaldeck": {
@@ -1667,7 +1667,7 @@
         },
         {
             "id": "send.investigate.amsterdam",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Amsterdam",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -1676,7 +1676,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.amsterdam": 1
             },
             "internaldeck": {
@@ -1698,7 +1698,7 @@
         },
         {
             "id": "send.investigate.avignon",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Avignon",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -1707,7 +1707,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.avignon": 1
             },
             "internaldeck": {
@@ -1729,10 +1729,10 @@
         },
         {
             "id": "send.investigate.baghdad",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Baghdad",
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.baghdad": 1
             },
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
@@ -1761,7 +1761,7 @@
         },
         {
             "id": "send.investigate.budapest",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Budapest",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -1770,7 +1770,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.budapest": 1
             },
             "internaldeck": {
@@ -1792,7 +1792,7 @@
         },
         {
             "id": "send.investigate.candia",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Candia-Heraklion",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This will search for a place to flee to. There is a small risk of creating a Trace. Worse, the reckoners might get there before you. And you're a long way from likely possibilities. It'll take more time.]",
             "warmup": 60,
@@ -1801,7 +1801,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.candia": 1
             },
             "internaldeck": {
@@ -1823,13 +1823,13 @@
         },
         {
             "id": "send.investigate.cluj",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Cluj-Napoca",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This will search for a place to flee to. There is a small risk of creating a Trace. Worse, the reckoners might get there before you.]",
             "warmup": 30,
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.cluj": 1
             },
             "internaldeck": {
@@ -1851,7 +1851,7 @@
         },
         {
             "id": "send.investigate.granada",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Granada",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -1860,7 +1860,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.granada": 1
             },
             "internaldeck": {
@@ -1882,7 +1882,7 @@
         },
         {
             "id": "send.investigate.istanbul",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Istanbul",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -1891,7 +1891,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.istanbul": 1
             },
             "internaldeck": {
@@ -1913,7 +1913,7 @@
         },
         {
             "id": "send.investigate.kaunas",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Kaunas",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -1922,7 +1922,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.kaunas": 1
             },
             "internaldeck": {
@@ -1945,7 +1945,7 @@
         },
         {
             "id": "send.investigate.kiev",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Kyiv",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -1954,7 +1954,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.kiev": 1
             },
             "internaldeck": {
@@ -1976,7 +1976,7 @@
         },
         {
             "id": "send.investigate.krakow",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Kraków",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -1985,7 +1985,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.krakow": 1
             },
             "internaldeck": {
@@ -2007,7 +2007,7 @@
         },
         {
             "id": "send.investigate.leningrad",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Leningrad",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -2016,7 +2016,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.leningrad": 1
             },
             "internaldeck": {
@@ -2038,7 +2038,7 @@
         },
         {
             "id": "send.investigate.london",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from London",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -2047,7 +2047,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.london": 1
             },
             "internaldeck": {
@@ -2069,7 +2069,7 @@
         },
         {
             "id": "send.investigate.marrakech",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Marrakech",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -2078,7 +2078,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.marrakech": 1
             },
             "internaldeck": {
@@ -2100,7 +2100,7 @@
         },
         {
             "id": "send.investigate.meshad",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Meshad",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you. And you're a long way from likely possibilities. It'll take more time.]",
             "warmup": 60,
@@ -2109,7 +2109,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.meshad": 1
             },
             "internaldeck": {
@@ -2131,7 +2131,7 @@
         },
         {
             "id": "send.investigate.munich",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Munich",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -2140,7 +2140,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.munich": 1
             },
             "internaldeck": {
@@ -2162,7 +2162,7 @@
         },
         {
             "id": "send.investigate.nizhny",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Nizhny",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you. And you're a long way from likely possibilities. It'll take more time.]",
             "warmup": 60,
@@ -2171,7 +2171,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.nizhny": 1
             },
             "internaldeck": {
@@ -2193,7 +2193,7 @@
         },
         {
             "id": "send.investigate.paris",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Paris",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -2202,7 +2202,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.paris": 1
             },
             "internaldeck": {
@@ -2224,7 +2224,7 @@
         },
         {
             "id": "send.investigate.prague",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Prague",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -2233,7 +2233,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.prague": 1
             },
             "internaldeck": {
@@ -2255,7 +2255,7 @@
         },
         {
             "id": "send.investigate.rostock",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Rostock",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -2264,7 +2264,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.rostock": 1
             },
             "internaldeck": {
@@ -2286,7 +2286,7 @@
         },
         {
             "id": "send.investigate.samarkand",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Samarkand",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -2295,7 +2295,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.samarkand": 1
             },
             "internaldeck": {
@@ -2317,7 +2317,7 @@
         },
         {
             "id": "send.investigate.strasbourg",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Strasbourg",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -2326,7 +2326,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.strasbourg": 1
             },
             "internaldeck": {
@@ -2348,7 +2348,7 @@
         },
         {
             "id": "send.investigate.stalingrad",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Stalingrad",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you. And you're a long way from likely possibilities. It'll take more time.]",
             "warmup": 60,
@@ -2357,7 +2357,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.stalingrad": 1
             },
             "internaldeck": {
@@ -2379,7 +2379,7 @@
         },
         {
             "id": "send.investigate.sverdlovsk",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Sverdlovsk",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you. And you're a long way from likely possibilities. It'll take more time.]",
             "warmup": 60,
@@ -2388,7 +2388,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.sverdlovsk": 1
             },
             "internaldeck": {
@@ -2411,7 +2411,7 @@
         },
         {
             "id": "send.investigate.tiflis",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Tiflis",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -2420,7 +2420,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.tiflis": 1
             },
             "internaldeck": {
@@ -2442,7 +2442,7 @@
         },
         {
             "id": "send.investigate.tirana",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Tirana",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -2451,7 +2451,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.tirana": 1
             },
             "internaldeck": {
@@ -2473,7 +2473,7 @@
         },
         {
             "id": "send.investigate.tripoli",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Tripoli dell'ovest",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -2482,7 +2482,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.tripoli": 1
             },
             "internaldeck": {
@@ -2504,7 +2504,7 @@
         },
         {
             "id": "send.investigate.valletta",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Valletta",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you. And you're a long way from likely possibilities. It'll take more time.]",
             "warmup": 60,
@@ -2513,7 +2513,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.valletta": 1
             },
             "internaldeck": {
@@ -2535,7 +2535,7 @@
         },
         {
             "id": "send.investigate.venice",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Venice",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -2544,7 +2544,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.venice": 1
             },
             "internaldeck": {
@@ -2566,7 +2566,7 @@
         },
         {
             "id": "send.investigate.vienna",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Discreet Messages from Vienna",
             "startdescription": "If I run, I should run somewhere I have an old friend - or at least an old acquaintance. [This allows you to find a place to flee to - but there is a small risk of Traces. Worse, the reckoners might get there before you.]",
             "warmup": 30,
@@ -2575,7 +2575,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.vienna": 1
             },
             "internaldeck": {
@@ -2597,7 +2597,7 @@
         },
         {
             "id": "send.investigate.aachen.turmoil",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Hasty Messages from Aachen",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
             "warmup": 30,
@@ -2606,7 +2606,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.aachen.turmoil": 1
             },
             "internaldeck": {
@@ -2628,7 +2628,7 @@
         },
         {
             "id": "send.investigate.algiers.turmoil",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Hasty Messages from Algiers",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
             "warmup": 30,
@@ -2637,7 +2637,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.algiers.turmoil": 1
             },
             "internaldeck": {
@@ -2660,7 +2660,7 @@
         },
         {
             "id": "send.investigate.baghdad.turmoil",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Hasty Messages from Baghdad",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
             "warmup": 30,
@@ -2669,7 +2669,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.baghdad.turmoil": 1
             },
             "internaldeck": {
@@ -2692,7 +2692,7 @@
         },
         {
             "id": "send.investigate.istanbul.turmoil",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Hasty Messages from Istanbul",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
             "warmup": 30,
@@ -2701,7 +2701,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.istanbul.turmoil": 1
             },
             "internaldeck": {
@@ -2723,7 +2723,7 @@
         },
         {
             "id": "send.investigate.kiev.turmoil",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Hasty Messages from Kyiv",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
             "warmup": 30,
@@ -2732,7 +2732,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.kiev.turmoil": 1
             },
             "internaldeck": {
@@ -2754,7 +2754,7 @@
         },
         {
             "id": "send.investigate.leningrad.turmoil",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Hasty Messages from Leningrad",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
             "warmup": 30,
@@ -2763,7 +2763,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.leningrad.turmoil": 1
             },
             "internaldeck": {
@@ -2785,7 +2785,7 @@
         },
         {
             "id": "send.investigate.london.turmoil",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Hasty Messages from London",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
             "warmup": 30,
@@ -2794,7 +2794,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.london.turmoil": 1
             },
             "internaldeck": {
@@ -2816,7 +2816,7 @@
         },
         {
             "id": "send.investigate.munich.turmoil",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Hasty Messages from Munich",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
             "warmup": 30,
@@ -2825,7 +2825,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.munich.turmoil": 1
             },
             "internaldeck": {
@@ -2847,7 +2847,7 @@
         },
         {
             "id": "send.investigate.nizhny.turmoil",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Hasty Messages from Nizhny Novgorod",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
             "warmup": 30,
@@ -2856,7 +2856,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.nizhny.turmoil": 1
             },
             "internaldeck": {
@@ -2878,7 +2878,7 @@
         },
         {
             "id": "send.investigate.samarkand.turmoil",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Hasty Messages from Samarkand",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
             "warmup": 30,
@@ -2887,7 +2887,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.samarkand.turmoil": 1
             },
             "internaldeck": {
@@ -2909,7 +2909,7 @@
         },
         {
             "id": "send.investigate.stalingrad.turmoil",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Hasty Messages from Stalingrad",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
             "warmup": 30,
@@ -2918,7 +2918,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.stalingrad.turmoil": 1
             },
             "internaldeck": {
@@ -2940,7 +2940,7 @@
         },
         {
             "id": "send.investigate.sverdlovsk.turmoil",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Hasty Messages from Sverdlovsk",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
             "warmup": 30,
@@ -2949,7 +2949,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.sverdlovsk.turmoil": 1
             },
             "internaldeck": {
@@ -2972,7 +2972,7 @@
         },
         {
             "id": "send.investigate.tiflis.turmoil",
-            "actionid": "talk",
+            "actionid": "surf",
             "label": "Send Hasty Messages from Tiflis",
             "startdescription": "I need to find somewhere safer. [With the city in this state, it's much harder to make contact undetected. There's a high risk of Traces.]",
             "warmup": 30,
@@ -2981,7 +2981,7 @@
             },
             "craftable": true,
             "requirements": {
-                "temptation.defiance": -1,
+                "catgirl_dedication_3": -1,
                 "domicile.tiflis.turmoil": 1
             },
             "internaldeck": {

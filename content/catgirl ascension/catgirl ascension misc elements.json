@@ -102,6 +102,17 @@
             "icon": "ascensionlesson_videogame" 
         },
         {
+            "id": "ascensionlesson_abandon",
+            "label": "Abandoned Temptation",
+            "aspects": {
+                "catgirl_lesson": 1
+            },
+            "description": "I will never back down.",
+            "unique": true,
+            "comment": "Making a Video Game: This could be a major project using the Work verb. It would require a high level of several different stats (e.g., Passion, Reason, Funds), and yield a significant increase in the Catgirl level and a new Influence or Remnant (e.g., 'Fanbase' or 'Viral Game'). This project could also potentially spawn a new rival or adversary (e.g., 'Corporate Saboteur' or 'Internet Troll').",
+            "icon": "ascensionlesson_videogame" 
+        },
+        {
             "id": "catgirl_lesson",
             "label": "A lesson in being a catgirl",
             "isAspect": true
@@ -133,6 +144,12 @@
         {
             "id": "catgirl_gamer",
             "label": "Gamer",
+            "isAspect": true,
+            "icon": "remembrancemarks"
+        },
+        {
+            "id": "catgirl_determined",
+            "label": "Determined",
             "isAspect": true,
             "icon": "remembrancemarks"
         }

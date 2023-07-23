@@ -462,6 +462,7 @@
             "id": "plague_season",
             "chance": 100,
             "additional": true,
+            "label": "You are tripping off the path",
             "actionid": "inflict_plague_verb",
             "linked": [
                 {

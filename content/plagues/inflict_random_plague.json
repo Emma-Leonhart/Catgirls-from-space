@@ -2,7 +2,7 @@
     "recipes":[
         {
             "id": "inflict_plague",
-            "label": "A plague is inflicted",
+            "label": "You are tripping off the path",
             "actionid": "inflict_plague_verb",
             "deckeffects": {
                 "plagues_deck": 1
