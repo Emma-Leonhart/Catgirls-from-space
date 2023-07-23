@@ -2291,89 +2291,6 @@
             "craftable": false
         },
         {
-            "id": "long.intrigue.confrontation",
-            "actionid": "long",
-            "label": "Preparations for an Assault",
-            "startdescription": "Our enemy's connections are so ubiquitous that they now feel confident of success in open assault. We can expect an onslaught, very soon.",
-            "requirements": {
-                "long.connections": 10,
-                "diarist": -1,
-                "diarist_unknown": -1
-            },
-            "mutations": [
-                {
-                    "mutate": "long.might",
-                    "filter": "long.enemy",
-                    "level": 10
-                }
-            ],
-            "warmup": 60,
-            "linked": [
-                {
-                    "id": "long.assault.confrontation"
-                }
-            ],
-            "aspects": {
-                "revealidentity": 1
-            }
-        },
-        {
-            "id": "long.assault.confrontation",
-            "actionid": "long",
-            "comments": "Note: this takes effect in the main verb. Once in an assault confrontation, we're in it until the end.",
-            "label": "A Direct Assault!",
-            "aspects": {
-                "revealidentity": 1
-            },
-            "slots": [
-                {
-                    "id": "follower",
-                    "label": "Defender",
-                    "required": {
-                        "follower": 1,
-                        "murderskill": 1
-                    },
-                    "forbidden": {
-                        "summoned": 1,
-                        "hireling": 1
-                    }
-                }
-            ],
-            "startdescription": "Enough feinting and proxy struggle. @#welland|Captain Welland will use his Forge-strength against us personally.#tryphon|Lady Tryphon has opted to bloody her well-manicured hands in a personal assault. #julian|This chilly enemy has come to end us personally.#|Our enemy has personally entered the fray.@ [The Long will devour my Health until I am dead, although our loyal followers might protect us for a little while. And only mortal followers - our enemy is wise in the invisible arts, and spirits cannot assail them.] ",
-            "requirements": {
-                "long.might": 10,
-                "diarist": -1,
-                "diarist_unknown": -1
-            },
-            "alt": [
-                {
-                    "id": "expel_corpses",
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 9,
-                        "filter": {
-                            "corpse": 1
-                        }
-                    }
-                },
-                {
-                    "id": "long.assault.confrontation.vanquished"
-                },
-                {
-                    "id": "long.assault.confrontation.murderskill"
-                },
-                {
-                    "id": "long.assault.confrontation.defender"
-                }
-            ],
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "long.assault.confrontation.grabhealth"
-                }
-            ]
-        },
-        {
             "id": "long.assault.confrontation.vanquished",
             "actionid": "long",
             "label": "The Long is dead!",
@@ -2589,42 +2506,6 @@
             "linked": [
                 {
                     "id": "long.assault.confrontation"
-                }
-            ]
-        },
-        {
-            "id": "long.dreams.confrontation",
-            "actionid": "long",
-            "comments": "Note: this takes effect in the main verb. Once in a dreams confrontation, we're in it until the end.",
-            "label": "A War of Phantoms",
-            "aspects": {
-                "revealidentity": 1
-            },
-            "slots": [
-                {
-                    "id": "summoned",
-                    "label": "Defender",
-                    "required": {
-                        "summoned": 1
-                    }
-                }
-            ],
-            "startdescription": "@#welland|Captain Welland has, uncharacteristically, chosen the Bounds of the Mansus for our final battleground.#tryphon|Lady Tryphon has chosen the Bounds of the Mansus for our final confrontation. #julian|Coseley is raising allies in the Bounds of the Mansus to strike at us.#diarist|The Diarist has begun an all-out attack on us, through the Bounds of the Mansus that they know so well.#|Our enemy has raised a host of spirits to strike at us through the Mansus.@ [The Long will devour my Passion and Reason until I am no more. But they have exposed themselves to a counterattack... if I can raise a sufficient host of Mansus-things against them.] ",
-            "requirements": {
-                "long.dreamwork": 10
-            },
-            "alt": [
-                {
-                    "id": "long.dreams.confrontation.vanquished"
-                },
-                {
-                    "id": "long.dreams.confrontation.defender"
-                }
-            ],
-            "warmup": 30,
-            "linked": [
-                {
-                    "id": "long.dreams.confrontation.grabability"
                 }
             ]
         },

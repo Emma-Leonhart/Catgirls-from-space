@@ -1,0 +1,41 @@
+{
+    "elements":[
+        
+        {
+            "id": "berserker_long",
+            "label": "Berserker",
+            "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' [Julian will more frequently use downtime to increase his abilities.]",
+            "aspects": {
+                "long.enemy": 1,
+                "long.preference.winter": 1,
+                "long.connections": 10,
+                "long.dreamwork": 10,
+                "long.might": 10
+            },
+            "verbicon": "long-winter",
+            "xtriggers": {
+                "longded": "berserker.defeated"
+            }
+        },
+        {
+            "id": "berserker.defeated",
+            "label": "A Letter from Julian Coseley",
+            "description": "'Enemy,\n\nI am not so easily destroyed. But I will acknowledge that you have defeated me, and so I will reward you with my counsel.\n\nYou are a fool, cozened by a fool to emplace one more stone in the walls of the Mansus. You may, if you choose, cast that stone away into night.\n\nShould you so cast it, you will die empty and alone, as do all, even the Long. You might die free.\n\n- Julian'\n\n[If you take Julian's lesson to heart, you can break free of your Mentor.]",
+            "slots": [
+                {
+                    "id": "mentor",
+                    "label": "Founder",
+                    "required": {
+                        "apostleforge.mentor": 1,
+                        "apostlegrail.mentor": 1,
+                        "apostlelantern.mentor": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "aspects": {
+                "legacyplotitem": 1
+            }
+        },
+    ]
+}
