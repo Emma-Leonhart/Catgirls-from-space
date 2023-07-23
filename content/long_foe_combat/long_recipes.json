@@ -18,57 +18,6 @@
             ]
         },
         {
-            "id": "long.spawn.forge",
-            "label": "Someone has Arrived",
-            "actionid": "long",
-            "startdescription": "In candle-flames, in hearth-fires, in the hanging sway of smoke, the omens are certain. A great enemy of our Shaper has come to the city - someone who would prevent our Work.",
-            "deckeffects": {
-                "forgelong": 1
-            },
-            "warmup": 60,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "cat.cycle",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.spawn.grail",
-            "label": "Someone has Arrived",
-            "actionid": "long",
-            "startdescription": "We are warned by the alteration of savours, by the fall of blood-drops, by the prodigal births reported in the dockside districts. A great enemy of our Delight has come to the city - someone who would prevent our Work.",
-            "deckeffects": {
-                "graillong": 1
-            },
-            "warmup": 60,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "cat.cycle",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "long.spawn.lantern",
-            "label": "Someone has Arrived",
-            "actionid": "long",
-            "startdescription": "We are warned by the colours in the sun, by the occlusion of the moon, by the fracture of the lens. A great enemy of our Illuminated One has come to the city - someone who would prevent our Work.",
-            "deckeffects": {
-                "lanternlong": 1
-            },
-            "warmup": 60,
-            "craftable": false,
-            "linked": [
-                {
-                    "id": "cat.cycle",
-                    "chance": 100
-                }
-            ]
-        },
-        {
             "id": "cat.cycle",
             "label": "Someone is Watching",
             "actionid": "long",
