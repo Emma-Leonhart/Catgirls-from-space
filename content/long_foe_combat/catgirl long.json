@@ -17,6 +17,64 @@
                     "chance": 100
                 }
             ]
+        },
+        {
+            "id": "long.cycle",
+            "label": "Someone is Watching",
+            "actionid": "long",
+            "effects": {
+                "intention.assault": -9,
+                "intention.intrigue": -9,
+                "intention.dreams": -9,
+                "intention.downtime": -9,
+                "strategy.prep": -9,
+                "strategy.prep.delayed": -9
+            },
+            "startdescription": "The immortal in the shadows ponders their next move.",
+            "warmup": 60,
+            "slots": [
+                {
+                    "id": "longlesson",
+                    "label": "Lessons",
+                    "description": "As we provoke our enemy, and as they learn from us, their attacks will grow deadlier.",
+                    "required": {
+                        "long.lesson": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "long.upgrade.might",
+                    "chance": 100
+                },
+                {
+                    "id": "long.upgrade.connections",
+                    "chance": 100
+                },
+                {
+                    "id": "long.upgrade.dreamwork",
+                    "chance": 100
+                },
+                {
+                    "id": "expelspy",
+                    "chance": 100,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "follower": 1
+                        }
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.selectstrategy",
+                    "chance": 100
+                }
+            ]
         }
     ]
 }
