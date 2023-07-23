@@ -1,0 +1,105 @@
+{
+    "recipes":[
+        
+        {
+            "id": "exile_dream",
+            "actionid": "dream",
+            "label": "Dreaming of Horrors",
+            "startdescription": "Now that I have some time to rest I can't get the thoughts out of my mind",
+            "warmup": 30,
+            "linked":[
+                {
+                    "id": "exile_dream_2",
+                    "chance": 100
+            }
+            ]
+        },
+    {
+        "id": "exile_dream_2",
+        "actionid": "dream",
+        "label": "Dreaming of Horrors",
+        "startdescription": "I can't get these ideas out of my mind",
+            "effects":{
+                "passion": 4,
+                "reason": 4,
+                "health": 4,
+                "waywhite": 1,
+                "catgirl_truth": 1,
+                "catgirl_dedication_2": 1
+            },
+            "portaleffect": "wood",
+            "slots": [
+				{
+					"id": "stagdoor",
+					"label": "The Way?",
+					"description": "The Way",
+					"required": {
+						"waywood": 1
+					},
+					"greedy": true
+				}
+			],
+            "warmup": 30,
+            "linked":[
+                {
+                    "id": "exile_dream_3",
+                    "chance": 100
+                }
+            ],
+    },
+    {
+        "id": "exile_dream_3",
+        "actionid": "dream",
+        "label": "Is that it?",
+        "startdescription": "Is there more? Is there hope? I hope my next dream will elucidate this.",
+        "warmup": 60,
+        "portaleffect": "whitedoor",
+        "alt":[
+            {
+                "id": "surf.exile",
+                "additional": true,
+                "chance": 100
+            }
+        ],
+        "linked":[
+            {
+                "id": "exile_dream_4",
+                "chance": 100
+            }
+        ]
+    },
+    {
+        "id": "exile_dream_4",
+        "actionid": "dream",
+        "label": "There's more!",
+        "startdescription": "There is more! The cats of the enchanted forest. I have hope. Now I just need to enter the stag door. There I can gain their power and use it to gain freedom for everyone!",
+        "warmup": 60,
+        "portaleffect": "whitedoor",
+        "alt":[
+            {
+                "id": "surf.exile",
+                "additional": true,
+                "chance": 100
+            }
+        ],
+        "linked":[
+            {
+                "id": "dreamreachstagfirst",
+                "chance": 100
+            }
+        ]
+    },
+    {
+        "id": "surf.exile",
+        "actionid": "surf",
+        "label": "Searching the internet for info",
+        "startdescription": "I am looking over the internet for any resources to help me escape. I could just lay low and live a quiet life. Ignore the problems I saw.",
+        "description": "I found a bit of info",
+        "effects":{
+            "obscurity": 1,
+            "temptation.obscurity": 1
+        },
+        "warmup": 30
+    }
+    ]
+}

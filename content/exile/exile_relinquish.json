@@ -8,17 +8,12 @@
             "description": "I've changed the dressing. I can move well enough. I could wait for it to heal, or heal it with stolen years if I'm in a hurry - but it'll take a whole Decade, and it'll certainly be noticed.",
             "alt":[
                 {
-                    "id": "inflict_wound",
-                    "chance": 100,
-                    "additional": true
-                },
-                {
-                    "id": "send.first",
+                    "id": "send.first", 
                     "additional": true
                 }
             ],
             "effects": {
-                
+                "wound.exile": 1
             },
             "comments": "opened by initial explore recipe",
             "warmup": 10,

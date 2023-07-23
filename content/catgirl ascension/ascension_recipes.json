@@ -269,7 +269,8 @@
                         "independent": 1,
                         "resentment": 3,
                         "mentor": 1,
-                        "nekomarks": 3
+                        "nekomarks": 3,
+                        "temptation.obscurity": -1
                     },
                     "greedy": true
                 }

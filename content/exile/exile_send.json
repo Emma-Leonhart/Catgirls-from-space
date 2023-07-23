@@ -3,12 +3,14 @@
         {
             "id": "send.first",
             "actionid": "talk",
-            "label": "Communication",
-            "startdescription": "I have excellent reasons not to contact anyone from my old life. But that might yet change.",
+            "label": "Communication", 
+            "startdescription": "I have excellent reasons not to contact anyone from my old life. But this person could help me.",
             "effects": {
-                "temptation.obscurity": 1
             },
             "warmup": 30,
+            "deckeffects": {
+                "acquaintances": 1
+            },
             "craftable": false
         },
         {

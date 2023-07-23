@@ -3,7 +3,7 @@
                     {
                         "id": "hand",
                         "label": "hand",
-                        "description": "[CC] The cold invisible hand that guides all things. [The Hand is the principle that controls everything.]",
+                        "description": "[KK] The cold invisible hand that guides all things. The Hand is the principle that controls everything. The fourth principle in ALOK, which the other principles feed into.",
                         "isAspect": true,
                         "induces": [
                             {

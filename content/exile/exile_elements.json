@@ -7008,7 +7008,19 @@
             },
             "description": "Midnight in Stalingrad. Everywhere, posters of the Georgian radiate avuncular menace across the moonlit streets.",
             "icon": "domicile.stalingrad",
-            "unique": true
+            "unique": true,
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "actionid": "explore"
+                }
+            ]
         },
         {
             "id": "domicile.strasbourg",
@@ -8716,7 +8728,19 @@
                 "location": 1
             },
             "description": "There are always choices. I could die of thirst, or cold, or hunger. [Few opportunities of any use, and you'll have to take whatever road onwards presents itself.]",
-            "icon": "wilderness"
+            "icon": "wilderness",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "with?",
+                    "description": "Will I explore with health or a follower.",
+                    "required": {
+                        "health": 1,
+                        "follower": 1
+                    },
+                    "actionid": "explore"
+                }
+            ]
         },
         {
             "id": "op.cold",
