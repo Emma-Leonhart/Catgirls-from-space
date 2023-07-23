@@ -96,7 +96,7 @@
             "craftable": false,
             "linked": [
                 {
-                    "id": "long.cycle",
+                    "id": "cat.cycle",
                     "chance": 100
                 }
             ]
