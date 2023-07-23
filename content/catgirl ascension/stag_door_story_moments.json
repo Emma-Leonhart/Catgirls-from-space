@@ -138,8 +138,8 @@
         "id": "catgirl_gives_help",
         "actionid": "dream",
         "effects":{
-            "decade.stolen": 9,
-            "year.stolen": 9,
+            "decade.stolen": 3,
+            "year.stolen": 3,
             "ticket.train": 1,
             "health": 3
         }
@@ -524,8 +524,8 @@
             "desire": -1,
             "catgirl_dedication_3": 1,
             "fatigue": 4,
-            "decade.stolen": 9,
-            "year.stolen": 9,
+            "decade.stolen": 3,
+            "year.stolen": 3,
             "funds": 9,
             "ticket.train": 1
         },
@@ -551,8 +551,8 @@
         },
         "effects": {
             "fatigue": 4,
-            "decade.stolen": 9,
-            "year.stolen": 9,
+            "decade.stolen": 3,
+            "year.stolen": 3,
             "funds": 9,
             "ticket.train": 1
         },
@@ -576,8 +576,8 @@
         "effects": {
             "catgirl_dedication_3": 1,
             "fatigue": 4,
-            "decade.stolen": 9,
-            "year.stolen": 9,
+            "decade.stolen": 3,
+            "year.stolen": 3,
             "funds": 9
         },
         "startdescription": "I will dedicate myself to the Immortal Catgirl. This will begin a long task of overcoming the aliens.",
@@ -600,8 +600,8 @@
         "effects": {
             "catgirl_dedication_3": 1,
             "fatigue": 4,
-            "decade.stolen": 9,
-            "year.stolen": 9,
+            "decade.stolen": 3,
+            "year.stolen": 3,
             "funds": 9
         },
         "startdescription": "I will dedicate myself to the Immortal Catgirl. This will begin a long task of overcoming the aliens.",
