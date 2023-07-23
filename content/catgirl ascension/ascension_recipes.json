@@ -376,7 +376,8 @@
             "requirements": {
                 "enlightenmentmarks": -1,
                 "powermarks": -1,
-                "sensationmarks": -1
+                "sensationmarks": -1,
+                "nekomarks": -1
             },
             "slots": [
                 {
@@ -386,7 +387,7 @@
                     "required": {
                         "desire": 1
                     },
-                    "greedy": false
+                    "greedy": true
                 }
             ],
             "startdescription": "What hungers drive me?",

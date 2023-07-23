@@ -992,7 +992,7 @@
         },
         {
             "id": "send.victory.hint",
-            "actionid": "talk",
+            "actionid": "work",
             "label": "Security Through Obscurity?",
             "startdescription": "[If your Obscurity reaches 7, you can send a taunting message to your reckoner Foe before you disappear forever.]",
             "requirements": {
@@ -1003,7 +1003,7 @@
         },
         {
             "id": "send.victory.obscurity.c.begin",
-            "actionid": "talk",
+            "actionid": "work",
             "label": "A Life of Rare Delight...",
             "startdescription": "Do I have everything I need? [If you still have Assets worth at least thirty Comfort at the moment you disappear, you'll achieve a greater victory.]",
             "requirements": {
@@ -1039,7 +1039,7 @@
         },
         {
             "id": "send.victory.obscurity.b.begin",
-            "actionid": "talk",
+            "actionid": "work",
             "label": "A Life of Peace and Comfort",
             "startdescription": "Do I have everything I need? [If you have Assets worth at least thirty Comfort at the moment you disappear, you'll achieve a greater victory.]",
             "requirements": {
@@ -1075,7 +1075,7 @@
         },
         {
             "id": "send.victory.obscurity.a.begin",
-            "actionid": "talk",
+            "actionid": "work",
             "label": "A Life Forgotten",
             "startdescription": "I'll be safe. Is that enough for me? [If you have Assets worth at least twenty Comfort at the moment you disappear, you'll achieve a greater victory.]",
             "requirements": {
@@ -1108,7 +1108,7 @@
         },
         {
             "id": "send.victory.obscurity.c",
-            "actionid": "talk",
+            "actionid": "work",
             "label": "DELIGHT",
             "extantreqs": {
                 "comfort": 30
@@ -1117,7 +1117,7 @@
         },
         {
             "id": "send.victory.obscurity.b",
-            "actionid": "talk",
+            "actionid": "work",
             "label": "EASE",
             "extantreqs": {
                 "comfort": 20
@@ -1126,13 +1126,13 @@
         },
         {
             "id": "send.victory.obscurity.a",
-            "actionid": "talk",
+            "actionid": "work",
             "label": "SILENCE",
             "ending": "obscurityvictorya"
         },
         {
             "id": "send.victory.obscurity.c.foeslain",
-            "actionid": "talk",
+            "actionid": "work",
             "label": "DELIGHT",
             "extantreqs": {
                 "comfort": 30,
@@ -1142,7 +1142,7 @@
         },
         {
             "id": "send.victory.obscurity.b.foeslain",
-            "actionid": "talk",
+            "actionid": "work",
             "label": "EASE",
             "extantreqs": {
                 "comfort": 20,
@@ -1152,7 +1152,7 @@
         },
         {
             "id": "send.victory.obscurity.a.foeslain",
-            "actionid": "talk",
+            "actionid": "work",
             "label": "SILENCE",
             "extantreqs": {
                 "rkx.foe.defeated": 1

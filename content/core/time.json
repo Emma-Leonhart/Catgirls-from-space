@@ -681,7 +681,7 @@
             "actionid": "time",
             "label": "The Wheel Turns",
             "startdescription": "The sun crosses the sky. Night pursues it.",
-            "warmup": 60,
+            "warmup": 240,
             "comments": "No enemies arrive in the first turn.",
             "alt": [
                 {
