@@ -48,7 +48,7 @@
         {
             "id": "detective",
             "label": "The Detective",
-            "description": "I am an Inspector in the capital's police, charged with the investigation of the most vile and wretched things that one human does to another.",
+            "description": "I am an Inspector in the capital's police, charged with the investigation of the most vile and wretched things that one human does to another. \n[Note that in this mod detective is quite story rich and not recommended for first playthroughs]",
             "startdescription": "I have ended the careers of thieves, murderers, blackmailers, arsonists. Some criminals do worse still; and on some mornings, my hands have been known to tremble.",
             "statusbarelements": [
                 "health",
@@ -60,7 +60,7 @@
         },
         {
             "id": "apostleforge",
-            "availableWithoutEndingMatch": true,
+            "availableWithoutEndingMatch": false,
             "statusbarelements": [
                 "health",
                 "reason",
@@ -71,7 +71,7 @@
         },
         {
             "id": "apostlegrail",
-            "availableWithoutEndingMatch": true,
+            "availableWithoutEndingMatch": false,
             "statusbarelements": [
                 "health",
                 "reason",
@@ -82,7 +82,7 @@
         },
         {
             "id": "apostlelantern",
-            "availableWithoutEndingMatch": true,
+            "availableWithoutEndingMatch": false,
             "statusbarelements": [
                 "health",
                 "reason",
@@ -103,7 +103,7 @@
             },
             "image": "dancer",
             "fromending": "workvictory",
-            "availableWithoutEndingMatch": true,
+            "availableWithoutEndingMatch": false,
             "startingverbid": "work",
             "newstart": true,
             "tablecoverimage": "table_leather_exile",
@@ -118,7 +118,8 @@
             "id": "exile",
             "label": "The Exile",
 			"family": "exile",
-            "description": "No-one steals from a reckoner lord. And yet, I did. I had my reasons.",
+            "dep_description": "No-one steals from a reckoner lord. And yet, I did. I had my reasons. ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
@@ -143,7 +144,8 @@
             "id": "exile.obscurityvictorya",
             "label": "The Exile",
 			"family": "exile",
-            "description": "What if it had been different? In another history, did I reap greater rewards?",
+            "dep_description": "What if it had been different? In another history, did I reap greater rewards? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
@@ -167,7 +169,8 @@
             "id": "exile.obscurityvictoryb",
             "label": "The Exile",
 			"family": "exile",
-            "description": "What if it had been different? In another history, did I reap even greater rewards?",
+            "dep_description": "What if it had been different? In another history, did I reap even greater rewards? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
@@ -191,7 +194,8 @@
             "id": "exile.obscurityvictoryc",
             "label": "The Exile",
 			"family": "exile",
-            "description": "What if it had been different? In another history, did I rise higher?",
+            "dep_description": "What if it had been different? In another history, did I rise higher? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
@@ -215,7 +219,8 @@
             "id": "exile.obscurityvictoryafoeslain",
             "label": "The Exile",
 			"family": "exile",
-            "description": "What if it had been different? In another history, did I reap greater rewards?",
+            "dep_description": "What if it had been different? In another history, did I reap greater rewards? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
@@ -239,7 +244,8 @@
             "id": "exile.obscurityvictorybfoeslain",
             "label": "The Exile",
 			"family": "exile",
-            "description": "What if it had been different? In another history, did I reap even greater rewards?",
+            "dep_description": "What if it had been different? In another history, did I reap even greater rewards? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
@@ -263,7 +269,8 @@
             "id": "exile.obscurityvictorycfoeslain",
             "label": "The Exile",
 			"family": "exile",
-            "description": "What if it had been different? In another history, did I rise higher?",
+            "dep_description": "What if it had been different? In another history, did I rise higher? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
@@ -287,7 +294,8 @@
             "id": "exile.foecaughtup",
             "label": "The Exile",
 			"family": "exile",
-            "description": "What if it had been different? In another history, did I survive?",
+            "dep_description": "What if it had been different? In another history, did I survive? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
@@ -311,7 +319,8 @@
             "id": "exile.ascensioncolonel",
             "label": "The Exile",
 			"family": "exile",
-            "description": "What if it had been different? In another history, did I find something more like freedom?",
+            "dep_description": "What if it had been different? In another history, did I find something more like freedom? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
@@ -335,7 +344,8 @@
             "id": "exile.ascensionlionsmith",
             "label": "The Exile",
 			"family": "exile",
-            "description": "What if it had been different? In another history, did I find something more like peace?",
+            "dep_description": "What if it had been different? In another history, did I find something more like peace? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
@@ -359,7 +369,8 @@
             "id": "exile.ascensionwolf",
             "label": "The Exile",
 			"family": "exile",
-            "description": "What if it had been different? In another history, was I also a destroyer?",
+            "dep_description": "What if it had been different? In another history, was I also a destroyer? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
@@ -383,7 +394,8 @@
             "id": "exile.victoryvelvet",
             "label": "The Exile",
 			"family": "exile",
-            "description": "What if it had been different? In another history, did I meet my maker?",
+            "dep_description": "What if it had been different? In another history, did I meet my maker? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
             "startdescription": "Sunset. Time to go.",
             "image": "exile",
             "effects": {
@@ -407,7 +419,7 @@
             "id": "cryonics_legacy",
             "label": "Cryonicist",
 			"family": "exile",
-            "description": "My leader is now frozen. But they left me with a duty to revive them.",
+            "dep_description": "My leader is now frozen. But they left me with a duty to revive them.",
             "startdescription": "I must continue their legacy.",
             "image": "cryonics_legacy",
             "effects": {
