@@ -131,7 +131,7 @@
                 {
                     "filter": "long.enemy",
                     "mutate": "long.might",
-                    "level": 2,
+                    "level": 1,
                     "additive": true
                 }
             ],
@@ -155,7 +155,7 @@
                 {
                     "filter": "long.enemy",
                     "mutate": "long.connections",
-                    "level": 2,
+                    "level": 1,
                     "additive": true
                 }
             ],
@@ -179,7 +179,7 @@
                 {
                     "filter": "long.enemy",
                     "mutate": "long.dreamwork",
-                    "level": 2,
+                    "level": 1,
                     "additive": true
                 }
             ],
@@ -352,7 +352,7 @@
             "effects": {
                 "strategy.prep": 1
             },
-            "warmup": 60,
+            "warmup": 20,
             "craftable": false,
             "linked": [
                 {

@@ -21,8 +21,7 @@
                 "strategy.assault.concealed",
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
-                "strategy.dreams.concealed",
-                "strategy.downtime.concealed"
+                "strategy.dreams.concealed"
             ],
             "defaultcard": "strategy.downtime",
             "resetonexhaustion": true
@@ -35,8 +34,7 @@
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
                 "strategy.intrigue.concealed",
-                "strategy.dreams.concealed",
-                "strategy.downtime.concealed"
+                "strategy.dreams.concealed"
             ],
             "defaultcard": "strategy.downtime",
             "resetonexhaustion": true
@@ -49,8 +47,7 @@
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
                 "strategy.dreams.concealed",
-                "strategy.dreams.concealed",
-                "strategy.downtime.concealed"
+                "strategy.dreams.concealed"
             ],
             "defaultcard": "strategy.downtime",
             "resetonexhaustion": true
@@ -62,8 +59,7 @@
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
-                "strategy.dreams.concealed",
-                "strategy.downtime.concealed"
+                "strategy.dreams.concealed"
             ],
             "defaultcard": "strategy.downtime",
             "resetonexhaustion": true

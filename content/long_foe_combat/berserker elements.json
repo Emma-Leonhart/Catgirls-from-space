@@ -4,17 +4,17 @@
         {
             "id": "berserker_long",
             "label": "Berserker",
-            "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' [Julian will more frequently use downtime to increase his abilities.]",
+            "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' ",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.winter": 1,
-                "long.connections": 10,
-                "long.dreamwork": 10,
-                "long.might": 10
+                "long.connections": 4,
+                "long.dreamwork": 4,
+                "long.might": 4
             },
             "verbicon": "long-winter",
             "xtriggers": {
-                "longded": "berserker.defeated"
+                "longded": "corpse.alien"
             }
         },
         {
@@ -40,49 +40,55 @@
         {
             "id": "berserker.connections",
             "label": "Berserker Saboteur",
-            "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' [Julian will more frequently use downtime to increase his abilities.]",
+            "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' ",
             "aspects": {
                 "long.enemy": 1,
-                "long.preference.winter": 1,
+                "long.preference.intrigue": 1,
                 "long.connections": 4,
+                "long.dreamwork": 4,
+                "long.might": 4,
                 "rkx.event": 1,
                 "rkx.internal": 1 
             },
-            "verbicon": "long-winter",
+            "verbicon": "long-forge",
             "xtriggers": {
-                "longded": "berserker.defeated"
+                "longded": "corpse.alien"
             }
         },
         {
             "id": "berserker.dreamwork",
             "label": "Berserker Dreamer",
-            "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' [Julian will more frequently use downtime to increase his abilities.]",
+            "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' ",
             "aspects": {
                 "long.enemy": 1,
-                "long.preference.winter": 1,
+                "long.preference.dreamwork": 1,
+                "long.connections": 4,
                 "long.dreamwork": 4,
-                "rkx.event": 1,
-                "rkx.internal": 1 
-            },
-            "verbicon": "long-winter",
-            "xtriggers": {
-                "longded": "berserker.defeated"
-            }
-        },
-        {
-            "id": "berserker.might",
-            "label": "Berserker Warrior",
-            "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' [Julian will more frequently use downtime to increase his abilities.]",
-            "aspects": {
-                "long.enemy": 1,
-                "long.preference.winter": 1,
                 "long.might": 4,
                 "rkx.event": 1,
                 "rkx.internal": 1 
             },
             "verbicon": "long-winter",
             "xtriggers": {
-                "longded": "berserker.defeated"
+                "longded": "corpse.alien"
+            }
+        },
+        {
+            "id": "berserker.might",
+            "label": "Berserker Warrior",
+            "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' ",
+            "aspects": {
+                "long.enemy": 1,
+                "long.preference.assault": 1,
+                "long.connections": 4,
+                "long.dreamwork": 4,
+                "long.might": 4,
+                "rkx.event": 1,
+                "rkx.internal": 1 
+            },
+            "verbicon": "long-grail",
+            "xtriggers": {
+                "longded": "corpse.alien"
             }
         }
     ]
