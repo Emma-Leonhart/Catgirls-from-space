@@ -53,7 +53,7 @@
         },
         {
             "id": "wound.mental.medusa",
-            "label": "Trauma",
+            "label": "Brain Damage",
             "aspects": {
                 "knock": 4,
                 "winter": 4,

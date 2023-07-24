@@ -218,7 +218,14 @@
                     "greedy": true
                 }
             ],
-            "icon": "spit.underling.attack"
+            "icon": "spit.underling.attack",
+            "alt":[
+                {
+                    "id": "inflict_plague",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
         },
         {
             "id": "inflict_wound_emotional_double_player",

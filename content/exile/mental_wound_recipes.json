@@ -267,6 +267,13 @@
                     "id": "inflict_wound_mental",
                     "chance": 100
                 }
+            ],
+            "alt":[
+                {
+                    "id": "inflict_plague",
+                    "chance": 100,
+                    "additional": true
+                }
             ]
         }
     ]

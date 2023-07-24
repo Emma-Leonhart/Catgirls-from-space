@@ -19,7 +19,7 @@
             "id": "test_poison_underboss",
             "actionid": "rkx",
             "warmup": 60,
-            "linked":{
+            "effects":{
                 "rkx.underboss": 1,
                 "rkx.event.aggressive": 1
             },

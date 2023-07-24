@@ -135,7 +135,7 @@
                 },
                 {
                     "id": "rkx.underboss.aggressive.poison",
-                    "chance": 33
+                    "chance": 50
                 },
                 {
                     "id": "rkx.underboss.aggressive.violent",
@@ -166,7 +166,8 @@
                     "id": "rkx.operative.aggressive.obscured"
                 },
                 {
-                    "id": "rkx.operative.aggressive.poison"
+                    "id": "rkx.operative.aggressive.poison",
+                    "chance": 20
                 },
                 {
                     "id": "rkx.operative.aggressive"
@@ -385,11 +386,7 @@
                     "id": "rkx.underling.distracted"
                 },
                 {
-                    "id": "rkx.underling.poison.success",
-                    "chance": 70
-                },
-                {
-                    "id": "rkx.underling.attack.failure"
+                    "id": "rkx.underling.poison.success"
                 }
             ]
         },
@@ -1013,7 +1010,7 @@
             "label": "The Mansus is compromised!",
             "startdescription": "I may be harmed in the mansus.",
             "aspects": {
-                "fatiguing": 1
+                
             },
             "alt": [
                 {
@@ -1023,9 +1020,9 @@
                 }
             ],
             "requirements": {
-                "lore": -1,
-                "weapon": -1,
-                "associate": -1
+                "connection_ruler": -1,
+                "connection_underworld": -1,
+                "connection_radicals": -1
             },
             "linked": [
                 {
