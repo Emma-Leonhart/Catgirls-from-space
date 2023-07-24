@@ -33,7 +33,10 @@
                 "generic_a_knock",
                 "generic_a_lantern",
                 "generic_a_moth",
-                "generic_a_winter"
+                "generic_a_winter",
+                "arthur_a",
+                "beatrice_a",
+                "charles_a"
             ],
             "defaultcard": "mistakenidentity"
         },

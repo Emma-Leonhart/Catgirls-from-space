@@ -538,7 +538,7 @@
                 "frozen": 1,
                 "portable": 1
             },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "A person who we will someday unfreeze",
             "comments": "legacy element to keep saves valid",
             "xtriggers": {
                 "recruiting": "generic_b",
@@ -556,7 +556,7 @@
             "aspects": {
                 "not_quite_dead": 1
             },
-            "description": "This one is loyal, but lacks initiative.",
+            "description": "We can still save them.",
             "comments": "This is a legacy element to support older saves.",
             "xtriggers": {
                 "freeze": "generic_frozen"

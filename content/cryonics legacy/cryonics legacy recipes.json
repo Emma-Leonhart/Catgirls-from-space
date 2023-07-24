@@ -221,7 +221,24 @@
                 "dread": -1,
                 "contentment": 1
             },
-            "craftable": false
+            "craftable": false,
+            "alt":[
+                {
+                    "id": "cryonics.surf.open",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "cryonics.surf.open",
+            "label": "Inheriting the youtube channel",
+            "startdescription": "now that I am the leader it is my job to make promotional videos",
+            "actionid": "surf",
+            "effects":{
+                "influencerjoba": 1
+            },
+            "warmup": 30
         }
     ]
 }
