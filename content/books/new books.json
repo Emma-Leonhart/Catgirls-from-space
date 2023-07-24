@@ -1039,6 +1039,22 @@
         "icon": "humoursofagentleman"
     },
     {
+        "id": "bookforgee.2",
+        "unique": true,
+        "label": "The Alchemy of Happiness",
+        "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+        },
+        "description": "A tome of deep insight penned by the venerable scholar, Al-Ghazali. This book serves not as an arcane manual, but rather, a spiritual guide. It maps the terrain of the human soul, detailing a transformative journey from mundane existence to transcendent joy. The words are like a forge, shaping and refining readers' spirits, stirring a thirst for self-understanding and the profound alchemy of inner change..",
+        "xtriggers": {
+            "book_to_lore": "fragmentforgee"
+        },
+        "icon": "humoursofagentleman"
+    },
+    {
         "id": "bookforgef",
         "unique": true,
         "label": "Two Dogmas of Empiricism",
