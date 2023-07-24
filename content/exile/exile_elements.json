@@ -4551,8 +4551,8 @@
                     "id": "connection",
                     "label": "Connection",
                     "required": {
-                        "connection_official": 1,
-                        "connection_ruler": 1
+                        "connection.official": 1,
+                        "connection.ruler": 1
                     },
                     "consumes": true
                 }
@@ -4577,8 +4577,8 @@
                     "id": "connection",
                     "label": "Connection",
                     "required": {
-                        "connection_official": 1,
-                        "connection_ruler": 1
+                        "connection.official": 1,
+                        "connection.ruler": 1
                     },
                     "consumes": true
                 }
@@ -4586,7 +4586,7 @@
             "lifetime": 300
         },
         {
-            "id": "op.connection_official",
+            "id": "op.connection.official",
             "icon": "op.connection.official",
             "comments": "was connection.official but mansus breaks when you have a dot in names",
             "label": "Opportunity: An Official Connection?",
@@ -4596,8 +4596,8 @@
             },
             "description": "I could always use more friends.",
             "xtriggers": {
-                "purchase": "connection_official",
-                "renewal.exile": "op.connection_official"
+                "purchase": "connection.official",
+                "renewal.exile": "op.connection.official"
             },
             "slots": [
                 {
@@ -4613,7 +4613,7 @@
             "lifetime": 300
         },
         {
-            "id": "op.connection_ruler",
+            "id": "op.connection.ruler",
             "icon": "op.connection.ruler",
             "label": "Opportunity: a Connection with a Ruler?",
             "aspects": {
@@ -4622,8 +4622,8 @@
             },
             "description": "A chance to get acquainted with someone of real importance.",
             "xtriggers": {
-                "purchase": "connection_ruler",
-                "renewal.exile": "op.connection_ruler"
+                "purchase": "connection.ruler",
+                "renewal.exile": "op.connection.ruler"
             },
             "slots": [
                 {
@@ -4639,7 +4639,7 @@
             "lifetime": 300
         },
         {
-            "id": "op.connection_holy",
+            "id": "op.connection.holy",
             "icon": "op.connection.holy",
             "label": "Opportunity: a Connection with a Holy Man?",
             "aspects": {
@@ -4648,8 +4648,8 @@
             },
             "description": "Charity brings clarity.",
             "xtriggers": {
-                "purchase": "connection_holy",
-                "renewal.exile": "op.connection_holy"
+                "purchase": "connection.holy",
+                "renewal.exile": "op.connection.holy"
             },
             "slots": [
                 {
@@ -4665,7 +4665,7 @@
             "lifetime": 300
         },
         {
-            "id": "op.connection_radicals",
+            "id": "op.connection.radicals",
             "icon": "op.connection.radicals",
             "label": "Opportunity: a Connection with Radicals?",
             "aspects": {
@@ -4674,8 +4674,8 @@
             },
             "description": "This might have consequences. But I'm probably not planning to stick around.",
             "xtriggers": {
-                "purchase": "connection_radicals",
-                "renewal.exile": "op.connection_radicals"
+                "purchase": "connection.radicals",
+                "renewal.exile": "op.connection.radicals"
             },
             "slots": [
                 {
@@ -4691,7 +4691,7 @@
             "lifetime": 300
         },
         {
-            "id": "op.connection_underworld",
+            "id": "op.connection.underworld",
             "icon": "op.connection.underworld",
             "label": "Opportunity: an Underworld Connection?",
             "aspects": {
@@ -4700,8 +4700,8 @@
             },
             "description": "I've been around, and when you get around, you get to know a certain kind of professional. That's just how it is.",
             "xtriggers": {
-                "purchase": "connection_underworld",
-                "renewal.exile": "op.connection_underworld"
+                "purchase": "connection.underworld",
+                "renewal.exile": "op.connection.underworld"
             },
             "slots": [
                 {
@@ -5098,7 +5098,7 @@
             ]
         },
         {
-            "id": "connection_official",
+            "id": "connection.official",
             "icon": "connection.official",
             "comments": "was connection.official, but mansus breaks if you have it that way so switching spelling",
             "label": "Official Connection",
@@ -5121,12 +5121,12 @@
                 }
             ],
             "xtriggers": {
-                "fatiguing": "op.connection_official",
-                "provoking": "connection_underworld"
+                "fatiguing": "op.connection.official",
+                "provoking": "connection.underworld"
             }
         },
         {
-            "id": "connection_ruler",
+            "id": "connection.ruler",
             "icon": "connection.ruler",
             "label": "Connection: Ruler",
             "aspects": {
@@ -5149,12 +5149,12 @@
             ],
             "description": "A mutually beneficial arrangement with someone of real power.",
             "xtriggers": {
-                "fatiguing": "op.connection_ruler",
-                "provoking": "connection_radicals"
+                "fatiguing": "op.connection.ruler",
+                "provoking": "connection.radicals"
             }
         },
         {
-            "id": "connection_holy",
+            "id": "connection.holy",
             "icon": "connection.holy",
             "label": "Connection: Holy Man",
             "aspects": {
@@ -5184,12 +5184,12 @@
             ],
             "description": "A mutually beneficial arrangement with a learned holy man.",
             "xtriggers": {
-                "fatiguing": "op.connection_holy",
-                "provoking": "connection_radicals"
+                "fatiguing": "op.connection.holy",
+                "provoking": "connection.radicals"
             }
         },
         {
-            "id": "connection_radicals",
+            "id": "connection.radicals",
             "label": "Connection: Radicals",
             "icon": "connection.radicals",
             "aspects": {
@@ -5233,12 +5233,12 @@
             ],
             "description": "A mutually beneficial arrangement with revolutionaries or other enthusiasts.",
             "xtriggers": {
-                "fatiguing": "op.connection_radicals",
-                "provoking": "connection_official"
+                "fatiguing": "op.connection.radicals",
+                "provoking": "connection.official"
             }
         },
         {
-            "id": "connection_underworld",
+            "id": "connection.underworld",
             "icon": "connection.underworld",
             "label": "Connection: Underworld",
             "aspects": {
@@ -5271,8 +5271,8 @@
             ],
             "description": "A mutually beneficial arrangement with relevant professionals.",
             "xtriggers": {
-                "fatiguing": "op.connection_underworld",
-                "provoking": "connection_official"
+                "fatiguing": "op.connection.underworld",
+                "provoking": "connection.official"
             }
         },
         {
@@ -7642,7 +7642,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection_underworld",
+                        "id": "connection.underworld",
                         "morpheffect": "spawn"
                     },
                     {
@@ -7674,7 +7674,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection_official",
+                        "id": "connection.official",
                         "morpheffect": "spawn"
                     },
                     {
@@ -7739,7 +7739,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection_official",
+                        "id": "connection.official",
                         "morpheffect": "spawn"
                     },
                     {
@@ -7775,7 +7775,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection_underworld",
+                        "id": "connection.underworld",
                         "morpheffect": "spawn"
                     },
                     {
@@ -7850,7 +7850,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection_underworld",
+                        "id": "connection.underworld",
                         "morpheffect": "spawn"
                     },
                     {
@@ -7915,7 +7915,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection_radicals",
+                        "id": "connection.radicals",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8045,7 +8045,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection_underworld",
+                        "id": "connection.underworld",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8078,7 +8078,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection_underworld",
+                        "id": "connection.underworld",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8111,7 +8111,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection_holy",
+                        "id": "connection.holy",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8232,7 +8232,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection_underworld",
+                        "id": "connection.underworld",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8264,7 +8264,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection_underworld",
+                        "id": "connection.underworld",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8296,7 +8296,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection_underworld",
+                        "id": "connection.underworld",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8372,7 +8372,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "connection_holy",
+                        "id": "connection.holy",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8491,7 +8491,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "op.connection_official",
+                        "id": "op.connection.official",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8556,7 +8556,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "op.connection_ruler",
+                        "id": "op.connection.ruler",
                         "morpheffect": "spawn"
                     },
                     {
@@ -8628,7 +8628,7 @@
             "xtriggers": {
                 "arriving": [
                     {
-                        "id": "op.connection_ruler",
+                        "id": "op.connection.ruler",
                         "morpheffect": "spawn"
                     },
                     {

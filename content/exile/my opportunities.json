@@ -19,8 +19,8 @@
                     "id": "connection",
                     "label": "Connection",
                     "required": {
-                        "connection_official": 1,
-                        "connection_ruler": 1
+                        "connection.official": 1,
+                        "connection.ruler": 1
                     },
                     "consumes": true
                 }
@@ -45,7 +45,7 @@
                     "id": "connection",
                     "label": "Connection",
                     "required": {
-                        "connection_underworld": 1
+                        "connection.underworld": 1
                     },
                     "consumes": true
                 }

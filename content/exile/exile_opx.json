@@ -52,7 +52,7 @@
             "label": "Run another Faith-Healing Cult?",
             "startdescription": "One at a time is enough.",
             "requirements": {
-                "connection_holy": 1,
+                "connection.holy": 1,
                 "space": 1,
                 "year.stolen": 1
             },
@@ -157,7 +157,7 @@
             "startdescription": "One at a time is enough.",
             "description": "The presses are almost ready.",
             "requirements": {
-                "connection_underworld": 1,
+                "connection.underworld": 1,
                 "forge": 6,
                 "space": 1
             },
@@ -174,7 +174,7 @@
             "startdescription": "One at a time is enough.",
             "description": "Everything is ready.",
             "requirements": {
-                "connection_underworld": 1,
+                "connection.underworld": 1,
                 "op.sea": 1,
                 "space": 1
             },
@@ -190,7 +190,7 @@
             "label": "Compete in Even More Illegal Fights?",
             "startdescription": "Seriously, though.",
             "requirements": {
-                "connection_underworld": 1,
+                "connection.underworld": 1,
                 "year.stolen": 1
             },
             "extantreqs": {
@@ -205,7 +205,7 @@
             "label": "Betray another Uprising?",
             "startdescription": "One at a time is enough.",
             "requirements": {
-                "connection_radicals": 1,
+                "connection.radicals": 1,
                 "winter": 2,
                 "domicile": 1,
                 "location": 1,
@@ -224,7 +224,7 @@
             "startdescription": "One at a time is enough.",
             "comments": "Assumes Radicals add Forge 6",
             "requirements": {
-                "connection_radicals": 1,
+                "connection.radicals": 1,
                 "forge": 8,
                 "domicile": 1,
                 "location": 1,
@@ -243,7 +243,7 @@
             "label": "Pester the Ruler for Further Patronage?",
             "startdescription": "Perhaps not.",
             "requirements": {
-                "connection_ruler": 1,
+                "connection.ruler": 1,
                 "year.stolen": 1
             },
             "extantreqs": {
@@ -343,7 +343,7 @@
             "startdescription": "I can bring genuine healing miracles to a congregation. [A reasonably safe way to convert stolen lifespan into funds. Moth aspect cards are often useful when running a Cult.]",
             "description": "The congregation is assembling.",
             "requirements": {
-                "connection_holy": 1,
+                "connection.holy": 1,
                 "space": 1,
                 "year.stolen": 1
             },
@@ -365,7 +365,7 @@
                         "limit": 4,
                         "filter": {
                             "space": 1,
-                            "op.connection_holy": 1
+                            "op.connection.holy": 1
                         }
                     }
                 }
@@ -550,7 +550,7 @@
             "startdescription": "As long as I have the connections and the resources, I can... make money. [A reasonably safe way to generate funds. Forge aspect cards are often useful when running a Counterfeiting Operation.]",
             "description": "The presses are almost ready.",
             "requirements": {
-                "connection_underworld": 1,
+                "connection.underworld": 1,
                 "forge": 6,
                 "space": 1
             },
@@ -565,7 +565,7 @@
                     "expulsion": {
                         "limit": 4,
                         "filter": {
-                            "op.connection_underworld": 1,
+                            "op.connection.underworld": 1,
                             "space": 1,
                             "forge": 6
                         }
@@ -581,7 +581,7 @@
             "startdescription": "Everything's valuable somewhere. [A reasonably safe way to generate funds. Smuggling operations are generally Subtle, but pay well anyway. Moth aspect cards are often useful when running a  Smuggling Operation.]",
             "description": "Everything is ready.",
             "requirements": {
-                "connection_underworld": 1,
+                "connection.underworld": 1,
                 "op.sea": 1,
                 "space": 1
             },
@@ -599,7 +599,7 @@
                     "expulsion": {
                         "limit": 3,
                         "filter": {
-                            "op.connection_underworld": 1,
+                            "op.connection.underworld": 1,
                             "space": 1,
                             "op.sea": 1
                         }
@@ -614,7 +614,7 @@
             "label": "Compete in Illegal Fights",
             "startdescription": "Nasty. But as long as I keep some years on hand, I shouldn't suffer too much permanent damage. [Any failed challenges will result in a Wound, which you won't be able to heal until the Operation is complete. Edge aspect cards are often useful when competing in Illegal Fights.]",
             "requirements": {
-                "connection_underworld": 1,
+                "connection.underworld": 1,
                 "year.stolen": 1
             },
             "extantreqs": {
@@ -634,7 +634,7 @@
                     "expulsion": {
                         "limit": 3,
                         "filter": {
-                            "op.connection_underworld": 1,
+                            "op.connection.underworld": 1,
                             "space": 1
                         }
                     }
@@ -647,7 +647,7 @@
             "actionid": "work",
             "label": "Use Underworld Connections?",
             "requirements": {
-                "connection_underworld": 1
+                "connection.underworld": 1
             },
             "startdescription": "[Add Forge 6 and Space to begin a counterfeiting operation, a Seaport Opportunity and Space to begin a smuggling operation, or a Stolen Year to compete in illegal fights.]",
             "craftable": false,
@@ -658,7 +658,7 @@
             "actionid": "work",
             "label": "Use Connections with Radicals?",
             "requirements": {
-                "connection_radicals": 1
+                "connection.radicals": 1
             },
             "startdescription": "[Use Forge to assist an Uprising, or Winter to betray it. This is only possible in Troubled cities.]",
             "craftable": false,
@@ -670,7 +670,7 @@
             "label": "Foment Chaos for the Wolf Divided",
             "startdescription": "'Caput gerat lupinum.' Well, why not, then? What do I owe to anyone, after all? [This will cause suffering and destruction. There will be an opportunity for profit; and it'll be harder for the reckoners to pick up your trail.]",
             "requirements": {
-                "connection_radicals": 1,
+                "connection.radicals": 1,
                 "op.wolf": 1,
                 "domicile": 1,
                 "location": 1,
@@ -694,7 +694,7 @@
                         "limit": 5,
                         "filter": {
                             "space": 1,
-                            "op.connection_radicals": 1,
+                            "op.connection.radicals": 1,
                             "domicile": 1,
                 "location": 1,
                             "temptation.defiance": 1,
@@ -711,7 +711,7 @@
             "label": "Betray an Uprising",
             "startdescription": "This has been a century for revolutions, and it's hardly begun. I'll be saving lives [There will be an opportunity for profit, and you'll win favour with the local authorities. The Colonel likes the status quo.]",
             "requirements": {
-                "connection_radicals": 1,
+                "connection.radicals": 1,
                 "winter": 2,
                 "domicile": 1,
                 "location": 1,
@@ -735,7 +735,7 @@
                         "limit": 5,
                         "filter": {
                             "space": 1,
-                            "op.connection_radicals": 1,
+                            "op.connection.radicals": 1,
                             "domicile": 1,
                 "location": 1,
                             "temptation.defiance": 1
@@ -752,7 +752,7 @@
             "startdescription": "It'll be messy, but it might even make the world a better place, eventually. [There will be an opportunity for profit; and it'll be harder for the reckoners to pick up your trail. The Lionsmith likes rebellions.]",
             "comments": "Assumes Radicals add Forge 6",
             "requirements": {
-                "connection_radicals": 1,
+                "connection.radicals": 1,
                 "forge": 8,
                 "domicile": 1,
                 "location": 1,
@@ -776,7 +776,7 @@
                         "limit": 5,
                         "filter": {
                             "space": 1,
-                            "op.connection_radicals": 1,
+                            "op.connection.radicals": 1,
                             "domicile": 1,
                             "location": 1,
                             "catgirl_dedication_3": 1
@@ -792,7 +792,7 @@
             "label": "Accept Patronage",
             "startdescription": "There's nothing a ruler wants more than more life, and there's no-one who pays better. I'll need to make sure my patron doesn't understand my methods, though, or they might get ideas. [A reasonably safe way to convert stolen lifespan into funds.]",
             "requirements": {
-                "connection_ruler": 1,
+                "connection.ruler": 1,
                 "year.stolen": 1
             },
             "extantreqs": {
@@ -812,7 +812,7 @@
                     "expulsion": {
                         "limit": 3,
                         "filter": {
-                            "op.connection_ruler": 1
+                            "op.connection.ruler": 1
                         }
                     }
                 }
@@ -1806,8 +1806,8 @@
             "purge": {
                 "trace": 100,
                 "op": 100,
-                "connection_ruler": 100,
-                "connection_official": 100
+                "connection.ruler": 100,
+                "connection.official": 100
             },
             "warmup": 30,
             "requirements": {
@@ -1839,11 +1839,11 @@
                 "opx.betrayal.complete": 1
             },
             "effects": {
-                "connection_ruler": 1,
-                "op.connection_radicals": -1
+                "connection.ruler": 1,
+                "op.connection.radicals": -1
             },
             "purge": {
-                "connection_radicals": 100
+                "connection.radicals": 100
             },
             "warmup": 30,
             "linked": [

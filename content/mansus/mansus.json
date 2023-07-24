@@ -25,13 +25,13 @@
 			"influencehandc",
 			"dread",
 			"rage",
-			"connection_official"
+			"connection.official"
 		],
 		"drawmessages": {
 			"influencehandc": "In the shadows of our collective journey, I found myself ensnared in a dark forest of invisible threads. It is challenging to articulate how deep, silent, and omnipresent that forest was... My memory falters when I try to recall last night, amidst the darkened depths of the forest, where spectral hands brushed against my own. Yet this dawn, my mind hums with fragments: PECUNIA SI UTI SCIS ANCILLA EST SI NESCIS DOMINA.",
 			"dread": "Under the oppressive canopy of our collective fear, I lost my way in a forest so silent it screamed. To convey the depth of that silence, the weight of the unseen terror it concealed, is a task that threatens to break my resolve. The chilling memory of last night within the forest's unlit labyrinth, where phantom whispers of the cannibalistic inhabitants clawed at my sanity, lingers like a specter. The rustling, the dreadful anticipation, the presence of a menace hidden in the shadows. This morning, my mind is an echo chamber of horror. Whispers of the unseen, terror of the forest-dwellers, dread of being the hunted prey in the dark forest.",
 			"rage": "In the belly of the dark forest, I bore witness to an unspeakable act that shook the very core of my being. Hidden among the gnarled trees and thick undergrowth, primal violence unveiled its grotesque face. A woman, a victim, was violated by heartless savages, their grunts echoing in the haunting silence, their eyes reflecting the sinister glee of the act. The helplessness, the anger, the indignation. The revolting picture is etched deep within my consciousness, igniting a blaze of rage that refuses to die. Every time I close my eyes, I see her pain, hear her screams, and feel the beast of wrath clawing inside me, thirsting for justice.",
-			"connection_official": "As I journeyed deeper into the inky shadows, a figure emerged, bearing the unmistakable aura of authority. In the midst of the encompassing gloom, our eyes met... Last night, within the confines of the Dark Forest, I believe I encountered the spirit of a lawman, a chief perhaps, lost and wandering. The precise content of our conversation is lost to the twilight, a muffled echo amidst the tree trunks. Yet, an unspoken bond was formed in the silence. I am confident that we will recognize each other in the realm of the waking, connected by our shared nocturnal encounter."
+			"connection.official": "As I journeyed deeper into the inky shadows, a figure emerged, bearing the unmistakable aura of authority. In the midst of the encompassing gloom, our eyes met... Last night, within the confines of the Dark Forest, I believe I encountered the spirit of a lawman, a chief perhaps, lost and wandering. The precise content of our conversation is lost to the twilight, a muffled echo amidst the tree trunks. Yet, an unspoken bond was formed in the silence. I am confident that we will recognize each other in the realm of the waking, connected by our shared nocturnal encounter."
 		},
 		"resetonexhaustion": true,
 		"comment": "The Dark Forest, a location accessible via the Mansus"
@@ -44,13 +44,13 @@
 			"influencehandc",
 			"capitalisticnessplus",
 			"fragmenthandc",
-			"connection_ruler"
+			"connection.ruler"
 		],
 		"drawmessages": {
 			"influencehandc": "In the heart of the Endless Exchange, amidst the ceaseless ebb and flow of commerce, I chanced upon a token of real significance. It seemed to pulse in my hands, resonating with the relentless rhythm of the market. The energies of countless transactions, a pulsating drive for accumulation, infused this talisman of human desire. As I awoke, I carried with me the very essence of exchange, a tangible manifestation of the market's relentless heartbeat.",
 			"capitalisticnessplus": "As I navigated through the Endless Exchange, I was surrounded by the frenzied dance of acquisition and transaction. Coins suspended from invisible strings, glinting enticingly, led the way for the mass of restless pursuers. Their eyes bore the desperation of a thirst unquenchable, their hands reaching out in ceaseless chase. But amidst this perpetual tumult, something else caught my eye - a symbol of value unlike the rest, a luminescent cryptocurrency that pulsed with an untamed energy. Unnoticed by the frantic multitude, it beckoned me down a path less traversed. Its glow led me through the maze of trade, promising a different understanding of value, a different rhythm of exchange. As I awoke, the luminous path remained etched into my memory, an imprint of my journey through the relentless marketplace.",
 			"fragmenthandc": "The ceaseless chime of coin against coin reverberates throughout the Endless Exchange. Amidst the clamor of transactions and the frantic pursuit of riches, the Invisible Hand occasionally drops a nugget of insight, an accidental spillage in the fervor of commerce. As I navigated the tumultuous market last night, I found a unique token, the Gilded Paradox. Its surface was etched with intricate riddles, the lore of a forgotten trade, the secret lessons of the market. It bore the weight of an enigma that promised a wealth of understanding, far more valuable than any currency. It is said that the Invisible Hand guards secrets well, but in this moment, it had let slip a treasure. Yet, it's best not to draw the Hand's attention; after all, the market is ever-watchful.",
-			"connection_ruler": "The Endless Exchange is an arena of continuous transactions, a bustling marketplace with the clink of coins serving as its heartbeat. Amid the sea of figures, each with their own thirst for material gain, there are the select few who have risen to master the game. During a visit to the Exchange, I stumbled upon one such individual - a prosperous capitalist, draped in the aura of the Invisible Hand's favor. They were momentarily lost in the torrent of trade, ensnared by a problematic negotiation. With discretion and care, I helped them regain their footing. As they departed with a newfound appreciation, I knew our paths would cross again in the world of wakefulness. In the endless pursuit of wealth, it seems allies can be found in unexpected places."
+			"connection.ruler": "The Endless Exchange is an arena of continuous transactions, a bustling marketplace with the clink of coins serving as its heartbeat. Amid the sea of figures, each with their own thirst for material gain, there are the select few who have risen to master the game. During a visit to the Exchange, I stumbled upon one such individual - a prosperous capitalist, draped in the aura of the Invisible Hand's favor. They were momentarily lost in the torrent of trade, ensnared by a problematic negotiation. With discretion and care, I helped them regain their footing. As they departed with a newfound appreciation, I knew our paths would cross again in the world of wakefulness. In the endless pursuit of wealth, it seems allies can be found in unexpected places."
 		},
 		"resetonexhaustion": true,
 		"comment": "The Endless Exchange, a location accessible via the Dark Forest",
@@ -103,7 +103,7 @@
 			"erudition",
 			"fascination",
 			"obscurity",
-			"connection_underworld" 
+			"connection.underworld" 
 		],
 		"drawmessages": {
 			"influenceknockc": "Last night, within the Great Pavilion, a mysterious guide offered me a horn cup of dream-wine. 'The wine is imaginary,' she explained, 'but the cup is not. To navigate the Mansus, one must understand the distinction. Perhaps one day we'll journey together. Until then, let me share a secret -' and her breath stirred the silence.",
@@ -112,7 +112,7 @@
 			"erudition": "In last night's dream, I found myself in the Pavilion, where the mysterious guide posed a riddle without a question. 'How do we speak without voice? I did not enter through the ordinary gate. I made my own. Remember my words, for they carry the weight of the Mansus.'",
 			"fascination": "In the enveloping blue of the Pavilion, I watched two phantom figures contend with swords of light. 'These specters were here long before me, remnants of the Mansus' ancient occupants. Their dance is entrancing, isn't it?'",
 			"obscurity": "Within the Pavilion, I met the Keeper of Shadows. With a knowing look, he unveiled the Mansus' hidden corners. 'Shadows can be friends or foes. Learn their secrets, and they might aid you against the hunters in your pursuit.'",
-			"connection_underworld": "Inside the Pavilion, I met the Patron of the Forgotten, a figure wrapped in dark intrigue. He held power and secrets in equal measure, hinting at a world unseen by many. 'The Mansus is more than meets the eye. Remember this and find your way in the dark.'"
+			"connection.underworld": "Inside the Pavilion, I met the Patron of the Forgotten, a figure wrapped in dark intrigue. He held power and secrets in equal measure, hinting at a world unseen by many. 'The Mansus is more than meets the eye. Remember this and find your way in the dark.'"
 		},
 		"resetonexhaustion": true,
 		"comment": "The Great Pavilion, a location accessible via the White Door, formerly the Lodge"
@@ -125,16 +125,16 @@
 			"glimmering",
 			"influenceheartc",
 			"fragmentsecrethistoriesc",
-			"connection_holy",
-			"connection_radical"
+			"connection.holy",
+			"connection.radical"
 		],
 		"drawmessages": {
 			"influencelanternc": "'The Mansus,' the Enlightened Wanderer once said, 'holds treasures beyond our grasp, but none more mesmerizing than the Orchard of Lights.' In my dream, I wandered the Orchard, its radiant fruit and peaceful mists a testament to the old Sun's glory.",
 			"glimmering": "Once, the Sun-in-Splendour walked the Orchard, filling it with his radiant brilliance. Now, his remnants wander the place, their silent footfalls a memory of his reign. Their distant presence is a gift of insight.",
 			"influenceheartc": "The Immortal Empress allows sleepers to stroll in the Orchard of Lights, where peace reigns supreme. Last night, I was among the privileged, and I woke up carrying a shard of its tranquility in my heart.",
 			"fragmentsecrethistoriesc": "In the Orchard of Lights, every fruit is a secret, every bite an epiphany. The stories of the Mansus are etched in the bark of its luminous trees, and last night, I read a tale that still rings in my ears.",
-			"connection_holy": "In the heart of the Orchard of Lights, beneath a tree that radiates pure light, the Holy Seer shares wisdom that stirs the soul. His words resonate with truth, infusing the tranquil surroundings with a profound spirituality.",
-			"connection_radical": "Deep in the Orchard of Lights, a Radical Dreamer, a visionary, stirs up the serenity with fervor and fire. His passionate discourses spark a desire for change, even in this place of unchanging beauty, illuminating the radical potential that dreams can hold.",
+			"connection.holy": "In the heart of the Orchard of Lights, beneath a tree that radiates pure light, the Holy Seer shares wisdom that stirs the soul. His words resonate with truth, infusing the tranquil surroundings with a profound spirituality.",
+			"connection.radical": "Deep in the Orchard of Lights, a Radical Dreamer, a visionary, stirs up the serenity with fervor and fire. His passionate discourses spark a desire for change, even in this place of unchanging beauty, illuminating the radical potential that dreams can hold.",
 		},
 		"resetonexhaustion": true,
 		"comment": "Orchard of Light, location accessible by the white door/enchanted forest" 

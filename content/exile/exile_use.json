@@ -811,7 +811,7 @@
             "startdescription": "This will buy their loyalty, for now.",
             "effects": {
                 "funds": -1,
-                "connection_underworld": -1,
+                "connection.underworld": -1,
                 "year.stolen": -1,
                 "op.hireling": -1
             }
@@ -820,12 +820,12 @@
             "id": "explorepaycriminal.connection",
             "label": "A Hireling",
             "requirements": {
-                "connection_underworld": 1
+                "connection.underworld": 1
             },
             "actionid": "work",
             "startdescription": "This will buy their loyalty, for now.",
             "effects": {
-                "connection_underworld": -1,
+                "connection.underworld": -1,
                 "op.hireling": -1
             }
         },
@@ -849,7 +849,7 @@
             "startdescription": "Here's someone who will only accept payment in the currency of the Cindered Tally. But I have a friend in high places who won't like it. [This will sabotage your Ruler connection.]",
             "description": "And done.",
             "requirements": {
-                "op.connection_radicals": 1,
+                "op.connection.radicals": 1,
                 "price.lifespan.stolen": 1,
                 "lifespan.stolen": "price.lifespan.stolen"
             },
@@ -857,10 +857,10 @@
                 "purchase": 1
             },
             "extantreqs": {
-                "connection_ruler": 1
+                "connection.ruler": 1
             },
             "purge": {
-                "connection_ruler": 1
+                "connection.ruler": 1
             },
             "warmup": 10,
             "craftable": true
@@ -872,7 +872,7 @@
             "startdescription": "Here's someone who will only accept payment in the currency of the Cindered Tally. But I have radical friends who won't like it. [This will sabotage your Radicals connection.]",
             "description": "And done.",
             "requirements": {
-                "op.connection_ruler": 1,
+                "op.connection.ruler": 1,
                 "price.lifespan.stolen": 1,
                 "lifespan.stolen": "price.lifespan.stolen"
             },
@@ -880,10 +880,10 @@
                 "purchase": 1
             },
             "extantreqs": {
-                "connection_radicals": 1
+                "connection.radicals": 1
             },
             "purge": {
-                "connection_radicals": 1
+                "connection.radicals": 1
             },
             "warmup": 10,
             "craftable": true
@@ -1238,13 +1238,13 @@
             }
         },
         {
-            "id": "use.connection_official",
+            "id": "use.connection.official",
             "actionid": "work",
             "label": "Possibilities",
             "startdescription": "I can ask my contact to look out for opportunities. They'll need their expenses covered, of course. [This will create an Opportunity to purchase either a Medical License or an Import License.]",
             "description": "This could help.",
             "requirements": {
-                "connection_official": 1,
+                "connection.official": 1,
                 "worth": 1
             },
             "internaldeck": {
