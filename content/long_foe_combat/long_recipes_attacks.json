@@ -50,7 +50,7 @@
             "label": "The Serpent, Exposed",
             "startdescription": "Tragulari strike from stealth. They don't thrive in daylight. This one has fled. (For good?) Our enemy will take note.",
             "effects": {
-                "long.lesson.might": 1
+                "trace": 1
             },
             "warmup": 10
         },
@@ -142,7 +142,7 @@
             "label": "The Final Payment",
             "startdescription": "Our defender has triumphed, and the Dartsman is dead. Perhaps that's enough to stop them.",
             "effects": {
-                "long.lesson.might": 1
+                "trace": 1
             },
             "warmup": 10
         },
@@ -187,7 +187,7 @@
             "startdescription": "They should have known better than to set their strength against mine. They were owed a death, but I have paid them in their own blood.",
             "warmup": 30,
             "effects": {
-                "long.lesson.might": 1
+                "trace": 1
             }
         },
         {
@@ -261,7 +261,7 @@
             "label": "A Sudden Reversal",
             "startdescription": "This time, the Dartsman met a challenge they hadn't expected. They're dead. Perhaps that will stop them.",
             "effects": {
-                "long.lesson.might": 1
+                "trace": 1
             },
             "warmup": 10
         },
@@ -375,7 +375,7 @@
                     },
                     "startdescription": "Smashed lock - broken window - night air by the gulp. Our follower is free. Our enemy will pay closer attention, now.",
                     "effects": {
-                        "long.lesson.might": 1
+                        "trace": 1
                     }
                 },
                 {
@@ -721,7 +721,7 @@
                     },
                     "startdescription": "Our followers are not to be discounted lightly. Our enemy's agents retreat in disarray. Of course, our enemy will now take the matter more seriously.",
                     "effects": {
-                        "long.lesson.might": 1
+                        "trace": 1
                     }
                 },
                 {
@@ -896,7 +896,7 @@
             "label": "A Failed Assault",
             "startdescription": "We've defeated our enemy's assault... but they've learnt something of us, and they'll take us more seriously as a threat. I can expect more dangerous assaults in future.",
             "effects": {
-                "long.lesson.might": 1
+                "trace": 1
             },
             "aspects": {
                 "restorehealth": 1,
@@ -1057,7 +1057,7 @@
             "startdescription": "Our follower has forsaken their sacred trust. Now they will lend their strength to the growing power of our enemy.",
             "effects": {
                 "follower": -1,
-                "long.lesson.might": 1
+                "trace": 1
             },
             "warmup": 10
         },
@@ -1778,7 +1778,7 @@
             "label": "The Benefit of the Doubt",
             "startdescription": "Our reputation is no worse... but our enemy will focus their attention more intently on us, now.",
             "effects": {
-                "long.lesson.connections": 1
+                "trace": 1
             }
         },
         {
@@ -1816,7 +1816,7 @@
                 "spirit_heartc_edge": 1
             },
             "effects": {
-                "long.lesson.dreamwork": 1
+                "trace": 1
             },
             "aspects": {
                 "killsummoned": 1
@@ -1858,7 +1858,7 @@
                 "spirit_forgec_winter": 1
             },
             "effects": {
-                "long.lesson.dreamwork": 1
+                "trace": 1
             },
             "aspects": {
                 "killsummoned": 1
@@ -1885,7 +1885,7 @@
                         "waystagbefore_3": 1,
                         "waystagbefore_4": 1,
                         "waystagbefore_5": 1
-                    },
+                    }, 
                     "greedy": true
                 }
             ],
@@ -1986,7 +1986,7 @@
             "label": "The Shrouding Light",
             "startdescription": "We've averted the attention of the prowling wolf-splinter. Our Great Work is safe for now.",
             "effects": {
-                "long.lesson.dreamwork": 1
+                "trace": 1
             },
             "warmup": 10
         },
@@ -2196,7 +2196,7 @@
             },
             "effects": {
                 "fascination": -1,
-                "long.lesson.dreamwork": 1
+                "trace": 1
             }
         },
         {
@@ -2234,7 +2234,7 @@
             },
             "effects": {
                 "dread": -1,
-                "long.lesson.dreamwork": 1
+                "trace": 1
             }
         },
         {
@@ -2263,7 +2263,7 @@
             "label": "Learning: Might",
             "actionid": "longdowntime",
             "effects": {
-                "long.lesson.might": 1
+                "trace": 1
             }
         },
         {
@@ -2271,7 +2271,7 @@
             "label": "Learning: Connections",
             "actionid": "longdowntime",
             "effects": {
-                "long.lesson.connections": 1
+                "trace": 1
             }
         },
         {
@@ -2279,7 +2279,7 @@
             "label": "Learning: Dreamwork",
             "actionid": "longdowntime",
             "effects": {
-                "long.lesson.dreamwork": 1
+                "trace": 1
             }
         },
         {
@@ -2292,7 +2292,7 @@
         },
         {
             "id": "long.assault.confrontation.vanquished",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "The Long is dead!",
             "startdescription": "This giant might have lived forever, but they grew incautious.",
             "description": "[Savour your victory while you can. The work continues. If our enemy can be destroyed, so too can our mentor.]",
@@ -2307,7 +2307,7 @@
         {
             "id": "long.assault.confrontation.grabhealth",
             "label": "A Savage Onslaught",
-            "actionid": "long",
+            "actionid": "rkx",
             "slots": [
                 {
                     "id": "injury",
@@ -2348,7 +2348,7 @@
         },
         {
             "id": "long.assault.confrontation.defender",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "A Necessary Sacrifice",
             "requirements": {
                 "follower": 1
@@ -2373,7 +2373,7 @@
         },
         {
             "id": "long.assault.confrontation.weakfollower",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "A Necessary Sacrifice",
             "startdescription": "One more candle extinguished.",
             "requirements": {
@@ -2393,7 +2393,7 @@
         },
         {
             "id": "long.assault.confrontation.murderskill",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "Into the Night",
             "startdescription": "I shall confront this creature directly. They have the strength of centuries... but I am not to be underestimated.",
             "requirements": {
@@ -2411,7 +2411,7 @@
         },
         {
             "id": "long.assault.confrontation.murderskill.succeed",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "I Was Broken, Though My Edges Wound Like Knives",
             "startdescription": "I grappled with my enemy in the darkness, and even as they overmastered me, I sacrificed my strength to draw their blood. They are wounded! but I am broken.",
             "mutations": [
@@ -2434,7 +2434,7 @@
         },
         {
             "id": "long.assault.confrontation.murderskill.failure",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "I Was Broken",
             "startdescription": "I set myself against my enemy; I met their strength with mine; and I was broken. I might be something more than human; but they have not been human in a very long time.",
             "warmup": 30,
@@ -2449,7 +2449,7 @@
         },
         {
             "id": "long.assault.confrontation.strongfollower",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "A Noble End",
             "startdescription": "In the depths of the night, we hear a scream that shakes the city. The Long is wounded!",
             "mutations": [
@@ -2484,7 +2484,7 @@
         },
         {
             "id": "long.assault.confrontation.strongfollower.failure",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "A Noble Failure",
             "startdescription": "Minutes stretch to hours. The night has swallowed our comrade as easily as a fish taking a fly. The Long, unsated, continues the assault.",
             "warmup": 30,
@@ -2511,7 +2511,7 @@
         },
         {
             "id": "long.dreams.confrontation.vanquished",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "The Long is vanquished!",
             "startdescription": "Among the wheeling shadows, the furious smokes, of the Bounds, the Long shrinks like a melting moon. Their armies dissipate. Their intentions founder. Their name is lost.",
             "description": "[Savour your victory while you can. The work continues. If our enemy can be destroyed, so too can our mentor.]",
@@ -2525,7 +2525,7 @@
         },
         {
             "id": "long.dreams.confrontation.defender",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "A Battle in the Bounds",
             "requirements": {
                 "summoned": 1
@@ -2565,7 +2565,7 @@
         },
         {
             "id": "long.dreams.confrontation.lantern.maid",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "An Understanding with the Sun-in-Rags",
             "startdescription": "The Diarist is on first-name terms with the presences that pass along the Ascent of Knives. No Maid-in-the-Mirror will raise her hand against him.",
             "requirements": {
@@ -2584,7 +2584,7 @@
         },
         {
             "id": "long.dreams.confrontation.winter.maid",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "Winter's Chill",
             "startdescription": "Coseley is a Winter-long. However that chilly state was achieved, it has sealed him against the attacks of Maids-in-the-Mirror.",
             "requirements": {
@@ -2603,7 +2603,7 @@
         },
         {
             "id": "long.dreams.confrontation.lantern.hint",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "The Meniscate's Light",
             "startdescription": "As Lantern-long, the Diarist has an understanding with the Glory's epigones. No Hint will harm him.",
             "requirements": {
@@ -2622,7 +2622,7 @@
         },
         {
             "id": "long.dreams.confrontation.forge.caligine",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "Long Acquaintance with the Forge",
             "startdescription": "Welland held fire on a long leash before ever our founder was born. No Caligine will harm him.",
             "requirements": {
@@ -2641,7 +2641,7 @@
         },
         {
             "id": "long.dreams.confrontation.grail.prophet",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "A Certain Sympathy",
             "startdescription": "'Don't do that,' Lady Tryphon will remark. And the Raw Prophet will not, in fact, do that.",
             "requirements": {
@@ -2660,7 +2660,7 @@
         },
         {
             "id": "long.dreams.confrontation.weakfollower",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "A Necessary Sacrifice",
             "requirements": {
                 "edge": -5,
@@ -2680,7 +2680,7 @@
         },
         {
             "id": "long.dreams.confrontation.strongfollower",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "The Wound in the Wood",
             "startdescription": "Blood drips from tree-branches. Our enemy is hurt.",
             "mutations": [
@@ -2703,7 +2703,7 @@
         },
         {
             "id": "long.dreams.confrontation.strongfollower.failure",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "The Lengthening Light",
             "startdescription": "Our enemy is unharmed.",
             "warmup": 30,
@@ -2718,7 +2718,7 @@
         },
         {
             "id": "long.dreams.confrontation.grabability",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "Dusk Unrelenting",
             "startdescription": "The nightmares keep coming. They keep coming. Day or night, waking or sleeping, the sounds of the things in the air, the roots of my hair growing inwards, the open doors that open all the way and the migraines that lair in cold and everything speaks to me, all the time everything, the tug of waking is gravity's slither and the press of the Bounds is the press of the crowd and I am sloughing me, this is how glaciers go\n\n[When I have no remaining Passion or Reason, this will destroy me.]",
             "slots": [
@@ -2756,7 +2756,7 @@
         },
         {
             "id": "long.dreams.confrontation.destroyedbynightmares",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "The Mercy",
             "startdescription": "- no more -",
             "requirements": {
@@ -2771,7 +2771,7 @@
         },
         {
             "id": "long.dreams.confrontation.cleanup",
-            "actionid": "long",
+            "actionid": "rkx",
             "comments": "We remove principle aspects on each run-through - any clutter left from killing spirits, we want to remove so it doesn't affect the attack calculation.",
             "label": "A War of Phantoms",
             "aspects": {

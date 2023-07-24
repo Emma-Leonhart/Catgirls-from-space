@@ -1510,7 +1510,7 @@
         "poison.way.long": 1
       },
       "effects": {
-        "long.lesson.dreamwork": 1
+        "trace": 1
       },
       "warmup": 10
     },

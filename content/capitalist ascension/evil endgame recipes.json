@@ -87,7 +87,7 @@
         {
             "id": "long.spawn.capital",
             "label": "Someone has Arrived",
-            "actionid": "long",
+            "actionid": "rkx",
             "startdescription": "The Men in black warned me. The greatest threat has arrived.",
             "deckeffects": {
                 "lanternlong": 1

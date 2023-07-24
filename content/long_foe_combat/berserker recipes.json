@@ -2,16 +2,16 @@
     "recipes":
     [
         {"id": "berserker_assault",
-        "actionid": "long",
+        "actionid": "rkx",
         "label": "Test assault by Berserker",
         "label": "Preparations for an Assault",
         "startdescription": "Our enemy's connections are so ubiquitous that they now feel confident of success in open assault. We can expect an onslaught, very soon.",
 
         "warmup": 20,
         "effects":{
-            "long.lesson.connections": 10,
-            "long.lesson.dreamwork": 10,
-            "long.lesson.might": 10,
+            "trace": 10,
+            "trace": 10,
+            "trace": 10,
             "berserker_long": 1
         },
         "linked": [
@@ -35,7 +35,7 @@
         },
         {
             "id": "long.refinestrategy.dreams.learndreams.followup",
-            "actionid": "long",
+            "actionid": "rkx",
             "requirements": {
                 "intention.dreams": 1,
                 "strategy.prep": 3
@@ -60,7 +60,7 @@
         
         {
             "id": "long.intrigue.confrontation",
-            "actionid": "long",
+            "actionid": "rkx",
             "label": "Preparations for an Assault",
             "startdescription": "Our enemy's connections are so ubiquitous that they now feel confident of success in open assault. We can expect an onslaught, very soon.",
             "requirements": {
@@ -87,7 +87,7 @@
         },
         {
             "id": "long.dreams.confrontation",
-            "actionid": "long",
+            "actionid": "rkx",
             "comments": "Note: this takes effect in the main verb. Once in a dreams confrontation, we're in it until the end.",
             "label": "A War of Phantoms",
             "aspects": {
@@ -123,7 +123,7 @@
         },
         {
             "id": "long.assault.confrontation",
-            "actionid": "long",
+            "actionid": "rkx",
             "comments": "Note: this takes effect in the main verb. Once in an assault confrontation, we're in it until the end.",
             "label": "A Direct Assault!",
             "aspects": {

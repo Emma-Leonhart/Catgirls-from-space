@@ -37,5 +37,53 @@
                 "legacyplotitem": 1
             }
         },
+        {
+            "id": "berserker.connections",
+            "label": "Berserker",
+            "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' [Julian will more frequently use downtime to increase his abilities.]",
+            "aspects": {
+                "long.enemy": 1,
+                "long.preference.winter": 1,
+                "long.connections": 4,
+                "rkx.event": 1,
+                "rkx.internal": 1 
+            },
+            "verbicon": "long-winter",
+            "xtriggers": {
+                "longded": "berserker.defeated"
+            }
+        },
+        {
+            "id": "berserker.dreamwork",
+            "label": "Berserker",
+            "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' [Julian will more frequently use downtime to increase his abilities.]",
+            "aspects": {
+                "long.enemy": 1,
+                "long.preference.winter": 1,
+                "long.dreamwork": 4,
+                "rkx.event": 1,
+                "rkx.internal": 1 
+            },
+            "verbicon": "long-winter",
+            "xtriggers": {
+                "longded": "berserker.defeated"
+            }
+        },
+        {
+            "id": "berserker.might",
+            "label": "Berserker",
+            "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' [Julian will more frequently use downtime to increase his abilities.]",
+            "aspects": {
+                "long.enemy": 1,
+                "long.preference.winter": 1,
+                "long.might": 4,
+                "rkx.event": 1,
+                "rkx.internal": 1 
+            },
+            "verbicon": "long-winter",
+            "xtriggers": {
+                "longded": "berserker.defeated"
+            }
+        }
     ]
 }

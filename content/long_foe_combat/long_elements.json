@@ -298,30 +298,6 @@
             "comments": "This is currently unused - it became less relevant once tablereqs came in.",
             "lifetime": 1,
             "noartneeded": true
-        },
-        {
-            "id": "long.lesson.might",
-            "label": "Increased Might",
-            "aspects": {
-                "long.lesson": 1
-            },
-            "description": "Our immortal enemy is taking us more seriously, and has brought more resources to bear. [An enemy Long's Might will increase, allowing them to conduct more powerful assaults.]"
-        },
-        {
-            "id": "long.lesson.connections",
-            "label": "More Connections",
-            "aspects": {
-                "long.lesson": 1
-            },
-            "description": "Our immortal enemy is taking us more seriously, and has brought more resources to bear. [An enemy Long's Connections will increase, allowing them to conduct more devious intrigues.]"
-        },
-        {
-            "id": "long.lesson.dreamwork",
-            "label": "Glimpses of the Soul",
-            "aspects": {
-                "long.lesson": 1
-            },
-            "description": "Our immortal enemy has learnt something of us. [An enemy Long's Starlight will increase, giving them greater power in our dreams.]"
         }
     ]
 }

@@ -9510,7 +9510,7 @@
             "label": "Reckoners: Passive",
             "aspects": {
                 "rkx.event": 1,
-                "rkx.internal": 1
+                "rkx.internal": 1 
             },
             "description": "My pursuers are hesitating",
             "lifetime": 1,

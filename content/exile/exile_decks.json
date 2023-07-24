@@ -9,7 +9,13 @@
                 "rkx.event.aggressive",
                 "rkx.event.aggressive",
                 "rkx.event.aggressive",
-                "rkx.event.passive"
+                "rkx.event.passive",
+                "rkx.event.passive",
+                "berserker.connections",
+                "berserker.might",
+                "berserker.dreamwork",
+                "berserker.dreamwork",
+                "berserker.dreamwork"
             ],
             "resetonexhaustion": true
         },
