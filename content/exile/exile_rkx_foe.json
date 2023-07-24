@@ -255,6 +255,10 @@
             "startdescription": "I've paid the price for my audacity -",
             "alt":[
                 {
+                    "id": "inflict_plague",
+                    "chance": 10
+                },
+                {
                     "id": "inflict_wound_double",
                     "chance": 40
                 },
@@ -590,6 +594,10 @@
             "label": "A Crushing Blow!",
             "startdescription": "The bastard's still damnably strong.",
             "alt":[
+                {
+                    "id": "inflict_plague",
+                    "chance": 10
+                },
                 {
                     "id": "inflict_wound_double",
                     "chance": 40

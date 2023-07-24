@@ -9,9 +9,6 @@
 
         "warmup": 20,
         "effects":{
-            "trace": 10,
-            "trace": 10,
-            "trace": 10,
             "berserker_long": 1
         },
         "linked": [
@@ -174,6 +171,57 @@
             "linked": [
                 {
                     "id": "long.assault.confrontation.grabhealth"
+                }
+            ]
+        },
+        {
+            "id": "long.spawn.might",
+            "label": "Someone has Arrived",
+            "actionid": "rkx",
+            "startdescription": "In candle-flames, in hearth-fires, in the hanging sway of smoke, the omens are certain. A great enemy of our Shaper has come to the city - someone who would prevent our Work.",
+            "warmup": 60,
+            "craftable": false,
+            "effects":{
+                "berserker.might": 1
+            },
+            "linked": [
+                {
+                    "id": "long.cycle",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.spawn.connection",
+            "label": "Someone has Arrived",
+            "actionid": "rkx",
+            "startdescription": "In candle-flames, in hearth-fires, in the hanging sway of smoke, the omens are certain. A great enemy of our Shaper has come to the city - someone who would prevent our Work.",
+            "warmup": 60,
+            "craftable": false,
+            "effects":{
+                "berserker.connection": 1
+            },
+            "linked": [
+                {
+                    "id": "long.cycle",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.spawn.dreamwork",
+            "label": "Someone has Arrived",
+            "actionid": "rkx",
+            "effects":{
+                "berserker.dreamwork": 1
+            },
+            "startdescription": "In candle-flames, in hearth-fires, in the hanging sway of smoke, the omens are certain. A great enemy of our Shaper has come to the city - someone who would prevent our Work.",
+            "warmup": 60,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "long.cycle",
+                    "chance": 100
                 }
             ]
         }

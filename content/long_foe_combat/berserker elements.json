@@ -39,7 +39,7 @@
         },
         {
             "id": "berserker.connections",
-            "label": "Berserker",
+            "label": "Berserker Saboteur",
             "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' [Julian will more frequently use downtime to increase his abilities.]",
             "aspects": {
                 "long.enemy": 1,
@@ -55,7 +55,7 @@
         },
         {
             "id": "berserker.dreamwork",
-            "label": "Berserker",
+            "label": "Berserker Dreamer",
             "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' [Julian will more frequently use downtime to increase his abilities.]",
             "aspects": {
                 "long.enemy": 1,
@@ -71,7 +71,7 @@
         },
         {
             "id": "berserker.might",
-            "label": "Berserker",
+            "label": "Berserker Warrior",
             "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' [Julian will more frequently use downtime to increase his abilities.]",
             "aspects": {
                 "long.enemy": 1,

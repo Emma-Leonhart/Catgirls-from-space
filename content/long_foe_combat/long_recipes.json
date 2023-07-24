@@ -54,9 +54,6 @@
         {
             "id": "long.cycle",
             "label": "Someone is Watching",
-            "requirements":{
-                "long.enemy": 1
-            },
             "actionid": "rkx",
             "effects": {
                 "intention.assault": -9,
@@ -141,7 +138,7 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "long.cycle",
+                    "id": "long.selectstrategy",
                     "chance": 100
                 }
             ]
@@ -165,7 +162,7 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "long.cycle",
+                    "id": "long.selectstrategy",
                     "chance": 100
                 }
             ]
@@ -189,7 +186,7 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "long.cycle",
+                    "id": "long.selectstrategy",
                     "chance": 100
                 }
             ]
