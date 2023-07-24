@@ -1,0 +1,34 @@
+{
+    "recipes":[
+        {
+            "id": "test_poison_operative",
+            "actionid": "rkx",
+            "warmup": 60,
+            "linked":[
+                {
+                    "id": "rkx.operative.aggressive.poison",
+                    "chance": 100
+                }
+            ],
+            "effects":{
+                "rkx.operative": 1,
+                "rkx.event.aggressive": 1
+            }
+        },
+        {
+            "id": "test_poison_underboss",
+            "actionid": "rkx",
+            "warmup": 60,
+            "linked":{
+                "rkx.underboss": 1,
+                "rkx.event.aggressive": 1
+            },
+            "linked":[
+                {
+                    "id": "rkx.underboss.aggressive.poison",
+                    "chance": 100
+                }
+            ]
+        }
+    ]
+}
