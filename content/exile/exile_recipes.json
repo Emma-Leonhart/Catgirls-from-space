@@ -1671,7 +1671,8 @@
                 "relinquish": 1,
                 "spawn.*": 100,
                 "spit.*": 100,
-                "suspicion": 100
+                "suspicion": 100,
+                "scandal": 100
             },
             "purge": {
                 "trace": 100,

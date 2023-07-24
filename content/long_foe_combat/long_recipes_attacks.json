@@ -946,7 +946,8 @@
             "label": "Filthy Lies",
             "startdescription": "There is so much we're guilty of, and this is not it, not it at all! And yet it may be what damns us.",
             "effects": {
-                "notoriety": 1
+                "notoriety": 1,
+                "trace": 1
             },
             "warmup": 10
         },
