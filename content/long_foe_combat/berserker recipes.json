@@ -105,6 +105,10 @@
             },
             "alt": [
                 {
+                    "id": "rkx.foe.arrive",
+                    "additional": true
+                },
+                {
                     "id": "long.dreams.confrontation.vanquished"
                 },
                 {
@@ -148,6 +152,10 @@
             },
             "alt": [
                 {
+                    "id": "rkx.foe.arrive",
+                    "additional": true
+                },
+                {
                     "id": "expel_corpses",
                     "additional": true,
                     "expulsion": {
@@ -170,7 +178,7 @@
             "warmup": 30,
             "linked": [
                 {
-                    "id": "long.assault.confrontation.grabhealth"
+                    "id": "long.assault.confrontation.grabhealth" 
                 }
             ]
         },
