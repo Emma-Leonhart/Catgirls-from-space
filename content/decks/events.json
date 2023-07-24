@@ -349,8 +349,7 @@
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
-                "strategy.dreams.concealed",
-                "strategy.downtime.concealed"
+                "strategy.dreams.concealed"
             ],
             "defaultcard": "strategy.downtime",
             "resetonexhaustion": true

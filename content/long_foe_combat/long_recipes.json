@@ -221,6 +221,23 @@
             ]
         },
         {
+            "id": "long.preparestrategy.berserker",
+            "label": "A Decision",
+            "actionid": "rkx",
+            "dep_requirements": {
+                "long.preference.assault": 1
+            },
+            "deckeffects": {
+                "berserker.strategies": 1
+            },
+            "linked": [
+                {
+                    "id": "long.preparestrategy",
+                    "chance": 100
+                }
+            ]
+        },
+        {
             "id": "long.preparestrategy.preference.assault",
             "label": "A Decision",
             "actionid": "rkx",
