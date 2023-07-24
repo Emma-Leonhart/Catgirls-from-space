@@ -256,8 +256,16 @@
             "alt":[
                 {
                     "id": "inflict_wound_double",
+                    "chance": 40
+                },
+                {
+                    "id": "inflict_wound_mental_double",
+                    "chance": 50
+                },
+                {
+                    "id": "inflict_wound_emotional_double",
                     "chance": 100
-                }
+                } 
             ],
             "aspects": {
                 "fatiguing": 1
@@ -584,8 +592,16 @@
             "alt":[
                 {
                     "id": "inflict_wound_double",
+                    "chance": 40
+                },
+                {
+                    "id": "inflict_wound_mental_double",
+                    "chance": 50
+                },
+                {
+                    "id": "inflict_wound_emotional_double",
                     "chance": 100
-                }
+                } 
             ],
             "aspects": {
                 "fatiguing": 1
