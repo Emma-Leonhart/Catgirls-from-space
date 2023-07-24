@@ -162,8 +162,8 @@
             "deckeffects": {
                 "cemeteryfinds": 1
             },
-            "startdescription": "Streets are strange in the hour called Meniscate.",
-            "description": "Visions pass me with pavane grace - a window over a wood, a garden of ice, a shivering sun, a woman of glass. I will return home, with reluctance.",
+            "startdescription": "The gravestones whisper in the wind, each name a solemn echo of the past.",
+            "description": "I walk amidst memories etched in stone, feeling the pulse of life that once was. I will return to the living world, bearing the wisdom of the silent.",
             "warmup": 30,
             "craftable": true
         },
@@ -177,8 +177,8 @@
             "deckeffects": {
                 "templefinds": 1
             },
-            "startdescription": "Streets are strange in the hour called Meniscate.",
-            "description": "Visions pass me with pavane grace - a window over a wood, a garden of ice, a shivering sun, a woman of glass. I will return home, with reluctance.",
+            "startdescription": "Within the temple walls, mysteries unravel with a careful gaze.",
+            "description": "I navigate the sacred corridors, lensing in on enigmas that dance just out of sight. The world contracts and expands with each revelation. I return to reality, my vision forever changed.",
             "warmup": 30,
             "craftable": true
         },
@@ -195,8 +195,8 @@
             "effects":{
                 "lensing": -1
             },
-            "startdescription": "Streets are strange in the hour called Meniscate.",
-            "description": "Visions pass me with pavane grace - a window over a wood, a garden of ice, a shivering sun, a woman of glass. I will return home, with reluctance.",
+            "startdescription": "The world twists and stretches under my lensing gaze, secrets bubbling to the surface.",
+            "description": "With every focus shift, new landscapes emerge, beautiful and bizarre. As I leave this spectral lensing, I carry with me a menagerie of mysteries, reluctantly returning to the mundane.",
             "warmup": 30,
             "craftable": true
         }
