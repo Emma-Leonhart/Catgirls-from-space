@@ -133,6 +133,7 @@
                         "weapon": 1,
                         "distraction": 1,
                         "associate": 1,
+                        "follower": 1,
                         "defiance.consecration.lionsmith": 1
                     },
                     "forbidden": {

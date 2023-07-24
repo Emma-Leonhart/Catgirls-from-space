@@ -1672,7 +1672,8 @@
                 "spawn.*": 100,
                 "spit.*": 100,
                 "suspicion": 100,
-                "scandal": 100
+                "scandal": 100,
+                "longassault.abduction": 100
             },
             "purge": {
                 "trace": 100,

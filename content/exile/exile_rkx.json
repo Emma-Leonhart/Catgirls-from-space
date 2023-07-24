@@ -395,6 +395,7 @@
                         "weapon": 1,
                         "distraction": 1,
                         "associate": 1,
+                        "follower": 1,
                         "decade.stolen": 1
                     },
                     "forbidden": {
@@ -439,6 +440,7 @@
                         "weapon": 1,
                         "distraction": 1,
                         "associate": 1,
+                        "follower": 1,
                         "decade.stolen": 1
                     },
                     "forbidden": {
@@ -632,6 +634,7 @@
                         "weapon": 1,
                         "distraction": 1,
                         "associate": 1,
+                        "follower": 1,
                         "decade.stolen": 1
                     },
                     "forbidden": {
@@ -728,6 +731,7 @@
                         "connection_underworld": 1,
                         "connection_radicals": 1,
                         "connection_official": 1,
+                        "follower": 1,
                         "decade.stolen": 1
                     }
                 }
