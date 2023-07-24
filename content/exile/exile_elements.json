@@ -9230,7 +9230,15 @@
                 "rkx.internal": 1
             }, 
             "xtriggers": {
-                "rkx.promote": "rkx.underboss",
+                "rkx.promote": [
+                    {
+                        "id": "rkx.underboss"
+                    },
+                    {
+                        "id": "rkx.long",
+                        "chance": 50
+                    }
+                ],
                 "rkx.demote": "rkx.explore"
             },
             "lifetime": 1,
@@ -9246,7 +9254,15 @@
                 "rkx.internal": 1
             },
             "xtriggers": {
-                "rkx.promote": "rkx.underboss",
+                "rkx.promote": [
+                    {
+                        "id": "rkx.underboss"
+                    },
+                    {
+                        "id": "rkx.long",
+                        "chance": 50
+                    }
+                ],
                 "rkx.demote": "rkx.explore"
             },
             "lifetime": 1,
@@ -9266,6 +9282,21 @@
             },
             "lifetime": 1,
             "decayTo": "corpse.exile.underling"
+        },
+        {
+            "id": "rkx.long",
+            "label": "Reckoner Long",
+            "description": "An alien representative of the hand itself. [Aliens will wait a while and then do a relentless attack and summon the Foe.]",
+            "verbicon": "rkx.underboss",
+            "aspects": {
+                "rkx.rank": 2,
+                "rkx.internal": 1
+            },
+            "xtriggers": {
+                "rkx.demote": "rkx.enforcer"
+            },
+            "lifetime": 1,
+            "decayTo": "corpse.alien"
         },
         {
             "id": "rkx.foe",

@@ -131,6 +131,9 @@
                     "id": "rkx.escort.attack"
                 },
                 {
+                    "id": "rkx.long.loop"
+                },
+                {
                     "id": "rkx.underboss.aggressive.obscured"
                 },
                 {
@@ -235,7 +238,8 @@
                 "rkx.foe": 1
             },
             "effects": {
-                "rkx.event.aggressive": 1
+                "rkx.event.aggressive": 1,
+                "rkx.event": -1
             },
             "warmup": 30,
             "linked": [
@@ -244,6 +248,33 @@
                 },
                 {
                     "id": "rkx.enforcer.aggressive"
+                }
+            ]
+        },
+        {
+            "id": "rkx.long.loop",
+            "actionid": "rkx",
+            "label": "Something is coming",
+            "startdescription": "Something inhuman is coming after me. I won't be able to bribe it.",
+            "requirements": {
+                "rkx.long": 1
+            },
+            "effects": {
+                "rkx.long": -1
+            },
+            "warmup": 30,
+            "linked":[
+                {
+                    "id": "long.spawn.might",
+                    "chance": 33
+                },
+                {
+                    "id": "long.spawn.connection",
+                    "chance": 50
+                },
+                {
+                    "id": "long.spawn.dreamwork",
+                    "chance": 100
                 }
             ]
         },

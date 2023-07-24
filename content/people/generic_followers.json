@@ -40,6 +40,45 @@
             }
         },
         {
+            "id": "corpse.alien",
+            "icon": "corpse.exile.underling",
+            "label": "Alien Corpse",
+            "aspects": {
+                "remnant": 1,
+                "winter": 2,
+                "grail": 2,
+                "ingredient": 1,
+                "not_quite_dead": 1
+            },
+            "description": "Saving them will be difficult with their alien biology, but we can try.",
+            "lifetime": 300,
+            "decayTo": "corpse",
+            "slots": [
+                {
+                    "id": "assistance",
+                    "actionid": "relinquish",
+                    "label": "Assistance",
+                    "required": {
+                        "deception": 1
+                    },
+                    "consumes": true
+                },
+                {
+                    "id": "assistance2",
+                    "actionid": "relinquish",
+                    "label": "Assistance",
+                    "required": {
+                        "deception": 1
+                    },
+                    "consumes": true
+                }
+            ],
+            "xtriggers": {
+                "fatiguing": "husk",
+                "freeze": "reckoner_frozen"
+            }
+        },
+        {
             "id": "generic_a",
             "label": "A Hanger-On",
             "aspects": {
