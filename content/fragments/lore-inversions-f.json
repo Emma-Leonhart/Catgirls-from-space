@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "invertwinterf",
-            "label": "Invert Winter Lorf",
+            "label": "Invert Winter Lore",
             "actionid": "study",
             "requirements": {
                 "fragmentwinterf": 1,
@@ -20,7 +20,7 @@
         },
         {
             "id": "invertlanternf",
-            "label": "Invert Lantern Lorf",
+            "label": "Invert Lantern Lore",
             "actionid": "study",
             "requirements": {
                 "fragmentlanternf": 1,
@@ -38,7 +38,7 @@
         },
         {
             "id": "invertforgef",
-            "label": "Invert Forge Lorf",
+            "label": "Invert Forge Lore",
             "actionid": "study",
             "requirements": {
                 "fragmentforgef": 1,
@@ -56,7 +56,7 @@
         },
         {
             "id": "invertedgef",
-            "label": "Invert Edge Lorf",
+            "label": "Invert Edge Lore",
             "actionid": "study",
             "requirements": {
                 "fragmentedgef": 1,
@@ -74,7 +74,7 @@
         },
         {
             "id": "invertknockf",
-            "label": "Invert Knock Lorf",
+            "label": "Invert Knock Lore",
             "actionid": "study",
             "requirements": {
                 "fragmentknockf": 1,
@@ -92,7 +92,7 @@
         },
         {
             "id": "invertsecretf",
-            "label": "Invert Secret Lorf",
+            "label": "Invert Secret Lore",
             "actionid": "study",
             "requirements": {
                 "fragmentsecrethistoriesf": 1,
