@@ -256,7 +256,7 @@
             "alt":[
                 {
                     "id": "inflict_wound_double",
-                    "chance": 40
+                    "chance": 34
                 },
                 {
                     "id": "inflict_wound_mental_double",
