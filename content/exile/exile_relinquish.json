@@ -108,7 +108,8 @@
                 "decade.stolen": -1,
                 "damage.exile": -1,
                 "trace": 1,
-                "op.dawn": -1
+                "op.dawn": -1,
+                "health": 1
             }
         },
         {
@@ -123,7 +124,8 @@
             },
             "effects": {
                 "influenceheartc": -1,
-                "damage.exile": -1
+                "damage.exile": -1,
+                "health": 1
             },
             "warmup": 30,
             "craftable": true,

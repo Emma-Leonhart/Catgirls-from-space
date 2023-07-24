@@ -1,0 +1,87 @@
+{
+    "elements":[
+        {
+            "id": "wound.mental",
+            "label": "Mental Wound",
+            "aspects": {
+                "knock": 4,
+                "winter": 4,
+                "damage.mental": 1,
+                "ability": 1
+            },
+            "description": "Wounds can be mental too.",
+            "slots": [
+                {
+                    "actionid": "relinquish",
+                    "id": "repurposedlife",
+                    "label": "Repurposed Life",
+                    "description": "This wound could cost me ten years - unless I replace those years.",
+                    "required": {
+                        "decade.stolen": 1,
+                        "grail": 1
+                    }
+                }
+            ],
+            "lifetime": 1200,
+            "decayTo": "concentration",
+            "icon": "wound.mental"
+        },
+        {
+            "id": "wound.mental.unstanchable",
+            "label": "Mental Wound",
+            "aspects": {
+                "knock": 4,
+                "winter": 4,
+                "damage.mental": 1
+            },
+            "description": "Wounds can be mental too. [This Wound will take twice as long to heal.]",
+            "slots": [
+                {
+                    "actionid": "relinquish",
+                    "id": "repurposedlife",
+                    "label": "Repurposed Life",
+                    "description": "This wound could cost me ten years - unless I replace those years.",
+                    "required": {
+                        "decade.stolen": 1,
+                        "grail": 1
+                    }
+                }
+            ],
+            "lifetime": 2400,
+            "decayTo": "concentration",
+            "icon": "wound.mental"
+        },
+        {
+            "id": "wound.mental.medusa",
+            "label": "Trauma",
+            "aspects": {
+                "knock": 4,
+                "winter": 4,
+                "damage.mental": 1,
+                "pentiment": 1,
+                "pentiment.6": 1
+            },
+            "description": "This trauma will never heal. This wound will not heal without extraordinary measures.",
+            "slots": [
+                {
+                    "actionid": "relinquish",
+                    "id": "repurposedlife",
+                    "label": "Repurposed Life",
+                    "description": "This wound could cost me ten years - unless I replace those years.",
+                    "required": {
+                        "decade.stolen": 1,
+                        "grail": 1
+                    }
+                }
+            ],
+            "icon": "scar_edge",
+            "burnTo": "concentration"
+        },
+        {
+            "id": "damage.mental",
+            "description": "Allows multiple elements to count towards Exile damage",
+            "isAspect": true,
+            "isHidden": true
+        }
+    ]
+}

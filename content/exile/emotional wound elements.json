@@ -1,0 +1,87 @@
+{
+    "elements":[
+        {
+            "id": "wound.emotional",
+            "label": "Emotional Wound",
+            "aspects": {
+                "knock": 4,
+                "winter": 4,
+                "damage.emotional": 1,
+                "ability": 1
+            },
+            "description": "Wounds can be emotional too.",
+            "slots": [
+                {
+                    "actionid": "relinquish",
+                    "id": "repurposedlife",
+                    "label": "Repurposed Life",
+                    "description": "This wound could cost me ten years - unless I replace those years.",
+                    "required": {
+                        "decade.stolen": 1,
+                        "moth": 1
+                    }
+                }
+            ],
+            "lifetime": 1200,
+            "decayTo": "disillusionment",
+            "icon": "wound.emotional"
+        },
+        {
+            "id": "wound.emotional.unstanchable",
+            "label": "Emotional Wound",
+            "aspects": {
+                "knock": 4,
+                "winter": 4,
+                "damage.emotional": 1
+            },
+            "description": "Wounds can be emotional too. [This Wound will take twice as long to heal.]",
+            "slots": [
+                {
+                    "actionid": "relinquish",
+                    "id": "repurposedlife",
+                    "label": "Repurposed Life",
+                    "description": "This wound could cost me ten years - unless I replace those years.",
+                    "required": {
+                        "decade.stolen": 1,
+                        "moth": 1
+                    }
+                }
+            ],
+            "lifetime": 2400,
+            "decayTo": "disillusionment",
+            "icon": "wound.emotional"
+        },
+        {
+            "id": "wound.emotional.medusa",
+            "label": "Trauma",
+            "aspects": {
+                "knock": 4,
+                "winter": 4,
+                "damage.emotional": 1,
+                "pentiment": 1,
+                "pentiment.6": 1
+            },
+            "description": "This trauma will never heal. This wound will not heal without extraordinary measures.",
+            "slots": [
+                {
+                    "actionid": "relinquish",
+                    "id": "repurposedlife",
+                    "label": "Repurposed Life",
+                    "description": "This wound could cost me ten years - unless I replace those years.",
+                    "required": {
+                        "decade.stolen": 1,
+                        "moth": 1
+                    }
+                }
+            ],
+            "icon": "scar_winter",
+            "burnTo": "disillusionment"
+        },
+        {
+            "id": "damage.emotional",
+            "description": "Allows multiple elements to count towards Exile damage",
+            "isAspect": true,
+            "isHidden": true
+        }
+    ]
+}

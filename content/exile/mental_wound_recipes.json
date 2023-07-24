@@ -1,0 +1,273 @@
+{
+    "recipes": [
+        {
+            "id": "inflict_wound_mental",
+            "actionid": "spit.underling.attack",
+            "linked": [
+                {
+                    "id": "wound_follower.mental",
+                    "chance": 70
+                },
+                {
+                    "id": "inflict_wound_mental_player",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "wound_follower.mental",
+            "actionid": "spit.underling.attack",
+            "label": "My follower was hit",
+            "Tablereqs":{
+                "follower": 1
+            },
+            "slots": [
+                {
+                    "id": "follower",
+                    "label": "follower",
+                    "required": {
+                        "follower": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "warmup": 60,
+            "deprecated_startdescription": "Our numbers dwindle.",
+            "description": "Their wounds are grievous. [Heal a fallen Follower with Talk.]",
+            "craftable": false,
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "follower_wound",
+                    "level": 1,
+                    "additive": false
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "follower",
+                    "level": -1,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "inflict_wound_mental_player",
+            "actionid": "spit.underling.attack",
+            "label": "I am wounded",
+            "requirements": {
+                "decade.stolen": -1,
+                "year.stolen": -1,
+                "funds": -1
+            },
+            "linked": [
+                {
+                    "id": "mental.wounds.exile.ending",
+                    "chance": 100
+                },
+                {
+                    "id": "inflict_wound_mental_confirmed",
+                    "chance": 100
+                }
+            ],
+            "deprecated_startdescription": "I need food or I will starve.",
+            "description": "If I get wounded enough I will die",
+            "warmup": 10,
+            "slots": [
+                {
+                    "id": "reason",
+                    "label": "reason",
+                    "required": {
+                        "reason": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "icon": "spit.underling.attack"
+        },
+        {
+            "id": "inflict_wound_mental_confirmed",
+            "effects": {
+                "reason": -1,
+                "wound.mental": 1
+            }
+        },
+        {
+            "id": "mental.wounds.exile.ending",
+            "requirements": {
+                "reason": -1
+            },
+            "actionid": "spit.underling.attack",
+            "label": "The Mercy",
+            "startdescription": "- no more -",
+            "ending": "longnightmareending",
+            "signalEndingFlavour": "Melancholy"
+        },
+        {
+            "id": "inflict_wound_mental_unstanchable",
+            "actionid": "spit.underling.attack",
+            "label": "I am wounded",
+            "requirements": {
+                "decade.stolen": -1,
+                "year.stolen": -1,
+                "funds": -1
+            },
+            "linked": [
+                {
+                    "id": "mental.wounds.exile.ending",
+                    "chance": 100
+                },
+                {
+                    "id": "inflict_wound_mental_unstanchable_confirmed"
+                }
+            ],
+            "deprecated_startdescription": "I need food or I will starve.",
+            "description": "If I get wounded enough I will die",
+            "warmup": 10,
+            "slots": [
+                {
+                    "id": "reason",
+                    "label": "reason",
+                    "required": {
+                        "reason": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "icon": "spit.underling.attack"
+        },
+        {
+            "id": "inflict_wound_mental_unstanchable_confirmed",
+            "actionid": "spit.underling.attack",
+            "label": "I am wounded",
+            "effects": {
+                "reason": -1,
+                "wound.mental.unstanchable": 1
+            }
+        },
+        {
+            "id": "inflict_wound_mental_medusa",
+            "actionid": "spit.underling.attack",
+            "label": "I am wounded",
+            "requirements": {
+                "decade.stolen": -1,
+                "year.stolen": -1,
+                "funds": -1
+            },
+            "linked": [
+                {
+                    "id": "mental.wounds.exile.ending",
+                    "chance": 100
+                },
+                {
+                    "id": "inflict_wound_mental_medusa_confirmed"
+                }
+            ],
+            "deprecated_startdescription": "I need food or I will starve.",
+            "description": "If I get wounded enough I will die",
+            "warmup": 10,
+            "slots": [
+                {
+                    "id": "reason",
+                    "label": "reason",
+                    "required": {
+                        "reason": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "icon": "spit.underling.attack"
+        },
+        {
+            "id": "inflict_wound_mental_medusa_confirmed",
+            "effects": {
+                "reason": -1,
+                "wound.mental.medusa": 1
+            }
+
+        },
+        {
+            "id": "inflict_wound_mental_double",
+            "actionid": "spit.underling.attack",
+            "linked": [
+                {
+                    "id": "derange_follower",
+                    "chance": 70
+                },
+                {
+                    "id": "inflict_wound_mental_double_player",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "derange_follower",
+            "actionid": "spit.underling.attack",
+            "label": "My follower was hit",
+            "Tablereqs":{
+                "follower": 1
+            },
+            "slots": [
+                {
+                    "id": "follower",
+                    "label": "follower",
+                    "required": {
+                        "follower": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "aspects":{
+                "derangemortal": 1
+            },
+            "description": "I must save them before its too late!",
+            "warmup": 60
+        },
+        {
+            "id": "inflict_wound_mental_double_player",
+            "actionid": "spit.underling.attack",
+            "label": "I am wounded",
+            "requirements": {
+                "decade.stolen": -1,
+                "year.stolen": -1,
+                "funds": -1
+            },
+            "linked": [
+                {
+                    "id": "mental.wounds.exile.ending",
+                    "chance": 100
+                },
+                {
+                    "id": "inflict_wound_mental_double_player",
+                    "chance": 100
+                }
+            ],
+            "deprecated_startdescription": "I need food or I will starve.",
+            "description": "If I get wounded enough I will die",
+            "warmup": 10,
+            "slots": [
+                {
+                    "id": "reason",
+                    "label": "reason",
+                    "required": {
+                        "reason": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "icon": "spit.underling.attack"
+        },
+        {
+            "id": "inflict_wound_mental_double_player",
+            "effects": {
+                "reason": -1,
+                "wound.mental": 1
+            },
+            "linked": [
+                {
+                    "id": "inflict_wound_mental",
+                    "chance": 100
+                }
+            ]
+        }
+    ]
+}

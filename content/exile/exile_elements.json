@@ -9107,7 +9107,7 @@
                     "description": "This wound could cost me ten years - unless I replace those years.",
                     "required": {
                         "decade.stolen": 1,
-                        "vitality": 1
+                        "heart": 1
                     }
                 }
             ],
