@@ -135,6 +135,101 @@
                 "capturefollower": "generic_p"
             },
             "lifetime": 120
+        },
+        {
+            "id": "thugheart",
+            "label": "A Passionate Enforcer",
+            "aspects": {
+                "mortal": 1,
+                "hireling": 1,
+                "local": 1,
+                "follower": 1,
+                "heart": 5
+            },
+            "description": "'Their spirit will crumble before me.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
+            "xtriggers": {
+                "hiring": "thugheart",
+                "killmortal": "corpse",
+                "derangemortal": "lunatic",
+                "capturefollower": "generic_p"
+            },
+            "lifetime": 120
+        },
+        {
+            "id": "thugwinter",
+            "label": "A Frost-Touched Brute",
+            "aspects": {
+                "mortal": 1,
+                "hireling": 1,
+                "local": 1,
+                "follower": 1,
+                "winter": 5
+            },
+            "description": "'I bring the chill of oblivion.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
+            "xtriggers": {
+                "hiring": "thugwinter",
+                "killmortal": "corpse",
+                "derangemortal": "lunatic",
+                "capturefollower": "generic_p"
+            },
+            "lifetime": 120
+        },
+        {
+            "id": "thuggrail",
+            "label": "A Sensuous Operative",
+            "aspects": {
+                "mortal": 1,
+                "hireling": 1,
+                "local": 1,
+                "follower": 1,
+                "grail": 5
+            },
+            "description": "'Desire can be a powerful weapon.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
+            "xtriggers": {
+                "hiring": "thuggrail",
+                "killmortal": "corpse",
+                "derangemortal": "lunatic",
+                "capturefollower": "generic_p"
+            },
+            "lifetime": 120
+        },
+        {
+            "id": "thugsecrethistories",
+            "label": "A Keeper of Forbidden Lore",
+            "aspects": {
+                "mortal": 1,
+                "hireling": 1,
+                "local": 1,
+                "follower": 1,
+                "secrethistories": 5
+            },
+            "description": "'Knowledge is my weapon.' [This Hireling may be useful for some Expeditions.]",
+            "xtriggers": {
+                "hiring": "thugsecrethistories",
+                "killmortal": "corpse",
+                "derangemortal": "lunatic",
+                "capturefollower": "generic_p"
+            },
+            "lifetime": 120
+        },
+        {
+            "id": "thughand",
+            "label": "The Hand's Agent",
+            "aspects": {
+                "mortal": 1,
+                "hireling": 1,
+                "local": 1,
+                "follower": 1,
+                "hand": 5
+            },
+            "description": "'The Hand's will be done.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
+            "xtriggers": {
+                "hiring": "thughand",
+                "killmortal": "corpse",
+                "derangemortal": "lunatic",
+                "capturefollower": "generic_p"
+            },
+            "lifetime": 120
         }
     ]
 }
