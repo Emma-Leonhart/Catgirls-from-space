@@ -45,7 +45,7 @@
         {
             "id": "skillhealthb",
             "label": "Skill: a Hardened Physique",
-            "description": "You might not know it to look at me, but I have grown strong as a smith or a soldier. [Use this with three Lessons Learnt to gain more Health.]",
+            "description": "You might not know it to look at me, but I have grown strong as a smith or a soldier. [Use this with two Lessons Learnt to gain more Health.]",
             "xtriggers": {
                 "careeradvancement": "skillhealthc"
             },
@@ -70,7 +70,7 @@
                         "vitalityplus": 1
                     },
                     "consumes": true,
-                    "description": "Shall I grow stronger yet?[Use this with three Lessons Learnt  to gain more Health.]"
+                    "description": "Shall I grow stronger yet?[Use this with two Lessons Learnt  to gain more Health.]"
                 },
                 {
                     "id": "V2",
@@ -87,7 +87,7 @@
         {
             "id": "skillhealthc",
             "label": "Skill: a Steely Physique",
-            "description": "There are many things now that I could crush in my fists. [Use this with four Lessons Learnt to gain more Health.]",
+            "description": "There are many things now that I could crush in my fists. [Use this with two Lessons Learnt and lore to gain more Health.]",
             "aspects": {
                 "healthskill": 3,
                 "ability": 1
@@ -118,7 +118,7 @@
                         "vitalityplus": 1
                     },
                     "consumes": true,
-                    "description": "Could I grow healthier still? [Use this with four Lessons Learnt to gain more Health.]"
+                    "description": "Could I grow healthier still? [Use this with two Lessons Learnt and lore to gain more Health.]"
                 },
                 {
                     "id": "V2",
@@ -135,7 +135,7 @@
         {
             "id": "skillhealthd_strength",
             "label": "Skill: a Matchless Physique",
-            "description": "I move like a mountain and strike like the sky. 'To master others is strength. To master yourself is power.' [Health and Skill can increase no further.]",
+            "description": "I move like a mountain and strike like the sky. 'To master others is strength. To master yourself is power.' [Health and Skill can still increase.]",
             "aspects": {
                 "healthskill": 4,
                 "ability": 1,
@@ -167,7 +167,7 @@
                         "vitalityplus": 1
                     },
                     "consumes": true,
-                    "description": "Could I grow healthier still? [Use this with four Lessons Learnt to gain more Health.]"
+                    "description": "Could I grow healthier still? [Use this with two Lessons Learnt and lore to gain more Health.]"
                 },
                 {
                     "id": "V2",
@@ -184,7 +184,7 @@
         {
             "id": "skillhealthd_grace",
             "label": "Skill: a Flawless Physique",
-            "description": "Machine perfection. Sinew-bound ivory, tight in satin skin. 'From here, I can only deteriorate.' [Health and Skill can increase no further.]",
+            "description": "Machine perfection. Sinew-bound ivory, tight in satin skin. 'From here, I can only deteriorate.' [Health and Skill can still increase.]",
             "aspects": {
                 "healthskill": 4,
                 "ability": 1
@@ -215,7 +215,7 @@
                         "vitalityplus": 1
                     },
                     "consumes": true,
-                    "description": "Could I grow healthier still? [Use this with four Lessons Learnt to gain more Health.]"
+                    "description": "Could I grow healthier still? [Use this with two Lessons Learnt and lore to gain more Health.]"
                 },
                 {
                     "id": "V2",
@@ -266,7 +266,7 @@
         {
             "id": "skillreasonb",
             "label": "Skill: Notable Scholarship",
-            "description": "I have learnt enough to know how little I know. [Use this with three Lessons Learnt to gain more Reason.]",
+            "description": "I have learnt enough to know how little I know. [Use this with two Lessons Learnt to gain more Reason.]",
             "xtriggers": {
                 "careeradvancement": "skillreasonc"
             },
@@ -300,7 +300,7 @@
         {
             "id": "skillreasonc",
             "label": "Skill: Profound Scholarship",
-            "description": "My skull creaks at the corners with the knowledge I've accrued. [Use this with four Lessons Learnt to gain more Reason.]",
+            "description": "My skull creaks at the corners with the knowledge I've accrued. [Use this with two Lessons Learnt and lore to gain more Reason.]",
             "aspects": {
                 "reasonskill": 3,
                 "ability": 1
@@ -340,7 +340,7 @@
         {
             "id": "skillreasond_illumination",
             "label": "Skill: a Rarefied Mind",
-            "description": "My mind is glass, and my memory light. [Reason and Skill can increase no further.]",
+            "description": "My mind is glass, and my memory light. [Reason and Skill can still increase.]",
             "aspects": {
                 "reasonskill": 4,
                 "ability": 1
@@ -381,7 +381,7 @@
         {
             "id": "skillreasond_concentration",
             "label": "Skill: a Silent Intensity",
-            "description": "This chilly stillness is the stillness of certainty. [Reason and Skill can increase no further.]",
+            "description": "This chilly stillness is the stillness of certainty. [Reason and Skill can still increase.]",
             "aspects": {
                 "reasonskill": 4,
                 "ability": 1
@@ -478,7 +478,7 @@
         {
             "id": "skillpassionb",
             "label": "Skill: a Wild Imagination",
-            "description": "I have been known to break six pencils in a day. [Use this with Work to Paint, or with Study and three Lessons Learnt to gain more Passion.]",
+            "description": "I have been known to break six pencils in a day. [Use this with Work to Paint, or with Study and two Lessons Learnt to gain more Passion.]",
             "xtriggers": {
                 "careeradvancement": "skillpassionc"
             },
@@ -494,7 +494,7 @@
                         "glimmeringplus": 1
                     },
                     "consumes": true,
-                    "description": "What could I see, what could I be? [Use this with three Lessons Learnt to gain more Passion.]",
+                    "description": "What could I see, what could I be? [Use this with two Lessons Learnt to gain more Passion.]",
                     "actionid": "study"
                 },
                 {
@@ -545,7 +545,7 @@
         {
             "id": "skillpassionc",
             "label": "Skill: a Fevered Imagination",
-            "description": "Phantoms ride my waking mind. [Use this with four Lessons Learnt to gain more Passion.]",
+            "description": "Phantoms ride my waking mind. [Use this with two Lessons Learnt and lore to gain more Passion.]",
             "aspects": {
                 "passionskill": 3,
                 "ability": 1
@@ -567,7 +567,7 @@
                         "glimmeringplus": 1
                     },
                     "consumes": true,
-                    "description": "What furious visions remain? [Use this with Work to Paint, or with Study and four Lessons Learnt to gain more Passion.]",
+                    "description": "What furious visions remain? [Use this with Work to Paint, or with Study and two Lessons Learnt and lore to gain more Passion.]",
                     "actionid": "study"
                 },
                 {
@@ -629,7 +629,7 @@
         {
             "id": "skillpassiond_unreason",
             "label": "Skill: Never-No",
-            "description": "The more, the more, the more, the m - [Passion and Skill can increase no further.]",
+            "description": "The more, the more, the more, the m - [Passion and Skill can still increase.]",
             "aspects": {
                 "passionskill": 4,
                 "ability": 1
@@ -695,7 +695,7 @@
                         "glimmeringplus": 1
                     },
                     "consumes": true,
-                    "description": "What furious visions remain? [Use this with Work to Paint, or with Study and four Lessons Learnt to gain more Passion.]",
+                    "description": "What furious visions remain? [Use this with Work to Paint, or with Study and two Lessons Learnt and lore to gain more Passion.]",
                     "actionid": "study"
                 },
                 {
@@ -714,7 +714,7 @@
         {
             "id": "skillpassiond_folly",
             "label": "Skill: an Open Soul",
-            "description": "'Behold, they stand at my door and knock; if I hear any voice, I will open the door, and they will come in to me, and sup with them, and they with me.' [Passion and Skill can increase no further.]",
+            "description": "'Behold, they stand at my door and knock; if I hear any voice, I will open the door, and they will come in to me, and sup with them, and they with me.' [Passion and Skill can still increase.]",
             "aspects": {
                 "passionskill": 4,
                 "ability": 1
@@ -780,7 +780,7 @@
                         "glimmeringplus": 1
                     },
                     "consumes": true,
-                    "description": "What furious visions remain? [Use this with Work to Paint, or with Study and four Lessons Learnt to gain more Passion.]",
+                    "description": "What furious visions remain? [Use this with Work to Paint, or with Study and two Lessons Learnt and lore to gain more Passion.]",
                     "actionid": "study"
                 },
                 {
