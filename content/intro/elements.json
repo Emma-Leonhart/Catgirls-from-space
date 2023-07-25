@@ -6,6 +6,7 @@
             "aspects": {
                 "legacyplotitem": 1
             },
+            "icon": "bequestintro",
             "description": "A package of peculiar papers from my correspondent's executor. I must STUDY it, using either Health, Reason, Passion, or Funds.",
             "slots": [
                 {

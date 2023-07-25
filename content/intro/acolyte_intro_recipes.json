@@ -110,6 +110,17 @@
             "description": ".",
             "warmup": 30,
             "craftable": false,
+            "slots": [
+                {
+                    "id": "Pain",
+                    "label": "Pain",
+                    "description": "My need gnaws at me",
+                    "required": {
+                        "contentment": 1
+                    },
+                    "greedy": true
+                }
+            ],
             "linked": [
                 {
                     "id": "neko.bequestarrives",
@@ -124,7 +135,8 @@
             "requirements": {},
             "effects": {
                 "funds": 12,
-                "neko.introdocuments": 1
+                "neko.introdocuments": 1,
+                "contentment": -1
             },
             "startdescription": "I got an email. An anonymous donor sent me a large sum of money. But they have conditions",
             "description": "I have the money I need to survive. But the donor told me to use my time to study what they sent me.\nA mysterious videogame. Many pdfs and videos on philosophical topics. \n[<b>Study</b> is unlocked.]",
