@@ -219,7 +219,7 @@
         {
             "id": "waystag_after",
             "label": "Way: Through the Stag Door",
-            "description": "In my dreams, I've found the way to the Stag Door, also known as the Adept's Door or the Ancestral Gate. This is a place pulsating with lessons of yore and whispers of creation, where the Ascent of Knives and the Painted River intersect. It's a realm resonating with the Alpha essence, a place of potent past wisdom inviting me to construct a future.",
+            "description": "In my dreams, I've found the way to the Stag Door, also known as the Adept's Door or the Ancestral Gate. This is a place pulsating with lessons of yore and whispers of creation, where the Ascent of Knives and the Painted River intersect. It's a realm resonating with the Alpha essence, a place of potent past wisdom inviting me to construct a future. The gateway to the Celestial Kingdom",
             "aspects": {
                 "way": 1
             },
@@ -228,7 +228,7 @@
         {
             "id": "wayspider",
             "label": "Way: The Spider's Door",
-            "description": "In my dreams, I've found the way to the Spider's Door, often referred to as the Bloody Gate or the Love's Promise. It is the gateway to the Omega region, a promise of a future imbued with love and equalities. The Malleary and the Chamber of Ways dwell here, symbols of constant transformation and infinite possibilities, a calling towards a love-infused immortality.",
+            "description": "In my dreams, I've found the way to the Spider's Door, often referred to as the Bloody Gate or the Love's Promise. It is the gateway to the Telestial Kingdom, a promise of a future imbued with love and equalities. The Malleary and the Chamber of Ways dwell here, symbols of constant transformation and infinite possibilities, a calling towards a love-infused immortality.",
             "aspects": {
                 "way": 1
             },
@@ -237,7 +237,7 @@
         {
             "id": "waypeacock",
             "label": "Way: The Peacock's Door",
-            "description": "In my dreams, I've found the way to the Peacock's Door, also known as the Gate of Eyes or the Balance's Threshold. This doorway leads to the Lambda region, a space holding the tension between grand existence overview and meticulous detail scrutiny. The Red Church and the Worm Museum mark this place, reflecting a ceaseless pursuit of knowledge, both broad and detailed.",
+            "description": "In my dreams, I've found the way to the Peacock's Door, also known as the Gate of Eyes or the Balance's Threshold. This doorway leads to the Terrestrial Kingdom, a space holding the tension between grand existence overview and meticulous detail scrutiny. The Red Church and the Worm Museum mark this place, reflecting a ceaseless pursuit of knowledge, both broad and detailed.",
             "aspects": {
                 "way": 1
             },
