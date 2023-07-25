@@ -133,7 +133,7 @@
             "icon": "indignitiesobliviate",
             "xtriggers": {
 
-                "book_to_lore": "fragmentwintera"
+                "book_to_lore": "fragmentwinter"
             }
         },
         {
@@ -252,7 +252,7 @@
             "icon": "indignitiesobliviate",
             "xtriggers": {
 
-                "book_to_lore": "fragmentsecrethistoriesa"
+                "book_to_lore": "fragmentsecrethistories"
             }
         },
         {
@@ -523,7 +523,7 @@
             },
             "description": "In Thinking, Fast and Slow, psychologist and economist Daniel Kahneman dives deep into the two systems that drive the way we think—System 1, which is fast and intuitive, and System 2, which is slow and deliberative. Kahneman, a Nobel laureate, explores the gap between these two systems, where biases and errors can slip in and affect our decision making.",
             "xtriggers": {
-                "book_to_lore": "fragmentgraila"
+                "book_to_lore": "fragmentgrail"
             }
         },
         {
@@ -539,7 +539,7 @@
             },
             "description": "In On Bullshit, philosopher Harry G. Frankfurt rigorously explores the concept of 'bullshit', defining it as a form of communication intended to persuade without regard for truth. Frankfurt examines the prevalence of bullshit in modern society, analyzing its nature, its various forms, and its implications.",
             "xtriggers": {
-                "book_to_lore": "fragmentgraila"
+                "book_to_lore": "fragmentgrail"
             }
         },
         {
@@ -571,7 +571,7 @@
             },
             "description": "In Thinking, Fast and Slow, psychologist and economist Daniel Kahneman dives deep into the two systems that drive the way we think—System 1, which is fast and intuitive, and System 2, which is slow and deliberative. Kahneman, a Nobel laureate, explores the gap between these two systems, where biases and errors can slip in and affect our decision making.",
             "xtriggers": {
-                "book_to_lore": "fragmentgraila"
+                "book_to_lore": "fragmentgrail"
             }
         },
         {
@@ -587,7 +587,7 @@
             },
             "description": "In On Bullshit, philosopher Harry G. Frankfurt rigorously explores the concept of 'bullshit', defining it as a form of communication intended to persuade without regard for truth. Frankfurt examines the prevalence of bullshit in modern society, analyzing its nature, its various forms, and its implications.",
             "xtriggers": {
-                "book_to_lore": "fragmentgraila"
+                "book_to_lore": "fragmentgrail"
             }
         },
         {
@@ -715,7 +715,7 @@
             "icon": "queensoftherivers",
             "description": "This transformative guide by W. Timothy Gallwey provides deep insights into the relationship between the conscious and unconscious mind, using tennis as the metaphor. It explores how to achieve peak performance by overcoming self-doubt and anxiety.",
             "xtriggers": {
-                "book_to_lore": "fragmentedgea"
+                "book_to_lore": "fragmentedge"
             }
         },
         {
@@ -731,7 +731,7 @@
             "icon": "queensoftherivers",
             "description": "Deep Work by Cal Newport presents a strong argument for the value of deep, focused work. It suggests strategies for prioritizing tasks and minimizing distractions to boost productivity and creativity.",
             "xtriggers": {
-                "book_to_lore": "fragmentedgea"
+                "book_to_lore": "fragmentedge"
             }
         },
         {

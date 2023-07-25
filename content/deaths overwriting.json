@@ -1,0 +1,84 @@
+{
+    "recipes":[
+        
+        {
+            "id": "visionsdeath",
+            "label": "Help Me - ",
+            "actionid": "visions",
+            "requirements": {
+                "fascination": 3
+            },
+            "slots": [
+                {
+                    "id": "Thoughts",
+                    "label": "Thoughts",
+                    "required": {
+                        "dread": 1,
+                        "fleeting": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "effects": {},
+            "startdescription": "What is the light that brims the surface of everything? The Glory is coming, but I cannot be here to see it - [If you don't find Dread or a Fleeting Memory now, it's over.]",
+            "description": "Where will they find me? I am not here.",
+            "warmup": 60,
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "visionsabate",
+                    "chance": 100
+                },
+                {
+                    "id": "visionsabatefleeting",
+                    "chance": 100
+                }
+            ],
+            "signalEndingFlavour": "Melancholy",
+            "ending": "visionsending"
+        },
+        {
+            "id": "despairdeath",
+            "label": "DESPAIR OVERWHELMS ME",
+            "actionid": "despair",
+            "requirements": {
+                "inducesdespair": 3
+            },
+            "slots": [
+                {
+                    "id": "Thoughts",
+                    "label": "Thoughts",
+                    "required": {
+                        "contentment": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "effects": {},
+            "startdescription": "This is almost the end - [Find Contentment now, or it's over.]",
+            "description": "Where will they find me? I am not here.",
+            "warmup": 60,
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "despairabate",
+                    "chance": 100
+                }
+            ],
+            "ending": "despairending",
+            "signalEndingFlavour": "Melancholy",
+            "comments": "Consider (1) allowing the threshold to grab Dread too. (2) allowing the active step to have a low-risk possibility of increasing Dread (3) providing a reward when Despair is defeated."
+        },
+        {
+            "id": "despairdefeated",
+            "label": "The Clouds Part",
+            "actionid": "despair",
+            "effects": {
+                "fleeting": 1
+            },
+            "startdescription": ".",
+            "description": "The wolf Despair prowls elsewhere. [No Dread empowers this Despair. It's over, for now.]",
+            "craftable": false
+        }
+    ]
+}
