@@ -1,0 +1,208 @@
+{
+    "elements": [
+        {
+            "id": "lilith_a",
+            "icon": "lilith",
+            "label": "Lilith, an acquaintance",
+            "aspects": {
+                "acquaintance": 1,
+                "grail": 2,
+                "counter-spiralling": 1
+            },
+            "description": "Lilith is a hedonist who constantly seeks out new experiences to stave off monotony and obsession.",
+            "xtriggers": {
+                "recruiting": "lilith_b"
+            },
+            "uniquenessgroup": "uqlilith"
+        },
+        {
+            "id": "lilith_b",
+            "icon": "lilith",
+            "label": "Lilith, a follower",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "grail": 5,
+                "counter-spiralling": 1
+            },
+            "description": "As an ally, Lilith's eclectic nature inspires us to seek pleasure and novelty, countering any harmful spiralling.",
+            "xtriggers": {
+                "promotionto_d_grail": "lilith_c",
+                "killmortal": "lilith_corpse",
+                "derangemortal": "lilith_lunatic",
+                "capturefollower": "lilith_p",
+                "rebellion": "lilith_r"
+            },
+            "uniquenessgroup": "uqlilith"
+        },
+        {
+            "id": "lilith_c",
+            "icon": "lilith",
+            "label": "Lilith, a confidante",
+            "aspects": {
+                "mortal": 1,
+                "disciple": 1,
+                "grail": 7,
+                "counter-spiralling": 1
+            },
+            "description": "Lilith, now a trusted confidante, advocates passionately for living a life rich in diverse experiences to guard against the scourge of spiralling.",
+            "xtriggers": {
+                "promotionto_d_grail": "lilith_d",
+                "killmortal": "lilith_corpse",
+                "derangemortal": "lilith_lunatic",
+                "capturefollower": "lilith_p",
+                "rebellion": "lilith_r"
+            },
+            "uniquenessgroup": "uqlilith"
+        },
+        {
+            "id": "lilith_d",
+            "icon": "lilith",
+            "label": "Lilith, an exalted follower",
+            "aspects": {
+                "mortal": 1,
+                "exalted": 1,
+                "grail": 10,
+                "counter-spiralling": 1
+            },
+            "description": "Lilith's vivacious spirit is a bulwark against the perils of spiralling. In her exalted state, she embodies the principle of Counter-Spiralling.",
+            "xtriggers": {
+                "killmortal": "lilith_corpse",
+                "derangemortal": "lilith_lunatic",
+                "capturefollower": "lilith_p",
+                "rebellion": "lilith_r"
+            },
+            "uniquenessgroup": "uqlilith"
+        },
+        {
+            "id": "lilith_corpse",
+            "icon": "corpse.lilith",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Nearly Lost Lilith",
+            "aspects": {
+                "not_quite_dead": 1,
+                "grail": 2,
+                "counter-spiralling": 1
+            },
+            "description": "Lilith's vibrant spirit, although dimmed, remains undeterred. With cryonics, there may be hope for her yet.",
+            "xtriggers": {
+                "freeze": "lilith_frozen",
+                "killmortal": "corpse",
+                "derangemortal": "lilith_lunatic",
+                "capturefollower": "lilith_p",
+                "rebellion": "lilith_r"
+            },
+            "uniquenessgroup": "uqlilith"
+        },
+        {
+            "id": "lilith_frozen",
+            "icon": "frozen_lilith",
+            "label": "Frozen Lilith",
+            "aspects": {
+                "frozen": 1,
+                "portable": 1,
+                "grail": 1,
+                "counter-spiralling": 1
+            },
+            "description": "Frozen in time, Lilith is a symbol of resilience and untapped potential. Her return may bring with it the hope of Counter-Spiralling.",
+            "xtriggers": {
+                "recruiting": "lilith_b",
+                "killmortal": "lilith_corpse",
+                "derangemortal": "lilith_lunatic",
+                "rebellion": "lilith_r"
+            },
+            "uniquenessgroup": "uqlilith"
+        },
+        {
+            "id": "lilith_lunatic",
+            "icon": "lunatic",
+            "label": "Lilith, spiralled into insanity",
+            "aspects": {
+                "grail": 5,
+                "lunatic": 1
+            },
+            "description": "Once a champion of diversity and novelty, Lilith has spiralled into a dangerous obsession, ironically embodying what she once fought against.",
+            "uniquenessgroup": "uqlilith"
+        },
+        {
+            "id": "lilith_p",
+            "icon": "prisoner",
+            "label": "Lilith, imprisoned",
+            "aspects": {
+                "grail": 5,
+                "counter-spiralling": 1,
+                "prisoner": 1
+            },
+            "description": "Captured and confined, Lilith's vibrant spirit is but a glimmer. But even in her cage, she radiates a contagious thirst for experience.",
+            "xtriggers": {
+                "escape": "lilith_a"
+            },
+            "uniquenessgroup": "uqlilith"
+        },
+        {
+            "id": "lilith_r",
+            "icon": "rebel",
+            "label": "Lilith, the rebel",
+            "aspects": {
+                "grail": 5,
+                "counter-spiralling": 1,
+                "rebel": 1
+            },
+            "description": "Lilith, no longer bound by allegiance, fights her own battles. Her rebellion is a testament to her vibrant spirit and unyielding desire for diversity.",
+            "uniquenessgroup": "uqlilith"
+        },
+        {
+            "id": "lilith_r_c",
+            "icon": "lilith_r",
+            "label": "Lilith, a rival",
+            "aspects": {
+                "mortal": 1,
+                "independent": 1,
+                "disciple": 1,
+                "rivalmarks": 3,
+                "suspicious": 1,
+                "grail": 1
+            },
+            "description": "Lilith's obsession with the Grail's mysteries fuels her rivalry with you, her pursuit of carnal and spiritual fulfillment growing more fervent.",
+            "xtriggers": {
+                "rival_promotion": "lilith_r_d",
+                "killmortal": "lilith_corpse",
+                "derangemortal": "lilith_lunatic",
+                "recruiting": "lilith_c"
+            },
+            "uniquenessgroup": "uqlilith"
+        },
+        {
+            "id": "lilith_r_d",
+            "icon": "lilith_r",
+            "label": "Lilith, a Long in the making",
+            "aspects": {
+                "mortal": 1,
+                "independent": 1,
+                "exalted": 1,
+                "rivalmarks": 4,
+                "suspicious": 1,
+                "grail": 2
+            },
+            "description": "Lilith's pursuit of Grail truths has led her down dark, luscious paths. This rivalry isn't just about power, it's a contest for the Grail's ultimate secrets.",
+            "xtriggers": {
+                "killmortal": "lilith_corpse",
+                "derangemortal": "lilith_lunatic",
+                "recruiting": "lilith_d"
+            },
+            "uniquenessgroup": "uqlilith"
+        },
+        {
+            "id": "uqlilith",
+            "label": "Lilith",
+            "description": "",
+            "isAspect": true,
+            "isHidden": true
+        },
+        {
+            "id": "counter-spiralling",
+            "isAspect": true
+        }
+    ]
+}

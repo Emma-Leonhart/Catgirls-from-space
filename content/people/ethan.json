@@ -1,0 +1,164 @@
+{
+    "elements": [
+        {
+            "id": "ethan_a",
+            "icon": "ethan",
+            "label": "Ethan, an acquaintance",
+            "aspects": {
+                "acquaintance": 1,
+                "knock": 2,
+                "antibodies": 1
+            },
+            "description": "Ethan thrives on the fringes, overcoming barriers and liberating others from foreign entrapment.",
+            "xtriggers": {
+                "recruiting": "ethan_b"
+            },
+            "uniquenessgroup": "uqethan"
+        },
+        {
+            "id": "ethan_b",
+            "icon": "ethan",
+            "label": "Ethan, a follower",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "knock": 5,
+                "antibodies": 1
+            },
+            "description": "Ethan uses his insights to help those entrapped by alien influences, facilitating transitions towards healthier mindsets.",
+            "xtriggers": {
+                "promotionto_d_knock": "ethan_c",
+                "killmortal": "ethan_corpse",
+                "derangemortal": "ethan_lunatic",
+                "capturefollower": "ethan_p",
+                "rebellion": "ethan_r"
+            },
+            "uniquenessgroup": "uqethan"
+        },
+        {
+            "id": "ethan_c",
+            "icon": "ethan",
+            "label": "Ethan, a confidante",
+            "aspects": {
+                "mortal": 1,
+                "disciple": 1,
+                "knock": 7,
+                "antibodies": 1
+            },
+            "description": "In his expanded role, Ethan cultivates a sanctuary for those seeking to shed destructive influences and foster personal growth.",
+            "xtriggers": {
+                "promotionto_d_knock": "ethan_d",
+                "killmortal": "ethan_corpse",
+                "derangemortal": "ethan_lunatic",
+                "capturefollower": "ethan_p",
+                "rebellion": "ethan_r"
+            },
+            "uniquenessgroup": "uqethan"
+        },
+        {
+            "id": "ethan_d",
+            "icon": "ethan",
+            "label": "Ethan, an exalted follower",
+            "aspects": {
+                "mortal": 1,
+                "exalted": 1,
+                "knock": 10,
+                "antibodies": 1
+            },
+            "description": "Ethan's dedication to breaking chains and nurturing acceptance has shaped him into an embodiment of transition and liberation, a living testament to the power of Antibodies.",
+            "xtriggers": {
+                "killmortal": "ethan_corpse",
+                "derangemortal": "ethan_lunatic",
+                "capturefollower": "ethan_p",
+                "rebellion": "ethan_r"
+            },
+            "uniquenessgroup": "uqethan"
+        },
+        {
+            "id": "ethan_corpse",
+            "icon": "corpse.ethan",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Nearly Lost Ethan",
+            "aspects": {
+                "not_quite_dead": 1,
+                "knock": 2,
+                "antibodies": 1
+            },
+            "description": "Ethan's spark flickers on the edge of extinction. With the right resources, there may yet be hope.",
+            "xtriggers": {
+                "freeze": "ethan_frozen",
+                "killmortal": "corpse",
+                "derangemortal": "ethan_lunatic",
+                "capturefollower": "ethan_p",
+                "rebellion": "ethan_r"
+            },
+            "uniquenessgroup": "uqethan"
+        },
+        {
+            "id": "ethan_frozen",
+            "icon": "frozen_ethan",
+            "label": "Frozen Ethan",
+            "aspects": {
+                "frozen": 1,
+                "portable": 1,
+                "knock": 1,
+                "antibodies": 1
+            },
+            "description": "Frozen in limbo, Ethan symbolizes untapped potential. With resurrection, he could resume his quest of liberating individuals from foreign entrapment.",
+            "xtriggers": {
+                "recruiting": "ethan_b",
+                "killmortal": "ethan_corpse",
+                "derangemortal": "ethan_lunatic",
+                "rebellion": "ethan_r"
+            },
+            "uniquenessgroup": "uqethan"
+        },
+        {
+            "id": "ethan_lunatic",
+            "icon": "lunatic_ethan",
+            "label": "Ethan, driven mad",
+            "aspects": {
+                "knock": 5,
+                "lunatic": 1,
+                "antibodies": 1
+            },
+            "description": "Ethan, once a beacon of transition and liberation, has been unhinged. His messages of hope and acceptance are now a whirlwind of confusion.",
+            "uniquenessgroup": "uqethan"
+        },
+        {
+            "id": "ethan_p",
+            "icon": "prisoner",
+            "label": "Ethan, entrapped",
+            "aspects": {
+                "knock": 5,
+                "antibodies": 1,
+                "prisoner": 1
+            },
+            "description": "Ironically entrapped, Ethan's freedom-seeking spirit endures within his prison. Awaiting liberation, he could become a beacon of hope again.",
+            "xtriggers": {
+                "escape": "ethan_a"
+            },
+            "uniquenessgroup": "uqethan"
+        },
+        {
+            "id": "ethan_r",
+            "icon": "rebel",
+            "label": "Ethan, the rebel",
+            "aspects": {
+                "knock": 5,
+                "antibodies": 1,
+                "rebel": 1
+            },
+            "description": "In rebellion, Ethan continues to defy the barriers that entrap others, symbolizing resistance against any form of foreign entrapment.",
+            "uniquenessgroup": "uqethan"
+        },
+        {
+            "id": "uqethan",
+            "label": "Ethan",
+            "description": "",
+            "isAspect": true,
+            "isHidden": true
+        }
+    ]
+}

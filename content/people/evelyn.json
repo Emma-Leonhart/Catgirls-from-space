@@ -1,0 +1,209 @@
+{
+    "elements": [
+        {
+            "id": "evelyn_a",
+            "label": "Evelyn, an acquaintance",
+            "aspects": {
+                "mortal": 1,
+                "acquaintance": 1
+            },
+            "description": "Evelyn is drawn to the melancholic beauty of winter. She may be a useful ally. [You might be able to recruit this acquaintance as a follower.]",
+            "xtriggers": {
+                "recruiting": "evelyn_b",
+                "killmortal": "evelyn_corpse",
+                "derangemortal": "evelyn_lunatic"
+            },
+            "uniquenessgroup": "uqevelyn"
+        },
+        {
+            "id": "evelyn_b",
+            "label": "Evelyn, a believer",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "winter": 2
+            },
+            "description": "Evelyn's connection with the chilling aspect of Winter deepens as your follower.",
+            "xtriggers": {
+                "promotiontodisciple": "evelyn_c",
+                "killmortal": "evelyn_corpse",
+                "derangemortal": "evelyn_lunatic",
+                "capturefollower": "evelyn_p",
+                "rebellion": "evelyn_r"
+            },
+            "uniquenessgroup": "uqevelyn"
+        },
+        {
+            "id": "evelyn_c",
+            "label": "Evelyn, a disciple",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "potential": 1,
+                "winter": 5
+            },
+            "description": "Evelyn's mastery over the Winter aspect grows, freezing the hearts of your foes.",
+            "xtriggers": {
+                "promotionto_d_winter": "evelyn_d",
+                "killmortal": "evelyn_corpse",
+                "derangemortal": "evelyn_lunatic",
+                "capturefollower": "evelyn_p",
+                "rebellion": "evelyn_r_c"
+            },
+            "uniquenessgroup": "uqevelyn"
+        },
+        {
+            "id": "evelyn_d",
+            "label": "Evelyn, the Frostmaiden",
+            "aspects": {
+                "mortal": 1,
+                "follower": 1,
+                "disciple": 1,
+                "exalted": 1,
+                "winter": 10
+            },
+            "description": "Evelyn has become a beacon of frost, her touch as cold as the deepest winter.",
+            "xtriggers": {
+                "killmortal": "evelyn_corpse",
+                "derangemortal": "evelyn_lunatic",
+                "capturefollower": "evelyn_p",
+                "rebellion": "evelyn_r_d"
+            },
+            "uniquenessgroup": "uqevelyn"
+        },
+        {
+            "id": "evelyn_corpse",
+            "icon": "corpse.exile.underling",
+            "decayto": "corpse",
+            "lifetime": 300,
+            "label": "Almost Dead Evelyn, the Frostmaiden",
+            "aspects": {
+                "not_quite_dead": 1,
+                "winter": 5
+            },
+            "description": "Evelyn, once a vibrant beacon of winter, now lies in death's cold grip. There's still a chance we could preserve her with cryonics...",
+            "xtriggers": {
+                "freeze": "evelyn_frozen",
+                "killmortal": "corpse",
+                "derangemortal": "evelyn_lunatic",
+                "capturefollower": "evelyn_p",
+                "rebellion": "evelyn_r"
+            },
+            "uniquenessgroup": "uqevelyn"
+        },
+        {
+            "id": "evelyn_frozen",
+            "icon": "frozen_person",
+            "label": "Frozen Evelyn",
+            "aspects": {
+                "frozen": 1,
+                "portable": 1
+            },
+            "description": "Evelyn, once a vibrant beacon of winter, now lies suspended in ice. Her revival might yet be possible.",
+            "xtriggers": {
+                "recruiting": "evelyn_b",
+                "killmortal": "corpse",
+                "derangemortal": "evelyn_lunatic",
+                "rebellion": "evelyn_r"
+            },
+            "uniquenessgroup": "uqevelyn"
+        },
+        {
+            "id": "evelyn_lunatic",
+            "icon": "lunatic",
+            "label": "Evelyn, a lunatic",
+            "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "description": "The icy grasp of Winter has driven Evelyn to madness.",
+            "xtriggers": {
+                "killmortal": "evelyn_corpse",
+                "derangemortal": "lunatic",
+                "capturefollower": "evelyn_p",
+                "rebellion": "evelyn_r"
+            },
+            "uniquenessgroup": "uqevelyn"
+        },
+        {
+            "id": "evelyn_p",
+            "label": "Evelyn, a prisoner",
+            "aspects": {
+                "mortal": 1,
+                "prisoner": 1
+            },
+            "description": "Evelyn has been captured by your enemies. You'll need to act quickly if you want to save her.",
+            "xtriggers": {
+                "rescuefollower": "evelyn_b",
+                "killmortal": "evelyn_corpse",
+                "derangemortal": "evelyn_lunatic",
+                "rebellion": "evelyn_r"
+            },
+            "uniquenessgroup": "uqevelyn"
+        },
+        {
+            "id": "evelyn_r",
+            "label": "Evelyn, a rebel",
+            "aspects": {
+                "mortal": 1,
+                "rebel": 1
+            },
+            "description": "Evelyn has rebelled against your leadership, feeling you're not true to the Winter's ideals.",
+            "xtriggers": {
+                "killmortal": "evelyn_corpse",
+                "derangemortal": "evelyn_lunatic",
+                "capturefollower": "evelyn_p",
+                "rebellion": "evelyn_r"
+            },
+            "uniquenessgroup": "uqevelyn"
+        },
+        {
+            "id": "evelyn_r_c",
+            "label": "Evelyn, a formidable rebel",
+            "aspects": {
+                "mortal": 1,
+                "independent": 1,
+                "disciple": 1,
+                "rivalmarks": 3,
+                "suspicious": 1
+            },
+            "description": "Evelyn's rebellion has intensified. Her ice-cold determination is unyielding.",
+            "xtriggers": {
+                "rival_promotion": "evelyn_r_d",
+                "killmortal": "evelyn_corpse",
+                "derangemortal": "evelyn_lunatic",
+                "recruiting": "evelyn_c"
+            },
+            "uniquenessgroup": "uqevelyn"
+        },
+        {
+            "id": "evelyn_r_d",
+            "label": "Evelyn, a Long in the making",
+            "aspects": {
+                "mortal": 1,
+                "independent": 1,
+                "exalted": 1,
+                "rivalmarks": 4,
+                "suspicious": 1
+            },
+            "description": "Evelyn's rebellion has taken her to the brink of Ascension. Her frost-bitten resolve could fracture the world.",
+            "xtriggers": {
+                "killmortal": "evelyn_corpse",
+                "derangemortal": "evelyn_lunatic",
+                "recruiting": "evelyn_d"
+            },
+            "uniquenessgroup": "uqevelyn"
+        },
+        {
+            "id": "uqevelyn",
+            "label": "Evelyn",
+            "description": "",
+            "isAspect": true,
+            "isHidden": true
+        }
+    ]
+}
