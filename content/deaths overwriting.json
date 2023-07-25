@@ -2,11 +2,73 @@
     "recipes":[
         
         {
-            "id": "visionsdeath",
+            "id": "despairwarning",
+            "label": "DESPAIR",
+            "actionid": "despair",
+            "requirements": {
+                "dread": 2,
+                "contentment": -1
+            },
+            "startdescription": "Despair pads close at my heels. The world is leached of light. [You can defeat Despair by feeding it Contentment; otherwise, it will destroy you when it reaches 3 Dread.]",
+            "description": ".",
+            "comments": "This exists specifically for the burn image at 2 Dread.",
+            "burnimage": "despair",
+            "linked": [
+                {
+                    "id": "despairabate",
+                    "chance": 100
+                },
+                {
+                    "id": "despairdeath_2",
+                    "chance": 100
+                },
+                {
+                    "id": "despairactive",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "visionswarning",
+            "label": "I Am Seeing Things!",
+            "actionid": "visions",
+            "requirements": {
+                "fascination": 2,
+                "dread": -1,
+                "fleeting": -1
+            },
+            "startdescription": "The world is dangerously bright. [You can defeat Visions with Dread or a Fleeting Memory; otherwise, you will lose yourself completely at Fascination 3.]",
+            "description": ".",
+            "comments": "This exists specifically for the burn image at 2 Fascination.",
+            "burnimage": "visions",
+            "linked": [
+                {
+                    "id": "visionsabate",
+                    "chance": 100
+                },
+                {
+                    "id": "visionsabatefleeting",
+                    "chance": 100
+                },
+                {
+                    "id": "visionsdeath_2",
+                    "chance": 100
+                },
+                {
+                    "id": "visionsactive",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "visionsdeath_2",
             "label": "Help Me - ",
             "actionid": "visions",
             "requirements": {
                 "fascination": 3
+            },
+            "effects": {
+                "fascination": -3
             },
             "slots": [
                 {
@@ -19,30 +81,37 @@
                     "greedy": true
                 }
             ],
-            "effects": {},
             "startdescription": "What is the light that brims the surface of everything? The Glory is coming, but I cannot be here to see it - [If you don't find Dread or a Fleeting Memory now, it's over.]",
             "description": "Where will they find me? I am not here.",
             "warmup": 60,
             "craftable": false,
             "alt": [
                 {
-                    "id": "visionsabate",
-                    "chance": 100
+                    "id": "drowning",
+                    "chance": 100,
+                    "additional": true
                 },
                 {
-                    "id": "visionsabatefleeting",
-                    "chance": 100
+                    "id": "spiralling",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "forgetting",
+                    "chance": 100,
+                    "additional": true
                 }
-            ],
-            "signalEndingFlavour": "Melancholy",
-            "ending": "visionsending"
+            ]
         },
         {
-            "id": "despairdeath",
+            "id": "despairdeath_2",
             "label": "DESPAIR OVERWHELMS ME",
             "actionid": "despair",
             "requirements": {
                 "inducesdespair": 3
+            },
+            "effects": {
+                "inducesdespair": -3
             },
             "slots": [
                 {
@@ -54,31 +123,28 @@
                     "greedy": true
                 }
             ],
-            "effects": {},
             "startdescription": "This is almost the end - [Find Contentment now, or it's over.]",
             "description": "Where will they find me? I am not here.",
             "warmup": 60,
             "craftable": false,
             "alt": [
                 {
-                    "id": "despairabate",
-                    "chance": 100
+                    "id": "alienation",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "absurdity",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "angst",
+                    "chance": 100,
+                    "additional": true
                 }
             ],
-            "ending": "despairending",
-            "signalEndingFlavour": "Melancholy",
             "comments": "Consider (1) allowing the threshold to grab Dread too. (2) allowing the active step to have a low-risk possibility of increasing Dread (3) providing a reward when Despair is defeated."
-        },
-        {
-            "id": "despairdefeated",
-            "label": "The Clouds Part",
-            "actionid": "despair",
-            "effects": {
-                "fleeting": 1
-            },
-            "startdescription": ".",
-            "description": "The wolf Despair prowls elsewhere. [No Dread empowers this Despair. It's over, for now.]",
-            "craftable": false
         }
     ]
 }
