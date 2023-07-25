@@ -79,7 +79,7 @@
             "id": "dread",
             "label": "Gaiacy",
             "lifetime": 120,
-            "description": "I've seen too much. A nameless gnawing fear has its teeth in my hopes; an existential horror."
+            "description": "An oppressive weight presses down, dragging me into the earth's embrace. Gaia's voice, once a grounding whisper, now roars in my ears, a constant reminder of my earthly chains. Every thought feels like moving through thick mud, the joy of discovery replaced by a pervasive apathy. Even the brightest ideas are dimmed, stripped of their luster, their potential unrealized. I am swallowed by the soil of my own mind, lost in an overwhelming fog of inertia and desolation."
         },
         {
             "id": "passion",
@@ -146,7 +146,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Light LEAKS through the CRACKS. My mind is BRIGHTER than it EVER was. THE HIGHER I RISE THE MORE I SEE.",
+            "description": "The LUNAR GLOW intensifies, piercing through the veil of reality. My mind, overseen by LUNA, is a beacon of unyielding LIGHT, outshining all shadows. The higher my thoughts ascend, the more expansive my perspective becomes. Yet, in this state of heightened lucidity, biases seep in, distorting my perceptions. The more I see, the more warped my understanding, a dizzying kaleidoscope of exaggerated truths and magnified illusions. I am caught in the throes of Lunacy, a captive of my own amplified cognition.",
             "lifetime": 180,
             "xtriggers": {
                 "upgradeinfluence": "influencehandc"
@@ -154,8 +154,8 @@
         },
         {
             "id": "fleeting",
-            "label": "Fleeting Reminiscence",
-            "description": "A moment in time. In another moment, it'll be gone.",
+            "label": "Gaia's Embrace",
+            "description": "A grounding force, pulling me back to the roots of reality. The wild dance of cognition slows, guided by Gaia's nurturing touch. The earthly tether reestablishes balance, dissolving the chaotic swirl of amplified perceptions. Lunacy's grip loosens, and I find solace in the steadfast certainty of the here and now. Soon, this calming tranquility will fade, but its impact lingers, a gentle reminder of my grounded existence.",
             "aspects": {
                 "secrethistories": 2,
                 "moth": 2,
