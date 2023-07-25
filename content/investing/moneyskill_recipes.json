@@ -2,7 +2,7 @@
     "recipes":[
         {
             "id": "studyincreasecapitalisticnessstarter",
-            "label": "Exercise the Body",
+            "label": "Exercise Temperance",
             "actionid": "study",
             "requirements": {
                 "capitalisticness": 2
@@ -36,7 +36,7 @@
         },
         {
             "id": "studyincreasecapitalisticnesswithinfluencehandtoplus",
-            "label": "Exercise the Body",
+            "label": "Exercise Temperance",
             "actionid": "study",
             "requirements": {
                 "capitalisticness": 1,
@@ -54,7 +54,7 @@
         },
         {
             "id": "studyincreasemoneyskilla",
-            "label": "Exercise the Body: Stronger...",
+            "label": "Exercise Temperance: Stronger...",
             "actionid": "study",
             "requirements": {
                 "skillmoneya": 1,
@@ -66,18 +66,19 @@
             "startdescription": "I will grow stronger still.",
             "description": "The machine, my body, ripples with power.",
             "effects": {
-                "health": 1
+                "health": 1,
+                "funds": 1
             },
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studyincreasemoneyskillb",
-            "label": "Exercise the Body:  Stronger Yet...",
+            "label": "Exercise Temperance:  Stronger Yet...",
             "actionid": "study",
             "requirements": {
                 "skillmoneyb": 1,
-                "capitalisticnessplus": 3
+                "capitalisticnessplus": 2
             },
             "aspects": {
                 "careeradvancement": 1
@@ -85,28 +86,54 @@
             "startdescription": "I will grow stronger yet.",
             "description": "I could carry a man across a river, now; or strangle him.",
             "effects": {
-                "health": 1
+                "health": 1,
+                "funds": 1
             },
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studyincreasemoneyskill_to_d",
-            "label": "Exercise the Body: A Higher Strength",
+            "label": "Exercise Temperance: A Higher Strength",
             "actionid": "study",
             "requirements": {
                 "skillmoneyc": 1,
-                "capitalisticnessplus": 4,
+                "capitalisticnessplus": 2,
                 "hand": 1,
                 "lore": 1
             },
             "startdescription": "I will follow in the footsteps of the Lionsmith, who grows strong and stronger, and of the Colonel, who does not flinch from scars.",
             "description": "My heart beats with the steadiness of a drum and the certainty of a judge's sentence.",
             "effects": {
-                "health": 1,
                 "skillmoneyc": -1,
-                "skillmoneyd": 1
+                "skillmoneyd": 1,
+                "funds": 1
             },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyincreasemoneyskill_beyond",
+            "label": "Exercise Temperance: Further Strength",
+            "actionid": "study",
+            "requirements": {
+                "skillmoneyd": 1,
+                "capitalisticnessplus": 2,
+                "hand": 1,
+                "lore": 1
+            },
+            "startdescription": "I will follow in the footsteps of the Lionsmith, who grows strong and stronger, and of the Colonel, who does not flinch from scars.",
+            "description": "My heart beats with the steadiness of a drum and the certainty of a judge's sentence.",
+            "effects": {
+                "funds": 1
+            },
+            "mutations": [
+                {
+                    "filter": "skillmoneyd",
+                    "mutate": "moneyskill",
+                    "level": 1
+                }
+            ],
             "warmup": 60,
             "craftable": true
         },

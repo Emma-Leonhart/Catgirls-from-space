@@ -77,7 +77,7 @@
             "actionid": "study",
             "requirements": {
                 "skillhealthb": 1,
-                "vitalityplus": 3
+                "vitalityplus": 2
             },
             "aspects": {
                 "careeradvancement": 1
@@ -96,7 +96,7 @@
             "actionid": "study",
             "requirements": {
                 "skillhealthc": 1,
-                "vitalityplus": 4,
+                "vitalityplus": 2,
                 "edge": 1,
                 "lore": 1
             },
@@ -116,7 +116,7 @@
             "actionid": "study",
             "requirements": {
                 "skillhealthc": 1,
-                "vitalityplus": 4,
+                "vitalityplus": 2,
                 "forge": 1,
                 "lore": 1
             },
@@ -136,7 +136,7 @@
             "actionid": "study",
             "requirements": {
                 "skillhealthc": 1,
-                "vitalityplus": 4,
+                "vitalityplus": 2,
                 "grail": 1,
                 "lore": 1
             },
@@ -156,7 +156,7 @@
             "actionid": "study",
             "requirements": {
                 "skillhealthc": 1,
-                "vitalityplus": 4,
+                "vitalityplus": 2,
                 "heart": 9,
                 "lore": 1
             },
@@ -177,7 +177,7 @@
             "actionid": "study",
             "requirements": {
                 "skillhealthc": 1,
-                "vitalityplus": 4,
+                "vitalityplus": 2,
                 "moth": 1,
                 "lore": 1
             },
@@ -188,6 +188,35 @@
                 "skillhealthc": -1,
                 "skillhealthd_grace": 1
             },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyincreasehealthskill_beyond",
+            "label": "Exercise the Body: Further Strength",
+            "actionid": "study",
+            "requirements": {
+                "healthskill": 4,
+                "vitalityplus": 2,
+                "lore": 1
+            },
+            "startdescription": "I will follow in the footsteps of the Lionsmith, who grows strong and stronger, and of the Colonel, who does not flinch from scars.",
+            "description": "My heart beats with the steadiness of a drum and the certainty of a judge's sentence.",
+            "effects": {
+                "health": 1
+            },
+            "mutations": [
+                {
+                    "filter": "skillhealthd_grace",
+                    "mutate": "healthskill",
+                    "level": 1
+                },
+                {
+                    "filter": "skillhealthd_strength",
+                    "mutate": "healthskill",
+                    "level": 1
+                }
+            ],
             "warmup": 60,
             "craftable": true
         },
@@ -268,7 +297,7 @@
             "actionid": "study",
             "requirements": {
                 "skillreasonb": 1,
-                "eruditionplus": 3
+                "eruditionplus": 2
             },
             "aspects": {
                 "careeradvancement": 1
@@ -287,7 +316,7 @@
             "actionid": "study",
             "requirements": {
                 "skillreasonc": 1,
-                "eruditionplus": 4,
+                "eruditionplus": 2,
                 "lantern": 9,
                 "lore": 1
             },
@@ -307,7 +336,7 @@
             "actionid": "study",
             "requirements": {
                 "skillreasonc": 1,
-                "eruditionplus": 4,
+                "eruditionplus": 2,
                 "winter": 1,
                 "lore": 1
             },
@@ -327,7 +356,7 @@
             "actionid": "study",
             "requirements": {
                 "skillreasonc": 1,
-                "eruditionplus": 4,
+                "eruditionplus": 2,
                 "knock": 1,
                 "lore": 1
             },
@@ -347,7 +376,7 @@
             "actionid": "study",
             "requirements": {
                 "skillreasonc": 1,
-                "eruditionplus": 4,
+                "eruditionplus": 2,
                 "secrethistories": 1,
                 "lore": 1
             },
@@ -367,7 +396,7 @@
             "actionid": "study",
             "requirements": {
                 "skillreasonc": 1,
-                "eruditionplus": 4,
+                "eruditionplus": 2,
                 "forge": 1,
                 "lore": 1
             },
@@ -387,7 +416,7 @@
             "actionid": "study",
             "requirements": {
                 "skillreasonc": 1,
-                "eruditionplus": 4,
+                "eruditionplus": 2,
                 "edge": 1,
                 "lore": 1
             },
@@ -398,6 +427,35 @@
                 "skillreasonc": -1,
                 "skillreasond_concentration": 1
             },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyincreasereasonskill_beyond",
+            "label": "Exercise the Mind: Further Strength",
+            "actionid": "study",
+            "requirements": {
+                "reasonskill": 4,
+                "eruditionplus": 2,
+                "lore": 1
+            },
+            "startdescription": "I will follow in the footsteps of the Lionsmith, who grows strong and stronger, and of the Colonel, who does not flinch from scars.",
+            "description": "My heart beats with the steadiness of a drum and the certainty of a judge's sentence.",
+            "effects": {
+                "reason": 1
+            },
+            "mutations": [
+                {
+                    "filter": "skillreasond_concentration",
+                    "mutate": "reasonskill",
+                    "level": 1
+                },
+                {
+                    "filter": "skillreasond_illumination",
+                    "mutate": "reasonskill",
+                    "level": 1
+                }
+            ],
             "warmup": 60,
             "craftable": true
         },
@@ -478,7 +536,7 @@
             "actionid": "study",
             "requirements": {
                 "skillpassionb": 1,
-                "glimmeringplus": 3
+                "glimmeringplus": 2
             },
             "aspects": {
                 "careeradvancement": 1
@@ -497,7 +555,7 @@
             "actionid": "study",
             "requirements": {
                 "skillpassionc": 1,
-                "glimmeringplus": 4,
+                "glimmeringplus": 2,
                 "moth": 9,
                 "lore": 1
             },
@@ -517,7 +575,7 @@
             "actionid": "study",
             "requirements": {
                 "skillpassionc": 1,
-                "glimmeringplus": 4,
+                "glimmeringplus": 2,
                 "heart": 1,
                 "lore": 1
             },
@@ -537,7 +595,7 @@
             "actionid": "study",
             "requirements": {
                 "skillpassionc": 1,
-                "glimmeringplus": 4,
+                "glimmeringplus": 2,
                 "knock": 1,
                 "lore": 1
             },
@@ -557,7 +615,7 @@
             "actionid": "study",
             "requirements": {
                 "skillpassionc": 1,
-                "glimmeringplus": 4,
+                "glimmeringplus": 2,
                 "grail": 1,
                 "lore": 1
             },
@@ -568,6 +626,35 @@
                 "skillpassionc": -1,
                 "skillpassiond_folly": 1
             },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyincreasepassionskill_beyond",
+            "label": "Exercise the Imagination: Further Strength",
+            "actionid": "study",
+            "requirements": {
+                "passionskill": 4,
+                "glimmeringplus": 2,
+                "lore": 1
+            },
+            "startdescription": "I will follow in the footsteps of the Lionsmith, who grows strong and stronger, and of the Colonel, who does not flinch from scars.",
+            "description": "My heart beats with the steadiness of a drum and the certainty of a judge's sentence.",
+            "effects": {
+                "passion": 1
+            },
+            "mutations": [
+                {
+                    "filter": "skillpassiond_unreason",
+                    "mutate": "passionskill",
+                    "level": 1
+                },
+                {
+                    "filter": "skillpassiond_folly",
+                    "mutate": "passionskill",
+                    "level": 1
+                }
+            ],
             "warmup": 60,
             "craftable": true
         },
