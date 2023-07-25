@@ -7,6 +7,7 @@
             "aspects": {
                 "acquaintance": 1,
                 "grail": 2,
+                "mortal": 1,
                 "counter-spiralling": 1
             },
             "description": "Lilith is a hedonist who constantly seeks out new experiences to stave off monotony and obsession.",
@@ -120,9 +121,16 @@
             "label": "Lilith, spiralled into insanity",
             "aspects": {
                 "grail": 5,
+                "mortal": 1,
                 "lunatic": 1
             },
             "description": "Once a champion of diversity and novelty, Lilith has spiralled into a dangerous obsession, ironically embodying what she once fought against.",
+            "xtriggers": {
+                "killmortal": "lilith_corpse",
+                "derangemortal": "lilith_lunatic",
+                "capturefollower": "lilith_p",
+                "rebellion": "lilith_r_c"
+            },
             "uniquenessgroup": "uqlilith"
         },
         {
@@ -131,12 +139,16 @@
             "label": "Lilith, imprisoned",
             "aspects": {
                 "grail": 5,
+                "mortal": 1,
                 "counter-spiralling": 1,
                 "prisoner": 1
             },
             "description": "Captured and confined, Lilith's vibrant spirit is but a glimmer. But even in her cage, she radiates a contagious thirst for experience.",
             "xtriggers": {
-                "escape": "lilith_a"
+                "rescuefollower": "lilith_b",
+                "killmortal": "lilith_corpse",
+                "derangemortal": "lilith_lunatic",
+                "rebellion": "lilith_r"
             },
             "uniquenessgroup": "uqlilith"
         },
@@ -146,10 +158,17 @@
             "label": "Lilith, the rebel",
             "aspects": {
                 "grail": 5,
+                "mortal": 1,
                 "counter-spiralling": 1,
                 "rebel": 1
             },
             "description": "Lilith, no longer bound by allegiance, fights her own battles. Her rebellion is a testament to her vibrant spirit and unyielding desire for diversity.",
+            "xtriggers": {
+                "rival_promotion": "lilith_r_c",
+                "killmortal": "lilith_corpse",
+                "derangemortal": "lilith_lunatic",
+                "recruiting": "lilith_b"
+            },
             "uniquenessgroup": "uqlilith"
         },
         {

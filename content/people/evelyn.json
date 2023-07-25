@@ -85,7 +85,7 @@
             "description": "Evelyn, once a vibrant beacon of winter, now lies in death's cold grip. There's still a chance we could preserve her with cryonics...",
             "xtriggers": {
                 "freeze": "evelyn_frozen",
-                "killmortal": "corpse",
+                "killmortal": "evelyn_corpse",
                 "derangemortal": "evelyn_lunatic",
                 "capturefollower": "evelyn_p",
                 "rebellion": "evelyn_r"
@@ -103,7 +103,7 @@
             "description": "Evelyn, once a vibrant beacon of winter, now lies suspended in ice. Her revival might yet be possible.",
             "xtriggers": {
                 "recruiting": "evelyn_b",
-                "killmortal": "corpse",
+                "killmortal": "evelyn_corpse",
                 "derangemortal": "evelyn_lunatic",
                 "rebellion": "evelyn_r"
             },
@@ -123,7 +123,7 @@
             "description": "The icy grasp of Winter has driven Evelyn to madness.",
             "xtriggers": {
                 "killmortal": "evelyn_corpse",
-                "derangemortal": "lunatic",
+                "derangemortal": "evelyn_lunatic",
                 "capturefollower": "evelyn_p",
                 "rebellion": "evelyn_r"
             },

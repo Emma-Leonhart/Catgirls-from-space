@@ -124,6 +124,13 @@
                 "antibodies": 1
             },
             "description": "Ethan, once a beacon of transition and liberation, has been unhinged. His messages of hope and acceptance are now a whirlwind of confusion.",
+            "description": "The icy grasp of Winter has driven Evelyn to madness.",
+            "xtriggers": {
+                "killmortal": "ethan_corpse",
+                "derangemortal": "ethan_lunatic",
+                "capturefollower": "ethan_p",
+                "rebellion": "ethan_r"
+            },
             "uniquenessgroup": "uqethan"
         },
         {
@@ -137,7 +144,10 @@
             },
             "description": "Ironically entrapped, Ethan's freedom-seeking spirit endures within his prison. Awaiting liberation, he could become a beacon of hope again.",
             "xtriggers": {
-                "escape": "ethan_a"
+                "rescuefollower": "ethan_b",
+                "killmortal": "ethan_corpse",
+                "derangemortal": "ethan_lunatic",
+                "rebellion": "ethan_r"
             },
             "uniquenessgroup": "uqethan"
         },
@@ -150,7 +160,54 @@
                 "antibodies": 1,
                 "rebel": 1
             },
+            "xtriggers": {
+                "rival_promotion": "ethan_r_c",
+                "killmortal": "ethan_corpse",
+                "derangemortal": "ethan_lunatic",
+                "recruiting": "ethan_b"
+            },
             "description": "In rebellion, Ethan continues to defy the barriers that entrap others, symbolizing resistance against any form of foreign entrapment.",
+            "uniquenessgroup": "uqethan"
+        },
+        {
+            "id": "ethan_r_c",
+            "icon": "ethan_r",
+            "label": "Ethan, a rival",
+            "aspects": {
+                "mortal": 1,
+                "independent": 1,
+                "disciple": 1,
+                "rivalmarks": 3,
+                "suspicious": 1,
+                "knock": 1
+            },
+            "description": "Ethan's fascination with thresholds and openings intensifies his rivalry with you. His journey through doors unseen grows more relentless.",
+            "xtriggers": {
+                "rival_promotion": "ethan_r_d",
+                "killmortal": "ethan_corpse",
+                "derangemortal": "ethan_lunatic",
+                "recruiting": "ethan_c"
+            },
+            "uniquenessgroup": "uqethan"
+        },
+        {
+            "id": "ethan_r_d",
+            "icon": "ethan_r",
+            "label": "Ethan, a Long in the making",
+            "aspects": {
+                "mortal": 1,
+                "independent": 1,
+                "exalted": 1,
+                "rivalmarks": 4,
+                "suspicious": 1,
+                "knock": 2
+            },
+            "description": "Ethan's exploration of the Knock's mysteries takes him closer to becoming a Long. The rivalry is now a race to uncover the ultimate keys to the Mansus.",
+            "xtriggers": {
+                "killmortal": "ethan_corpse",
+                "derangemortal": "ethan_lunatic",
+                "recruiting": "ethan_d"
+            },
             "uniquenessgroup": "uqethan"
         },
         {
