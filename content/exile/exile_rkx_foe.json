@@ -399,7 +399,7 @@
             "label": "The Lionsmith's Least Works",
             "startdescription": "It's true! My Foe fears cats! He's long been ready to murder anyone who even hinted as much. Now I know why.",
             "requirements": {
-                "op_cats": 1
+                "op.cats": 1
             },
             "extantreqs": {
                 "uq.rkx.weakness.cats": 1
@@ -408,7 +408,7 @@
                 "rkx.weakness.cats.hidden": 1
             },
             "effects": {
-                "op_cats": -1
+                "op.cats": -1
             },
             "warmup": 30,
             "linked": [
@@ -523,7 +523,7 @@
                 "associate": -1,
                 "distraction": 1
             },
-            "startdescription": "'@#op.cold|'I was <i>born</i> in snow.'\n#op.heat|'Nice weather for what I intend.'\n#op.sea|'Good idea. I'll feed what's left to the sharks.'\n#op_cats|'Here, kitten. Here.'\n#op.heights|'Long way down.'\n#op.faith|'Wrong god.'\n#op.flowermaker|'I call upon the Flowermaker, who always has what I desire...'\n#op.horned|'The Horned-Axe, who separates and distinguishes. Come here and be distinguished, then.'\n#op.wolf|'Appropriate. There'll be nothing left of you.' [This is not one of the Foe's Weaknesses.]@",
+            "startdescription": "'@#op.cold|'I was <i>born</i> in snow.'\n#op.heat|'Nice weather for what I intend.'\n#op.sea|'Good idea. I'll feed what's left to the sharks.'\n#op.cats|'Here, kitten. Here.'\n#op.heights|'Long way down.'\n#op.faith|'Wrong god.'\n#op.flowermaker|'I call upon the Flowermaker, who always has what I desire...'\n#op.horned|'The Horned-Axe, who separates and distinguishes. Come here and be distinguished, then.'\n#op.wolf|'Appropriate. There'll be nothing left of you.' [This is not one of the Foe's Weaknesses.]@",
             "aspects": {
                 "fatiguing": 1
             },
