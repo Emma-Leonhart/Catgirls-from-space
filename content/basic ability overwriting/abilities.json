@@ -8,7 +8,7 @@
         {
             "id": "health",
             "label": "Health",
-            "description": "This is my body. There are other bodies, but this one is mine, and my mind needs it as a fungus needs soil. [With enough Vitality, you can gain more Health.]"
+            "description": "I am entwined with the world, participating in a dance of understanding. Here, thought, action, and feeling converge in harmony, creating a unified experience of wisdom and insight. [With enough Vitality, you can gain more Health.]"
         },
         {
             "id": "vitality",
@@ -58,7 +58,7 @@
         {
             "id": "reason",
             "label": "Reason",
-            "description": "'No live organism can continue for long to exist sanely under conditions of absolute reality.' - Shirley Jackson\n\n[With Erudition, you can Study to gain more Reason.]"
+            "description": "'Pure logical thinking cannot yield us any knowledge of the empirical world; all knowledge of reality starts from experience and ends in it.' - Albert Einstein\n\n[With Erudition, you can Study to gain more Reason.]"
         },
         {
             "id": "concentration",
@@ -84,7 +84,7 @@
         {
             "id": "passion",
             "label": "Passion",
-            "description": "'Dull minds are never either intuitive or mathematical.' - Blaise Pascal\n\n[With enough Glimmering, you can Study to gain more Passion.]"
+            "description": "'The only limit to our realization of tomorrow will be our doubts of today.' - Franklin D. Roosevelt\n\n[With enough Glimmering, you can Study to gain more Passion.]"
         },
         {
             "id": "decrepitude",
@@ -155,7 +155,7 @@
         {
             "id": "fleeting",
             "label": "Gaia's Embrace",
-            "description": "A grounding force, pulling me back to the roots of reality. The wild dance of cognition slows, guided by Gaia's nurturing touch. The earthly tether reestablishes balance, dissolving the chaotic swirl of amplified perceptions. Lunacy's grip loosens, and I find solace in the steadfast certainty of the here and now. Soon, this calming tranquility will fade, but its impact lingers, a gentle reminder of my grounded existence.",
+            "description": "A grounding force, pulling me back to the roots of reality. The wild dance of cognition slows, guided by Gaia's nurturing touch. The earthly tether reestablishes balance, dissolving the chaotic swirl of amplified perceptions. Lunacy's grip loosens, and I find solace in the steadfast certainty of the here and now. Soon, this calming tranquility will fade, but its impact lingers, a gentle reminder of my grounded existence. [Protects against Lunacy]",
             "aspects": {
                 "secrethistories": 2,
                 "moth": 2,
@@ -194,13 +194,13 @@
         },
         {
             "id": "contentment",
-            "label": "Contentment",
+            "label": "Joy",
             "aspects": {
                 "lantern": 2,
                 "heart": 2,
                 "influence": 1
             },
-            "description": "I'm happy, I think. [Contentment defends against Dread; but Contentment doesn't last.]",
+            "description": "A radiant, intangible substance that permeates and transcends the game world. This essence doesn't merely generate fleeting happiness, but instills a profound state of flourishing. It's a manifestation of deep harmony between the player and the universe, a sense of being attuned to the world's rhythm, imbuing each action with meaningful significance. Joy, in its purest form, resonating with the very core of existence.\n [Contentment defends against Dread; but Contentment doesn't last.]",
             "slots": [
                 {
                     "id": "with",
