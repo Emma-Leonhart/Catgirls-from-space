@@ -93,10 +93,7 @@
             "slots": [
                 {
                     "id": "summoned",
-                    "label": "Defender",
-                    "required": {
-                        "summoned": 1
-                    }
+                    "label": "Defender"
                 }
             ],
             "startdescription": "@#welland|Captain Welland has, uncharacteristically, chosen the Bounds of the Mansus for our final battleground.#tryphon|Lady Tryphon has chosen the Bounds of the Mansus for our final confrontation. #julian|Coseley is raising allies in the Bounds of the Mansus to strike at us.#diarist|The Diarist has begun an all-out attack on us, through the Bounds of the Mansus that they know so well.#|Our enemy has raised a host of spirits to strike at us through the Mansus.@ [The Long will devour my Passion and Reason until I am no more. But they have exposed themselves to a counterattack... if I can raise a sufficient host of Mansus-things against them.] ",
@@ -133,15 +130,7 @@
             "slots": [
                 {
                     "id": "follower",
-                    "label": "Defender",
-                    "required": {
-                        "follower": 1,
-                        "murderskill": 1
-                    },
-                    "forbidden": {
-                        "summoned": 1,
-                        "hireling": 1
-                    }
+                    "label": "Defender"
                 }
             ],
             "startdescription": "Enough feinting and proxy struggle. @#welland|Captain Welland will use his Forge-strength against us personally.#tryphon|Lady Tryphon has opted to bloody her well-manicured hands in a personal assault. #julian|This chilly enemy has come to end us personally.#|Our enemy has personally entered the fray.@ [The Long will devour my Health until I am dead, although our loyal followers might protect us for a little while. And only mortal followers - our enemy is wise in the invisible arts, and spirits cannot assail them.] ",

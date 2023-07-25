@@ -1652,7 +1652,7 @@
                     "id": "long.executestrategy.intrigue.failure",
                     "challenges": {
                         "heart": "base"
-                    }
+                    } 
                 },
                 {
                     "id": "long.executestrategy.intrigue.mystiquetonotoriety.succeed",
@@ -2298,13 +2298,16 @@
             "startdescription": "This giant might have lived forever, but they grew incautious.",
             "description": "[Savour your victory while you can. The work continues. If our enemy can be destroyed, so too can our mentor.]",
             "extantreqs": {
-                "wound.underling": 3
+                "damage.underling": 5
+            },
+            "requirements":{
+                "long.enemy": 1
             },
             "aspects": {
                 "longded": 1
             },
             "warmup": 60,
-            "comment": "wound.underling"
+            "comment": "damage.underling"
         },
         {
             "id": "long.assault.confrontation.grabhealth",
@@ -2322,7 +2325,7 @@
             "warmup": 10,
             "linked": [
                 {
-                    "id": "long.assault.confrontation"
+                    "id": "long.assault.confrontation.cleanup"
                 }
             ]
         },
@@ -2367,7 +2370,7 @@
             },
             "linked": [
                 {
-                    "id": "long.assault.confrontation"
+                    "id": "long.assault.confrontation.cleanup"
                 }
             ]
         },
@@ -2397,7 +2400,7 @@
             "mutations": [
                 {
                     "filter": "long.enemy",
-                    "mutate": "wound.underling",
+                    "mutate": "damage.underling",
                     "level": 1,
                     "additive": true
                 }
@@ -2408,7 +2411,7 @@
             },
             "linked": [
                 {
-                    "id": "long.assault.confrontation"
+                    "id": "long.assault.confrontation.cleanup"
                 }
             ]
         },
@@ -2423,7 +2426,7 @@
             },
             "linked": [
                 {
-                    "id": "long.assault.confrontation"
+                    "id": "long.assault.confrontation.cleanup"
                 }
             ]
         },
@@ -2437,7 +2440,7 @@
                 "killmortal": 1
             },
             "effects":{
-                "wound.underling": 1
+                "damage.underling": 1
             },
             "alt": [
                 {
@@ -2453,7 +2456,7 @@
             ],
             "linked": [
                 {
-                    "id": "long.assault.confrontation"
+                    "id": "long.assault.confrontation.cleanup"
                 }
             ]
         },
@@ -2480,7 +2483,7 @@
             ],
             "linked": [
                 {
-                    "id": "long.assault.confrontation"
+                    "id": "long.assault.confrontation.cleanup"
                 }
             ]
         },
@@ -2491,7 +2494,10 @@
             "startdescription": "Among the wheeling shadows, the furious smokes, of the Bounds, the Long shrinks like a melting moon. Their armies dissipate. Their intentions founder. Their name is lost.",
             "description": "[Savour your victory while you can. The work continues. If our enemy can be destroyed, so too can our mentor.]",
             "extantreqs": {
-                "wound.underling": 3
+                "damage.underling": 5
+            },
+            "requirements":{
+                "long.enemy": 1
             },
             "aspects": {
                 "longded": 1
@@ -2660,7 +2666,7 @@
             "startdescription": "Blood drips from tree-branches. Our enemy is hurt.",
             "warmup": 30,
             "effects":{
-                "wound.underling": 1
+                "damage.underling": 1
             },
             "aspects": {
                 "killsummoned": 1
@@ -2754,7 +2760,26 @@
             },
             "linked": [
                 {
+                    "id": "long.dreams.confrontation.vanquished"
+                },
+                {
                     "id": "long.dreams.confrontation"
+                }
+            ]
+        },
+        {
+            "id": "long.assault.confrontation.cleanup",
+            "actionid": "rkx",
+            "label": "A War of Phantoms",
+            "aspects": {
+                "revealidentity": 1
+            },
+            "linked": [
+                {
+                    "id": "long.assault.confrontation.vanquished"
+                },
+                {
+                    "id": "long.assault.confrontation"
                 }
             ]
         }

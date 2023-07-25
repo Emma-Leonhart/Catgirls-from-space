@@ -1197,7 +1197,7 @@
         {
             "id": "long.refinestrategy.intrigue.fraud",
             "actionid": "rkx",
-            "tablereqs": {
+            "tablereqs": { 
                 "funds": 2
             },
             "requirements": {
