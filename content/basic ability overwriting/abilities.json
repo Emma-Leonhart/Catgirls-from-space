@@ -1,0 +1,237 @@
+{
+    "elements": [
+        {
+            "id": "hunger",
+            "label": "Hunger",
+            "description": "I need rest and nourishment, if I am to recover. But when my mouth waters, when my vision swims, I see the red cup; and now and then it will speak to me. [Dreaming with Hunger before the card fades will allow you to recover Health.]"
+        },
+        {
+            "id": "health",
+            "label": "Health",
+            "description": "This is my body. There are other bodies, but this one is mine, and my mind needs it as a fungus needs soil. [With enough Vitality, you can gain more Health.]"
+        },
+        {
+            "id": "vitality",
+            "label": "Vitality",
+            "description": "Exercise, or something rarer, has invigorated me. [Use with another Vitality to improve your abilities. It lasts only three minutes, if unused.]"
+        },
+        {
+            "id": "vitalityplus",
+            "label": "Vitality: a Lesson Learnt",
+            "description": "I am ready to improve. [Use this with your Strength skill to improve the skill and gain Health. It lasts up to five minutes before it decays back to a Vitality.]"
+        },
+        {
+            "id": "restlessness",
+            "label": "Restlessness",
+            "description": "A restless longing has me. I feel that I want to do... <i>something</i>. What, exactly?"
+        },
+        {
+            "id": "bloodshed",
+            "label": "Bloodshed",
+            "description": "Blood has been spilt."
+        },
+        {
+            "id": "injury",
+            "label": "An Injury",
+            "description": "I need rest and nourishment, if I am to recover. But the Mother of Ants looks kindly on wounds. [Dreaming with an Injury before the card fades will also allow you to recover Health.]"
+        },
+        {
+            "id": "disillusionment",
+            "label": "Passion (Disillusioned)",
+            "description": "I have gone against my own principles, or my own preferences. [This card can't be used, but it will recover after sixty seconds.]"
+        },
+        {
+            "id": "passionexhausted",
+            "label": "Passion (Exhausted)",
+            "description": "My passions burn low. [This card can't be used, but it will recover after sixty seconds.]"
+        },
+        {
+            "id": "fatigue",
+            "label": "Health (Fatigued)",
+            "description": "This card can't be used, but it will recover after sixty seconds. I can recover it faster by Dreaming."
+        },
+        {
+            "id": "affliction",
+            "label": "An Affliction",
+            "description": "Disease has left me weak. I need rest and nourishment, if I am to recover. [Dream on an Affliction to transform it back to Health, before the card decays.]"
+        },
+        {
+            "id": "reason",
+            "label": "Reason",
+            "description": "'No live organism can continue for long to exist sanely under conditions of absolute reality.' - Shirley Jackson\n\n[With Erudition, you can Study to gain more Reason.]"
+        },
+        {
+            "id": "concentration",
+            "label": "Reason [Dimmed]",
+            "description": "My mind is weary. [This card can't be used, but it will recover after \n\nsixty seconds.]"
+        },
+        {
+            "id": "erudition",
+            "label": "Erudition",
+            "description": "I soak up knowledge as a shadow soaks up light. I may be close to advancement. [Erudition can be used with Study to gain Reason. It lasts only three minutes, if unused.]"
+        },
+        {
+            "id": "eruditionplus",
+            "label": "Erudition: a Lesson Learnt",
+            "description": "I am ready to improve. [Use this with your Scholarship skill to improve the skill and gain Reason. It lasts up to five minutes before it decays back to an Erudition.]"
+        },
+        {
+            "id": "dread",
+            "label": "Gaiacy",
+            "lifetime": 120,
+            "description": "I've seen too much. A nameless gnawing fear has its teeth in my hopes; an existential horror."
+        },
+        {
+            "id": "passion",
+            "label": "Passion",
+            "description": "'Dull minds are never either intuitive or mathematical.' - Blaise Pascal\n\n[With enough Glimmering, you can Study to gain more Passion.]"
+        },
+        {
+            "id": "decrepitude",
+            "label": "Decrepitude",
+            "description": "Some wounds never quite heal. [Untreated Injuries and Hunger become Decrepitude, which does not return to Health. Decrepitude remains until you die.]"
+        },
+        {
+            "id": "glimmering",
+            "label": "Glimmering",
+            "description": "My emotions run higher than usual. There are things I'll never understand, and those things will always be precious, but just now I am closer to them. [Glimmering can be used with Study to gain Passion. It lasts only three minutes, if unused.]"
+        },
+        {
+            "id": "glimmeringplus",
+            "label": "Glimmering: a Lesson Learnt",
+            "description": "I am ready to improve. [Use this with your Imagination skill to improve the skill and gain Passion. It lasts up to five minutes before it decays back to a Glimmering.]"
+        },
+        {
+            "id": "fascination",
+            "label": "Lunacy",
+            "aspects": {
+                "moth": 2,
+                "illhealth": 1,
+                "influence": 1,
+                "memory": 1,
+                "hand": 2
+            },
+            "slots": [
+                {
+                    "id": "reminders",
+                    "label": "Reminders",
+                    "required": {
+                        "dread": 1,
+                        "fleeting": 1
+                    },
+                    "actionid": "dream",
+                    "description": "Grey reality will steady my soul."
+                },
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Perhaps I can use my Fascination to strengthen a tempting influence.",
+                    "required": {
+                        "influencemoth": 1,
+                        "influencelantern": 1
+                    },
+                    "actionid": "study"
+                },
+                {
+                    "id": "knowledge",
+                    "label": "Knowledge",
+                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "required": {
+                        "fragmentmothc": 1,
+                        "fragmentmothd": 1,
+                        "fragmentmothe": 1,
+                        "fragmentmothf": 1,
+                        "fragmentmothg": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "description": "Light LEAKS through the CRACKS. My mind is BRIGHTER than it EVER was. THE HIGHER I RISE THE MORE I SEE.",
+            "lifetime": 180,
+            "xtriggers": {
+                "upgradeinfluence": "influencehandc"
+            }
+        },
+        {
+            "id": "fleeting",
+            "label": "Fleeting Reminiscence",
+            "description": "A moment in time. In another moment, it'll be gone.",
+            "aspects": {
+                "secrethistories": 2,
+                "moth": 2,
+                "influence": 1,
+                "memory": 1
+            },
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Perhaps I can find something in my memories to strengthen a transient influence.",
+                    "required": {
+                        "influencemoth": 1,
+                        "influencelantern": 1
+                    },
+                    "actionid": "study"
+                },
+                {
+                    "id": "knowledge",
+                    "label": "Knowledge",
+                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "required": {
+                        "fragmentmothc": 1,
+                        "fragmentmothd": 1,
+                        "fragmentmothe": 1,
+                        "fragmentmothf": 1,
+                        "fragmentmothg": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "lifetime": 120,
+            "xtriggers": {
+                "upgradeinfluence": "influencemothc"
+            }
+        },
+        {
+            "id": "contentment",
+            "label": "Contentment",
+            "aspects": {
+                "lantern": 2,
+                "heart": 2,
+                "influence": 1
+            },
+            "description": "I'm happy, I think. [Contentment defends against Dread; but Contentment doesn't last.]",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "With",
+                    "description": "Perhaps I can use my Contentment to strengthen a positive influence.",
+                    "required": {
+                        "influencelantern": 1,
+                        "influenceheart": 1,
+                        "influencewinter": 1,
+                        "influenceforge": 1
+                    },
+                    "actionid": "study"
+                },
+                {
+                    "id": "knowledge",
+                    "label": "Knowledge",
+                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "required": {
+                        "fragmentheartc": 1,
+                        "fragmentheartd": 1,
+                        "fragmenthearte": 1,
+                        "fragmentheartf": 1,
+                        "fragmentheartg": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "lifetime": 120,
+            "xtriggers": {
+                "upgradeinfluence": "influenceheartc"
+            }
+        }
+    ]
+}
