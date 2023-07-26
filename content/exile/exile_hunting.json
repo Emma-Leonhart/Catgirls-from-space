@@ -23,6 +23,10 @@
             "craftable": false,
             "linked": [
                 {
+                    "id": "exile_suspicion_purge",
+                    "chance": 100
+                },
+                {
                     "id": "exile_suspiciongrabreputation",
                     "chance": 100
                 },
@@ -31,6 +35,25 @@
                     "chance": 70
                 }
             ]
+        },
+        {
+            "id": "exile_suspicion_purge",
+            "label": "Cops no longer exist",
+            "actionid": "suspicion",
+            "extantreqs": {
+                "rkx.foe.defeated": 1
+            },
+            "startdescription": "The Hand has been overthrown. You no longer need to fear them. Focus on building a new order.",
+            "description": "",
+            "warmup": 30,
+            "purge": {
+                "trace": 100,
+                "hunter": 100,
+                "evidencelevel": 99
+            },
+            "effects":{
+                "hunter": -99
+            }
         },
         {
             "id": "exile_suspiciongrabreputation",
