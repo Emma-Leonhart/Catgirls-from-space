@@ -141,6 +141,10 @@
                     "chance": 50
                 },
                 {
+                    "id": "rkx.underboss.aggressive.intrigue",
+                    "chance": 50
+                },
+                {
                     "id": "rkx.underboss.aggressive.violent",
                     "chance": 50
                 },
@@ -173,6 +177,10 @@
                     "chance": 20
                 },
                 {
+                    "id": "rkx.operative.aggressive.intrigue",
+                    "chance": 50
+                },
+                {
                     "id": "rkx.operative.aggressive"
                 },
                 {
@@ -192,6 +200,140 @@
                 },
                 {
                     "id": "rkx.explores.passive.leave"
+                }
+            ]
+        },
+        {
+            "id": "rkx.underboss.aggressive.intrigue",
+            "actionid": "rkx",
+            "tablereqs": {
+                "follower": 1
+            },
+            "label": "Manipulating a follower",
+            "startdescription": "The reckoner operative's poisoning the mansus. [You can pre-empt them by spending a Connection: Radicals, Underworld, Official or Ruler. You can also try to bribe them with a Decade, though they may get greedy. Otherwise, they'll destroy a random Asset.]",
+            "slots": [
+                {
+                    "id": "defence",
+                    "label": "Defence",
+                    "description": "Spend a Connection: Radicals, Underworld, Official or Ruler. Otherwise, they'll destroy a random Asset.",
+                    "required": {
+                        "connection.ruler": 1,
+                        "connection.underworld": 1,
+                        "connection.radicals": 1,
+                        "connection.official": 1,
+                        "follower": 1,
+                        "decade.stolen": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "rkx.bossondeck.underboss.cunning"
+                },
+                {
+                    "id": "rkx.underboss.aggressive.defended"
+                }
+            ],
+            "requirements": {
+                "rkx.underboss": 1,
+                "rkx.event.aggressive": 1
+            },
+            "warmup": 30,
+            "linked": [
+                {
+                    "id": "rkx.underling.bribe.greedy"
+                },
+                {
+                    "id": "rkx.underboss.aggressive.undefended.intrigue"
+                }
+            ]
+        },
+        {
+            "id": "rkx.underboss.aggressive.undefended.intrigue",
+            "actionid": "rkx",
+            "tablereqs": {
+                "follower": 1
+            },
+            "alt": [
+                {
+                    "id": "long.executestrategy.intrigue.follower.seduce.begin",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "rkx.reset",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "rkx.operative.aggressive.intrigue",
+            "actionid": "rkx",
+            "tablereqs": {
+                "follower": 1
+            },
+            "label": "Manipulating a follower",
+            "startdescription": "The reckoner operative's poisoning the mansus. [You can pre-empt them by spending a Connection: Radicals, Underworld, Official or Ruler. You can also try to bribe them with a Decade, though they may get greedy. Otherwise, they'll destroy a random Asset.]",
+            "slots": [
+                {
+                    "id": "defence",
+                    "label": "Defence",
+                    "description": "Spend a Connection: Radicals, Underworld, Official or Ruler. Otherwise, they'll destroy a random Asset.",
+                    "required": {
+                        "connection.ruler": 1,
+                        "connection.underworld": 1,
+                        "connection.radicals": 1,
+                        "connection.official": 1,
+                        "follower": 1,
+                        "decade.stolen": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "rkx.bossondeck.operative"
+                },
+                {
+                    "id": "rkx.operative.aggressive.defended"
+                }
+            ],
+            "requirements": {
+                "rkx.operative": 1,
+                "rkx.event.aggressive": 1
+            },
+            "warmup": 30,
+            "linked": [
+                {
+                    "id": "rkx.underling.bribe.greedy",
+                    "chance": 30
+                },
+                {
+                    "id": "rkx.underling.bribe.success"
+                },
+                {
+                    "id": "rkx.operative.aggressive.undefended.intrigue"
+                }
+            ]
+        },
+        {
+            "id": "rkx.operative.aggressive.undefended.intrigue",
+            "actionid": "rkx",
+            "tablereqs": {
+                "follower": 1
+            },
+            "alt": [
+                {
+                    "id": "long.executestrategy.intrigue.poison.follower.resentment.begin",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "rkx.reset",
+                    "chance": 100
                 }
             ]
         },

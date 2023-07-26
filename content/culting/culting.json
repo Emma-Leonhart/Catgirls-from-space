@@ -24,7 +24,8 @@
             "label": "A Sacrifice of Wealth",
             "actionid": "establishcult",
             "requirements": {
-                "funds": -1
+                "funds": -1,
+                "husk": -1
             },
             "slots": [
                 {

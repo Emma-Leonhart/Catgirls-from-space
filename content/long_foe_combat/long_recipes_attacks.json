@@ -974,6 +974,9 @@
             "linked": [
                 {
                     "id": "long.executestrategy.intrigue.follower.seduce.continue"
+                },
+                {
+                    "id": "long.executestrategy.intrigue.poison.follower.resentment.begin"
                 }
             ],
             "warmup": 10
@@ -1054,11 +1057,13 @@
         {
             "id": "long.executestrategy.intrigue.follower.seduce.succeed",
             "actionid": "longintrigue",
-            "label": "A Betrayal",
+            "label": "A Betrayal", 
             "startdescription": "Our follower has forsaken their sacred trust. Now they will lend their strength to the growing power of our enemy.",
             "effects": {
-                "follower": -1,
                 "trace": 1
+            },
+            "aspects":{
+                "rebellion": 1
             },
             "warmup": 10
         },

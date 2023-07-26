@@ -408,19 +408,11 @@
                     "chance": 100
                 },
                 {
-                    "id": "long.refinestrategy.intrigue.scandal",
-                    "chance": 70
-                },
-                {
                     "id": "long.refinestrategy.intrigue.follower.seduce",
                     "chance": 70
                 },
                 {
                     "id": "long.refinestrategy.intrigue.grail.greatwork",
-                    "chance": 70
-                },
-                {
-                    "id": "long.refinestrategy.intrigue.poison.follower.resentment",
                     "chance": 70
                 },
                 {
@@ -436,16 +428,9 @@
                     "chance": 70
                 },
                 {
-                    "id": "long.refinestrategy.intrigue.fraud",
-                    "chance": 70
-                },
-                {
-                    "id": "long.refinestrategy.intrigue.mystiquetonotoriety",
-                    "chance": 70
-                },
-                {
-                    "id": "long.refinestrategy.intrigue.createmystique",
-                    "chance": 100
+                    "id": "long.refinestrategy.intrigue.scandal",
+                    "chance": 70,
+                    "comment": "previously a higher level thing but this is not that bad in our run structure"
                 },
                 {
                     "id": "long.refinestrategy.dreams.drysoul",
@@ -1003,7 +988,7 @@
             "requirements": {
                 "intention.intrigue": 1,
                 "strategy.prep": 3,
-                "long.connections": 8
+                "long.connections": 4
             },
             "alt": [
                 {
@@ -1028,7 +1013,7 @@
             "requirements": {
                 "intention.intrigue": 1,
                 "strategy.prep": 3,
-                "long.connections": 8
+                "long.connections": 4
             },
             "alt": [
                 {
@@ -1078,7 +1063,7 @@
             "requirements": {
                 "intention.intrigue": 1,
                 "strategy.prep": 3,
-                "long.connections": 6
+                "long.connections": 1
             },
             "alt": [
                 {
