@@ -1,0 +1,130 @@
+{
+    "elements":[
+        {
+            "id": "waystagbefore_heart",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
+            "label": "Stag Door's Riddle",
+            "description": "An echo of a rhythm that could stir the untouched heart. What anthem could stand up to such a challenge?",
+            "fragment_label": "The Pride's Anthem",
+            "fragment_description": "Who could hear this and remain untouched? The lone? The lost? The land and the heavens?",
+            "fragment": "fragmentheartc",
+            "icon": "waystagbefore_5",
+            "unique": true
+        },
+        {
+            "id": "waystagbefore_winter",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
+            "label": "Stag Door's Riddle",
+            "description": "A quiet energy cloaks the path, a shadow of a fading light. Could it be a reflection of a sun setting into tranquility?",
+            "fragment_label": "Meditation on the Fading Sun",
+            "fragment_description": "This pays homage to, acknowledges, and gracefully accepts the transition into quietude.",
+            "fragment": "fragmentwinterc",
+            "icon": "waystagbefore_5",
+            "unique": true
+        },
+        {
+            "id": "waystagbefore_secret",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
+            "label": "Stag Door's Riddle",
+            "description": "An illusion shrouds the path ahead. Is it a trick of the light, or perhaps the start of an odyssey of a different kind?",
+            "fragment_label": "An Optical Odyssey",
+            "fragment_description": "The journey to discern truth is a path laden with distortions and illusions.",
+            "fragment": "fragmentsecrethistoriesc",
+            "icon": "waystagbefore_5",
+            "unique": true
+        },
+        {
+            "id": "waystagbefore_lantern",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
+            "label": "Stag Door's Riddle",
+            "description": "Flickering light dances around the path, hinting at a luminary's wisdom. Does true understanding truly dwell in the crevices of shadow?",
+            "fragment_label": "A Luminary's Chant",
+            "fragment_description": "The Watchman decrees, 'True understanding dwells in the crevices of shadow.'",
+            "fragment": "fragmentlanternc",
+            "icon": "waystagbefore_5",
+            "unique": true
+        },
+        {
+            "id": "waystagbefore_grail",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
+            "label": "Stag Door's Riddle",
+            "description": "A beguiling allure entices the path, whispering of an intoxicating dance. What rite could possibly unlock the carousel of existence?",
+            "fragment_label": "Rite of Revelry",
+            "fragment_description": "A symphony of sensations that unlocks the heart to the carousel of existence.",
+            "fragment": "fragmentgrailc",
+            "icon": "waystagbefore_5",
+            "unique": true
+        },
+        {
+            "id": "waystagbefore_edge",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
+            "label": "Stag Door's Riddle",
+            "description": "The path pulsates with the rhythm of existence. How does one attune to the eternal ebb and flow of energy around us?",
+            "fragment_label": "Ritual of the Flowing Current",
+            "fragment_description": "A series of mystic exercises aligning one's being with the rhythm of existence, attuning to the eternal ebb and flow of energy around us.",
+            "fragment": "fragmentedgec",
+            "icon": "waystagbefore_5",
+            "unique": true
+        },
+        {
+            "id": "waystagbefore_knock",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
+            "label": "Stag Door's Riddle",
+            "description": "A transformative energy pulses around the path. Is there a necessary shedding to be done, like a serpent casting off its old skin?",
+            "fragment_label": "The Serpent's Shed",
+            "fragment_description": "Just as a serpent sheds its skin, one must discard outdated ideas and perspectives.",
+            "fragment": "fragmentknockc",
+            "icon": "waystagbefore_5",
+            "unique": true
+        },
+        {
+            "id": "waystagbefore_forge",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
+            "label": "Stag Door's Riddle",
+            "description": "The path radiates an energy of change. Are words of chant required to adapt and resonate with this transformation?",
+            "fragment_label": "The Chant of Change",
+            "fragment_description": "Appropriate words are required to herald the coming Change.",
+            "fragment": "fragmentforgec",
+            "icon": "waystagbefore_5",
+            "unique": true
+        },
+        {
+            "id": "waystagbefore_moth",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
+            "label": "Stag Door's Riddle",
+            "description": "The path flutters with an uncanny energy. Could an unraveling parable unlock its mystery?",
+            "fragment_label": "Roleplayer's Parable",
+            "fragment_description": "In every role-player's heart lies the Dilemma: 'What could we become?'",
+            "fragment": "fragmentmothc",
+            "icon": "waystagbefore_5",
+            "unique": true
+        }
+    ]
+}
