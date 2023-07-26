@@ -87,19 +87,49 @@
             "craftable": false,
             "alt": [
                 {
-                    "id": "drowning",
-                    "chance": 100,
-                    "additional": true
+                    "id": "visionsdrowning",
+                    "chance": 33
                 },
+                {
+                    "id": "visionsspiralling",
+                    "chance": 50
+                },
+                {
+                    "id": "visionsforgetting",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "visionsdrowning",
+            "chance": 33,
+            "alt":[
+                {
+                    "id": "drowning",
+                "chance": 100,
+                "additional": true
+                }
+            ]
+        },
+        {
+            "id": "visionsspiralling",
+            "chance": 33,
+            "alt":[
                 {
                     "id": "spiralling",
-                    "chance": 100,
-                    "additional": true
-                },
+                "chance": 100,
+                "additional": true
+                }
+            ]
+        },
+        {
+            "id": "visionsforgetting",
+            "chance": 33,
+            "alt":[
                 {
                     "id": "forgetting",
-                    "chance": 100,
-                    "additional": true
+                "chance": 100,
+                "additional": true
                 }
             ]
         },
@@ -127,24 +157,54 @@
             "description": "Where will they find me? I am not here.",
             "warmup": 60,
             "craftable": false,
-            "alt": [
+            "linked": [
                 {
-                    "id": "alienation",
-                    "chance": 100,
-                    "additional": true
+                    "id": "despairalienation",
+                    "chance": 33
                 },
                 {
-                    "id": "absurdity",
-                    "chance": 100,
-                    "additional": true
+                    "id": "despairabsurdity",
+                    "chance": 50
                 },
                 {
-                    "id": "angst",
-                    "chance": 100,
-                    "additional": true
+                    "id": "despairangst",
+                    "chance": 100
                 }
             ],
             "comments": "Consider (1) allowing the threshold to grab Dread too. (2) allowing the active step to have a low-risk possibility of increasing Dread (3) providing a reward when Despair is defeated."
+        },
+        {
+            "id": "despairalienation",
+            "chance": 33,
+            "alt":[
+                {
+                    "id": "alienation",
+                "chance": 100,
+                "additional": true
+                }
+            ]
+        },
+        {
+            "id": "despairabsurdity",
+            "chance": 50,
+            "alt":[
+                {
+                    "id": "absurdity",
+                "chance": 100,
+                "additional": true
+                }
+            ]
+        },
+        {
+            "id": "despairangst",
+            "chance": 100,
+            "alt":[
+                {
+                    "id": "angst",
+                "chance": 100,
+                "additional": true
+                }
+            ]
         }
     ]
 }

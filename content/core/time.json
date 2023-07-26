@@ -476,7 +476,11 @@
                 }
             ],
             "requirements": {
-                "seasonplagues": 1
+                "seasonplagues": 1,
+                "catgirl_dedication_3": 1
+            },
+            "extantreqs":{
+                "treace": 1
             }
         },
         {

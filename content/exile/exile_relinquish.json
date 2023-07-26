@@ -13,7 +13,9 @@
                 }
             ],
             "effects": {
-                "wound.exile": 1
+                "wound.exile": 1,
+                "wound.mental": 1,
+                "wound.emotional": 1
             },
             "comments": "opened by initial explore recipe",
             "warmup": 10,

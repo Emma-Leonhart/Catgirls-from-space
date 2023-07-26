@@ -4,12 +4,14 @@
             "id": "send.first",
             "actionid": "talk",
             "label": "Communication", 
-            "startdescription": "I have excellent reasons not to contact anyone from my old life. But this person could help me.",
-            "effects": {
-            },
+            "startdescription": "I have excellent reasons not to contact anyone from my old life. But this person could help me, and they found me a job and some money.",
             "warmup": 30,
             "deckeffects": {
                 "acquaintances": 1
+            },
+            "effects": {
+                "funds": 10,
+                "sanatoriumjob": 1
             },
             "craftable": false
         },
