@@ -7,7 +7,7 @@
                 "way": 1
             },
             "label": "Stag Door's Riddle",
-            "description": "An echo of a rhythm that could stir the untouched heart. What anthem could stand up to such a challenge?",
+            "description": "A pulse reverberates, an echo of rhythm that awakens the pangs of alienation. What anthem could pierce this isolation, mend the untouched heart, and rekindle unity?",
             "fragment_label": "The Pride's Anthem",
             "fragment_description": "Who could hear this and remain untouched? The lone? The lost? The land and the heavens?",
             "fragment": "fragmentheartc",
@@ -21,7 +21,7 @@
                 "way": 1
             },
             "label": "Stag Door's Riddle",
-            "description": "A quiet energy cloaks the path, a shadow of a fading light. Could it be a reflection of a sun setting into tranquility?",
+            "description": "A hush engulfs the path, a shadow cast by a retreating light, synonymous with the creeping unease of deep-seated angst. Could contemplation of the fading sun bring tranquility amidst such turmoil?",
             "fragment_label": "Meditation on the Fading Sun",
             "fragment_description": "This pays homage to, acknowledges, and gracefully accepts the transition into quietude.",
             "fragment": "fragmentwinterc",
@@ -35,7 +35,7 @@
                 "way": 1
             },
             "label": "Stag Door's Riddle",
-            "description": "An illusion shrouds the path ahead. Is it a trick of the light, or perhaps the start of an odyssey of a different kind?",
+            "description": "Mirages distort the way forward, an echo of life's absurdities. Can discerning truth through this optical odyssey peel back the illusion, and offer navigation through the labyrinth of distortions?",
             "fragment_label": "An Optical Odyssey",
             "fragment_description": "The journey to discern truth is a path laden with distortions and illusions.",
             "fragment": "fragmentsecrethistoriesc",
@@ -49,7 +49,7 @@
                 "way": 1
             },
             "label": "Stag Door's Riddle",
-            "description": "Flickering light dances around the path, hinting at a luminary's wisdom. Does true understanding truly dwell in the crevices of shadow?",
+            "description": "Intermittent gleams dart around the path, casting a chiaroscuro that mirrors the obscurity of forgotten recollections. Could a luminary's chant illuminate the shadows, rekindling the wisdom hidden within the darkened crevices of memory?",
             "fragment_label": "A Luminary's Chant",
             "fragment_description": "The Watchman decrees, 'True understanding dwells in the crevices of shadow.'",
             "fragment": "fragmentlanternc",
@@ -63,7 +63,7 @@
                 "way": 1
             },
             "label": "Stag Door's Riddle",
-            "description": "A beguiling allure entices the path, whispering of an intoxicating dance. What rite could possibly unlock the carousel of existence?",
+            "description": "An irresistible charm beckons the path, resonating with the constant spiral of monotony. Could the rite of revelry unlock an intoxicating dance, unlocking the carousel of existence and breaking the chain of ennui?",
             "fragment_label": "Rite of Revelry",
             "fragment_description": "A symphony of sensations that unlocks the heart to the carousel of existence.",
             "fragment": "fragmentgrailc",
@@ -77,7 +77,7 @@
                 "way": 1
             },
             "label": "Stag Door's Riddle",
-            "description": "The path pulsates with the rhythm of existence. How does one attune to the eternal ebb and flow of energy around us?",
+            "description": "The path throbs with life's rhythm, a reminder of the stifling sensation of drowning amidst the ceaseless currents of existence. Can the ritual of the flowing current align one with these tides, turning the struggle into a harmonious dance with life?",
             "fragment_label": "Ritual of the Flowing Current",
             "fragment_description": "A series of mystic exercises aligning one's being with the rhythm of existence, attuning to the eternal ebb and flow of energy around us.",
             "fragment": "fragmentedgec",
@@ -91,9 +91,9 @@
                 "way": 1
             },
             "label": "Stag Door's Riddle",
-            "description": "A transformative energy pulses around the path. Is there a necessary shedding to be done, like a serpent casting off its old skin?",
+            "description": "A transformative energy pulses around the path. To escape this conundrum, one must shed their ingrained prejudices, akin to a serpent casting off its old skin, navigating the currents of internalized racism, homophobia, and insecure attachments. Could the Seventh Booster shot, the Antibodies, provide the necessary breakthrough?",
             "fragment_label": "The Serpent's Shed",
-            "fragment_description": "Just as a serpent sheds its skin, one must discard outdated ideas and perspectives.",
+            "fragment_description": "Just as a serpent sheds its skin, one must discard outdated ideas and perspectives to adapt to the unending flow of change, ensuring liberation from the chains of foreign entrapment.",
             "fragment": "fragmentknockc",
             "icon": "waystagbefore_5",
             "unique": true
@@ -105,9 +105,9 @@
                 "way": 1
             },
             "label": "Stag Door's Riddle",
-            "description": "The path radiates an energy of change. Are words of chant required to adapt and resonate with this transformation?",
+            "description": "The path radiates an energy of change, resonating with the Eighth Plague, Ego Entrapment. Could the words of the Chant of Change echo with the Eighth Booster shot, Ego Loosening, promoting growth and flexibility over rigid self-identity?",
             "fragment_label": "The Chant of Change",
-            "fragment_description": "Appropriate words are required to herald the coming Change.",
+            "fragment_description": "To overcome Ego Entrapment, one must focus on objective improvements, casting off the fear of change, and breaking free from the confines of their own self-concept.",
             "fragment": "fragmentforgec",
             "icon": "waystagbefore_5",
             "unique": true
@@ -119,9 +119,9 @@
                 "way": 1
             },
             "label": "Stag Door's Riddle",
-            "description": "The path flutters with an uncanny energy. Could an unraveling parable unlock its mystery?",
+            "description": "The path flutters with an uncanny energy, symptomatic of the Ninth Plague, Empathic Entrapment. Can the ritual of Larping, embodying the Ninth Booster shot, unfurl its mystery, freeing oneself from the shackles of a singular perspective?",
             "fragment_label": "Roleplayer's Parable",
-            "fragment_description": "In every role-player's heart lies the Dilemma: 'What could we become?'",
+            "fragment_description": "In every role-player's heart lies the solution to Empathic Entrapment: 'What could we become?' Through live action role playing, we explore various perspectives in a safe environment, fostering empathy and unraveling the enigma of existence.",
             "fragment": "fragmentmothc",
             "icon": "waystagbefore_5",
             "unique": true
