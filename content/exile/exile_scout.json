@@ -109,15 +109,14 @@
             "actionid": "explore",
             "label": "Explore Aachen",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.aachen": 1,
-            "health": 1
+                "domicile.aachen": 1
             },
             "internaldeck": {
                 "spec": [
@@ -149,7 +148,7 @@
         {
             "id": "explore.alexandria",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
@@ -158,8 +157,7 @@
             "actionid": "explore",
             "label": "Explore Alexandria",
             "requirements": {
-                "domicile.alexandria": 1,
-            "health": 1
+                "domicile.alexandria": 1
             },
             "internaldeck": {
                 "spec": [
@@ -201,15 +199,14 @@
             "actionid": "explore",
             "label": "Explore Algiers",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.algiers": 1,
-            "health": 1
+                "domicile.algiers": 1
             },
             "internaldeck": {
                 "spec": [
@@ -250,15 +247,14 @@
             "actionid": "explore",
             "label": "Explore Amsterdam",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.amsterdam": 1,
-            "health": 1
+                "domicile.amsterdam": 1
             },
             "internaldeck": {
                 "spec": [
@@ -295,15 +291,14 @@
             "actionid": "explore",
             "label": "Explore Avignon",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.avignon": 1,
-            "health": 1
+                "domicile.avignon": 1
             },
             "internaldeck": {
                 "spec": [
@@ -341,7 +336,7 @@
                 "domicile.baghdad": 1
             },
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
@@ -381,15 +376,14 @@
             "actionid": "explore",
             "label": "Explore Budapest",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.budapest": 1,
-            "health": 1
+                "domicile.budapest": 1
             },
             "internaldeck": {
                 "spec": [
@@ -425,15 +419,14 @@
             "actionid": "explore",
             "label": "Explore Candia-Heraklion",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.candia": 1,
-            "health": 1
+                "domicile.candia": 1
             },
             "internaldeck": {
                 "spec": [
@@ -472,15 +465,14 @@
             "actionid": "explore",
             "label": "Explore Cluj-Napoca",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.cluj": 1,
-            "health": 1
+                "domicile.cluj": 1
             },
             "internaldeck": {
                 "spec": [
@@ -517,15 +509,14 @@
             "actionid": "explore",
             "label": "Explore Granada",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.granada": 1,
-            "health": 1
+                "domicile.granada": 1
             },
             "internaldeck": {
                 "spec": [
@@ -564,15 +555,14 @@
             "actionid": "explore",
             "label": "Explore Istanbul",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.istanbul": 1,
-            "health": 1
+                "domicile.istanbul": 1
             },
             "internaldeck": {
                 "spec": [
@@ -613,15 +603,14 @@
             "actionid": "explore",
             "label": "Explore Kaunas",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.kaunas": 1,
-            "health": 1
+                "domicile.kaunas": 1
             },
             "internaldeck": {
                 "spec": [
@@ -660,15 +649,14 @@
             "actionid": "explore",
             "label": "Explore Kyiv",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.kiev": 1,
-            "health": 1
+                "domicile.kiev": 1
             },
             "internaldeck": {
                 "spec": [
@@ -705,15 +693,14 @@
             "actionid": "explore",
             "label": "Explore Kraków",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.krakow": 1,
-            "health": 1
+                "domicile.krakow": 1
             },
             "internaldeck": {
                 "spec": [
@@ -749,15 +736,14 @@
             "actionid": "explore",
             "label": "Explore Leningrad",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.leningrad": 1,
-            "health": 1
+                "domicile.leningrad": 1
             },
             "internaldeck": {
                 "spec": [
@@ -792,15 +778,14 @@
             "actionid": "explore",
             "label": "Explore London",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.london": 1,
-            "health": 1
+                "domicile.london": 1
             },
             "internaldeck": {
                 "spec": [
@@ -835,15 +820,14 @@
             "actionid": "explore",
             "label": "Explore Marrakech",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.marrakech": 1,
-            "health": 1
+                "domicile.marrakech": 1
             },
             "internaldeck": {
                 "spec": [
@@ -884,15 +868,14 @@
             "actionid": "explore",
             "label": "Explore Meshad",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.meshad": 1,
-            "health": 1
+                "domicile.meshad": 1
             },
             "internaldeck": {
                 "spec": [
@@ -932,15 +915,14 @@
             "actionid": "explore",
             "label": "Explore Munich",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.munich": 1,
-            "health": 1
+                "domicile.munich": 1
             },
             "internaldeck": {
                 "spec": [
@@ -975,15 +957,14 @@
             "actionid": "explore",
             "label": "Explore Nizhny",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.nizhny": 1,
-            "health": 1
+                "domicile.nizhny": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1018,15 +999,14 @@
             "actionid": "explore",
             "label": "Explore Paris",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.paris": 1,
-            "health": 1
+                "domicile.paris": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1063,15 +1043,14 @@
             "actionid": "explore",
             "label": "Explore Prague",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.prague": 1,
-            "health": 1
+                "domicile.prague": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1107,15 +1086,14 @@
             "actionid": "explore",
             "label": "Explore Rostock",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.rostock": 1,
-            "health": 1
+                "domicile.rostock": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1153,15 +1131,14 @@
             "actionid": "explore",
             "label": "Explore Samarkand",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.samarkand": 1,
-            "health": 1
+                "domicile.samarkand": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1198,15 +1175,14 @@
             "actionid": "explore",
             "label": "Explore Stalingrad",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.stalingrad": 1,
-            "health": 1
+                "domicile.stalingrad": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1242,15 +1218,14 @@
             "actionid": "explore",
             "label": "Explore Strasbourg",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.strasbourg": 1,
-            "health": 1
+                "domicile.strasbourg": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1285,15 +1260,14 @@
             "actionid": "explore",
             "label": "Explore Sverdlovsk",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.sverdlovsk": 1,
-            "health": 1
+                "domicile.sverdlovsk": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1327,15 +1301,14 @@
             "actionid": "explore",
             "label": "Explore Tiflis",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.tiflis": 1,
-            "health": 1
+                "domicile.tiflis": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1370,15 +1343,14 @@
             "actionid": "explore",
             "label": "Explore Tirana",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.tirana": 1,
-            "health": 1
+                "domicile.tirana": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1413,15 +1385,14 @@
             "actionid": "explore",
             "label": "Explore Tripoli dell'ovest",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.tripoli": 1,
-            "health": 1
+                "domicile.tripoli": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1460,15 +1431,14 @@
             "actionid": "explore",
             "label": "Explore Valletta",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.valletta": 1,
-            "health": 1
+                "domicile.valletta": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1504,15 +1474,14 @@
             "actionid": "explore",
             "label": "Explore Venice",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.venice": 1,
-            "health": 1
+                "domicile.venice": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1549,15 +1518,14 @@
             "actionid": "explore",
             "label": "Explore Vienna",
             "startdescription": "Walk the city, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "aspects": {
                 "tracerisk": 1,
                 "fatiguing": 1
             },
             "craftable": true,
             "requirements": {
-                "domicile.vienna": 1,
-            "health": 1
+                "domicile.vienna": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1592,7 +1560,7 @@
             "actionid": "explore",
             "label": "Rest and Wait",
             "startdescription": "@#domicile.bornholm| The locals don't know exactly what happened, but they know it's over. One painter keeps pestering me to sit for a portrait. Perhaps, some day soon, I will.\n#domicile.cheko|Each day, sunrise comes a little earlier. The winds grow a little less savage. It's almost spring.\n#domicile.ghardaia|The buffeting half-silence of the high desert; the creeping sun. The locals still keep a respectful distance, but now they nod as I pass them.\n#domicile.messana|Shadows sprawl as each day passes. Sometimes, now, the villagers come up to leave me small gifts of food, and salute me.\n#domicile.morbihan|The brothers have tidied away the debris of the battle, and permit me to break fast with them in the long hall where the sunlight slants.\n#domicile.paro|Each morning I clamber up the steps and across the rickety bridges to watch the dawn. The monks smile at me as I pass.\n#domicile.slettnes|The sea crashes grey on the stones each morning, and grumbles at me all through the night. It's something to listen to when I can't sleep.@",
-            "warmup": 30,
+            "warmup": 15,
             "craftable": true,
             "requirements": {
                 "domicile": 1,
@@ -1611,11 +1579,10 @@
             "actionid": "explore",
             "label": "Explore Sunshine Island",
             "startdescription": "Walk the island, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "craftable": true,
             "requirements": {
-                "domicile.bornholm": 1,
-            "health": 1
+                "domicile.bornholm": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1633,11 +1600,10 @@
             "actionid": "explore",
             "label": "Explore Fogfire Point",
             "startdescription": "Prowl the coast, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "craftable": true,
             "requirements": {
-                "domicile.slettnes": 1,
-            "health": 1
+                "domicile.slettnes": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1657,11 +1623,10 @@
             "actionid": "explore",
             "label": "Explore Wounded Moon Lake ",
             "startdescription": "Roam the woods, seeking opportunities. [Sometimes, this will create a Trace.]",
-            "warmup": 30,
+            "warmup": 15,
             "craftable": true,
             "requirements": {
-                "domicile.cheko": 1,
-            "health": 1
+                "domicile.cheko": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1684,8 +1649,7 @@
             "warmup": 60,
             "craftable": true,
             "requirements": {
-                "domicile.paro": 1,
-            "health": 1
+                "domicile.paro": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1708,8 +1672,7 @@
             "warmup": 60,
             "craftable": true,
             "requirements": {
-                "domicile.messana": 1,
-            "health": 1
+                "domicile.messana": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1732,8 +1695,7 @@
             "warmup": 60,
             "craftable": true,
             "requirements": {
-                "domicile.ghardaia": 1,
-            "health": 1
+                "domicile.ghardaia": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1755,8 +1717,7 @@
             "warmup": 60,
             "craftable": true,
             "requirements": {
-                "domicile.morbihan": 1,
-            "health": 1
+                "domicile.morbihan": 1
             },
             "internaldeck": {
                 "spec": [
@@ -1782,8 +1743,7 @@
             "requirements": {
                 "domicile": 1,
                 "location": 1,
-                "wilderness": 1,
-            "health": 1
+                "wilderness": 1
             },
             "internaldeck": {
                 "spec": [
