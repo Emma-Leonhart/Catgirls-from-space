@@ -5288,6 +5288,7 @@
             "label": "Profane Weapon",
             "aspects": {
                 "weapon": 1,
+                "murderskill": 1,
                 "edge": 2,
                 "asset": 1,
                 "portable": 1,
@@ -5329,6 +5330,7 @@
             "label": "Lionhunter's Rifle",
             "aspects": {
                 "weapon": 1,
+                "murderskill": 1,
                 "edge": 4,
                 "uses.remaining": 3,
                 "worth": 2,
@@ -5371,6 +5373,7 @@
             "label": "Lionhunter's Rifle",
             "aspects": {
                 "weapon": 1,
+                "murderskill": 1,
                 "edge": 4,
                 "uses.remaining": 2,
                 "worth": 2,
@@ -5413,6 +5416,7 @@
             "label": "Lionhunter's Rifle",
             "aspects": {
                 "weapon": 1,
+                "murderskill": 1,
                 "edge": 4,
                 "uses.remaining": 1,
                 "worth": 2,
@@ -5455,6 +5459,7 @@
             "label": "Ebrehel, the Ragged Sword",
             "aspects": {
                 "weapon": 1,
+                "murderskill": 1,
                 "edge": 6,
                 "knock": 6,
                 "forge": 6,
@@ -5499,6 +5504,7 @@
             "label": "Biedde's Blade",
             "aspects": {
                 "weapon": 1,
+                "murderskill": 1,
                 "edge": 8,
                 "worth": 3,
                 "asset": 1,
@@ -5540,6 +5546,7 @@
             "label": "Imhullune Tectrix",
             "aspects": {
                 "weapon": 1,
+                "murderskill": 1,
                 "edge": 10,
                 "worth": 4,
                 "asset": 1,
@@ -5580,6 +5587,7 @@
             "label": "Histid's Dart",
             "aspects": {
                 "weapon": 1,
+                "murderskill": 1,
                 "edge": 12,
                 "worth": 1,
                 "asset": 1,
@@ -5620,6 +5628,7 @@
             "label": "Skaptodon's Sacrifice",
             "aspects": {
                 "weapon": 1,
+                "murderskill": 1,
                 "edge": 12,
                 "worth": 1,
                 "asset": 1,
