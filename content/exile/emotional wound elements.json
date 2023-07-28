@@ -4,7 +4,7 @@
             "id": "wound.emotional",
             "label": "Emotional Wound",
             "aspects": {
-                "knock": 4,
+                "lantern": 4,
                 "winter": 4,
                 "damage.emotional": 1,
                 "ability": 1
@@ -30,7 +30,7 @@
             "id": "wound.emotional.unstanchable",
             "label": "Emotional Wound",
             "aspects": {
-                "knock": 4,
+                "lantern": 4,
                 "winter": 4,
                 "damage.emotional": 1
             },
@@ -55,7 +55,7 @@
             "id": "wound.emotional.medusa",
             "label": "Trauma",
             "aspects": {
-                "knock": 4,
+                "lantern": 4,
                 "winter": 4,
                 "damage.emotional": 1,
                 "pentiment": 1,

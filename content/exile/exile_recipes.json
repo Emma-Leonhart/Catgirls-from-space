@@ -44,7 +44,7 @@
             "id": "_domiciles",
             "actionid": "spawner",
             "effects": {
-                "domicile.aachen": 1,
+                "domicile.aachen": 1, 
                 "domicile.alexandria": 1,
                 "domicile.algiers": 1,
                 "domicile.amsterdam": 1,

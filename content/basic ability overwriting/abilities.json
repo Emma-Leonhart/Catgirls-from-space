@@ -8,17 +8,44 @@
         {
             "id": "health",
             "label": "Health",
-            "description": "I am entwined with the world, participating in a dance of understanding. Here, thought, action, and feeling converge in harmony, creating a unified experience of wisdom and insight. [With enough Vitality, you can gain more Health.]"
+            "description": "I am entwined with the world, participating in a dance of understanding. Here, thought, action, and feeling converge in harmony, creating a unified experience of wisdom and insight. [With enough Vitality, you can gain more Health. Health is the fundamental element of Alpha]",
+            "aspects": {
+                "heart": 2,
+                "winter": 2,
+                "secrethistories": 2,
+                "lantern": 2,
+                "knock": 2,
+                "ingredient": 1,
+                "ability": 1
+            }
         },
         {
             "id": "vitality",
             "label": "Vitality",
-            "description": "Exercise, or something rarer, has invigorated me. [Use with another Vitality to improve your abilities. It lasts only three minutes, if unused.]"
+            "description": "Exercise, or something rarer, has invigorated me. [Use with another Vitality to improve your abilities. It lasts only three minutes, if unused.]",
+            "aspects": {
+                "heart": 2,
+                "winter": 2,
+                "secrethistories": 2,
+                "lantern": 2,
+                "knock": 2,
+                "advancement": 1,
+                "influence": 1
+            }
         },
         {
             "id": "vitalityplus",
             "label": "Vitality: a Lesson Learnt",
-            "description": "I am ready to improve. [Use this with your Strength skill to improve the skill and gain Health. It lasts up to five minutes before it decays back to a Vitality.]"
+            "description": "I am ready to improve. [Use this with your Strength skill to improve the skill and gain Health. It lasts up to five minutes before it decays back to a Vitality.]",
+            "aspects": {
+                "heart": 2,
+                "winter": 2,
+                "secrethistories": 2,
+                "lantern": 2,
+                "knock": 2,
+                "advancement": 1,
+                "influence": 1
+            }
         },
         {
             "id": "restlessness",
@@ -58,7 +85,16 @@
         {
             "id": "reason",
             "label": "Reason",
-            "description": "'Pure logical thinking cannot yield us any knowledge of the empirical world; all knowledge of reality starts from experience and ends in it.' - Albert Einstein\n\n[With Erudition, you can Study to gain more Reason.]"
+            "description": "'Pure logical thinking cannot yield us any knowledge of the empirical world; all knowledge of reality starts from experience and ends in it.' - Albert Einstein\n\n[With Erudition, you can Study to gain more Reason. Reason is the fundamental element of Lambda]",
+            "aspects": {
+                "grail": 2,
+                "lantern": 2,
+                "edge": 2,
+                "winter": 2,
+                "forge": 2,
+                "ingredient": 1,
+                "ability": 1
+            }
         },
         {
             "id": "concentration",
@@ -68,12 +104,36 @@
         {
             "id": "erudition",
             "label": "Erudition",
-            "description": "I soak up knowledge as a shadow soaks up light. I may be close to advancement. [Erudition can be used with Study to gain Reason. It lasts only three minutes, if unused.]"
+            "description": "I soak up knowledge as a shadow soaks up light. I may be close to advancement. [Erudition can be used with Study to gain Reason. It lasts only three minutes, if unused.]",
+            "aspects": {
+                "grail": 2,
+                "lantern": 2,
+                "edge": 2,
+                "winter": 2,
+                "forge": 2,
+                "advancement": 1,
+                "influence": 1
+            },
+            "xtriggers": {
+                "upgradeinfluence": "influencegrailc"
+            }
         },
         {
             "id": "eruditionplus",
             "label": "Erudition: a Lesson Learnt",
-            "description": "I am ready to improve. [Use this with your Scholarship skill to improve the skill and gain Reason. It lasts up to five minutes before it decays back to an Erudition.]"
+            "description": "I am ready to improve. [Use this with your Scholarship skill to improve the skill and gain Reason. It lasts up to five minutes before it decays back to an Erudition.]",
+            "aspects": {
+                "grail": 2,
+                "lantern": 2,
+                "edge": 2,
+                "winter": 2,
+                "forge": 2,
+                "advancement": 1,
+                "influence": 1
+            },
+            "xtriggers": {
+                "upgradeinfluence": "influencegrailc"
+            }
         },
         {
             "id": "dread",
@@ -91,6 +151,15 @@
         {
             "id": "passion",
             "label": "Passion",
+            "aspects": {
+                "moth": 2,
+                "knock": 2,
+                "forge": 2,
+                "secrethistories": 2,
+                "edge": 2,
+                "ingredient": 1,
+                "ability": 1
+            },
             "description": "'The only limit to our realization of tomorrow will be our doubts of today.' - Franklin D. Roosevelt\n\n[With enough Glimmering, you can Study to gain more Passion.]"
         },
         {
@@ -101,12 +170,30 @@
         {
             "id": "glimmering",
             "label": "Glimmering",
-            "description": "My emotions run higher than usual. There are things I'll never understand, and those things will always be precious, but just now I am closer to them. [Glimmering can be used with Study to gain Passion. It lasts only three minutes, if unused.]"
+            "description": "My emotions run higher than usual. There are things I'll never understand, and those things will always be precious, but just now I am closer to them. [Glimmering can be used with Study to gain Passion. It lasts only three minutes, if unused.]",
+            "aspects": {
+                "moth": 2,
+                "knock": 2,
+                "forge": 2,
+                "secrethistories": 2,
+                "edge": 2,
+                "advancement": 1,
+                "influence": 1
+            }
         },
         {
             "id": "glimmeringplus",
             "label": "Glimmering: a Lesson Learnt",
-            "description": "I am ready to improve. [Use this with your Imagination skill to improve the skill and gain Passion. It lasts up to five minutes before it decays back to a Glimmering.]"
+            "description": "I am ready to improve. [Use this with your Imagination skill to improve the skill and gain Passion. It lasts up to five minutes before it decays back to a Glimmering.]",
+            "aspects": {
+                "moth": 2,
+                "knock": 2,
+                "forge": 2,
+                "secrethistories": 2,
+                "edge": 2,
+                "advancement": 1,
+                "influence": 1
+            }
         },
         {
             "id": "fascination",

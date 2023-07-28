@@ -9093,8 +9093,8 @@
             "id": "wound.exile",
             "label": "My Wound",
             "aspects": {
-                "knock": 4,
-                "winter": 4,
+                "forge": 4,
+                "edge": 4,
                 "damage.exile": 1,
                 "ability": 1
             },
@@ -9118,8 +9118,8 @@
             "id": "wound.exile.unstanchable",
             "label": "My Wound",
             "aspects": {
-                "knock": 4,
-                "winter": 4,
+                "forge": 4,
+                "edge": 4,
                 "damage.exile": 1
             },
             "description": "I will need a long time to heal. [This Wound will take twice as long to heal.]",
@@ -9142,8 +9142,8 @@
             "id": "wound.exile.medusa",
             "label": "My Unhealing Wound",
             "aspects": {
-                "knock": 4,
-                "winter": 4,
+                "forge": 4,
+                "edge": 4,
                 "damage.exile": 1,
                 "pentiment": 1,
                 "pentiment.6": 1

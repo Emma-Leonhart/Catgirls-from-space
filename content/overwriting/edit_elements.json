@@ -32,18 +32,6 @@
             ]
         },
         {
-            "id": "reason",
-            "aspects$add": {
-                "grail": 2
-            }
-        },
-        {
-            "id": "reason",
-            "aspects$remove": [
-                "lantern"
-             ]
-        },
-        {
             "id": "illiquid",
             "label": "Capital (illiquid)",
             "aspects": {

@@ -4,8 +4,8 @@
             "id": "wound.mental",
             "label": "Mental Wound",
             "aspects": {
+                "secrethistories": 4,
                 "knock": 4,
-                "winter": 4,
                 "damage.mental": 1,
                 "ability": 1
             },
@@ -30,8 +30,8 @@
             "id": "wound.mental.unstanchable",
             "label": "Mental Wound",
             "aspects": {
+                "secrethistories": 4,
                 "knock": 4,
-                "winter": 4,
                 "damage.mental": 1
             },
             "description": "Wounds can be mental too. [This Wound will take twice as long to heal.]",
@@ -55,8 +55,8 @@
             "id": "wound.mental.medusa",
             "label": "Brain Damage",
             "aspects": {
+                "secrethistories": 4,
                 "knock": 4,
-                "winter": 4,
                 "damage.mental": 1,
                 "pentiment": 1,
                 "pentiment.6": 1

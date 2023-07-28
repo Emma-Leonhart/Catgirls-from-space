@@ -1,10 +1,8 @@
 {
     "elements": [
         {
-            "id": "erudition",
-            "decayTo": "lensing",
-            "aspects$add": {"grail": 2},
-            "aspects$remove": ["lantern"]
+            "id": "erudition", 
+            "decayTo": "lensing"
         },
         {
             "id": "vitality",
