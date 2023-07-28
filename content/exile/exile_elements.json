@@ -6384,7 +6384,7 @@
         {
             "id": "domicile.aachen",
             "label": "Rhenish Aachen",
-            "aspects": {
+            "aspects": { 
                 "domicile": 1,
                 "location": 1,
                 "troubled": 1,

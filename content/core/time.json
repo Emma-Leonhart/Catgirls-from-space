@@ -46,7 +46,7 @@
                     "additional": true
                 },
                 {
-                    "id": "plague_season",
+                    "id": "entrapmentrisklink",
                     "chance": 100,
                     "additional": true
                 },
@@ -459,29 +459,20 @@
             }
         },
         {
-            "id": "plague_season",
-            "chance": 100,
-            "additional": true,
-            "warmup": 30,
-            "label": "You are tripping off the path",
-            "actionid": "inflict_plague_verb",
+            "id": "entrapmentrisklink",
+            "label": "entrapmentrisklink",
+            "actionid": "entrapment",
+            "requirements": {
+                "seasonentrapment": 1
+            },
+            "warmup": 0,
+            "craftable": false,
             "linked": [
                 {
-                    "id": "inflict_plague",
-                    "chance": 30
-                },
-                {
-                    "id": "plague_mercy",
+                    "id": "entrapmentrisk",
                     "chance": 100
                 }
-            ],
-            "requirements": {
-                "seasonplagues": 1,
-                "catgirl_dedication_3": 1
-            },
-            "extantreqs":{
-                "treace": 1
-            }
+            ]
         },
         {
             "id": "plague_mercy",
@@ -925,7 +916,7 @@
                     "additional": true
                 },
                 {
-                    "id": "plague_season",
+                    "id": "entrapmentrisklink",
                     "chance": 100,
                     "additional": true
                 },

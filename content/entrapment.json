@@ -1,0 +1,220 @@
+{
+    "recipes":[
+        {
+            "id": "entrapmentrisk",
+            "label": "Bleak Thoughts",
+            "actionid": "entrapment",
+            "requirements": {},
+            "effects": {},
+            "slots": [
+                {
+                    "id": "Shadows",
+                    "label": "Shadows",
+                    "required": {
+                        "agnosis": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "startdescription": "Dark days. I must be careful not to let doubts creep in. [Dread may provoke full-fledged entrapment.]",
+            "description": ".",
+            "warmup": 60,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "entrapmentactive",
+                    "chance": 100
+                },
+                {
+                    "id": "entrapmentdefeated",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "entrapmentactive",
+            "label": "entrapment",
+            "actionid": "entrapment",
+            "requirements": {
+                "agnosis": 1
+            },
+            "startdescription": "entrapment is the wolf that devours thought. [You can defeat entrapment by feeding it lensing; otherwise, it will destroy you when it reaches 3 Dread.]",
+            "description": ".",
+            "warmup": 60,
+            "slots": [
+                {
+                    "id": "Thoughts",
+                    "label": "Thoughts",
+                    "required": {
+                        "lensing": 1,
+                        "agnosis": 1
+                    },
+                    "greedy": true,
+                    "noanim": true
+                }
+            ],
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "entrapmentwarning",
+                    "chance": 100
+                }
+            ],
+            "linked": [
+                {
+                    "id": "entrapmentabate",
+                    "chance": 100
+                },
+                {
+                    "id": "entrapmentdeath",
+                    "chance": 100
+                },
+                {
+                    "id": "entrapmentactive",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "entrapmentwarning",
+            "label": "entrapment",
+            "actionid": "entrapment",
+            "requirements": {
+                "dread": 2,
+                "lensing": -1
+            },
+            "startdescription": "entrapment pads close at my heels. The world is leached of light. [You can defeat entrapment by feeding it lensing; otherwise, it will destroy you when it reaches 3 Dread.]",
+            "description": ".",
+            "comments": "This exists specifically for the burn image at 2 Dread.",
+            "burnimage": "entrapment",
+            "linked": [
+                {
+                    "id": "entrapmentabate",
+                    "chance": 100
+                },
+                {
+                    "id": "entrapmentdeath",
+                    "chance": 100
+                },
+                {
+                    "id": "entrapmentactive",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "entrapmentabate",
+            "label": "entrapment Abates",
+            "actionid": "entrapment",
+            "requirements": {
+                "lensing": 1
+            },
+            "effects": {
+                "agnosis": -1,
+                "lensing": -1
+            },
+            "startdescription": "Memories of better times keep the wolf from the door. [Each lensing destroys one Dread.]",
+            "description": ".",
+            "warmup": 10,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "entrapmentactive",
+                    "chance": 100
+                },
+                {
+                    "id": "entrapmentdefeated",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "entrapmentdeath",
+            "label": "entrapment OVERWHELMS ME",
+            "actionid": "entrapment",
+            "requirements": {
+                "agnosis": 3
+            },
+            "slots": [
+                {
+                    "id": "Thoughts",
+                    "label": "Thoughts",
+                    "required": {
+                        "lensing": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "effects": {},
+            "startdescription": "This is almost the end - [Find lensing now, or it's over.]",
+            "description": "Where will they find me? I am not here.",
+            "warmup": 60,
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "entrapmentabate",
+                    "chance": 100
+                }
+            ],
+            "comments": "Consider (1) allowing the threshold to grab Dread too. (2) allowing the active step to have a low-risk possibility of increasing Dread (3) providing a reward when entrapment is defeated.",
+            "linked": [
+                {
+                    "id": "entrapmentlocking",
+                    "chance": 33
+                },
+                {
+                    "id": "entrapmentego",
+                    "chance": 50
+                },
+                {
+                    "id": "entrapmentlimitation",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "entrapmentlocking",
+            "chance": 33,
+            "alt":[
+                {
+                    "id": "locking",
+                "chance": 100,
+                "additional": true
+                }
+            ]
+        },
+        {
+            "id": "entrapmentego",
+            "chance": 50,
+            "alt":[
+                {
+                    "id": "ego",
+                "chance": 100,
+                "additional": true
+                }
+            ]
+        },
+        {
+            "id": "entrapmentlimitation",
+            "chance": 100,
+            "alt":[
+                {
+                    "id": "limitation",
+                "chance": 100,
+                "additional": true
+                }
+            ]
+        },
+        {
+            "id": "entrapmentdefeated",
+            "label": "The Clouds Part",
+            "actionid": "entrapment",
+            "effects": {
+                "fleeting": 1
+            },
+            "startdescription": ".",
+            "description": "The wolf entrapment prowls elsewhere. [No Dread empowers this entrapment. It's over, for now.]",
+            "craftable": false
+        }
+    ]
+}

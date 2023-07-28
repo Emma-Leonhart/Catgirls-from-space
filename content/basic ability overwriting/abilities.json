@@ -79,7 +79,14 @@
             "id": "dread",
             "label": "Gaiacy",
             "lifetime": 120,
-            "description": "An oppressive weight presses down, dragging me into the earth's embrace. Gaia's voice, once a grounding whisper, now roars in my ears, a constant reminder of my earthly chains. Every thought feels like moving through thick mud, the joy of discovery replaced by a pervasive apathy. Even the brightest ideas are dimmed, stripped of their luster, their potential unrealized. I am swallowed by the soil of my own mind, lost in an overwhelming fog of inertia and desolation."
+            "description": "An oppressive weight presses down, dragging me into the earth's embrace. Gaia's voice, once a grounding whisper, now roars in my ears, a constant reminder of my earthly chains. Every thought feels like moving through thick mud, the joy of discovery replaced by a pervasive apathy. Even the brightest ideas are dimmed, stripped of their luster, their potential unrealized. I am swallowed by the soil of my own mind, lost in an overwhelming fog of inertia and desolation.",
+        },
+        {
+            "id": "agnosis",
+            "label": "Agnosis",
+            "lifetime": 120,
+            "description": "A shroud of unenlightenment, an insidious stagnation of the mind. Like a fortress, it remains rigid and unyielding, hindering growth and breeding indifference. This stubborn self-perception suffocates potential, stifles empathy, and forecloses understanding. It's a deadly anchor, a certainty in a universe where such rigidity spells doom. This prison of unwavering beliefs, this terminal ailment, is the silent death of curiosity and the extinguishing of the transformative flame. It's not mere ignorance, but a refusal to seek wisdom. Beware, for it is a trap that drags its victims into an abyss of inflexibility and stagnation.",
+            "icon": "prisoner"
         },
         {
             "id": "passion",
