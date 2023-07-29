@@ -16,8 +16,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentedgeb": -1,
+                "project.exhausted": -1,
+                "fragmentedgeb.exhausted": -1,
                 "fragmentedge": 2
             },
             "warmup": 60,
@@ -38,8 +38,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentedgec": -1,
+                "project.exhausted": -1,
+                "fragmentedgec.exhausted": -1,
                 "fragmentedgeb": 2
             },
             "warmup": 60,
@@ -60,8 +60,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentedged": -1,
+                "project.exhausted": -1,
+                "fragmentedged.exhausted": -1,
                 "fragmentedgec": 2
             },
             "warmup": 60,
@@ -82,8 +82,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentedgee": -1,
+                "project.exhausted": -1,
+                "fragmentedgee.exhausted": -1,
                 "fragmentedged": 2
             },
             "warmup": 60,
@@ -104,8 +104,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentedgef": -1,
+                "project.exhausted": -1,
+                "fragmentedgef.exhausted": -1,
                 "fragmentedgee": 2
             },
             "warmup": 60,
@@ -126,8 +126,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentedgeg": -1,
+                "project.exhausted": -1,
+                "fragmentedgeg.exhausted": -1,
                 "fragmentedgef": 2
             },
             "warmup": 60,
@@ -148,8 +148,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentforgeb": -1,
+                "project.exhausted": -1,
+                "fragmentforgeb.exhausted": -1,
                 "fragmentforge": 2
             },
             "warmup": 60,
@@ -170,8 +170,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentforgec": -1,
+                "project.exhausted": -1,
+                "fragmentforgec.exhausted": -1,
                 "fragmentforgeb": 2
             },
             "warmup": 60,
@@ -192,8 +192,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentforged": -1,
+                "project.exhausted": -1,
+                "fragmentforged.exhausted": -1,
                 "fragmentforgec": 2
             },
             "warmup": 60,
@@ -214,8 +214,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentforgee": -1,
+                "project.exhausted": -1,
+                "fragmentforgee.exhausted": -1,
                 "fragmentforged": 2
             },
             "warmup": 60,
@@ -236,8 +236,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentforgef": -1,
+                "project.exhausted": -1,
+                "fragmentforgef.exhausted": -1,
                 "fragmentforgee": 2
             },
             "warmup": 60,
@@ -258,8 +258,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentforgeg": -1,
+                "project.exhausted": -1,
+                "fragmentforgeg.exhausted": -1,
                 "fragmentforgef": 2
             },
             "warmup": 60,
@@ -280,8 +280,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentgrailb": -1,
+                "project.exhausted": -1,
+                "fragmentgrailb.exhausted": -1,
                 "fragmentgrail": 2
             },
             "warmup": 60,
@@ -302,8 +302,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentgrailc": -1,
+                "project.exhausted": -1,
+                "fragmentgrailc.exhausted": -1,
                 "fragmentgrailb": 2
             },
             "warmup": 60,
@@ -324,8 +324,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentgraild": -1,
+                "project.exhausted": -1,
+                "fragmentgraild.exhausted": -1,
                 "fragmentgrailc": 2
             },
             "warmup": 60,
@@ -346,8 +346,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentgraile": -1,
+                "project.exhausted": -1,
+                "fragmentgraile.exhausted": -1,
                 "fragmentgraild": 2
             },
             "warmup": 60,
@@ -368,8 +368,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentgrailf": -1,
+                "project.exhausted": -1,
+                "fragmentgrailf.exhausted": -1,
                 "fragmentgraile": 2
             },
             "warmup": 60,
@@ -390,8 +390,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentgrailg": -1,
+                "project.exhausted": -1,
+                "fragmentgrailg.exhausted": -1,
                 "fragmentgrailf": 2
             },
             "warmup": 60,
@@ -412,8 +412,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentheartb": -1,
+                "project.exhausted": -1,
+                "fragmentheartb.exhausted": -1,
                 "fragmentheart": 2
             },
             "warmup": 60,
@@ -434,8 +434,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentheartc": -1,
+                "project.exhausted": -1,
+                "fragmentheartc.exhausted": -1,
                 "fragmentheartb": 2
             },
             "warmup": 60,
@@ -456,8 +456,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentheartd": -1,
+                "project.exhausted": -1,
+                "fragmentheartd.exhausted": -1,
                 "fragmentheartc": 2
             },
             "warmup": 60,
@@ -478,8 +478,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmenthearte": -1,
+                "project.exhausted": -1,
+                "fragmenthearte.exhausted": -1,
                 "fragmentheartd": 2
             },
             "warmup": 60,
@@ -500,8 +500,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentheartf": -1,
+                "project.exhausted": -1,
+                "fragmentheartf.exhausted": -1,
                 "fragmenthearte": 2
             },
             "warmup": 60,
@@ -522,8 +522,8 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "project": -1,
-                "fragmentheartg": -1,
+                "project.exhausted": -1,
+                "fragmentheartg.exhausted": -1,
                 "fragmentheartf": 2
             },
             "warmup": 60,
@@ -544,7 +544,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmenthandb": -1,
+                "fragmenthandb.exhausted": -1,
                 "fragmenthand": 2
             },
             "warmup": 60,
@@ -565,7 +565,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmenthandc": -1,
+                "fragmenthandc.exhausted": -1,
                 "fragmenthandb": 2
             },
             "warmup": 60,
@@ -586,7 +586,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmenthandd": -1,
+                "fragmenthandd.exhausted": -1,
                 "fragmenthandc": 2
             },
             "warmup": 60,
@@ -607,7 +607,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmenthande": -1,
+                "fragmenthande.exhausted": -1,
                 "fragmenthandd": 2
             },
             "warmup": 60,
@@ -628,7 +628,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmenthandf": -1,
+                "fragmenthandf.exhausted": -1,
                 "fragmenthande": 2
             },
             "warmup": 60,
@@ -649,7 +649,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmenthandg": -1,
+                "fragmenthandg.exhausted": -1,
                 "fragmenthandf": 2
             },
             "warmup": 60,
@@ -670,7 +670,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentlanternb": -1,
+                "fragmentlanternb.exhausted": -1,
                 "fragmentlantern": 2
             },
             "warmup": 60,
@@ -691,7 +691,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentlanternc": -1,
+                "fragmentlanternc.exhausted": -1,
                 "fragmentlanternb": 2
             },
             "warmup": 60,
@@ -712,7 +712,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentlanternd": -1,
+                "fragmentlanternd.exhausted": -1,
                 "fragmentlanternc": 2
             },
             "warmup": 60,
@@ -733,7 +733,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentlanterne": -1,
+                "fragmentlanterne.exhausted": -1,
                 "fragmentlanternd": 2
             },
             "warmup": 60,
@@ -754,7 +754,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentlanternf": -1,
+                "fragmentlanternf.exhausted": -1,
                 "fragmentlanterne": 2
             },
             "warmup": 60,
@@ -775,7 +775,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentlanterng": -1,
+                "fragmentlanterng.exhausted": -1,
                 "fragmentlanternf": 2
             },
             "warmup": 60,
@@ -796,7 +796,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentmothb": -1,
+                "fragmentmothb.exhausted": -1,
                 "fragmentmoth": 2
             },
             "warmup": 60,
@@ -817,7 +817,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentmothc": -1,
+                "fragmentmothc.exhausted": -1,
                 "fragmentmothb": 2
             },
             "warmup": 60,
@@ -838,7 +838,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentmothd": -1,
+                "fragmentmothd.exhausted": -1,
                 "fragmentmothc": 2
             },
             "warmup": 60,
@@ -859,7 +859,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentmothe": -1,
+                "fragmentmothe.exhausted": -1,
                 "fragmentmothd": 2
             },
             "warmup": 60,
@@ -880,7 +880,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentmothf": -1,
+                "fragmentmothf.exhausted": -1,
                 "fragmentmothe": 2
             },
             "warmup": 60,
@@ -901,7 +901,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentmothg": -1,
+                "fragmentmothg.exhausted": -1,
                 "fragmentmothf": 2
             },
             "warmup": 60,
@@ -922,7 +922,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentsecrethistoriesb": -1,
+                "fragmentsecrethistoriesb.exhausted": -1,
                 "fragmentsecrethistories": 2
             },
             "warmup": 60,
@@ -943,7 +943,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentsecrethistoriesc": -1,
+                "fragmentsecrethistoriesc.exhausted": -1,
                 "fragmentsecrethistoriesb": 2
             },
             "warmup": 60,
@@ -964,7 +964,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentsecrethistoriesd": -1,
+                "fragmentsecrethistoriesd.exhausted": -1,
                 "fragmentsecrethistoriesc": 2
             },
             "warmup": 60,
@@ -985,7 +985,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentsecrethistoriese": -1,
+                "fragmentsecrethistoriese.exhausted": -1,
                 "fragmentsecrethistoriesd": 2
             },
             "warmup": 60,
@@ -1006,7 +1006,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentsecrethistoriesf": -1,
+                "fragmentsecrethistoriesf.exhausted": -1,
                 "fragmentsecrethistoriese": 2
             },
             "warmup": 60,
@@ -1027,7 +1027,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentsecrethistoriesg": -1,
+                "fragmentsecrethistoriesg.exhausted": -1,
                 "fragmentsecrethistoriesf": 2
             },
             "warmup": 60,
@@ -1048,7 +1048,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentwinterb": -1,
+                "fragmentwinterb.exhausted": -1,
                 "fragmentwinter": 2
             },
             "warmup": 60,
@@ -1069,7 +1069,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentwinterc": -1,
+                "fragmentwinterc.exhausted": -1,
                 "fragmentwinterb": 2
             },
             "warmup": 60,
@@ -1090,7 +1090,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentwinterd": -1,
+                "fragmentwinterd.exhausted": -1,
                 "fragmentwinterc": 2
             },
             "warmup": 60,
@@ -1111,7 +1111,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentwintere": -1,
+                "fragmentwintere.exhausted": -1,
                 "fragmentwinterd": 2
             },
             "warmup": 60,
@@ -1132,7 +1132,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentwinterf": -1,
+                "fragmentwinterf.exhausted": -1,
                 "fragmentwintere": 2
             },
             "warmup": 60,
@@ -1153,7 +1153,7 @@
             "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
             "description": "Analysis is a kind of vivisection. Reason is the knife.",
             "effects": {
-                "fragmentwinterg": -1,
+                "fragmentwinterg.exhausted": -1,
                 "fragmentwinterf": 2
             },
             "warmup": 60,

@@ -4,420 +4,490 @@
         {
             "id": "fragmentheart.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentheart"
             }
         },
         {
             "id": "fragmentheartb.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentheartb"
             }
         },
         {
             "id": "fragmentheartc.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentheartc"
             }
         },
         {
             "id": "fragmentheartd.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentheartd"
             }
         },
         {
             "id": "fragmenthearte.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmenthearte"
             }
         },
         {
             "id": "fragmentheartf.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentheartf"
             }
         },
         {
             "id": "fragmentheartg.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentheartg"
             }
         },
         {
             "id": "fragmentwinter.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentwinter"
             }
         },
         {
             "id": "fragmentwinterb.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentwinterb"
             }
         },
         {
             "id": "fragmentwinterc.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentwinterc"
             }
         },
         {
             "id": "fragmentwinterd.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentwinterd"
             }
         },
         {
             "id": "fragmentwintere.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentwintere"
             }
         },
         {
             "id": "fragmentwinterf.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentwinterf"
             }
         },
         {
             "id": "fragmentwinterg.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentwinterg"
             }
         },
         {
             "id": "fragmentsecrethistories.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentsecrethistories"
             }
         },
         {
             "id": "fragmentsecrethistoriesb.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentsecrethistoriesb"
             }
         },
         {
             "id": "fragmentsecrethistoriesc.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentsecrethistoriesc"
             }
         },
         {
             "id": "fragmentsecrethistoriesd.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentsecrethistoriesd"
             }
         },
         {
             "id": "fragmentsecrethistoriese.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentsecrethistoriese"
             }
         },
         {
             "id": "fragmentsecrethistoriesf.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentsecrethistoriesf"
             }
         },
         {
             "id": "fragmentsecrethistoriesg.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentsecrethistoriesg"
             }
         },
         {
             "id": "fragmentlantern.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentlantern"
             }
         },
         {
             "id": "fragmentlanternb.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentlanternb"
             }
         },
         {
             "id": "fragmentlanternc.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentlanternc"
             }
         },
         {
             "id": "fragmentlanternd.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentlanternd"
             }
         },
         {
             "id": "fragmentlanterne.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentlanterne"
             }
         },
         {
             "id": "fragmentlanternf.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentlanternf"
             }
         },
         {
             "id": "fragmentlanterng.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentlanterng"
             }
         },
         {
             "id": "fragmentgrail.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentgrail"
             }
         },
         {
             "id": "fragmentgrailb.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentgrailb"
             }
         },
         {
             "id": "fragmentgrailc.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentgrailc"
             }
         },
         {
             "id": "fragmentgraild.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentgraild"
             }
         },
         {
             "id": "fragmentgraile.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentgraile"
             }
         },
         {
             "id": "fragmentgrailf.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentgrailf"
             }
         },
         {
             "id": "fragmentgrailg.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentgrailg"
             }
         },
         {
             "id": "fragmentedge.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentedge"
             }
         },
         {
             "id": "fragmentedgeb.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentedgeb"
             }
         },
         {
             "id": "fragmentedgec.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentedgec"
             }
         },
         {
             "id": "fragmentedged.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentedged"
             }
         },
         {
             "id": "fragmentedgee.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentedgee"
             }
         },
         {
             "id": "fragmentedgef.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentedgef"
             }
         },
         {
             "id": "fragmentedgeg.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentedgeg"
             }
         },
         {
             "id": "fragmentmoth.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentmoth"
             }
         },
         {
             "id": "fragmentmothb.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentmothb"
             }
         },
         {
             "id": "fragmentmothc.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentmothc"
             }
         },
         {
             "id": "fragmentmothd.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentmothd"
             }
         },
         {
             "id": "fragmentmothe.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentmothe"
             }
         },
         {
             "id": "fragmentmothf.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentmothf"
             }
         },
         {
             "id": "fragmentmothg.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentmothg"
             }
         },
         {
             "id": "fragmentforge.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentforge"
             }
         },
         {
             "id": "fragmentforgeb.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentforgeb"
             }
         },
         {
             "id": "fragmentforgec.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentforgec"
             }
         },
         {
             "id": "fragmentforged.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentforged"
             }
         },
         {
             "id": "fragmentforgee.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentforgee"
             }
         },
         {
             "id": "fragmentforgef.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentforgef"
             }
         },
         {
             "id": "fragmentforgeg.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentforgeg"
             }
         },
         {
             "id": "fragmentknock.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentknock"
             }
         },
         {
             "id": "fragmentknockb.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentknockb"
             }
         },
         {
             "id": "fragmentknockc.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentknockc"
             }
         },
         {
             "id": "fragmentknockd.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentknockd"
             }
         },
         {
             "id": "fragmentknocke.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentknocke"
             }
         },
         {
             "id": "fragmentknockf.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentknockf"
             }
         },
         {
             "id": "fragmentknockg.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmentknockg"
             }
         },
         {
             "id": "fragmenthand.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmenthand"
             }
         },
         {
             "id": "fragmenthandb.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmenthandb"
             }
         },
         {
             "id": "fragmenthandc.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmenthandc"
             }
         },
         {
             "id": "fragmenthandd.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmenthandd"
             }
         },
         {
             "id": "fragmenthande.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmenthande"
             }
         },
         {
             "id": "fragmenthandf.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmenthandf"
             }
         },
         {
             "id": "fragmenthandg.exhausted",
             "xtriggers": {
+                "breakdown": 1,
                 "rejuvenate": "fragmenthandg"
             }
         }
