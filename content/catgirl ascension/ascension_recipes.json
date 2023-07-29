@@ -275,6 +275,11 @@
                 }
             ],
             "linked": [
+                
+                {
+                    "id": "L_ascension_rival_catgirl_wins",
+                    "chance": 100
+                },
                 {
                     "id": "L_ascension_rival",
                     "chance": 100

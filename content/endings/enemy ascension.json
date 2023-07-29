@@ -12,7 +12,7 @@
             },
             "label": "Too Many Enemies",
             "startdescription": "One immortal enemy is a mortal peril. Two immortal enemies are too much. Our Great Work has failed.",
-            "ending": "rivalascension",
+            "ending": "rivalascensionapostle",
             "signalEndingFlavour": "Melancholy",
             "warmup": 60
         },
@@ -28,6 +28,21 @@
             "label": "The future was seized",
             "startdescription": "While the hand is gone, a new enemy has taken over.",
             "ending": "rivalascension",
+            "signalEndingFlavour": "Melancholy",
+            "warmup": 60
+        },
+        {
+            "id": "L_ascension_rival_catgirl_wins",
+            "actionid": "ambition",
+            "requirements": {
+                "rivalmarks": 7
+            },
+            "extantreqs": {
+                "capitalmarks": 1
+            },
+            "label": "My Master has been overthrown",
+            "startdescription": "My Master the hand has been destroyed. A revolution has happened and capitalism no longer exists.",
+            "ending": "rivalascension_catgirl_wins",
             "signalEndingFlavour": "Melancholy",
             "warmup": 60
         }

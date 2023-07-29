@@ -201,7 +201,16 @@
         {
             "id": "rivalascension",
             "label": "NOT LONG ENOUGH",
-            "description": "Perhaps I waited too long. Or perhaps this victory was never meant for me. Another has ascended in my place. Where they have risen, I will diminish, until I am only a memory. Perhaps another will avenge my defeat. \n[Someone else surpassed you, changed the world, and won.]",
+            "description": "While I overthrew the hand, a new enemy rose. \n[Someone else surpassed you, changed the world, and won.]",
+            "image": "lionsmith",
+            "flavour": "Melancholy",
+            "anim": "DramaticLightEvil",
+            "achievement": "A_RIVAL_ASCENSION"
+        },
+        {
+            "id": "rivalascension_catgirl_wins",
+            "label": "The Hand was overthrown",
+            "description": "Despite my efforts, the Hand was overthrown. Everyone is an immortal catgirl now. I have lived for a thousand years so far, but nobody wants to talk to me. \n[Someone else surpassed you, changed the world, and won.]",
             "image": "lionsmith",
             "flavour": "Melancholy",
             "anim": "DramaticLightEvil",

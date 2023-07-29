@@ -11,7 +11,7 @@
             "description": "I've grown stronger. [I've gained Health, but it'll be more difficult to gain Health next time.]",
             "effects": {
                 "capitalisticness": -2,
-                "health": 1,
+                "funds": 1,
                 "skillmoneya": 1
             },
             "warmup": 60,
@@ -66,7 +66,6 @@
             "startdescription": "I will grow stronger still.",
             "description": "The machine, my body, ripples with power.",
             "effects": {
-                "health": 1,
                 "funds": 1
             },
             "warmup": 60,
@@ -86,7 +85,6 @@
             "startdescription": "I will grow stronger yet.",
             "description": "I could carry a man across a river, now; or strangle him.",
             "effects": {
-                "health": 1,
                 "funds": 1
             },
             "warmup": 60,
@@ -165,7 +163,7 @@
             ],
             "actionid": "work",
             "requirements": {
-                "health": 1,
+                "funds": 1,
                 "ritual": -1,
                 "job": -1,
                 "benefactor": -1
