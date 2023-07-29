@@ -6,6 +6,7 @@
             "label": "Ethan, an acquaintance",
             "aspects": {
                 "acquaintance": 1,
+                "mortal": 1,
                 "knock": 2,
                 "antibodies": 1
             },

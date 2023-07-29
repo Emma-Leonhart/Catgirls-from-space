@@ -23,6 +23,10 @@
             "description": "Rumpled fields, the wink of a river. A tingling chill.",
             "alt": [
               {
+                "id": "dreamreachdarkhand",
+                "chance": 100
+              },
+              {
                 "id": "dreamreachwoodheart",
                 "chance": 100
               },
@@ -55,17 +59,13 @@
                 "chance": 100
               },
               {
-                "id": "dreamreachdarkhand",
-                "chance": 100
-              },
-              {
                 "id": "dreamreachwoodmoth",
                 "chance": 100
               },
               {
                 "id": "dreamenterwood",
                 "chance": 100
-              },
+              }
             ],
             "linked": [
               {
@@ -100,6 +100,10 @@
             "description": "Rumpled fields, the wink of a river. A tingling chill.",
             "alt": [
               {
+                "id": "dreamreachdarkhand",
+                "chance": 100
+              },
+              {
                 "id": "dreamreachwoodheart",
                 "chance": 100
               },
@@ -133,10 +137,6 @@
               },
               {
                 "id": "dreamenterwood",
-                "chance": 100
-              },
-              {
-                "id": "dreamreachdarkhand",
                 "chance": 100
               },
               {

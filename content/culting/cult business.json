@@ -256,6 +256,10 @@
                     "chance": 100
                 },
                 {
+                    "id": "followeraction_dungeon_highsecrethistories",
+                    "chance": 100
+                },
+                {
                     "id": "followeraction_murderhighwinter",
                     "chance": 100
                 },
@@ -285,6 +289,10 @@
                 },
                 {
                     "id": "followeraction_abducthighedge",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_dungeon_midsecrethistories",
                     "chance": 100
                 },
                 {
@@ -320,6 +328,10 @@
                     "chance": 100
                 },
                 {
+                    "id": "followeraction_dungeon_lowsecrethistories",
+                    "chance": 100
+                },
+                {
                     "id": "followeraction_murderlowwinter",
                     "chance": 100
                 },
@@ -348,7 +360,7 @@
                     "chance": 100
                 },
                 {
-                    "id": "followeraction_abductlowedge",
+                    "id": "followeraction_abductlowedge", 
                     "chance": 100
                 },
                 {
