@@ -272,7 +272,7 @@
             "icon": "fervour",
             "description": "My congregation's passions run strong, if not deep. [Keep your congregation satisfied. virality, if unused, will decay to Dread.]",
             "lifetime": 180,
-            "decayTo": "dread"
+            "decayTo": "agnosis"
         },
         {
             "id": "influencerjob",
