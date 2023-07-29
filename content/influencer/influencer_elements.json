@@ -34,6 +34,7 @@
                 }
             ],
             "label": "My Online Brand",
+            "uniquenessgroup": "uqinfluencer",
             "description": "I can build a larger following online.",
             "xtriggers":{
                 "influenceradvance": "influencerjobb"
@@ -73,6 +74,7 @@
                 }
             ],
             "label": "My Online Brand",
+            "uniquenessgroup": "uqinfluencer",
             "description": "I can build a larger following online.",
             "xtriggers":{
                 "influenceradvance": "influencerjobc"
@@ -112,6 +114,7 @@
                 }
             ],
             "label": "My Online Brand",
+            "uniquenessgroup": "uqinfluencer",
             "description": "I can build a larger following online.",
             "xtriggers":{
                 "influenceradvance": "influencerjobd"
@@ -151,6 +154,7 @@
                 }
             ],
             "label": "My Online Brand",
+            "uniquenessgroup": "uqinfluencer",
             "description": "I can build a larger following online.",
             "xtriggers":{
                 "influenceradvance": "influencerjobe"
@@ -190,6 +194,7 @@
                 }
             ],
             "label": "My Online Brand",
+            "uniquenessgroup": "uqinfluencer",
             "description": "I can build a larger following online.",
             "xtriggers":{
                 "influenceradvance": "influencerjobf"
@@ -229,6 +234,7 @@
                 }
             ],
             "label": "My Online Brand",
+            "uniquenessgroup": "uqinfluencer",
             "description": "I can build a larger following online.",
             "xtriggers":{
                 "influenceradvance": "influencerjobg"
@@ -260,6 +266,7 @@
                 }
             ],
             "label": "My Online Brand",
+            "uniquenessgroup": "uqinfluencer",
             "description": "I can build a larger following online."
         },
         {
@@ -270,7 +277,7 @@
                 "heart": 2
             },
             "icon": "fervour",
-            "description": "My congregation's passions run strong, if not deep. [Keep your congregation satisfied. virality, if unused, will decay to Dread.]",
+            "description": "My fan's passions run strong, if not deep. [If you do not continue your ego will get the best of you and you will fall into entrapment.]",
             "lifetime": 180,
             "decayTo": "agnosis"
         },
@@ -285,6 +292,13 @@
             "label": "Skill as a youtuber",
             "description": "I am an influencer",
             "isAspect": true
+        },
+        {
+            "id": "uqinfluencer",
+            "label": "Influencer",
+            "description": "",
+            "isAspect": true,
+            "isHidden": true
         }
     ]
 }

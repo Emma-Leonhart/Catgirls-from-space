@@ -137,7 +137,8 @@
                 "capturefollower": "generic_p",
                 "refiring": "devotee_moth"
             },
-            "lifetime": 180
+            "lifetime": 180,
+            "decayTo": "lunatic"
         },
         {
             "id": "devotee_winter",

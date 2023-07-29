@@ -89,9 +89,6 @@
         "requirements":{
             "desire": 1
         },
-        "effects": {
-            "catgirl_truth": 1
-        },
         "label": "I am offering you my power",
         "description": "Work with the Catgirl truth and the way of the stag door to start"
     },
@@ -517,8 +514,7 @@
         "actionid": "work",
         "requirements": {
             "desire": 1,
-            "waystag_after": 1,
-            "catgirl_truth": 1
+            "waystag_after": 1
         },
         "effects": {
             "desire": -1,
