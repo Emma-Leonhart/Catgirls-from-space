@@ -280,6 +280,10 @@
                     "chance": 100
                 },
                 {
+                    "id": "L_ascension_rival_revolution",
+                    "chance": 100
+                },
+                {
                     "id": "L_independent",
                     "chance": 100
                 },

@@ -456,7 +456,44 @@
             "warmup": 10,
             "requirements": {
                 "seasonrivals": 1
-            }
+            },
+            "deckeffects": {
+                "acquaintances": 1
+            },
+            "label": "A new rival emerges",
+            "startdescription": "Will I be able to make peace with them or will they oppose my mission",
+            "description": "They are on my side",
+            "linked":[
+                {
+                    "id": "rival_start_rebellion_maninblack",
+                    "chance": 100
+                },
+                {
+                    "id": "rival_start_rebellion",
+                    "chance": 50
+                }
+            ]
+        },
+        {
+            "id": "rival_start_rebellion",
+            "chance": 100,
+            "actionid": "newrival",
+            "aspects": {
+                "rebellion": 1
+            },
+            "description": "They are against me"
+        },
+        {
+            "id": "rival_start_rebellion_maninblack",
+            "chance": 100,
+            "extantreqs": {
+                "ascensionmaninblack_aspect": 1
+            },
+            "actionid": "newrival",
+            "aspects": {
+                "rebellion": 1
+            },
+            "description": "They are against me"
         },
         {
             "id": "entrapmentrisklink",

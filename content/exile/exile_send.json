@@ -1252,7 +1252,8 @@
             "requirements": {
                 "mortal": 1,
                 "associate": -1,
-                "ally": -1
+                "ally": -1,
+                "acquaintance": -1
             },
             "aspects": {
                 "mortal.introduce": 1

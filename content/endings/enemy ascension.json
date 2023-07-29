@@ -1,0 +1,35 @@
+{
+    "recipes":[
+        
+        {
+            "id": "L_ascension_rival",
+            "actionid": "ambition",
+            "requirements": {
+                "rivalmarks": 7
+            },
+            "extantreqs": {
+                "rkx.foe.defeated": -1
+            },
+            "label": "Too Many Enemies",
+            "startdescription": "One immortal enemy is a mortal peril. Two immortal enemies are too much. Our Great Work has failed.",
+            "ending": "rivalascension",
+            "signalEndingFlavour": "Melancholy",
+            "warmup": 60
+        },
+        {
+            "id": "L_ascension_rival_revolution",
+            "actionid": "ambition",
+            "requirements": {
+                "rivalmarks": 7
+            },
+            "extantreqs": {
+                "rkx.foe.defeated": 1
+            },
+            "label": "The future was seized",
+            "startdescription": "While the hand is gone, a new enemy has taken over.",
+            "ending": "rivalascension",
+            "signalEndingFlavour": "Melancholy",
+            "warmup": 60
+        }
+    ]
+}

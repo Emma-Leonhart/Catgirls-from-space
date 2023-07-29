@@ -182,7 +182,7 @@
             "label": "Influencer Health Router",
             "warmup": 15,
             "requirements": {
-                "passion": 1
+                "health": 1
             },
             "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
             "linked":[
@@ -739,7 +739,8 @@
                     "description": "I could introduce the most enthusiastic fans to an inner circle...",
                     "required": {
                         "society": 1
-                    }
+                    },
+                    "greedy": true
                 }
             ],
             "alt": [
