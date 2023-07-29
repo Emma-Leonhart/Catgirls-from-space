@@ -1,0 +1,9 @@
+{
+    "elements":[
+        {
+            "id": "tryagain",
+            "description": "draw exhausted on one aspect, trying again with another",
+            "lifetime": 1
+        }
+    ]
+}

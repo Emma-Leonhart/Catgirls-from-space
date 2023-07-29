@@ -54,6 +54,123 @@
             "defaultcard": "mistakenidentity"
         },
         {
+            "id": "heart_people",
+            "label": "Acquaintances",
+            "description": "So many people in the world, and so few worth knowing.",
+            "spec": [
+                "dorothy_a",
+                "clovette_a",
+                "leo_a",
+                "generic_a_heart",
+                "generic_a_heart"
+            ],
+            "defaultcard": "tryagain"
+        },
+        {
+            "id": "winter_people",
+            "label": "Acquaintances",
+            "description": "So many people in the world, and so few worth knowing.",
+            "spec": [
+                "violet_a",
+                "auclair_a",
+                "evelyn_a",
+                "generic_a_winter",
+                "generic_a_winter"
+            ],
+            "defaultcard": "tryagain"
+        },
+        {
+            "id": "secrethistories_people",
+            "label": "Acquaintances",
+            "description": "So many people in the world, and so few worth knowing.",
+            "spec": [
+                "arthur_a",
+                "beatrice_a",
+                "charles_a",
+                "generic_a_secrethistories",
+                "generic_a_secrethistories"
+            ],
+            "defaultcard": "tryagain"
+        },
+        {
+            "id": "lantern_people",
+            "label": "Acquaintances",
+            "description": "So many people in the world, and so few worth knowing.",
+            "spec": [
+                "cat_a",
+                "slee_a",
+                "clifton_a",
+                "generic_a_lantern",
+                "generic_a_lantern"
+            ],
+            "defaultcard": "tryagain"
+        },
+        {
+            "id": "grail_people",
+            "label": "Acquaintances",
+            "description": "So many people in the world, and so few worth knowing.",
+            "spec": [
+                "renira_a",
+                "saliba_a",
+                "lilith_a",
+                "generic_a_grail",
+                "generic_a_grail"
+            ],
+            "defaultcard": "tryagain"
+        },
+        {
+            "id": "edge_people",
+            "label": "Acquaintances",
+            "description": "So many people in the world, and so few worth knowing.",
+            "spec": [
+                "elridge_a",
+                "enid_a",
+                "victor_a",
+                "generic_a_edge",
+                "generic_a_edge"
+            ],
+            "defaultcard": "tryagain"
+        },
+        {
+            "id": "knock_people",
+            "label": "Acquaintances",
+            "description": "So many people in the world, and so few worth knowing.",
+            "spec": [
+                "neville_a",
+                "enid_a",
+                "ethan_a",
+                "generic_a_knock",
+                "generic_a_knock"
+            ],
+            "defaultcard": "tryagain"
+        },
+        {
+            "id": "forge_people",
+            "label": "Acquaintances",
+            "description": "So many people in the world, and so few worth knowing.",
+            "spec": [
+                "valciane_a",
+                "tristan_a",
+                "laidlaw_a",
+                "generic_a_forge",
+                "generic_a_forge"
+            ],
+            "defaultcard": "tryagain"
+        },
+        {
+            "id": "moth_people",
+            "label": "Acquaintances",
+            "description": "So many people in the world, and so few worth knowing.",
+            "spec": [
+                "ysabet_a",
+                "sylvia_a",
+                "porter_a",
+                "generic_a_moth",
+                "generic_a_moth"
+            ],
+            "defaultcard": "tryagain"
+        },
+        {
             "id": "hirelings",
             "label": "The Brutal and the Cunning",
             "description": "Some tools are apt to some ends.",
