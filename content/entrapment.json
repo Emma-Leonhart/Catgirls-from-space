@@ -2,7 +2,7 @@
     "recipes":[
         {
             "id": "entrapmentrisk",
-            "label": "Bleak Thoughts",
+            "label": "Rigid Mindset",
             "actionid": "entrapment",
             "requirements": {},
             "effects": {},
@@ -16,7 +16,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "Dark days. I must be careful not to let doubts creep in. [Dread may provoke full-fledged entrapment.]",
+            "startdescription": "My thoughts are solidifying, growing stubborn. I must resist the allure of unwavering certainty. [Agnosis can provoke full-fledged entrapment.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -33,12 +33,12 @@
         },
         {
             "id": "entrapmentactive",
-            "label": "entrapment",
+            "label": "Cognitive Stasis",
             "actionid": "entrapment",
             "requirements": {
                 "agnosis": 1
             },
-            "startdescription": "entrapment is the wolf that devours thought. [You can defeat entrapment by feeding it lensing; otherwise, it will destroy you when it reaches 3 Dread.]",
+            "startdescription": "Entrapment is the monolith that stifles progress. [You can defeat entrapment by feeding it Lensing; otherwise, it will consume you when it reaches 3 Agnosis.]",
             "description": ".",
             "warmup": 60,
             "slots": [
@@ -77,13 +77,13 @@
         },
         {
             "id": "entrapmentwarning",
-            "label": "entrapment",
+            "label": "Cognitive Rigidity",
             "actionid": "entrapment",
             "requirements": {
                 "dread": 2,
                 "lensing": -1
             },
-            "startdescription": "entrapment pads close at my heels. The world is leached of light. [You can defeat entrapment by feeding it lensing; otherwise, it will destroy you when it reaches 3 Dread.]",
+            "startdescription": "The grip of Agnosis tightens. Perspective narrows. [You can defeat entrapment by feeding it Lensing; otherwise, it will consume you when it reaches 3 Agnosis.]",
             "description": ".",
             "comments": "This exists specifically for the burn image at 2 Dread.",
             "burnimage": "entrapment",
@@ -104,7 +104,7 @@
         },
         {
             "id": "entrapmentabate",
-            "label": "entrapment Abates",
+            "label": "Mindset Shift",
             "actionid": "entrapment",
             "requirements": {
                 "lensing": 1
@@ -113,7 +113,7 @@
                 "agnosis": -1,
                 "lensing": -1
             },
-            "startdescription": "Memories of better times keep the wolf from the door. [Each lensing destroys one Dread.]",
+            "startdescription": "Memories of mental flexibility hold the monolith at bay. [Each Lensing eradicates one Agnosis.]",
             "description": ".",
             "warmup": 10,
             "craftable": false,
@@ -130,7 +130,7 @@
         },
         {
             "id": "entrapmentdeath",
-            "label": "entrapment OVERWHELMS ME",
+            "label": "Mental Inflexibility OVERWHELMS ME",
             "actionid": "entrapment",
             "requirements": {
                 "agnosis": 3
@@ -146,8 +146,8 @@
                 }
             ],
             "effects": {},
-            "startdescription": "This is almost the end - [Find lensing now, or it's over.]",
-            "description": "Where will they find me? I am not here.",
+            "startdescription": "This is almost the end - [Find Lensing now, or it's over.]",
+            "description": "I am lost in my own maze of thoughts.",
             "warmup": 60,
             "craftable": false,
             "alt": [
@@ -207,13 +207,13 @@
         },
         {
             "id": "entrapmentdefeated",
-            "label": "The Clouds Part",
+            "label": "Mental Breakthrough",
             "actionid": "entrapment",
             "effects": {
                 "fleeting": 1
             },
             "startdescription": ".",
-            "description": "The wolf entrapment prowls elsewhere. [No Dread empowers this entrapment. It's over, for now.]",
+            "description": "The monolith of entrapment crumbles. For now, my thoughts are fluid once more. [No Agnosis fuels this entrapment. It's over, for now.]",
             "craftable": false
         }
     ]
