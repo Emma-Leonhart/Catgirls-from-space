@@ -13,7 +13,7 @@
                 "virality": 1
             },
             "effects": {
-                "funds": 1,
+                "funds": 3,
                 "virality": -1
             },
             "alt": [
@@ -41,7 +41,7 @@
                 "virality": 1
             },
             "effects": {
-                "funds": 1,
+                "funds": 3,
                 "virality": -1
             },
             "alt": [
@@ -89,7 +89,7 @@
                 "funds": 1
             },
             "effects": {
-                "funds": 1
+                "funds": 3
             },
             "alt": [
                 {

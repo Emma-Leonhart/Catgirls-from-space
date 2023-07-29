@@ -54,7 +54,7 @@
                 }
             ],
             "craftable": true,
-            "warmup": 15
+            "warmup": 75
         },
         {
             "id": "make.video.start",
@@ -360,7 +360,7 @@
                 "virality": 1
             },
             "effects": {
-                "funds": 1,
+                "funds": 2,
                 "virality": -1
             },
             "alt": [
@@ -389,7 +389,7 @@
                 "virality": 1
             },
             "effects": {
-                "funds": 1,
+                "funds": 2,
                 "virality": -1
             },
             "alt": [
@@ -417,7 +417,7 @@
                 "virality": 1
             },
             "effects": {
-                "funds": 1,
+                "funds": 2,
                 "virality": -1
             },
             "alt": [
@@ -442,7 +442,7 @@
                 "virality": 1
             },
             "effects": {
-                "funds": 1,
+                "funds": 2,
                 "virality": -1
             },
             "alt": [
@@ -542,7 +542,7 @@
             "label": "'Answer strength with strength.'",
             "startdescription": "'The light above the world does not look kindly on surrender. Strive until your last breath. As the high angels of the House of the Sun strive on against another, so shall we strive, until we are, at last, conquered.' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
-                "funds": 1,
+                "funds": 2,
                 "virality": 1
             },
             "alt": [
@@ -561,7 +561,7 @@
             "label": "'The thought of the wood was in vain, for the fire came and it was changed unto ash.'",
             "startdescription": "'We are all changed. Sometimes we are changed to that which does not live - sometimes to that which that has never lived - sometimes, to something glorious. And sometimes, we change ourselves. This is the crossroads  where the Sun's shadow waits.' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
-                "funds": 1,
+                "funds": 2,
                 "virality": 1
             },
             "alt": [
@@ -580,7 +580,7 @@
             "label": "'Thou hast walked in the way of our Mother; therefore will I give her cup into thine hand.'",
             "startdescription": "'Our souls dwell each in the house which is our flesh. Our senses are the windows, and each sense has its attendant appetites. To leave the appetites unsatisfied, is to leave the windows uncared for. And who would choose to live in a house with filthy windows?' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
-                "funds": 1,
+                "funds": 2,
                 "virality": 1
             },
             "alt": [
@@ -599,7 +599,7 @@
             "label": "'The hearts of the false shall be taken from them when they cease; but the hearts of the true cease not.'",
             "startdescription": "'In the House of the Sun, the dance of the angels of Glory does not cease. Those who were cast down, wave or wound or snow, are gone from the House, and as long as their parts in the dance are filled, they may never return. Therefore let us join hands, and add our little steps to the dance.' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
-                "funds": 1,
+                "funds": 2,
                 "virality": 1
             },
             "alt": [
@@ -618,7 +618,7 @@
             "label": "'Behold, he breaketh down, and it cannot be built again: he openeth up a man, and he shall not be closed.'",
             "startdescription": "'You have opened the door of this place, and I have passed through to stand before you now, but this is my promise: a time will come when I shall open, and you shall pass through me to stand in a higher place than this.' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
-                "funds": 1,
+                "funds": 2,
                 "virality": 1
             },
             "alt": [
@@ -637,7 +637,7 @@
             "label": "'Mercy and truth preserve the king: but the light, only truth preserveth.'",
             "startdescription": "'The Glory demands truth. When we are clad in truth, it shall not burn us.' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
-                "funds": 1,
+                "funds": 2,
                 "virality": 1
             },
             "alt": [
@@ -656,7 +656,7 @@
             "label": "'They have led me, and brought me first into darkness, then into light.'",
             "startdescription": "'The Glory demands truth. When we are clad in lies, then it shall burn them from us.' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
-                "funds": 1,
+                "funds": 2,
                 "virality": 1
             },
             "alt": [
@@ -675,7 +675,7 @@
             "label": "'If one sews a new patch on to an old garment, and the garment should tear, is there then one garment, or two, or none?'",
             "startdescription": "'I have said these words to you. I have not said these words to you. Yesterday both these things were false. Tomorrow, how many will be true?' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
-                "funds": 1,
+                "funds": 2,
                 "virality": 1
             },
             "alt": [
@@ -694,7 +694,7 @@
             "label": "'He sitteth alone and keepeth silence, for Winter waiteth not forever.'",
             "startdescription": "'Close your mouths. Close your ears. Listen.' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
-                "funds": 1,
+                "funds": 2,
                 "virality": 1
             },
             "alt": [
@@ -713,7 +713,7 @@
             "label": "'Placeholder description.'",
             "startdescription": "'Placeholder description.' [The deeper the Lore, the greater the chance of Exultation.]",
             "effects": {
-                "funds": 1,
+                "funds": 2,
                 "virality": 1
             },
             "alt": [
