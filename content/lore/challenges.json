@@ -1,0 +1,129 @@
+{
+    "recipes":[
+        
+        {
+            "id": "studyresearch.nochallengesremaining",
+            "actionid": "study",
+            "label": "Blinking in the Light",
+            "startdescription": "Now - now I understand!",
+            "description": "",
+            "warmup": 30,
+            "requirements": {
+                "challenge.knowledge": -1,
+                "challenge.intuition": -1,
+                "challenge.grim": -1,
+                "challenge.obsessive": -1,
+                "challenge.paradox": -1,
+                "challenge.illumination": -1,
+                "challenge.practical": -1
+            },
+            "mutations": [
+                {
+                    "filter": "lore",
+                    "mutate": "challenge.knowledge",
+                    "level": 0
+                },
+                {
+                    "filter": "lore",
+                    "mutate": "challenge.intuition",
+                    "level": 0
+                },
+                {
+                    "filter": "lore",
+                    "mutate": "challenge.grim",
+                    "level": 0
+                },
+                {
+                    "filter": "lore",
+                    "mutate": "challenge.obsessive",
+                    "level": 0
+                },
+                {
+                    "filter": "lore",
+                    "mutate": "challenge.paradox",
+                    "level": 0
+                },
+                {
+                    "filter": "lore",
+                    "mutate": "challenge.illumination",
+                    "level": 0
+                },
+                {
+                    "filter": "lore",
+                    "mutate": "challenge.practical",
+                    "level": 0
+                }
+            ],
+            "linked": [
+                {
+                    "id": "studyproject_upgrade_edge",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_upgrade_forge",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_upgrade_grail",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_upgrade_heart",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_upgrade_lantern",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_upgrade_moth",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_upgrade_secrethistories",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_upgrade_winter",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_subvert_edgetowinter",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_subvert_forgetoedge",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_subvert_grailtomoth",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_subvert_hearttograil",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_subvert_lanterntoforge",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_subvert_mothtolantern",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_subvert_wintertoheart",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_upgrade_subvert_knock",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_upgrade_subvert_hand",
+                    "chance": 100
+                }
+            ]
+        }
+    ]
+}
