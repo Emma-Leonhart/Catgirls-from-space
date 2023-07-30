@@ -76,7 +76,9 @@
             "extantreqs":{
                 "turmoil": 1
             },
-            "ending": "world_revolution"
+            "ending": "world_revolution",
+            "burnimage": "dialectics",
+            "warmup": 90
         },
         {
             "id": "dreamascensioncapitala",
