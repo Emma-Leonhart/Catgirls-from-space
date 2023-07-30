@@ -606,7 +606,14 @@
       "requirements": {
         "waywhite": 1,
         "desire": 2
-      }
+      },
+      "alt":[
+        {
+          "id": "all_induction",
+          "chance": 100,
+          "additional": true
+        }
+      ]
     },
     {
       "id": "dreamreachstagsubsequent",
@@ -1256,7 +1263,7 @@
       "actionid": "dream",
       "requirements": {
         "lore": 1,
-        "knock": 1
+        "grail": 1
       },
       "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. I almost know the way - ",
       "description": "The Glassgarden's chill pierces me at every pore. I will wake white-blue with cold. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
@@ -1279,7 +1286,7 @@
       "actionid": "dream",
       "requirements": {
         "lore": 1,
-        "knock": 10
+        "grail": 10
       },
       "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. I will step carefully. I have learnt the way - ",
       "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light.",

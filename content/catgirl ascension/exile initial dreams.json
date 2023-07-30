@@ -20,9 +20,9 @@
         "label": "Dreaming of Horrors",
         "startdescription": "I can't get these ideas out of my mind",
             "effects":{
-                "passion": 4,
-                "reason": 4,
-                "health": 4,
+                "health": 8,
+                "passion": 8,
+                "reason": 8,
                 "waywhite": 1,
                 "catgirl_dedication_2": 1
             },

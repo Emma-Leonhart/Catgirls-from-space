@@ -52,9 +52,9 @@
             "warmup": 60,
             "effects":{
                 "lever_lastdesire": 1,
-                "reason": 4,
-                "passion": 4,
-                "health": 4
+                "reason": 10,
+                "passion": 10,
+                "health": 10
             }
         },
         {
