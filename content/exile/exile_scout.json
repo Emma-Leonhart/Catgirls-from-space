@@ -19,6 +19,32 @@
             "comments": "opened by initial travel recipe"
         },
         {
+            "id": "explorefollower",
+            "label": "Search the City",
+            "actionid": "explore",
+            "Tablereqs": {"domicile": -1},
+            "requirements": {
+                "follower": 1,
+                "location": -1
+            },
+            "effects": {
+                "dayplaces": 1
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
+            "linked": [
+                {
+                    "id": "explorefindplace",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Crowded thoroughfares by day, a fog-wrapped labyrinth by night. I'll walk the streets, seeking secrets, until I can walk no more.",
+            "description": ".",
+            "warmup": 10,
+            "craftable": true
+        },
+        {
             "id": "explorehealth",
             "label": "Search the City",
             "actionid": "explore",
