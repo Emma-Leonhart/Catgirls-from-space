@@ -40,6 +40,7 @@
         },
         {
             "id": "aa+ol_c",
+            "burnimage": "triangle",
             "label": "Combine Heart and Forge",
             "actionid": "study",
             "$priority": 10,
@@ -60,6 +61,7 @@
         },        
         {
             "id": "aa+oo_c",
+            "burnimage": "triangle",
             "label": "Combine Heart and Moth",
             "actionid": "study",
             "$priority": 10,
@@ -80,6 +82,7 @@
         },        
         {
             "id": "al+la_c",
+            "burnimage": "triangle",
             "label": "Combine Winter and Lantern",
             "actionid": "study",
             "$priority": 10,
@@ -100,6 +103,7 @@
         },
         {
             "id": "al+lo_c",
+            "burnimage": "triangle",
             "label": "Combine Winter and Edge",
             "actionid": "study",
             "$priority": 10,
@@ -120,6 +124,7 @@
         },
         {
             "id": "al+oa_c",
+            "burnimage": "triangle",
             "label": "Combine Winter and Knock",
             "actionid": "study",
             "$priority": 10,
@@ -140,6 +145,7 @@
         },
         {
             "id": "al+oo_c",
+            "burnimage": "triangle",
             "label": "Combine Winter and Moth",
             "actionid": "study",
             "$priority": 10,
@@ -160,6 +166,7 @@
         },
         {
             "id": "ao+la_c",
+            "burnimage": "triangle",
             "label": "Combine Secret Histories and Lantern",
             "actionid": "study",
             "$priority": 10,
@@ -180,6 +187,7 @@
         },
         {
             "id": "ao+ll_c",
+            "burnimage": "triangle",
             "label": "Combine Secret Histories and Grail",
             "actionid": "study",
             "$priority": 10,
@@ -200,6 +208,7 @@
         },
         {
             "id": "ao+oa_c",
+            "burnimage": "triangle",
             "label": "Combine Secret Histories and Knock",
             "actionid": "study",
             "$priority": 10,
@@ -220,6 +229,7 @@
         },
         {
             "id": "ao+ol_c",
+            "burnimage": "triangle",
             "label": "Combine Secret Histories and Forge",
             "actionid": "study",
             "$priority": 10,
@@ -240,6 +250,7 @@
         },
         {
             "id": "la+ol_c",
+            "burnimage": "triangle",
             "label": "Combine Lantern and Forge",
             "actionid": "study",
             "$priority": 10,
@@ -260,6 +271,7 @@
         },
         {
             "id": "la+oo_c",
+            "burnimage": "triangle",
             "label": "Combine Lantern and Moth",
             "actionid": "study",
             "$priority": 10,
@@ -280,6 +292,7 @@
         },
         {
             "id": "ll+oa_c",
+            "burnimage": "triangle",
             "label": "Combine Grail and Knock",
             "actionid": "study",
             "$priority": 10,
@@ -300,6 +313,7 @@
         },
         {
             "id": "ll+oo_c",
+            "burnimage": "triangle",
             "label": "Combine Grail and Moth",
             "actionid": "study",
             "$priority": 10,
@@ -320,6 +334,7 @@
         },
         {
             "id": "lo+oa_c",
+            "burnimage": "triangle",
             "label": "Combine Edge and Knock",
             "actionid": "study",
             "$priority": 10,
@@ -340,6 +355,7 @@
         },
         {
             "id": "lo+ol_c",
+            "burnimage": "triangle",
             "label": "Combine Edge and Forge",
             "actionid": "study",
             "$priority": 10,
