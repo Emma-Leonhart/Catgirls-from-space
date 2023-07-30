@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "studyugradehandinfluence",
-            "label": "Accelerate Fractures",
+            "label": "Privatize the Immaterial",
             "actionid": "study",
             "requirements": {
                 "influence": 2,
@@ -21,7 +21,7 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "Apply pressure to the skin of the world, and it will part like the skin of a ripe fruit. [Any influence studied with hand becomes hand.]",
+            "startdescription": "In the great marketplace of existence, all things are for sale, all desires can be met for a price. [Any influence studied with Hand becomes Hand.]",
             "description": ".",
             "warmup": 5,
             "craftable": true
@@ -764,6 +764,7 @@
             "requirements": {
                 "hand": 1
             },
+            "burnimage": "spiral",
             "effects": {
                 "influenceedge": -1,
                 "influenceedgec": -1,
@@ -797,7 +798,7 @@
                 "influenceknockc": -1,
                 "influenceknocke": -1,
                 "influenceknockg": -1
-            },            "burnimage": "triangle",
+            },            
             "aspects": {
                 "upgradeinfluence": 1
             },

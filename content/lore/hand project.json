@@ -9,6 +9,15 @@
                 "project": 1
             },
             "lifetime": 1
+        },
+        {
+            "id": "project_influence_upgrade_subvert_hand",
+            "label": "Increasing my understanding of Hand lore",
+            "description": "I am deepening my understanding of Hand lore.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
         }
     ]
 }
