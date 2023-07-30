@@ -126,7 +126,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Laces uncoil -- windows swing open -- locks move as if oiled. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions.]",
+            "description": "At this level, the Hand influence is nascent, a seed of commercial possibility. You begin to see potential trades and transactions in every interaction. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencehandc"
@@ -173,7 +173,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Clouds part -- walls creak -- old wounds ache. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]",
+            "description": "With this level of Hand influence, you are not just part of the market; you are the market. Your thoughts and actions are aligned with the rhythm of supply and demand, and you instinctively recognize value where others don't. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencehande"
@@ -220,7 +220,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Geometry contorts -- doors burst open -- snakes boil from the earth! [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "description": "At this level, capital doesn't just flow - it is drawn to you. Your presence influences market forces, and wealth seems to accumulate around you as if by some unseen gravitational pull.! [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencehandg"
@@ -234,7 +234,7 @@
                 "hand": 15,
                 "influence": 1
             },
-            "description": "There is a Door that should not open, and even now its hinges are roused -- [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
+            "description": "At the highest level of Hand influence, there is no aspect of existence that isn't commercialized. The world itself is a marketplace, and everything in it - from time to emotions, from dreams to memories - is a commodity to be bought, sold, and traded. -- [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
             "lifetime": 60,
             "decayTo": "influencehande"
         },
