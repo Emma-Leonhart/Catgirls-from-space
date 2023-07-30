@@ -376,7 +376,7 @@
             "effects": {
                 "project": -1,
                 "edge": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },
@@ -392,7 +392,7 @@
             "effects": {
                 "project": -1,
                 "forge": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },
@@ -408,7 +408,7 @@
             "effects": {
                 "project": -1,
                 "grail": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },
@@ -424,7 +424,7 @@
             "effects": {
                 "project": -1,
                 "heart": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },
@@ -440,7 +440,7 @@
             "effects": {
                 "project": -1,
                 "lantern": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },
@@ -456,7 +456,7 @@
             "effects": {
                 "project": -1,
                 "moth": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },
@@ -472,7 +472,7 @@
             "effects": {
                 "project": -1,
                 "secrethistories": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },
@@ -488,7 +488,7 @@
             "effects": {
                 "project": -1,
                 "winter": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },
@@ -504,7 +504,7 @@
             "effects": {
                 "project": -1,
                 "edge": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },
@@ -520,7 +520,7 @@
             "effects": {
                 "project": -1,
                 "forge": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },
@@ -536,7 +536,7 @@
             "effects": {
                 "project": -1,
                 "grail": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },
@@ -552,7 +552,7 @@
             "effects": {
                 "project": -1,
                 "heart": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },
@@ -568,7 +568,7 @@
             "effects": {
                 "project": -1,
                 "lantern": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },
@@ -584,7 +584,7 @@
             "effects": {
                 "project": -1,
                 "moth": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },
@@ -600,7 +600,7 @@
             "effects": {
                 "project": -1,
                 "winter": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },
@@ -616,7 +616,7 @@
             "effects": {
                 "project": -1,
                 "subvertable_lore": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },

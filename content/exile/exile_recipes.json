@@ -653,7 +653,7 @@
             "extantreqs": {
                 "defiance.consecration.lionsmith": -1,
                 "tranquillity": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },
@@ -853,7 +853,7 @@
             "extantreqs": {
                 "defiance.consecration.colonel": -1,
                 "tranquillity": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },

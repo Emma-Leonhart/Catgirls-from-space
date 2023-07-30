@@ -480,7 +480,7 @@
             "startdescription": "@#op.echidna|'Of course I remember him. I knew your mother, too. I had high hopes of her, once...'\n#op.kleidouchos|'Mm. I have been aware of your Foe.'\n#op.marinette|'<sprite name=lantern>.'\n#op.sulochana|'Oh, yes. He used to come in here all the time, back before the War.'@",
             "requirements": {
                 "weakness.foe.unknown": 1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },

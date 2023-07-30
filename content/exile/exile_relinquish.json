@@ -221,7 +221,7 @@
             },
             "effects": {
                 "corpse.exile.underling": -1
-            },
+            },            "burnimage": "triangle",
             "aspects": {
                 "epiphany": 1
             },

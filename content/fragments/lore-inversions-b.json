@@ -13,6 +13,7 @@
                 "lensing": -1,
                 "fragmentlanternb": 1
             },
+            "burnimage": "triangle",
             "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Winter (AL) becomes Lantern (LA)]",
             "$priority": 100,
             "warmup": 60,
@@ -31,6 +32,7 @@
                 "lensing": -1,
                 "fragmentwinterb": 1
             },
+            "burnimage": "triangle",
             "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Lantern (LA) becomes Winter (AL)]",
             "$priority": 100,
             "warmup": 60,
@@ -49,6 +51,7 @@
                 "lensing": -1,
                 "fragmentedgeb": 1
             },
+            "burnimage": "triangle",
             "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Forge (OL) becomes Edge (LO)]",
             "$priority": 100,
             "warmup": 60,
@@ -67,6 +70,7 @@
                 "lensing": -1,
                 "fragmentforgeb": 1
             },
+            "burnimage": "triangle",
             "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Edge (LO) becomes Forge (OL)]",
             "$priority": 100,
             "warmup": 60,
@@ -85,6 +89,7 @@
                 "lensing": -1,
                 "fragmentsecrethistoriesb": 1
             },
+            "burnimage": "triangle",
             "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Knock (OA) becomes Secret Histories (AO)]",
             "$priority": 100,
             "warmup": 60,
@@ -103,6 +108,7 @@
                 "lensing": -1,
                 "fragmentknockb": 1
             },
+            "burnimage": "triangle",
             "startdescription": "As Above, So Below\nIf I use fascination above and dread below I can swap the aspects of this lore on the great triangle [Secret Histories (AO) becomes Knock (OA)]",
             "$priority": 100,
             "warmup": 60,
