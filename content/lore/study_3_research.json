@@ -19,8 +19,7 @@
             ],
             "startdescription": "There are incantations of unseaming, where the space between the words is as potent as the actual syllables. When a thing is opened, we will know its nature. [Any Lore studied with hand becomes hand.]",
             "description": ".",
-            "warmup": 30,
-            "craftable": true
+            "warmup": 30
         },
         {
             "id": "studyupgradelore_edge",
@@ -44,8 +43,7 @@
             ],
             "startdescription": "All of the greatest struggles end in death. The Lore of the Knife holds the lessons of those struggles.",
             "description": ".",
-            "warmup": 30,
-            "craftable": true
+            "warmup": 30
         },
         {
             "id": "studysubvertlore_edgetowinter",
@@ -56,7 +54,8 @@
                 "edge": 1,
                 "winter": 1
             },
-            "effects": {
+                            "craftable": false,
+"effects": {
                 "project_subvert_edgetowinter": 1
             },
             "linked": [
@@ -67,8 +66,7 @@
             ],
             "startdescription": "All things end. I will meditate on the triumph of patience over strength. [This will create Winter lore instead of Edge.]",
             "description": ".",
-            "warmup": 30,
-            "craftable": true
+            "warmup": 30
         },
         {
             "id": "studyforgelore",
@@ -91,8 +89,7 @@
                 }
             ],
             "startdescription": "Very few know that smiths and murderers speak the same prayers. I will examine those prayers.",
-            "warmup": 30,
-            "craftable": true
+            "warmup": 30
         },
         {
             "id": "studysubvertlore_forgetoedge",
@@ -103,7 +100,8 @@
                 "forge": 1,
                 "edge": 1
             },
-            "effects": {
+                            "craftable": false,
+"effects": {
                 "project_subvert_forgetoedge": 1
             },
             "linked": [
@@ -113,8 +111,7 @@
                 }
             ],
             "startdescription": "The Hour called Lionsmith shattered his own sword to escape his master's dominion. All things can be overcome, with sufficient force. [This will create Edge lore instead of Forge.]",
-            "warmup": 30,
-            "craftable": true
+            "warmup": 30
         },
         {
             "id": "studygraillore",
@@ -137,8 +134,7 @@
                 }
             ],
             "startdescription": "Certain words beg to be spoken. It is tempting to spend time in their consideration - tempting, and perhaps useful.",
-            "warmup": 30,
-            "craftable": true
+            "warmup": 30
         },
         {
             "id": "studysubvertlore_grailtomoth",
@@ -149,7 +145,8 @@
                 "grail": 1,
                 "moth": 1
             },
-            "effects": {
+                            "craftable": false,
+"effects": {
                 "project_subvert_grailtomoth": 1
             },
             "linked": [
@@ -159,8 +156,7 @@
                 }
             ],
             "startdescription": "It has been claimed that Grail was born from the first sacrifice. But Moth knows better. [This will create Moth lore instead of Grail.]",
-            "warmup": 30,
-            "craftable": true
+            "warmup": 30
         },
         {
             "id": "studyheartlore",
@@ -183,8 +179,7 @@
                 }
             ],
             "startdescription": "There are lessons the anatomist, the dancer and the shaman all learn.",
-            "warmup": 30,
-            "craftable": true
+            "warmup": 30
         },
         {
             "id": "studysubvertlore_hearttograil",
@@ -195,7 +190,8 @@
                 "heart": 1,
                 "grail": 1
             },
-            "effects": {
+                            "craftable": false,
+"effects": {
                 "project_subvert_hearttograil": 1
             },
             "linked": [
@@ -205,8 +201,7 @@
                 }
             ],
             "startdescription": "What does not cease will succumb, at last, to temptation. [This will create Grail lore instead of Heart.]",
-            "warmup": 30,
-            "craftable": true
+            "warmup": 30
         },
         {
             "id": "studylanternlore",
@@ -229,8 +224,7 @@
                 }
             ],
             "startdescription": "There is a proverb among the practitioners of the invisible arts: 'Glory visits the house without walls.' I would like to know about glory.",
-            "warmup": 30,
-            "craftable": true
+            "warmup": 30
         },
         {
             "id": "studysubvertlore_lanterntoforge",
@@ -241,7 +235,8 @@
                 "lantern": 1,
                 "forge": 1
             },
-            "effects": {
+                            "craftable": false,
+"effects": {
                 "project_subvert_lanterntoforge": 1
             },
             "linked": [
@@ -251,8 +246,7 @@
                 }
             ],
             "startdescription": "The magus Julian Coseley claims the Forge of Days split the Sun. Perhaps he was right. [This will create Forge lore instead of Lantern.]",
-            "warmup": 30,
-            "craftable": true
+            "warmup": 30
         },
         {
             "id": "studymothlore",
@@ -275,8 +269,7 @@
                 }
             ],
             "startdescription": "When breath is black at the glass, when mist tautens the skin, when woods walk in winter, we hear these words.",
-            "warmup": 30,
-            "craftable": true
+            "warmup": 30
         },
         {
             "id": "studysubvertlore_mothtolantern",
@@ -287,7 +280,8 @@
                 "moth": 1,
                 "lantern": 1
             },
-            "effects": {
+                            "craftable": false,
+"effects": {
                 "project_subvert_mothtolantern": 1
             },
             "linked": [
@@ -297,8 +291,7 @@
                 }
             ],
             "startdescription": "The Glory is a question, and the Moth always answers, Yes. [This will create Lantern lore instead of Moth.]",
-            "warmup": 30,
-            "craftable": true
+            "warmup": 30
         },
         {
             "id": "studysecrethistorieslore",
@@ -318,8 +311,7 @@
                 }
             ],
             "startdescription": "History is less certain than we are taught. I can learn from the study of its blurred edges.",
-            "warmup": 30,
-            "craftable": true
+            "warmup": 30
         },
         {
             "id": "studywinterlore",
@@ -341,8 +333,7 @@
                 }
             ],
             "startdescription": "These are the words which chill the air and drink the colour of my skin.",
-            "warmup": 30,
-            "craftable": true
+            "warmup": 30
         },
         {
             "id": "subvertwinterlore",
@@ -353,7 +344,8 @@
                 "winter": 1,
                 "heart": 1
             },
-            "effects": {
+                            "craftable": false,
+"effects": {
                 "project_subvert_wintertoheart": 1
             },
             "linked": [
@@ -363,8 +355,7 @@
                 }
             ],
             "startdescription": "Even in the snow, in the silence, in the white without colours, life will never quite cease. [This will create Heart lore instead of Winter.]",
-            "warmup": 30,
-            "craftable": true
+            "warmup": 30
         },
         {
             "id": "studyproject_upgrade_edge",
