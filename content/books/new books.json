@@ -815,6 +815,22 @@
             }
         },
         {
+            "id": "bookedgeg",
+            "unique": true,
+            "label": "Instructions For Practical Living",
+            "aspects": {
+            "text": 1,
+            "portable": 1,
+            "auctionable": 1,
+            "worth": 1
+            },
+            "icon": "queensoftherivers",
+            "description": "Compiled by Wing-tsit Chan, this comprehensive translation presents the key philosophical insights of Wang Yang-Ming, a leading figure in Neo-Confucianism. His writings explore the practical implications of moral philosophy and the unification of knowledge and action. Through the study of this work, one could find guidance for harmonious living and cultivate a deep understanding of the interconnectedness of all existence.",
+            "xtriggers": {
+            "book_to_lore": "fragmentedgeg"
+            }
+            },
+        {
             "id": "bookedgef",
             "unique": true,
             "label": "Object-Oriented Ontology: A New Theory of Everything",
@@ -1112,7 +1128,7 @@
             "auctionable": 1,
             "worth": 1
         },
-        "description": "'On Jeepform' is a fictional book that serves as an introduction to the Jeepform style of Nordic LARP (live-action role play). It explores the history, techniques, and principles of Jeepform, an approach to LARP that emphasizes story, emotion, and the exploration of challenging themes.",
+        "description": "'On Jeepform' serves as an engaging and comprehensive introduction to the distinctive world of Jeepform, a variant of Nordic Live Action Role Playing (LARP) that is characterized by its focus on story, emotion, and the exploration of challenging themes. Written by experts deeply immersed in the practice, this fictional book seeks to unravel the underlying principles that set Jeepform apart from more traditional LARP styles.",
         "xtriggers": {
             "book_to_lore": "fragmentmothb"
         },
