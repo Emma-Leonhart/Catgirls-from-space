@@ -266,7 +266,7 @@
             },
             "alt": [
                 {
-                    "id": "findacquaintanceopentalk",
+                    "id": "findacquaintanceopentalk_kapital",
                     "chance": 100,
                     "additional": true
                 },
@@ -286,6 +286,42 @@
             "description": "My correspondent describes my dreams exactly! They use names that are instantly familiar - Alpha Lambda Omega. I sense here such an amazing business opportunity. <b>A new desire burns in me.</b>\nThere is a note here - directions to a book shop that does not advertise its wares -\n",
             "warmup": 30,
             "craftable": true
+        },
+        {
+            "id": "findacquaintanceopentalk_kapital",
+            "label": "A researcher",
+            "actionid": "talk",
+            "startdescription": "I hired a researcher. I hope they can help me.",
+            "description": "The researcher is eager to help you.",
+            "warmup": 30,
+            "craftable": false,
+            "comments": "This leads to marking the person as a collaborator with the hand who will betray and try to kill you if you leave the hand. You only get hand leniency as a bright young thing.",
+            "deckeffects": {
+                "acquaintances": 1
+            },
+            "maxexecutions": 1,
+            "linked": [
+                {
+                    "id": "mark_double_agent",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "mark_double_agent",
+                    "chance": 100,
+                    "label": "A researcher",
+                    "actionid": "talk",
+                    "startdescription": "I hired a researcher. I hope they can help me.",
+                    "description": "The researcher is eager to help you.",
+                    
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "double_agent",
+                    "level": 1
+                }
+            ]
         },
         {
             "id": "neko.studycontactintro",

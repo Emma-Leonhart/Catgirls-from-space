@@ -234,6 +234,13 @@
                         "label": "A good location for a date",
                         "description": "Take a follower with an aligning interest here for a date. [Check their elemental affinities.]",
                         "isAspect": true
+                    },
+                    {
+                        "id": "double_agent",
+                        "label": "A double agent",
+                        "description": "Serves the hand and will betray you if you switch sides",
+                        "isAspect": true,
+                        "isHidden": true
                     }
                 ]
             }
