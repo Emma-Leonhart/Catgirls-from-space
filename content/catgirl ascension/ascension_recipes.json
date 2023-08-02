@@ -106,15 +106,15 @@
             "description": "I have decided to remain as I am... for now.",
             "alt": [
                 {
-                    "id": "dreamascension_abandontemptation",
+                    "id": "dreamascension_abandontemptation.from_capital",
                     "chance": 100
                 },
                 {
-                    "id": "dreamascension_switchto_power",
+                    "id": "dreamascension_switchto_power.from_capital",
                     "chance": 100
                 },
                 {
-                    "id": "dreamascension_switchto_enlightenment",
+                    "id": "dreamascension_switchto_enlightenment.from_capital",
                     "chance": 100
                 },
                 {
@@ -122,7 +122,7 @@
                     "chance": 100
                 },
                 {
-                    "id": "dreamascension_switchto_sensation",
+                    "id": "dreamascension_switchto_sensation.from_capital",
                     "chance": 100
                 }
             ],

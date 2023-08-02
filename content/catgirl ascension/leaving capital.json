@@ -1,0 +1,317 @@
+{
+    "recipes":[
+        
+        {
+            "id": "dreamascension_abandontemptation.from_capital",
+            "actionid": "dream",
+            "label": "Purge myself of Temptation",
+            "startdescription": "My own desires are nothing. I am the Threshold. I am the road that my people will walk. I will set myself irrevocably to that purpose. [This will destroy your Temptation permanently. Be sure that's what you want.]",
+            "description": "I might say that I have chosen, but that is not quite true. I <i>have been</i> chosen.",
+            "requirements": {
+                "priestjob": 1,
+                "ascensioncapitala": 1
+            },
+            "effects": {
+                "passion": 1,
+                "desire": -1
+            },
+            "alt": [
+                {
+                    "id": "double_agent_activation",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "$priority": 500
+        },
+        {
+            "id": "dreamascension_switchto_power.from_capital",
+            "label": "My goal is Power, now.",
+            "actionid": "dream",
+            "requirements": {
+                "passion": 1
+            },
+            "effects": {
+                "desire": -1,
+                "ascensionpowera": 1
+            },
+            "startdescription": "Perhaps Power is the more compelling goal.",
+            "description": "I have refocused my intentions. My predecessors wielded the power of remaking: a power that empresses, generals, physicists could only dream of. So shall I, though the power might sear me.",
+            "alt": [
+                {
+                    "id": "double_agent_activation",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "$priority": 500
+        },
+        {
+            "id": "dreamascension_switchto_sensation.from_capital",
+            "label": "My goal is Sensation, now.",
+            "actionid": "dream",
+            "requirements": {
+                "health": 1
+            },
+            "effects": {
+                "desire": -1,
+                "ascensionsensationa": 1
+            },
+            "startdescription": "Perhaps Sensation is the sweeter goal.",
+            "description": "I have refocused my intentions. There are experiences tucked like veins beneath the world's skin. I will know the deepest of them, though the experience might devour me.",
+            "alt": [
+                {
+                    "id": "double_agent_activation",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "$priority": 500
+        },
+        {
+            "id": "dreamascension_switchto_enlightenment.from_capital",
+            "label": "My goal is Enlightenment, now.",
+            "actionid": "dream",
+            "requirements": {
+                "reason": 1
+            },
+            "effects": {
+                "desire": -1,
+                "ascensionenlightenmenta": 1
+            },
+            "startdescription": "Perhaps knowledge is the finer goal.",
+            "description": "I have refocused my intentions. My predecessors understood the highest secrets, the searching secrets, the secrets that shone through bones like glass and skin like parchment. So shall I, though the knowledge might undo me.",
+            "alt": [
+                {
+                    "id": "double_agent_activation",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "$priority": 500
+        },
+        {
+            "id": "double_agent_activation",
+            "chance": 100,
+            "actionid": "rkx",
+            "label": "Your ally is making a move",
+            "startdescription": "Your ally who mysteriously appeared in your life when you found the occult is now attacking. Whatever might be their motive. In your sleep you received greivous wounds.",
+            "Tablereqs":{
+                "double_agent": 1
+            },
+            "warmup": 20,
+            "slots": [
+                {
+                    "id": "peopleleft",
+                    "label": "The traitor?",
+                    "description": "The traitor is here",
+                    "required": {
+                        "double_agent": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt":[
+                {
+                    "id": "spit.foe.attack.success.mocked",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "aspects":{
+                "recruiting": 1
+            },
+            "linked":[
+                {
+                    "id": "traitor.heart",
+                    "chance": 100
+                },
+                {
+                    "id": "traitor.winter",
+                    "chance": 100
+                },
+                {
+                    "id": "traitor.secrethistories",
+                    "chance": 100
+                },
+                {
+                    "id": "traitor.lantern",
+                    "chance": 100
+                },
+                {
+                    "id": "traitor.grail",
+                    "chance": 100
+                },
+                {
+                    "id": "traitor.edge",
+                    "chance": 100
+                },
+                {
+                    "id": "traitor.knock",
+                    "chance": 100
+                },
+                {
+                    "id": "traitor.forge",
+                    "chance": 100
+                },
+                {
+                    "id": "traitor.moth",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "traitor.heart",
+            "chance": 100,
+            "actionid": "rkx",
+            "requirements":{
+                "heart": 1
+            },
+            "effects":{
+                "double_agent": -1
+            },
+            "linked": [
+                {
+                    "id": "long.spawn.might",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "traitor.winter",
+            "chance": 100,
+            "actionid": "rkx",
+            "requirements":{
+                "winter": 1
+            },
+            "effects":{
+                "double_agent": -1
+            },
+            "linked": [
+                {
+                    "id": "long.spawn.might",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "traitor.secrethistories",
+            "chance": 100,
+            "actionid": "rkx",
+            "requirements":{
+                "secrethistories": 1
+            },
+            "effects":{
+                "double_agent": -1
+            },
+            "linked": [
+                {
+                    "id": "long.spawn.might",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "traitor.lantern",
+            "chance": 100,
+            "actionid": "rkx",
+            "requirements":{
+                "lantern": 1
+            },
+            "effects":{
+                "double_agent": -1
+            },
+            "linked": [
+                {
+                    "id": "long.spawn.connection",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "traitor.grail",
+            "chance": 100,
+            "actionid": "rkx",
+            "requirements":{
+                "grail": 1
+            },
+            "effects":{
+                "double_agent": -1
+            },
+            "linked": [
+                {
+                    "id": "long.spawn.connection",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "traitor.edge",
+            "chance": 100,
+            "actionid": "rkx",
+            "requirements":{
+                "edge": 1
+            },
+            "effects":{
+                "double_agent": -1
+            },
+            "linked": [
+                {
+                    "id": "long.spawn.connection",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "traitor.knock",
+            "chance": 100,
+            "actionid": "rkx",
+            "requirements":{
+                "knock": 1
+            },
+            "effects":{
+                "double_agent": -1
+            },
+            "linked": [
+                {
+                    "id": "long.spawn.dreamwork",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "traitor.forge",
+            "chance": 100,
+            "actionid": "rkx",
+            "requirements":{
+                "forge": 1
+            },
+            "effects":{
+                "double_agent": -1
+            },
+            "linked": [
+                {
+                    "id": "long.spawn.dreamwork",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "traitor.moth",
+            "chance": 100,
+            "actionid": "rkx",
+            "requirements":{
+                "moth": 1
+            },
+            "effects":{
+                "double_agent": -1
+            },
+            "linked": [
+                {
+                    "id": "long.spawn.dreamwork",
+                    "chance": 100
+                }
+            ]
+        }
+    ]
+}
