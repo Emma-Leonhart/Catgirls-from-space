@@ -3,6 +3,8 @@
         {
             "id": "start_cryonics_facility_moth",
             "craftable": true,
+            "label": "Start a cryonics facility",
+            "startdescription": "Start a cryonics facility",
             "actionid": "work",
             "requirements":{
                 "hq": 1,
@@ -16,6 +18,8 @@
         {
             "id": "start_cryonics_facility_winter",
             "craftable": true,
+            "label": "Start a cryonics facility",
+            "startdescription": "Start a cryonics facility",
             "actionid": "work",
             "requirements":{
                 "hq": 1,
