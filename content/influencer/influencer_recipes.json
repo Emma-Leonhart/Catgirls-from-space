@@ -760,6 +760,21 @@
                     }
                 },
                 {
+                    "id": "influencer.repevent.devotee.catgirl",
+                    "requirements": {
+                        "culthand_1": 1
+                    },
+                    "label": "Inspiration",
+                    "description": "A fan has joined our cult",
+                    "deckeffects": {
+                        "influencer.repevent": 1,
+                        "influencer.devotees": 1
+                    },
+                    "effects": {
+                        "funds": 2
+                    }
+                },
+                {
                     "id": "influencer.repevent.devotee.edge",
                     "requirements": {
                         "venerationedge": 1

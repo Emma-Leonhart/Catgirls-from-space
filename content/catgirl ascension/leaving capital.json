@@ -116,6 +116,16 @@
                     "id": "spit.foe.attack.success.mocked",
                     "chance": 100,
                     "additional": true
+                },
+                {
+                    "id": "travel.first.leave_capital",
+                    "chance": 100,
+                    "additional": true
+                },
+                {
+                    "id": "long.executestrategy.intrigue.scandal.begin",
+                    "chance": 100,
+                    "additional": true
                 }
             ],
             "aspects":{
@@ -312,6 +322,28 @@
                     "chance": 100
                 }
             ]
+        },
+        {
+            "id": "travel.first.leave_capital",
+            "actionid": "travel",
+            "label": "An escape? ",
+            "startdescription": "A plan to get away if they notice me.",
+            "internaldeck": {
+                "spec": [
+                    "city.aachen",
+                    "city.prague",
+                    "city.munich",
+                    "city.london",
+                    "city.krakow",
+                    "city.avignon",
+                    "city.venice",
+                    "city.budapest"
+                ],
+                "draws": 1,
+                "defaultcard": "wilderness",
+                "resetonexhaustion": false
+            },
+            "warmup": 1
         }
     ]
 }
