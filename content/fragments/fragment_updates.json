@@ -7,12 +7,20 @@
                     "id": "with",
                     "label": "With",
                     "description": "Study with another winter lore to upgrade, invert with lensing, conjugate with any other lore to produce two different lores.",
-                    "actionid": "study"
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
+                    "actionid": "study_dep"
                 },
                 {
                     "id": "with2",
-                    "label": "And",
+                    "label": "With",
                     "description": "Study with another winter lore to upgrade, invert with lensing, conjugate with any other lore to produce two different lores.",
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
                     "actionid": "study"
                 }
             ],
@@ -24,12 +32,20 @@
                     "id": "with",
                     "label": "With",
                     "description": "Study with another lantern lore to upgrade, invert with lensing, conjugate with any other lore to produce two different lores.",
-                    "actionid": "study"
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
+                    "actionid": "study_dep"
                 },
                 {
                     "id": "with2",
-                    "label": "And",
+                    "label": "With",
                     "description": "Study with another lantern lore to upgrade, invert with lensing, conjugate with any other lore to produce two different lores.",
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
                     "actionid": "study"
                 }
             ]
@@ -41,12 +57,20 @@
                     "id": "with",
                     "label": "With",
                     "description": "Study with another heart lore, invert with lensing, conjugate with any other lore to produce two different lores.",
-                    "actionid": "study"
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
+                    "actionid": "study_dep"
                 },
                 {
                     "id": "with2",
-                    "label": "And",
+                    "label": "With",
                     "description": "Study with another heart lore, invert with lensing, conjugate with any other lore to produce two different lores.",
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
                     "actionid": "study"
                 }
             ],
@@ -58,12 +82,20 @@
                     "id": "with",
                     "label": "With",
                     "description": "Study with another grail lore to upgrade, invert with lensing, conjugate with any other lore to produce two different lores.",
-                    "actionid": "study"
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
+                    "actionid": "study_dep"
                 },
                 {
                     "id": "with2",
-                    "label": "And",
+                    "label": "With",
                     "description": "Study with another grail lore to upgrade, invert with lensing, conjugate with any other lore to produce two different lores.",
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
                     "actionid": "study"
                 }
             ],
@@ -75,12 +107,20 @@
                     "id": "with",
                     "label": "With",
                     "description": "Study with another moth lore, invert with lensing, conjugate with any other lore to produce two different lores.",
-                    "actionid": "study"
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
+                    "actionid": "study_dep"
                 },
                 {
                     "id": "with2",
-                    "label": "And",
+                    "label": "With",
                     "description": "Study with another moth lore, invert with lensing, conjugate with any other lore to produce two different lores.",
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
                     "actionid": "study"
                 }
             ],
@@ -92,12 +132,20 @@
                     "id": "with",
                     "label": "With",
                     "description": "Study with another edge lore to upgrade, invert with lensing, conjugate with any other lore to produce two different lores.",
-                    "actionid": "study"
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
+                    "actionid": "study_dep"
                 },
                 {
                     "id": "with2",
-                    "label": "And",
+                    "label": "With",
                     "description": "Study with another edge lore to upgrade, invert with lensing, conjugate with any other lore to produce two different lores.",
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
                     "actionid": "study"
                 }
             ],
@@ -109,12 +157,20 @@
                     "id": "with",
                     "label": "With",
                     "description": "Study with another forge lore to upgrade, invert with lensing, conjugate with any other lore to produce two different lores.",
-                    "actionid": "study"
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
+                    "actionid": "study_dep"
                 },
                 {
                     "id": "with2",
-                    "label": "And",
+                    "label": "With",
                     "description": "Study with another forge lore to upgrade, invert with lensing, conjugate with any other lore to produce two different lores.",
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
                     "actionid": "study"
                 }
             ],
@@ -126,12 +182,20 @@
                     "id": "with",
                     "label": "With",
                     "description": "Study with another knock lore to upgrade, invert with lensing, conjugate with any other lore to produce two different lores.",
-                    "actionid": "study"
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
+                    "actionid": "study_dep"
                 },
                 {
                     "id": "with2",
-                    "label": "And",
+                    "label": "With",
                     "description": "Study with another knock lore to upgrade, invert with lensing, conjugate with any other lore to produce two different lores.",
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
                     "actionid": "study"
                 }
             ],
@@ -143,12 +207,20 @@
                     "id": "with",
                     "label": "With",
                     "description": "Study with another lore to upgrade, invert with lensing, conjugate with any other lore to produce two different lores.",
-                    "actionid": "study"
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
+                    "actionid": "study_dep"
                 },
                 {
                     "id": "with2",
-                    "label": "And",
+                    "label": "With",
                     "description": "Study with another lore to upgrade, invert with lensing, conjugate with any other lore to produce two different lores.",
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
                     "actionid": "study"
                 }
             ],
@@ -160,12 +232,20 @@
                     "id": "with",
                     "label": "With",
                     "description": "Study with another secret histories lore to upgrade, invert with lensing, conjugate with any other lore to produce two different lores.",
-                    "actionid": "study"
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
+                    "actionid": "study_dep"
                 },
                 {
                     "id": "with2",
-                    "label": "And",
+                    "label": "With",
                     "description": "Study with another secret histories lore to upgrade, invert with lensing, conjugate with any other lore to produce two different lores.",
+                    "required": {
+                        "lensing": 1,
+                        "lore": 1
+                    },
                     "actionid": "study"
                 }
             ],

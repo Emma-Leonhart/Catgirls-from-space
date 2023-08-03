@@ -14,7 +14,7 @@
                 {
                     "id": "with",
                     "label": "With",
-                    "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead.",
+                    "description": "Study with any lore fragment of the same level to upgrade to the higher level Hand lore.",
                     "required": {
                         "fragmentedge": 1,
                         "fragmentforge": 1,
@@ -25,7 +25,7 @@
                         "fragmentmoth": 1,
                         "fragmentwinter": 1,
                         "fragmentknock": 1,
-                        "fragmentsecret": 1
+                        "fragmentsecrethistories": 1
                     },
                     "actionid": "study"
                 }
@@ -48,7 +48,7 @@
                 {
                     "id": "with",
                     "label": "With",
-                    "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "description": "Study with any lore fragment of the same level to upgrade to the higher level Hand lore. Or study with Reason to break the lore into lower-level fragments.",
                     "required": {
                         "fragmentedgeb": 1,
                         "fragmentforgeb": 1,
@@ -59,7 +59,7 @@
                         "fragmentmothb": 1,
                         "fragmentwinterb": 1,
                         "fragmentknockb": 1,
-                        "fragmentsecretb": 1,
+                        "fragmentsecrethistoriesb": 1,
                         "reason": 1
                     },
                     "actionid": "study"
@@ -84,7 +84,7 @@
                 {
                     "id": "with",
                     "label": "With",
-                    "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "description": "Study with any lore fragment of the same level to upgrade to the higher level Hand lore. Or study with Reason to break the lore into lower-level fragments.",
                     "required": {
                         "fragmentedgec": 1,
                         "fragmentforgec": 1,
@@ -95,7 +95,7 @@
                         "fragmentmothc": 1,
                         "fragmentwinterc": 1,
                         "fragmentknockc": 1,
-                        "fragmentsecretc": 1,
+                        "fragmentsecrethistoriesc": 1,
                         "reason": 1
                     },
                     "actionid": "study"
@@ -120,7 +120,7 @@
                 {
                     "id": "with",
                     "label": "With",
-                    "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "description": "Study with any lore fragment of the same level to upgrade to the higher level Hand lore. Or study with Reason to break the lore into lower-level fragments.",
                     "required": {
                         "fragmentedged": 1,
                         "fragmentforged": 1,
@@ -131,7 +131,7 @@
                         "fragmentmothd": 1,
                         "fragmentwinterd": 1,
                         "fragmentknockd": 1,
-                        "fragmentsecretd": 1,
+                        "fragmentsecrethistoriesd": 1,
                         "reason": 1
                     },
                     "actionid": "study"
@@ -157,7 +157,7 @@
                 {
                     "id": "with",
                     "label": "With",
-                    "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "description": "Study with any lore fragment of the same level to upgrade to the higher level Hand lore. Or study with Reason to break the lore into lower-level fragments.",
                     "required": {
                         "fragmentedgee": 1,
                         "fragmentforgee": 1,
@@ -168,7 +168,7 @@
                         "fragmentmothe": 1,
                         "fragmentwintere": 1,
                         "fragmentknocke": 1,
-                        "fragmentsecrete": 1,
+                        "fragmentsecrethistoriese": 1,
                         "reason": 1
                     },
                     "actionid": "study"
@@ -194,7 +194,7 @@
                 {
                     "id": "with",
                     "label": "With",
-                    "description": "Study with a Hand lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "description": "Study with any lore fragment of the same level to upgrade to the higher level Hand lore. Or study with Reason to break the lore into lower-level fragments.",
                     "required": {
                         "fragmentedgef": 1,
                         "fragmentforgef": 1,
@@ -205,7 +205,7 @@
                         "fragmentmothf": 1,
                         "fragmentwinterf": 1,
                         "fragmentknockf": 1,
-                        "fragmentsecretf": 1,
+                        "fragmentsecrethistoriesf": 1,
                         "reason": 1
                     },
                     "actionid": "study"
