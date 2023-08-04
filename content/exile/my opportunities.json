@@ -36,8 +36,8 @@
             },
             "description": "I could take this opportunity to qualify, extremely rapidly, as a dancer.",
             "xtriggers": {
-                "negotiation": "intro_legacydancerjob",
-                "renewal.exile": "op_licence_cop"
+                "negotiation": "legacydancerjob.intro",
+                "renewal.exile": "op.dance"
             },
             "slots": [
                 {

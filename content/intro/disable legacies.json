@@ -1,0 +1,337 @@
+{
+    "legacies":[
+        {
+            "id": "exile.obscurityvictorya",
+            "label": "The Exile",
+			"family": "exile",
+            "dep_description": "What if it had been different? In another history, did I reap greater rewards? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
+            "startdescription": "Sunset. Time to go.",
+            "image": "exile",
+            "effects": {
+                "health": 2,
+                "waywood": 1,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "obscurityvictforya",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ],
+            "startingverbid": "work",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.obscurityvictorya",
+            "label": "The Exile",
+			"family": "exile",
+            "dep_description": "What if it had been different? In another history, did I reap greater rewards? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
+            "startdescription": "Sunset. Time to go.",
+            "image": "exile",
+            "effects": {
+                "health": 2,
+                "waywood": 1,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "obscurityvictforya",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ],
+            "startingverbid": "work",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.obscurityvictoryb",
+            "label": "The Exile",
+			"family": "exile",
+            "dep_description": "What if it had been different? In another history, did I reap even greater rewards? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
+            "startdescription": "Sunset. Time to go.",
+            "image": "exile",
+            "effects": {
+                "health": 2,
+                "waywood": 1,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "obscurityvifctoryb",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ],
+            "startingverbid": "work",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.obscurityvictoryc",
+            "label": "The Exile",
+			"family": "exile",
+            "dep_description": "What if it had been different? In another history, did I rise higher? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
+            "startdescription": "Sunset. Time to go.",
+            "image": "exile",
+            "effects": {
+                "health": 2,
+                "waywood": 1,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "obscuritfyvictoryc",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ],
+            "startingverbid": "work",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.obscurityvictoryafoeslain",
+            "label": "The Exile",
+			"family": "exile",
+            "dep_description": "What if it had been different? In another history, did I reap greater rewards? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
+            "startdescription": "Sunset. Time to go.",
+            "image": "exile",
+            "effects": {
+                "health": 2,
+                "waywood": 1,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "obscurityvictoryafofeslain",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ],
+            "startingverbid": "work",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.obscurityvictorybfoeslain",
+            "label": "The Exile",
+			"family": "exile",
+            "dep_description": "What if it had been different? In another history, did I reap even greater rewards? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
+            "startdescription": "Sunset. Time to go.",
+            "image": "exile",
+            "effects": {
+                "health": 2,
+                "waywood": 1,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "obscurityvictorfybfoeslain",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ],
+            "startingverbid": "work",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.obscurityvictorycfoeslain",
+            "label": "The Exile",
+			"family": "exile",
+            "dep_description": "What if it had been different? In another history, did I rise higher? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
+            "startdescription": "Sunset. Time to go.",
+            "image": "exile",
+            "effects": {
+                "health": 2,
+                "waywood": 1,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "obscurityvictforycfoeslain",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ],
+            "startingverbid": "work",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.foecaughtup",
+            "label": "The Exile",
+			"family": "exile",
+            "dep_description": "What if it had been different? In another history, did I survive? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
+            "startdescription": "Sunset. Time to go.",
+            "image": "exile",
+            "effects": {
+                "health": 2,
+                "waywood": 1,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "foecaughtup",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ],
+            "startingverbid": "work",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.ascensioncolonel",
+            "label": "The Exile",
+			"family": "exile",
+            "dep_description": "What if it had been different? In another history, did I find something more like freedom? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
+            "startdescription": "Sunset. Time to go.",
+            "image": "exile",
+            "effects": {
+                "health": 2,
+                "waywood": 1,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "ascensioncfolonel",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ],
+            "startingverbid": "work",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.ascensionlionsmith",
+            "label": "The Exile",
+			"family": "exile",
+            "dep_description": "What if it had been different? In another history, did I find something more like peace? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
+            "startdescription": "Sunset. Time to go.",
+            "image": "exile",
+            "effects": {
+                "health": 2,
+                "waywood": 1,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "ascensiofnlionsmith",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ],
+            "startingverbid": "work",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.ascensionwolf",
+            "label": "The Exile",
+			"family": "exile",
+            "dep_description": "What if it had been different? In another history, was I also a destroyer? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
+            "startdescription": "Sunset. Time to go.",
+            "image": "exile",
+            "effects": {
+                "health": 2,
+                "waywood": 1,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "ascensfionwolf",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ],
+            "startingverbid": "work",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.victoryvelvet",
+            "label": "The Exile",
+			"family": "exile",
+            "dep_description": "What if it had been different? In another history, did I meet my maker? ",
+"description": "I learned a horrible truth and am now on the run.\n [Note that exile in this mod is radically different than exile in vanilla, pick this only if you want to start at the midgame of this mod, it is hard and you do not miss out on anything playing other legacies]",
+            "startdescription": "Sunset. Time to go.",
+            "image": "exile",
+            "effects": {
+                "health": 2,
+                "waywood": 1,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "victoryvfelvet",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "health",
+                "reason",
+                "passion",
+                "funds"
+            ],
+            "startingverbid": "work",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "priest",
+            "label": "The Priest",
+            "description": "In visions have I seen St Agnes. I have learnt not to speak of the form she takes.",
+            "startdescription": "I have been given charge of the spiritual health of a new parish - a charge we used to call 'the cure of souls'.",
+            "effects": {
+                "passion": 1,
+                "priestjob": 1,
+                "funds": 5
+            },
+            "image": "priest",
+            "fromending": "visionsedddnding",
+            "availableWithoutEndingMatch": false,
+            "startingverbid": "work",
+            "newstart": true
+        },
+        {
+            "id": "ghoul",
+            "label": "The Medium?",
+            "description": "Everyone knows that I speak with the dead. I have been called a prophet, and a ghoul. I have no reason to disabuse them of their illusions.",
+            "startdescription": "Tonight the theatre is crammed and breathless. I have let them wait long enough.",
+            "effects": {
+                "ghouljob.first": 1,
+                "memory.shameful": 1,
+                "memory.profitable": 1,
+                "memory.joyful": 1
+            },
+            "image": "ghoul",
+            "fromending": "despairenwwqwwwwwding",
+            "availableWithoutEndingMatch": false,
+            "startingverbid": "work",
+            "newstart": true
+        }
+    ]
+}
