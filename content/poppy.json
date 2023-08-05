@@ -85,6 +85,13 @@
                     "id": "findacquaintanceopentalk_kapital.poppy",
                     "chance": 100
                 }
+            ],
+            "alt": [
+                {
+                    "id": "hand.induction",
+                    "chance": 100,
+                    "additional": true
+                }
             ]
         },
         {
@@ -133,6 +140,7 @@
                     "actionid": "talk",
                     "startdescription": "I hired a researcher. I hope they can help me.",
                     "description": "The researcher is eager to help you.",
+                    "actionid": "talk",
                     
             "mutations": [
                 {
