@@ -1,0 +1,127 @@
+{
+    "recipes":[
+        
+        {
+            "id": "sulochanachat",
+            "label": "A Chat with Sulochana",
+            "actionid": "talk",
+            "requirements": {
+                "sulochana": 1
+            },
+            "slots": [
+                {
+                    "id": "Subject",
+                    "label": "Subject",
+                    "description": "A topic of conversation"
+                }
+            ],
+            "startdescription": "@#ascensionlessonhearta|'You want to know more?'\n#ascensionlessonheartb|'You want to know more?'\n#ascensionlessonheartc|'You want to know more?'\n#ascensionlessonheartd|'You want to know more?'\n#ascensionlessonhearte|'You want to know more?'\n#ascensionlessonheartf|'You want to know more?'\n#ascensionlessonmotha|'You want to know more?'\n#ascensionlessonmothb|'You want to know more?'\n#ascensionlessonmothc|'You want to know more?'\n#ascensionlessonmothd|'You want to know more?'\n#ascensionlessonmothe|'You want to know more?'\n#ascensionlessonmothf|'You want to know more?'\n#|Sulochana stubs out her cigarette. 'Yes, if you want to study the language with me, yes, you can. Was there something else?'@",
+            "description": "@#ascensionlessonhearta|'Not my speciality.' Sulochana smiles\n#ascensionlessonheartb|'Not my speciality.' Sulochana shrugs like a snake.\n#ascensionlessonheartc|'Not my speciality.' Sulochana smiles.\n#ascensionlessonheartd|'Not my speciality.' Sulochana shrugs like a snake.\n#ascensionlessonhearte|'Not my speciality.' Sulochana smiles.\n#ascensionlessonheartf|'Not my speciality.' Sulochana shrugs like a snake.\n#ascensionlessonmotha|'The lesson is what the lesson is. I'm your employer, not your teacher.' Sulochana stretches. 'Try a little patience.'\n#ascensionlessonmothb|'The lesson is what the lesson is. I'm your employer, not your teacher.' Sulochana stretches. 'Try a little patience.'\n#ascensionlessonmothc|'The lesson is what the lesson is. I'm your employer, not your teacher.' Sulochana stretches. 'Try a little patience.'\n#ascensionlessonmothd|'The lesson is what the lesson is. If you want a teacher, talk to the Obliviates.' Sulochana grins with all her teeth. 'Not that they'll talk to you.'\n#ascensionlessonmothe|'The lesson is what the lesson is. If you want a teacher, talk to the Obliviates.' Sulochana grins with all her teeth. 'Not that they'll talk to you.'\n#ascensionlessonmothf|'The lesson is what the lesson is. If you want a teacher, talk to the Obliviates.' Sulochana grins with all her teeth. 'Not that they'll talk to you.'\n#|Is she disappointed? It's difficult to tell, with Sulochana.@",
+            "alt": [
+                {
+                    "id": "talk.apostleforge.sulochanaechidna"
+                },
+                {
+                    "id": "talk.apostlegrail.sulochanamarinette"
+                },
+                {
+                    "id": "apostlelantern.attemptrecruitkleidouchos.sulochana"
+                },
+                {
+                    "id": "sulochanachat_health",
+                    "chance": 100
+                },
+                {
+                    "id": "sulochanachat_passion",
+                    "chance": 100
+                },
+                {
+                    "id": "sulochanachat_cabaret",
+                    "chance": 100
+                },
+                {
+                    "id": "sulochanachat_desireheart_track",
+                    "chance": 100
+                },
+                {
+                    "id": "sulochanachat_desiremoth_track",
+                    "chance": 100
+                },
+                {
+                    "id": "sulochanachat_nekomarks_track",
+                    "chance": 100
+                },
+                {
+                    "id": "sulochanachat_enlightenmentmarks_track",
+                    "chance": 100
+                },
+                {
+                    "id": "sulochanachat_desire",
+                    "chance": 100
+                },
+                {
+                    "id": "sulochanachat_secrethistoriesrouter",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "sulochanachat_desireheart_track",
+            "label": "On the New Form",
+            "actionid": "talk",
+            "requirements": {
+                "sulochana": 1,
+                "sensationmarks": 1
+            },
+            "effects": {
+                "locationcabaret": 1
+            },
+            "startdescription": "'Looking to shed your skin, hm?'",
+            "description": "'The road you want to walk is what we call the New Form. Not all that new, not any more. But it has merit, if you can stand the pain. Find me in my house, and we can talk about the partner you will need in the end. Here's the address.'"
+        },
+        {
+            "id": "sulochanachat_desiremoth_track",
+            "actionid": "talk",
+            "label": "On the Old Form",
+            "requirements": {
+                "sulochana": 1,
+                "powermarks": 1
+            },
+            "effects": {
+                "locationcabaret": 1
+            },
+            "startdescription": "'Now - now we begin to understand each other.'",
+            "description": "'The road you want to walk is what we call the Old Form. I walked it myself, and eventually it brought me here. You'll give up everything along the way. You'll need to shed your skin, and not only once... Find me in my house, and we can talk about the partner you will need in the end. Here's the address.'"
+        },
+        {
+            "id": "sulochanachat_nekomarks_track",
+            "label": "On the Feline Path",
+            "actionid": "talk",
+            "requirements": {
+                "sulochana": 1,
+                "nekomarks": 1
+            },
+            "effects": {
+                "locationcabaret": 1
+            },
+            "startdescription": "'Ah, you are touched by the feline allure, aren't you?'",
+            "description": "'The path you wish to tread, we call it the Feline Path. Cats, mysterious and playful, they symbolize the unity of the universe. Their purrs resonate with the cosmic hum. Meet me at my residence, and we can discuss the companion you will need for this quest. Here's the address.'"
+        },
+        {
+            "id": "sulochanachat_enlightenmentmarks_track",
+            "actionid": "talk",
+            "label": "On the Dance of Awareness",
+            "requirements": {
+                "sulochana": 1,
+                "enlightenmentmarks": 1
+            },
+            "effects": {
+                "locationcabaret": 1
+            },
+            "startdescription": "'So, you seek enlightenment through rhythm and movement?'",
+            "description": "'The path you desire is what we refer to as the Dance of Awareness. Through the rhythm of dance, one can attune to the cosmic energy, achieving enlightenment. Each step, a step closer to understanding. Find me at my abode, and we can talk about the partner you will need to accompany you in this dance. Here's the address.'"
+        }
+    ]
+}

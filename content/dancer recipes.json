@@ -67,7 +67,7 @@
             "startdescription": "In my dreams, it's coming clear. This is a dance one cannot perform alone, nor with a partner. This is a dance one dances with a doll.",
             "description": "I've performed the steps, with a rag doll, but it wasn't quite right. When I peeled the doll's fabric away like skin, I felt relief, but then, of course, it fell apart... Something is wrong - wrong with the doll, or the world, or me.",
             "effects": {
-                "ascensionchangea": 1,
+                "ascensionsensationa": 1,
                 "dancerlegacy_plotitem_a": -1
             },
             "comments": "opened from studying about first plot object with health",
@@ -105,7 +105,7 @@
             "actionid": "dream",
             "startdescription": "Tonight I'll cut a lock of my hair before I sleep. I read that in the poem. Snip; snip.",
             "effects": {
-                "ascensionchangea": 1,
+                "ascensionpowera": 1,
                 "dancerlegacy_plotitem_a": -1
             },
             "description": "I dreamt of a great Wood at the heart of the first continent where we moved among the trees, dark and light and dark again, up and down and into the fire. I dreamt that once we were something else - or something else was us. Once perhaps we were things with wings. Sometimes, now, my shoulder blades itch.",

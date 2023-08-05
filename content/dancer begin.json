@@ -1,0 +1,85 @@
+{
+    "recipes":[
+        {
+            "id": "A_ecdysis_beginheart",
+            "actionid": "explore",
+            "maxexecutions": 1,
+            "extantreqs": {
+                "dancerjobecdysisa": -1,
+                "dancerjobecdysisb": -1,
+                "dancerjobecdysisc": -1
+            },
+            "requirements": {
+                "sensationmarks": 1
+            },
+            "label": "The Revelation of Sensation",
+            "startdescription": "'Very well,' Sulochana says, 'I have a role for you. This is a one-time performance.' She takes a thoughtful drag on her cigarette. 'You'll be immersing your senses,' she says. 'Discovering the thrill of the unseen.'",
+            "description": "I am assigned a private space of my own - intimate and dimly lit - where I can indulge in the experience. Sulochana hands me a box of unique and tactile materials. As I touch the first item, a rush of sensations wash over me. The world seems more vibrant, more alive.",
+            "effects": {
+                "dancerjobecdysisa": 1,
+                "fragmentsensation": 1
+            }
+        },
+        {
+            "id": "A_ecdysis_beginmoth",
+            "actionid": "explore",
+            "maxexecutions": 1,
+            "requirements": {
+                "powermarks": 1
+            },
+            "extantreqs": {
+                "dancerjobecdysisa": -1,
+                "dancerjobecdysisb": -1,
+                "dancerjobecdysisc": -1
+            },
+            "label": "The Unfolding of Power",
+            "startdescription": "'Very well,' Sulochana says, 'I have a task for you. This is a singular undertaking.' She takes a purposeful drag on her cigarette. 'You'll be embracing your power,' she informs me. Her gaze is unyielding. 'Unveiling your potential.'",
+            "description": "I am assigned a secluded space of my own - a room with energy pulsating in its corners. Here, Sulochana guides me towards my first act of dominion. As I make my first assertive gesture, I feel a surge of power. I am no longer the same.",
+            "effects": {
+                "dancerjobecdysisa": 1,
+                "fragmentpower": 1
+            }
+        },
+        {
+            "id": "A_ecdysis_beginlightenment",
+            "actionid": "explore",
+            "maxexecutions": 1,
+            "requirements": {
+                "enlightenmentmarks": 1
+            },
+            "extantreqs": {
+                "dancerjobecdysisa": -1,
+                "dancerjobecdysisb": -1,
+                "dancerjobecdysisc": -1
+            },
+            "label": "The Dance of Enlightenment",
+            "startdescription": "'Very well,' Sulochana says, 'I have a dance for you. This is a unique rhythm.' She takes a slow drag on her cigarette. 'You'll be finding enlightenment through movement,' she explains. 'Your spirit will be freed.'",
+            "description": "I am assigned a personal dance studio of my own - filled with the rhythm of the universe. Sulochana guides me towards my first dance of awakening. As I move, I feel an energy flowing within me. I am transcending.",
+            "effects": {
+                "dancerjobecdysisa": 1,
+                "fragmentgrail": 1
+            }
+        },
+        {
+            "id": "A_ecdysis_beginneko",
+            "actionid": "explore",
+            "maxexecutions": 1,
+            "requirements": {
+                "nekomarks": 1
+            },
+            "extantreqs": {
+                "dancerjobecdysisa": -1,
+                "dancerjobecdysisb": -1,
+                "dancerjobecdysisc": -1
+            },
+            "label": "The Cat's Path",
+            "startdescription": "'Very well,' Sulochana says, 'I have a journey for you. This is a one-of-a-kind adventure.' She takes a playful drag on her cigarette. 'You'll be walking the Cat's Path,' she tells me. 'Discovering the unity in all things.'",
+            "description": "I am assigned a cozy space of my own - filled with the purrs of invisible cats. Sulochana introduces me to my first guide - a spectral feline. As I follow the cat's path, I feel a connection with the universe. I am one.",
+            "effects": {
+                "dancerjobecdysisa": 1,
+                "fragmentknock": 1
+            }
+        },
+    
+    ]
+}

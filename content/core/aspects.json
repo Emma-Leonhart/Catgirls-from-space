@@ -140,7 +140,7 @@
                         "isAspect": true,
                         "induces": [
                             {
-                                "id": "mothinduction",
+                                "id": "moth.induction",
                                 "chance": 10
                             }
                         ]

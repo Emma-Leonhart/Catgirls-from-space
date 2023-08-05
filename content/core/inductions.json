@@ -22,6 +22,23 @@
             ]
         },
         {
+            "id": "debug_give_stuff",
+            "effects":{
+                "health": 50,
+                "reason": 50,
+                "passion": 50,
+                "funds": 50
+            },
+            "alt":[
+                {
+                    "id": "all_induction",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "warmup": 15
+        },
+        {
             "id": "all_induction_winter",
             "label": "Inducing all of ALO",
             "comment": "debug induction to remind me of the order of the alo elements",
@@ -177,7 +194,7 @@
             "warmup": 10,
             "alt":[
                 {
-                    "id": "mothinduction",
+                    "id": "moth.induction",
                     "chance": 100,
                     "additional": true
                 }
@@ -645,7 +662,7 @@
             "craftable": false
         },
         {
-            "id": "mothinduction",
+            "id": "moth.induction",
             "label": "The Larping Game",
             "actionid": "mothinduction",
             "effects": {
@@ -667,17 +684,17 @@
             ],
             "linked": [
                 {
-                    "id": "mothinduction.success",
+                    "id": "moth.induction.success",
                     "chance": 100
                 },
                 {
-                    "id": "mothinduction.failure",
+                    "id": "moth.induction.failure",
                     "chance": 100
                 }
             ]
         },
         {
-            "id": "mothinduction.success",
+            "id": "moth.induction.success",
             "label": "Personas Pierced",
             "description": "The many faces of life are donned, myriad perspectives tasted. I understand Moth a little better.",
             "warmup": 0,
@@ -693,7 +710,7 @@
             },
         },
         {
-            "id": "mothinduction.failure",
+            "id": "moth.induction.failure",
             "label": "The Larping Game",
             "description": "I flit between personas, tasting myriad perspectives, unshackled from my singular viewpoint.",
             "warmup": 0,
