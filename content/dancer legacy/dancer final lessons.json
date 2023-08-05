@@ -1,0 +1,118 @@
+{
+    "recipes":[
+        {
+            "id": "ecdysisdance_final_lesson.heart",
+            "label": "Work at the Ecdysis Club: a Rising Viper",
+            "actionid": "work",
+            "startdescription": "Tonight we bring serpents to the stage to move with us, and we are scale-masked and sinuous, like serpents ourselves. The stage is ringed with light and the air is silver mist, though the sweat runs down at the nape of my neck. Tonight we dance for the moon.",
+            "description": "At the dance's climax, the paroxysm seizes me, and I convulse, until the movement in my chest realises itself - a rising viper! It pours from my mask's mouth like sickness, streams down my body, and is gone from the stage. The audience applauds wildly! I stumble away, chest heaving. I know the serpent will return the same way it came, when it and I are ready.",
+            "requirements": {
+                "ecdysijob": 1,
+                "locationcabaret": 1,
+                "heart": 9,
+                "catgirl_dedication_3": 1
+            },
+            "effects": {
+                "funds": 1,
+                "notoriety": 1,
+                "ascensionlesson_dance": 1,
+                "trace": 1
+            },
+            "deckeffects": {
+                "ecdysisrewards": 1
+            },
+            "alt": [
+                {
+                    "id": "health_expel_to_scar",
+                    "chance": 30,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "fatigue": 1
+                        }
+                    }
+                }
+            ],
+            "warmup": 60,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "ecdysisdance_final_lesson.grail",
+            "label": "Work at the Ecdysis Club: a Rising Viper",
+            "actionid": "work",
+            "startdescription": "Tonight we bring serpents to the stage to move with us, and we are scale-masked and sinuous, like serpents ourselves. The stage is ringed with light and the air is silver mist, though the sweat runs down at the nape of my neck. Tonight we dance for the moon.",
+            "description": "At the dance's climax, the paroxysm seizes me, and I convulse, until the movement in my chest realises itself - a rising viper! It pours from my mask's mouth like sickness, streams down my body, and is gone from the stage. The audience applauds wildly! I stumble away, chest heaving. I know the serpent will return the same way it came, when it and I are ready.",
+            "requirements": {
+                "ecdysijob": 1,
+                "locationcabaret": 1,
+                "grail": 9,
+                "catgirl_dedication_3": 1
+            },
+            "effects": {
+                "funds": 1,
+                "notoriety": 1,
+                "ascensionlesson_dance": 1,
+                "trace": 1
+            },
+            "deckeffects": {
+                "ecdysisrewards": 1
+            },
+            "alt": [
+                {
+                    "id": "reason_expel_to_scar",
+                    "chance": 30,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "concentration": 1
+                        }
+                    }
+                }
+            ],
+            "warmup": 60,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "ecdysisdance_final_lesson.moth",
+            "label": "Work at the Ecdysis Club: a Rising Viper",
+            "actionid": "work",
+            "startdescription": "Tonight we bring serpents to the stage to move with us, and we are scale-masked and sinuous, like serpents ourselves. The stage is ringed with light and the air is silver mist, though the sweat runs down at the nape of my neck. Tonight we dance for the moon.",
+            "description": "At the dance's climax, the paroxysm seizes me, and I convulse, until the movement in my chest realises itself - a rising viper! It pours from my mask's mouth like sickness, streams down my body, and is gone from the stage. The audience applauds wildly! I stumble away, chest heaving. I know the serpent will return the same way it came, when it and I are ready.",
+            "requirements": {
+                "ecdysijob": 1,
+                "locationcabaret": 1,
+                "moth": 9,
+                "catgirl_dedication_3": 1
+            },
+            "effects": {
+                "funds": 1,
+                "notoriety": 1,
+                "ascensionlesson_dance": 1,
+                "trace": 1
+            },
+            "deckeffects": {
+                "ecdysisrewards": 1
+            },
+            "alt": [
+                {
+                    "id": "passion_expel_to_scar",
+                    "chance": 30,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "passionexhausted": 1
+                        }
+                    }
+                }
+            ],
+            "warmup": 60,
+            "craftable": true,
+            "maxexecutions": 1
+        }
+    ]
+}

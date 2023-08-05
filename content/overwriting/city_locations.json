@@ -23,7 +23,7 @@
                     "label": "Sell",
                     "description": "Add an item here to auction it off.",
                     "required": {
-                        "auctionable": 1,
+                        "worth": 1,
                         "funds": 1
                     },
                     "actionid": "explore"

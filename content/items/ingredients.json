@@ -6,7 +6,7 @@
             "description": "The sacred chrysm of the sword. Also an attractive silver-green.",
             "aspects": {
                 "edge": 4,
-                "auctionable": 2,
+                "worth": 2,
                 "ingredient": 1,
                 "portable": 1,
                 "pigment": 1
@@ -18,7 +18,7 @@
             "description": "Labhites are the youngest of the Lionsmith's servants. When rendered to powder, they retain their potency but not their beauty.",
             "aspects": {
                 "edge": 8,
-                "auctionable": 4,
+                "worth": 4,
                 "ingredient": 1,
                 "portable": 1
             }
@@ -29,7 +29,7 @@
             "description": "It is rare for the Lionsmith to make skaptodons, now; but they are difficult to kill, and they live a very long time.",
             "aspects": {
                 "edge": 12,
-                "auctionable": 6,
+                "worth": 6,
                 "ingredient": 1,
                 "portable": 1
             }
@@ -40,7 +40,7 @@
             "description": "No ordinary chemist could produce these dark-gleaming crystals - not without the touch of the Forge.",
             "aspects": {
                 "forge": 4,
-                "auctionable": 2,
+                "worth": 2,
                 "ingredient": 1,
                 "portable": 1,
                 "pigment": 1
@@ -52,7 +52,7 @@
             "description": "In certain operations of the Forge, sunlight is said to overcome moonlight, as we pass from the Meniscate to the Madrugad. This essence was mercury, once, but now it's the rich gold of a summer afternoon. Pretty.",
             "aspects": {
                 "forge": 8,
-                "auctionable": 4,
+                "worth": 4,
                 "ingredient": 1,
                 "portable": 1
             }
@@ -63,7 +63,7 @@
             "description": "In the later operations of the Forge, the Madrugad yields to the true Forge of Days, and the essence begins to redden. Some day, perhaps, it will not, but for now we have this. ",
             "aspects": {
                 "forge": 12,
-                "auctionable": 6,
+                "worth": 6,
                 "ingredient": 1,
                 "portable": 1
             }
@@ -74,7 +74,7 @@
             "description": "It is not usual for a red this red to survive the death of the body.",
             "aspects": {
                 "grail": 4,
-                "auctionable": 2,
+                "worth": 2,
                 "ingredient": 1,
                 "portable": 1,
                 "pigment": 1
@@ -86,7 +86,7 @@
             "description": "One of the Flowermaker's many gifts. In a brighter age, it might have bestowed immortality. In this blighted History, it is still an unparalleled sweetness.",
             "aspects": {
                 "grail": 8,
-                "auctionable": 4,
+                "worth": 4,
                 "ingredient": 1,
                 "portable": 1
             }
@@ -97,7 +97,7 @@
             "description": "Lay your hand on these tattered folds and feel their warmth; leave your hand upon it, and it will explore the possibilities of embrace.",
             "aspects": {
                 "grail": 12,
-                "auctionable": 6,
+                "worth": 6,
                 "ingredient": 1,
                 "portable": 1
             }
@@ -108,7 +108,7 @@
             "description": "Pearls are sacred to the Witch-and-Sister, especially those of this colour. They have been used in protective rites, among others.",
             "aspects": {
                 "heart": 4,
-                "auctionable": 2,
+                "worth": 2,
                 "ingredient": 1,
                 "portable": 1,
                 "pigment": 1
@@ -120,7 +120,7 @@
             "description": "The formula remains unchanged since the days Hecate was worshipped at the crossways.",
             "aspects": {
                 "heart": 8,
-                "auctionable": 4,
+                "worth": 4,
                 "ingredient": 1,
                 "portable": 1
             }
@@ -131,7 +131,7 @@
             "description": "The Thunderskin protected the one they called Januarius, against perils from every past. To this day his blood keeps dancing.",
             "aspects": {
                 "heart": 12,
-                "auctionable": 6,
+                "worth": 6,
                 "ingredient": 1,
                 "portable": 1,
                 "remnant": 1
@@ -146,7 +146,7 @@
             "description": "The profound purple worn only in Histories where Tyrian dye was not rich enough for emperors. It is difficult to bar entry to one wearing this colour.",
             "aspects": {
                 "knock": 4,
-                "auctionable": 2,
+                "worth": 2,
                 "ingredient": 1,
                 "portable": 1,
                 "pigment": 1
@@ -158,7 +158,7 @@
             "description": "From time to time, the Mother of Ants has also been called the Daughter of Venoms. This substance opens the body in uncountable places.",
             "aspects": {
                 "knock": 8,
-                "auctionable": 4,
+                "worth": 4,
                 "ingredient": 1,
                 "portable": 1,
                 "poison": 2
@@ -170,7 +170,7 @@
             "description": "Store this only in containers of a pure element, and never permit it to grow warm. Perhaps it isn't the final solvent that the alchemists sought. But it will do, for our purposes.",
             "aspects": {
                 "knock": 12,
-                "auctionable": 6,
+                "worth": 6,
                 "ingredient": 1,
                 "portable": 1
             }
@@ -181,7 +181,7 @@
             "description": "A white so pure that it remains visible even in utter darkness.",
             "aspects": {
                 "lantern": 4,
-                "auctionable": 2,
+                "worth": 2,
                 "ingredient": 1,
                 "portable": 1,
                 "pigment": 1
@@ -193,7 +193,7 @@
             "description": "'What is within, without; what is without, within.' A poison sacred to the votaries of the Meniscate.",
             "aspects": {
                 "lantern": 8,
-                "auctionable": 4,
+                "worth": 4,
                 "ingredient": 1,
                 "portable": 1,
                 "poison": 2
@@ -205,7 +205,7 @@
             "description": "A pale and watchful fluid that can be gathered, sometimes, when the Door-in-the-Eye is opened.",
             "aspects": {
                 "lantern": 12,
-                "auctionable": 6,
+                "worth": 6,
                 "ingredient": 1,
                 "portable": 1
             }
@@ -216,7 +216,7 @@
             "description": "From the crushed wings of rare lepidopterans. 'Painting black, or painting white, this is the stuff that'll see you right.'",
             "aspects": {
                 "moth": 4,
-                "auctionable": 2,
+                "worth": 2,
                 "ingredient": 1,
                 "portable": 1,
                 "pigment": 1
@@ -228,7 +228,7 @@
             "description": "A dark and syrupy liquor favoured in unnamed forest villages. 'The tongue and the eye, and now we begin! Forget your name, forget your skin.'",
             "aspects": {
                 "moth": 8,
-                "auctionable": 4,
+                "worth": 4,
                 "ingredient": 1,
                 "portable": 1
             }
@@ -239,7 +239,7 @@
             "description": "Faint traces of an enigmatic substance spilt in the commission of an ancient crime, tightly sealed in a glass ampoule. 'Who will remember the barber's son?' ",
             "aspects": {
                 "moth": 12,
-                "auctionable": 6,
+                "worth": 6,
                 "ingredient": 1,
                 "portable": 1,
                 "remnant": 1
@@ -254,7 +254,7 @@
             "description": "The precise colour of the hours when one cannot sleep.",
             "aspects": {
                 "winter": 4,
-                "auctionable": 2,
+                "worth": 2,
                 "ingredient": 1,
                 "portable": 1,
                 "pigment": 1
@@ -266,7 +266,7 @@
             "description": "Far too cold ever to melt in anything but the hottest noonday sun. It will, very gradually, consume human flesh.",
             "aspects": {
                 "winter": 8,
-                "auctionable": 4,
+                "worth": 4,
                 "ingredient": 1,
                 "portable": 1
             }
@@ -277,7 +277,7 @@
             "description": "A tiny pot of stunted, desiccated larval remnants from the First Worm War, rank with the power that inhabits dead Hours.",
             "aspects": {
                 "winter": 12,
-                "auctionable": 6,
+                "worth": 6,
                 "ingredient": 1,
                 "portable": 1,
                 "poison": 3

@@ -7,7 +7,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "The Book of Joy: Lasting Happiness in a Changing World is a profound and inspiring collaboration between two of the world's most spiritually influential figures, His Holiness the Dalai Lama (Tenzin Gyatso) and Archbishop Desmond Tutu. Compiled and co-authored by Douglas Abrams, the book records a week-long dialogue between the Dalai Lama and Archbishop Tutu in Dharamsala, India, where they discuss one of life's most fundamental quests: finding lasting joy in the face of life's inevitable suffering.",
@@ -24,7 +23,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "In The Four Loves, C.S. Lewis explores the nature of love from a Christian and philosophical perspective. He categorizes love into four types—Affection, Friendship, Eros, and Charity—and reflects upon their role in our lives, providing deep insights into the complexities and significance of human relationships.",
@@ -41,7 +39,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "John Rawls's A Theory of Justice is a seminal work in modern political philosophy. The book provides an alternative to utilitarianism and intuitionism, proposing a conception of justice as fairness, and offering a comprehensive discussion of distributive justice.",
@@ -58,7 +55,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "The Economic and Philosophic Manuscripts of 1844 by Karl Marx is a series of notes that express the author's ideas on alienation, the state of the worker, and the evolution of capitalism. It contains the core ideas that later became the backbone of Marx's masterpieces, Capital and The Communist Manifesto.",
@@ -75,7 +71,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "The Analects is a collection of sayings and ideas attributed to the Chinese philosopher Confucius and his contemporaries. Considered one of the central texts of Confucianism, it offers deep insights into personal morality, ethical conduct, and the proper exercise of political power.",
@@ -92,7 +87,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "In The Theory of Moral Sentiments, Adam Smith presents a comprehensive discussion of the nature of morality, virtue, and the motivations behind human actions. Known for his economic theories, Smith delves into moral philosophy in this work, exploring how mutual sympathy forms the basis of moral sentiments.",
@@ -109,7 +103,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Jean-Jacques Rousseau's The Social Contract is a fundamental work in political philosophy, examining the concept of a legitimate political authority within the context of classical republicanism. Rousseau posits that a just society is guided by the 'general will' of its citizenry, an idea that has greatly influenced modern political thought.",
@@ -126,7 +119,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Charles Dickens' A Christmas Carol is a story of transformation and redemption, where the miserly Ebenezer Scrooge undergoes profound change after a series of ghostly visits on Christmas Eve.",
@@ -143,7 +135,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Bhante Henepola Gunaratana's Mindfulness in Plain English is a clear, straightforward guide to mindfulness, meditation, and the philosophy of Buddhism. It offers practical advice on developing a meditation practice and integrating mindfulness into daily life.",
@@ -160,7 +151,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Fear and Trembling by Søren Kierkegaard is a profound philosophical work that delves into the existential and theological concepts of faith, sacrifice, and individuality. It uses the Biblical story of Abraham's willingness to sacrifice his son Isaac to examine the complexities of faith and obedience.",
@@ -177,7 +167,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Charles Taylor's A Secular Age investigates the development of secularism in Western society. It examines the transformation that has taken religion from the center of human life to the private sphere, focusing on the cultural shifts that have resulted in a widespread move away from traditional religious practices.",
@@ -194,7 +183,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Charles Taylor's The Ethics of Authenticity is a critique of contemporary individualism. It explores the dangers of self-centered subjectivity and challenges the modern notion of 'authenticity', arguing for a more nuanced understanding of self-fulfillment that acknowledges the role of communal and societal obligations.",
@@ -211,7 +199,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Immanuel Kant's Groundwork of the Metaphysics of Morals is a foundational text in moral philosophy. It introduces and develops the concept of 'categorical imperative', a principle that obliges individuals to act in a way that their actions could be universally applied.",
@@ -228,7 +215,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "The Emerald Tablet is a compact and cryptic piece of Hermetica reputed to contain the secrets of the prima materia and its transmutation. Its origins are lost in the mists of time, but it has been highly influential in the Western esoteric tradition, being frequently cited by alchemists and magicians.",
@@ -245,7 +231,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Meditations is a series of personal writings by Marcus Aurelius, Roman Emperor from 161 to 180 AD, recording his private notes to himself and ideas on Stoic philosophy.",
@@ -262,7 +247,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "In this work, Dawkins extends the influential concept of the gene to explore evolution from the lens of the gene itself, rather than the organism, challenging traditional perspectives and providing fresh insights.",
@@ -279,7 +263,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "The seminal work that introduced the scientific theory that populations evolve over the course of generations through a process of natural selection. It introduced the world to evolution and changed our understanding of the natural world.",
@@ -296,7 +279,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "In this key work, Schopenhauer presents a pessimistic picture on the nature of existence, arguing that both the will (our deepest desires) and representation (the phenomenal world) determine our reality.",
@@ -313,7 +295,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Kripke's influential lectures, which revolutionized the philosophy of language, challenged the then-dominant theory of descriptivism with his causal-historical theory of reference, forever changing the discourse on naming.",
@@ -330,7 +311,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Leibniz’s Monadology, one of the most important pieces of the Leibniz corpus, is his attempt to reconcile his personal philosophical system with that of his orthodox Christian beliefs. The monads, the philosophical building blocks of the universe, reflect Leibniz’s metaphysics that was influenced by Plato, Aristotle, Descartes and Spinoza.",
@@ -347,7 +327,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "A monumental work in the history of philosophy, Spinoza's Ethics presents his vision of the ideal human condition and the path to achieving it, delving deep into concepts of God, human nature, and happiness.",
@@ -364,7 +343,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "A central text in Western philosophy, Kant's critique is a deep exploration into metaphysics and epistemology. Kant endeavors to reconcile empiricism and rationalism, ultimately proposing a new, groundbreaking perspective on the limits and capabilities of reason itself.",
@@ -381,7 +359,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Hegel's masterwork is a complex exploration of human consciousness and its development through stages of self-awareness, culminating in the absolute knowing. It's considered one of the most difficult yet rewarding texts in Western philosophy.",
@@ -398,7 +375,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Eckhart Tolle's The Power of Now is a guide to spiritual enlightenment that aims to bring about a transformation of consciousness and a end to personal suffering through the power of living in the present moment.",
@@ -415,7 +391,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Written by Viktor Frankl, an Austrian psychiatrist who survived the Holocaust, this book is a memoir that explores the pursuit of meaning as the primary motivation in human life, under even the most difficult circumstances.",
@@ -432,7 +407,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Erich Fromm's To Have or To Be? is a psychological exploration of the two modes of existence that pervade our culture and affect our wellbeing, suggesting that being far exceeds having as a source of happiness and fulfilment.",
@@ -449,7 +423,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "In this pioneering work, Thorstein Veblen critiques the values of the emerging consumer culture at the turn of the 20th century, and introduces concepts like 'conspicuous consumption' and 'pecuniary emulation'.",
@@ -466,7 +439,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Martin Heidegger's Being and Time is a landmark of 20th-century philosophy that presents a profound inquiry into the nature of being, exploring concepts such as the 'they', authenticity, and temporality.",
@@ -483,7 +455,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Summa Theologica is the best-known work of Thomas Aquinas, presenting a comprehensive synthesis of Christian theology and philosophical thought.",
@@ -500,7 +471,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "In Religion and Nothingness, the leading representative of the Kyoto School of Philosophy lays the foundation of thought for a world in the making, a world united beyond the differences of East and West.",
@@ -518,7 +488,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "In Thinking, Fast and Slow, psychologist and economist Daniel Kahneman dives deep into the two systems that drive the way we think—System 1, which is fast and intuitive, and System 2, which is slow and deliberative. Kahneman, a Nobel laureate, explores the gap between these two systems, where biases and errors can slip in and affect our decision making.",
@@ -534,7 +503,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "In On Bullshit, philosopher Harry G. Frankfurt rigorously explores the concept of 'bullshit', defining it as a form of communication intended to persuade without regard for truth. Frankfurt examines the prevalence of bullshit in modern society, analyzing its nature, its various forms, and its implications.",
@@ -550,7 +518,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "This exploration by Vervaeke, Mastropietro, and Miscevic delves into the prevalent cultural phenomenon of zombies. The authors examine the metaphorical richness zombies offer in discussing our culture, psychology, and philosophical standing.",
@@ -566,7 +533,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "In Thinking, Fast and Slow, psychologist and economist Daniel Kahneman dives deep into the two systems that drive the way we think—System 1, which is fast and intuitive, and System 2, which is slow and deliberative. Kahneman, a Nobel laureate, explores the gap between these two systems, where biases and errors can slip in and affect our decision making.",
@@ -582,7 +548,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "In On Bullshit, philosopher Harry G. Frankfurt rigorously explores the concept of 'bullshit', defining it as a form of communication intended to persuade without regard for truth. Frankfurt examines the prevalence of bullshit in modern society, analyzing its nature, its various forms, and its implications.",
@@ -598,7 +563,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "This exploration by Vervaeke, Mastropietro, and Miscevic delves into the prevalent cultural phenomenon of zombies. The authors examine the metaphorical richness zombies offer in discussing our culture, psychology, and philosophical standing.",
@@ -614,7 +578,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Marc Lewis's Addiction and the Brain: Development, Not Disease disputes the disease model of addiction, arguing that it emerges through the brain's natural development process. Lewis explores the neurological elements of addiction, its causes, its affects on the brain, and its potential treatments.",
@@ -630,7 +593,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Blaise Pascal's Pensées is a collection of thoughts and ideas on religion and philosophy. Written as an apologetic work to defend Christianity, the Pensées are a reflection of Pascal's religious beliefs and his perspectives on human nature.",
@@ -646,7 +608,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Principal Doctrines of Epicureanism by Epicurus offers profound insights into the philosophy of Epicureanism, proposing a life led by simple pleasures, friendship, and a quiet life as the path to happiness. The doctrines delve into a range of topics including theology, death, the role of senses, and happiness.",
@@ -662,7 +623,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "The I Ching, or Book of Changes, is one of the oldest Chinese texts, offering wisdom and guidance through a divination system. It employs a set of 64 hexagrams (six-line figures) that represent different life situations, providing philosophical responses to these scenarios.",
@@ -678,7 +638,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Wittgenstein's Tractatus Logico-Philosophicus is a significant philosophical work that outlines his picture theory of language and the idea that language represents the logical structure of reality. It's a dense text, presenting seven main propositions that dive deep into the philosophy of language and metaphysics.",
@@ -694,7 +653,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Alfred North Whitehead's Process and Reality is a comprehensive exploration of metaphysical philosophy. It establishes Whitehead's process philosophy, which posits that reality is composed of processes rather than material objects. It's a challenging text that radically reinterprets many of philosophy's fundamental concepts.",
@@ -709,7 +667,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "icon": "queensoftherivers",
@@ -725,7 +682,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "icon": "queensoftherivers",
@@ -741,7 +697,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "icon": "queensoftherivers",
@@ -756,7 +711,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "description": "Proposing a major shift in the way we perceive the world and make predictions, 'The Black Swan' by Nassim Nicholas Taleb challenges conventional wisdom and navigates the realms of uncertainty and randomness. Taleb introduces the concept of a 'Black Swan', an unexpected event that has significant and often drastic impact, but which is rationalized in hindsight as if it could have been expected. This influential work pushes readers to confront the limitations of our knowledge, urging us to adapt and thrive amidst the unpredictable fluctuations and anomalies of life.",
@@ -773,7 +727,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "icon": "queensoftherivers",
@@ -789,7 +742,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "icon": "queensoftherivers",
@@ -805,7 +757,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "icon": "queensoftherivers",
@@ -821,7 +772,7 @@
             "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
             },
             "icon": "queensoftherivers",
@@ -837,7 +788,6 @@
             "aspects": {
                 "text": 1,
                 "portable": 1,
-                "auctionable": 1,
                 "worth": 1
             },
             "icon": "queensoftherivers",
@@ -853,7 +803,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Things Fall Apart by Chinua Achebe is a seminal piece of literature, an uncompromising exploration of the clash between tradition and change, offering a profound portrayal of the human response to societal transformation.",
@@ -869,7 +819,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "In The Body Keeps the Score, Dr. Bessel van der Kolk uses recent scientific advances to show how trauma literally reshapes both body and brain, compromising sufferers’ capacities for pleasure, engagement, self-control, and trust.",
@@ -885,7 +835,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Braiding Sweetgrass by Robin Wall Kimmerer is an extraordinary journey intertwining indigenous wisdom, scientific knowledge and the teachings of plants, illuminating a path toward healing the ecological devastation of our lands.",
@@ -901,7 +851,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Undoing Gender by Judith Butler addresses the regulation of sexuality and gender that takes place in psychology, aesthetics, and social policy. It investigates the ways in which the gendered subject is formed.",
@@ -917,7 +867,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Stone Butch Blues, Leslie Feinberg’s 1993 first novel, is widely considered in and outside the U.S. to be a groundbreaking work about the complexities of gender. It is a profound exploration of identity and the quest for social justice.",
@@ -933,7 +883,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "African Ethics by Thaddeus Metz presents a comprehensive ethical theory that is grounded on the principles of African philosophy, offering a philosophical justification for moral ideals that have their origins in African cultures.",
@@ -949,7 +899,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "The Post-Transsexual Manifesto by Sandy Stone breaks new ground in the study of gender, challenging the medicalization and pathologization of transgender people, while arguing for an acceptance of multiple identities.",
@@ -965,7 +915,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "The Tibetan Book of the Dead is a Buddhist scripture that guides the departed through the experiences in the afterlife. Its profound insights make it a guide for living, dying, and transcending the confines of ordinary reality.",
@@ -981,7 +931,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Paulo Coelho's 'The Alchemist' is a mystical novel about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried in the Pyramids.",
@@ -997,7 +947,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "In 'Ego Is the Enemy', Ryan Holiday draws on a vast array of stories and examples, from literature to philosophy to history, to illustrate that ego is one of the biggest detriments to success and happiness.",
@@ -1013,7 +963,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "'Homo Deus: A Brief History of Tomorrow' is a profound sequel to Sapiens. In this work, Yuval Noah Harari delves into the future of humankind: a not-so-distant future in which we face a new set of challenges.",
@@ -1029,7 +979,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Saul Kripke's 'Wittgenstein on Rules and Private Language' is a seminal work that has shaped debates on the philosophy of language. In it, Kripke presents a controversial interpretation of Wittgenstein's philosophy.",
@@ -1045,7 +995,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "'The Aim and Structure of Physical Theory' by Pierre Duhem is a philosophical critique of physical theory and an exploration of the underlying philosophical notions that guide scientific investigation.",
@@ -1061,7 +1011,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "A tome of deep insight penned by the venerable scholar, Al-Ghazali. This book serves not as an arcane manual, but rather, a spiritual guide. It maps the terrain of the human soul, detailing a transformative journey from mundane existence to transcendent joy. The words are like a forge, shaping and refining readers' spirits, stirring a thirst for self-understanding and the profound alchemy of inner change..",
@@ -1077,7 +1027,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "W.V. Quine's 'Two Dogmas of Empiricism' is a groundbreaking essay that challenges the logical positivist distinction between analytic and synthetic propositions, reshaping the landscape of epistemology and the philosophy of language.",
@@ -1093,7 +1043,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Gilles Deleuze and Félix Guattari's 'Anti-Oedipus' is a radical work of post-structuralist philosophy that combines interpretations of Freud, Marx, Nietzsche and others in a critique of capitalism and psychoanalysis.",
@@ -1109,7 +1059,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "This guide by the Wizards RPG Team provides rules and advice for players of the popular fantasy tabletop RPG Dungeons & Dragons. It serves as an introduction to game mechanics, character creation, and the basic elements of storytelling and roleplaying in the D&D universe.",
@@ -1125,7 +1075,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "'On Jeepform' serves as an engaging and comprehensive introduction to the distinctive world of Jeepform, a variant of Nordic Live Action Role Playing (LARP) that is characterized by its focus on story, emotion, and the exploration of challenging themes. Written by experts deeply immersed in the practice, this fictional book seeks to unravel the underlying principles that set Jeepform apart from more traditional LARP styles.",
@@ -1141,7 +1091,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "K. Eric Drexler's 'Engines of Creation' is a groundbreaking work on nanotechnology. It discusses the potential benefits and risks of molecular manufacturing, and paints a picture of how it could transform society.",
@@ -1157,7 +1107,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Mark Fisher's 'Acid Communism' explores the intersection of countercultural movements and leftist politics, proposing a new form of political consciousness that embraces both radical change and communal values.",
@@ -1173,7 +1123,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "This collaborative work by M. Alan Kazlev, Bernd Helfert, and Anders Sandberg outlines the 'Orion's Arm' universe, a complex vision of post-singularity and far-future humanity. The text dives deep into speculative technology, future societies, and high-concept science fiction world-building.",
@@ -1189,7 +1139,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Donna Haraway's 'Cyborg Manifesto' is a seminal work in feminist theory and science studies. It explores the notion of the cyborg as a challenge to traditional notions of gender, nature, and humanity, and calls for a radical reconsideration of the boundaries between human and machine.",
@@ -1205,7 +1155,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Nikolai Fyodorovich Fyodorov's 'Common Cause of Humanity' is a philosophical work advocating for a 'common task' for all humanity: the resurrection of the dead. Fyodorov believed that scientific progress and human solidarity should work together to achieve this goal.",
@@ -1221,7 +1171,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Pierre Teilhard de Chardin's 'The Phenomenon of Man' is a philosophically dense exploration of evolution, consciousness, and human progress. The text presents a vision of humanity's place in the universe that integrates science, philosophy, and spirituality.",
@@ -1237,7 +1187,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "The Art of the Deal is a book written by Donald Trump and Tony Schwartz. It provides insights into Trump's business strategies and negotiation tactics.",
@@ -1254,7 +1204,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Zero to One is a book by Peter Thiel and Blake Masters that explores innovative thinking and strategies for building successful startups and shaping the future.",
@@ -1271,7 +1221,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "The Wealth of Nations is a seminal work by Adam Smith that delves into the principles of economics, discussing the division of labor, free markets, and the invisible hand.",
@@ -1288,7 +1238,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Das Kapital is a seminal work by Karl Marx that analyzes the capitalist mode of production, exploring the dynamics of labor, commodities, and capital.",
@@ -1305,7 +1255,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Phenotypic Revolutions is a book by Jean-Francois Gariepy that explores the transformations from genotype to phenotype in digital organisms, shedding light on the complexities of genetic algorithms.",
@@ -1322,7 +1272,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Industrial Society and Its Future, also known as The Unabomber's Manifesto, is a controversial work by Theodore Kaczynski that critiques technological advancement and modern industrial society.",
@@ -1339,7 +1289,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "The Dark Forest is a science fiction novel by Cixin Liu. It is the second book in the Remembrance of Earth's Past trilogy, exploring themes of interstellar civilizations and the survival of humanity.",
@@ -1356,7 +1306,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Dead Space is a science fiction horror novel by Antony Johnston and Ben Templesmith. It serves as a tie-in to the popular video game franchise, exploring the chilling events aboard a derelict spaceship.",
@@ -1373,7 +1323,7 @@
         "aspects": {
             "text": 1,
             "portable": 1,
-            "auctionable": 1,
+            "worth": 1,
             "worth": 1
         },
         "description": "Fanged Noumena is a collection of writings by Nick Land. It spans the years 1987 to 2007 and explores topics such as philosophy, culture, and technology, often challenging conventional perspectives.",

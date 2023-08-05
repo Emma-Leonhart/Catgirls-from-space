@@ -299,7 +299,6 @@
             "deckeffects": {
                 "acquaintances": 1
             },
-            "maxexecutions": 1,
             "linked": [
                 {
                     "id": "mark_double_agent",

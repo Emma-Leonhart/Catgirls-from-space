@@ -7,7 +7,7 @@
             "actionid": "explore",
             "requirements": {
                 "locationauctionhouse": 1,
-                "auctionable": -1,
+                "worth": -1,
                 "funds": 1
             },
             "effects": {},

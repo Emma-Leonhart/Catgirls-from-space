@@ -265,6 +265,10 @@
             {
                 "id": "ascend_youtube",
                 "chance": 100
+            },
+            {
+                "id": "ascend_dance",
+                "chance": 100
             }
         ]
     },
@@ -489,6 +493,36 @@
             {
                 "filter": "catgirl_dedication_3",
                 "mutate": "catgirl_determined",
+                "level": 1
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "nekomarks",
+                "level": 1,
+                "additive": true
+            },
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "desire",
+                "level": 1,
+                "additive": true
+            }
+        ],
+        "effects":{
+            "catgirl_lesson": -1
+        }
+    },
+    {
+        "id": "ascend_dance",
+        "label": "The Immortal catgirl wants more",
+        "startdescription": "The Immortal Catgirl wants more",
+        "description": "The Immortal Catgirl wants more",
+        "requirements": {"ascensionlesson_dance": 1}, 
+        "warmup": 60,
+        "mutations": [
+            {
+                "filter": "catgirl_dedication_3",
+                "mutate": "catgirl_dancer",
                 "level": 1
             },
             {

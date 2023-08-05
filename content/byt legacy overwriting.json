@@ -36,9 +36,45 @@
                 "ascensioncapitala": 1
             },
             "warmup": 60,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "bytopentalk_2",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "bytopentalk_2",
+            "label": "Summoning a Stranger",
+            "actionid": "talk",
+            "startdescription": "My new acquaintance speaks authoritatively of Papa. He knew he was dying. He had hoped to taste unknown pleasures before his end - pleasures denied to healthy society. My new acquaintance suggests that I might finish what he began - that if I do so, I might save myself from the despair which haunts my family.",
+            "effects": {
+                "poppyready": 1,
+                "ascensioncapitala": 1
+            },
+            "warmup": 60,
+            "craftable": false,
+            "linked":[
+                {
+                    "id": "poppyoffer",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "bytopenexplore",
+            "label": "A World of Possibilities!",
+            "actionid": "explore",
+            "startdescription": "Some ripping sorts are introducing me to some ripping sorts of places.",
+            "description": "If I ever have trouble deciding how to spend my money, the good people at these spots can certainly be of assistance!",
+            "warmup": 10,
+            "effects": {
+                "locationbookdealer": 1,
+                "locationcabaret": 1
+            },
             "craftable": false
         },
-        
         {
             "id": "studytextbooksanskrit",
             "label": "Study this book",

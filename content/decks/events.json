@@ -270,10 +270,11 @@
             "label": "City Secrets",
             "description": "Easily overlooked locations.",
             "spec": [
-                "locationauctionhouse",
                 "locationcabaret",
                 "locationbookdealer",
-                "locationstreetsstrange"
+                "locationstreetsstrange",
+                "location.cemetery",
+                "location.temple"
             ],
             "defaultcard": "locationstreetsstrange"
         },

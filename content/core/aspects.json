@@ -146,6 +146,22 @@
                         ]
                     },
                     {
+                        "id": "dance",
+                        "label": "Dance",
+                        "isAspect": true,
+                        "description": "Older than language, younger than life.",
+                        "induces": [
+                            {
+                                "id": "heartinduction",
+                                "chance": 10
+                            },
+                            {
+                                "id": "mothinduction",
+                                "chance": 10
+                            }
+                        ]
+                    },
+                    {
                         "id": "imbalance",
                         "label": "Imbalance",
                         "description": "Alien, and not in a good way.",

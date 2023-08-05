@@ -22,7 +22,7 @@
         {
             "id": "brightyoungthing",
             "label": "'Self Made' Billionaire",
-            "description": "Endowed from birth with wealth and talent. A life of ease, comfort and delight stretches ahead like an amber carpet.",
+            "description": "Endowed from birth with wealth and talent. A life of ease, comfort and delight stretches ahead like an amber carpet.\n[This legacy provides a lot of money at the beginning, but danger is around the corner]",
             "startdescription": "I missed the dawn. I generally do. There'll be plenty more.",
             "statusbarelements": [
                 "health",
@@ -35,7 +35,7 @@
         {
             "id": "physician",
             "label": "The Physician",
-            "description": "As the patient descended into the final delirium, I made copious notes. In the buzzing heat of the night, I re-read those notes, and they began, at last, to make a kind of sense.",
+            "description": "As the patient descended into the final delirium, I made copious notes. In the buzzing heat of the night, I re-read those notes, and they began, at last, to make a kind of sense.\n[This legacy is intended for players who are struggling with avoiding starvation, it gives you a job with easy money]",
             "startdescription": "Today is the day I return to my post at the Institute. I have a position, and a reputation. That should mean something; but I am beginning to dream of something else.",
             "statusbarelements": [
                 "health",
@@ -48,7 +48,7 @@
         {
             "id": "detective",
             "label": "The Detective",
-            "description": "I am an Inspector in the capital's police, charged with the investigation of the most vile and wretched things that one human does to another. \n[Note that in this mod detective is quite story rich and not recommended for first playthroughs]",
+            "description": "I am an Inspector in the capital's police, charged with the investigation of the most vile and wretched things that one human does to another. \n[This legacy is quite story rich and dangerous and not recommended for first playthroughs]",
             "startdescription": "I have ended the careers of thieves, murderers, blackmailers, arsonists. Some criminals do worse still; and on some mornings, my hands have been known to tremble.",
             "statusbarelements": [
                 "health",
@@ -94,7 +94,7 @@
         {
             "id": "dancer",
             "label": "The Dancer",
-            "description": "I am young and I am strong and for a time yet I will be beautiful.",
+            "description": "I am young and I am strong and for a time yet I will be beautiful.\n[This legacy is intended for people who are struggling with progression in the early game, goals are made clearer in it]",
             "startdescription": "Tonight I begin in the chorus line at the Gaiety Theatre, where the lights are bright and the eyes are watchful.",
             "effects": {
                 "passion": 1,
