@@ -1,0 +1,446 @@
+{
+    "recipes":[
+        
+        {
+            "id": "ecdysisdance_stagdoor",
+            "label": "Work at the Ecdysis Club: Enter the Stag Door",
+            "actionid": "work",
+            "startdescription": "Tonight we are wrapped tightly in scarves of green silk. We will disrobe with more vehemence than usual. Before I begin, Mr Agdistis hands me up a mouthless oval mask, the green of spring leaves. I hesitate a moment before I put it on. He has smeared its inner surface with fresh loam.",
+            "description": "When the first scarf comes away, the pain is shocking, like a tearing scab. The next one is easier, and the next, but I stagger a little. My compatriots glance at me in concern: I know that my expression is invisible behind the mask. For our conclusion, we wind together in a ring. When I tear away the last scarf, the wrench is like a root torn from the earth. I dare not remove the mask. Afterwards, my skin is unmarked. I saw a vision as I danced, and a riddle. Sulochana says I must dance with the riddle and its solution to get the way forward for my next dance.",
+            "requirements": {
+                "ecdysijob": 1,
+                "locationcabaret": 1,
+                "riddle": 1,
+                "ability": 1,
+                "influence": 1
+            },
+            "effects": {
+                "funds": 1,
+                "mystique": 1
+            },
+            "deckeffects": {
+                "ecdysisrewards": 1
+            },
+            "slots": [
+              {
+                "id": "Desire",
+                "label": "Desire",
+                "required": {
+                  "desire": 1
+                },
+                "greedy": true
+              }
+            ],
+            "alt": [
+                {
+                    "id": "passion_expel_to_scar",
+                    "chance": 30,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "passionexhausted": 1
+                        }
+                    }
+                },
+                {
+                    "id": "reason_expel_to_scar",
+                    "chance": 30,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "concentration": 1
+                        }
+                    }
+                },
+                {
+                    "id": "health_expel_to_scar",
+                    "chance": 30,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "fatigue": 1
+                        }
+                    }
+                }
+            ],
+            "linked":[
+                {
+                    "id": "dance_answerstagriddle_router",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "craftable": true,
+            "$priority": 700
+        },
+        {
+            "id": "dance_answerstagriddle_router",
+            "actionid": "work",
+            "label": "Ghirbi's Riddle",
+            "requirements": {
+              "riddle": 1,
+              "desire": 1,
+              "capitalmarks": -1
+            },
+            "slots": [
+              {
+                "id": "Answer",
+                "label": "Answer",
+                "required": {
+                  "lore": 1
+                }
+              }
+            ],
+            "startdescription": "In my dream, I will stand again before the Stag Door: a ridged barrier of blood-streaked horn, broken long ago, not yet quite healed. That vast and golden Head, Ghirbi, will await the answer to my riddle.",
+            "description": "The Head is silent. The Door remains closed. Now I drift into other dreams.",
+            "aspects": {
+              "fatiguing": 1
+            },
+            "linked": [
+              {
+                "id": "dance_router",
+                "chance": 100
+              }
+            ],
+            "alt": [
+              {
+                "id": "dance_answerstagriddle_1",
+                "chance": 100
+              },
+              {
+                "id": "dance_answerstagriddle_1",
+                "chance": 100
+              },
+              {
+                "id": "dance_answerstagriddle_2",
+                "chance": 100
+              },
+              {
+                "id": "dance_answerstagriddle_3",
+                "chance": 100
+              },
+              {
+                "id": "dance_answerstagriddle_4",
+                "chance": 100
+              },
+              {
+                "id": "dance_answerstagriddle_5",
+                "chance": 100
+              },
+              {
+                "id": "dance_answerstagriddle_heart",
+                "chance": 100
+            },
+            {
+                "id": "dance_answerstagriddle_winter",
+                "chance": 100
+            },
+            {
+                "id": "dance_answerstagriddle_secret",
+                "chance": 100
+            },
+            {
+                "id": "dance_answerstagriddle_lantern",
+                "chance": 100
+            },
+            {
+                "id": "dance_answerstagriddle_grail",
+                "chance": 100
+            },
+            {
+                "id": "dance_answerstagriddle_edge",
+                "chance": 100
+            },
+            {
+                "id": "dance_answerstagriddle_knock",
+                "chance": 100
+            },
+            {
+                "id": "dance_answerstagriddle_forge",
+                "chance": 100
+            },
+            {
+                "id": "dance_answerstagriddle_moth",
+                "chance": 100
+            },
+              {
+                "id": "dance_wronganswerstagriddle",
+                "chance": 100
+              }
+            ],
+            "warmup": 60,
+            "comments": "Route through this to answer riddle.",
+            "craftable": false
+        },
+        {
+            "id": "dance_answerstagriddle_heart",
+            "label": "Echo of a Heartfelt Anthem",
+            "actionid": "work",
+            "requirements": {
+                "waystagbefore_heart": 1,
+                "fragmentheartc": 1
+            },
+            "startdescription": "'An anthem that tugs at the heartstrings... Here is my rendition...'",
+            "description": "The Stag Door shudders open. A rhythm reminiscent of a fervent heart thunders through the gaping portal. Ghirbi, the Stag's Head, emits a harmonious hum, and its brass tears crystallize into resonating hearts. I am invited within!",
+            "effects": {
+                "riddle": -1,
+"desire": -99,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dance_upgradetoobsession",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dance_answerstagriddle_winter",
+            "label": "Serene Sunset Meditation",
+            "actionid": "work",
+            "requirements": {
+                "waystagbefore_winter": 1,
+                "fragmentwinterc": 1
+            },
+            "startdescription": "'To honor the fading sun, we must meditate in its twilight...'",
+            "description": "The Stag Door creaks open. The fading light of a sun setting into tranquility bathes the corridor within. Ghirbi's sigh is a frosty whisper, its tears crystallizing into icicles. I step forward into the peace of the winter evening.",
+            "effects": {
+                "riddle": -1,
+"desire": -99,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dance_upgradetoobsession",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dance_answerstagriddle_secret",
+            "label": "Journey through Optical Illusions",
+            "actionid": "work",
+            "requirements": {
+                "waystagbefore_secret": 1,
+                "fragmentsecrethistoriesc": 1
+            },
+            "startdescription": "'The path ahead is but an optical illusion, a distorted echo of truth...'",
+            "description": "The Stag Door swings open. An array of deceptive lights flickers in the chamber beyond, painting a distorted reality. Ghirbi murmurs a cryptic verse, its brass tears refracting into fragmented histories. I step into the kaleidoscope of deception.",
+            "effects": {
+                "riddle": -1,
+"desire": -99,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dance_upgradetoobsession",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dance_answerstagriddle_lantern",
+            "label": "Luminary's Path of Shadows",
+            "actionid": "work",
+            "requirements": {
+                "waystagbefore_lantern": 1,
+                "fragmentlanternc": 1
+            },
+            "startdescription": "'Within the shadowy crevices, a luminary's wisdom blooms...'",
+            "description": "The Stag Door radiates open. Light dances within the chamber, casting a shadowy tapestry of wisdom. Ghirbi whispers an ancient mantra, and molten brass tears illumine the path of enlightenment. I am ready to step into the crevices of knowledge.",
+            "effects": {
+                "riddle": -1,
+"desire": -99,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dance_upgradetoobsession",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dance_answerstagriddle_grail",
+            "label": "Carousel of Existential Revelry",
+            "actionid": "work",
+            "requirements": {
+                "waystagbefore_grail": 1,
+                "fragmentgrailc": 1
+            },
+            "startdescription": "'To unlock the carousel of existence, one must perform the rite of revelry...'",
+            "description": "The Stag Door unfurls. The tantalizing dance of life and existence swirls within the room beyond. Ghirbi hums a euphoric tune, its tears shimmering with captivating allure. I am beckoned to join the eternal revelry.",
+            "effects": {
+                "riddle": -1,
+"desire": -99,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dance_upgradetoobsession",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dance_answerstagriddle_edge",
+            "label": "The Resilient Vanguard",
+            "actionid": "work",
+            "requirements": {
+                "waystagbefore_edge": 1,
+                "fragmentedgec": 1
+            },
+            "startdescription": "'In the crucible of adversity, one becomes the resilient vanguard of their destiny...'",
+            "description": "The Stag Door, guardian of mystery, opens with a resonant hum. A corridor bathed in a light sharp as a blade extends into the beyond. Ghirbi, the Head, weeps molten brass tears, each sizzling droplet reflecting a thousand possibilities of victory and defeat. I step forward, ready to carve my path with the edge of relentless determination.",
+            "effects": {
+                "riddle": -1,
+"desire": -99,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dance_upgradetoobsession",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dance_answerstagriddle_knock",
+            "label": "Ritual of Serpent's Shed",
+            "actionid": "work",
+            "requirements": {
+                "waystagbefore_knock": 1,
+                "fragmentknockc": 1
+            },
+            "startdescription": "'Like the serpent shedding its skin, let us discard our past limitations...'",
+            "description": "The Stag Door slithers open. The energy of metamorphosis pulses from the space within. Ghirbi hisses a transformative hymn, its tears molding into sloughed serpent skins. I step into the rhythm of constant change.",
+            "effects": {
+                "riddle": -1,
+"desire": -99,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dance_upgradetoobsession",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dance_answerstagriddle_forge",
+            "label": "Resonance of Chant of Change",
+            "actionid": "work",
+            "requirements": {
+                "waystagbefore_forge": 1,
+                "fragmentforgec": 1
+            },
+            "startdescription": "'To resonate with the forge of transformation, let us recite the Chant of Change...'",
+            "description": "The Stag Door rumbles open. The searing energy of the forge surges from the chamber beyond. Ghirbi chants a thunderous hymn, its tears splattering into molten embers. I brace myself to step into the furnace of transformation.",
+            "effects": {
+                "riddle": -1,
+"desire": -99,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dance_upgradetoobsession",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dance_answerstagriddle_moth",
+            "label": "Parable of the Roleplayer's Dilemma",
+            "actionid": "work",
+            "requirements": {
+                "waystagbefore_moth": 1,
+                "fragmentmothc": 1
+            },
+            "startdescription": "'Every roleplayer's heart flutters with the question, 'What could we become?' Here is my interpretation...'",
+            "description": "The Stag Door flutters open. The chamber within brims with the elusive energy of a roleplayer's dilemma. Ghirbi whispers a confounding parable, its brass tears morphing into fluttering moths. I am ready to face the uncertainty of becoming.",
+            "effects": {
+                "riddle": -1,
+"desire": -99,
+                "waystag_after": 1,
+                "health": 1,
+                "passion": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dance_upgradetoobsession",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+          "id": "dance_wronganswerstagriddle",
+          "actionid": "work",
+          "label": "This is Not the Answer",
+          "requirements": {
+            "lore": 1
+          },
+          "startdescription": "Ghirbi has fallen very far. It may not enter the House, and one of its few satisfactions is to deny entry. It has too much honour to mock me, but I see the satisfaction in its golden eyes. 'That is not,' it says, with relish, 'the answer.'",
+          "description": "I am awake. My eyes are open, and the Stag Door remains closed. Now I drift into other dreams.",
+          "linked": [
+            {
+              "id": "dance_router",
+              "chance": 100
+            }
+          ]
+        },
+        {
+            "id": "dance_upgradetoobsession",
+            "label": "A Breakthrough",
+            "actionid": "work",
+            "requirements": {
+                "waystag_after": 1
+            },
+            "effects": {
+                "cult_catgirl": 1,
+                "year.stolen": 3,
+                "decade.stolen": 3,
+                "pre_catgirl_dedication_3": 1
+            },
+            "startdescription": "This rite is the Key that will allow the Watchman's gaze to enter me. I will be changed forever.",
+            "description": "The Rite is complete. The Marks of the Watchman are upon me. The First Mark is what I have said, and the Second is what I have done. If I inspect my body, I'll find the Third. My hungers have been refined, now.",
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "flammarion",
+            "$priority": 500,
+            "portaleffect": "stagdoor",
+            "alt":{
+                "id": "travel.first.catgirl",
+                "chance": 100,
+                "additional": true
+            } 
+        },
+    ]
+}

@@ -76,6 +76,11 @@
                     "id": "legacydancer_openexplore_heart",
                     "chance": 100,
                     "additional": true
+                },
+                {
+                    "id": "legacydancer_open_surf",
+                    "chance": 100,
+                    "additional": true
                 }
             ],
             "linked": [
@@ -115,6 +120,11 @@
                     "id": "legacydancer_openexplore_moth",
                     "chance": 100,
                     "additional": true
+                },
+                {
+                    "id": "legacydancer_open_surf",
+                    "chance": 100,
+                    "additional": true
                 }
             ],
             "linked": [
@@ -137,6 +147,22 @@
                     "additive": true
                 }
             ]
+        },
+        {
+            "id": "legacydancer_open_surf",
+            "chance": 100,
+            "additional": true,
+            "actionid": "surf",
+            "label": "Searching everywhere online for information",
+            "effects": {
+                "glimmering": 1,
+                "erudition": 1
+            },
+            "startdescription": "Trying to find where my passion lies.",
+            "description": ".",
+            "warmup": 30,
+            "craftable": false,
+            "comments": "10s after intro triggered. It directly switches to surfing the deep web, and getting a bill. Displayed cards should be Health Funds Passion, and funds is immediately eaten by bill"
         },
         {
             "id": "legacydancer_openexplore_heart",

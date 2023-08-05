@@ -73,7 +73,6 @@
         "label": "There's more!",
         "startdescription": "There is more! The cats of the enchanted forest. I have hope. Now I just need to enter the stag door. There I can gain their power and use it to gain freedom for everyone!",
         "warmup": 60,
-        "portaleffect": "whitedoor",
         "alt":[
             {
                 "id": "surf.exile",

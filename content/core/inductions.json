@@ -194,7 +194,7 @@
             "warmup": 10,
             "alt":[
                 {
-                    "id": "moth.induction",
+                    "id": "mothinduction",
                     "chance": 100,
                     "additional": true
                 }
@@ -662,7 +662,7 @@
             "craftable": false
         },
         {
-            "id": "moth.induction",
+            "id": "mothinduction",
             "label": "The Larping Game",
             "actionid": "mothinduction",
             "effects": {
@@ -684,17 +684,18 @@
             ],
             "linked": [
                 {
-                    "id": "moth.induction.success",
+                    "id": "mothinduction.success",
                     "chance": 100
                 },
                 {
-                    "id": "moth.induction.failure",
+                    "id": "mothinduction.failure",
                     "chance": 100
                 }
-            ]
+            ],
+            "$priority": 500
         },
         {
-            "id": "moth.induction.success",
+            "id": "mothinduction.success",
             "label": "Personas Pierced",
             "description": "The many faces of life are donned, myriad perspectives tasted. I understand Moth a little better.",
             "warmup": 0,
@@ -710,7 +711,7 @@
             },
         },
         {
-            "id": "moth.induction.failure",
+            "id": "mothinduction.failure",
             "label": "The Larping Game",
             "description": "I flit between personas, tasting myriad perspectives, unshackled from my singular viewpoint.",
             "warmup": 0,

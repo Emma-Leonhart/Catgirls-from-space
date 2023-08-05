@@ -38,15 +38,7 @@
                     "chance": 100
                 },
                 {
-                    "id": "A_ecdysis_switchtochangefromsensation",
-                    "chance": 100
-                },
-                {
-                    "id": "A_ecdysis_switchtochangefrompower",
-                    "chance": 100
-                },
-                {
-                    "id": "A_ecdysis_cantswitchtochangefromenlightenment",
+                    "id": "A_ecdysis_switch_to_neko_from_capital",
                     "chance": 100
                 },
                 {
@@ -62,38 +54,18 @@
             "warmup": 60
         },
         {
-            "id": "A_ecdysis_switchtochangefromsensation",
-            "label": "Pursue Change, not Sensation",
+            "id": "A_ecdysis_switch_to_neko_from_capital",
+            "label": "Pursue Cuteness, not Capital",
             "requirements": {
-                "ascensionsensationa": 1
+                "ascensioncapitala": 1
             },
             "actionid": "explore",
             "effects": {
-                "ascensionsensationa": -1,
-                "ascensionchangea": 1
+                "ascensioncapitala": -1,
+                "catgirl_dedication_1": 1
             },
             "startdescription": "'Reconsidering the Grail's path, are we? Be sure. The Forms are no easier. But if you truly want to Change -'",
             "description": "Sulochana moves close, studies my face, places her hand on my cheek. Her skin is cold: her breath is warm. The corners of her mouth writhe. 'Sleep on it. Come and see me again next time the club opens. We'll talk more.'",
-            "linked": [
-                {
-                    "id": "L_desire_addmothtrack",
-                    "chance": 100
-                }
-            ]
-        },
-        {
-            "id": "A_ecdysis_switchtochangefrompower",
-            "label": "Pursue Change, not Power",
-            "requirements": {
-                "ascensionpowera": 1
-            },
-            "actionid": "explore",
-            "effects": {
-                "ascensionpowera": -1,
-                "ascensionchangea": 1
-            },
-            "startdescription": "'Reconsidering the Forge's path, are we? Be certain. The fire is a different fire, but the Forms are no easier - '",
-            "description": "Sulochana moves close, studies my face. She flicks ash from her cigarette. The coal at its end glows softly. She chuckles. 'Sleep on it. Come and see me again next time the club opens. We'll talk more.'",
             "linked": [
                 {
                     "id": "L_desire_addmothtrack",
@@ -116,7 +88,8 @@
             "label": "The Forms To Come",
             "actionid": "explore",
             "requirements": {
-                "changemarks": 1
+                "desire": 1,
+                "capitalmarks": -1
             },
             "startdescription": "'Are you ready to work? Why are we wasting time here? [Use your Contract with the Club to dance.]'",
             "description": "'Yes, I know what you want.' She indicates the tall figure beside her. 'So does Mr Agdistis. You're too late to dance tonight. Be prompter, next time.'"
@@ -226,7 +199,8 @@
                 "locationcabaret": 1
             },
             "craftable": true,
-            "hintonly": true
+            "hintonly": true,
+            "$priority": 500
         },
         {
             "id": "ecdysisdance_generichint",
@@ -717,60 +691,26 @@
             "craftable": true
         },
         {
-            "id": "ecdysisdance_ascensionlessonmotha",
+            "id": "ecdysisdance_ascensionlessonhearta_catgirl",
             "label": "Work at the Ecdysis Club: the Vehemence of Skin",
             "actionid": "work",
             "startdescription": "Tonight we are wrapped tightly in scarves of green silk. We will disrobe with more vehemence than usual. Before I begin, Mr Agdistis hands me up a mouthless oval mask, the green of spring leaves. I hesitate a moment before I put it on. He has smeared its inner surface with fresh loam.",
-            "description": "When the first scarf comes away, the pain is shocking, like a tearing scab. The next one is easier, and the next, but I stagger a little. My compatriots glance at me in concern: I know that my expression is invisible behind the mask. For our conclusion, we wind together in a ring. When I tear away the last scarf, the wrench is like a root torn from the earth. I dare not remove the mask. Afterwards, my skin is unmarked.",
-            "requirements": {
-                "ecdysijob": 1,
-                "locationcabaret": 1,
-                "moth": 4,
-                "ascensionchangea": 1
-            },
-            "effects": {
-                "funds": 1,
-                "mystique": 1,
-                "ascensionlessonmotha": 1
-            },
-            "deckeffects": {
-                "ecdysisrewards": 1
-            },
-            "alt": [
-                {
-                    "id": "passion_expel_to_scar",
-                    "chance": 30,
-                    "additional": true,
-                    "expulsion": {
-                        "limit": 1,
-                        "filter": {
-                            "passionexhausted": 1
-                        }
-                    }
-                }
-            ],
-            "warmup": 60,
-            "craftable": true
-        },
-        {
-            "id": "ecdysisdance_ascensionlessonhearta",
-            "label": "Work at the Ecdysis Club: the Vehemence of Skin",
-            "actionid": "work",
-            "startdescription": "Tonight we are wrapped tightly in scarves of green silk. We will disrobe with more vehemence than usual. Before I begin, Mr Agdistis hands me up a mouthless oval mask, the green of spring leaves. I hesitate a moment before I put it on. He has smeared its inner surface with fresh loam.",
-            "description": "When the first scarf comes away, the pain is shocking, like a tearing scab. The next one is easier, and the next, but I stagger a little. My compatriots glance at me in concern: I know that my expression is invisible behind the mask. For our conclusion, we wind together in a ring. When I tear away the last scarf, the wrench is like a root torn from the earth. I dare not remove the mask. Afterwards, my skin is unmarked.",
+            "description": "When the first scarf comes away, the pain is shocking, like a tearing scab. The next one is easier, and the next, but I stagger a little. My compatriots glance at me in concern: I know that my expression is invisible behind the mask. For our conclusion, we wind together in a ring. When I tear away the last scarf, the wrench is like a root torn from the earth. I dare not remove the mask. Afterwards, my skin is unmarked. I saw a vision as I danced, and a riddle. Sulochana says I must dance with the riddle and its solution to get the way forward for my next dance.",
             "requirements": {
                 "ecdysijob": 1,
                 "locationcabaret": 1,
                 "heart": 4,
-                "ascensionchangea": 1
+                "ascensionsensationa": 1
             },
             "effects": {
                 "funds": 1,
                 "mystique": 1,
-                "ascensionlessonhearta": 1
+                "ascensionsensationa": -1,
+                "ascensionsensationbf": 1
             },
             "deckeffects": {
-                "ecdysisrewards": 1
+                "ecdysisrewards": 1,
+                "stagriddles": 1
             },
             "alt": [
                 {
@@ -786,7 +726,153 @@
                 }
             ],
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "portaleffect": "whitedoor",
+            "$priority": 500
+        },
+        {
+            "id": "ecdysisdance_ascensionlessongraila",
+            "label": "Work at the Ecdysis Club: the Vehemence of Skin",
+            "actionid": "work",
+            "startdescription": "Tonight we are wrapped tightly in scarves of green silk. We will disrobe with more vehemence than usual. Before I begin, Mr Agdistis hands me up a mouthless oval mask, the green of spring leaves. I hesitate a moment before I put it on. He has smeared its inner surface with fresh loam.",
+            "description": "When the first scarf comes away, the pain is shocking, like a tearing scab. The next one is easier, and the next, but I stagger a little. My compatriots glance at me in concern: I know that my expression is invisible behind the mask. For our conclusion, we wind together in a ring. When I tear away the last scarf, the wrench is like a root torn from the earth. I dare not remove the mask. Afterwards, my skin is unmarked. I saw a vision as I danced, and a riddle. Sulochana says I must dance with the riddle and its solution to get the way forward for my next dance.",
+            "requirements": {
+                "ecdysijob": 1,
+                "locationcabaret": 1,
+                "grail": 4,
+                "ascensionenlightenmenta": 1
+            },
+            "effects": {
+                "funds": 1,
+                "mystique": 1,
+                "ascensionenlightenmenta": -1,
+                "ascensionenlightenmentb": 1
+            },
+            "deckeffects": {
+                "ecdysisrewards": 1,
+                "stagriddles": 1
+            },
+            "alt": [
+                {
+                    "id": "reason_expel_to_scar",
+                    "chance": 30,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "concentration": 1
+                        }
+                    }
+                }
+            ],
+            "warmup": 60,
+            "craftable": true,
+            "portaleffect": "whitedoor",
+            "$priority": 500
+        },
+        {
+            "id": "ecdysisdance_ascensionlessonmotha_catgirl",
+            "label": "Work at the Ecdysis Club: the Vehemence of Skin",
+            "actionid": "work",
+            "startdescription": "Tonight we are wrapped tightly in scarves of green silk. We will disrobe with more vehemence than usual. Before I begin, Mr Agdistis hands me up a mouthless oval mask, the green of spring leaves. I hesitate a moment before I put it on. He has smeared its inner surface with fresh loam.",
+            "description": "When the first scarf comes away, the pain is shocking, like a tearing scab. The next one is easier, and the next, but I stagger a little. My compatriots glance at me in concern: I know that my expression is invisible behind the mask. For our conclusion, we wind together in a ring. When I tear away the last scarf, the wrench is like a root torn from the earth. I dare not remove the mask. Afterwards, my skin is unmarked. I saw a vision as I danced, and a riddle. Sulochana says I must dance with the riddle and its solution to get the way forward for my next dance.",
+            "requirements": {
+                "ecdysijob": 1,
+                "locationcabaret": 1,
+                "moth": 4,
+                "ascensionpowera": 1
+            },
+            "effects": {
+                "funds": 1,
+                "mystique": 1,
+                "ascensionpowera": -1,
+                "ascensionpowerb": 1
+            },
+            "deckeffects": {
+                "ecdysisrewards": 1,
+                "stagriddles": 1
+            },
+            "alt": [
+                {
+                    "id": "passion_expel_to_scar",
+                    "chance": 30,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "passionexhausted": 1
+                        }
+                    }
+                }
+            ],
+            "warmup": 60,
+            "craftable": true,
+            "portaleffect": "whitedoor",
+            "$priority": 500
+        },
+        {
+            "id": "ecdysisdance_ascensionlessonnekoa",
+            "label": "Work at the Ecdysis Club: the Vehemence of Skin",
+            "actionid": "work",
+            "startdescription": "Tonight we are wrapped tightly in scarves of green silk. We will disrobe with more vehemence than usual. Before I begin, Mr Agdistis hands me up a mouthless oval mask, the green of spring leaves. I hesitate a moment before I put it on. He has smeared its inner surface with fresh loam.",
+            "description": "When the first scarf comes away, the pain is shocking, like a tearing scab. The next one is easier, and the next, but I stagger a little. My compatriots glance at me in concern: I know that my expression is invisible behind the mask. For our conclusion, we wind together in a ring. When I tear away the last scarf, the wrench is like a root torn from the earth. I dare not remove the mask. Afterwards, my skin is unmarked. I saw a vision as I danced, and a riddle. Sulochana says I must dance with the riddle and its solution to get the way forward for my next dance.",
+            "requirements": {
+                "ecdysijob": 1,
+                "locationcabaret": 1,
+                "moth": 2,
+                "grail": 2,
+                "heart": 2,
+                "catgirl_dedication_1": 1
+            },
+            "effects": {
+                "funds": 1,
+                "mystique": 1,
+                "catgirl_dedication_1": -1,
+                "catgirl_dedication_2": 1
+            },
+            "deckeffects": {
+                "ecdysisrewards": 1,
+                "stagriddles": 1
+            },
+            "alt": [
+                {
+                    "id": "passion_expel_to_scar",
+                    "chance": 30,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "passionexhausted": 1
+                        }
+                    }
+                },
+                {
+                    "id": "reason_expel_to_scar",
+                    "chance": 30,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "concentration": 1
+                        }
+                    }
+                },
+                {
+                    "id": "health_expel_to_scar",
+                    "chance": 30,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "fatigue": 1
+                        }
+                    }
+                }
+            ],
+            "warmup": 60,
+            "craftable": true,
+            "portaleffect": "whitedoor",
+            "$priority": 500
         },
         {
             "id": "ecdysisdance_ascensionlessonheart_fallthrough",
@@ -798,7 +884,7 @@
                 "ecdysijob": 1,
                 "locationcabaret": 1,
                 "heart": 3,
-                "changemarks": 1
+                "desire": 1
             },
             "effects": {
                 "funds": 1,
@@ -821,7 +907,8 @@
                 }
             ],
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "$priority": 400
         },
         {
             "id": "ecdysisdance_ascensionlessonmoth_fallthrough",
@@ -833,7 +920,7 @@
                 "ecdysijob": 1,
                 "locationcabaret": 1,
                 "moth": 3,
-                "changemarks": 1
+                "desire": 1
             },
             "effects": {
                 "funds": 1,
@@ -856,7 +943,8 @@
                 }
             ],
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "$priority": 400
         },
         {
             "id": "ecdysisdance_genericheart",
@@ -995,7 +1083,7 @@
             "startdescription": "Out for the evening...",
             "description": "As the sun rises the next morning I find myself propped against a chimney-stack, overlooking the dawn-filtered city. My hair is a mess, and someone has stolen my shoes.",
             "requirements": {
-                "changemarks": 1,
+                "desire": 1,
                 "ecdysijob": -1,
                 "job": -1,
                 "dance": -1,

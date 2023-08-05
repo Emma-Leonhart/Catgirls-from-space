@@ -29,6 +29,14 @@
             ]
         },
         {
+            "id": "pre_catgirl_dedication_3",
+            "label": "Ascension: Catgirl",
+            "description": "[An Ascension develops...]",
+            "lifetime": 1,
+            "icon": "Temptation.Catgirl",
+            "decayTo": "catgirl_dedication_3"
+        },
+        {
 			"id": "catgirl_marks",
 			"label": "The Marks of the Immortal Catgirl",
 			"isAspect": true,
@@ -68,7 +76,7 @@
         },
         {
             "id": "catgirl_dedication_1",
-            "label": "Temptation: Catgirl",
+            "label": "Inspiration: Catgirl",
             "aspects": {
                 "desire": 1,
                 "nekomarks": 1

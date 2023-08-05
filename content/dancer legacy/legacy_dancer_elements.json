@@ -89,9 +89,10 @@
                     "actionid": "work",
                     "required": {
                         "desire": 1,
-                        "healthskill": 1
+                        "healthskill": 1,
+                        "riddle": 1
                     },
-                    "description": "Show my Skill to gain access to more complex dances; or use my Desire to pursue Change; or leave empty if I'm just earning money."
+                    "description": "Show my Skill to gain access to more complex dances; or use my Desire or a Riddle to pursue Change; or leave empty if I'm just earning money."
                 },
                 {
                     "id": "abilityfirst",
@@ -100,6 +101,7 @@
                     "actionid": "work",
                     "required": {
                         "health": 1,
+                        "reason": 1,
                         "passion": 1,
                         "scar": 1
                     }
@@ -141,9 +143,10 @@
                     "actionid": "work",
                     "required": {
                         "desire": 1,
-                        "healthskill": 1
+                        "healthskill": 1,
+                        "riddle": 1
                     },
-                    "description": "Show my Skill to gain access to more complex dances; or use my Desire to pursue Change; or leave empty if I'm just earning money."
+                    "description": "Show my Skill to gain access to more complex dances; or use my Desire or a Riddle to pursue Change; or leave empty if I'm just earning money."
                 },
                 {
                     "id": "abilityfirst",
@@ -152,6 +155,7 @@
                     "actionid": "work",
                     "required": {
                         "health": 1,
+                        "reason": 1,
                         "passion": 1,
                         "scar": 1
                     }
@@ -163,6 +167,7 @@
                     "actionid": "work",
                     "required": {
                         "health": 1,
+                        "reason": 1,
                         "passion": 1,
                         "scar": 1
                     }
@@ -204,9 +209,10 @@
                     "actionid": "work",
                     "required": {
                         "desire": 1,
-                        "healthskill": 1
+                        "healthskill": 1,
+                        "riddle": 1
                     },
-                    "description": "Use my Desire to pursue Change; or leave empty if I'm just earning money."
+                    "description": "Use my Desire or a Riddle to pursue Change; or leave empty if I'm just earning money."
                 },
                 {
                     "id": "abilityfirst",
@@ -215,6 +221,7 @@
                     "actionid": "work",
                     "required": {
                         "health": 1,
+                        "reason": 1,
                         "passion": 1,
                         "scar": 1
                     }
@@ -226,6 +233,7 @@
                     "actionid": "work",
                     "required": {
                         "health": 1,
+                        "reason": 1,
                         "passion": 1,
                         "scar": 1
                     }
@@ -237,6 +245,7 @@
                     "actionid": "work",
                     "required": {
                         "health": 1,
+                        "reason": 1,
                         "passion": 1,
                         "scar": 1
                     }

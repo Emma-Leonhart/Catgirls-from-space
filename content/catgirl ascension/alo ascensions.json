@@ -298,6 +298,7 @@
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion",
+            "$priority": 500,
             "alt":{
                 "id": "travel.first.catgirl",
                 "chance": 100,
@@ -325,6 +326,7 @@
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion",
+            "$priority": 500,
             "alt":{
                 "id": "travel.first.catgirl",
                 "chance": 100,
@@ -352,6 +354,7 @@
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion",
+            "$priority": 500,
             "alt":{
                 "id": "travel.first.catgirl",
                 "chance": 100,
@@ -393,6 +396,7 @@
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion",
+            "$priority": 500,
             "alt":{
                 "id": "travel.first.catgirl",
                 "chance": 100,
@@ -420,6 +424,7 @@
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion",
+            "$priority": 500,
             "alt":{
                 "id": "travel.first.catgirl",
                 "chance": 100,
@@ -447,6 +452,7 @@
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion",
+            "$priority": 500,
             "alt":{
                 "id": "travel.first.catgirl",
                 "chance": 100,
@@ -557,6 +563,7 @@
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion",
+            "$priority": 500,
             "alt":{
                 "id": "travel.first.catgirl",
                 "chance": 100,
@@ -585,6 +592,7 @@
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion",
+            "$priority": 500,
             "alt":{
                 "id": "travel.first.catgirl",
                 "chance": 100,
@@ -613,6 +621,7 @@
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion",
+            "$priority": 500,
             "alt":{
                 "id": "travel.first.catgirl",
                 "chance": 100,
