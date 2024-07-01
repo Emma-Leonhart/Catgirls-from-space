@@ -17,3 +17,5 @@ Implement travel and relinquish from the beginning on all legacies
 
 Make a decision on whether to ban dlc legacies in this mod
 * Exception obviously being exile
+
+test
