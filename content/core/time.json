@@ -774,7 +774,7 @@
                     "id": "drawseason_exile"
                 }
             ],
-            "comment": "the idea is to do the extantreqs check every turn. If there is trace then time has moved to exile hybrid mode, until then do not do exile things"
+            "comments": "the idea is to do the extantreqs check every turn. If there is trace then time has moved to exile hybrid mode, until then do not do exile things"
         },
         {
             "id": "turn.check.trace",

@@ -106,7 +106,7 @@
         },
         {
             "id": "men_in_black_study_briefing",
-            "comment": "This one is most likely to be broken as I want a specific character of snake alignment to come. Notes for a collaborator are destroyed possibly by the researcher",
+            "comments": "This one is most likely to be broken as I want a specific character of snake alignment to come. Notes for a collaborator are destroyed possibly by the researcher",
             "label": "Study the Briefing",
             "actionid": "study",
             "requirements": {
@@ -142,7 +142,7 @@
         },
         {
             "id": "men_in_black_temptation_briefing",
-            "comment": "This one is most likely to be broken as I want a specific character of snake alignment to come. Notes for a collaborator are destroyed possibly by the researcher",
+            "comments": "This one is most likely to be broken as I want a specific character of snake alignment to come. Notes for a collaborator are destroyed possibly by the researcher",
             "label": "Study the Briefing",
             "actionid": "craving",
             "requirements": {

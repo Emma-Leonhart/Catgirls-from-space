@@ -68,7 +68,7 @@
                 "lensing": -1
             },
             "warmup": 10,
-            "comment": "optimized to 60 seconds on a success"
+            "comments": "optimized to 60 seconds on a success"
         },
         {
             "id": "decade_failure",

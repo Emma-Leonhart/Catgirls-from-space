@@ -18,7 +18,7 @@
                     "op.hireling"
             ],
             "defaultcard": "location.temple",
-            "comment": "base exploration for inside the city of london at the beginning. But generic and does not create trace"
+            "comments": "base exploration for inside the city of london at the beginning. But generic and does not create trace"
         },
         {
             "id": "explore.lensing.finds",

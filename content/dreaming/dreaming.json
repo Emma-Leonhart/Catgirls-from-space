@@ -59,7 +59,7 @@
                 "lensing": -1
             },
             "warmup": 30,
-            "comment": "may want to make this enter you into the Mansus",
+            "comments": "may want to make this enter you into the Mansus",
             "linked": [
                 {
                     "id": "dreamlensingdark",

@@ -177,7 +177,7 @@
             "description": "My correspondent describes my dreams exactly! They use names that are instantly familiar - Alpha Lambda Omega. I feel so at home. Like I've been reunited with family I didn't know existed. <b>A new love burns in me.</b>\nThere is a note here - directions to a book shop that does not advertise its wares -\n",
             "warmup": 30,
             "craftable": true,
-            "comment": "for some reason game does not confuse it with studyhealth"
+            "comments": "for some reason game does not confuse it with studyhealth"
         },
         {
             "id": "neko.studybequestlambda",
@@ -211,7 +211,7 @@
             "description": "My correspondent describes my dreams exactly! They use names that are instantly familiar - Alpha Lambda Omega. I see clearly now. All delusions are no more. <b>A new vision burns in me</b>.\nThere is a note here - directions to a book shop that does not advertise its wares -\n",
             "warmup": 30,
             "craftable": true,
-            "comment": "game confuses it with studyreason"
+            "comments": "game confuses it with studyreason"
         },
         {
             "id": "neko.studybequestomega",
@@ -245,11 +245,11 @@
             "description": "My correspondent describes my dreams exactly! They use names that are instantly familiar - Alpha Lambda Omega. I imagine how everything could be so different if we put this into action. <b>A new curiosity burns in me.</b>\nThere is a note here - directions to a book shop that does not advertise its wares -\n",
             "warmup": 30,
             "craftable": true,
-            "comment": "game confuses it with studypassion"
+            "comments": "game confuses it with studypassion"
         },
         {
             "id": "neko.studybequestkapital",
-            "comment": "This one is most likely to be broken as I want a specific character of snake alignment to come. Notes for a collaborator are destroyed possibly by the researcher",
+            "comments": "This one is most likely to be broken as I want a specific character of snake alignment to come. Notes for a collaborator are destroyed possibly by the researcher",
             "label": "Examine my Bequest, employing a Researcher",
             "actionid": "study",
             "requirements": {

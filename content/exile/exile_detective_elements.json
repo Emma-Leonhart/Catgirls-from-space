@@ -15,7 +15,7 @@
             "xtriggers": {
                 "careeradvancement": "detectivejob.exile"
             },
-            "comment": "The job will disappear if you leave the town. The license is used to spawn the job. Job works reasonably different from men in black positions, being more forgiving and more susceptible to bribery"
+            "comments": "The job will disappear if you leave the town. The license is used to spawn the job. Job works reasonably different from men in black positions, being more forgiving and more susceptible to bribery"
         },
         {
             "id": "detectivejob.exile",

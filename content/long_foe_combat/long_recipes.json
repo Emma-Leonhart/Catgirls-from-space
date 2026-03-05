@@ -430,7 +430,7 @@
                 {
                     "id": "long.refinestrategy.intrigue.scandal",
                     "chance": 70,
-                    "comment": "previously a higher level thing but this is not that bad in our run structure"
+                    "comments": "previously a higher level thing but this is not that bad in our run structure"
                 },
                 {
                     "id": "long.refinestrategy.dreams.drysoul",

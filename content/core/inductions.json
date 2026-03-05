@@ -3,7 +3,7 @@
         {
             "id": "all_induction",
             "label": "Inducing all of ALO",
-            "comment": "debug induction to remind me of the order of the alo elements",
+            "comments": "debug induction to remind me of the order of the alo elements",
             "actionid": "alo_induction",
             "description": "Testing the induction of all the elements",
             "warmup": 10,
@@ -41,7 +41,7 @@
         {
             "id": "all_induction_winter",
             "label": "Inducing all of ALO",
-            "comment": "debug induction to remind me of the order of the alo elements",
+            "comments": "debug induction to remind me of the order of the alo elements",
             "actionid": "alo_induction",
             "description": "Testing the induction of all the elements",
             "warmup": 10,
@@ -62,7 +62,7 @@
         {
             "id": "all_induction_secret_histories",
             "label": "Inducing all of ALO",
-            "comment": "debug induction to remind me of the order of the alo elements",
+            "comments": "debug induction to remind me of the order of the alo elements",
             "actionid": "alo_induction",
             "description": "Testing the induction of all the elements",
             "warmup": 10,
@@ -83,7 +83,7 @@
         {
             "id": "all_induction_lantern",
             "label": "Inducing all of ALO",
-            "comment": "debug induction to remind me of the order of the alo elements",
+            "comments": "debug induction to remind me of the order of the alo elements",
             "actionid": "alo_induction",
             "description": "Testing the induction of all the elements",
             "warmup": 10,
@@ -104,7 +104,7 @@
         {
             "id": "all_induction_grail",
             "label": "Inducing all of ALO",
-            "comment": "debug induction to remind me of the order of the alo elements",
+            "comments": "debug induction to remind me of the order of the alo elements",
             "actionid": "alo_induction",
             "description": "Testing the induction of all the elements",
             "warmup": 10,
@@ -125,7 +125,7 @@
         {
             "id": "all_induction_edge",
             "label": "Inducing all of ALO",
-            "comment": "debug induction to remind me of the order of the alo elements",
+            "comments": "debug induction to remind me of the order of the alo elements",
             "actionid": "alo_induction",
             "description": "Testing the induction of all the elements",
             "warmup": 10,
@@ -146,7 +146,7 @@
         {
             "id": "all_induction_knock",
             "label": "Inducing all of ALO",
-            "comment": "debug induction to remind me of the order of the alo elements",
+            "comments": "debug induction to remind me of the order of the alo elements",
             "actionid": "alo_induction",
             "description": "Testing the induction of all the elements",
             "warmup": 10,
@@ -167,7 +167,7 @@
         {
             "id": "all_induction_forge",
             "label": "Inducing all of ALO",
-            "comment": "debug induction to remind me of the order of the alo elements",
+            "comments": "debug induction to remind me of the order of the alo elements",
             "actionid": "alo_induction",
             "description": "Testing the induction of all the elements",
             "warmup": 10,
@@ -188,7 +188,7 @@
         {
             "id": "all_induction_moth",
             "label": "Inducing all of ALO",
-            "comment": "debug induction to remind me of the order of the alo elements",
+            "comments": "debug induction to remind me of the order of the alo elements",
             "actionid": "alo_induction",
             "description": "Testing the induction of all the elements",
             "warmup": 10,
@@ -209,7 +209,7 @@
         {
             "id": "all_induction_hand",
             "label": "Inducing hand too",
-            "comment": "debug induction to remind me of the order of the alo elements",
+            "comments": "debug induction to remind me of the order of the alo elements",
             "actionid": "alo_induction",
             "description": "Testing the induction of all the elements",
             "warmup": 10,

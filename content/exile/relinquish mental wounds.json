@@ -109,7 +109,7 @@
             },
             "warmup": 30,
             "craftable": true,
-            "comment": "vitality is far too cheap for permanently eliminating a wound"
+            "comments": "vitality is far too cheap for permanently eliminating a wound"
         },
         {
             "id": "relinquish.vitality.healwound.emotional",
@@ -128,7 +128,7 @@
             },
             "warmup": 30,
             "craftable": true,
-            "comment": "vitality is far too cheap for permanently eliminating a wound"
+            "comments": "vitality is far too cheap for permanently eliminating a wound"
         }
     ]
 }

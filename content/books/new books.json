@@ -1190,8 +1190,8 @@
             "worth": 1,
             "worth": 1
         },
-        "description": "The Art of the Deal is a book written by Donald Trump and Tony Schwartz. It provides insights into Trump's business strategies and negotiation tactics.",
-        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "description": "A gilded manifesto of dealmaking dressed as autobiography. Trump and ghostwriter Schwartz lay out a philosophy where leverage is king, perception is reality, and every human interaction is a transaction waiting to be won. Reading it feels like shaking hands with the invisible Hand itself.",
+        "comments": "Description updated by Claude",
         "xtriggers": {
             "book_to_lore": "fragmenthand"
         },
@@ -1207,8 +1207,8 @@
             "worth": 1,
             "worth": 1
         },
-        "description": "Zero to One is a book by Peter Thiel and Blake Masters that explores innovative thinking and strategies for building successful startups and shaping the future.",
-        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "description": "Thiel's thesis is seductive in its clarity: true progress means building monopolies, not competing. From PayPal to Palantir, he argues that the future belongs to those who escape competition entirely — capturing markets so completely that the Hand's grip becomes invisible. The chapter on secrets reads like a recruitment pamphlet.",
+        "comments": "Description updated by Claude",
         "xtriggers": {
             "book_to_lore": "fragmenthandb"
         },
@@ -1224,8 +1224,8 @@
             "worth": 1,
             "worth": 1
         },
-        "description": "The Wealth of Nations is a seminal work by Adam Smith that delves into the principles of economics, discussing the division of labor, free markets, and the invisible hand.",
-        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "description": "Smith's foundational treatise gave the Hand its name — or perhaps the Hand gave Smith the words. His 'invisible hand' metaphor has guided centuries of market worship, arguing that selfishness, properly channeled, produces collective good. The pages smell faintly of tobacco and empire.",
+        "comments": "Description updated by Claude",
         "xtriggers": {
             "book_to_lore": "fragmenthandc"
         },
@@ -1241,8 +1241,8 @@
             "worth": 1,
             "worth": 1
         },
-        "description": "Das Kapital is a seminal work by Karl Marx that analyzes the capitalist mode of production, exploring the dynamics of labor, commodities, and capital.",
-        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "description": "Marx's titanic dissection of capital lays bare the machinery the Hand would prefer stay hidden. Surplus value, commodity fetishism, the tendency of the rate of profit to fall — each chapter is a wound in the Hand's doctrine. Ironically, understanding the enemy this well may be exactly what the Hand requires of its most devoted servants.",
+        "comments": "Description updated by Claude",
         "xtriggers": {
             "book_to_lore": "fragmenthandc"
         },
@@ -1258,8 +1258,8 @@
             "worth": 1,
             "worth": 1
         },
-        "description": "Phenotypic Revolutions is a book by Jean-Francois Gariepy that explores the transformations from genotype to phenotype in digital organisms, shedding light on the complexities of genetic algorithms.",
-        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "description": "Gariepy's treatise maps how organisms transform under selective pressure — how hidden code becomes visible form. The parallels to market evolution are unmistakable: the Hand, too, selects for phenotypes that serve its purposes, discarding what cannot adapt. The mathematics are elegant and deeply unsettling.",
+        "comments": "Description updated by Claude",
         "xtriggers": {
             "book_to_lore": "fragmenthandd"
         },
@@ -1275,8 +1275,8 @@
             "worth": 1,
             "worth": 1
         },
-        "description": "Industrial Society and Its Future, also known as The Unabomber's Manifesto, is a controversial work by Theodore Kaczynski that critiques technological advancement and modern industrial society.",
-        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "description": "Kaczynski's manifesto is a howl against the machine — technology as cage, progress as enslavement, industrial society as a system that devours autonomy. His diagnosis of the 'power process' reads like someone who glimpsed the Hand's architecture and was driven mad by the clarity. The prescriptions are another matter entirely.",
+        "comments": "Description updated by Claude",
         "xtriggers": {
             "book_to_lore": "fragmenthandd"
         },
@@ -1292,8 +1292,8 @@
             "worth": 1,
             "worth": 1
         },
-        "description": "The Dark Forest is a science fiction novel by Cixin Liu. It is the second book in the Remembrance of Earth's Past trilogy, exploring themes of interstellar civilizations and the survival of humanity.",
-        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "description": "Liu's dark hypothesis: the universe is a forest full of hunters, and survival demands silence — or annihilation. Civilizations hide, strike, or die. The 'dark forest' deterrence reads like a cosmic-scale Hand doctrine, where trust is extinction and cooperation is a trap only the naive fall into.",
+        "comments": "Description updated by Claude",
         "xtriggers": {
             "book_to_lore": "fragmenthande"
         },
@@ -1309,8 +1309,8 @@
             "worth": 1,
             "worth": 1
         },
-        "description": "Dead Space is a science fiction horror novel by Antony Johnston and Ben Templesmith. It serves as a tie-in to the popular video game franchise, exploring the chilling events aboard a derelict spaceship.",
-        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "description": "A corporate mining operation tears open something ancient and hungry. Johnston and Templesmith render a universe where profit motive leads humanity into the jaws of alien horror — the Marker's influence spreads through greed before it spreads through flesh. The CEC's slogan might as well be the Hand's: 'Altman be praised.'",
+        "comments": "Description updated by Claude",
         "xtriggers": {
             "book_to_lore": "fragmenthandf"
         },
@@ -1326,8 +1326,8 @@
             "worth": 1,
             "worth": 1
         },
-        "description": "Fanged Noumena is a collection of writings by Nick Land. It spans the years 1987 to 2007 and explores topics such as philosophy, culture, and technology, often challenging conventional perspectives.",
-        "comment": "Description written by GPT-3.5, might want to redo with GPT-4 later",
+        "description": "Land's collected writings trace an arc from Deleuzian acceleration to something darker — a philosophy that welcomes capitalism as a self-organizing alien intelligence devouring human civilization from the inside. The prose reads like prophecy written in fever. If the Hand had a philosopher-laureate, it would be Land.",
+        "comments": "Description updated by Claude",
         "xtriggers": {
             "book_to_lore": "fragmenthandg"
         },

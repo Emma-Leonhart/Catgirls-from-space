@@ -179,7 +179,7 @@
             "description": "My sigma grindset continues.",
             "warmup": 60,
             "craftable": true,
-            "comment": "deprecated as it does not work"
+            "comments": "deprecated as it does not work"
         },
         {
             "id": "workfunds",
@@ -202,7 +202,7 @@
             "startdescription": "Spend Money to make Money. I am definitely not gonna lose all my money from this",
             "warmup": 60,
             "craftable": true,
-            "comment": "this seems to be the recipe that works. Unclear why workfunds doesn't work but deprecating it. On average without applying skill you will break even from investing",
+            "comments": "this seems to be the recipe that works. Unclear why workfunds doesn't work but deprecating it. On average without applying skill you will break even from investing",
             "linked": [
                 {
                     "id": "two_return.one_fund",
@@ -279,7 +279,7 @@
                 }
             ],
             "$priority": 500,
-            "comment": "the fact that there's an even distribution of returns no matter what your input is is an intentional choice. Not a developer oversight"
+            "comments": "the fact that there's an even distribution of returns no matter what your input is is an intentional choice. Not a developer oversight"
         },
         {
             "id": "workfunds.three_funds.router",
@@ -322,7 +322,7 @@
                 }
             ],
             "craftable": false,
-            "comment": "average return seems to be 5.6548723 funds, 1.88 multiplier, check math later"
+            "comments": "average return seems to be 5.6548723 funds, 1.88 multiplier, check math later"
         },
         {
             "id": "nine_return.three_funds",
@@ -335,7 +335,7 @@
             "aspects":{
                 "fatigue_funds": 1
             },
-            "comment": "This is the highest possible return with a 10% probability",
+            "comments": "This is the highest possible return with a 10% probability",
             "craftable": false
         },
         {
@@ -349,7 +349,7 @@
             "aspects":{
                 "fatigue_funds": 1
             },
-            "comment": "This card represents a significant return with a 20% probability",
+            "comments": "This card represents a significant return with a 20% probability",
             "craftable": false
         },
         {
@@ -363,7 +363,7 @@
             "aspects":{
                 "fatigue_funds": 1
             },
-            "comment": "This card represents a modest return with a 30% probability",
+            "comments": "This card represents a modest return with a 30% probability",
             "craftable": false
         },
         {
@@ -377,7 +377,7 @@
             "aspects":{
                 "fatigue_funds": 1
             },
-            "comment": "This card represents breaking even with a 40% probability",
+            "comments": "This card represents breaking even with a 40% probability",
             "craftable": false
         },
         {
@@ -391,7 +391,7 @@
             "aspects":{
                 "fatigue_funds": 1
             },
-            "comment": "This card represents a slight loss with a 50% probability",
+            "comments": "This card represents a slight loss with a 50% probability",
             "craftable": false
         },
         {
@@ -406,7 +406,7 @@
             "aspects":{
                 "fatigue_funds": 1
             },
-            "comment": "This card represents a moderate loss with a 60% probability",
+            "comments": "This card represents a moderate loss with a 60% probability",
             "craftable": false
         },
         {
@@ -421,7 +421,7 @@
             "aspects":{
                 "fatigue_funds": 1
             },
-            "comment": "This card represents a severe loss with a 70% probability",
+            "comments": "This card represents a severe loss with a 70% probability",
             "craftable": false
         },
         {
@@ -434,7 +434,7 @@
             "aspects":{
                 "fatiguing": 1
             },
-            "comment": "This card represents a total loss with an 80% probability",
+            "comments": "This card represents a total loss with an 80% probability",
             "craftable": false
         },
         {
@@ -466,7 +466,7 @@
                 }
             ],
             "craftable": false,
-            "comment": "average return seems to be 3.52735 funds, 1.77 multiplier, check math later"
+            "comments": "average return seems to be 3.52735 funds, 1.77 multiplier, check math later"
         },
         {
             "id": "six_return.two_funds",
@@ -479,7 +479,7 @@
             "aspects":{
                 "fatigue_funds": 1
             },
-            "comment": "This is the highest possible return with a 10% probability",
+            "comments": "This is the highest possible return with a 10% probability",
             "craftable": false
         },
         {
@@ -493,7 +493,7 @@
             "aspects":{
                 "fatigue_funds": 1
             },
-            "comment": "This card represents a solid return with a 30% probability",
+            "comments": "This card represents a solid return with a 30% probability",
             "craftable": false
         },
         {
@@ -506,7 +506,7 @@
             "aspects":{
                 "fatigue_funds": 1
             },
-            "comment": "This card represents breaking even with a 50% probability",
+            "comments": "This card represents breaking even with a 50% probability",
             "craftable": false
         },
         {
@@ -521,7 +521,7 @@
             "aspects":{
                 "fatigue_funds": 1
             },
-            "comment": "This card represents a minor loss with a 70% probability",
+            "comments": "This card represents a minor loss with a 70% probability",
             "craftable": false
         },
         {
@@ -534,7 +534,7 @@
             "aspects":{
                 "fatiguing": 1
             },
-            "comment": "This card represents a total loss with a 100% probability",
+            "comments": "This card represents a total loss with a 100% probability",
             "craftable": false
         },
         {
@@ -562,7 +562,7 @@
                 }
             ],
             "craftable": false,
-            "comment": "average return seems to be 2.155 funds, 2.16 multiplier, check math later"
+            "comments": "average return seems to be 2.155 funds, 2.16 multiplier, check math later"
         },
         {
             "id": "three_return.one_fund",
@@ -575,7 +575,7 @@
             "aspects":{
                 "fatigue_funds": 1
             },
-            "comment": "This is the highest possible return with a 10% probability",
+            "comments": "This is the highest possible return with a 10% probability",
             "craftable": false
         },
         {
@@ -589,7 +589,7 @@
             "aspects":{
                 "fatigue_funds": 1
             },
-            "comment": "This card represents a solid return with a 30% probability",
+            "comments": "This card represents a solid return with a 30% probability",
             "craftable": false
         },
         {
@@ -602,7 +602,7 @@
             "aspects":{
                 "fatigue_funds": 1
             },
-            "comment": "This card represents breaking even with a 50% probability",
+            "comments": "This card represents breaking even with a 50% probability",
             "craftable": false
         },
         {
@@ -615,7 +615,7 @@
             "aspects":{
                 "fatiguing": 1
             },
-            "comment": "This card represents a total loss with a 100% probability",
+            "comments": "This card represents a total loss with a 100% probability",
             "craftable": false
         }
                 

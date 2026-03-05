@@ -124,7 +124,7 @@
 				}
 			],
             "craftable": false,
-            "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
+            "comments": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
             "linked":[
                 {
                     "id": "work.influencer.passion.router",
@@ -156,7 +156,7 @@
             "requirements": {
                 "funds": 1
             },
-            "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
+            "comments": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
             "linked":[
                 {
                     "id": "work.influencer.funds.virality.lore",
@@ -184,7 +184,7 @@
             "requirements": {
                 "health": 1
             },
-            "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
+            "comments": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
             "linked":[
                 {
                     "id": "work.influencer.health.virality.lore",
@@ -212,7 +212,7 @@
             "requirements": {
                 "passion": 1
             },
-            "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
+            "comments": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
             "linked":[
                 {
                     "id": "work.influencer.passion.virality.lore",
@@ -240,7 +240,7 @@
             "requirements": {
                 "reason": 1
             },
-            "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
+            "comments": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
             "linked":[
                 {
                     "id": "work.influencer.reason.virality.lore",
@@ -265,7 +265,7 @@
             "actionid": "surf",
             "label": "Influencer Noskill Router",
             "warmup": 15,
-            "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
+            "comments": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
             "linked":[
                 {
                     "id": "work.influencer.virality",
@@ -280,7 +280,7 @@
         {
             "id": "work.influencer.legacy",
             "actionid": "surf",
-            "comment": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
+            "comments": "shoots you through the legacy options, you need an ability and the influencerjob, and optional virality and lore",
             "craftable": false,
             "warmup": 15,
             "label": "Influencer Router",

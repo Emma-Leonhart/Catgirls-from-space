@@ -15,7 +15,7 @@
 			],
 			"defaultcard": "fleeting",
 			"resetonexhaustion": false,
-			"comment": "The riddles of the Stag Door, which should only be drawn from once."
+			"comments": "The riddles of the Stag Door, which should only be drawn from once."
 		},
 		
 	
@@ -34,7 +34,7 @@
 			"connection.official": "As I journeyed deeper into the inky shadows, a figure emerged, bearing the unmistakable aura of authority. In the midst of the encompassing gloom, our eyes met... Last night, within the confines of the Dark Forest, I believe I encountered the spirit of a lawman, a chief perhaps, lost and wandering. The precise content of our conversation is lost to the twilight, a muffled echo amidst the tree trunks. Yet, an unspoken bond was formed in the silence. I am confident that we will recognize each other in the realm of the waking, connected by our shared nocturnal encounter."
 		},
 		"resetonexhaustion": true,
-		"comment": "The Dark Forest, a location accessible via the Mansus"
+		"comments": "The Dark Forest, a location accessible via the Mansus"
 	},
 	
 		
@@ -53,7 +53,7 @@
 			"connection.ruler": "The Endless Exchange is an arena of continuous transactions, a bustling marketplace with the clink of coins serving as its heartbeat. Amid the sea of figures, each with their own thirst for material gain, there are the select few who have risen to master the game. During a visit to the Exchange, I stumbled upon one such individual - a prosperous capitalist, draped in the aura of the Invisible Hand's favor. They were momentarily lost in the torrent of trade, ensnared by a problematic negotiation. With discretion and care, I helped them regain their footing. As they departed with a newfound appreciation, I knew our paths would cross again in the world of wakefulness. In the endless pursuit of wealth, it seems allies can be found in unexpected places."
 		},
 		"resetonexhaustion": true,
-		"comment": "The Endless Exchange, a location accessible via the Dark Forest",
+		"comments": "The Endless Exchange, a location accessible via the Dark Forest",
 	},
 	
 	{
@@ -71,7 +71,7 @@
 			"op_licence_cop": "Within the tormented expanse of the Wasteland of Want, a figure emerged, bathed in an unholy light. With an offer draped in shadowy seduction, they beckoned me closer. 'Join us,' they whispered, their voice twining around promises of wealth, security, and a world under the Hand's golden reign. The temptation was potent, like a toxic brew. But behind their words lurked an insidious truth - a world stripped of choice, freedom chained, and souls bartered. A chill ran down my spine as I realized the true cost of their offer."
 		},
 		"resetonexhaustion": true,
-		"comment": "The Wasteland of Want, another location accessible via the Dark Forest"
+		"comments": "The Wasteland of Want, another location accessible via the Dark Forest"
 	},
 	
 	{
@@ -91,7 +91,7 @@
 			"rumour": "'As I retreated to the profound depths, a figure manifested before me, their mouth sealed in eternal silence. In the vast expanse of nothingness, their appearance startled me...' I believe that last night, another soul and I shared the woods. The specifics of our exchange might evade my memory, yet I am certain of our impending recognition in the world of wakefulness."
 		},
 		"resetonexhaustion": true,
-		"comment": "The Enchanted Forest, a location accessible via the White Door"
+		"comments": "The Enchanted Forest, a location accessible via the White Door"
 	},	
 
 	{
@@ -115,7 +115,7 @@
 			"connection.underworld": "Inside the Pavilion, I met the Patron of the Forgotten, a figure wrapped in dark intrigue. He held power and secrets in equal measure, hinting at a world unseen by many. 'The Mansus is more than meets the eye. Remember this and find your way in the dark.'"
 		},
 		"resetonexhaustion": true,
-		"comment": "The Great Pavilion, a location accessible via the White Door, formerly the Lodge"
+		"comments": "The Great Pavilion, a location accessible via the White Door, formerly the Lodge"
 	},
 	
 	{
@@ -137,7 +137,7 @@
 			"connection.radical": "Deep in the Orchard of Lights, a Radical Dreamer, a visionary, stirs up the serenity with fervor and fire. His passionate discourses spark a desire for change, even in this place of unchanging beauty, illuminating the radical potential that dreams can hold.",
 		},
 		"resetonexhaustion": true,
-		"comment": "Orchard of Light, location accessible by the white door/enchanted forest" 
+		"comments": "Orchard of Light, location accessible by the white door/enchanted forest" 
 	},
 	
 
@@ -160,7 +160,7 @@
 				"influenceforgec":"Ghirbi was weeping again. I scooped up his molten tears in my cupped palm. In the dream, my skin peeled and blistered, but only in the dream.",
 				"year.stolen":"As I wander the halls of The Pride, a peculiar sensation engulfs me. Amidst the vibrant murmurings of unity and the resonant echoes of connection, I stumble upon an anomaly. A year seems to have seeped into the very fabric of this place. A year imbued with shared laughter, shared tears, and profound unity. A year that once belonged to the flow of time, now firmly anchored in the heart of The Pride."},
 		"resetonexhaustion":true,
-		"comment": "Stag Door - Heart - AA"
+		"comments": "Stag Door - Heart - AA"
 	},
 	
 	{
@@ -182,7 +182,7 @@
 				"influencewintere":"I visited the Ascent of Knives last night, that harshest of roads through the House. It has been sacred to the Meniscate and the Sun-in-Rags since the Intercalate, when the true Sun was divided. When I woke, my room was freezing. The chill of it had cracked the window-glass.",
 				"year.stolen":"I traverse the chill winds and biting paths of the Ascent of Knives, a strange sense of timelessness pervades the air. Amidst the cutting iciness, a unique year seems to be embedded into the very glass of the stair. A year marked by silence, ending, and profound introspection. A year that was once a part of time's relentless march, now frozen in the bitter tranquility of the Ascent of Knives."},
 		"resetonexhaustion":true,
-		"comment": "Ascent of Knives - Winter - AL"
+		"comments": "Ascent of Knives - Winter - AL"
 	},
 	
 	{
@@ -204,7 +204,7 @@
 			"eruditionplus":"The Painted River runs from a great chamber near the White Door, far through the Mansus, to its far edge where it enters a painted delta of far cloud. I voyaged half its length last night with a stern-faced captain beneath a rust-red sail. As the clouds rose before us, the sailors raised a yearning shanty, and close-hauled the sails to best use the painted wind. And all the while the captain and I discoursed on the secrets of the House of the Sun....",
 			"year.stolen":"Drifting along the Painted River, I encounter a strange anomaly. A year seems to have immersed itself into the river's vibrant strokes, becoming a part of its radiant tableau. It's a year filled with veiled revelations and half-whispered secrets, a year that has strayed from the linearity of time and found refuge in the swirling currents of the Painted River."},
 		"resetonexhaustion":true,
-		"comment": "Painted River - Secret Histories - AO"
+		"comments": "Painted River - Secret Histories - AO"
 	},
 	{
 		"id": "mansus_peacockdoor1",
@@ -249,7 +249,7 @@
 			"fascination": "Beneath the gaze of the Peacock's Door, the world as I know it dissolves. Every detail, from the smallest grain to the grandest marvel, reveals a profound beauty, a symphony of interconnected magnificence. I stand at the threshold of the Red Church and the Worm Museum, as if poised on the edge of a dream. I witness the grandeur of existence from an overseer's vantage, and feel a rush of euphoria, a deep longing. The allure is overwhelming, resonating with an unnameable force that pulses through the Lambda Lambda Grail. I am left yearning for more, a potent fascination kindling within me.",
 			"year.stolen":"Within the vibrant colors of the Peacock Door, a stolen year unveils itself. It's a year of passionate desires and enlightened knowledge, of unquenchable thirst for understanding and the radiant power of illumination. This year, dislodged from the confines of conventional time, chooses instead to bask in the allure of the Grail and the enlightening beacon of the Lantern."},
 		"resetonexhaustion":true,
-		"comment": "Peacock Door - Grail - LL."
+		"comments": "Peacock Door - Grail - LL."
 	},
 	{
 		"id": "mansus_peacockdoor2",
@@ -271,7 +271,7 @@
 			"year.stolen":"In the foreboding shadows of the Worm Museum, a stolen year takes form. This year speaks of persistence against the bitter chill of Winter and the relentless battles of Edge. A year where survival and resilience were honed, echoing the relentless struggle of existence against ending. Yet, as dire as the struggle may be, there is a whisper of strength, a promise of endurance. This stolen year is a testament to the perseverance of life in the face of oblivion."
 		},
 		"resetonexhaustion":true,
-		"comment": "Worm Museum - Edge - LO."
+		"comments": "Worm Museum - Edge - LO."
 	},
 	{
 		"id": "mansus_spiderdoor2",
@@ -295,7 +295,7 @@
 			"year.stolen":"In the manifold paths of the Concursum, a stolen year takes form. It is a year of choices unchosen and pathways untread, a year of reflections distorted in the mirrors of time. The year speaks of Winter's cold stillness, the moth's unerring change, and the lantern's piercing revelation. As I recall this year, I am reminded of the knock at the door, a promise of changes to come."
 		},
 		"resetonexhaustion":true,
-		"comment": "Concursum - Knock - OA."
+		"comments": "Concursum - Knock - OA."
 	},
 	
 	{
@@ -318,7 +318,7 @@
 			"year.stolen":"In the transforming fires of the Malleary, I glean a year of change and creation. It is a year of radiant glory, a dance of hammer and anvil, a symphony of forces moulding the essence of existence. This stolen year whispers of the Forge's ceaseless shaping, of endless cycles of destruction and creation, and of the Lantern's enlightenment piercing the veil of time."
 		},
 		"resetonexhaustion":true,
-		"comment": "Malleary - Forge - OL."
+		"comments": "Malleary - Forge - OL."
 	},
 	
 	
@@ -343,7 +343,7 @@
 			"year.stolen":"In the sprawling passages of the Spider's Door, a stolen year lingers. It is a year of mystery and veiled truths, wrapped in gossamer-thin webs of time. As I grasp it, it whispers tales of hidden desires, secret appetites, and hearts entangled in the deceptive silk of fate."
 		},
 		"resetonexhaustion":true,
-		"comment": "Spider Door - Moth - OO"
+		"comments": "Spider Door - Moth - OO"
 	}
 	
 	

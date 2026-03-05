@@ -8,7 +8,7 @@
             },
             "description": "You are enlightened with infinite love",
             "unique": true,
-            "comment": "based on ascensionlessonhearta from the dancer legacy",
+            "comments": "based on ascensionlessonhearta from the dancer legacy",
             "icon": "ascensionlesson_polycule"
         },
         {
@@ -19,7 +19,7 @@
             },
             "description": "You shall live forever",
             "unique": true,
-            "comment": "based on ascensionlessonhearta from the dancer legacy",
+            "comments": "based on ascensionlessonhearta from the dancer legacy",
             "icon": "ascensionlessonmothf"
         },
         {
@@ -30,7 +30,7 @@
             },
             "description": "Everyone deserves to live forever",
             "unique": true,
-            "comment": "based on ascensionlessonhearta from the dancer legacy",
+            "comments": "based on ascensionlessonhearta from the dancer legacy",
             "icon": "ascensionlessonmothf"
         },
         {
@@ -41,7 +41,7 @@
             },
             "description": "Take some time to enjoy yourself with aliens!",
             "unique": true,
-            "comment": "based on ascensionlessonhearta from the dancer legacy",
+            "comments": "based on ascensionlessonhearta from the dancer legacy",
             "icon": "op.cats"
         },
         {
@@ -52,7 +52,7 @@
             },
             "description": "I brought freedom from the invisible hand",
             "unique": true,
-            "comment": "based on ascensionlessonhearta from the dancer legacy",
+            "comments": "based on ascensionlessonhearta from the dancer legacy",
             "icon": "ascensionlessonmothf"
         },
         {
@@ -64,7 +64,7 @@
             },
             "description": "My dedication has taken a physical form. A shrine dedicated to the cause of the Catgirls stands tall.",
             "unique": true,
-            "comment": "Building and Maintaining Shrines: This could be a new type of work in the game, requiring a certain level of Passion, Health, or Funds to start. Successful shrine building could increase the Catgirl level and possibly also yield a new Remnant or Artifact related to the Catgirls.",
+            "comments": "Building and Maintaining Shrines: This could be a new type of work in the game, requiring a certain level of Passion, Health, or Funds to start. Successful shrine building could increase the Catgirl level and possibly also yield a new Remnant or Artifact related to the Catgirls.",
             "icon": "ascensionlesson_shrine"
         },
         {
@@ -75,7 +75,7 @@
             },
             "description": "My channel thrives. The message of the Catgirls spreads through every video I upload.",
             "unique": true,
-            "comment": "Catgirl YouTube Channel: Starting a YouTube channel could be a long-term project in the game, possibly under the Study verb, requiring a series of specific Lore fragments to create content. The higher the Lore fragments level used, the more subscribers (represented as a new type of Influence or Remnant) you could attract, and the more your Catgirl level could increase.",
+            "comments": "Catgirl YouTube Channel: Starting a YouTube channel could be a long-term project in the game, possibly under the Study verb, requiring a series of specific Lore fragments to create content. The higher the Lore fragments level used, the more subscribers (represented as a new type of Influence or Remnant) you could attract, and the more your Catgirl level could increase.",
             "icon": "ascensionlesson_youtube"
         },
         {
@@ -87,7 +87,7 @@
             },
             "description": "The summons has been sent. My defiance of the authorities is a testament to my allegiance to the Catgirls.",
             "unique": true,
-            "comment": "Sending Defiant Summons: This could be a new use for the Ritual verb, using Catgirl-related Lore and Ingredients to summon a Catgirl to carry a defiant message to the authorities. This might increase your Catgirl level and Notoriety while reducing your standing with the authorities.",
+            "comments": "Sending Defiant Summons: This could be a new use for the Ritual verb, using Catgirl-related Lore and Ingredients to summon a Catgirl to carry a defiant message to the authorities. This might increase your Catgirl level and Notoriety while reducing your standing with the authorities.",
             "icon": "ascensionlesson_summons"
         },
         {
@@ -98,7 +98,7 @@
             },
             "description": "The game has been made. Through it, the saga of the Catgirls will be known to all.",
             "unique": true,
-            "comment": "Making a Video Game: This could be a major project using the Work verb. It would require a high level of several different stats (e.g., Passion, Reason, Funds), and yield a significant increase in the Catgirl level and a new Influence or Remnant (e.g., 'Fanbase' or 'Viral Game'). This project could also potentially spawn a new rival or adversary (e.g., 'Corporate Saboteur' or 'Internet Troll').",
+            "comments": "Making a Video Game: This could be a major project using the Work verb. It would require a high level of several different stats (e.g., Passion, Reason, Funds), and yield a significant increase in the Catgirl level and a new Influence or Remnant (e.g., 'Fanbase' or 'Viral Game'). This project could also potentially spawn a new rival or adversary (e.g., 'Corporate Saboteur' or 'Internet Troll').",
             "icon": "ascensionlesson_videogame" 
         },
         {
@@ -109,7 +109,7 @@
             },
             "description": "I will never back down.",
             "unique": true,
-            "comment": "Making a Video Game: This could be a major project using the Work verb. It would require a high level of several different stats (e.g., Passion, Reason, Funds), and yield a significant increase in the Catgirl level and a new Influence or Remnant (e.g., 'Fanbase' or 'Viral Game'). This project could also potentially spawn a new rival or adversary (e.g., 'Corporate Saboteur' or 'Internet Troll').",
+            "comments": "Making a Video Game: This could be a major project using the Work verb. It would require a high level of several different stats (e.g., Passion, Reason, Funds), and yield a significant increase in the Catgirl level and a new Influence or Remnant (e.g., 'Fanbase' or 'Viral Game'). This project could also potentially spawn a new rival or adversary (e.g., 'Corporate Saboteur' or 'Internet Troll').",
             "icon": "ascensionlesson_videogame" 
         },
         {
@@ -120,7 +120,7 @@
             },
             "description": "I am a graceful dancer.",
             "unique": true,
-            "comment": "Making a Video Game: This could be a major project using the Work verb. It would require a high level of several different stats (e.g., Passion, Reason, Funds), and yield a significant increase in the Catgirl level and a new Influence or Remnant (e.g., 'Fanbase' or 'Viral Game'). This project could also potentially spawn a new rival or adversary (e.g., 'Corporate Saboteur' or 'Internet Troll').",
+            "comments": "Making a Video Game: This could be a major project using the Work verb. It would require a high level of several different stats (e.g., Passion, Reason, Funds), and yield a significant increase in the Catgirl level and a new Influence or Remnant (e.g., 'Fanbase' or 'Viral Game'). This project could also potentially spawn a new rival or adversary (e.g., 'Corporate Saboteur' or 'Internet Troll').",
             "icon": "ascensionlesson_videogame" 
         },
         {

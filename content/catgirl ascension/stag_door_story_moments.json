@@ -41,7 +41,7 @@
             "id": "catgirl_contact",
             "chance": 100
         },
-        "comment": "dummy action to ensure max executions of one"
+        "comments": "dummy action to ensure max executions of one"
       },
       {
         "id": "catgirl_contact",
@@ -199,7 +199,7 @@
                 "chance": 100
             }
         ],
-        "comment": "This turns health into less of an issue as the exile due to catgirl powers"
+        "comments": "This turns health into less of an issue as the exile due to catgirl powers"
     },
     {
         "id": "catgirl_give_year",
@@ -639,7 +639,7 @@
         "warmup": 60,
         "craftable": true,
         "burnimage": "flammarion",
-        "comment": "duplicated because of two different trigger conditions"
+        "comments": "duplicated because of two different trigger conditions"
     },
     {
         "id": "catgirl_defiance.summons",

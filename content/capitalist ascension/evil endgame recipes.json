@@ -417,7 +417,7 @@
                     "chance": 100
                 }
             ],
-            "comment": "doesn't work gonna deprecate"
+            "comments": "doesn't work gonna deprecate"
         },
         {
             "id": "workdetectivejob_ascended_newrival_recruit",

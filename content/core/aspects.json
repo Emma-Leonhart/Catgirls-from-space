@@ -8,7 +8,7 @@
                         "induces": [
                             {
                                 "id": "hand.induction",
-                                "comment": "originally heartinduction",
+                                "comments": "originally heartinduction",
                                 "chance": 10
                             }
                         ]

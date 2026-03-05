@@ -1798,7 +1798,7 @@
                     "id": "relinquish.first",
                     "chance": 100,
                     "additional": true,
-                    "comment": "works well in the general mod but since people have travel already it malfunctions and they lose the ability to relinquish"
+                    "comments": "works well in the general mod but since people have travel already it malfunctions and they lose the ability to relinquish"
                 }
             ],
             "mutations": [

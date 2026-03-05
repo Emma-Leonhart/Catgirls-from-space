@@ -4,7 +4,7 @@
         {
             "id": "suspicion_attemptmitigation_me",
             "actionid": "suspicion",
-            "comment": "router that gives train ticket first time",
+            "comments": "router that gives train ticket first time",
             "warmup": 0,
             "linked": [
                 {
@@ -20,7 +20,7 @@
         {
             "id": "suspicion_first",
             "actionid": "suspicion",
-            "comment": "gives train ticket so you can attempt an escape",
+            "comments": "gives train ticket so you can attempt an escape",
             "linked": [
                 {
                     "chance": 100,
