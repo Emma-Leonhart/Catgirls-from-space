@@ -440,10 +440,14 @@ Image files are referenced by their filename (without extension) in element `"ic
 - Easy to accidentally use a field name the engine DOES recognize
 - Comments don't appear in any tooling or editor outline
 
-### Translation / Localization
+### Localization
 - `cultures.json` only has English — the structure supports more but nothing is translated
-- Books reference base-game language aspects (`"mastery_latin"`, etc.) even though this mod states it doesn't use foreign languages
-- Some book `"comments"` note "Cannot be the sanskrit book since we do not use foreign languages in this mod" — suggesting the language system was partially ported but intentionally unused
+
+### Book Languages (Intentionally Disabled)
+- The base game requires players to learn ancient languages (Latin, Greek, Sanskrit, etc.) before reading certain books
+- This mod intentionally disables that mechanic — it doesn't fit the mod's vision
+- Some book `"comments"` note "Cannot be the sanskrit book since we do not use foreign languages in this mod"
+- This is NOT a translation/localization issue — it's a deliberate game design choice to remove the language-gating mechanic
 
 ### Organizational Debt
 - The `misc probably needs better categorization or merging/` folder name speaks for itself
