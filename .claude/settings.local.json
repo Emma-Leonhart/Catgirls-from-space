@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(cd C:\\\\Users\\\\Immanuelle\\\\Documents\\\\Github\\\\Catgirls-from-space:*)"
     ]
   }
 }
