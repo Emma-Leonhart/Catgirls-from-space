@@ -3,7 +3,8 @@
     "allow": [
       "Bash(ls:*)",
       "Bash(cd C:\\\\Users\\\\Immanuelle\\\\Documents\\\\Github\\\\Catgirls-from-space:*)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(cd \"C:\\\\Users\\\\Immanuelle\\\\Documents\\\\Github\\\\Catgirls-from-space\" && python gen_manifest.py 2>&1)"
     ]
   }
 }
