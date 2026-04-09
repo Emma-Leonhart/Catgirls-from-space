@@ -135,8 +135,6 @@ synopsis.json     # Mod metadata
 
 This mod prototype is released under the [MIT License](LICENSE).
 
-The standalone *Catgirls from Space* game will use a different license.
-
 ## Author
 
 **Immanuelle**
